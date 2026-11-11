@@ -10,13 +10,13 @@
     "title": "dsh-game-studio",
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "metrics": {
-     "github_stars": 482,
+     "github_stars": 487,
      "github_forks": 42
     },
     "published": "2026-11-05",
     "passes": true,
     "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -35,7 +35,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "patch.gg": {
   "key": "patch.gg",
@@ -54,7 +54,7 @@
     "published": "2026-10-25",
     "passes": true,
     "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -73,7 +73,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "abouchedidxcode.github.io/open-source-hands": {
   "key": "abouchedidxcode.github.io/open-source-hands",
@@ -86,13 +86,13 @@
     "title": "open-source-hands",
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "metrics": {
-     "github_stars": 206,
+     "github_stars": 207,
      "github_forks": 30
     },
     "published": "2026-11-03",
     "passes": true,
     "desc": "Make webcam hand games in the browser, or point your coding agent here and have it make one. MediaPipe hand tracking + a gesture engine + a starter game + a playbook.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -111,7 +111,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "github.com/odrannnn/metroidprime2port": {
   "key": "github.com/odrannnn/metroidprime2port",
@@ -130,7 +130,7 @@
     "published": "2026-10-21",
     "passes": true,
     "desc": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -149,7 +149,7 @@
   "reasons": [
    "只有代码仓库链接，没有试玩页面"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "seriesoftub.es": {
   "key": "seriesoftub.es",
@@ -168,7 +168,7 @@
     "published": "2026-10-23",
     "passes": true,
     "desc": "A free cartoon browser game about how the internet really works: lay fiber and subsea cables, peer at IXPs, bill on the 95th percentile and survive backhoes, sharks and route leaks on your way to Tier 1.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -187,7 +187,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "lumiogames.github.io/lgui": {
   "key": "lumiogames.github.io/lgui",
@@ -207,7 +207,7 @@
     "passes": true,
     "ai_hint": "Game UI framework for AI agents, made by LumioGames",
     "desc": "Game UI framework for AI agents, made by LumioGames. Build screens, logic and tests in the browser with no game engine, then export to Unity. 给 AI Agent 用的游戏 UI 框架，不依赖游戏引擎。",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -226,7 +226,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "github.com/e1z0/ps4-games-installer": {
   "key": "github.com/e1z0/ps4-games-installer",
@@ -245,7 +245,7 @@
     "published": "2026-10-15",
     "passes": true,
     "desc": "A game library manager for jailbroken PS4 consoles. Browse remote catalogs, install packages, launch games, and organize your collection.",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -264,7 +264,7 @@
   "reasons": [
    "只有代码仓库链接，没有试玩页面"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "notesbylex.com": {
   "key": "notesbylex.com",
@@ -277,27 +277,27 @@
     "title": "Fable 5.2 one-shotted my nephew's dream game",
     "source_url": "https://news.ycombinator.com/item?id=50433659",
     "metrics": {
-     "hn_points": 496,
+     "hn_points": 499,
      "hn_comments": 445
     },
     "published": "2026-11-09",
     "passes": true,
     "ai_hint": "Fable 5",
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
    "date": "2026-11-11",
    "channel": "hn"
   },
-  "status": "候选",
+  "status": "拒绝",
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "Hacker News 标题：Fable 5",
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 496 分"
+    "说明": "Hacker News 499 分"
    }
   ],
   "hard": {
@@ -307,7 +307,8 @@
   "reasons": [
    "链接是文章页，不是试玩页面"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12",
+  "reject_reason": "博客文章，不是试玩页面（2026-11-12 核验）"
  },
  "blog.moertel.com": {
   "key": "blog.moertel.com",
@@ -320,26 +321,26 @@
     "title": "A great old-timey game-programming hack (2013)",
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "metrics": {
-     "hn_points": 230,
-     "hn_comments": 46
+     "hn_points": 240,
+     "hn_comments": 54
     },
     "published": "2026-11-11",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
    "date": "2026-11-11",
    "channel": "hn"
   },
-  "status": "候选",
+  "status": "拒绝",
   "published": "2026-11-11",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 230 分"
+    "说明": "Hacker News 240 分"
    }
   ],
   "hard": {
@@ -349,7 +350,8 @@
   "reasons": [
    "链接是文章页，不是试玩页面"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12",
+  "reject_reason": "2013 年的技术文章，不是游戏（2026-11-12 核验）"
  },
  "jaytholen.net": {
   "key": "jaytholen.net",
@@ -367,7 +369,7 @@
     },
     "published": "2026-11-05",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -420,7 +422,7 @@
     },
     "published": "2026-11-08",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -454,7 +456,7 @@
    "传播：Hacker News 113 分",
    "入选信号不足 2 条"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "retrosongbird.com": {
   "key": "retrosongbird.com",
@@ -472,7 +474,7 @@
     },
     "published": "2026-11-07",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -486,7 +488,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 93 分"
+    "说明": "Hacker News 93 分（新模型发布后两周内，门槛减半）"
    }
   ],
   "hard": {
@@ -505,7 +507,7 @@
   "reasons": [
    "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "magnitudle.com": {
   "key": "magnitudle.com",
@@ -523,7 +525,7 @@
     },
     "published": "2026-11-06",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -537,7 +539,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 82 分"
+    "说明": "Hacker News 82 分（新模型发布后两周内，门槛减半）"
    }
   ],
   "hard": {
@@ -556,7 +558,7 @@
   "reasons": [
    "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "worldstrike.fun": {
   "key": "worldstrike.fun",
@@ -574,7 +576,7 @@
     },
     "published": "2026-11-06",
     "passes": true,
-    "last_date": "2026-11-11"
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -693,6 +695,20 @@
      "via_post": "https://x.com/0ooooo0/status/2119985854450204968"
     },
     "last_date": "2026-11-11"
+   },
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "source_url": "https://news.ycombinator.com/item?id=50444850",
+    "metrics": {
+     "hn_points": 69,
+     "hn_comments": 86
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "Saltline: First-person shooter built by Fable 5",
+    "last_date": "2026-11-12"
    }
   ],
   "first_seen": {
@@ -750,7 +766,7 @@
   "reasons": [
    "暂无入选信号"
   ],
-  "updated": "2026-11-11"
+  "updated": "2026-11-12"
  },
  "spawn.co/@mattshumer/earth": {
   "key": "spawn.co/@mattshumer/earth",
@@ -853,5 +869,196 @@
   ],
   "game_id": "hogwarts-royale",
   "updated": "2026-11-11"
+ },
+ "tis-100.wincon.dev": {
+  "key": "tis-100.wincon.dev",
+  "url": "https://tis-100.wincon.dev/",
+  "name": "LLMs Play Zachtronics' TIS-100",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "LLMs Play Zachtronics' TIS-100",
+    "source_url": "https://news.ycombinator.com/item?id=50448340",
+    "metrics": {
+     "hn_points": 88,
+     "hn_comments": 20
+    },
+    "published": "2026-11-11",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "拒绝",
+  "published": "2026-11-11",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 88 分（新模型发布后两周内，门槛减半）"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": true
+  },
+  "page": {
+   "ok": true,
+   "title": "TIS-100 Bench: LLMs Push the Pareto Frontier in Programming Puzzle Games | Wincon",
+   "desc": "16 LLMs took on TIS-100's community leaderboard and found 133 new frontier points on 18 of 55 puzzles, including 3 outright cycle records.",
+   "image": "https://tis-100.wincon.dev/assets/og-tis100.png?v=aec5b0d1",
+   "icon": "https://tis-100.wincon.dev/favicon.ico",
+   "has_canvas": true
+  },
+  "reasons": [
+   "传播：Hacker News 88 分（新模型发布后两周内，门槛减半）",
+   "入选信号不足 2 条"
+  ],
+  "updated": "2026-11-12",
+  "reject_reason": "模型跑分文章（让大模型去解 TIS-100 的谜题），不是可玩的游戏（2026-11-12 核验）"
+ },
+ "tinyvalencia.com": {
+  "key": "tinyvalencia.com",
+  "url": "https://tinyvalencia.com/",
+  "name": "Valencia, Spain in Sim City/Isometric View",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+    "source_url": "https://news.ycombinator.com/item?id=50441518",
+    "metrics": {
+     "hn_points": 243,
+     "hn_comments": 61
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-10",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 243 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": false
+  },
+  "page": {
+   "ok": true,
+   "title": "Tiny València · a pixel-art map of the city",
+   "desc": "An isometric pixel-art map of València, painted block by block.",
+   "image": "https://tinyvalencia.com/share.jpg",
+   "icon": "https://tinyvalencia.com/favicon.ico?v=7e63f8a5ff",
+   "has_canvas": false
+  },
+  "reasons": [
+   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+  ],
+  "updated": "2026-11-12",
+  "note": "像素风的瓦伦西亚城市地图，页面带飞行浏览；是否算游戏待定（2026-11-12）"
+ },
+ "github.com/graealex/wavedudenext": {
+  "key": "github.com/graealex/wavedudenext",
+  "url": "https://github.com/graealex/WaveDudeNext",
+  "name": "WaveDudeNext 2D Wave Simulator",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "WaveDudeNext 2D Wave Simulator",
+    "source_url": "https://news.ycombinator.com/item?id=50411083",
+    "metrics": {
+     "hn_points": 55,
+     "hn_comments": 11
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "拒绝",
+  "published": "2026-11-08",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 55 分（新模型发布后两周内，门槛减半）"
+   }
+  ],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "只有代码仓库链接，没有试玩页面"
+  ],
+  "updated": "2026-11-12",
+  "reject_reason": "波动模拟器的代码仓库，不是游戏（2026-11-12 核验）"
+ },
+ "frontier.replit.com": {
+  "key": "frontier.replit.com",
+  "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+  "name": "Replit rebuilt its sandbox engine with microVMs",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Replit rebuilt its sandbox engine with microVMs",
+    "source_url": "https://news.ycombinator.com/item?id=50396834",
+    "metrics": {
+     "hn_points": 99,
+     "hn_comments": 40
+    },
+    "published": "2026-11-06",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "拒绝",
+  "published": "2026-11-06",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 99 分（新模型发布后两周内，门槛减半）"
+   }
+  ],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接是文章页，不是试玩页面"
+  ],
+  "updated": "2026-11-12",
+  "reject_reason": "技术文章，标题里的 sandbox 被误当成游戏词（2026-11-12 核验）"
  }
 }

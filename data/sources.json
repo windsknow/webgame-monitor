@@ -9,7 +9,7 @@
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 482,
+     "github_stars": 487,
      "github_forks": 42
     }
    }
@@ -41,7 +41,7 @@
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 206,
+     "github_stars": 207,
      "github_forks": 30
     }
    }
@@ -113,7 +113,7 @@
  },
  "notesbylex.com": {
   "name": "Fable 5.2 one-shotted my nephew's dream game",
-  "status": "候选",
+  "status": "拒绝",
   "game_id": null,
   "leads": [
    {
@@ -121,7 +121,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50433659",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 496,
+     "hn_points": 499,
      "hn_comments": 445
     }
    }
@@ -129,7 +129,7 @@
  },
  "blog.moertel.com": {
   "name": "A great old-timey game-programming hack (2013)",
-  "status": "候选",
+  "status": "拒绝",
   "game_id": null,
   "leads": [
    {
@@ -137,8 +137,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 230,
-     "hn_comments": 46
+     "hn_points": 240,
+     "hn_comments": 54
     }
    }
   ]
@@ -270,6 +270,15 @@
      "x_views": 43848,
      "x_likes": 151
     }
+   },
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50444850",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 69,
+     "hn_comments": 86
+    }
    }
   ]
  },
@@ -317,6 +326,70 @@
     "metrics": {
      "x_views": 169533,
      "x_likes": null
+    }
+   }
+  ]
+ },
+ "tis-100.wincon.dev": {
+  "name": "LLMs Play Zachtronics' TIS-100",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50448340",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 88,
+     "hn_comments": 20
+    }
+   }
+  ]
+ },
+ "tinyvalencia.com": {
+  "name": "Valencia, Spain in Sim City/Isometric View",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50441518",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 243,
+     "hn_comments": 61
+    }
+   }
+  ]
+ },
+ "github.com/graealex/wavedudenext": {
+  "name": "WaveDudeNext 2D Wave Simulator",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50411083",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 55,
+     "hn_comments": 11
+    }
+   }
+  ]
+ },
+ "frontier.replit.com": {
+  "name": "Replit rebuilt its sandbox engine with microVMs",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50396834",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 99,
+     "hn_comments": 40
     }
    }
   ]

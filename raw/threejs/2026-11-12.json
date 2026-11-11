@@ -1,0 +1,697 @@
+{
+ "date": "2026-11-12",
+ "channel": "threejs",
+ "count": 43,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "threejs",
+   "title": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+   "url": "https://tides-of-fortune.fr/",
+   "key": "tides-of-fortune.fr",
+   "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
+   "metrics": {
+    "threejs_views": 176,
+    "threejs_replies": 5,
+    "threejs_likes": 8
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Coriolis particle effect",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/coriolis-particle-effect/96671",
+   "metrics": {
+    "threejs_views": 91,
+    "threejs_replies": 2,
+    "threejs_likes": 4
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "CHROMA VIVA 008: Interactive Cloth Art with Three.js",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/chroma-viva-008-interactive-cloth-art-with-three-js/96715",
+   "metrics": {
+    "threejs_views": 19,
+    "threejs_replies": 0,
+    "threejs_likes": 2
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Camera Lab — Explore the Inside of a Camera in 3D with Three.js",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/camera-lab-explore-the-inside-of-a-camera-in-3d-with-three-js/96845",
+   "metrics": {
+    "threejs_views": 108,
+    "threejs_replies": 5,
+    "threejs_likes": 4
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Gargantua — Playable Interstellar Black Hole in Browser [Three.js + React]",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/gargantua-playable-interstellar-black-hole-in-browser-three-js-react/96784",
+   "metrics": {
+    "threejs_views": 79,
+    "threejs_replies": 2,
+    "threejs_likes": 2
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
+   "metrics": {
+    "threejs_views": 102,
+    "threejs_replies": 5,
+    "threejs_likes": 3
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Streets of Nice - defend a game shop in a 3D browser beat 'em up",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/streets-of-nice-defend-a-game-shop-in-a-3d-browser-beat-em-up/96927",
+   "metrics": {
+    "threejs_views": 39,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "CLANG! — A comic-style FPS built with Three.js",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/clang-a-comic-style-fps-built-with-three-js/96672",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Coccolith – a tiny planet you can land on and wander around",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/coccolith-a-tiny-planet-you-can-land-on-and-wander-around/96753",
+   "metrics": {
+    "threejs_views": 57,
+    "threejs_replies": 3,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Three-Live & XR-Live: Run procedural Three.js  natively on Android Filament & iOS RealityKit (and WebXR)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/three-live-xr-live-run-procedural-three-js-natively-on-android-filament-ios-realitykit-and-webxr/96709",
+   "metrics": {
+    "threejs_views": 65,
+    "threejs_replies": 2,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Showcase: GitHub activity as language-specific Three.js planets",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/showcase-github-activity-as-language-specific-three-js-planets/96726",
+   "metrics": {
+    "threejs_views": 42,
+    "threejs_replies": 1,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "My own three.js studio",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/my-own-three-js-studio/96551",
+   "metrics": {
+    "threejs_views": 56,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-06",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Lightverse: a navigable 3D universe in R3F where reputation is earned, not bought (feedback wanted)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/lightverse-a-navigable-3d-universe-in-r3f-where-reputation-is-earned-not-bought-feedback-wanted/96762",
+   "metrics": {
+    "threejs_views": 46,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Freeze Out - a first-person 4v4 snowball fight in the browser (three.js WebGPU, mobile + gamepad)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804",
+   "metrics": {
+    "threejs_views": 45,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Script in, vertical episode out: a three.js renderer for recurring-character shorts",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/script-in-vertical-episode-out-a-three-js-renderer-for-recurring-character-shorts/96760",
+   "metrics": {
+    "threejs_views": 49,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Walking Into Van Gogh – a multiplayer three.js world built from Van Gogh's paintings",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/walking-into-van-gogh-a-multiplayer-three-js-world-built-from-van-goghs-paintings/96731",
+   "metrics": {
+    "threejs_views": 34,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Homecraft: Minecraft-style personal website you can walk through",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/homecraft-minecraft-style-personal-website-you-can-walk-through/96716",
+   "metrics": {
+    "threejs_views": 34,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "A browser-based 3D product customization and branding studio.",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/a-browser-based-3d-product-customization-and-branding-studio/96911",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "NeuralSpecOcean: Physics-Informed Neural & Multi-Spectral Coastal Simulation in WebGL2",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/neuralspecocean-physics-informed-neural-multi-spectral-coastal-simulation-in-webgl2/96681",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "A portfolio you can explore — a playable world built with Three.js",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/a-portfolio-you-can-explore-a-playable-world-built-with-three-js/96706",
+   "metrics": {
+    "threejs_views": 34,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Steam Deck OLED — Interactive 3D Showcase (Three.js, Dynamic Screen Canvas, Web Audio)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/steam-deck-oled-interactive-3d-showcase-three-js-dynamic-screen-canvas-web-audio/96906",
+   "metrics": {
+    "threejs_views": 32,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": " Engine-X: a 3D atlas of real machines you can explode, section and run in the browser",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/engine-x-a-3d-atlas-of-real-machines-you-can-explode-section-and-run-in-the-browser/96692",
+   "metrics": {
+    "threejs_views": 36,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "A portfolio you walk through",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/a-portfolio-you-walk-through/96904",
+   "metrics": {
+    "threejs_views": 34,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "PrintHaus: deterministic parametric buildings with GLB export and five quality settings",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/printhaus-deterministic-parametric-buildings-with-glb-export-and-five-quality-settings/96720",
+   "metrics": {
+    "threejs_views": 29,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "DRIFTIT – top-down drift game with custom car physics and procedural low-poly worlds",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/driftit-top-down-drift-game-with-custom-car-physics-and-procedural-low-poly-worlds/96702",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Vizbite: 3D fruits you can cut open to see their nutrients",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/vizbite-3d-fruits-you-can-cut-open-to-see-their-nutrients/96698",
+   "metrics": {
+    "threejs_views": 30,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Piramidka — a Three.js physics playground built with AI assistance",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/piramidka-a-three-js-physics-playground-built-with-ai-assistance/96694",
+   "metrics": {
+    "threejs_views": 28,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "ÁUREA Residences: from Unreal to the browser with 3D Gaussian Splatting",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/aurea-residences-from-unreal-to-the-browser-with-3d-gaussian-splatting/96701",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Toonda – a cozy MMORPG that runs in the browser (three.js, works on mid-range phones)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/toonda-a-cozy-mmorpg-that-runs-in-the-browser-three-js-works-on-mid-range-phones/96664",
+   "metrics": {
+    "threejs_views": 29,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "I built a SceNoCo framework to bring some order in Three.js game built with AI",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/i-built-a-scenoco-framework-to-bring-some-order-in-three-js-game-built-with-ai/96695",
+   "metrics": {
+    "threejs_views": 30,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Discography – browsing music as physical CDs",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/discography-browsing-music-as-physical-cds/96678",
+   "metrics": {
+    "threejs_views": 24,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "latteart.app - Interactive latte art simulator",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/latteart-app-interactive-latte-art-simulator/96677",
+   "metrics": {
+    "threejs_views": 25,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "PainterlyPass + BakedDebris: painterly post-processing and rewindable explosion debris",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/painterlypass-bakeddebris-painterly-post-processing-and-rewindable-explosion-debris/96674",
+   "metrics": {
+    "threejs_views": 23,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Rhyflitzer – Map Madness: open-world arcade racer on real Swiss towns (three.js, buildless)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/rhyflitzer-map-madness-open-world-arcade-racer-on-real-swiss-towns-three-js-buildless/96708",
+   "metrics": {
+    "threejs_views": 23,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Stovetop: a kitchen simulated in the browser",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/stovetop-a-kitchen-simulated-in-the-browser/96700",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "GitHub Planet — turning GitHub activity into language-shaped 3D worlds",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/github-planet-turning-github-activity-into-language-shaped-3d-worlds/96717",
+   "metrics": {
+    "threejs_views": 21,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "The Happy Hour & Co. – a golden-hour long table where every art workshop opens into its own 3D world",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/the-happy-hour-co-a-golden-hour-long-table-where-every-art-workshop-opens-into-its-own-3d-world/96713",
+   "metrics": {
+    "threejs_views": 19,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": " Horizonte Quetzal: fall into a ray-traced black hole while millions of years pass outside",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/horizonte-quetzal-fall-into-a-ray-traced-black-hole-while-millions-of-years-pass-outside/96690",
+   "metrics": {
+    "threejs_views": 22,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Cinematic 3D Decks: F1 Economics and Reaction Time",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/cinematic-3d-decks-f1-economics-and-reaction-time/96679",
+   "metrics": {
+    "threejs_views": 17,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Introducing SpinMi Studio Beta ",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/introducing-spinmi-studio-beta/96689",
+   "metrics": {
+    "threejs_views": 14,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Beyond Portals - solo/coop horde survival in 3D, free in your browser (desktop & phone)",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/beyond-portals-solo-coop-horde-survival-in-3d-free-in-your-browser-desktop-phone/96668",
+   "metrics": {
+    "threejs_views": 15,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "My personal Three.js projects: bathroom, kitchen and shoe configurators, plus Atlas",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/my-personal-three-js-projects-bathroom-kitchen-and-shoe-configurators-plus-atlas/96669",
+   "metrics": {
+    "threejs_views": 13,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "threejs",
+   "title": "Slug Thug: a browser game whose 3D parts run on three.js",
+   "url": "",
+   "key": "",
+   "source_url": "https://discourse.threejs.org/t/slug-thug-a-browser-game-whose-3d-parts-run-on-three-js/96683",
+   "metrics": {
+    "threejs_views": 14,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  }
+ ]
+}

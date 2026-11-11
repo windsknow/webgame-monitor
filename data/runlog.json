@@ -1,0 +1,55 @@
+[
+ {
+  "date": "2026-11-12",
+  "collect": {
+   "hn": {
+    "count": 15,
+    "passed": 12,
+    "error": ""
+   },
+   "threejs": {
+    "count": 43,
+    "passed": 0,
+    "error": ""
+   },
+   "github": {
+    "count": 18,
+    "passed": 7,
+    "error": ""
+   },
+   "itch": {
+    "count": 36,
+    "passed": 0,
+    "error": ""
+   },
+   "awesome": {
+    "count": 0,
+    "passed": 0,
+    "error": ""
+   },
+   "spawn": {
+    "count": 20,
+    "passed": 0,
+    "error": ""
+   }
+  },
+  "x": {},
+  "merge": {
+   "date": "2026-11-12",
+   "counts": {
+    "候选": 15,
+    "拒绝": 1,
+    "观察": 2,
+    "已在库": 3,
+    "收录": 2
+   },
+   "new": []
+  },
+  "site": {
+   "total": 70,
+   "new": 2,
+   "watch": 2,
+   "x_pending": 9
+  }
+ }
+]
