@@ -1,0 +1,324 @@
+{
+ "finiking.github.io/dsh-games": {
+  "name": "dsh-game-studio",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 482,
+     "github_forks": 42
+    }
+   }
+  ]
+ },
+ "patch.gg": {
+  "name": "trompe",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/patch-gg/trompe",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 213,
+     "github_forks": 17
+    }
+   }
+  ]
+ },
+ "abouchedidxcode.github.io/open-source-hands": {
+  "name": "open-source-hands",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/abouchedidxcode/open-source-hands",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 206,
+     "github_forks": 30
+    }
+   }
+  ]
+ },
+ "github.com/odrannnn/metroidprime2port": {
+  "name": "MetroidPrime2Port",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 267,
+     "github_forks": 15
+    }
+   }
+  ]
+ },
+ "seriesoftub.es": {
+  "name": "seriesoftubes",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/fjaeckel/seriesoftubes",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 218,
+     "github_forks": 43
+    }
+   }
+  ]
+ },
+ "lumiogames.github.io/lgui": {
+  "name": "LGUI",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/LumioGames/LGUI",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 127,
+     "github_forks": 17
+    }
+   }
+  ]
+ },
+ "github.com/e1z0/ps4-games-installer": {
+  "name": "PS4-Games-Installer",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/e1z0/PS4-Games-Installer",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "github_stars": 101,
+     "github_forks": 11
+    }
+   }
+  ]
+ },
+ "notesbylex.com": {
+  "name": "Fable 5.2 one-shotted my nephew's dream game",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50433659",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 496,
+     "hn_comments": 445
+    }
+   }
+  ]
+ },
+ "blog.moertel.com": {
+  "name": "A great old-timey game-programming hack (2013)",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50448921",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 230,
+     "hn_comments": 46
+    }
+   }
+  ]
+ },
+ "jaytholen.net": {
+  "name": "Being a kid making games in the early 2000s",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50375691",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 151,
+     "hn_comments": 53
+    }
+   }
+  ]
+ },
+ "ghanastreetgames.com": {
+  "name": "Ghanaian street games you can play in the browser",
+  "status": "观察",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50414117",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 113,
+     "hn_comments": 22
+    }
+   }
+  ]
+ },
+ "retrosongbird.com": {
+  "name": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50405172",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 93,
+     "hn_comments": 22
+    }
+   }
+  ]
+ },
+ "magnitudle.com": {
+  "name": "Size-It-Up (Game)",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50395869",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 82,
+     "hn_comments": 27
+    }
+   }
+  ]
+ },
+ "worldstrike.fun": {
+  "name": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+  "status": "已在库",
+  "game_id": "worldstrike",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50389420",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 175,
+     "hn_comments": 126
+    }
+   }
+  ]
+ },
+ "dimension9.space": {
+  "name": "Backrooms: Dimension 9",
+  "status": "已在库",
+  "game_id": "dimension9",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/apekshik/status/2119517930300076261",
+    "first_date": "2026-11-10",
+    "metrics": {
+     "x_views": 219270,
+     "x_likes": 1538
+    }
+   }
+  ]
+ },
+ "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp": {
+  "name": "Saltline",
+  "status": "已在库",
+  "game_id": "saltline",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/midudev/status/2120163317889347853",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 73945,
+     "x_likes": 389
+    }
+   },
+   {
+    "channel": "x",
+    "source_url": "https://x.com/mahluukat/status/2120086512549458322",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 214105,
+     "x_likes": 250
+    }
+   },
+   {
+    "channel": "x",
+    "source_url": "https://x.com/0ooooo0/status/2119985854450204968",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 43848,
+     "x_likes": 151
+    }
+   }
+  ]
+ },
+ "remix.gg/g/banana-mine-rush": {
+  "name": "Banana Mine Rush",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/0xChuckstock/status/2120125184606658728",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 8846,
+     "x_likes": 54
+    }
+   }
+  ]
+ },
+ "spawn.co/@mattshumer/earth": {
+  "name": "Earth",
+  "status": "收录",
+  "game_id": "earth",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/mattshumer_/status/2119877065701036047",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 398464,
+     "x_likes": null
+    }
+   }
+  ]
+ },
+ "spawn.co/@mattshumer/hogwarts-royale": {
+  "name": "Hogwarts Royale",
+  "status": "收录",
+  "game_id": "hogwarts-royale",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/mattshumer_/status/2119872098306810226",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 169533,
+     "x_likes": null
+    }
+   }
+  ]
+ }
+}

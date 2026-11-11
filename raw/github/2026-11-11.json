@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-11",
+ "channel": "github",
+ "count": 20,
+ "passed": 7,
+ "error": "",
+ "leads": [
+  {
+   "channel": "github",
+   "title": "dsh-game-studio",
+   "url": "https://finiking.github.io/dsh-games/wall/",
+   "key": "finiking.github.io/dsh-games",
+   "alt_keys": [
+    "github.com/zseven-w/dsh-game-studio"
+   ],
+   "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
+   "metrics": {
+    "github_stars": 482,
+    "github_forks": 42
+   },
+   "published": "2026-11-05",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click."
+  },
+  {
+   "channel": "github",
+   "title": "trompe",
+   "url": "https://patch.gg",
+   "key": "patch.gg",
+   "alt_keys": [
+    "github.com/patch-gg/trompe"
+   ],
+   "source_url": "https://github.com/patch-gg/trompe",
+   "metrics": {
+    "github_stars": 213,
+    "github_forks": 17
+   },
+   "published": "2026-10-25",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out."
+  },
+  {
+   "channel": "github",
+   "title": "open-source-hands",
+   "url": "https://abouchedidxcode.github.io/open-source-hands/",
+   "key": "abouchedidxcode.github.io/open-source-hands",
+   "alt_keys": [
+    "github.com/abouchedidxcode/open-source-hands"
+   ],
+   "source_url": "https://github.com/abouchedidxcode/open-source-hands",
+   "metrics": {
+    "github_stars": 206,
+    "github_forks": 30
+   },
+   "published": "2026-11-03",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Make webcam hand games in the browser, or point your coding agent here and have it make one. MediaPipe hand tracking + a gesture engine + a starter game + a playbook."
+  },
+  {
+   "channel": "github",
+   "title": "resp-OldenEraExplorer",
+   "url": "https://github.com/CryniflheimNebula/resp-OldenEraExplorer",
+   "key": "github.com/cryniflheimnebula/resp-oldeneraexplorer",
+   "alt_keys": [
+    "github.com/cryniflheimnebula/resp-oldeneraexplorer"
+   ],
+   "source_url": "https://github.com/CryniflheimNebula/resp-OldenEraExplorer",
+   "metrics": {
+    "github_stars": 52,
+    "github_forks": 0
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Interactive data viewer and 3D model explorer for Heroes of Might and Magic: Olden Era - Browse units, heroes, spells, artifacts, and game data"
+  },
+  {
+   "channel": "github",
+   "title": "MetroidPrime2Port",
+   "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/latest",
+   "key": "github.com/odrannnn/metroidprime2port",
+   "alt_keys": [
+    "github.com/odrannnn/metroidprime2port"
+   ],
+   "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
+   "metrics": {
+    "github_stars": 267,
+    "github_forks": 15
+   },
+   "published": "2026-10-21",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image."
+  },
+  {
+   "channel": "github",
+   "title": "forgeax-engine",
+   "url": "https://forgeax.github.io/",
+   "key": "forgeax.github.io",
+   "alt_keys": [
+    "github.com/forgeax/forgeax-engine"
+   ],
+   "source_url": "https://github.com/ForgeAX/forgeax-engine",
+   "metrics": {
+    "github_stars": 81,
+    "github_forks": 13
+   },
+   "published": "2026-10-15",
+   "passes": false,
+   "ai_hint": "AI-native TypeScript game engine for AI agents, targeting all major platforms",
+   "desc": "AI-native TypeScript game engine for AI agents, targeting all major platforms. WebGPU rendering, ECS, procedural assets, and a CLI-first development workflow."
+  },
+  {
+   "channel": "github",
+   "title": "DishwasherBench",
+   "url": "https://composo.ai",
+   "key": "composo.ai",
+   "alt_keys": [
+    "github.com/composo-ai/dishwasherbench"
+   ],
+   "source_url": "https://github.com/composo-ai/DishwasherBench",
+   "metrics": {
+    "github_stars": 73,
+    "github_forks": 6
+   },
+   "published": "2026-10-12",
+   "passes": false,
+   "ai_hint": "ai-agents benchmark evaluation game llm llm-benchmark mcp physics-simulation simulation typescript webgpu",
+   "desc": "A dishwasher-loading game on a physical simulation of one real machine, built to benchmark language models and playable in a browser. The game inside is called Spotless."
+  },
+  {
+   "channel": "github",
+   "title": "rpocket-team-eyeproof",
+   "url": "https://github.com/Zarlibraium/rpocket-team-eyeproof",
+   "key": "github.com/zarlibraium/rpocket-team-eyeproof",
+   "alt_keys": [
+    "github.com/zarlibraium/rpocket-team-eyeproof"
+   ],
+   "source_url": "https://github.com/Zarlibraium/rpocket-team-eyeproof",
+   "metrics": {
+    "github_stars": 55,
+    "github_forks": 0
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Eyes for coding agents, headless: screenshots, game play-tests, Blender renders and videos, measured, then looked at."
+  },
+  {
+   "channel": "github",
+   "title": "seriesoftubes",
+   "url": "https://seriesoftub.es/",
+   "key": "seriesoftub.es",
+   "alt_keys": [
+    "github.com/fjaeckel/seriesoftubes"
+   ],
+   "source_url": "https://github.com/fjaeckel/seriesoftubes",
+   "metrics": {
+    "github_stars": 218,
+    "github_forks": 43
+   },
+   "published": "2026-10-23",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A free cartoon browser game about how the internet really works: lay fiber and subsea cables, peer at IXPs, bill on the 95th percentile and survive backhoes, sharks and route leaks on your way to Tier 1."
+  },
+  {
+   "channel": "github",
+   "title": "LGUI",
+   "url": "https://lumiogames.github.io/LGUI/",
+   "key": "lumiogames.github.io/lgui",
+   "alt_keys": [
+    "github.com/lumiogames/lgui"
+   ],
+   "source_url": "https://github.com/LumioGames/LGUI",
+   "metrics": {
+    "github_stars": 127,
+    "github_forks": 17
+   },
+   "published": "2026-10-16",
+   "passes": true,
+   "ai_hint": "Game UI framework for AI agents, made by LumioGames",
+   "desc": "Game UI framework for AI agents, made by LumioGames. Build screens, logic and tests in the browser with no game engine, then export to Unity. 给 AI Agent 用的游戏 UI 框架，不依赖游戏引擎。"
+  },
+  {
+   "channel": "github",
+   "title": "PS4-Games-Installer",
+   "url": "https://github.com/e1z0/PS4-Games-Installer",
+   "key": "github.com/e1z0/ps4-games-installer",
+   "alt_keys": [
+    "github.com/e1z0/ps4-games-installer"
+   ],
+   "source_url": "https://github.com/e1z0/PS4-Games-Installer",
+   "metrics": {
+    "github_stars": 101,
+    "github_forks": 11
+   },
+   "published": "2026-10-15",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A game library manager for jailbroken PS4 consoles. Browse remote catalogs, install packages, launch games, and organize your collection."
+  },
+  {
+   "channel": "github",
+   "title": "d2-web",
+   "url": "https://diablo2.virtastic.app",
+   "key": "diablo2.virtastic.app",
+   "alt_keys": [
+    "github.com/virtastic/d2-web"
+   ],
+   "source_url": "https://github.com/Virtastic/d2-web",
+   "metrics": {
+    "github_stars": 72,
+    "github_forks": 6
+   },
+   "published": "2026-10-29",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Play Diablo II: Lord of Destruction in your browser — the 1.13c engine reimplemented in C++ and compiled to WebAssembly. Bring your own game files."
+  },
+  {
+   "channel": "github",
+   "title": "tiny-game-agent",
+   "url": "https://github.com/bkm1988/tiny-game-agent",
+   "key": "github.com/bkm1988/tiny-game-agent",
+   "alt_keys": [
+    "github.com/bkm1988/tiny-game-agent"
+   ],
+   "source_url": "https://github.com/bkm1988/tiny-game-agent",
+   "metrics": {
+    "github_stars": 60,
+    "github_forks": 0
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A tiny rule-based agent that plays a browser grid game"
+  },
+  {
+   "channel": "github",
+   "title": "bdo-viewer-resocket",
+   "url": "https://github.com/PirateAcrossValkyrie5580/bdo-viewer-resocket",
+   "key": "github.com/pirateacrossvalkyrie5580/bdo-viewer-resocket",
+   "alt_keys": [
+    "github.com/pirateacrossvalkyrie5580/bdo-viewer-resocket"
+   ],
+   "source_url": "https://github.com/PirateAcrossValkyrie5580/bdo-viewer-resocket",
+   "metrics": {
+    "github_stars": 59,
+    "github_forks": 0
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Desktop companion to bdo-data-extractor: browse Black Desert items, recipes, knowledge, NPCs, with a cost-aware crafting calculator & gear builder. Wails3 + React. Fully local from your game files."
+  },
+  {
+   "channel": "github",
+   "title": "librehold",
+   "url": "https://librehold.org",
+   "key": "librehold.org",
+   "alt_keys": [
+    "github.com/librehold-game/librehold"
+   ],
+   "source_url": "https://github.com/librehold-game/librehold",
+   "metrics": {
+    "github_stars": 56,
+    "github_forks": 8
+   },
+   "published": "2026-10-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A free, open-source browser strategy game: grow a settlement from a hut to a castle, raise an army, raid and conquer."
+  },
+  {
+   "channel": "github",
+   "title": "rpocket-bhop",
+   "url": "https://github.com/Orlathornmane/rpocket-bhop",
+   "key": "github.com/orlathornmane/rpocket-bhop",
+   "alt_keys": [
+    "github.com/orlathornmane/rpocket-bhop"
+   ],
+   "source_url": "https://github.com/Orlathornmane/rpocket-bhop",
+   "metrics": {
+    "github_stars": 52,
+    "github_forks": 1
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Bhop: a free browser bunny hop game on faithful Source-engine movement. Hand-strafed, no auto-strafe, no speed multipliers, 128 Hz fixed timestep. Built with three.js."
+  },
+  {
+   "channel": "github",
+   "title": "rpocket-FxDeck",
+   "url": "https://github.com/BetweenXyloduke/rpocket-FxDeck",
+   "key": "github.com/betweenxyloduke/rpocket-fxdeck",
+   "alt_keys": [
+    "github.com/betweenxyloduke/rpocket-fxdeck"
+   ],
+   "source_url": "https://github.com/BetweenXyloduke/rpocket-FxDeck",
+   "metrics": {
+    "github_stars": 52,
+    "github_forks": 0
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Stream Deck-style command deck for FiveM / RedM — a single Windows exe that serves a button grid to your phone's browser and sends console commands to the game."
+  },
+  {
+   "channel": "github",
+   "title": "bo1-zombies-coop",
+   "url": "https://vel.gg/bsz/",
+   "key": "vel.gg",
+   "alt_keys": [
+    "github.com/allanlotta/bo1-zombies-coop"
+   ],
+   "source_url": "https://github.com/AllanLotta/bo1-zombies-coop",
+   "metrics": {
+    "github_stars": 97,
+    "github_forks": 45
+   },
+   "published": "2026-10-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Play Black Ops 1 Zombies in the browser with up to 4 friends online. Free Chrome extension for vel.gg/bsz: co-op multiplayer, shared lobby, controller support, Kino der Toten and all 10 maps."
+  },
+  {
+   "channel": "github",
+   "title": "dream-arcade-demo",
+   "url": "https://ritrls.github.io/dream-arcade-demo/",
+   "key": "ritrls.github.io/dream-arcade-demo",
+   "alt_keys": [
+    "github.com/ritrls/dream-arcade-demo"
+   ],
+   "source_url": "https://github.com/Ritrls/dream-arcade-demo",
+   "metrics": {
+    "github_stars": 64,
+    "github_forks": 0
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "自然语言创造单位：RunningHub 生成属性、技能和素材，直接带入线路防守、口袋 RTS 和增量矿场。"
+  },
+  {
+   "channel": "github",
+   "title": "bunny-hopping-rpocket",
+   "url": "https://github.com/Heliothornczar68951/bunny-hopping-rpocket",
+   "key": "github.com/heliothornczar68951/bunny-hopping-rpocket",
+   "alt_keys": [
+    "github.com/heliothornczar68951/bunny-hopping-rpocket"
+   ],
+   "source_url": "https://github.com/Heliothornczar68951/bunny-hopping-rpocket",
+   "metrics": {
+    "github_stars": 52,
+    "github_forks": 0
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Classic FPS movement for Minecraft: a Fabric mod with real air strafing and bunny hopping. Install it on a server too to give everyone the same physics."
+  }
+ ]
+}

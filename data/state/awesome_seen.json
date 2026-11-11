@@ -1,0 +1,592 @@
+{
+ "bomberman-bice.vercel.app": {
+  "first": "2026-11-11",
+  "name": "AI Bomber Game",
+  "baseline": true
+ },
+ "bashfighter.com": {
+  "first": "2026-11-11",
+  "name": "Bash Fighter",
+  "baseline": true
+ },
+ "ladegeraet.github.io/claudespace": {
+  "first": "2026-11-11",
+  "name": "ClaudeSpace",
+  "baseline": true
+ },
+ "gisnep.com": {
+  "first": "2026-11-11",
+  "name": "DOOMscroll",
+  "baseline": true
+ },
+ "dyson-defender.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Dyson Defender",
+  "baseline": true
+ },
+ "playeyrie.com": {
+  "first": "2026-11-11",
+  "name": "Eyrie",
+  "baseline": true
+ },
+ "fragbyte.fun": {
+  "first": "2026-11-11",
+  "name": "FragByte",
+  "baseline": true
+ },
+ "kottbullar-metal.vercel.app": {
+  "first": "2026-11-11",
+  "name": "KÖTTBULLAR METAL",
+  "baseline": true
+ },
+ "nullrange.com": {
+  "first": "2026-11-11",
+  "name": "Null Range",
+  "baseline": true
+ },
+ "github.com/cleak/quasar-saz": {
+  "first": "2026-11-11",
+  "name": "Quasar Saz",
+  "baseline": true
+ },
+ "danielv8.itch.io/rose-and-blade": {
+  "first": "2026-11-11",
+  "name": "Rose & Blade",
+  "baseline": true
+ },
+ "spirit-call.typeonce.dev": {
+  "first": "2026-11-11",
+  "name": "Spirit Call",
+  "baseline": true
+ },
+ "swing.offmylawn.com": {
+  "first": "2026-11-11",
+  "name": "Swingers",
+  "baseline": true
+ },
+ "tanksai.com": {
+  "first": "2026-11-11",
+  "name": "Tanks AI",
+  "baseline": true
+ },
+ "mrdoob.github.io/three-quake": {
+  "first": "2026-11-11",
+  "name": "Three.js Quake",
+  "baseline": true
+ },
+ "playundersphere.com": {
+  "first": "2026-11-11",
+  "name": "Undersphere",
+  "baseline": true
+ },
+ "jason-c-dev.github.io/backroad-rally": {
+  "first": "2026-11-11",
+  "name": "backroad rally",
+  "baseline": true
+ },
+ "drawlineracing.chyuang.com": {
+  "first": "2026-11-11",
+  "name": "Draw Line Racing",
+  "baseline": true
+ },
+ "fantos-megamart.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Fanto's Mega-Mart",
+  "baseline": true
+ },
+ "fly.pieter.com": {
+  "first": "2026-11-11",
+  "name": "Flight Simulator 2025",
+  "baseline": true
+ },
+ "fm1.moises.cloud": {
+  "first": "2026-11-11",
+  "name": "Formula Minus One",
+  "baseline": true
+ },
+ "fullsend.game": {
+  "first": "2026-11-11",
+  "name": "FULL SEND",
+  "baseline": true
+ },
+ "lift-and-coast.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Lift & Coast",
+  "baseline": true
+ },
+ "marslanding.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Mars Landing Simulator",
+  "baseline": true
+ },
+ "zenith.billpwchan.art": {
+  "first": "2026-11-11",
+  "name": "Neon Zenith",
+  "baseline": true
+ },
+ "swervle.com": {
+  "first": "2026-11-11",
+  "name": "Swervle",
+  "baseline": true
+ },
+ "great-taxi-assignment.netlify.app": {
+  "first": "2026-11-11",
+  "name": "The Great Taxi Assignment",
+  "baseline": true
+ },
+ "turborumble.rastwork.pl": {
+  "first": "2026-11-11",
+  "name": "Turbo Rumble",
+  "baseline": true
+ },
+ "vibesail.com": {
+  "first": "2026-11-11",
+  "name": "VibeSail",
+  "baseline": true
+ },
+ "capybara-vibejam26.leocoout.dev": {
+  "first": "2026-11-11",
+  "name": "A Game About Capybaras Delivering Food",
+  "baseline": true
+ },
+ "concordia.davidveksler.com": {
+  "first": "2026-11-11",
+  "name": "Concordia",
+  "baseline": true
+ },
+ "escape.alexandre-grisey.fr": {
+  "first": "2026-11-11",
+  "name": "Forest Escape",
+  "baseline": true
+ },
+ "halcyon.billpwchan.art": {
+  "first": "2026-11-11",
+  "name": "Halcyon",
+  "baseline": true
+ },
+ "haldane4.denisbondare.com": {
+  "first": "2026-11-11",
+  "name": "HALDANE-4",
+  "baseline": true
+ },
+ "hoardborn.com": {
+  "first": "2026-11-11",
+  "name": "Hoardborn",
+  "baseline": true
+ },
+ "ja.sperdeboer.nl": {
+  "first": "2026-11-11",
+  "name": "Island Adventure",
+  "baseline": true
+ },
+ "lofp.metavert.io": {
+  "first": "2026-11-11",
+  "name": "Legends of Future Past",
+  "baseline": true
+ },
+ "magical-exe.redmint.studio": {
+  "first": "2026-11-11",
+  "name": "MAGICAL.EXE",
+  "baseline": true
+ },
+ "quantumcodemonk.itch.io/rogue-memory": {
+  "first": "2026-11-11",
+  "name": "Rogue Memory",
+  "baseline": true
+ },
+ "sf.thijs.gg": {
+  "first": "2026-11-11",
+  "name": "San Francisco -- The Game",
+  "baseline": true
+ },
+ "stellar-drift.web.app": {
+  "first": "2026-11-11",
+  "name": "Stellar Drift",
+  "baseline": true
+ },
+ "tinyskies.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Tiny Skies",
+  "baseline": true
+ },
+ "worldofclaudecraft.com": {
+  "first": "2026-11-11",
+  "name": "World of ClaudeCraft",
+  "baseline": true
+ },
+ "2minutedrillgame.app": {
+  "first": "2026-11-11",
+  "name": "2 Minute Drill Game",
+  "baseline": true
+ },
+ "helixngc7293.itch.io/gandg": {
+  "first": "2026-11-11",
+  "name": "AI2U - Guns & Girlfriends",
+  "baseline": true
+ },
+ "almostsurgery.ragim.dev": {
+  "first": "2026-11-11",
+  "name": "Almost Surgery",
+  "baseline": true
+ },
+ "creamcozycottage.itch.io/creams-cozy-cottage": {
+  "first": "2026-11-11",
+  "name": "Cream's Cozy Cottage",
+  "baseline": true
+ },
+ "emojisim.com": {
+  "first": "2026-11-11",
+  "name": "Emoji Sim",
+  "baseline": true
+ },
+ "expotycoon.com": {
+  "first": "2026-11-11",
+  "name": "Expo Tycoon",
+  "baseline": true
+ },
+ "screen.toys": {
+  "first": "2026-11-11",
+  "name": "Firewood Splitting Simulator",
+  "baseline": true
+ },
+ "fishing.lureconcept.com": {
+  "first": "2026-11-11",
+  "name": "Fishing",
+  "baseline": true
+ },
+ "harvest-hollow.up.railway.app": {
+  "first": "2026-11-11",
+  "name": "Harness Hollow",
+  "baseline": true
+ },
+ "inkline.typeonce.dev": {
+  "first": "2026-11-11",
+  "name": "Inkline Town",
+  "baseline": true
+ },
+ "kansogame.com": {
+  "first": "2026-11-11",
+  "name": "Kanso",
+  "baseline": true
+ },
+ "macro-data-refinement-five.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Macro Data Refinement",
+  "baseline": true
+ },
+ "everygamemade.com": {
+  "first": "2026-11-11",
+  "name": "MOGUL",
+  "baseline": true
+ },
+ "kimchistan.itch.io/orbit-foundry": {
+  "first": "2026-11-11",
+  "name": "Orbit Foundry",
+  "baseline": true
+ },
+ "onomeo.com": {
+  "first": "2026-11-11",
+  "name": "Orbits",
+  "baseline": true
+ },
+ "lancerlsy.github.io/life-crossroads": {
+  "first": "2026-11-11",
+  "name": "Otherlife / 人生岔路",
+  "baseline": true
+ },
+ "smallloopworks.itch.io/plug-prosper": {
+  "first": "2026-11-11",
+  "name": "Plug & Prosper",
+  "baseline": true
+ },
+ "durian-arcade.itch.io/pyramid-wars": {
+  "first": "2026-11-11",
+  "name": "Pyramid Wars",
+  "baseline": true
+ },
+ "simcfb.com": {
+  "first": "2026-11-11",
+  "name": "SimCFB",
+  "baseline": true
+ },
+ "github.com/416rehman/spinlings": {
+  "first": "2026-11-11",
+  "name": "Spinlings",
+  "baseline": true
+ },
+ "vector-tango.com": {
+  "first": "2026-11-11",
+  "name": "Vector Tango",
+  "baseline": true
+ },
+ "vaigames.com": {
+  "first": "2026-11-11",
+  "name": "VybeCiv",
+  "baseline": true
+ },
+ "20-0.com": {
+  "first": "2026-11-11",
+  "name": "20-0",
+  "baseline": true
+ },
+ "3d-tetris-platforms.lovable.app": {
+  "first": "2026-11-11",
+  "name": "3D Tetris",
+  "baseline": true
+ },
+ "tandemcasebook.itch.io/after-hours-room-214": {
+  "first": "2026-11-11",
+  "name": "After Hours: The Call from Room 214",
+  "baseline": true
+ },
+ "geosports.app": {
+  "first": "2026-11-11",
+  "name": "GeoSports",
+  "baseline": true
+ },
+ "gridgolf.netlify.app": {
+  "first": "2026-11-11",
+  "name": "Grid Golf",
+  "baseline": true
+ },
+ "wietske.itch.io/hackthesystem": {
+  "first": "2026-11-11",
+  "name": "Hack://TheSystem",
+  "baseline": true
+ },
+ "arkai.win": {
+  "first": "2026-11-11",
+  "name": "Ink Side Down",
+  "baseline": true
+ },
+ "jigsy.app": {
+  "first": "2026-11-11",
+  "name": "Jigsy",
+  "baseline": true
+ },
+ "artigram.cafeboon.com": {
+  "first": "2026-11-11",
+  "name": "Loop Heist",
+  "baseline": true
+ },
+ "sortaballs.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Sortaballs",
+  "baseline": true
+ },
+ "suika.live": {
+  "first": "2026-11-11",
+  "name": "Suika Game",
+  "baseline": true
+ },
+ "tictaccricket.netlify.app": {
+  "first": "2026-11-11",
+  "name": "Tic-Tac Cricket",
+  "baseline": true
+ },
+ "typebattles.com": {
+  "first": "2026-11-11",
+  "name": "Type Battles",
+  "baseline": true
+ },
+ "wen-ware.com": {
+  "first": "2026-11-11",
+  "name": "WenWare",
+  "baseline": true
+ },
+ "wildlife-game.netlify.app": {
+  "first": "2026-11-11",
+  "name": "Wildlife",
+  "baseline": true
+ },
+ "experimentswithai.com": {
+  "first": "2026-11-11",
+  "name": "Word God",
+  "baseline": true
+ },
+ "seymour8glass.itch.io/ai-worms": {
+  "first": "2026-11-11",
+  "name": "AI WORMS",
+  "baseline": true
+ },
+ "asteroid-ep9.pages.dev": {
+  "first": "2026-11-11",
+  "name": "Asteroid Assault",
+  "baseline": true
+ },
+ "beetlejump.com": {
+  "first": "2026-11-11",
+  "name": "BeetleJump",
+  "baseline": true
+ },
+ "flappi-bird.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Flappi Bird",
+  "baseline": true
+ },
+ "ophidian.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Ophidian",
+  "baseline": true
+ },
+ "arcade.oyster.to": {
+  "first": "2026-11-11",
+  "name": "Oyster Arcade",
+  "baseline": true
+ },
+ "pocket-salvage.web.app": {
+  "first": "2026-11-11",
+  "name": "Pocket Salvage",
+  "baseline": true
+ },
+ "pong-game-omega.vercel.app": {
+  "first": "2026-11-11",
+  "name": "Pong Arcade",
+  "baseline": true
+ },
+ "para1992.itch.io/second-tail": {
+  "first": "2026-11-11",
+  "name": "Second Tail",
+  "baseline": true
+ },
+ "jasonleow.com": {
+  "first": "2026-11-11",
+  "name": "Space Defenders",
+  "baseline": true
+ },
+ "super-jumper-game.web.app": {
+  "first": "2026-11-11",
+  "name": "Super Jumper",
+  "baseline": true
+ },
+ "worrrrld.com": {
+  "first": "2026-11-11",
+  "name": "Worrrrld!",
+  "baseline": true
+ },
+ "github.com/donchitos/claude-code-game-studios": {
+  "first": "2026-11-11",
+  "name": "Claude Code Game Studios",
+  "baseline": true
+ },
+ "deed.page": {
+  "first": "2026-11-11",
+  "name": "deed.page",
+  "baseline": true
+ },
+ "github.com/ivanmurzak/godot-mcp": {
+  "first": "2026-11-11",
+  "name": "Godot-MCP",
+  "baseline": true
+ },
+ "github.com/krastranseu-lang/klyo-games-mcp": {
+  "first": "2026-11-11",
+  "name": "klyo games MCP",
+  "baseline": true
+ },
+ "playablegift.com": {
+  "first": "2026-11-11",
+  "name": "Playable Gift",
+  "baseline": true
+ },
+ "github.com/typeonce-dev/ritmo": {
+  "first": "2026-11-11",
+  "name": "Ritmo",
+  "baseline": true
+ },
+ "sketchfab.com": {
+  "first": "2026-11-11",
+  "name": "Sketchfab",
+  "baseline": true
+ },
+ "github.com/ivanmurzak/unity-mcp": {
+  "first": "2026-11-11",
+  "name": "Unity-MCP",
+  "baseline": true
+ },
+ "github.com/ivanmurzak/unreal-mcp": {
+  "first": "2026-11-11",
+  "name": "Unreal-MCP",
+  "baseline": true
+ },
+ "github.com/instructa/viber3d": {
+  "first": "2026-11-11",
+  "name": "viber3d",
+  "baseline": true
+ },
+ "itch.io": {
+  "first": "2026-11-11",
+  "name": "AI Browser Game Jam",
+  "baseline": true
+ },
+ "aibuiltgames.com": {
+  "first": "2026-11-11",
+  "name": "AI Built Games",
+  "baseline": true
+ },
+ "gamedaily.ai": {
+  "first": "2026-11-11",
+  "name": "GameDaily.ai",
+  "baseline": true
+ },
+ "games.klyo.pl": {
+  "first": "2026-11-11",
+  "name": "klyo games",
+  "baseline": true
+ },
+ "neongamewall.com": {
+  "first": "2026-11-11",
+  "name": "Neon Gamewall",
+  "baseline": true
+ },
+ "developers.openai.com": {
+  "first": "2026-11-11",
+  "name": "OpenAI Developers Showcase: Games",
+  "baseline": true
+ },
+ "player1ai.com": {
+  "first": "2026-11-11",
+  "name": "Player1AI",
+  "baseline": true
+ },
+ "vibejam.com": {
+  "first": "2026-11-11",
+  "name": "Vibe Jam",
+  "baseline": true
+ },
+ "vibecode.game": {
+  "first": "2026-11-11",
+  "name": "vibecode.game",
+  "baseline": true
+ },
+ "whimcade.com": {
+  "first": "2026-11-11",
+  "name": "Whimcade",
+  "baseline": true
+ },
+ "zadely.com": {
+  "first": "2026-11-11",
+  "name": "Zadely",
+  "baseline": true
+ },
+ "github.com/bowen-aigame/awesome-ai-game": {
+  "first": "2026-11-11",
+  "name": "Awesome AI Game",
+  "baseline": true
+ },
+ "github.com/anil-matcha/awesome-ai-game-generation": {
+  "first": "2026-11-11",
+  "name": "Awesome AI Game Generation",
+  "baseline": true
+ },
+ "github.com/aviaryan/awesome-ai-games": {
+  "first": "2026-11-11",
+  "name": "Awesome AI Games",
+  "baseline": true
+ },
+ "github.com/filipecalegario/awesome-vibe-coding": {
+  "first": "2026-11-11",
+  "name": "Awesome Vibe Coding",
+  "baseline": true
+ }
+}

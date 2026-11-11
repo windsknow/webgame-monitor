@@ -1,0 +1,780 @@
+{
+ "date": "2026-11-10",
+ "fetch_time": "2026-11-10T09:30:42",
+ "total_records": 218,
+ "coarse_hits": 11,
+ "verdicts": {
+  "game": 1,
+  "maybe": 2,
+  "no": 8
+ },
+ "in_library": 1,
+ "items": [
+  {
+   "tweet_id": "2119791071089852888",
+   "link": "https://x.com/gourav_io/status/2119791071089852888",
+   "author": "Gourav",
+   "handle": "gourav_io",
+   "publish_time_utc": "2026-11-09 13:55:49",
+   "text": "Been working on the zombie AI and it finally feels decent.\n\nThey actually follow you, climb over stuff, and don’t just stand around. Full vibe-coded with @claudeai + @threejs. Here’s the chase clip: https://t.co/rvnsJYYqBl",
+   "views": 548,
+   "likes": 12,
+   "comments": 3,
+   "shares": 0,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：threejs、vibe-coded"
+   ],
+   "hit": {
+    "strong": [
+     "threejs",
+     "vibe-coded"
+    ],
+    "web": [
+     "threejs"
+    ],
+    "ai": [
+     "vibe-cod"
+    ],
+    "model": [],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/rvnsJYYqBl",
+     "final": "https://twitter.com/gourav_io/status/2119791071089852888",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到网页可玩：threejs、vibe-coded、threejs",
+    "提到 AI：vibe-cod"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明用 Claude 和 three.js 氛围编程",
+    "note": "开发中的僵尸游戏片段，帖子没有给试玩链接",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 7908,
+    "created_at": "Mon Nov 09 13:55:49 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119695510214701106",
+   "link": "https://x.com/chasmmmmmmmmmmm/status/2119695510214701106",
+   "author": "chasm",
+   "handle": "chasmmmmmmmmmmm",
+   "publish_time_utc": "2026-11-09 07:36:06",
+   "text": "Working multiplayer in Zelda already... 1 neet with a Claude sub can literally out do Nintendo. https://t.co/xluEFcO7bk",
+   "views": 7301,
+   "likes": 172,
+   "comments": 6,
+   "shares": 9,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：multiplayer",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [],
+    "ai": [
+     "claude"
+    ],
+    "model": [
+     "claude"
+    ],
+    "game": [
+     "multiplayer"
+    ],
+    "negative": [
+     "nintendo"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/xluEFcO7bk",
+     "final": "https://x.com/Ekimko/status/2119683805003067576",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：multiplayer",
+    "提到网页可玩：multiplayer",
+    "提到 AI：claude、claude",
+    "含排除词：nintendo"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": false,
+    "ai_evidence": "",
+    "note": "转述他人的《塞尔达》联机改版，运行在模拟器或 PC 上，不是网页游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119675145627599356",
+   "link": "https://x.com/DDJCXX/status/2119675145627599356",
+   "author": "硅基废话",
+   "handle": "DDJCXX",
+   "publish_time_utc": "2026-11-09 06:15:11",
+   "text": "想用 Claude Code、Codex 做游戏、做 3D 的，这 7 个开源 Skill 建议收藏：\n\n1.Claude-Code-Game-Studios（约 3.7 万 star）\n把一个 Claude Code 变成游戏工作室，49 个智能体分工做策划、程序、美术、测试，Godot、Unity、虚幻都能接。作者拿同一份需求做了 4 款，都跑起来了。\nhttps://t.co/E5LRStzt0t\n\n2.agent-sprite-forge（约 5400 star）\n定好一张角色图，它把站立、跑、跳、攻击、受伤一个个做成循环动画，打包成 Godot 和网页游戏能直接用的素材。有简体中文说明。\n\nhttps://t.co/fwUVvKma9R\n3.teardown（约 2600 star）\n问它摩托车发动机怎么转，Claude 做出一个能拆开看的 3D 模拟页面，零件在转、数字在跳，还能录成 60 帧视频。\n\nhttps://t.co/KrZ50vP95c\n\n4.blender-skills（约 780 star）\n28 个 Blender 技能，建模、贴图、绑骨、动画、渲染全流程，每个脚本都在真 Blender 里测过。要装 Blender 5.2。\nhttps://t.co/SO7pxcv2q1\n\n5.3D OS（约 3500 star）\nScenario 开源的一整套 3D 工作室，80 个技能。大部分要接它家平台，驱动 Blender、Unity、Godot、虚幻、Roblox 的那部分不用。\n\nhttps://t.co/ky4JkG6v9c\n6.prompt2rig（约 530 star）\n打一句动作，视频模型先演一遍，再把动作套到 Mixamo 角色上，手指都能动，能导进 Blender 和 Unity。要 fal 的 API 和一张 N 卡。\n\nhttps://t.co/ou9Y9lrS5n\n\n7.open-3d-skills（约 300 star）\n8 个做 3D 网页的技能：纯代码搭 three.js 场景、跟着滚动放的影片、机器爆炸图，做完自己开浏览器检查，再录成视频。\nhttps://t.co/xa06k9vwSO",
+   "views": 56341,
+   "likes": 828,
+   "comments": 15,
+   "shares": 62,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：three.js、网页游戏",
+    "游戏 + 网页或 AI 关键词",
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [
+     "three.js",
+     "网页游戏"
+    ],
+    "web": [
+     "three.js",
+     "浏览器",
+     "网页游戏"
+    ],
+    "ai": [
+     "claude",
+     "codex"
+    ],
+    "model": [
+     "claude",
+     "codex"
+    ],
+    "game": [
+     "game",
+     "游戏"
+    ],
+    "negative": [
+     "godot",
+     "roblox"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/E5LRStzt0t",
+     "final": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/fwUVvKma9R",
+     "final": "https://github.com/0x0funky/agent-sprite-forge",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/KrZ50vP95c",
+     "final": "https://github.com/elvarofficial/teardown",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/SO7pxcv2q1",
+     "final": "https://github.com/EL4CTEO/blender-skills",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/ky4JkG6v9c",
+     "final": "https://github.com/scenario-labs/skills",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/ou9Y9lrS5n",
+     "final": "https://github.com/blendi-remade/prompt2rig",
+     "code": 200,
+     "kind": "repo"
+    },
+    {
+     "short": "https://t.co/xa06k9vwSO",
+     "final": "https://github.com/Moh4696/open-3d-skills",
+     "code": 200,
+     "kind": "repo"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：game、游戏",
+    "提到网页可玩：three.js、网页游戏、three.js",
+    "提到 AI：claude、codex、claude",
+    "含排除词：godot、roblox"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "开源 Skill 合集，讲的是工具，不是一款具体的游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119643510207099323",
+   "link": "https://x.com/FrensOfPRIA/status/2119643510207099323",
+   "author": "Dave Senpai",
+   "handle": "FrensOfPRIA",
+   "publish_time_utc": "2026-11-09 04:09:28",
+   "text": "Three months in and the bar just keeps rising.\nThree.js + Opus 4 &amp; 5. \n\n#indiedev #threejs https://t.co/pn17ogeMcx",
+   "views": 16006,
+   "likes": 244,
+   "comments": 16,
+   "shares": 9,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：three.js、threejs"
+   ],
+   "hit": {
+    "strong": [
+     "three.js",
+     "threejs"
+    ],
+    "web": [
+     "three.js",
+     "threejs"
+    ],
+    "ai": [
+     "opus"
+    ],
+    "model": [
+     "opus"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/pn17ogeMcx",
+     "final": "https://twitter.com/FrensOfPRIA/status/2119643510207099323",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到网页可玩：three.js、threejs、three.js",
+    "提到 AI：opus、opus"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明 Three.js + Opus",
+    "note": "开发进度片段，作者简介写\"很快上线\"，还没有公开试玩",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 32578,
+    "created_at": "Mon Nov 09 04:09:28 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119579206451413467",
+   "link": "https://x.com/hydrofx_/status/2119579206451413467",
+   "author": "ハイドロ hydro",
+   "handle": "hydrofx_",
+   "publish_time_utc": "2026-11-08 23:53:57",
+   "text": "Ocarina of Time multiplayer running on Lichii Emulator. \n\nfull animations, synced combat, and real-time state sync. https://t.co/Hfr0kyWEsg",
+   "views": 810540,
+   "likes": 16696,
+   "comments": 205,
+   "shares": 867,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：multiplayer"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [],
+    "ai": [],
+    "model": [],
+    "game": [
+     "multiplayer"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/Hfr0kyWEsg",
+     "final": "https://twitter.com/hydrofx_/status/2119579206451413467",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：multiplayer",
+    "提到网页可玩：multiplayer"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": false,
+    "ai_evidence": "",
+    "note": "Lichii 是 Switch 2 的 PC 模拟器（多家媒体报道），不是网页游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 1280481,
+    "created_at": "Sun Nov 08 23:53:57 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119538130470457833",
+   "link": "https://x.com/neviannn/status/2119538130470457833",
+   "author": "nevian",
+   "handle": "neviannn",
+   "publish_time_utc": "2026-11-08 21:10:44",
+   "text": "this is wild... a whole cozy fishing game built solo with Claude Opus 5.5 + Blender + 3D AI + Unity 6\n\nthe trick is giving every tool one job:\n\n→ generate every 3D model with Tripo Smart Mesh P2: palms, rocks, pier, boat, hut, character\n→ connect Claude Code to Blender through MCP\n→ let Opus 5.5 set up each model: scale, pivots, materials, clean export\n→ Opus animates in Blender too: the walk, the cast, the rod, the boat on the water\n→ bring it all into Unity 6 and build the world: forest, river, waterfall, beach, pier\n→ add one system at a time: walking, fishing, bait choice, time of day\n→ play after every step and fix one thing at a time\n\nwho does what:\n\n• Tripo: the 3D models\n• Opus 5.5 + Blender: setup and animation\n• Unity 6: the world and the game\n\none person. one stack. a game you'd actually want to play",
+   "views": 11923,
+   "likes": 266,
+   "comments": 24,
+   "shares": 11,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "claude",
+     "opus"
+    ],
+    "model": [
+     "claude",
+     "opus"
+    ],
+    "game": [
+     "game"
+    ],
+    "negative": [
+     "unity 6"
+    ]
+   },
+   "links": [],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到 AI：claude、opus、claude",
+    "含排除词：unity 6"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": false,
+    "ai_evidence": "帖子写明用 Claude Opus 5.5",
+    "note": "用 Unity 6 制作的钓鱼游戏，不是网页游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119517930300076261",
+   "link": "https://x.com/apekshik/status/2119517930300076261",
+   "author": "apek",
+   "handle": "apekshik",
+   "publish_time_utc": "2026-11-08 19:50:27",
+   "text": "i'm a solo dev and i built an infinitely evolving backrooms game and released it on the web. \n\n35,000 players and ~9,600 hours played. these are my metrics under 36 hours of launch. \n\neach blue dot below is a player on the map i recorded a moment ago. there's ~1,200 players playing the game at THIS moment. SIMULTANEOUSLY. let that sink in.  \n\nthis is incredible. we're entering a new era for sure.\n\nnote for video: only shows 200 players in total because my server chunks the shared space into worlds of 200, so 1200 players would be 6 different worlds and you're seeing one of em. \n\ni'm building out a shared space server that can sustain 2000 players in a single world. launching real soon.",
+   "views": 179151,
+   "likes": 1538,
+   "comments": 84,
+   "shares": 71,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：on the web",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "on the web"
+    ],
+    "web": [
+     "on the web"
+    ],
+    "ai": [],
+    "model": [],
+    "game": [
+     "game"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到网页可玩：on the web、on the web"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "",
+    "note": "Dimension 9 的开发者数据帖，游戏已收录",
+    "games": [
+     {
+      "name": "Backrooms: Dimension 9",
+      "url": "https://dimension9.space/",
+      "how": "作者是该游戏的开发者"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 219270,
+    "created_at": "Sun Nov 08 19:50:27 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Backrooms: Dimension 9",
+     "url": "https://dimension9.space/",
+     "key": "dimension9.space",
+     "how": "作者是该游戏的开发者",
+     "source_post": "https://x.com/apekshik/status/2119517930300076261",
+     "post_views": null,
+     "post_time_utc": null,
+     "library": "dimension9"
+    }
+   ],
+   "library": {
+    "id": "dimension9",
+    "name": "Backrooms: Dimension 9",
+    "how": "引用了已收录游戏的来源帖",
+    "strength": "dedup"
+   }
+  },
+  {
+   "tweet_id": "2119513077653921992",
+   "link": "https://x.com/tthallos/status/2119513077653921992",
+   "author": "tt",
+   "handle": "tthallos",
+   "publish_time_utc": "2026-11-08 19:31:11",
+   "text": "没有编程背景的人用 codex 做出来的东西是什么样子呢？\n\n我一个朋友，他没有编程背景但是有客户资源能变现，上个月用 codex 做了一堆工作台，已经有付费意愿的客户了。他担心出问题找我帮他看一眼。过程也挺有意思，因为没有用 git 管理代码，开发部署上线全部是通过 codex 客户端里的会话完成，最后发给我的一个 1 个多G 的压缩包，还是 codex 在服务器上给打的包。最终翻了三层目录找到了代码，python 写的 api，数据库用的 sqlite，是的你没看错用的 sqlite。最离谱的事是其中一个独立的子产品，总共加起来也就十几个 api，弄了 3 个数据库 🫠",
+   "views": 114196,
+   "likes": 353,
+   "comments": 113,
+   "shares": 13,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "codex"
+    ],
+    "model": [
+     "codex"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到 AI：codex、codex",
+    "作品合集类帖子，游戏可能在串内，需要看原帖"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "讲用 Codex 做业务系统的经历，和游戏无关",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 140651,
+    "created_at": "Sun Nov 08 19:31:11 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119823772920467776",
+   "link": "https://x.com/GameSpot/status/2119823772920467776",
+   "author": "GameSpot",
+   "handle": "GameSpot",
+   "publish_time_utc": "2026-11-09 16:05:46",
+   "text": "GTA 6 Preloading Is Officially Live, Files Mention Multiplayer And PS5 Pro Features dlvr.​it/TWG61m https://t.co/go9g0JR979",
+   "views": 9375,
+   "likes": 28,
+   "comments": 7,
+   "shares": 7,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：multiplayer"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [],
+    "ai": [],
+    "model": [],
+    "game": [
+     "multiplayer"
+    ],
+    "negative": [
+     "gta 6",
+     "ps5"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/go9g0JR979",
+     "final": "https://twitter.com/GameSpot/status/2119823772920467776",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：multiplayer",
+    "提到网页可玩：multiplayer",
+    "含排除词：gta 6、ps5"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "GTA 6 预载的媒体报道",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119822435444764693",
+   "link": "https://x.com/Polygon/status/2119822435444764693",
+   "author": "Polygon",
+   "handle": "Polygon",
+   "publish_time_utc": "2026-11-09 16:00:27",
+   "text": "GTA 6 Preloading Officially Goes Live, Revealing Files That Tease Multiplayer https://t.co/tk0tpaO7OD https://t.co/Z4lgfZPEKX",
+   "views": 2756,
+   "likes": 5,
+   "comments": 1,
+   "shares": 1,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "强关键词：multiplayer"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [],
+    "ai": [],
+    "model": [],
+    "game": [
+     "multiplayer"
+    ],
+    "negative": [
+     "gta 6"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/tk0tpaO7OD",
+     "final": "https://www.polygon.com/gta-6-preloads-live-multiplayer-ps5-pro-features-teased/?taid=6af1ee1ac6e521000165bc0b&utm_campaign=trueanthem&utm_medium=social&utm_source=twitter",
+     "code": 200,
+     "kind": "docs"
+    },
+    {
+     "short": "https://t.co/Z4lgfZPEKX",
+     "final": "https://t.co/Z4lgfZPEKX",
+     "code": 0,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：multiplayer",
+    "提到网页可玩：multiplayer",
+    "含排除词：gta 6"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "GTA 6 预载的媒体报道",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119690611691577706",
+   "link": "https://x.com/chenchengpro/status/2119690611691577706",
+   "author": "陈成",
+   "handle": "chenchengpro",
+   "publish_time_utc": "2026-11-09 07:16:38",
+   "text": "Qoduck 实测。\n\n1/ 昨天用各种 case 跑了下 Qoduck，大多都放到 https://t.co/eE21pTouuH 了，包含 3D、前端、2D 等。每条都是一个 prompt 跑一轮，中间不插话，页面、HTML 和 prompt 都能直接看。\n\n3/ 3D 效果还是不错的，无论是美感还是逻辑。showcase 里有比较多 case，个人感觉其中效果比较好的是龙堡风暴、灯塔风暴、樱花谷、海盗船。\n\n4/ 前端底子比传言好，配上我昨天写的 frontend-rails 效果更佳。不加 skill 的版本大多已经不错，偶尔会滑回紫粉渐变。加了 skill 好在细处，信息层级排得更对。\n\n5/ 设计上有点像 GPT。\n\n6/ 速度体感上比较快，主要是交互时回得快。大题照样要等，弹珠机跑了 111 分钟，樱花谷 86 分钟。\n\n7/ 当然和日常在用的 Opus 5.5 比还是有不少差距的，也有跑产品动画生成，细节和完成度上都还差一些。",
+   "views": 2116,
+   "likes": 6,
+   "comments": 5,
+   "shares": 2,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-10",
+   "coarse_ways": [
+    "链接指向游戏托管位置"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "opus",
+     "一个 prompt"
+    ],
+    "model": [
+     "gpt",
+     "opus"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/eE21pTouuH",
+     "final": "https://sorrycc.github.io/qoduck-showcase/",
+     "code": 200,
+     "kind": "game"
+    }
+   ],
+   "rule_verdict": "game",
+   "rule_reasons": [
+    "提到 AI：gpt、opus、opus",
+    "找到试玩链接"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "模型评测的作品合集页，不是一款具体的游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "已找到",
+    "url": "https://sorrycc.github.io/qoduck-showcase/",
+    "key": "sorrycc.github.io/qoduck-showcase",
+    "how": "帖子自带链接",
+    "alt": [],
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 2577,
+    "created_at": "Mon Nov 09 07:16:38 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  }
+ ]
+}

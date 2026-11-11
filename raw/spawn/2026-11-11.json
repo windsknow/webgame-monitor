@@ -1,0 +1,349 @@
+{
+ "date": "2026-11-11",
+ "channel": "spawn",
+ "count": 20,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "spawn",
+   "title": "Dust 2 DM",
+   "url": "https://www.spawn.co/@tiger/dust-2-dm",
+   "key": "spawn.co/@tiger/dust-2-dm",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 1,
+    "spawn_plays": 59707,
+    "spawn_likes": 1451
+   },
+   "published": "2026-09-28",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You spawn on Dust II with an AK and endless ammo. Hold a corner, trade kills, respawn in seconds—the first to 30 wins. Every duel matters, every shot counts.",
+   "image": "https://spawnfile.io/dev/character-assets/1790655026238-og-image-8f4af503-070b-40e9-847d-336d1a57d18e-1790655026238.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "UNDERGROUND WARFARE",
+   "url": "https://www.spawn.co/@retro/underground-warfare",
+   "key": "spawn.co/@retro/underground-warfare",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 2,
+    "spawn_plays": 24656,
+    "spawn_likes": 873
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "UNDERGROUND WARFARE",
+   "image": "https://spawnfile.io/dev/character-assets/1793816087834-og-image-6f0dfb55-39d4-497b-acef-57184e95750c-1793816087833.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Escape from Stranglethorn",
+   "url": "https://www.spawn.co/@izkimar/escape-from-stranglethorn",
+   "key": "spawn.co/@izkimar/escape-from-stranglethorn",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 3,
+    "spawn_plays": 91091,
+    "spawn_likes": 592
+   },
+   "published": "2026-10-23",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You venture into Stranglethorn's jungle with nine Human classes, gathering valuables and facing fierce enemies. Survive the extraction ritual and haul your treasure back to Booty Bay.",
+   "image": "https://spawnfile.io/dev/character-assets/1792797109042-og-image-62a36fb8-f014-4d5b-a73c-c57c9e6c6307-1792797109041.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "League of Spawn",
+   "url": "https://www.spawn.co/@izkimar/league-of-spawn",
+   "key": "spawn.co/@izkimar/league-of-spawn",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 4,
+    "spawn_plays": 14137,
+    "spawn_likes": 308
+   },
+   "published": "2026-10-05",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Lead your squad across the sky-mesa in this third-person MOBA. Aim every spell, push three lanes toward the enemy Nexus, and claim victory through teamwork and skill.",
+   "image": "https://spawnfile.io/dev/character-assets/1791233923073-og-image-375ad8f6-9902-4a36-8886-ab4db2995ece-1791233923073.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Fabling Park",
+   "url": "https://www.spawn.co/@smallzero/fabling-park",
+   "key": "spawn.co/@smallzero/fabling-park",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 5,
+    "spawn_plays": 8287,
+    "spawn_likes": 221
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You're the owner of Fabling Park, a magical zoo where you fence habitats, adopt 40 original creatures called Fablings, hire staff, and keep guests smiling.",
+   "image": "https://spawnfile.io/dev/character-assets/1793499782325-og-image-d9e0564d-f04e-4d83-b1a9-9210dc72da7e-1793499782325.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Diablo Survivors",
+   "url": "https://www.spawn.co/@izkimar/diablo-survivors",
+   "key": "spawn.co/@izkimar/diablo-survivors",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 6,
+    "spawn_plays": 5318,
+    "spawn_likes": 177
+   },
+   "published": "2026-10-20",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You pick a hero at the campfire and step through the portal into a relentless horde. Dodge, cast, and claim blessings as the dead close in—can you survive until Andariel rises at 7:00?",
+   "image": "https://spawnfile.io/dev/character-assets/1792535542419-og-image-499b35bb-5ef2-48ea-8a2b-622a36938b43-1792535542419.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Steal an Egg",
+   "url": "https://www.spawn.co/@stranger4ever95/steal-an-egg",
+   "key": "spawn.co/@stranger4ever95/steal-an-egg",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 7,
+    "spawn_plays": 2280,
+    "spawn_likes": 125
+   },
+   "published": "2026-09-28",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Sprint across a toy-brick field to snatch eggs from nests, dash back to safety before guardians catch you, and hatch your haul into adorable companions.",
+   "image": "https://spawnfile.io/dev/character-assets/1793779249397-og-image-3e0daa85-ab3a-48e2-bae4-3898a87c97a7-1793779249397.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "MOG",
+   "url": "https://www.spawn.co/@robot/mog",
+   "key": "spawn.co/@robot/mog",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 8,
+    "spawn_plays": 12187,
+    "spawn_likes": 125
+   },
+   "published": "2026-10-11",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Meet challengers in the tournament lobby, step through the great gate, and throw hands in the ring. Master combo chains, break shields, and claim victory against rivals and CPU opponents.",
+   "image": "https://spawnfile.io/dev/character-assets/1791738791176-og-image-75a210c7-b02a-46fd-b6e8-e6f1e0aacd40-1791738791176.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Hot Drop",
+   "url": "https://www.spawn.co/@tiger/hot-drop",
+   "key": "spawn.co/@tiger/hot-drop",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 9,
+    "spawn_plays": 3075,
+    "spawn_likes": 81
+   },
+   "published": "2026-07-28",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You drop into a war-torn desert compound and fight for control against relentless enemy forces. Master your rifle, slide through chokepoints, and outplay your squad to claim victory.",
+   "image": "https://spawnfile.io/dev/character-assets/1794281647301-og-image-60426059-1293-4725-adbd-436554f134da-1794281647300.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Higher",
+   "url": "https://www.spawn.co/@chucky/higher",
+   "key": "spawn.co/@chucky/higher",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 10,
+    "spawn_plays": 1993,
+    "spawn_likes": 79
+   },
+   "published": "2026-03-20",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Race up disco towers, candy mountains, and alien peaks in this toon-bright climbing arcade. Chase personal bests, unlock epic bean characters, and climb your way to the leaderboard.",
+   "image": "https://spawnfile.io/dev/character-assets/1790193143977-og-image-17c22ba8-8dd1-4359-a3d9-5f70b808bdbf-1790193143977.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "The Backrooms",
+   "url": "https://www.spawn.co/@donutfrumjupitr/the-backrooms",
+   "key": "spawn.co/@donutfrumjupitr/the-backrooms",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 11,
+    "spawn_plays": 3399,
+    "spawn_likes": 77
+   },
+   "published": "2026-01-27",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You've slipped into the Backrooms—an endless maze of flickering hallways, locked doors, and worse. Navigate through eight sprawling levels, solve puzzles, and survive encounters with creatures that hunt in the dark.",
+   "image": "https://spawnfile.io/dev/character-assets/1774913802494-og-image-2dd75029-bde3-4f1f-94f6-740335298d64-1774913802494.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "INKBLADE",
+   "url": "https://www.spawn.co/@gfta/inkblade",
+   "key": "spawn.co/@gfta/inkblade",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 12,
+    "spawn_plays": 1554,
+    "spawn_likes": 73
+   },
+   "published": "2026-09-27",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Swing sword or spear through scribbled monsters as ink splats stick to the page forever. Free trapped wisps across five chapters, ride a towering long neck, and face the Eraser on the Unwritten page with every freed…",
+   "image": "https://spawnfile.io/dev/character-assets/1793546058176-og-image-07f5fc00-5c3c-4e8a-a8bd-96958e824109-1793546058176.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Flickshot",
+   "url": "https://www.spawn.co/@yuidev/flickshot",
+   "key": "spawn.co/@yuidev/flickshot",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 13,
+    "spawn_plays": 1764,
+    "spawn_likes": 72
+   },
+   "published": "2026-10-16",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You're locked in a fast arena where every headshot counts. Climb the ranked ladder, chase your best score, and prove your aim against players and bots who never stop moving.",
+   "image": "https://spawnfile.io/dev/character-assets/1792162289358-og-image-7bce5421-8c6e-4d12-ac5f-a44be22a23b0-1792162289357.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Call of Paint",
+   "url": "https://www.spawn.co/@maine/call-of-paint",
+   "key": "spawn.co/@maine/call-of-paint",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 14,
+    "spawn_plays": 5017,
+    "spawn_likes": 71
+   },
+   "published": "2026-09-13",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You pick your marker, arc your shots across a river-cut arena, and paint the opposing castle. Feel the recoil, master the lean, and tag your way to victory in competitive paintball.",
+   "image": "https://spawnfile.io/dev/character-assets/1789336748387-og-image-9a2189a8-f992-4129-86df-18642d264429-1789336748386.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Aether Legends",
+   "url": "https://www.spawn.co/@yisus/aether-legends",
+   "key": "spawn.co/@yisus/aether-legends",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 15,
+    "spawn_plays": 885,
+    "spawn_likes": 68
+   },
+   "published": "2026-10-23",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Elige tu héroe elemental, invoca leyendas en pixel art y cruza Aetheria hasta la grieta de Velmora, donde Vael'Zhar te espera en su trono.",
+   "image": "https://spawnfile.io/dev/character-assets/1793775659943-og-image-37152679-5e61-4e51-b994-e3d5466fa798-1793775659942.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Spawn Turismo",
+   "url": "https://www.spawn.co/@kevin/spawn-turismo",
+   "key": "spawn.co/@kevin/spawn-turismo",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 16,
+    "spawn_plays": 3517,
+    "spawn_likes": 68
+   },
+   "published": "2026-10-16",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You're behind the wheel of a Porsche 911 GT3 RS on a winding 2.4 km hillside circuit. Chase the clock in Time Trial to beat your best lap, or race the grid in multiplayer and cross the line first.",
+   "image": "https://spawnfile.io/dev/character-assets/1792181547344-og-image-b2de56e1-8752-4467-b28e-883432465457-1792181547344.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Portal Heist",
+   "url": "https://www.spawn.co/@j/portal-heist",
+   "key": "spawn.co/@j/portal-heist",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 17,
+    "spawn_plays": 3208,
+    "spawn_likes": 60
+   },
+   "published": "2026-09-23",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Dive through five wild worlds to steal the Star Core from its vault, then sprint home before your friends hunt you down and take it back. Every jump, every powerup, every moment counts.",
+   "image": "https://spawnfile.io/dev/character-assets/1790170008074-og-image-f0bf0a6f-6adb-4f2c-9cdd-8b8bd81bf937-1790170008074.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "MechaBlade",
+   "url": "https://www.spawn.co/@ress/mechablade",
+   "key": "spawn.co/@ress/mechablade",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 18,
+    "spawn_plays": 1641,
+    "spawn_likes": 57
+   },
+   "published": "2026-07-30",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "Pilot one of eight unique mecha frames across three contested sky hills. Hold ground, drain your energy pool fueling flight and slashing attacks, and race to 300 points in fast-paced team combat.",
+   "image": "https://spawnfile.io/dev/character-assets/1785992756463-og-image-16df73f9-651f-4a54-95bb-ab665a2de6d4-1785992756463.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "GLINT",
+   "url": "https://www.spawn.co/@fracture/glint",
+   "key": "spawn.co/@fracture/glint",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 19,
+    "spawn_plays": 712,
+    "spawn_likes": 56
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "A CS + CoD style blocky FPS. Pick an operator, build your class and fight for the shard: Shard Cashout, TDM, FFA, Gun Game, Ranked and Bots Only. Level up, prestige, grind camos and unlock skins.",
+   "image": "https://spawnfile.io/dev/character-assets/1794178294060-og-image-47a181be-0310-40c8-ba28-d2f83b311665-1794178294060.webp"
+  },
+  {
+   "channel": "spawn",
+   "title": "Shogun’s Fate",
+   "url": "https://www.spawn.co/@poisoncode/shogun-s-fate",
+   "key": "spawn.co/@poisoncode/shogun-s-fate",
+   "source_url": "https://www.spawn.co/",
+   "metrics": {
+    "spawn_rank": 20,
+    "spawn_plays": 22745,
+    "spawn_likes": 54
+   },
+   "published": "2026-10-26",
+   "passes": false,
+   "ai_hint": "发布在 AI 创作平台 Spawn",
+   "desc": "You build, recruit, and wage war across a living feudal empire. Every decision—from resource management to military strategy—shapes your path to becoming shogun.",
+   "image": "https://spawnfile.io/dev/character-assets/1793037946582-og-image-62e3a4b6-404d-4567-b233-2ac2b2ef5931-1793037946582.webp"
+  }
+ ]
+}

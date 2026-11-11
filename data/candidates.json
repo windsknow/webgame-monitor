@@ -1,0 +1,857 @@
+{
+ "finiking.github.io/dsh-games": {
+  "key": "finiking.github.io/dsh-games",
+  "url": "https://finiking.github.io/dsh-games/wall/",
+  "name": "dsh-game-studio",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "dsh-game-studio",
+    "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
+    "metrics": {
+     "github_stars": 482,
+     "github_forks": 42
+    },
+    "published": "2026-11-05",
+    "passes": true,
+    "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-11-05",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "patch.gg": {
+  "key": "patch.gg",
+  "url": "https://patch.gg",
+  "name": "trompe",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "trompe",
+    "source_url": "https://github.com/patch-gg/trompe",
+    "metrics": {
+     "github_stars": 213,
+     "github_forks": 17
+    },
+    "published": "2026-10-25",
+    "passes": true,
+    "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-25",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "abouchedidxcode.github.io/open-source-hands": {
+  "key": "abouchedidxcode.github.io/open-source-hands",
+  "url": "https://abouchedidxcode.github.io/open-source-hands/",
+  "name": "open-source-hands",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "open-source-hands",
+    "source_url": "https://github.com/abouchedidxcode/open-source-hands",
+    "metrics": {
+     "github_stars": 206,
+     "github_forks": 30
+    },
+    "published": "2026-11-03",
+    "passes": true,
+    "desc": "Make webcam hand games in the browser, or point your coding agent here and have it make one. MediaPipe hand tracking + a gesture engine + a starter game + a playbook.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-11-03",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "github.com/odrannnn/metroidprime2port": {
+  "key": "github.com/odrannnn/metroidprime2port",
+  "url": "https://github.com/Odrannnn/MetroidPrime2Port/releases/latest",
+  "name": "MetroidPrime2Port",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "MetroidPrime2Port",
+    "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
+    "metrics": {
+     "github_stars": 267,
+     "github_forks": 15
+    },
+    "published": "2026-10-21",
+    "passes": true,
+    "desc": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-21",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "只有代码仓库链接，没有试玩页面"
+  ],
+  "updated": "2026-11-11"
+ },
+ "seriesoftub.es": {
+  "key": "seriesoftub.es",
+  "url": "https://seriesoftub.es/",
+  "name": "seriesoftubes",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "seriesoftubes",
+    "source_url": "https://github.com/fjaeckel/seriesoftubes",
+    "metrics": {
+     "github_stars": 218,
+     "github_forks": 43
+    },
+    "published": "2026-10-23",
+    "passes": true,
+    "desc": "A free cartoon browser game about how the internet really works: lay fiber and subsea cables, peer at IXPs, bill on the 95th percentile and survive backhoes, sharks and route leaks on your way to Tier 1.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-23",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "lumiogames.github.io/lgui": {
+  "key": "lumiogames.github.io/lgui",
+  "url": "https://lumiogames.github.io/LGUI/",
+  "name": "LGUI",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "LGUI",
+    "source_url": "https://github.com/LumioGames/LGUI",
+    "metrics": {
+     "github_stars": 127,
+     "github_forks": 17
+    },
+    "published": "2026-10-16",
+    "passes": true,
+    "ai_hint": "Game UI framework for AI agents, made by LumioGames",
+    "desc": "Game UI framework for AI agents, made by LumioGames. Build screens, logic and tests in the browser with no game engine, then export to Unity. 给 AI Agent 用的游戏 UI 框架，不依赖游戏引擎。",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-16",
+  "ai_tag": "ai",
+  "ai_evidence": "仓库描述：Game UI framework for AI agents, made by LumioGames",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "github.com/e1z0/ps4-games-installer": {
+  "key": "github.com/e1z0/ps4-games-installer",
+  "url": "https://github.com/e1z0/PS4-Games-Installer",
+  "name": "PS4-Games-Installer",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-11",
+    "title": "PS4-Games-Installer",
+    "source_url": "https://github.com/e1z0/PS4-Games-Installer",
+    "metrics": {
+     "github_stars": 101,
+     "github_forks": 11
+    },
+    "published": "2026-10-15",
+    "passes": true,
+    "desc": "A game library manager for jailbroken PS4 consoles. Browse remote catalogs, install packages, launch games, and organize your collection.",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-15",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "只有代码仓库链接，没有试玩页面"
+  ],
+  "updated": "2026-11-11"
+ },
+ "notesbylex.com": {
+  "key": "notesbylex.com",
+  "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+  "name": "Fable 5.2 one-shotted my nephew's dream game",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Fable 5.2 one-shotted my nephew's dream game",
+    "source_url": "https://news.ycombinator.com/item?id=50433659",
+    "metrics": {
+     "hn_points": 496,
+     "hn_comments": 445
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "Fable 5",
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "Hacker News 标题：Fable 5",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 496 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接是文章页，不是试玩页面"
+  ],
+  "updated": "2026-11-11"
+ },
+ "blog.moertel.com": {
+  "key": "blog.moertel.com",
+  "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+  "name": "A great old-timey game-programming hack (2013)",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "A great old-timey game-programming hack (2013)",
+    "source_url": "https://news.ycombinator.com/item?id=50448921",
+    "metrics": {
+     "hn_points": 230,
+     "hn_comments": 46
+    },
+    "published": "2026-11-11",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-11",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 230 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接是文章页，不是试玩页面"
+  ],
+  "updated": "2026-11-11"
+ },
+ "jaytholen.net": {
+  "key": "jaytholen.net",
+  "url": "https://jaytholen.net/teengamedev/",
+  "name": "Being a kid making games in the early 2000s",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Being a kid making games in the early 2000s",
+    "source_url": "https://news.ycombinator.com/item?id=50375691",
+    "metrics": {
+     "hn_points": 151,
+     "hn_comments": 53
+    },
+    "published": "2026-11-05",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "拒绝",
+  "published": "2026-11-05",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 151 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": true
+  },
+  "page": {
+   "ok": true,
+   "title": "Being a kid making games in the early 2000s - Jay Tholen",
+   "desc": "An autobiographical essay by Jay Tholen about being a youngster making games and posting them online!",
+   "image": "",
+   "icon": "https://jaytholen.net/teengamedev/favicon.png",
+   "has_canvas": true
+  },
+  "reasons": [
+   "传播：Hacker News 151 分",
+   "入选信号不足 2 条"
+  ],
+  "updated": "2026-11-11",
+  "reject_reason": "个人网站上的回忆文章，不是游戏（2026-11-11 核验）"
+ },
+ "ghanastreetgames.com": {
+  "key": "ghanastreetgames.com",
+  "url": "https://www.ghanastreetgames.com/",
+  "name": "Ghanaian street games you can play in the browser",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Show HN: Ghanaian street games you can play in the browser",
+    "source_url": "https://news.ycombinator.com/item?id=50414117",
+    "metrics": {
+     "hn_points": 113,
+     "hn_comments": 22
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "观察",
+  "published": "2026-11-08",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 113 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": true
+  },
+  "page": {
+   "ok": true,
+   "title": "Ghana Street Games — 3D Arcade",
+   "desc": "35 playable Ghanaian street games: Four Corners, Laski, One Pole, penalties, neighbourhood Pilolo and Pampanaa, and more.",
+   "image": "",
+   "icon": "https://www.ghanastreetgames.com/icon.svg",
+   "has_canvas": true
+  },
+  "reasons": [
+   "传播：Hacker News 113 分",
+   "入选信号不足 2 条"
+  ],
+  "updated": "2026-11-11"
+ },
+ "retrosongbird.com": {
+  "key": "retrosongbird.com",
+  "url": "https://www.retrosongbird.com/",
+  "name": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+    "source_url": "https://news.ycombinator.com/item?id=50405172",
+    "metrics": {
+     "hn_points": 93,
+     "hn_comments": 22
+    },
+    "published": "2026-11-07",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-07",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 93 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": false
+  },
+  "page": {
+   "ok": true,
+   "title": "Retro Song Bird",
+   "desc": "Relive the sounds of your classic games",
+   "image": "https://www.retrosongbird.com/og-image.png?v=2",
+   "icon": "https://www.retrosongbird.com/favicon.png?v=2",
+   "has_canvas": false
+  },
+  "reasons": [
+   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+  ],
+  "updated": "2026-11-11"
+ },
+ "magnitudle.com": {
+  "key": "magnitudle.com",
+  "url": "https://magnitudle.com/size-it-up",
+  "name": "Size-It-Up (Game)",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Size-It-Up (Game)",
+    "source_url": "https://news.ycombinator.com/item?id=50395869",
+    "metrics": {
+     "hn_points": 82,
+     "hn_comments": 27
+    },
+    "published": "2026-11-06",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-06",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 82 分"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true,
+   "页面可玩特征": false
+  },
+  "page": {
+   "ok": true,
+   "title": "Size It Up – Daily Size Guessing Game | Magnitudle",
+   "desc": "Play the official, original Size It Up game by Magnitudle. Estimate real-world scale across five daily visual comparisons and score up to 500 points.",
+   "image": "https://magnitudle.com/icon-magnitude-og.png?v=231b0542",
+   "icon": "https://magnitudle.com/icon-magnitude.svg?v=2f256736",
+   "has_canvas": false
+  },
+  "reasons": [
+   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+  ],
+  "updated": "2026-11-11"
+ },
+ "worldstrike.fun": {
+  "key": "worldstrike.fun",
+  "url": "https://worldstrike.fun/",
+  "name": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-11",
+    "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+    "source_url": "https://news.ycombinator.com/item?id=50389420",
+    "metrics": {
+     "hn_points": 175,
+     "hn_comments": 126
+    },
+    "published": "2026-11-06",
+    "passes": true,
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "已在库",
+  "published": "2026-11-06",
+  "library_id": "worldstrike",
+  "reasons": [
+   "试玩链接和已收录的 worldstrike 相同"
+  ]
+ },
+ "dimension9.space": {
+  "key": "dimension9.space",
+  "url": "https://dimension9.space/",
+  "name": "Backrooms: Dimension 9",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-10",
+    "title": "Backrooms: Dimension 9",
+    "source_url": "https://x.com/apekshik/status/2119517930300076261",
+    "metrics": {
+     "x_views": 219270,
+     "x_likes": 1538
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "desc": "i'm a solo dev and i built an infinitely evolving backrooms game and released it on the web. \n\n35,000 players and ~9,600 hours played. these are my metrics under 36 hours of launch. \n\neach blue dot below is a player on the map i recorded a moment ago. there's ~1,200 players playing the game at THIS moment. SIMULTANEOUSLY. let that sink in.  \n\nthis is incredible. we're entering a new era for sure.\n",
+    "x": {
+     "handle": "apekshik",
+     "found_how": "作者是该游戏的开发者",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/apekshik/status/2119517930300076261"
+    },
+    "last_date": "2026-11-10"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "x"
+  },
+  "status": "已在库",
+  "published": "2026-11-08",
+  "library_id": "dimension9",
+  "reasons": [
+   "试玩链接和已收录的 dimension9 相同"
+  ]
+ },
+ "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp": {
+  "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "name": "Saltline",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Saltline",
+    "source_url": "https://x.com/midudev/status/2120163317889347853",
+    "metrics": {
+     "x_views": 73945,
+     "x_likes": 389
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "desc": "Un juego hecho desde cero con Fable 5.2. Coste: 550$\nDice Felix, que trabaja en Anthropic, que fue un prompt.\n\nVamos a tener una ola de juegos y software creado por IA. El tema es que ¿realmente van a aportar algo? ¿lo va a usar alguien?\n\nAyer comenté el sistema operativo que crearon en 8 días y mucha gente decía que si tenía utilidad, que para qué crear algo así... Y tienen razón.\n\nYa no es sólo ",
+    "x": {
+     "handle": "midudev",
+     "found_how": "引用了作者原帖",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/midudev/status/2120163317889347853"
+    },
+    "last_date": "2026-11-11"
+   },
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Saltline",
+    "source_url": "https://x.com/mahluukat/status/2120086512549458322",
+    "metrics": {
+     "x_views": 214105,
+     "x_likes": 250
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "desc": "Claude ile geliştirilmiş Saltline adlı 3D FPS oyununun kaynak dosyasını inceledim. İnanılmaz ama oyunun tamamı, Three.js kütüphanesi dahil, yalnızca 1,42 MB'lık tek bir HTML dosyasında! 3D geometriler, dokular ve sesler oyun çalışırken kodla üretiliyor. Harici oyun asset'leri yok",
+    "x": {
+     "handle": "mahluukat",
+     "found_how": "引用帖里的链接",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/mahluukat/status/2120086512549458322"
+    },
+    "last_date": "2026-11-11"
+   },
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Saltline",
+    "source_url": "https://x.com/0ooooo0/status/2119985854450204968",
+    "metrics": {
+     "x_views": 43848,
+     "x_likes": 151
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "desc": "Fable 5.2로 만든 미친 퀄리티의 FPS\n\n8시간 동안 550달러로 만들었다고 함..\n\n대기업 게임사가 몇 년 걸려 만들고 발표할 퀄리티인데 ㄷㄷ https://t.co/FVdiemWNHG",
+    "x": {
+     "handle": "0ooooo0",
+     "found_how": "引用了作者原帖",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/0ooooo0/status/2119985854450204968"
+    },
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "已在库",
+  "published": "2026-11-10",
+  "library_id": "saltline",
+  "reasons": [
+   "试玩链接和已收录的 saltline 相同"
+  ]
+ },
+ "remix.gg/g/banana-mine-rush": {
+  "key": "remix.gg/g/banana-mine-rush",
+  "url": "https://remix.gg/g/banana-mine-rush",
+  "name": "Banana Mine Rush",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Banana Mine Rush",
+    "source_url": "https://x.com/0xChuckstock/status/2120125184606658728",
+    "metrics": {
+     "x_views": 8846,
+     "x_likes": 54
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
+    "desc": "Here's my new 3D kart racer game I built with @claudeai\nFable 5.2 with @AskVenice on @RemixGG_ \n\nLike all remix games:\n-> Playable instantly in browser w/o account\n-> Automatically generates trailer\n-> Free multiplayer\n-> Instant distribution to all of our gamers\n-> Built-in leaderboard and achievements\n\ngive it a try: https://t.co/c8mEl5W13Q",
+    "x": {
+     "handle": "0xChuckstock",
+     "found_how": "帖子自带链接",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/0xChuckstock/status/2120125184606658728"
+    },
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "候选",
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
+  "signals": [],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "暂无入选信号"
+  ],
+  "updated": "2026-11-11"
+ },
+ "spawn.co/@mattshumer/earth": {
+  "key": "spawn.co/@mattshumer/earth",
+  "url": "https://www.spawn.co/@mattshumer/earth",
+  "name": "Earth",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Earth",
+    "source_url": "https://x.com/mattshumer_/status/2119877065701036047",
+    "metrics": {
+     "x_views": 398464,
+     "x_likes": null
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "串内帖子写明由 Fable 5.2 制作",
+    "x": {
+     "handle": "mattshumer_",
+     "found_how": "串内帖子的链接",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/mattshumer_/status/2119886664017547687"
+    },
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 39.8 万"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "传播：X 单帖浏览 39.8 万"
+  ],
+  "game_id": "earth",
+  "updated": "2026-11-11"
+ },
+ "spawn.co/@mattshumer/hogwarts-royale": {
+  "key": "spawn.co/@mattshumer/hogwarts-royale",
+  "url": "https://www.spawn.co/@mattshumer/hogwarts-royale",
+  "name": "Hogwarts Royale",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Hogwarts Royale",
+    "source_url": "https://x.com/mattshumer_/status/2119872098306810226",
+    "metrics": {
+     "x_views": 169533,
+     "x_likes": null
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "串内帖子写明由 Fable 5.2 制作",
+    "x": {
+     "handle": "mattshumer_",
+     "found_how": "串内帖子的链接",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/mattshumer_/status/2119886664017547687"
+    },
+    "last_date": "2026-11-11"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 17 万（新模型发布后两周内，门槛减半）"
+   }
+  ],
+  "hard": {
+   "可玩链接": true,
+   "近期": true
+  },
+  "reasons": [
+   "传播：X 单帖浏览 17 万（新模型发布后两周内，门槛减半）"
+  ],
+  "game_id": "hogwarts-royale",
+  "updated": "2026-11-11"
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "date": "2026-11-11",
+ "channel": "hn",
+ "count": 9,
+ "passed": 7,
+ "error": "",
+ "leads": [
+  {
+   "channel": "hn",
+   "title": "Fable 5.2 one-shotted my nephew's dream game",
+   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+   "key": "notesbylex.com",
+   "source_url": "https://news.ycombinator.com/item?id=50433659",
+   "metrics": {
+    "hn_points": 496,
+    "hn_comments": 445
+   },
+   "published": "2026-11-09",
+   "passes": true,
+   "ai_hint": "Fable 5",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "A great old-timey game-programming hack (2013)",
+   "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+   "key": "blog.moertel.com",
+   "source_url": "https://news.ycombinator.com/item?id=50448921",
+   "metrics": {
+    "hn_points": 230,
+    "hn_comments": 46
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Being a kid making games in the early 2000s",
+   "url": "https://jaytholen.net/teengamedev/",
+   "key": "jaytholen.net",
+   "source_url": "https://news.ycombinator.com/item?id=50375691",
+   "metrics": {
+    "hn_points": 151,
+    "hn_comments": 53
+   },
+   "published": "2026-11-05",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Ghanaian street games you can play in the browser",
+   "url": "https://www.ghanastreetgames.com/",
+   "key": "ghanastreetgames.com",
+   "source_url": "https://news.ycombinator.com/item?id=50414117",
+   "metrics": {
+    "hn_points": 113,
+    "hn_comments": 22
+   },
+   "published": "2026-11-08",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+   "url": "https://www.retrosongbird.com/",
+   "key": "retrosongbird.com",
+   "source_url": "https://news.ycombinator.com/item?id=50405172",
+   "metrics": {
+    "hn_points": 93,
+    "hn_comments": 22
+   },
+   "published": "2026-11-07",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Size-It-Up (Game)",
+   "url": "https://magnitudle.com/size-it-up",
+   "key": "magnitudle.com",
+   "source_url": "https://news.ycombinator.com/item?id=50395869",
+   "metrics": {
+    "hn_points": 82,
+    "hn_comments": 27
+   },
+   "published": "2026-11-06",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "I have never seen a game fail because the artists were too slow",
+   "url": "https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow",
+   "key": "productionalchemist.com",
+   "source_url": "https://news.ycombinator.com/item?id=50414234",
+   "metrics": {
+    "hn_points": 37,
+    "hn_comments": 14
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Indie Game Development with AI",
+   "url": "https://www.sandromaglione.com/articles/indie-game-development-with-ai",
+   "key": "sandromaglione.com",
+   "source_url": "https://news.ycombinator.com/item?id=50432523",
+   "metrics": {
+    "hn_points": 31,
+    "hn_comments": 42
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "hn",
+   "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+   "url": "https://worldstrike.fun/",
+   "key": "worldstrike.fun",
+   "source_url": "https://news.ycombinator.com/item?id=50389420",
+   "metrics": {
+    "hn_points": 175,
+    "hn_comments": 126
+   },
+   "published": "2026-11-06",
+   "passes": true,
+   "ai_hint": "",
+   "desc": ""
+  }
+ ]
+}

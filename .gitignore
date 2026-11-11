@@ -1,0 +1,11 @@
+site/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+# 短链展开缓存
+data/cache/
+# 对方送来的完整帖子数据、内部体验记录：不进仓库
+inbox/x/*.json
+data/private/
+backtest/run.log

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" shape-rendering="crispEdges">
+  <!-- Black flag background, same style as the island Jolly Roger -->
+  <rect width="8" height="8" fill="#111111"/>
+  <!-- Skull pattern (matches drawIslandFlag's claimed rows), centred vertically -->
+  <!-- Row 0: KKWWWWKK — dome -->
+  <rect x="2" y="1" width="4" height="1" fill="#f0f0f0"/>
+  <!-- Row 1: KWKWWKWK — eye sockets (W at cols 1, 3, 4, 6) -->
+  <rect x="1" y="2" width="1" height="1" fill="#f0f0f0"/>
+  <rect x="3" y="2" width="2" height="1" fill="#f0f0f0"/>
+  <rect x="6" y="2" width="1" height="1" fill="#f0f0f0"/>
+  <!-- Row 2: KWWWWWWK — face -->
+  <rect x="1" y="3" width="6" height="1" fill="#f0f0f0"/>
+  <!-- Row 3: KKWWWWKK — lower jaw -->
+  <rect x="2" y="4" width="4" height="1" fill="#f0f0f0"/>
+  <!-- Row 4: KKWKKWKK — teeth -->
+  <rect x="2" y="5" width="1" height="1" fill="#f0f0f0"/>
+  <rect x="5" y="5" width="1" height="1" fill="#f0f0f0"/>
+</svg>

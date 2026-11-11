@@ -1,0 +1,1711 @@
+{
+ "date": "2026-11-11",
+ "fetch_time": "2026-11-11T09:30:23",
+ "total_records": 205,
+ "coarse_hits": 23,
+ "verdicts": {
+  "game": 5,
+  "maybe": 7,
+  "no": 11
+ },
+ "in_library": 3,
+ "items": [
+  {
+   "tweet_id": "2120163317889347853",
+   "link": "https://x.com/midudev/status/2120163317889347853",
+   "author": "Miguel Ángel Durán",
+   "handle": "midudev",
+   "publish_time_utc": "2026-11-10 14:35:00",
+   "text": "Un juego hecho desde cero con Fable 5.2. Coste: 550$\nDice Felix, que trabaja en Anthropic, que fue un prompt.\n\nVamos a tener una ola de juegos y software creado por IA. El tema es que ¿realmente van a aportar algo? ¿lo va a usar alguien?\n\nAyer comenté el sistema operativo que crearon en 8 días y mucha gente decía que si tenía utilidad, que para qué crear algo así... Y tienen razón.\n\nYa no es sólo la distribución. Está muy bien ver estas demos (¡y algunas realmente sorprenden!), pero vamos a estar inundados de software que nadie nunca usará.\n\nAdemás, si presuntamente es un prompt, ¿por qué no te ibas a hacer el tuyo adaptado a tus gustos y necesidades?\n\nCreo que también esto nos va a permitir hacer cosas que antes solo podíamos soñarlo pero veremos...\n\nNunca ha sido tan fácil crear software y por eso nunca ha sido tan difícil venderlo. https://t.co/UGRxI1GXlB",
+   "views": 21231,
+   "likes": 389,
+   "comments": 46,
+   "shares": 22,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "juego"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/UGRxI1GXlB",
+     "final": "https://x.com/felixrieseberg/status/2119925633564463609",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：juego",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "",
+    "note": "转述 Saltline，游戏已收录",
+    "games": [
+     {
+      "name": "Saltline",
+      "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "how": "引用了作者原帖"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/felixrieseberg/status/2119925633564463609"
+    ],
+    "views_now": 73945,
+    "created_at": "Tue Nov 10 14:35:00 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Saltline",
+     "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "how": "引用了作者原帖",
+     "source_post": "https://x.com/midudev/status/2120163317889347853",
+     "post_views": null,
+     "post_time_utc": null,
+     "library": "saltline"
+    }
+   ],
+   "library": {
+    "id": "saltline",
+    "name": "Saltline",
+    "how": "引用了已收录游戏的来源帖",
+    "strength": "dedup"
+   }
+  },
+  {
+   "tweet_id": "2120157496686018787",
+   "link": "https://x.com/BANGYANGYAO/status/2120157496686018787",
+   "author": "bobo",
+   "handle": "BANGYANGYAO",
+   "publish_time_utc": "2026-11-10 14:11:52",
+   "text": "游戏开发者们请注意，是否诚实披露是否使用AI.\n\n知名爆款游戏 Big Walk ，因为披露在游戏中使用了Ai。\n结果遭到 2027  IGF一部分评委的的拒绝。\n\n2027 IGF 有一批评委公开表态：只要开发过程中用过生成式 AI，他们就不投票，还要求 IGF 出明文禁令。他们说自己看到今年提交的作品里用生成式 AI 的明显变多。Big Walk 正好在提交名单里，于是出来说明自己到底用了什么。\n\n离谱的事情是，暴露这个声明信息后。Big walk 这几天 被大量差评洗版。\n\n因为玩家觉得使用了ai未被告知。现在非常尴尬。\n\n但big walk 的声明：ai的使用只占开发的0.1%。\n\n有人觉得是对AI游戏的猎物行动，有人则是认为不应该隐藏使用AI。",
+   "views": 867,
+   "likes": 1,
+   "comments": 0,
+   "shares": 0,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "用ai"
+    ],
+    "model": [],
+    "game": [
+     "游戏"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：游戏",
+    "提到 AI：用ai"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "Big Walk 披露使用 AI 引发争议的新闻评论",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 61670,
+    "created_at": "Tue Nov 10 14:11:52 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120125184606658728",
+   "link": "https://x.com/0xChuckstock/status/2120125184606658728",
+   "author": "chuckstock",
+   "handle": "0xChuckstock",
+   "publish_time_utc": "2026-11-10 12:03:28",
+   "text": "Here's my new 3D kart racer game I built with @claudeai\nFable 5.2 with @AskVenice on @RemixGG_ \n\nLike all remix games:\n-> Playable instantly in browser w/o account\n-> Automatically generates trailer\n-> Free multiplayer\n-> Instant distribution to all of our gamers\n-> Built-in leaderboard and achievements\n\ngive it a try: https://t.co/c8mEl5W13Q",
+   "views": 2590,
+   "likes": 54,
+   "comments": 8,
+   "shares": 10,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：multiplayer",
+    "游戏 + 网页或 AI 关键词",
+    "链接指向游戏托管位置"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [
+     "in browser",
+     "playable"
+    ],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "game",
+     "games",
+     "multiplayer",
+     "playable"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/c8mEl5W13Q",
+     "final": "https://remix.gg/g/banana-mine-rush",
+     "code": 200,
+     "kind": "game"
+    }
+   ],
+   "rule_verdict": "game",
+   "rule_reasons": [
+    "提到游戏：game、games、multiplayer",
+    "提到网页可玩：multiplayer、in browser、playable",
+    "提到 AI：fable、fable",
+    "找到试玩链接"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
+    "note": "开发者本人发布，帖子自带试玩链接",
+    "games": [
+     {
+      "name": "Banana Mine Rush",
+      "url": "https://remix.gg/g/banana-mine-rush",
+      "how": "帖子自带链接"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "已找到",
+    "url": "https://remix.gg/g/banana-mine-rush",
+    "key": "remix.gg/g/banana-mine-rush",
+    "how": "帖子自带链接",
+    "alt": [],
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 8846,
+    "created_at": "Tue Nov 10 12:03:28 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Banana Mine Rush",
+     "url": "https://remix.gg/g/banana-mine-rush",
+     "key": "remix.gg/g/banana-mine-rush",
+     "how": "帖子自带链接",
+     "source_post": "https://x.com/0xChuckstock/status/2120125184606658728",
+     "post_views": null,
+     "post_time_utc": null,
+     "library": null
+    }
+   ],
+   "library": null
+  },
+  {
+   "tweet_id": "2120089768851587343",
+   "link": "https://x.com/Panthaa/status/2120089768851587343",
+   "author": "Panthaa / Yohan Bensemhoun",
+   "handle": "Panthaa",
+   "publish_time_utc": "2026-11-10 09:42:44",
+   "text": "Donc là, des génies du jeu indé, qui ont fait l'un des meilleurs jeux multi coop de l'histoire se font radier d'un prestigieux concours... Parce qu'ils ont utilisé de l'IA.\n\nEt si on peut trouver ça legit pour des clones à la con fait sur Claude en 5h, eux ont juste demandé à une IA de régler un souci de code qu'ils n'arrivaient pas à identifier et qui mettait en péril la stabilité du jeu, en toute fin de développement... \n\nQuel shitshow",
+   "views": 79254,
+   "likes": 1078,
+   "comments": 39,
+   "shares": 47,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "claude"
+    ],
+    "model": [
+     "claude"
+    ],
+    "game": [
+     "jeu"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：jeu",
+    "提到 AI：claude、claude"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "对独立游戏奖项争议的评论",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/GIBiz/status/2120081387105751282"
+    ],
+    "views_now": 123950,
+    "created_at": "Tue Nov 10 09:42:44 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120086512549458322",
+   "link": "https://x.com/mahluukat/status/2120086512549458322",
+   "author": "Ali Can Meydan",
+   "handle": "mahluukat",
+   "publish_time_utc": "2026-11-10 09:29:48",
+   "text": "Claude ile geliştirilmiş Saltline adlı 3D FPS oyununun kaynak dosyasını inceledim. İnanılmaz ama oyunun tamamı, Three.js kütüphanesi dahil, yalnızca 1,42 MB'lık tek bir HTML dosyasında! 3D geometriler, dokular ve sesler oyun çalışırken kodla üretiliyor. Harici oyun asset'leri yok",
+   "views": 34902,
+   "likes": 250,
+   "comments": 8,
+   "shares": 12,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：three.js",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "three.js"
+    ],
+    "web": [
+     "three.js"
+    ],
+    "ai": [
+     "claude"
+    ],
+    "model": [
+     "claude"
+    ],
+    "game": [
+     "fps"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "game",
+   "rule_reasons": [
+    "提到游戏：fps",
+    "提到网页可玩：three.js、three.js",
+    "提到 AI：claude、claude",
+    "找到试玩链接"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "",
+    "note": "分析 Saltline 的源文件，游戏已收录",
+    "games": [
+     {
+      "name": "Saltline",
+      "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "how": "引用帖里的链接"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "已找到",
+    "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+    "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+    "how": "引用帖或被回复帖里的链接",
+    "alt": [],
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/felixrieseberg/status/2119925633564463609"
+    ],
+    "views_now": 214105,
+    "created_at": "Tue Nov 10 09:29:48 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Saltline",
+     "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "how": "引用帖里的链接",
+     "source_post": "https://x.com/mahluukat/status/2120086512549458322",
+     "post_views": null,
+     "post_time_utc": null,
+     "library": "saltline"
+    }
+   ],
+   "library": {
+    "id": "saltline",
+    "name": "Saltline",
+    "how": "试玩链接相同",
+    "strength": "dedup"
+   }
+  },
+  {
+   "tweet_id": "2120071833617568076",
+   "link": "https://x.com/Frenchie_/status/2120071833617568076",
+   "author": "Frenchie",
+   "handle": "Frenchie_",
+   "publish_time_utc": "2026-11-10 08:31:28",
+   "text": "🚨 Je crois qu'on ne se rend pas bien compte de ce qui vient de se passer cette nuit\n\nAnthropic vient de sortir Claude Fable 5.2\n\nAlors, je vous ai résumé ce qu'il peut faire, c'est tout aussi magnifique que terrifiant\n\n1. En ingénierie des système éléctronique c'est le choc\n\nÀ partir d'un seul paragraphe, il a conçu trois appareils électroniques qui marchent. Dont un assistant vocal pour la maison. Il a écrit les specs, choisi les composants, routé une carte à quatre couches, dessiné le boîtier pour l'impression 3D, et programmé le logiciel. Selon Anthropic, les trois ont fonctionné sans aucune modification. \n\n2. Il a refait un Windows solo sans se baser sur rien\n\nUn ingénieur d'Anthropic lui a demandé de construire un système d'exploitation à partir d'un dossier vide. Plus de 1 000 agents, 8 jours, sans interruption. Le prototype, d'après eux, démarre sur un laptop : kernel, pilotes, fenêtres, écran de connexion, installeur. \n\n3. En Mathématiques il a formalisé tout le théorème de Fermat\n\n1 000 agents. 30 heures. Le théorème de Fermat, entièrement formalisé, traduit dans un langage qu'un ordinateur peut vérifier étape par étape. Avec le même protocole, Opus 5.5 était à 26 % au bout de 18 heures, et n'avançait presque plus après 30.\n\n4. Sur les Jeux vidéo, c'est limite criminel\n\nUn ingénieur d'Anthropic lui a envoyé des prompts en une seule passe, sans aucune correction humaine. 8 heures plus tard : un FPS 3D jouable dans le navigateur. Modèles, sons, textures, tout créé de zéro. Environ 550 dollars de compute. On peut le lancer je vous en ai mis d'autres dans les commentaires\n\n5. En imagerie et peinture\n\nALors c'est un peu contre intuitif mais Il peint. Pas avec un modèle d'image mais avec du code. Des programmes Python de 1 000 à 2 000 lignes, qui placent chaque coup de pinceau un par un. Une des toiles, poussée jusqu'à ressembler à une photo, fait environ 700 000 coups de brosse \n\n6. En physique théorique\n\nSelon Anthropic, il a résolu deux problèmes ouverts en physique des trous noirs. Sur le premier, il a terminé un calcul qui restait ouvert depuis 23 ans. Les preprints sont en ligne.\n\n7. En robotique \n\nIl pilote des robots, y compris sur des tâches pour lesquelles il n'a jamais été entraîné. Sur RoboDojo, un benchmark avec un robot à deux bras en simulation, il devance les autres modèles et la plupart des systèmes conçus pour ça.\n\nEt sur le classement indépendant d'Artificial Analysis, il passe n°1, à 65. Devant Gemini 4 Carbon (60) et Opus 5.5 (59)\n\nC'est juste avant l'IPO, ils ont all in sur cette sortie, je vous avoue que c'est un gros tour de force. Evidemment, ça a vocation à pousser l'IPO, mais la lecture va au dela\n\nOn vit dans une période incroyable",
+   "views": 929023,
+   "likes": 5479,
+   "comments": 202,
+   "shares": 716,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [
+     "navigateur"
+    ],
+    "ai": [
+     "claude",
+     "fable",
+     "gemini",
+     "opus"
+    ],
+    "model": [
+     "claude",
+     "fable",
+     "gemini",
+     "opus"
+    ],
+    "game": [
+     "fps"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：fps",
+    "提到网页可玩：navigateur",
+    "提到 AI：claude、fable、gemini"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "Fable 5.2 发布的能力总结，不是一款具体的游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/Frenchie_/status/2119869454951543228"
+    ],
+    "views_now": 1522722,
+    "created_at": "Tue Nov 10 08:31:28 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120049690624635261",
+   "link": "https://x.com/xingbugengming/status/2120049690624635261",
+   "author": "小奇说",
+   "handle": "xingbugengming",
+   "publish_time_utc": "2026-11-10 07:03:29",
+   "text": "十天，一个人，我用 AI+Unreal 5.8制作 3A 级游戏\n\nTripo：人物、武器、场景建模\nClaude：场景搭建、视觉效果与战斗特效\nCodex：角色动作设计与动画实现\n\n灵感和玩法致敬了最近爆火的《影之刃零》和《只狼》\n\n虽然距离真正的 3A 大作仍有不小差距，但 AI 建模、AI 美术、AI 编程，也算 3A 吧？ https://t.co/g9ixTCi5DU",
+   "views": 23950,
+   "likes": 268,
+   "comments": 83,
+   "shares": 13,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "claude",
+     "codex",
+     "用 ai"
+    ],
+    "model": [
+     "claude",
+     "codex"
+    ],
+    "game": [
+     "游戏"
+    ],
+    "negative": [
+     "unreal"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/g9ixTCi5DU",
+     "final": "https://twitter.com/xingbugengming/status/2120049690624635261",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：游戏",
+    "提到 AI：claude、codex、claude",
+    "含排除词：unreal"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": false,
+    "ai_evidence": "帖子写明用 Tripo、Claude、Codex",
+    "note": "用 Unreal 5.8 制作，不是网页游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120020469487440210",
+   "link": "https://x.com/alightinastorm/status/2120020469487440210",
+   "author": "robot 2.0",
+   "handle": "alightinastorm",
+   "publish_time_utc": "2026-11-10 05:07:22",
+   "text": "i built a COD like browser game with fable 5.2 https://t.co/VmjgclqKkd",
+   "views": 7532,
+   "likes": 119,
+   "comments": 13,
+   "shares": 7,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：browser game",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "browser game"
+    ],
+    "web": [
+     "browser game"
+    ],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "game"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/VmjgclqKkd",
+     "final": "https://twitter.com/alightinastorm/status/2120020469487440210",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到网页可玩：browser game、browser game",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "帖子写明用 Fable 5.2 制作",
+    "note": "帖子说是浏览器游戏，但没有给链接；作者主页的链接指向另一款作品 FNX（spawn.co/@robot/fnx）",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "待确认",
+    "url": "http://spawn.co/@robot/fnx",
+    "key": "spawn.co/@robot/fnx",
+    "how": "作者主页上的网站链接",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 11874,
+    "created_at": "Tue Nov 10 05:07:22 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120010936584945922",
+   "link": "https://x.com/alightinastorm/status/2120010936584945922",
+   "author": "robot 2.0",
+   "handle": "alightinastorm",
+   "publish_time_utc": "2026-11-10 04:29:29",
+   "text": "i asked fable 5.2 to build a AAA threejs basketball game\n\nwe have reached AGI, from clothing to animations and sounds done by claude https://t.co/StGsCbRq8A",
+   "views": 29240,
+   "likes": 451,
+   "comments": 42,
+   "shares": 14,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：threejs",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "threejs"
+    ],
+    "web": [
+     "threejs"
+    ],
+    "ai": [
+     "claude",
+     "fable"
+    ],
+    "model": [
+     "claude",
+     "fable"
+    ],
+    "game": [
+     "game"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/StGsCbRq8A",
+     "final": "https://twitter.com/alightinastorm/status/2120010936584945922",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到网页可玩：threejs、threejs",
+    "提到 AI：claude、fable、claude"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明让 Fable 5.2 用 three.js 制作",
+    "note": "篮球游戏演示片段，帖子没有给试玩链接",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "待确认",
+    "url": "http://spawn.co/@robot/fnx",
+    "key": "spawn.co/@robot/fnx",
+    "how": "作者主页上的网站链接",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 56339,
+    "created_at": "Tue Nov 10 04:29:29 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119985854450204968",
+   "link": "https://x.com/0ooooo0/status/2119985854450204968",
+   "author": "아이반 IVAN",
+   "handle": "0ooooo0",
+   "publish_time_utc": "2026-11-10 02:49:49",
+   "text": "Fable 5.2로 만든 미친 퀄리티의 FPS\n\n8시간 동안 550달러로 만들었다고 함..\n\n대기업 게임사가 몇 년 걸려 만들고 발표할 퀄리티인데 ㄷㄷ https://t.co/FVdiemWNHG",
+   "views": 19999,
+   "likes": 151,
+   "comments": 18,
+   "shares": 16,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "fps"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/FVdiemWNHG",
+     "final": "https://x.com/felixrieseberg/status/2119925633564463609",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：fps",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "",
+    "note": "转述 Saltline，游戏已收录",
+    "games": [
+     {
+      "name": "Saltline",
+      "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+      "how": "引用了作者原帖"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/felixrieseberg/status/2119925633564463609"
+    ],
+    "views_now": 43848,
+    "created_at": "Tue Nov 10 02:49:49 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Saltline",
+     "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+     "how": "引用了作者原帖",
+     "source_post": "https://x.com/0ooooo0/status/2119985854450204968",
+     "post_views": null,
+     "post_time_utc": null,
+     "library": "saltline"
+    }
+   ],
+   "library": {
+    "id": "saltline",
+    "name": "Saltline",
+    "how": "引用了已收录游戏的来源帖",
+    "strength": "dedup"
+   }
+  },
+  {
+   "tweet_id": "2119980595279212916",
+   "link": "https://x.com/ab_surf/status/2119980595279212916",
+   "author": "absurf",
+   "handle": "ab_surf",
+   "publish_time_utc": "2026-11-10 02:28:55",
+   "text": "Claude Fable 5.2 JUST ONE SHOT THIS ENTIRE ROBLOX GAME!  \n\nAll the game mechanics with just a single prompt\n\nhttps://t.co/jXn5tswWb7\n\n#Roblox #Claude #scripter https://t.co/3hwBbgSLPY",
+   "views": 29024,
+   "likes": 302,
+   "comments": 22,
+   "shares": 7,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：one shot",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "one shot"
+    ],
+    "web": [],
+    "ai": [
+     "claude",
+     "fable",
+     "one shot",
+     "single prompt"
+    ],
+    "model": [
+     "claude",
+     "fable"
+    ],
+    "game": [
+     "game"
+    ],
+    "negative": [
+     "roblox"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/jXn5tswWb7",
+     "final": "https://discord.com/invite/9eFHQAXMgC",
+     "code": 200,
+     "kind": "social"
+    },
+    {
+     "short": "https://t.co/3hwBbgSLPY",
+     "final": "https://twitter.com/ab_surf/status/2119980595279212916",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到网页可玩：one shot",
+    "提到 AI：claude、fable、claude",
+    "含排除词：roblox"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": false,
+    "ai_evidence": "",
+    "note": "Roblox 游戏，不是独立的网页游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119979537320534135",
+   "link": "https://x.com/imantiai/status/2119979537320534135",
+   "author": "Ant",
+   "handle": "imantiai",
+   "publish_time_utc": "2026-11-10 02:24:43",
+   "text": "I am shaking right now...🤯\n\nI gave Fable 5.2 (max) a single prompt: \"build a hyper-realistic first person shooter set on a tropical island, AAA quality visuals and sound effects, make no mistakes\" and let it run unattended.\n\nThe result looks absolutely stunning. Everything procedural in raw WebGPU, no engine.\n\nHere are the actual telemetry stats from the run:\n- Consumed 179 million tokens across 27 autonomous sub-agents over a continuous 9 hour run\n- Rendering ~30 million polygons per frame with real-time subsurface scattering on every palm frond\n- Y-axis heightmaps and coastal erosion patterns generated procedurally using 4K compute shaders\n- Self-verified 124K output tokens of custom GLSL shaders using its internal headless browser loop to fix shadow-map acne\n- Instanced 4,200 destuctible bamboo huts and rigid-body physics barrels at a locked 60 FPS\n- Simulated volumetric god-rays, ocean FFT wave dynamics, and inverse kinematics\n\nTraditional AAA game studios are officially cooked",
+   "views": 74083,
+   "likes": 426,
+   "comments": 84,
+   "shares": 25,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：webgpu",
+    "游戏 + 网页或 AI 关键词",
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [
+     "webgpu"
+    ],
+    "web": [
+     "webgpu"
+    ],
+    "ai": [
+     "fable",
+     "single prompt"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "fps",
+     "game",
+     "shooter"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：fps、game、shooter",
+    "提到网页可玩：webgpu、webgpu",
+    "提到 AI：fable、fable、single prompt",
+    "帖子带读者备注，内容可能不实"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "帖子下的读者备注指出：视频是 2007 年的《孤岛危机》画面，不是 AI 生成的游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 155172,
+    "created_at": "Tue Nov 10 02:24:43 +0000 2026",
+    "community_note": "The video does not show an AI-generated game. The footage is from Crysis, a 2007 first-person shooter video game developed by Crytek and published by Electronic Arts.\nen.wikipedia.org/wiki/Crysis"
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119969113762082931",
+   "link": "https://x.com/EvanMilenko/status/2119969113762082931",
+   "author": "Evan",
+   "handle": "EvanMilenko",
+   "publish_time_utc": "2026-11-10 01:43:18",
+   "text": "Fable 5.2 created a sword fighting game https://t.co/QEGPkNl8mr",
+   "views": 25976,
+   "likes": 204,
+   "comments": 18,
+   "shares": 14,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "game"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/QEGPkNl8mr",
+     "final": "https://twitter.com/EvanMilenko/status/2119969113762082931",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明由 Fable 5.2 制作",
+    "note": "剑斗游戏演示片段，帖子没有说明平台，也没有试玩链接",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 37852,
+    "created_at": "Tue Nov 10 01:43:18 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119946035221135843",
+   "link": "https://x.com/MaxPalaroYT/status/2119946035221135843",
+   "author": "MaxPalaro 🇧🇷",
+   "handle": "MaxPalaroYT",
+   "publish_time_utc": "2026-11-10 00:11:36",
+   "text": "Se a Steam não começar a banir esses games low effort, feito 100% com Claude, isso vai acabar com a credibilidade da plataforma. Quem já tentou fazer um game com Claude sabe que isso é IA 100%. Mas nem disclaimer fazem direito... https://t.co/QPidiOy0lo",
+   "views": 2376,
+   "likes": 23,
+   "comments": 8,
+   "shares": 1,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "claude"
+    ],
+    "model": [
+     "claude"
+    ],
+    "game": [
+     "game",
+     "games"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/QPidiOy0lo",
+     "final": "https://twitter.com/MaxPalaroYT/status/2119946035221135843",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game、games",
+    "提到 AI：claude、claude"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "对 Steam 上 AI 游戏的评论",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 2894,
+    "created_at": "Tue Nov 10 00:11:36 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119935331499925557",
+   "link": "https://x.com/_sholtodouglas/status/2119935331499925557",
+   "author": "Sholto Douglas",
+   "handle": "_sholtodouglas",
+   "publish_time_utc": "2026-11-09 23:29:04",
+   "text": "An arena FPS with portals - Fable 5.2 is the first model that passes my bar for seriously fun and beautiful games. \nWe have had a few fun evenings playtesting this against eachother at the office https://t.co/N0A6cfXHCM",
+   "views": 117299,
+   "likes": 1686,
+   "comments": 105,
+   "shares": 79,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "arena",
+     "fps",
+     "games"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/N0A6cfXHCM",
+     "final": "https://twitter.com/_sholtodouglas/status/2119935331499925557",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：arena、fps、games",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明由 Fable 5.2 制作",
+    "note": "带传送门的竞技场 FPS，作者说在办公室内部对战试玩；帖子正文和公开可见的回复里都没有试玩链接",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 184579,
+    "created_at": "Mon Nov 09 23:29:04 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119931740940640542",
+   "link": "https://x.com/Izkimar/status/2119931740940640542",
+   "author": "Izkimar",
+   "handle": "Izkimar",
+   "publish_time_utc": "2026-11-09 23:14:48",
+   "text": "Fable 5.2 is INSANE for gamedev. I built this entire MMO world in a single day.\n\nIt really excels at making stylized art which I think is a much bigger test for a new model than hyperrealism. \n\nEvery single asset you see was generated from code. https://t.co/iGoNbSy7jH",
+   "views": 16902,
+   "likes": 297,
+   "comments": 37,
+   "shares": 15,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [
+     "mmo"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/iGoNbSy7jH",
+     "final": "https://twitter.com/Izkimar/status/2119931740940640542",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：mmo",
+    "提到 AI：fable、fable"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明用 Fable 5.2 一天做成",
+    "note": "MMO 世界演示片段，帖子没有给试玩链接；作者是 Spawn 上多款已收录游戏的开发者",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 21455,
+    "created_at": "Mon Nov 09 23:14:48 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": {
+    "id": "sp_stranglethorn",
+    "name": "Escape from Stranglethorn",
+    "how": "作者是已收录游戏的开发者（可能是新作）",
+    "strength": "related"
+   }
+  },
+  {
+   "tweet_id": "2119900487688622171",
+   "link": "https://x.com/kevin_t_ngo/status/2119900487688622171",
+   "author": "Kevin Ngo",
+   "handle": "kevin_t_ngo",
+   "publish_time_utc": "2026-11-09 21:10:36",
+   "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nGilt &amp; Gutter is a 1v1 first-person shooter with two playable characters https://t.co/7Y0RA8IV6b",
+   "views": 84536,
+   "likes": 281,
+   "comments": 31,
+   "shares": 10,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：in the browser",
+    "游戏 + 网页或 AI 关键词",
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [
+     "in the browser"
+    ],
+    "web": [
+     "in the browser",
+     "playable"
+    ],
+    "ai": [
+     "claude",
+     "fable"
+    ],
+    "model": [
+     "claude",
+     "fable"
+    ],
+    "game": [
+     "game",
+     "playable",
+     "shooter"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/7Y0RA8IV6b",
+     "final": "https://twitter.com/kevin_t_ngo/status/2119900487688622171/video/1",
+     "code": 0,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：game、playable、shooter",
+    "提到网页可玩：in the browser、in the browser、playable",
+    "提到 AI：claude、fable、claude"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "帖子写明由 Claude Fable 5.2 制作",
+    "note": "Gilt & Gutter，帖子说可以在浏览器里玩，但正文没有链接；作者的个人网站和 itch.io 页面也没有列出这款游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 102159,
+    "created_at": "Mon Nov 09 21:10:36 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119886664017547687",
+   "link": "https://x.com/mattshumer_/status/2119886664017547687",
+   "author": "Matt Shumer",
+   "handle": "mattshumer_",
+   "publish_time_utc": "2026-11-09 20:15:40",
+   "text": "I spent over 400B tokens testing Fable 5.2.\n\nHere are the craziest things I made with it:",
+   "views": 967875,
+   "likes": 3943,
+   "comments": 167,
+   "shares": 83,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到 AI：fable、fable",
+    "作品合集类帖子，游戏可能在串内，需要看原帖"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "串内帖子写明由 Fable 5.2 制作",
+    "note": "作品合集帖，串内有 2 款发布在 Spawn 上的游戏；另有 1 个体素破坏引擎演示（spawn.co/@mattshumer/voxel-engine，属于技术演示，不算游戏），以及视频和机器人设计各 1 项",
+    "games": [
+     {
+      "name": "Earth",
+      "url": "https://www.spawn.co/@mattshumer/earth",
+      "how": "串内帖子的链接",
+      "source_post": "https://x.com/mattshumer_/status/2119877065701036047",
+      "post_views": 398464,
+      "post_time_utc": "2026-11-09 19:37:32"
+     },
+     {
+      "name": "Hogwarts Royale",
+      "url": "https://www.spawn.co/@mattshumer/hogwarts-royale",
+      "how": "串内帖子的链接",
+      "source_post": "https://x.com/mattshumer_/status/2119872098306810226",
+      "post_views": 169533,
+      "post_time_utc": "2026-11-09 19:17:48"
+     }
+    ],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 1131603,
+    "created_at": "Mon Nov 09 20:15:40 +0000 2026",
+    "community_note": null
+   },
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Earth",
+     "url": "https://www.spawn.co/@mattshumer/earth",
+     "key": "spawn.co/@mattshumer/earth",
+     "how": "串内帖子的链接",
+     "source_post": "https://x.com/mattshumer_/status/2119877065701036047",
+     "post_views": 398464,
+     "post_time_utc": "2026-11-09 19:37:32",
+     "library": null
+    },
+    {
+     "status": "已找到",
+     "name": "Hogwarts Royale",
+     "url": "https://www.spawn.co/@mattshumer/hogwarts-royale",
+     "key": "spawn.co/@mattshumer/hogwarts-royale",
+     "how": "串内帖子的链接",
+     "source_post": "https://x.com/mattshumer_/status/2119872098306810226",
+     "post_views": 169533,
+     "post_time_utc": "2026-11-09 19:17:48",
+     "library": null
+    }
+   ],
+   "library": null
+  },
+  {
+   "tweet_id": "2119868627885441389",
+   "link": "https://x.com/MatthewBerman/status/2119868627885441389",
+   "author": "Matthew Berman",
+   "handle": "MatthewBerman",
+   "publish_time_utc": "2026-11-09 19:04:00",
+   "text": "Fable 5.2 is absolutely insane.\n\nAnd yes, this is why I say Software is Solved.\n\nI've had early access and here are the most incredible demos I created 🧵👇 https://t.co/iDYzniRJba",
+   "views": 153628,
+   "likes": 2378,
+   "comments": 81,
+   "shares": 113,
+   "source_api": "for-you",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/iDYzniRJba",
+     "final": "https://twitter.com/MatthewBerman/status/2119868627885441389",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到 AI：fable、fable",
+    "作品合集类帖子，游戏可能在串内，需要看原帖"
+   ],
+   "judgment": {
+    "is_game": true,
+    "in_browser": null,
+    "ai_evidence": "帖子写明由 Fable 5.2 制作",
+    "note": "作品合集帖，串内有两段游戏演示（用 Unreal 做的射击游戏、类 Fall Guys 的多人游戏），都没有试玩链接",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "maybe",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 160887,
+    "created_at": "Mon Nov 09 19:04:00 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120191101801996669",
+   "link": "https://x.com/UnrealEngine/status/2120191101801996669",
+   "author": "Unreal Engine",
+   "handle": "UnrealEngine",
+   "publish_time_utc": "2026-11-10 16:25:24",
+   "text": "RT @toreler: UE5.9 running with Lumen in the browser.\n\nMeshBlend, FPOM and TileShuffle all working out of the box! https://t.co/zgFJHNUxeH",
+   "views": 1493,
+   "likes": 0,
+   "comments": 0,
+   "shares": 40,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：in the browser"
+   ],
+   "hit": {
+    "strong": [
+     "in the browser"
+    ],
+    "web": [
+     "in the browser"
+    ],
+    "ai": [],
+    "model": [],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/zgFJHNUxeH",
+     "final": "https://twitter.com/toreler/status/2119862440167145492",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到网页可玩：in the browser、in the browser"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "转发的引擎技术演示，不是一款游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120184770936397976",
+   "link": "https://x.com/UnrealEngine/status/2120184770936397976",
+   "author": "Unreal Engine",
+   "handle": "UnrealEngine",
+   "publish_time_utc": "2026-11-10 16:00:15",
+   "text": "No install. No high-powered workstation. Just a sim racing cockpit in your browser🏎️🏁\n\nSee how Unreal Engine Service Partner @TheNewFace_ii built Logitech G’s 360° Racing Studio with UE5 and Pixel Streaming: https://t.co/DdZot4EVGm https://t.co/hYMjh2C5j7",
+   "views": 5509,
+   "likes": 79,
+   "comments": 3,
+   "shares": 8,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：in your browser",
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [
+     "in your browser"
+    ],
+    "web": [
+     "in your browser",
+     "no install"
+    ],
+    "ai": [],
+    "model": [],
+    "game": [
+     "racing"
+    ],
+    "negative": [
+     "unreal"
+    ]
+   },
+   "links": [
+    {
+     "short": "https://t.co/DdZot4EVGm",
+     "final": "https://www.unrealengine.com/spotlights/beyond-the-product-page-logitech-g-s-360-racing-studio",
+     "code": 403,
+     "kind": "docs"
+    },
+    {
+     "short": "https://t.co/hYMjh2C5j7",
+     "final": "https://twitter.com/UnrealEngine/status/2120184770936397976",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "no",
+   "rule_reasons": [
+    "提到游戏：racing",
+    "提到网页可玩：in your browser、in your browser、no install",
+    "含排除词：unreal"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "品牌方的产品体验页宣传，不是游戏",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": null,
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120094175370551362",
+   "link": "https://x.com/thegamerwebsite/status/2120094175370551362",
+   "author": "TheGamer",
+   "handle": "thegamerwebsite",
+   "publish_time_utc": "2026-11-10 10:00:15",
+   "text": "Ocarina Of Time Remaster Now Has A Very Controversial Multiplayer Version https://t.co/WFkyNR9mHL https://t.co/fC8vKGDctS",
+   "views": 340,
+   "likes": 0,
+   "comments": 0,
+   "shares": 0,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "强关键词：multiplayer"
+   ],
+   "hit": {
+    "strong": [
+     "multiplayer"
+    ],
+    "web": [],
+    "ai": [],
+    "model": [],
+    "game": [
+     "multiplayer"
+    ],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://t.co/WFkyNR9mHL",
+     "final": "https://www.thegamer.com/ocarina-of-time-remaster-multiplayer-version/?taid=6af2eb2ed0eea10001e9aa78&utm_campaign=TrueAnthem-TG&utm_medium=Social-Distribution&utm_source=Twitter",
+     "code": 200,
+     "kind": "docs"
+    },
+    {
+     "short": "https://t.co/fC8vKGDctS",
+     "final": "https://twitter.com/thegamerwebsite/status/2120094175370551362",
+     "code": 200,
+     "kind": "social"
+    }
+   ],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：multiplayer",
+    "提到网页可玩：multiplayer"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "媒体报道，讲的是模拟器上的联机改版",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 405,
+    "created_at": "Tue Nov 10 10:00:15 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2119987129204047894",
+   "link": "https://x.com/levie/status/2119987129204047894",
+   "author": "Aaron Levie",
+   "handle": "levie",
+   "publish_time_utc": "2026-11-10 02:54:53",
+   "text": "It turns out the advancements we’re getting in coding and computer use, combined with industry specific understand and general reasoning, can bring automation to a large number of areas of knowledge work.\n\nWe’re entering the era of autonomous collaborators in a number of industries that haven’t yet had their claude code or codex moment yet. But now this is going to happen. \n\nWe’ll see it in animation, film production, gaming, manufacturing, architecture, product design, robotics, and more. All of these fields have the potential of driving far more output similar to what we’ve seen in software engineering. There’s no inherent finite demand for these categories of work.\n\n“Software is eating the world” is finally in a much bigger way happening because of AI.",
+   "views": 70881,
+   "likes": 522,
+   "comments": 122,
+   "shares": 37,
+   "source_api": "media-list",
+   "fetch_date": "2026-11-11",
+   "coarse_ways": [
+    "游戏 + 网页或 AI 关键词"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [
+     "claude",
+     "codex"
+    ],
+    "model": [
+     "claude",
+     "codex"
+    ],
+    "game": [
+     "gaming"
+    ],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到游戏：gaming",
+    "提到 AI：claude、codex、claude"
+   ],
+   "judgment": {
+    "is_game": false,
+    "in_browser": null,
+    "ai_evidence": "",
+    "note": "行业评论，和游戏无关",
+    "games": [],
+    "judged": "2026-11-11",
+    "by": "会话核验"
+   },
+   "verdict": "no",
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [
+     "https://x.com/claudeai/status/2119899459761131615"
+    ],
+    "views_now": 87608,
+    "created_at": "Tue Nov 10 02:54:53 +0000 2026",
+    "community_note": null
+   },
+   "games": [],
+   "library": null
+  }
+ ]
+}

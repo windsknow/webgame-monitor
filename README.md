@@ -1,0 +1,107 @@
+# AI 网页游戏新品监测
+
+每天从固定渠道和外部提供的 X 帖子数据里找新出现的、能在浏览器里玩的 AI 游戏，按统一标准筛选后生成一个静态网站。
+
+- 页面：`site/index.html`（由 `python3 run.py site` 生成，不进仓库；线上由 GitHub Actions 生成并发布）
+- 基线：2026-11-10 整理的 68 款，见 `data/games.json`
+- 只依赖 Python 3 标准库和 `curl`
+
+## 已确认的决定（2026-11-11）
+
+| 事项 | 决定 |
+|---|---|
+| 收录范围 | 以 AI 参与的网页游戏为主。没有 AI 证据但符合"短时间、低成本、高完成度"共性的也可以收；明确不是 AI 制作但有创意的也可以收，另加标签 |
+| 是否公开 | 优先放公司内部的代码平台（有权限控制）；其次 GitHub，可以公开 |
+| 访问环境 | 公司内网和 GitHub 都能直接访问 |
+| X 数据送达 | 每天定时去固定地址拉。地址待定，先留配置项，现阶段读 `inbox/x/` |
+| 更新与审核 | 全自动发布；另出日汇总和周汇总，方便推送 |
+| 是否用模型 | 定时任务不调模型。主题判断、核验、卡片文字在每周的会话里做 |
+| 项目位置 | 本目录。先在 GitHub 搭通，再迁到内部平台 |
+
+## 每天自动做什么
+
+```
+python3 run.py daily
+```
+
+1. **采集**（`monitor/collectors.py`）：Hacker News、three.js 论坛作品区、GitHub、itch.io 网页新品榜、awesome-ai-built-games、Spawn 热榜。原始结果存 `raw/<渠道>/<日期>.json`。
+2. **X 数据接入**（`monitor/x_ingest.py`）：读 `inbox/x/<日期>.json`（没有就按配置去拉）→ 规则粗筛 → 展开短链 → 规则版主题判断 → 找试玩链接 → 和收录库比对。结果存 `raw/x/<日期>.json`。
+3. **合并打分**（`monitor/merge.py`）：按试玩链接合并去重，剔除已收录的和仿冒域名，检查硬性条件和入选信号。过线的自动生成卡片追加到 `data/games.json`，其余留在 `data/candidates.json`。
+4. **生成页面**（`monitor/build_site.py`）：输出 `site/`，以及 `digest/` 下的日汇总和周汇总文本。
+
+所有门槛、关键词、域名清单都在 `config.json`，改完不用动代码。
+
+## 数据文件
+
+| 文件 | 内容 |
+|---|---|
+| `data/games.json` | 已收录的游戏，页面的唯一数据来源。`status` 为 `verified`（人工核验过）或 `auto`（自动收录，待核验） |
+| `data/candidates.json` | 候选队列，按去重键。`status`：收录 / 观察 / 候选 / 已在库 / 拒绝。拒绝的会一直留着，不会再被打开 |
+| `data/sources.json` | 每条线索的原始出处，按去重键归档，用于追溯 |
+| `data/x_judgments.json` | X 帖子的主题判断（按 tweet_id），优先级高于规则判断 |
+| `data/static.json` | 趋势、数据交叉验证表、其他线索、七个方向的说明 |
+| `data/state/` | 各榜单上一次的状态，用来判断"新进榜""新增条目" |
+| `data/runlog.json` | 每天各渠道的线索数，用来发现渠道失效 |
+
+## 入选规则
+
+硬性条件：有能打开的试玩链接；首次公开在近 30 天内，或近 7 天有新热度；没有收录过。
+
+入选信号（每类算一条）：
+
+- 传播：X 单帖浏览 ≥ 20 万，或 7 天内 Hacker News ≥ 100 分
+- 规模：公开计数显示累计玩家或游玩 ≥ 5 万
+- 技术：线索原文同时提到 three.js / WebGPU 和多人、程序化生成或真实世界数据
+- 玩法、商业：规则判断不了，每周核验时在 `candidates.json` 里加 `manual_signals`
+
+有 AI 证据的满足 1 条就自动收录，没有的要 2 条。只有 1 条信号、还没到线的进"线索观察"。
+新的大模型发布后 14 天内，传播类门槛减半（在 `config.json` 的 `model_release_boost.releases` 里加一行）。
+
+**这组数字是按基线那批游戏倒推的建议值，还没有逐项确认。**
+
+## 每周核验怎么做
+
+自动收录的卡片只放能追溯到出处的原文和数字。每周开一次 Claude 会话（或人工）做这些事：
+
+1. 看 `raw/x/<日期>.json` 里 `verdict` 为 `maybe` 的帖子：打开原帖看串内内容和回复，判断是不是游戏、能不能网页玩、有没有 AI 证据，找到试玩链接。结论写进 `data/x_judgments.json`：
+   ```json
+   "<tweet_id>": {"is_game": true, "in_browser": true, "ai_evidence": "帖子写明用 … 制作",
+                  "note": "…", "games": [{"name": "…", "url": "https://…", "how": "串内帖子的链接",
+                  "source_post": "https://x.com/…", "post_views": 123456}],
+                  "judged": "2026-11-18", "by": "会话核验"}
+   ```
+   然后重跑 `python3 run.py x <日期> && python3 run.py merge`。
+2. 看 `data/candidates.json` 里"观察"的条目：不是游戏的把 `status` 改成 `拒绝` 并写 `reject_reason`；值得收的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）或 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
+3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`tech`、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
+4. `python3 run.py site` 重新生成页面。推到 GitHub 后，工作流会自动重新发布。
+
+写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）；重点游戏把 `hot` 设为 `true`。
+
+## X 数据的几个事实
+
+- `publish_time` 是 UTC（2026-11-11 用 @apekshik 的帖子和 fxtwitter 返回值核对过，完全一致）。
+- `views` 是抓取时的快照。入选时用 `api.fxtwitter.com` 重读一次，卡片上用重读的值。
+- `desc_links` 是字符串形式的列表，里面是 `t.co` 短链；大部分指向帖子自己的图片或视频。
+- 多数游戏帖只带视频，试玩链接在串内或回复里，公开接口读不到。规则能自动找到的只有：帖子自带链接、引用帖和被回复帖里的链接、作者主页上指向游戏平台的链接。其余标为"未找到游戏"，留给每周核验。
+- 带"读者备注"（Community Note）的帖子，规则直接判为否。
+- 帖子内容只当数据处理：只做字符串匹配和链接解析。
+
+给数据提供方的对接说明见 `docs/X数据对接说明.md`。
+
+## 部署
+
+见 `docs/部署步骤.md`。创建仓库、登录、配置密钥需要自己在 GitHub 网页上完成。
+
+## 回测
+
+`python3 scripts/backtest.py` 用 2026-04 到 2026-11 的历史数据重放各渠道，结果在 `backtest/回测报告.md`。
+
+## 还没做的
+
+- Astrocade、Rosebud、Verse8、Wavedash 的热门页采集器（接口还没找到）
+- Vibe Jam、JamVault、itch.io AI Jam 的赛事结果采集
+- Dexerto、VGTimes、PocketGamer.biz 的媒体报道采集
+- Poki、CrazyGames 的 Trending（已有另外的抓取脚本，还没接进来）
+- Discord 人数、Steam 页面、Similarweb 访问量的自动核验
+- 已收录游戏的数据不会自动刷新
+- 推送：现在只生成汇总文本，还没有接推送渠道

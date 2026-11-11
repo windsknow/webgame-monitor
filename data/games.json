@@ -1,0 +1,2939 @@
+[
+ {
+  "id": "sf",
+  "name": "San Francisco -- The Game",
+  "kind": "整座城市开放世界",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "url": "https://sf.thijs.gg/",
+  "key": "sf.thijs.gg",
+  "date_text": "2026-08-24 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "610 分 / 172 评论",
+    "doubt": false
+   }
+  ],
+  "play": "用地图数据重建的整座旧金山。玩家可以在城市里自由行走、攀爬建筑、开车，并与其他玩家联机。",
+  "tech": "three.js + 地图数据；据报道数据取自 Apple Maps，由 Codex 辅助开发",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；技术栈为站点代码特征识别；开发者信息来自媒体报道",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "据报道数据取自 Apple Maps，由 Codex 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sf_icon.png",
+  "shot": "sf_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "hop",
+  "name": "Hop.Earth",
+  "kind": "真实地图赛车",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "url": "https://hop.earth/",
+  "key": "hop.earth",
+  "date_text": "2026-06-12 首次公开，8 月走红",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "90 分 / 49 评论",
+    "doubt": false
+   },
+   {
+    "label": "媒体",
+    "value": "Dexerto、Supercar Blondie 报道",
+    "doubt": false
+   }
+  ],
+  "play": "在真实世界地图上开车竞速，几乎可以去地球上任何地方，周围的世界边开边生成。支持多人同服和分享路线。",
+  "tech": "OpenStreetMap + 卫星高程数据，socket.io 联机",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；技术栈为站点代码特征识别",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "hop_icon.png",
+  "shot": "hop_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "worldstrike",
+  "name": "World Strike",
+  "kind": "真实街道多人坦克",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "url": "https://worldstrike.fun/",
+  "key": "worldstrike.fun",
+  "date_text": "2026-10-01 首次公开，11-06 走红",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "174 分 / 126 评论",
+    "doubt": false
+   },
+   {
+    "label": "周榜第一",
+    "value": "摧毁 537 栋建筑",
+    "doubt": false
+   }
+  ],
+  "play": "开着玩具坦克进入任意一座真实城市，和其他玩家一起把街上的建筑轰平。被摧毁的建筑对所有玩家同步，是一张共享的世界地图。",
+  "tech": "OpenStreetMap 真实街道数据",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；周榜数字来自社区讨论",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "worldstrike_icon.svg",
+  "shot": "worldstrike_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "roadarium",
+  "name": "Roadarium",
+  "kind": "真实城市驾驶模拟",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "url": "https://app.roadarium.com/",
+  "key": "app.roadarium.com",
+  "date_text": "2026-10-10 发布",
+  "stats": [
+   {
+    "label": "three.js 论坛",
+    "value": "939 次浏览",
+    "doubt": false
+   },
+   {
+    "label": "城市数",
+    "value": "119 座",
+    "doubt": false
+   }
+  ],
+  "play": "在浏览器里驾车穿行伦敦、纽约、巴黎、东京、基辅等 119 座真实城市的街道。车流、有轨电车和行人会遵守各国的交通规则，包括左行或右行。",
+  "tech": "three.js，场景由 OpenStreetMap 数据生成",
+  "xcheck": "",
+  "src": "three.js 官方论坛接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "roadarium_icon.png",
+  "shot": "roadarium_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "fullsend",
+  "name": "FULL SEND",
+  "kind": "真实赛道俯视角赛车",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "url": "https://fullsend.game/",
+  "key": "fullsend.game",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "stats": [
+   {
+    "label": "赛道",
+    "value": "23 条真实赛道",
+    "doubt": false
+   },
+   {
+    "label": "Vibe Jam 2026",
+    "value": "\"传送门跳转最多\"奖",
+    "doubt": false
+   }
+  ],
+  "play": "俯视角 2D 赛车，23 条赛道对应真实的 F1 举办地（墨尔本、上海、摩纳哥、银石、斯帕、蒙扎、新加坡等）。真实数据不只是装饰：赛道按真实赛道的位置和走向还原，周边的地表、水域等场景取自 OpenStreetMap 上该位置的地图数据，再画成俯视画面。有计时赛、多人对战和全球圈速榜，打开即玩。",
+  "tech": "HTML5 Canvas；OpenStreetMap 数据；WebRTC 联机；由 Cursor、Claude 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；赛道数据文件与站点版权声明",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "由 Cursor、Claude 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "fullsend_icon.png",
+  "shot": "fullsend_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "saltline",
+  "name": "Saltline",
+  "kind": "一句提示词生成的 FPS",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "date_text": "2026-11-09 发布",
+  "stats": [
+   {
+    "label": "作者帖浏览",
+    "value": "71.1 万",
+    "doubt": false
+   },
+   {
+    "label": "转述帖浏览",
+    "value": "82.6 万",
+    "doubt": false
+   },
+   {
+    "label": "生成成本",
+    "value": "约 550 美元",
+    "doubt": false
+   },
+   {
+    "label": "耗时",
+    "value": "8 小时",
+    "doubt": false
+   }
+  ],
+  "play": "雨夜货运港口里的第一人称射击：切断 3 个上行链路，然后登船撤离。作者用一句提示词让模型一次生成，全程没有人工反馈；模型、声音、贴图全部由代码从零生成，不下载任何素材。",
+  "tech": "Claude Fable 5.2 生成，以 Claude Artifact 形式发布",
+  "xcheck": "",
+  "src": "帖子数据读取自 X；成本与耗时为作者自述",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "Claude Fable 5.2 生成，以 Claude Artifact 形式发布",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "saltline_icon.png",
+  "shot": "saltline_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "felixrieseberg"
+  ],
+  "source_posts": [
+   "https://x.com/felixrieseberg/status/2119925633564463609"
+  ]
+ },
+ {
+  "id": "tidewater",
+  "name": "Tidewater",
+  "kind": "海岛钓鱼",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://dgreenheck.github.io/tidewater/",
+  "key": "dgreenheck.github.io/tidewater",
+  "date_text": "2026-09-23 发布",
+  "stats": [
+   {
+    "label": "首发帖浏览",
+    "value": "90 万",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1,447 星 / 316 分叉",
+    "doubt": false
+   },
+   {
+    "label": "按 API 价折算成本",
+    "value": "1,874 美元",
+    "doubt": false
+   },
+   {
+    "label": "开发耗时",
+    "value": "约 8 小时",
+    "doubt": false
+   }
+  ],
+  "play": "热带海岛钓鱼游戏：在码头、沙滩或自己的船上抛竿，和鱼搏斗，把鱼卖给鱼摊，再去买更好的渔具和船件。海浪、天空、云层、鲸鱼全部实时渲染，共 18 种加勒比鱼类。开发者称几乎没有给技术指导，99% 的提示词都是\"加上某某\"或\"这里看起来怪，改好一点\"。值得注意的是它中途换了底层：首发演示版用 three.js 制作，发布后约一个半小时，开发者让 AI 把整套渲染移植到自写的原生 WebGPU 引擎，随后又做了一轮优化，帧率从 60 提到 100。开发者给出的理由是\"让 AI 有更多控制权\"，并说原以为 three.js 的代码在训练数据里更常见、换掉后 AI 会吃力，结果\"一点没卡壳\"。",
+  "tech": "首发版 three.js（TSL），现为自写的原生 WebGPU + WGSL 引擎；由 Claude Opus 5.5 开发；音效和部分模型来自 CC0 素材库；仅支持桌面浏览器",
+  "xcheck": "",
+  "src": "帖子数据与开发者说明读取自 X；GitHub 接口与提交记录；成本按 API 价格折算，开发者实际使用的是每月 200 美元的订阅",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "由 Claude Opus 5.5 开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "tidewater_icon.png",
+  "shot": "tidewater_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "dangreenheck"
+  ],
+  "source_posts": [
+   "https://x.com/dangreenheck/status/2102878170089169235",
+   "https://x.com/dangreenheck/status/2103004432786993341"
+  ]
+ },
+ {
+  "id": "undersphere",
+  "name": "Undersphere",
+  "kind": "球内壁多人 FPS",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://playundersphere.com/",
+  "key": "playundersphere.com",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "\"独特概念\"奖",
+    "doubt": false
+   }
+  ],
+  "play": "战场是一个球体的内壁，重力方向随位置变化。多人第一人称射击。",
+  "tech": "three.js + WebSocket",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；技术栈为站点代码特征识别",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "Vibe Jam 官方获奖名单",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "undersphere_icon.png",
+  "shot": "undersphere_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "longwind",
+  "name": "长风 Long Wind",
+  "kind": "实时武侠动作",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://jbang2004.github.io/long-wind/",
+  "key": "jbang2004.github.io/long-wind",
+  "date_text": "2026-09-26 开源",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "119 星",
+    "doubt": false
+   }
+  ],
+  "play": "黄昏草原上的独行剑客。浏览器里的实时武侠动作游戏，有草原、竹林等场景。",
+  "tech": "three.js；作者称全部代码由 Claude 编写",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "作者称全部代码由 Claude 编写",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "longwind_icon.png",
+  "shot": "longwind_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "voxelmusou",
+  "name": "趙雲 Voxel Musou",
+  "kind": "体素无双",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://voxel-musou.vercel.app/",
+  "key": "voxel-musou.vercel.app",
+  "date_text": "2026-09-24 开源",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "171 星",
+    "doubt": false
+   }
+  ],
+  "play": "体素风格的\"无双\"割草：扮演赵云，一人对阵 300 名士兵。",
+  "tech": "three.js，无构建步骤",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "voxelmusou_icon.png",
+  "shot": "voxelmusou_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "fm1",
+  "name": "Formula Minus One",
+  "kind": "未来赛车",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://fm1.app/",
+  "key": "fm1.app",
+  "date_text": "公开测试中",
+  "stats": [
+   {
+    "label": "状态",
+    "value": "免费公测，已开 Steam 页",
+    "doubt": false
+   }
+  ],
+  "play": "致敬 F-Zero 和 Wipeout 的高速未来赛车。测试期间免费，无需注册，进度保存在浏览器里。",
+  "tech": "three.js WebGPU，由 Codex、Claude 辅助开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；官网页面",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js WebGPU，由 Codex、Claude 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "fm1_icon.png",
+  "shot": "fm1_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "halcyon",
+  "name": "Halcyon",
+  "kind": "热带环礁漫游",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://halcyon.billpwchan.art/",
+  "key": "halcyon.billpwchan.art",
+  "date_text": "上线日期未公开",
+  "stats": [
+   {
+    "label": "内容规模",
+    "value": "4.3 万株扫描植物",
+    "doubt": false
+   }
+  ],
+  "play": "在一座热带环礁上步行、游泳、航行、飞行，从日出一直到夜晚的荧光海。山体来自真实激光雷达数据，海面是 FFT 海洋模拟。",
+  "tech": "three.js，由 Claude Code 辅助开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；开源仓库",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 Claude Code 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "halcyon_icon.png",
+  "shot": "halcyon_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "keikoku",
+  "name": "焚き火日和 Keikoku Camp",
+  "kind": "零素材露营模拟",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://keikoku-camp.vercel.app/",
+  "key": "keikoku-camp.vercel.app",
+  "date_text": "2026-08-28 发布",
+  "stats": [
+   {
+    "label": "three.js 论坛",
+    "value": "454 次浏览",
+    "doubt": false
+   },
+   {
+    "label": "素材文件",
+    "value": "0 个",
+    "doubt": false
+   }
+  ],
+  "play": "日本秋季河谷里的露营模拟：搭帐篷、劈柴生火、用饭盒煮饭。整个游戏没有任何图片、模型或音频文件，全部在加载时由代码生成。材质来自一套程序化纹理库：布料按经纬线的编织结构生成，烤火台是轧钢的纹理，木柴截面是放射状的年轮；凹凸细节从高度图推算，磨损按物体表面的曲率计算。篝火用体积渲染，颜色按黑体辐射公式计算，同时充当夜间的光源。声音全部实时合成：火的噼啪声是随机过程，河水是四层噪声，秋虫只在日落后鸣叫。作者自评离照片级还有差距：让三个大模型盲评截图，20 张全部被判为\"业余项目\"。",
+  "tech": "three.js + Rapier 物理引擎，约 130 个源文件；仅支持桌面浏览器",
+  "xcheck": "",
+  "src": "three.js 官方论坛接口",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "作者自评离照片级还有差距：让三个大模型盲评截图，20 张全部被判为\"业余项目\"",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "keikoku_icon.png",
+  "shot": "keikoku_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "neonzenith",
+  "name": "Neon Zenith 霓虹天頂",
+  "kind": "赛博都市驾驶与飞行",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "url": "https://zenith.billpwchan.art/",
+  "key": "zenith.billpwchan.art",
+  "date_text": "2026-10-03 开源",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "68 星",
+    "doubt": false
+   },
+   {
+    "label": "建筑数",
+    "value": "9,373 栋",
+    "doubt": false
+   }
+  ],
+  "play": "以香港庙街夜市为起点的虚构雨夜都市，并非基于真实地图：庙街一段在 Blender 里逐栋手工搭建，其余按建筑规则生成，共 9,373 栋楼。从街面开车出发，升空穿过楼群和雷暴云层，最高可以降落在 1,418 米的塔尖上。有限时挑战和隐藏收集物。",
+  "tech": "three.js WebGPU + TSL，庙街场景用 Blender 制作；据 AI 游戏精选清单，由 Claude Code 辅助开发",
+  "xcheck": "",
+  "src": "GitHub 接口；AI 游戏精选清单",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "据 AI 游戏精选清单，由 Claude Code 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "neonzenith_icon.svg",
+  "shot": "neonzenith_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "pokebonk",
+  "name": "PokéBonk",
+  "kind": "IP 同人 + 经典玩法",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://pokebonk.com/",
+  "key": "pokebonk.com",
+  "date_text": "2026-10-14 公布",
+  "stats": [
+   {
+    "label": "官方 Discord",
+    "value": "37,069 人",
+    "doubt": false
+   },
+   {
+    "label": "Discord 在线",
+    "value": "7,522 人",
+    "doubt": false
+   },
+   {
+    "label": "首发帖浏览",
+    "value": "109 万",
+    "doubt": false
+   },
+   {
+    "label": "语言",
+    "value": "10 种",
+    "doubt": false
+   }
+  ],
+  "play": "玩法复刻 Megabonk（一款 3D 幸存者类游戏），角色换成宝可梦：选一只初始宝可梦，对抗成群的野生宝可梦，进化、放大招、解锁联盟。含关都 151 只，支持手机触屏；11-04 起进入第 3 赛季并加入第二世代，另有每日变异规则和合作模式测试。宝可梦的动画和头像来自社区同人素材项目 PMD SpriteCollab（CC BY-NC 4.0，仅限非商业使用），数值、招式和叫声来自 PokeAPI；场景、3D 模型、特效和音乐由开发者用图像、音频生成工具和 Blender 制作。完全免费，没有广告、内购和捐赠；非官方作品，声明版权方提出要求后 72 小时内下线。",
+  "tech": "需要 WebGL",
+  "xcheck": "热度属实。上线半个月，Similarweb 显示 10 月访问量约 1,231 万次、全球排名第 6,322，约为老牌网页射击游戏 Krunker.io 的 4 倍。",
+  "src": "Discord 公开邀请接口（2026-11-10）；帖子数据读取自 X；素材来源与下线承诺见官网法律声明页；10 月访问量来自 Similarweb",
+  "hot": true,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "pokebonk_icon.png",
+  "shot": "pokebonk_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "ImCharcher"
+  ],
+  "source_posts": [
+   "https://x.com/ImCharcher/status/2110395400914092426"
+  ]
+ },
+ {
+  "id": "lagoslife",
+  "name": "Lagos Life",
+  "kind": "《模拟人生》式玩法 + 本地题材",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://lagoslife.app/",
+  "key": "lagoslife.app",
+  "date_text": "2026-10-01 上线",
+  "stats": [
+   {
+    "label": "首发帖浏览",
+    "value": "607 万",
+    "doubt": false
+   },
+   {
+    "label": "官方称累计玩家",
+    "value": "1,160 万",
+    "doubt": false
+   },
+   {
+    "label": "接口监测日活",
+    "value": "约 25–31 万",
+    "doubt": false
+   },
+   {
+    "label": "融资",
+    "value": "50 万美元",
+    "doubt": false
+   }
+  ],
+  "play": "玩法高度接近《模拟人生》：创建角色时选外观、性格特质和人生梦想；饥饿、精力、卫生、膀胱、娱乐、社交六项需求随时间下降，要靠吃饭、睡觉、上班、社交来维持；可以找工作、租房买房、开店。创始人最初就把它叫作\"Lagos Life Sims\"。题材换成了尼日利亚的拉各斯：坐小巴、吃街头小吃、去夜店、应付停电，地图上有 146 个以真实地标命名的地点，但场景是用通用低多边形素材搭的，没有使用真实地图数据。玩家之间可以聊天、加好友、组帮派、结婚，真实品牌可以购买游戏内的广告牌和地块。",
+  "tech": "three.js + Next.js，浏览器直接游玩；据媒体报道，第一版由创始人一人借助 AI 工具在一夜之间完成",
+  "xcheck": "官方数字偏高。Similarweb 显示 10 月全月访问量约 739 万次，低于官方的\"累计玩家 1,160 万\"；折算后与接口监测到的 25–31 万日活相符。",
+  "src": "首发帖数据读取自 X；累计玩家为官方口径；日活为 2026-11-02 至 11-09 对官网公开接口的连续监测；融资为官方宣布（估值 1,000 万美元）；10 月访问量来自 Similarweb",
+  "hot": true,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "lagoslife_icon.png",
+  "shot": "lagoslife_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "Shalom_HeyEliy"
+  ],
+  "source_posts": [
+   "https://x.com/Shalom_HeyEliy/status/2105541070486470749"
+  ]
+ },
+ {
+  "id": "claudecraft",
+  "name": "World of ClaudeCraft",
+  "kind": "经典 MMO 玩法复刻",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://worldofclaudecraft.com/",
+  "key": "worldofclaudecraft.com",
+  "date_text": "2026-06 首次公开",
+  "stats": [
+   {
+    "label": "官方 Discord",
+    "value": "8,097 人",
+    "doubt": false
+   },
+   {
+    "label": "Discord 在线",
+    "value": "1,164 人",
+    "doubt": false
+   },
+   {
+    "label": "Hacker News",
+    "value": "94 分",
+    "doubt": false
+   }
+  ],
+  "play": "名字和玩法都在致敬经典时期的《魔兽世界》的免费网页 MMORPG：9 个职业、任务、地下城、团队副本和 PvP，无需下载。项目开源。它带有一个可选的加密代币，热度可能受此影响。",
+  "tech": "three.js，由 Claude 辅助开发",
+  "xcheck": "实际游玩热度有限。Similarweb 显示 10 月访问量约 3.1 万次，社区人数不等于玩家规模。",
+  "src": "Discord 公开邀请接口（2026-11-10）；Hacker News 官方接口；10 月访问量来自 Similarweb",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 Claude 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "claudecraft_icon.png",
+  "shot": "claudecraft_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "bf1942",
+  "name": "战地 1942 网页多人版",
+  "kind": "经典老游戏移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://levels.io/decompiled-battlefield-1942-web-multiplayer",
+  "key": "levels.io/decompiled-battlefield-1942-web-multiplayer",
+  "date_text": "2026-11-02 发布",
+  "stats": [
+   {
+    "label": "作者",
+    "value": "Pieter Levels",
+    "doubt": false
+   }
+  ],
+  "play": "独立开发者 Pieter Levels 把《战地 1942》反编译后放上网页，打开浏览器就能多人对战。",
+  "tech": "反编译 + 网页多人",
+  "xcheck": "",
+  "src": "开发者博客",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "bf1942_icon.png",
+  "shot": "bf1942_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "threequake",
+  "name": "Three.js Quake",
+  "kind": "经典老游戏移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://mrdoob.github.io/three-quake/",
+  "key": "mrdoob.github.io/three-quake",
+  "date_text": "上线日期未公开",
+  "stats": [
+   {
+    "label": "作者",
+    "value": "three.js 创始人 mrdoob",
+    "doubt": false
+   }
+  ],
+  "play": "three.js 的作者本人用 Claude 把 Quake 共享版完整移植进浏览器，打开网页即可游玩第一章。",
+  "tech": "three.js，由 Claude 辅助移植",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；页面实测可运行",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 Claude 辅助移植",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "threequake_icon.png",
+  "shot": "threequake_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "quakerust",
+  "name": "Quake-SRP",
+  "kind": "经典老游戏移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://quake-srp.pages.dev/",
+  "key": "quake-srp.pages.dev",
+  "date_text": "2026-10-09 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "241 分 / 182 评论",
+    "doubt": false
+   }
+  ],
+  "play": "1996 年的 Quake 被完整移植到无依赖的安全 Rust，再编译成 WebAssembly，可以在浏览器里玩共享版第一章。",
+  "tech": "Rust → WebAssembly",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；画面取自开发者发布的 YouTube 演示视频",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "quakerust_icon.png",
+  "shot": "quakerust_shot.jpg",
+  "extra_shots": [
+   "quakerust_x1.jpg",
+   "quakerust_x2.jpg"
+  ],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "queep",
+  "name": "Quake 3（WebGPU 版）",
+  "kind": "经典老游戏移植（现代渲染）",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://github.com/Usnul/queep-3-arena",
+  "key": "github.com/usnul/queep-3-arena",
+  "date_text": "2026-08-28 发布",
+  "stats": [
+   {
+    "label": "three.js 论坛",
+    "value": "649 次浏览",
+    "doubt": false
+   }
+  ],
+  "play": "Quake III Arena 的 WebGPU 移植，加入全局光照、PBR 材质、粒子、贴花和现代物理，单场景 326 盏灯。",
+  "tech": "WebGPU，自研 meep 引擎",
+  "xcheck": "",
+  "src": "three.js 官方论坛接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "queep_icon.png",
+  "shot": "queep_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "ps2",
+  "name": "PS2 游戏网页重编译",
+  "kind": "主机老游戏移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://github.com/snuri00/ps2-web-recomp",
+  "key": "github.com/snuri00/ps2-web-recomp",
+  "date_text": "2026-10-12 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "316 分 / 159 评论",
+    "doubt": false
+   }
+  ],
+  "play": "把 PS2 游戏静态重编译成 WebAssembly，配合原生运行时直接在浏览器里运行，不是传统模拟器。",
+  "tech": "静态重编译 → WebAssembly",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "ps2_icon.png",
+  "shot": "ps2_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "scam",
+  "name": "Scam With Your Friends（网页版）",
+  "kind": "新游戏快速复刻",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "url": "https://scam.gamefun.world/",
+  "key": "scam.gamefun.world",
+  "date_text": "2026-10-09 开源",
+  "stats": [
+   {
+    "label": "原作 Steam 测试",
+    "value": "9-20 至 10-15",
+    "doubt": false
+   },
+   {
+    "label": "测试期在线峰值",
+    "value": "477 人（10-13）",
+    "doubt": false
+   },
+   {
+    "label": "网页版开源",
+    "value": "10-09，早于发售 6 天",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "249 星 / 28 分叉",
+    "doubt": false
+   }
+  ],
+  "play": "和朋友合作经营一家诈骗电话中心，接听由 AI 扮演的来电者。原作是 Steam 独立游戏《Scam With Your Friends》，9-20 开始测试，10-13 测试期在线达到 477 人，10-15 结束测试并正式发售。这个网页版是非官方的开源复刻（MIT 许可）：从时间线看，作者是在测试期间看到玩法后照着重新实现的，10-09 就开源上线，比正式发售早 6 天；开源当天提交 31 次，10-13 补上了战役和合作功能，到 10-31 共提交 56 次。它是重新实现，不是反编译；仓库没有说明开发耗时，也没有说明是否使用了 AI 编程工具。",
+  "tech": "React + three.js + Cloudflare Workers；来电者有离线脚本，也可接入大模型自由对话；带距离语音",
+  "xcheck": "",
+  "src": "GitHub 接口与仓库说明；Steam 商店页；Steam 测试期在线数据",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "来电者有离线脚本，也可接入大模型自由对话",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "scam_icon.png",
+  "shot": "scam_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "dimension9",
+  "name": "Backrooms: Dimension 9",
+  "kind": "多人后室恐怖",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "url": "https://dimension9.space/",
+  "key": "dimension9.space",
+  "date_text": "2026-11-06 上线",
+  "stats": [
+   {
+    "label": "3 天独立玩家",
+    "value": "约 7 万",
+    "doubt": false
+   },
+   {
+    "label": "开发者称峰值在线",
+    "value": "约 1,200 人",
+    "doubt": false
+   },
+   {
+    "label": "11-10 在线连接",
+    "value": "271",
+    "doubt": false
+   },
+   {
+    "label": "首发帖浏览",
+    "value": "22.8 万",
+    "doubt": false
+   }
+  ],
+  "play": "一个人开发的多人网页恐怖游戏，题材是\"后室\"。玩家在不断新增的房间里探索，躲避怪物，附近的玩家可以直接语音交流；全服共享一本\"发现图鉴\"。新房间由 AI 批量生成、开发者审核后上线。每个世界 200 人。",
+  "tech": "WebSocket + WebRTC 距离语音；内容由 Claude Opus 5.5 生成；手机可玩",
+  "xcheck": "",
+  "src": "独立玩家数与在线数读取自游戏服务器公开计数接口（2026-11-10）；峰值在线为开发者自述",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "内容由 Claude Opus 5.5 生成",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "dimension9_icon.png",
+  "shot": "dimension9_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "apekshik"
+  ],
+  "source_posts": [
+   "https://x.com/apekshik/status/2118847014071120179",
+   "https://x.com/apekshik/status/2119517930300076261"
+  ]
+ },
+ {
+  "id": "capybara",
+  "name": "A Game About Capybaras Delivering Food",
+  "kind": "多人开放世界送外卖",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "url": "https://capybara-vibejam26.leocoout.dev/",
+  "key": "capybara-vibejam26.leocoout.dev",
+  "date_text": "Vibe Jam 2026 冠军（06-17 公布）",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "945 款中第 1 名",
+    "doubt": false
+   },
+   {
+    "label": "奖金",
+    "value": "2.5 万美元",
+    "doubt": false
+   },
+   {
+    "label": "存档站显示游玩",
+    "value": "6,600 次",
+    "doubt": false
+   }
+  ],
+  "play": "温馨的多人开放世界：扮演水豚外卖员，在里约风格的城市里接单、去便利店采购、骑小摩托送货，路上别把叠成塔的水果弄掉。玩家实时联机，能在街上看到其他玩家的车，有在线玩家列表，支持多人合送订单；游戏内的手机带地图、音乐、排行榜和消息应用。",
+  "tech": "three.js + WebSocket，由 Claude Code 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；游玩数为 JamVault 显示值；联机功能为站点代码特征识别",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js + WebSocket，由 Claude Code 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "capybara_icon.png",
+  "shot": "capybara_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "fanto",
+  "name": "Fanto's Mega-Mart",
+  "kind": "多人超市竞速",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "url": "https://wavedash.com/games/fantos-mega-mart",
+  "key": "wavedash.com/games/fantos-mega-mart",
+  "date_text": "Vibe Jam 2026 亚军（06-17 公布）",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "第 2 名",
+    "doubt": false
+   },
+   {
+    "label": "奖金",
+    "value": "1 万美元",
+    "doubt": false
+   },
+   {
+    "label": "存档站显示游玩",
+    "value": "1,400 次",
+    "doubt": false
+   },
+   {
+    "label": "现托管于",
+    "value": "Wavedash 平台",
+    "doubt": false
+   }
+  ],
+  "play": "在闹鬼的超市里以火箭速度抢购的竞速游戏。有多人比赛房间、每月更新的地图、幽灵回放（和自己或别人的上一局比）和贴纸收集。获奖后已从独立站点迁到 Wavedash 平台。",
+  "tech": "three.js，由 OpenAI Codex 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；原站点的迁移公告；联机功能为站点代码特征识别",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 OpenAI Codex 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "fanto_icon.png",
+  "shot": "fanto_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "dirtbound",
+  "name": "DirtBound",
+  "kind": "拉力赛车（含多人房间）",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "url": "https://dirtbound.fr/",
+  "key": "dirtbound.fr",
+  "date_text": "2026-10-17 发布",
+  "stats": [
+   {
+    "label": "three.js 论坛",
+    "value": "1,333 次浏览，近 3 个月作品区第 1",
+    "doubt": false
+   }
+  ],
+  "play": "免费的浏览器拉力赛：无限生成的赛段和可自己设计赛道的编辑器。除单人模式外，有经典和实验两类多人房间，另有每日挑战、排行榜和可以追赶的幽灵车。低多边形画风。",
+  "tech": "three.js",
+  "xcheck": "",
+  "src": "three.js 官方论坛接口；多人功能为站点代码特征识别",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "dirtbound_icon.png",
+  "shot": "dirtbound_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "bashfighter",
+  "name": "Bash Fighter",
+  "kind": "20 人平台乱斗",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "url": "https://bashfighter.com/",
+  "key": "bashfighter.com",
+  "date_text": "上线日期未公开",
+  "stats": [
+   {
+    "label": "单场人数",
+    "value": "最多 20 人",
+    "doubt": false
+   }
+  ],
+  "play": "类\"大乱斗\"的平台格斗：20 名玩家和机器人在同一个擂台上把对方打出场外，受伤越重飞得越远，每局擂台不同。免费开源，自称由 AI 智能体端到端开发和运营。",
+  "tech": "PixiJS，由 Claude 开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；官网页面",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "PixiJS，由 Claude 开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "bashfighter_icon.png",
+  "shot": "bashfighter_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "uncracked",
+  "name": "Uncracked City",
+  "kind": "审问 AI 嫌疑人",
+  "group": "把大模型当作玩法本身",
+  "group_type": "direction",
+  "url": "https://uncracked.city/",
+  "key": "uncracked.city",
+  "date_text": "2026-11-03 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "127 分 / 69 评论",
+    "doubt": false
+   }
+  ],
+  "play": "设定在真实城市里的侦探游戏：搜查地点、审问嫌疑人、识破谎言，写出一份还没人写出来的结案报告。嫌疑人由大模型扮演，而且会说谎。",
+  "tech": "大模型驱动的对话",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "大模型是玩法的一部分",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "uncracked_icon.png",
+  "shot": "uncracked_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "callyoulater",
+  "name": "I'll Call You Later",
+  "kind": "可以走进去的短片",
+  "group": "把大模型当作玩法本身",
+  "group_type": "direction",
+  "url": "https://film.jashtechno.com/",
+  "key": "film.jashtechno.com",
+  "date_text": "2026-10-15 发布",
+  "stats": [
+   {
+    "label": "three.js 论坛",
+    "value": "243 次浏览",
+    "doubt": false
+   }
+  ],
+  "play": "一部做成 3D 世界的互动短片：夜晚街头的一辆车、一个红灯、一通电话。观众可以随时暂停\"走进去\"，还能和片中角色对话。个人开发。",
+  "tech": "React Three Fiber + three.js",
+  "xcheck": "",
+  "src": "three.js 官方论坛接口",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "大模型是玩法的一部分",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "callyoulater_icon.png",
+  "shot": "callyoulater_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "magical",
+  "name": "MAGICAL.EXE",
+  "kind": "终端里的魔法少女 RPG",
+  "group": "把大模型当作玩法本身",
+  "group_type": "direction",
+  "url": "https://magical-exe.redmint.studio/",
+  "key": "magical-exe.redmint.studio",
+  "date_text": "上线日期未公开",
+  "stats": [
+   {
+    "label": "特点",
+    "value": "AI 旁白",
+    "doubt": false
+   }
+  ],
+  "play": "温馨的魔法少女 RPG，界面是一个假终端：输入命令探索城市、清理被污染的地下城，战斗靠掷骰子，由 AI 担任旁白。",
+  "tech": "由 Claude Code 辅助开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；官网页面",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "大模型是玩法的一部分",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "magical_icon.png",
+  "shot": "magical_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "wenware",
+  "name": "WenWare",
+  "kind": "历史场景竞猜",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "url": "https://wen-ware.com/",
+  "key": "wen-ware.com",
+  "date_text": "2026-04 首次公开，06-17 获奖",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "第 3 名 + 游玩最多奖",
+    "doubt": false
+   },
+   {
+    "label": "存档站显示游玩",
+    "value": "89 万次",
+    "doubt": false
+   }
+  ],
+  "play": "进入一张 360° 的历史场景，猜这是哪里、哪一年。提交后按与正确答案的地理距离和年代差距分别打分，几轮加总后进入排名，成绩可以分享。整届 Vibe Jam 里唯一明显破圈的作品，游玩数是冠军的 130 多倍。",
+  "tech": "three.js，由 Codex 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；游玩数为 JamVault 存档站显示值，统计口径未公开",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 Codex 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "wenware_icon.png",
+  "shot": "wenware_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "gerrymandle",
+  "name": "Gerrymandle",
+  "kind": "每日划选区",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "url": "https://gerrymandle.cc/",
+  "key": "gerrymandle.cc",
+  "date_text": "2026-06-18 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "244 分 / 77 评论",
+    "doubt": false
+   }
+  ],
+  "play": "每天一道\"划选区\"谜题：重新画出选区边界，让自己的政党拿到最多席位。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "gerrymandle_icon.png",
+  "shot": "gerrymandle_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "wonderhop",
+  "name": "Wonderhop",
+  "kind": "每日猜大众答案",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "url": "https://wonderhop.io/en/",
+  "key": "wonderhop.io",
+  "date_text": "2026-10-13 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "124 分 / 98 评论",
+    "doubt": false
+   }
+  ],
+  "play": "每日问卷游戏：要么答出\"大多数人都会说\"的答案，要么答出\"没有人会说\"的答案。每天 4 局，每题 30–40 秒，不用注册。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "wonderhop_icon.png",
+  "shot": "wonderhop_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "swervle",
+  "name": "Swervle",
+  "kind": "每日赛车",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "url": "https://swervle.com/",
+  "key": "swervle.com",
+  "date_text": "不晚于 2026-08 上线",
+  "stats": [
+   {
+    "label": "形式",
+    "value": "每天一条新赛道",
+    "doubt": false
+   }
+  ],
+  "play": "Wordle 式的赛车游戏：每天一条程序生成的 90 秒新路线，所有人跑同一条。",
+  "tech": "three.js，由 GPT、Claude 辅助开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；官网页面",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 GPT、Claude 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "swervle_icon.png",
+  "shot": "swervle_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "worrrrld",
+  "name": "Worrrrld!",
+  "kind": "一局定胜负的好友挑战",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "url": "https://www.worrrrld.com/",
+  "key": "worrrrld.com",
+  "date_text": "上线日期未公开",
+  "stats": [
+   {
+    "label": "单局时长",
+    "value": "约 30 秒",
+    "doubt": false
+   }
+  ],
+  "play": "玩一局 30 秒的小游戏，然后把挑战链接发给朋友，对方玩完全相同的一局，比谁分高。",
+  "tech": "Next.js，由 Claude Code 辅助开发",
+  "xcheck": "",
+  "src": "AI 游戏精选清单；官网页面",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "Next.js，由 Claude Code 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "worrrrld_icon.png",
+  "shot": "worrrrld_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "tinywind",
+  "name": "TinyWind",
+  "kind": "像素海盗航海",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "url": "https://tinywind.io/",
+  "key": "tinywind.io",
+  "date_text": "2026-06-13 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "1,038 分 / 192 评论",
+    "doubt": false
+   },
+   {
+    "label": "玩家累计航行",
+    "value": "38 万公里",
+    "doubt": false
+   }
+  ],
+  "play": "创意点把真实的帆船物理做成核心操作。风从哪边来决定你能往哪走，要靠横风航行、迎风换舷、顺风换舷这些真实动作来甩开皇家海军，而不是按方向键直走。像素画面，7 座岛屿，每趟航程约 5 分钟。个人开发，是近 5 个月 Hacker News 上得分最高的游戏帖。",
+  "tech": "浏览器免安装",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；航行里程为开发者自述",
+  "hot": true,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "tinywind_icon.svg",
+  "shot": "tinywind_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "housing",
+  "name": "Discretionary Review",
+  "kind": "讽刺向城市建设",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "url": "https://housing.over.pizza/",
+  "key": "housing.over.pizza",
+  "date_text": "2026-10-10 发布",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "558 分 / 201 评论",
+    "doubt": false
+   }
+  ],
+  "play": "创意点把城市建设游戏反过来做。这类游戏里城市通常任你规划，这里的城市\"并不希望你建\"，玩家要面对的是限高、区议员选区、业主政治和市政厅。用游戏机制讽刺旧金山、洛杉矶、纽约的住房难题，游戏名是旧金山一项规划复审程序的名称。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": true,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "housing_icon.png",
+  "shot": "housing_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "weball",
+  "name": "Weball",
+  "kind": "在网页上滚雪球",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "url": "https://www.funwithcomputervision.com/weball/",
+  "key": "funwithcomputervision.com/weball",
+  "date_text": "2026-10-18 走红",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "308 分",
+    "doubt": false
+   }
+  ],
+  "play": "创意点把任意网页变成游戏关卡。可以玩预设关卡，也可以输入任意网址；页面上的文字、图片都成了可以被球粘走的物体，像\"块魂\"一样越滚越大。关卡内容来自整个互联网，不需要开发者自己做。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "weball_icon.svg",
+  "shot": "weball_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "messenger",
+  "name": "Messenger",
+  "kind": "小星球送信",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "url": "https://messenger.abeto.co/",
+  "key": "messenger.abeto.co",
+  "date_text": "2025-09 发布，2026-06 再度走红",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "2,131 分",
+    "doubt": false
+   },
+   {
+    "label": "媒体",
+    "value": "Dexerto 报道",
+    "doubt": false
+   }
+  ],
+  "play": "创意点把整个游戏世界做成一颗几分钟就能走一圈的小星球。没有战斗和失败，只是步行、认识居民、替他们送信。体量很小但美术完成度很高，发布数月后因其他游戏开发者转发而再次走红。",
+  "tech": "WebGL",
+  "xcheck": "",
+  "src": "Hacker News 官方接口；媒体报道",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "messenger_icon.png",
+  "shot": "messenger_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_stranglethorn",
+  "name": "Escape from Stranglethorn",
+  "kind": "搜打撤 RPG",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@izkimar/escape-from-stranglethorn",
+  "key": "spawn.co/@izkimar/escape-from-stranglethorn",
+  "date_text": "2026-10-23 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "90,732",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "591",
+    "doubt": false
+   },
+   {
+    "label": "两周迭代",
+    "value": "7,323 个版本",
+    "doubt": false
+   }
+  ],
+  "play": "9 个职业可选，进入丛林搜集财宝、对抗敌人，完成撤离仪式后把战利品带回港口。可单人或三人组队。平台游玩数第 1。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_stranglethorn_icon.png",
+  "shot": "sp_stranglethorn_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "Izkimar"
+  ],
+  "source_posts": []
+ },
+ {
+  "id": "sp_league",
+  "name": "League of Spawn",
+  "kind": "5v5 MOBA",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@izkimar/league-of-spawn",
+  "key": "spawn.co/@izkimar/league-of-spawn",
+  "date_text": "2026-10-05 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "14,098",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "308",
+    "doubt": false
+   },
+   {
+    "label": "评论",
+    "value": "95",
+    "doubt": false
+   }
+  ],
+  "play": "第三人称 5v5 MOBA：技能需要手动瞄准，沿三条兵线推塔，摧毁对方主基地获胜。说明对话式创作已经能做出完整的 MOBA。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_league_icon.png",
+  "shot": "sp_league_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "Izkimar"
+  ],
+  "source_posts": []
+ },
+ {
+  "id": "sp_fabling",
+  "name": "Fabling Park",
+  "kind": "魔法动物园经营",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@smallzero/fabling-park",
+  "key": "spawn.co/@smallzero/fabling-park",
+  "date_text": "2026-10-31 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "7,800",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "211",
+    "doubt": false
+   }
+  ],
+  "play": "经营一座魔法动物园：圈出栖息地，领养 40 种原创生物，雇佣员工，让游客满意。可以在经营视角和第一人称巡园视角之间切换。平台内少见的原创题材。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_fabling_icon.png",
+  "shot": "sp_fabling_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_inkblade",
+  "name": "INKBLADE",
+  "kind": "墨迹动作冒险",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@gfta/inkblade",
+  "key": "spawn.co/@gfta/inkblade",
+  "date_text": "2026-09-27 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "1,546",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "73",
+    "doubt": false
+   },
+   {
+    "label": "评论",
+    "value": "126，平台最高",
+    "doubt": false
+   }
+  ],
+  "play": "挥剑或长矛砍向涂鸦怪物，溅出的墨迹会永久留在\"纸页\"上。共五章，可以骑乘长颈坐骑，最终对决\"橡皮擦\"。榜单里创意最突出的一款。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_inkblade_icon.png",
+  "shot": "sp_inkblade_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_dust2",
+  "name": "Dust 2 DM",
+  "kind": "死斗射击",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@tiger/dust-2-dm",
+  "key": "spawn.co/@tiger/dust-2-dm",
+  "date_text": "2026-09-28 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "58,952",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "1,435",
+    "doubt": false
+   }
+  ],
+  "play": "在 Dust II 地图上的死斗：AK、手枪、匕首，9 个机器人分四档难度，3 秒复活，先拿 30 杀获胜。平台点赞数第 1。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_dust2_icon.png",
+  "shot": "sp_dust2_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_shogun",
+  "name": "Shogun's Fate",
+  "kind": "策略 MMO",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@poisoncode/shogun-s-fate",
+  "key": "spawn.co/@poisoncode/shogun-s-fate",
+  "date_text": "2026-10-26 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "19,876",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "54",
+    "doubt": false
+   }
+  ],
+  "play": "在一个持续运转的封建帝国里建设、招兵、开战，从资源管理到军事决策，一步步成为将军。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_shogun_icon.png",
+  "shot": "sp_shogun_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_underground",
+  "name": "UNDERGROUND WARFARE",
+  "kind": "竞技场射击",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@retro/underground-warfare",
+  "key": "spawn.co/@retro/underground-warfare",
+  "date_text": "2026-10-31 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "19,732",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "721",
+    "doubt": false
+   }
+  ],
+  "play": "地下场景的竞技场射击，上线 10 天进入平台前四。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_underground_icon.png",
+  "shot": "sp_underground_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sp_diablo",
+  "name": "Diablo Survivors",
+  "kind": "幸存者类",
+  "group": "Spawn",
+  "group_type": "platform",
+  "url": "https://www.spawn.co/@izkimar/diablo-survivors",
+  "key": "spawn.co/@izkimar/diablo-survivors",
+  "date_text": "2026-10-20 上线",
+  "stats": [
+   {
+    "label": "游玩",
+    "value": "5,231",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "177",
+    "doubt": false
+   }
+  ],
+  "play": "在篝火旁选一名英雄，穿过传送门迎战不断涌来的怪群，闪避、施法、领取祝福，撑到第 7 分钟的 Boss 出现。最多 4 人合作。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Spawn 公开接口（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sp_diablo_icon.png",
+  "shot": "sp_diablo_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [
+   "Izkimar"
+  ],
+  "source_posts": []
+ },
+ {
+  "id": "v8_mine8",
+  "name": "Mine8",
+  "kind": "水晶采矿",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/j7s8R9Q",
+  "key": "verse8.io/j7s8r9q",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "3,450,243",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "1,170",
+    "doubt": false
+   }
+  ],
+  "play": "水晶采矿题材的冒险小游戏，平台游玩数第 1。平台页没有提供更详细的玩法介绍。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_mine8_icon.png",
+  "shot": "v8_mine8_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "v8_ldw",
+  "name": "Last Dungeon Wars",
+  "kind": "英雄防守",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/H8U6v7y",
+  "key": "verse8.io/h8u6v7y",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "1,311,125",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "620",
+    "doubt": false
+   }
+  ],
+  "play": "指挥英雄抵挡一波波涌来的敌人：拖动英雄调整阵线，释放技能，击败巨型 Boss 并培养传说英雄。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_ldw_icon.png",
+  "shot": "v8_ldw_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "v8_snake",
+  "name": "Snake Wars",
+  "kind": "贪吃蛇对战",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/n6y4e2T",
+  "key": "verse8.io/n6y4e2t",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "1,210,602",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "619",
+    "doubt": false
+   }
+  ],
+  "play": "贪吃蛇题材的对战小游戏。平台页没有提供更详细的玩法介绍。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_snake_icon.png",
+  "shot": "v8_snake_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "v8_food",
+  "name": "Food Slicer",
+  "kind": "切水果式街机",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/y7d9D8v",
+  "key": "verse8.io/y7d9d8v",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "1,194,741",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "362",
+    "doubt": false
+   }
+  ],
+  "play": "用手指或鼠标划过屏幕，切开 70 多种食物的动作街机游戏。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_food_icon.png",
+  "shot": "v8_food_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "v8_ani",
+  "name": "The Ani Protocol",
+  "kind": "钓鱼冲榜",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/V4g5s4k",
+  "key": "verse8.io/v4g5s4k",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "1,115,057",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "433",
+    "doubt": false
+   }
+  ],
+  "play": "跟着角色 Ani 去钓鱼：尽可能多地钓上鱼来冲排行榜，升级更高阶的鱼竿以钓到更大的鱼。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_ani_icon.png",
+  "shot": "v8_ani_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "v8_cold",
+  "name": "Cold Steel Adventure",
+  "kind": "策略 RPG",
+  "group": "Verse8",
+  "group_type": "platform",
+  "url": "https://verse8.io/f8i5y4r",
+  "key": "verse8.io/f8i5y4r",
+  "date_text": "上线日期平台未显示",
+  "stats": [
+   {
+    "label": "游玩（口径存疑）",
+    "value": "1,074,134",
+    "doubt": false
+   },
+   {
+    "label": "点赞",
+    "value": "157",
+    "doubt": false
+   }
+  ],
+  "play": "策略 RPG：从被流放者起步，招募传奇英雄、建设据点、指挥军队，逐步征服三个王国。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Verse8 首页排行（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "v8_cold_icon.png",
+  "shot": "v8_cold_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "as_egg",
+  "name": "Steal an egg",
+  "kind": "偷蛋养宠",
+  "group": "Astrocade",
+  "group_type": "platform",
+  "url": "https://www.astrocade.com/games/steal-an-egg/01M2W8RGATG81XEA5YCQ35ZDNS",
+  "key": "astrocade.com/games/steal-an-egg/01m2w8rgatg81xea5ycq35zdns",
+  "date_text": "2026-09-19 上线",
+  "stats": [
+   {
+    "label": "热门页计数",
+    "value": "110 万",
+    "doubt": false
+   }
+  ],
+  "play": "看你能扛多大的蛋回家：偷蛋、甩开守卫、孵出稀有宠物。热门榜第 1。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 热门页（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "as_egg_icon.png",
+  "shot": "as_egg_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "as_nds",
+  "name": "Natural Disaster Survival",
+  "kind": "灾害生存",
+  "group": "Astrocade",
+  "group_type": "platform",
+  "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+  "key": "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+  "date_text": "2026-10-16 上线",
+  "stats": [
+   {
+    "label": "热门页计数",
+    "value": "80.6 万",
+    "doubt": false
+   }
+  ],
+  "play": "在 10 张岛屿地图上躲过龙卷风、海啸、陨石等 12 种自然灾害，比机器人对手活得更久，赚金币、冲生存榜。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 热门页（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "as_nds_icon.png",
+  "shot": "as_nds_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "as_forge",
+  "name": "Forge Beyond",
+  "kind": "养成刷宝",
+  "group": "Astrocade",
+  "group_type": "platform",
+  "url": "https://www.astrocade.com/games/forge-beyond/01M4013XDHF10RVPJJ0MR4TZ1E",
+  "key": "astrocade.com/games/forge-beyond/01m4013xdhf10rvpjj0mr4tz1e",
+  "date_text": "2026-10-03 上线",
+  "stats": [
+   {
+    "label": "热门页计数",
+    "value": "50 万",
+    "doubt": false
+   }
+  ],
+  "play": "训练英雄、挑战地下城、锻造装备，收集宠物并解锁种族能力，一路打到新的世界。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 热门页（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "as_forge_icon.png",
+  "shot": "as_forge_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "as_squishy",
+  "name": "Astro Squishy Studio",
+  "kind": "史莱姆 ASMR",
+  "group": "Astrocade",
+  "group_type": "platform",
+  "url": "https://www.astrocade.com/games/astro-squishy-studio-make-your-own-squishy/01M6H4GQ4G904G7952W61BR5YF",
+  "key": "astrocade.com/games/astro-squishy-studio-make-your-own-squishy/01m6h4gq4g904g7952w61br5yf",
+  "date_text": "2026-11-03 上线",
+  "stats": [
+   {
+    "label": "热门页计数",
+    "value": "27.1 万",
+    "doubt": false
+   }
+  ],
+  "play": "DIY 史莱姆模拟：倒胶水、加活化剂、搅拌、选颜色、撒亮片，然后拉伸、揉捏、戳泡泡。上线一周。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 热门页（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "as_squishy_icon.png",
+  "shot": "as_squishy_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "as_rich",
+  "name": "Rich or Poor Runner",
+  "kind": "选择跑酷",
+  "group": "Astrocade",
+  "group_type": "platform",
+  "url": "https://www.astrocade.com/games/rich-or-poor-runner/01M65BWQDWENFEH5KFJY29HBAE",
+  "key": "astrocade.com/games/rich-or-poor-runner/01m65bwqdwenfeh5kfjy29hbae",
+  "date_text": "2026-10-30 上线",
+  "stats": [
+   {
+    "label": "热门页计数",
+    "value": "23.5 万",
+    "doubt": false
+   }
+  ],
+  "play": "从穷光蛋一路跑成亿万富翁：捡钱、躲账单、做选择，角色外形随财富变化，终点住进你买得起的房子。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 热门页（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "as_rich_icon.png",
+  "shot": "as_rich_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "rb_superhot",
+  "name": "SUPERHOT MARIO",
+  "kind": "时间静止平台跳跃",
+  "group": "Rosebud AI",
+  "group_type": "platform",
+  "url": "https://rosebud.ai/play/superhot-mario",
+  "key": "rosebud.ai/play/superhot-mario",
+  "date_text": "最近更新 2026-10-05",
+  "stats": [
+   {
+    "label": "榜单",
+    "value": "首页精选",
+    "doubt": false
+   }
+  ],
+  "play": "只有你移动时时间才流动的 3D 平台跳跃，把马里奥和 SUPERHOT 的机制拼在一起：站住不动，子弹就停在半空。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Rosebud 首页精选榜（2026-11-10）",
+  "hot": true,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Rosebud AI",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "rb_superhot_icon.png",
+  "shot": "rb_superhot_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "rb_chiikawa",
+  "name": "Chiikawa Bonk",
+  "kind": "吉伊卡哇幸存者",
+  "group": "Rosebud AI",
+  "group_type": "platform",
+  "url": "https://rosebud.ai/play/chiikawa-bonk",
+  "key": "rosebud.ai/play/chiikawa-bonk",
+  "date_text": "最近更新 2026-11-03",
+  "stats": [
+   {
+    "label": "榜单",
+    "value": "首页精选",
+    "doubt": false
+   }
+  ],
+  "play": "可爱画风的 Megabonk 式幸存者：从三个角色里选一个，敲打成群的杂草怪，升级武器，击败 Boss。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Rosebud 首页精选榜（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Rosebud AI",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "rb_chiikawa_icon.png",
+  "shot": "rb_chiikawa_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "rb_finger",
+  "name": "Finger Haunt",
+  "kind": "闹鬼酒店 FPS",
+  "group": "Rosebud AI",
+  "group_type": "platform",
+  "url": "https://rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+  "key": "rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+  "date_text": "最近更新 2026-10-02",
+  "stats": [
+   {
+    "label": "榜单",
+    "value": "首页精选",
+    "doubt": false
+   }
+  ],
+  "play": "单人生存射击：在闹鬼的酒店里用\"手指枪\"对付愤怒的幽灵。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Rosebud 首页精选榜（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Rosebud AI",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "rb_finger_icon.png",
+  "shot": "rb_finger_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "rb_passengers",
+  "name": "ATTENTION PASSENGERS",
+  "kind": "空难求生",
+  "group": "Rosebud AI",
+  "group_type": "platform",
+  "url": "https://rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+  "key": "rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+  "date_text": "最近更新 2026-08-13",
+  "stats": [
+   {
+    "label": "榜单",
+    "value": "首页精选",
+    "doubt": false
+   }
+  ],
+  "play": "物理驱动的空难求生：躲开碎片和各种灾难，抓住其他乘客，撑到坠机结束。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Rosebud 首页精选榜（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Rosebud AI",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "rb_passengers_icon.png",
+  "shot": "rb_passengers_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "rb_sir",
+  "name": "Sir Falls-A-Lot",
+  "kind": "骑士攀塔",
+  "group": "Rosebud AI",
+  "group_type": "platform",
+  "url": "https://rosebud.ai/play/laavatorni",
+  "key": "rosebud.ai/play/laavatorni",
+  "date_text": "最近更新 2026-10-15",
+  "stats": [
+   {
+    "label": "榜单",
+    "value": "首页精选第 1",
+    "doubt": false
+   }
+  ],
+  "play": "攀登高塔的动作游戏。平台页的介绍只有一句\"征服高塔\"，没有更详细的玩法说明。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Rosebud 首页精选榜（2026-11-10）",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Rosebud AI",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "rb_sir_icon.png",
+  "shot": "rb_sir_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "farworlds",
+  "name": "Far Worlds",
+  "kind": "方块合作 RPG",
+  "group": "Wavedash 与 Far Worlds",
+  "group_type": "platform",
+  "url": "https://farworlds.com/",
+  "key": "farworlds.com",
+  "date_text": "Alpha 测试中",
+  "stats": [
+   {
+    "label": "组队",
+    "value": "最多 8 人",
+    "doubt": false
+   },
+   {
+    "label": "技能",
+    "value": "12 项，最高 99 级",
+    "doubt": false
+   }
+  ],
+  "play": "由方块构成的类 MMORPG 合作 RPG：在家园营地备战，出发前往每次都不同的新世界，带着战利品回来升级装备、扩建营地。钓鱼、采矿、战斗、制作等 12 项技能边用边升级。网页、PC、Mac、手机都能玩。原 HYTOPIA 平台改名而来。",
+  "tech": "浏览器体素引擎",
+  "xcheck": "",
+  "src": "官网页面（2026-11-10）",
+  "hot": true,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "farworlds_icon.png",
+  "shot": "farworlds_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "sumbasurf",
+  "name": "SumbaSurf",
+  "kind": "冲浪运动",
+  "group": "Wavedash 与 Far Worlds",
+  "group_type": "platform",
+  "url": "https://wavedash.com/games/sumbasurf",
+  "key": "wavedash.com/games/sumbasurf",
+  "date_text": "封面上传于 2026-09",
+  "stats": [
+   {
+    "label": "平台实时在线",
+    "value": "100 人，热门第 1",
+    "doubt": false
+   }
+  ],
+  "play": "免费的冲浪运动游戏，可以挑战 Pipeline、Teahupo'o 等著名浪点。Wavedash 当前在线人数最多的游戏。",
+  "tech": "",
+  "xcheck": "",
+  "src": "Wavedash 首页热门栏（2026-11-10）",
+  "hot": false,
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "sumbasurf_icon.png",
+  "shot": "sumbasurf_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "tinyskies",
+  "name": "Tiny Skies",
+  "kind": "微型世界探索",
+  "group": "Vibe Jam 2026 其他获奖作品",
+  "group_type": "platform",
+  "url": "https://tinyskies.vercel.app/",
+  "key": "tinyskies.vercel.app",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "\"最精致\"奖",
+    "doubt": false
+   },
+   {
+    "label": "存档站显示游玩",
+    "value": "1.1 万次",
+    "doubt": false
+   }
+  ],
+  "play": "温馨的探索游戏：开双翼机、坐魔毯或划船环游一个小小的世界，点亮五座永恒火盆，把它从月亮的威胁下救出来。支持多人。",
+  "tech": "three.js，由 Cursor 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；游玩数为 JamVault 显示值",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "three.js，由 Cursor 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "tinyskies_icon.png",
+  "shot": "tinyskies_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "haldane",
+  "name": "HALDANE-4",
+  "kind": "ASCII 恐怖故事",
+  "group": "Vibe Jam 2026 其他获奖作品",
+  "group_type": "platform",
+  "url": "https://haldane4.denisbondare.com/",
+  "key": "haldane4.denisbondare.com",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "stats": [
+   {
+    "label": "Vibe Jam 2026",
+    "value": "\"最具原创性\"奖",
+    "doubt": false
+   },
+   {
+    "label": "存档站显示游玩",
+    "value": "3,300 次",
+    "doubt": false
+   }
+  ],
+  "play": "纯字符画面的短篇恐怖故事：独自潜入南极冰架之下的南大洋深处。",
+  "tech": "HTML5 Canvas，由 Cursor 辅助开发",
+  "xcheck": "",
+  "src": "Vibe Jam 官方获奖名单；游玩数为 JamVault 显示值",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "HTML5 Canvas，由 Cursor 辅助开发",
+  "status": "verified",
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "基线报告"
+  },
+  "added": "2026-11-10",
+  "issue": "基线",
+  "icon": "haldane_icon.svg",
+  "shot": "haldane_shot.jpg",
+  "extra_shots": [],
+  "sources": [],
+  "x_handles": [],
+  "source_posts": []
+ },
+ {
+  "id": "earth",
+  "name": "Earth",
+  "kind": "可破坏的\"镜像地球\"",
+  "group": "待归类",
+  "group_type": "pending",
+  "url": "https://www.spawn.co/@mattshumer/earth",
+  "key": "spawn.co/@mattshumer/earth",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "X 帖子浏览",
+    "value": "39.8 万",
+    "doubt": false
+   }
+  ],
+  "play": "作者把它称为\"镜像地球\"：可以去任何地方、破坏任何东西，天气等状态与真实地球实时对应。这些是作者帖子里的说法，尚未试玩核实。",
+  "quote": "Play Earth by @mattshumer on Spawn, free in your browser.",
+  "quote_src": "页面自述",
+  "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
+  "xcheck": "",
+  "src": "帖子数据读取自 X（2026-11-11 读取）；玩法为作者自述",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "added": "2026-11-11",
+  "issue": "2026-11-09",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 39.8 万"
+   }
+  ],
+  "icon": "earth_icon.ico",
+  "shot": "earth_shot.jpg",
+  "extra_shots": [],
+  "sources": [
+   {
+    "channel": "x",
+    "url": "https://x.com/mattshumer_/status/2119877065701036047",
+    "date": "2026-11-11",
+    "metrics": {
+     "x_views": 398464,
+     "x_likes": null
+    }
+   }
+  ],
+  "x_handles": [
+   "mattshumer_"
+  ],
+  "source_posts": [
+   "https://x.com/mattshumer_/status/2119877065701036047"
+  ],
+  "text_by": "据来源帖子和平台页面整理，未试玩"
+ },
+ {
+  "id": "hogwarts-royale",
+  "name": "Hogwarts Royale",
+  "kind": "霍格沃茨大逃杀",
+  "group": "待归类",
+  "group_type": "pending",
+  "url": "https://www.spawn.co/@mattshumer/hogwarts-royale",
+  "key": "spawn.co/@mattshumer/hogwarts-royale",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "X 帖子浏览",
+    "value": "17 万",
+    "doubt": false
+   }
+  ],
+  "play": "以霍格沃茨为背景的大逃杀：空降入场，找到魔杖，在缩圈中活到最后。作者给模型的要求是\"把《哈利·波特》和《堡垒之夜》混在一起\"。玩法取自平台页面的介绍，尚未试玩核实。",
+  "quote": "A battle royale at Hogwarts: drop in, find a wand, outlast the ring.",
+  "quote_src": "页面自述",
+  "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
+  "xcheck": "",
+  "src": "帖子数据读取自 X（2026-11-11 读取）；玩法取自平台页面介绍和作者帖子",
+  "hot": false,
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "added": "2026-11-11",
+  "issue": "2026-11-09",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 17 万（新模型发布后两周内，门槛减半）"
+   }
+  ],
+  "icon": "hogwarts-royale_icon.ico",
+  "shot": "hogwarts-royale_shot.jpg",
+  "extra_shots": [],
+  "sources": [
+   {
+    "channel": "x",
+    "url": "https://x.com/mattshumer_/status/2119872098306810226",
+    "date": "2026-11-11",
+    "metrics": {
+     "x_views": 169533,
+     "x_likes": null
+    }
+   }
+  ],
+  "x_handles": [
+   "mattshumer_"
+  ],
+  "source_posts": [
+   "https://x.com/mattshumer_/status/2119872098306810226"
+  ],
+  "text_by": "据来源帖子和平台页面整理，未试玩"
+ }
+]
