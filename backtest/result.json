@@ -1,0 +1,1004 @@
+{
+ "sf": {
+  "name": "San Francisco -- The Game",
+  "group": "把真实世界做成游戏",
+  "url": "https://sf.thijs.gg/",
+  "date_text": "2026-08-24 发布",
+  "hits": {
+   "hn": {
+    "points": 610,
+    "date": "2026-08-24",
+    "url": "https://news.ycombinator.com/item?id=49422784",
+    "title": "The entire city of San Francisco as a video game"
+   },
+   "hn_direct": {
+    "points": 610,
+    "date": "2026-08-24",
+    "title": "The entire city of San Francisco as a video game",
+    "url": "https://news.ycombinator.com/item?id=49422784"
+   },
+   "awesome": {
+    "name": "San Francisco -- The Game"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "hop": {
+  "name": "Hop.Earth",
+  "group": "把真实世界做成游戏",
+  "url": "https://hop.earth/",
+  "date_text": "2026-06-12 首次公开，8 月走红",
+  "hits": {
+   "hn": {
+    "points": 90,
+    "date": "2026-08-04",
+    "url": "https://news.ycombinator.com/item?id=49172405",
+    "title": "Hop.earth – OpenStreetMap based car racing game"
+   },
+   "hn_direct": {
+    "points": 90,
+    "date": "2026-08-04",
+    "title": "Hop.earth – OpenStreetMap based car racing game",
+    "url": "https://news.ycombinator.com/item?id=49172405"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "worldstrike": {
+  "name": "World Strike",
+  "group": "把真实世界做成游戏",
+  "url": "https://worldstrike.fun/",
+  "date_text": "2026-10-01 首次公开，11-06 走红",
+  "hits": {
+   "hn": {
+    "points": 175,
+    "date": "2026-11-06",
+    "url": "https://news.ycombinator.com/item?id=50389420",
+    "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap"
+   },
+   "hn_direct": {
+    "points": 175,
+    "date": "2026-11-06",
+    "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+    "url": "https://news.ycombinator.com/item?id=50389420"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "roadarium": {
+  "name": "Roadarium",
+  "group": "把真实世界做成游戏",
+  "url": "https://app.roadarium.com/",
+  "date_text": "2026-10-10 发布",
+  "hits": {
+   "threejs": {
+    "views": 969,
+    "date": "2026-10-10",
+    "url": "https://discourse.threejs.org/t/roadarium-drive-the-real-streets-of-119-cities-in-your-browser/95169"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "fullsend": {
+  "name": "FULL SEND",
+  "group": "把真实世界做成游戏",
+  "url": "https://fullsend.game/",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "hits": {
+   "awesome": {
+    "name": "FULL SEND"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "saltline": {
+  "name": "Saltline",
+  "group": "端游级3D 美术表现力",
+  "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+  "date_text": "2026-11-09 发布",
+  "hits": {
+   "hn_direct": {
+    "points": 69,
+    "date": "2026-11-10",
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "url": "https://news.ycombinator.com/item?id=50444850"
+   },
+   "x": {
+    "posts": [
+     "https://x.com/midudev/status/2120163317889347853",
+     "https://x.com/mahluukat/status/2120086512549458322",
+     "https://x.com/0ooooo0/status/2119985854450204968"
+    ]
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "tidewater": {
+  "name": "Tidewater",
+  "group": "端游级3D 美术表现力",
+  "url": "https://dgreenheck.github.io/tidewater/",
+  "date_text": "2026-09-23 发布",
+  "hits": {
+   "hn_direct": {
+    "points": 2,
+    "date": "2026-09-24",
+    "title": "Tidewater Island Fishing Game",
+    "url": "https://news.ycombinator.com/item?id=49834073"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "undersphere": {
+  "name": "Undersphere",
+  "group": "端游级3D 美术表现力",
+  "url": "https://playundersphere.com/",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "hits": {
+   "awesome": {
+    "name": "Undersphere"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "longwind": {
+  "name": "长风 Long Wind",
+  "group": "端游级3D 美术表现力",
+  "url": "https://jbang2004.github.io/long-wind/",
+  "date_text": "2026-09-26 开源",
+  "hits": {
+   "github": {
+    "stars": 120,
+    "date": "2026-09-26",
+    "url": "https://github.com/jbang2004/long-wind"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "voxelmusou": {
+  "name": "趙雲 Voxel Musou",
+  "group": "端游级3D 美术表现力",
+  "url": "https://voxel-musou.vercel.app/",
+  "date_text": "2026-09-24 开源",
+  "hits": {
+   "github": {
+    "stars": 173,
+    "date": "2026-09-24",
+    "url": "https://github.com/mike007jd/voxel-musou"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "fm1": {
+  "name": "Formula Minus One",
+  "group": "端游级3D 美术表现力",
+  "url": "https://fm1.app/",
+  "date_text": "公开测试中",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "首发在 X 或媒体，固定渠道里没有出现；要靠 X 数据覆盖到开发者账号"
+ },
+ "halcyon": {
+  "name": "Halcyon",
+  "group": "端游级3D 美术表现力",
+  "url": "https://halcyon.billpwchan.art/",
+  "date_text": "上线日期未公开",
+  "hits": {
+   "awesome": {
+    "name": "Halcyon"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "keikoku": {
+  "name": "焚き火日和 Keikoku Camp",
+  "group": "端游级3D 美术表现力",
+  "url": "https://keikoku-camp.vercel.app/",
+  "date_text": "2026-08-28 发布",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "首发在 X 或媒体，固定渠道里没有出现；要靠 X 数据覆盖到开发者账号"
+ },
+ "neonzenith": {
+  "name": "Neon Zenith 霓虹天頂",
+  "group": "端游级3D 美术表现力",
+  "url": "https://zenith.billpwchan.art/",
+  "date_text": "2026-10-03 开源",
+  "hits": {
+   "github": {
+    "stars": 70,
+    "date": "2026-10-03",
+    "url": "https://github.com/billpwchan/neon-zenith"
+   },
+   "awesome": {
+    "name": "Neon Zenith"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "pokebonk": {
+  "name": "PokéBonk",
+  "group": "游戏复刻与反编译",
+  "url": "https://pokebonk.com/",
+  "date_text": "2026-10-14 公布",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "首发在 X 或媒体，固定渠道里没有出现；要靠 X 数据覆盖到开发者账号"
+ },
+ "lagoslife": {
+  "name": "Lagos Life",
+  "group": "游戏复刻与反编译",
+  "url": "https://lagoslife.app/",
+  "date_text": "2026-10-01 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "首发在 X 或媒体，固定渠道里没有出现；要靠 X 数据覆盖到开发者账号"
+ },
+ "claudecraft": {
+  "name": "World of ClaudeCraft",
+  "group": "游戏复刻与反编译",
+  "url": "https://worldofclaudecraft.com/",
+  "date_text": "2026-06 首次公开",
+  "hits": {
+   "hn": {
+    "points": 94,
+    "date": "2026-06-12",
+    "url": "https://news.ycombinator.com/item?id=48509143",
+    "title": "Mmorpg World of ClaudeCraft, vibe coded with Fable 5"
+   },
+   "hn_direct": {
+    "points": 94,
+    "date": "2026-06-12",
+    "title": "Mmorpg World of ClaudeCraft, vibe coded with Fable 5",
+    "url": "https://news.ycombinator.com/item?id=48509143"
+   },
+   "awesome": {
+    "name": "World of ClaudeCraft"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "bf1942": {
+  "name": "战地 1942 网页多人版",
+  "group": "游戏复刻与反编译",
+  "url": "https://levels.io/decompiled-battlefield-1942-web-multiplayer",
+  "date_text": "2026-11-02 发布",
+  "hits": {
+   "hn_direct": {
+    "points": 6,
+    "date": "2026-11-06",
+    "title": "Decompiled Battlefield 1942 running on the browser",
+    "url": "https://news.ycombinator.com/item?id=50393849"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "threequake": {
+  "name": "Three.js Quake",
+  "group": "游戏复刻与反编译",
+  "url": "https://mrdoob.github.io/three-quake/",
+  "date_text": "上线日期未公开",
+  "hits": {
+   "hn_direct": {
+    "points": 5,
+    "date": "2026-02-02",
+    "title": "Quake in the browser using JavaScript and Three.js",
+    "url": "https://news.ycombinator.com/item?id=46858003"
+   },
+   "awesome": {
+    "name": "Three.js Quake"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "quakerust": {
+  "name": "Quake-SRP",
+  "group": "游戏复刻与反编译",
+  "url": "https://quake-srp.pages.dev/",
+  "date_text": "2026-10-09 发布",
+  "hits": {
+   "hn_direct": {
+    "points": 241,
+    "date": "2026-10-09",
+    "title": "Show HN: Quake ported to safe Rust, playable in browser",
+    "url": "https://news.ycombinator.com/item?id=50016312"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "queep": {
+  "name": "Quake 3（WebGPU 版）",
+  "group": "游戏复刻与反编译",
+  "url": "https://github.com/Usnul/queep-3-arena",
+  "date_text": "2026-08-28 发布",
+  "hits": {
+   "threejs": {
+    "views": 652,
+    "date": "2026-08-28",
+    "url": "https://discourse.threejs.org/t/quake-3-in-webgpu/93863"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "ps2": {
+  "name": "PS2 游戏网页重编译",
+  "group": "游戏复刻与反编译",
+  "url": "https://github.com/snuri00/ps2-web-recomp",
+  "date_text": "2026-10-12 发布",
+  "hits": {
+   "hn": {
+    "points": 316,
+    "date": "2026-10-12",
+    "url": "https://news.ycombinator.com/item?id=50052251",
+    "title": "Show HN: PS2 games statically recompiled to WebAssembly"
+   },
+   "hn_direct": {
+    "points": 316,
+    "date": "2026-10-12",
+    "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+    "url": "https://news.ycombinator.com/item?id=50052251"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "scam": {
+  "name": "Scam With Your Friends（网页版）",
+  "group": "游戏复刻与反编译",
+  "url": "https://scam.gamefun.world/",
+  "date_text": "2026-10-09 开源",
+  "hits": {
+   "github": {
+    "stars": 249,
+    "date": "2026-10-09",
+    "url": "https://github.com/mrzh7/scam-with-your-friends-web"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "dimension9": {
+  "name": "Backrooms: Dimension 9",
+  "group": "多人在线交互",
+  "url": "https://dimension9.space/",
+  "date_text": "2026-11-06 上线",
+  "hits": {
+   "x": {
+    "posts": [
+     "https://x.com/apekshik/status/2119517930300076261"
+    ]
+   }
+  },
+  "x_author_in_feed": [
+   "apekshik"
+  ],
+  "found": true,
+  "passed": true
+ },
+ "capybara": {
+  "name": "A Game About Capybaras Delivering Food",
+  "group": "多人在线交互",
+  "url": "https://capybara-vibejam26.leocoout.dev/",
+  "date_text": "Vibe Jam 2026 冠军（06-17 公布）",
+  "hits": {
+   "awesome": {
+    "name": "A Game About Capybaras Delivering Food"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "fanto": {
+  "name": "Fanto's Mega-Mart",
+  "group": "多人在线交互",
+  "url": "https://wavedash.com/games/fantos-mega-mart",
+  "date_text": "Vibe Jam 2026 亚军（06-17 公布）",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Wavedash 热门页还没有采集器"
+ },
+ "dirtbound": {
+  "name": "DirtBound",
+  "group": "多人在线交互",
+  "url": "https://dirtbound.fr/",
+  "date_text": "2026-10-17 发布",
+  "hits": {
+   "threejs": {
+    "views": 1349,
+    "date": "2026-10-17",
+    "url": "https://discourse.threejs.org/t/dirtbound-a-low-poly-rally-racing-game-in-the-browser/95452"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "bashfighter": {
+  "name": "Bash Fighter",
+  "group": "多人在线交互",
+  "url": "https://bashfighter.com/",
+  "date_text": "上线日期未公开",
+  "hits": {
+   "awesome": {
+    "name": "Bash Fighter"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "uncracked": {
+  "name": "Uncracked City",
+  "group": "把大模型当作玩法本身",
+  "url": "https://uncracked.city/",
+  "date_text": "2026-11-03 发布",
+  "hits": {
+   "hn": {
+    "points": 128,
+    "date": "2026-11-03",
+    "url": "https://news.ycombinator.com/item?id=50358352",
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
+   },
+   "hn_direct": {
+    "points": 128,
+    "date": "2026-11-03",
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "url": "https://news.ycombinator.com/item?id=50358352"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "callyoulater": {
+  "name": "I'll Call You Later",
+  "group": "把大模型当作玩法本身",
+  "url": "https://film.jashtechno.com/",
+  "date_text": "2026-10-15 发布",
+  "hits": {
+   "hn_direct": {
+    "points": 4,
+    "date": "2026-10-15",
+    "title": "Show HN: I'll Call You Later, an interactive 3D browser short film",
+    "url": "https://news.ycombinator.com/item?id=50098087"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "magical": {
+  "name": "MAGICAL.EXE",
+  "group": "把大模型当作玩法本身",
+  "url": "https://magical-exe.redmint.studio/",
+  "date_text": "上线日期未公开",
+  "hits": {
+   "awesome": {
+    "name": "MAGICAL.EXE"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "wenware": {
+  "name": "WenWare",
+  "group": "休闲益智与分享比拼",
+  "url": "https://wen-ware.com/",
+  "date_text": "2026-04 首次公开，06-17 获奖",
+  "hits": {
+   "hn_direct": {
+    "points": 2,
+    "date": "2026-04-27",
+    "title": "WenWare",
+    "url": "https://news.ycombinator.com/item?id=47923193"
+   },
+   "awesome": {
+    "name": "WenWare"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "gerrymandle": {
+  "name": "Gerrymandle",
+  "group": "休闲益智与分享比拼",
+  "url": "https://gerrymandle.cc/",
+  "date_text": "2026-06-18 发布",
+  "hits": {
+   "hn": {
+    "points": 244,
+    "date": "2026-06-18",
+    "url": "https://news.ycombinator.com/item?id=48585739",
+    "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts"
+   },
+   "hn_direct": {
+    "points": 244,
+    "date": "2026-06-18",
+    "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
+    "url": "https://news.ycombinator.com/item?id=48585739"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "wonderhop": {
+  "name": "Wonderhop",
+  "group": "休闲益智与分享比拼",
+  "url": "https://wonderhop.io/en/",
+  "date_text": "2026-10-13 发布",
+  "hits": {
+   "hn": {
+    "points": 124,
+    "date": "2026-10-13",
+    "url": "https://news.ycombinator.com/item?id=50080246",
+    "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do"
+   },
+   "hn_direct": {
+    "points": 124,
+    "date": "2026-10-13",
+    "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
+    "url": "https://news.ycombinator.com/item?id=50080246"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "swervle": {
+  "name": "Swervle",
+  "group": "休闲益智与分享比拼",
+  "url": "https://swervle.com/",
+  "date_text": "不晚于 2026-08 上线",
+  "hits": {
+   "awesome": {
+    "name": "Swervle"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "worrrrld": {
+  "name": "Worrrrld!",
+  "group": "休闲益智与分享比拼",
+  "url": "https://www.worrrrld.com/",
+  "date_text": "上线日期未公开",
+  "hits": {
+   "awesome": {
+    "name": "Worrrrld!"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "tinywind": {
+  "name": "TinyWind",
+  "group": "独立精品与巧妙创意",
+  "url": "https://tinywind.io/",
+  "date_text": "2026-06-13 首次公开",
+  "hits": {
+   "hn": {
+    "points": 1038,
+    "date": "2026-06-15",
+    "url": "https://news.ycombinator.com/item?id=48543475",
+    "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)"
+   },
+   "hn_direct": {
+    "points": 1038,
+    "date": "2026-06-15",
+    "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+    "url": "https://news.ycombinator.com/item?id=48543475"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "housing": {
+  "name": "Discretionary Review",
+  "group": "独立精品与巧妙创意",
+  "url": "https://housing.over.pizza/",
+  "date_text": "2026-10-10 发布",
+  "hits": {
+   "hn": {
+    "points": 558,
+    "date": "2026-10-10",
+    "url": "https://news.ycombinator.com/item?id=50036864",
+    "title": "A city-building game in which the city would prefer you didn't"
+   },
+   "hn_direct": {
+    "points": 558,
+    "date": "2026-10-10",
+    "title": "A city-building game in which the city would prefer you didn't",
+    "url": "https://news.ycombinator.com/item?id=50036864"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "weball": {
+  "name": "Weball",
+  "group": "独立精品与巧妙创意",
+  "url": "https://www.funwithcomputervision.com/weball/",
+  "date_text": "2026-10-18 走红",
+  "hits": {
+   "hn": {
+    "points": 308,
+    "date": "2026-10-18",
+    "url": "https://news.ycombinator.com/item?id=50140584",
+    "title": "Weball: Play Katamari on Websites"
+   },
+   "hn_direct": {
+    "points": 308,
+    "date": "2026-10-18",
+    "title": "Weball: Play Katamari on Websites",
+    "url": "https://news.ycombinator.com/item?id=50140584"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "messenger": {
+  "name": "Messenger",
+  "group": "独立精品与巧妙创意",
+  "url": "https://messenger.abeto.co/",
+  "date_text": "2025-09 发布，2026-06 再度走红",
+  "hits": {
+   "hn_direct": {
+    "points": 2131,
+    "date": "2025-09-27",
+    "title": "A WebGL game where you deliver messages on a tiny planet",
+    "url": "https://news.ycombinator.com/item?id=45396441"
+   }
+  },
+  "found": true,
+  "passed": false,
+  "miss": "渠道里出现过，但没到门槛"
+ },
+ "sp_stranglethorn": {
+  "name": "Escape from Stranglethorn",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@izkimar/escape-from-stranglethorn",
+  "date_text": "2026-10-23 上线",
+  "hits": {
+   "spawn": {
+    "rank": 3,
+    "plays": 91093
+   }
+  },
+  "x_author_in_feed": [
+   "Izkimar"
+  ],
+  "found": true,
+  "passed": true
+ },
+ "sp_league": {
+  "name": "League of Spawn",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@izkimar/league-of-spawn",
+  "date_text": "2026-10-05 上线",
+  "hits": {
+   "spawn": {
+    "rank": 4,
+    "plays": 14145
+   }
+  },
+  "x_author_in_feed": [
+   "Izkimar"
+  ],
+  "found": true,
+  "passed": true
+ },
+ "sp_fabling": {
+  "name": "Fabling Park",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@smallzero/fabling-park",
+  "date_text": "2026-10-31 上线",
+  "hits": {
+   "spawn": {
+    "rank": 5,
+    "plays": 8297
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "sp_inkblade": {
+  "name": "INKBLADE",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@gfta/inkblade",
+  "date_text": "2026-09-27 上线",
+  "hits": {
+   "spawn": {
+    "rank": 12,
+    "plays": 1554
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "sp_dust2": {
+  "name": "Dust 2 DM",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@tiger/dust-2-dm",
+  "date_text": "2026-09-28 上线",
+  "hits": {
+   "spawn": {
+    "rank": 1,
+    "plays": 59722
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "sp_shogun": {
+  "name": "Shogun's Fate",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@poisoncode/shogun-s-fate",
+  "date_text": "2026-10-26 上线",
+  "hits": {
+   "spawn": {
+    "rank": 20,
+    "plays": 22777
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "sp_underground": {
+  "name": "UNDERGROUND WARFARE",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@retro/underground-warfare",
+  "date_text": "2026-10-31 上线",
+  "hits": {
+   "spawn": {
+    "rank": 2,
+    "plays": 24725
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "sp_diablo": {
+  "name": "Diablo Survivors",
+  "group": "Spawn",
+  "url": "https://www.spawn.co/@izkimar/diablo-survivors",
+  "date_text": "2026-10-20 上线",
+  "hits": {
+   "spawn": {
+    "rank": 6,
+    "plays": 5320
+   }
+  },
+  "x_author_in_feed": [
+   "Izkimar"
+  ],
+  "found": true,
+  "passed": true
+ },
+ "v8_mine8": {
+  "name": "Mine8",
+  "group": "Verse8",
+  "url": "https://verse8.io/j7s8R9Q",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "v8_ldw": {
+  "name": "Last Dungeon Wars",
+  "group": "Verse8",
+  "url": "https://verse8.io/H8U6v7y",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "v8_snake": {
+  "name": "Snake Wars",
+  "group": "Verse8",
+  "url": "https://verse8.io/n6y4e2T",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "v8_food": {
+  "name": "Food Slicer",
+  "group": "Verse8",
+  "url": "https://verse8.io/y7d9D8v",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "v8_ani": {
+  "name": "The Ani Protocol",
+  "group": "Verse8",
+  "url": "https://verse8.io/V4g5s4k",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "v8_cold": {
+  "name": "Cold Steel Adventure",
+  "group": "Verse8",
+  "url": "https://verse8.io/f8i5y4r",
+  "date_text": "上线日期平台未显示",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Verse8 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "as_egg": {
+  "name": "Steal an egg",
+  "group": "Astrocade",
+  "url": "https://www.astrocade.com/games/steal-an-egg/01M2W8RGATG81XEA5YCQ35ZDNS",
+  "date_text": "2026-09-19 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Astrocade 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "as_nds": {
+  "name": "Natural Disaster Survival",
+  "group": "Astrocade",
+  "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+  "date_text": "2026-10-16 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Astrocade 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "as_forge": {
+  "name": "Forge Beyond",
+  "group": "Astrocade",
+  "url": "https://www.astrocade.com/games/forge-beyond/01M4013XDHF10RVPJJ0MR4TZ1E",
+  "date_text": "2026-10-03 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Astrocade 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "as_squishy": {
+  "name": "Astro Squishy Studio",
+  "group": "Astrocade",
+  "url": "https://www.astrocade.com/games/astro-squishy-studio-make-your-own-squishy/01M6H4GQ4G904G7952W61BR5YF",
+  "date_text": "2026-11-03 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Astrocade 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "as_rich": {
+  "name": "Rich or Poor Runner",
+  "group": "Astrocade",
+  "url": "https://www.astrocade.com/games/rich-or-poor-runner/01M65BWQDWENFEH5KFJY29HBAE",
+  "date_text": "2026-10-30 上线",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Astrocade 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "rb_superhot": {
+  "name": "SUPERHOT MARIO",
+  "group": "Rosebud AI",
+  "url": "https://rosebud.ai/play/superhot-mario",
+  "date_text": "最近更新 2026-10-05",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Rosebud AI 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "rb_chiikawa": {
+  "name": "Chiikawa Bonk",
+  "group": "Rosebud AI",
+  "url": "https://rosebud.ai/play/chiikawa-bonk",
+  "date_text": "最近更新 2026-11-03",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Rosebud AI 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "rb_finger": {
+  "name": "Finger Haunt",
+  "group": "Rosebud AI",
+  "url": "https://rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+  "date_text": "最近更新 2026-10-02",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Rosebud AI 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "rb_passengers": {
+  "name": "ATTENTION PASSENGERS",
+  "group": "Rosebud AI",
+  "url": "https://rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+  "date_text": "最近更新 2026-08-13",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Rosebud AI 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "rb_sir": {
+  "name": "Sir Falls-A-Lot",
+  "group": "Rosebud AI",
+  "url": "https://rosebud.ai/play/laavatorni",
+  "date_text": "最近更新 2026-10-15",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Rosebud AI 热门页还没有采集器（只读过页面，接口未找到）"
+ },
+ "farworlds": {
+  "name": "Far Worlds",
+  "group": "Wavedash 与 Far Worlds",
+  "url": "https://farworlds.com/",
+  "date_text": "Alpha 测试中",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Wavedash 热门页还没有采集器"
+ },
+ "sumbasurf": {
+  "name": "SumbaSurf",
+  "group": "Wavedash 与 Far Worlds",
+  "url": "https://wavedash.com/games/sumbasurf",
+  "date_text": "封面上传于 2026-09",
+  "hits": {},
+  "found": false,
+  "passed": false,
+  "miss": "Wavedash 热门页还没有采集器"
+ },
+ "tinyskies": {
+  "name": "Tiny Skies",
+  "group": "Vibe Jam 2026 其他获奖作品",
+  "url": "https://tinyskies.vercel.app/",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "hits": {
+   "awesome": {
+    "name": "Tiny Skies"
+   }
+  },
+  "found": true,
+  "passed": true
+ },
+ "haldane": {
+  "name": "HALDANE-4",
+  "group": "Vibe Jam 2026 其他获奖作品",
+  "url": "https://haldane4.denisbondare.com/",
+  "date_text": "Vibe Jam 2026 参赛作品（06-17 获奖）",
+  "hits": {
+   "awesome": {
+    "name": "HALDANE-4"
+   }
+  },
+  "found": true,
+  "passed": true
+ }
+}

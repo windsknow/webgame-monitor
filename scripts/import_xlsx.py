@@ -17,6 +17,9 @@ DIRECTIONS = ['把真实世界做成游戏', '端游级3D 美术表现力', '游
 AI_PLATFORMS = {'Spawn', 'Verse8', 'Astrocade', 'Rosebud AI'}
 AI_RE = re.compile(r'(Claude|Codex|Cursor|GPT|Gemini|Fable|Opus|Vibe Jam|AI 游戏精选清单|AI 辅助|由 AI|用 AI|大模型|一句提示词)', re.I)
 BASELINE = '2026-11-10'
+# 换过域名的游戏：旧链接和代码仓库也算同一款，去重时一并比对。
+ALT_KEYS = {'fanto': ['fantos-megamart.vercel.app'], 'fm1': ['fm1.moises.cloud'],
+            'tidewater': ['github.com/dgreenheck/tidewater']}
 # 已知的开发者账号和首发帖（取自上一阶段的首发渠道分析），用于把 X 上的新帖对回已收录的游戏。
 X_INFO = {
     'lagoslife': (['Shalom_HeyEliy'], ['https://x.com/Shalom_HeyEliy/status/2105541070486470749']),
@@ -118,6 +121,7 @@ def main(xlsx, old_dir):
             'issue': '基线',
             'icon': icon, 'shot': shot, 'extra_shots': xs,
             'sources': [],
+            'alt_keys': ALT_KEYS.get(key, []),
             'x_handles': X_INFO.get(key, ([], []))[0],
             'source_posts': X_INFO.get(key, ([], []))[1],
         })

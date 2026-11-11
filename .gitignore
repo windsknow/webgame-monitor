@@ -9,3 +9,4 @@ data/cache/
 inbox/x/*.json
 data/private/
 backtest/run.log
+backtest/partial.json

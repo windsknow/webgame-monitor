@@ -65,28 +65,32 @@ def threshold(cfg, name, date):
 
 
 # ---------------- Hacker News ----------------
-def hn(cfg, date, since=None, min_points=30, queries=None):
+def hn(cfg, date, since=None, min_points=30, step_days=7):
+    """按分数全量扫描：取时间窗内所有达到 min_points 的帖子，再用标题判断是不是在讲游戏。
+    不用关键词搜索，是因为回测发现关键词会漏（例如标题里没有 game 一词的 "Quake ported to safe Rust"）。"""
     since = since or _shift(date, -cfg['window']['reheat_days'])
     th = threshold(cfg, 'hn_points_7d', date)
     seen, leads = {}, []
-    for q in (queries or cfg['hn_queries']):
-        for page in range(0, 3):
-            u = ('https://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=100'
-                 f'&page={page}&query={quote(q)}'
-                 '&numericFilters=' + quote(f'created_at_i>{_epoch(since)},created_at_i<{_epoch(_shift(date, 1))},points>={min_points}'))
+    a = since
+    while a <= date:
+        b = min(_shift(a, step_days), _shift(date, 1))
+        for page in range(0, 10):
+            u = ('https://hn.algolia.com/api/v1/search_by_date?tags=story&hitsPerPage=100'
+                 f'&page={page}&numericFilters='
+                 + quote(f'created_at_i>={_epoch(a)},created_at_i<{_epoch(b)},points>={min_points}'))
             d = net.getj(u, retries=2) or {}
             hits = d.get('hits', [])
             for h in hits:
                 seen[h['objectID']] = h
             if len(hits) < 100:
                 break
+        a = b
     for h in seen.values():
         url, title = h.get('url'), h.get('title') or ''
         if not url:
             continue
         host = util.host_of(url)
-        gamey = bool(GAMEY.search(title))
-        if not gamey and not any(host.endswith(s) for s in ('itch.io',)):
+        if not GAMEY.search(title) and not host.endswith('itch.io'):
             continue
         leads.append({
             'channel': 'hn', 'title': title, 'url': url, 'key': util.game_key(url),
@@ -132,14 +136,18 @@ def github(cfg, date, since=None, min_stars=None):
     since = since or _shift(date, -cfg['window']['new_days'])
     th = cfg['thresholds']['github_stars_30d']
     min_stars = min_stars or max(int(th / 2), 20)
-    seen = {}
+    seen, errs = {}, []
     for q in cfg['github_queries']:
         u = ('https://api.github.com/search/repositories?sort=stars&order=desc&per_page=50&q='
              + quote(f'{q} created:{since}..{date} stars:>={min_stars}'))
         d = net.getj(u, headers=net.github_headers(), retries=1) or {}
+        if 'items' not in d:
+            errs.append(str(d.get('message') or '没有返回结果')[:120])
         for r in d.get('items', []) or []:
             seen[r['full_name']] = r
         time.sleep(7 if 'Authorization' not in net.github_headers() else 1)   # 匿名每分钟 10 次
+    if errs and not seen:
+        raise RuntimeError('GitHub 搜索接口报错：' + errs[0])     # 交给 run() 记到 error 字段里
     leads = []
     for r in seen.values():
         home = (r.get('homepage') or '').strip()

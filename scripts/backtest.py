@@ -53,20 +53,22 @@ def main():
         host = util.host_of(url) if url else key.split('/')[0]
         out = []
         for g in lib:
-            if key == g['key'] or ('/' not in g['key'] and (host == util.host_of(g['url']))):
+            if key == g['key'] or key in g.get('alt_keys', []) or \
+                    ('/' not in g['key'] and (host == util.host_of(g['url']))):
                 out.append(g['id'])
         return out
 
     # ---- Hacker News：重放采集器 ----
     print('HN 重放…', flush=True)
-    for a, b in ([] if 'hn' in part['done'] else MONTHS):
-        for l in collectors.hn(cfg, b, since=a, min_points=30):
+    for a, b in MONTHS:
+        if 'hn-' + a in part['done']:
+            continue
+        for l in collectors.hn(cfg, b, since=a, min_points=50):
             for gid in match(l['key'], l['url']):
                 h = res[gid]['hits'].setdefault('hn', {'points': 0})
                 if l['metrics']['hn_points'] > h['points']:
                     h.update(points=l['metrics']['hn_points'], date=l['published'], url=l['source_url'], title=l['title'])
-    if 'hn' not in part['done']:
-        checkpoint('hn')
+        checkpoint('hn-' + a)
     # ---- Hacker News：按域名直接查（不经过关键词） ----
     print('HN 按域名查…', flush=True)
     for g in ([] if 'hn_direct' in part['done'] else lib):
@@ -94,23 +96,25 @@ def main():
     print('three.js 论坛…', flush=True)
     th = cfg['thresholds']['threejs_views_week']
     seen = 0
-    for page in ([] if 'threejs' in part['done'] else range(0, 8)):
+    for page in ([] if 'threejs' in part['done'] else range(0, 14)):
         d = net.getj(f'https://discourse.threejs.org/c/showcase/7/l/top.json?period=yearly&page={page}', retries=2) or {}
         topics = (d.get('topic_list') or {}).get('topics', [])
         if not topics:
             break
         for t in topics:
-            if (t.get('created_at') or '')[:10] < START or (t.get('views') or 0) < th:
+            if (t.get('created_at') or '')[:10] < START or (t.get('views') or 0) < 200:
                 continue
             seen += 1
             td = net.getj(f"https://discourse.threejs.org/t/{t['id']}.json") or {}
             p0 = ((td.get('post_stream') or {}).get('posts') or [{}])[0]
             for l in p0.get('link_counts') or []:
                 for gid in match(util.game_key(l['url']), l['url']):
+                    if res[gid]['hits'].get('threejs', {}).get('views', 0) >= t['views']:
+                        continue
                     res[gid]['hits']['threejs'] = {'views': t['views'], 'date': t['created_at'][:10],
                                                    'url': f"https://discourse.threejs.org/t/{t['slug']}/{t['id']}"}
             time.sleep(0.1)
-    print('  浏览 ≥ 500 的帖子', seen, flush=True)
+    print('  浏览 ≥ 200 的帖子', seen, flush=True)
     if 'threejs' not in part['done']:
         checkpoint('threejs')
 
@@ -166,6 +170,18 @@ def main():
     report(res, cfg)
 
 
+# 个案说明：依据是基线清单里各款的"数据来源"和首发渠道分析
+CASES = {
+    'tidewater': '首发在 X（首发帖 90 万浏览）；GitHub 仓库现有 1,447 星，但采集用的搜索词没有命中它',
+    'bf1942': '首发在开发者博客和 X；Hacker News 上只有 6 分',
+    'pokebonk': '首发在 X（首发帖 109 万浏览），固定渠道里没有出现',
+    'lagoslife': '首发在 X（首发帖 607 万浏览），固定渠道里没有出现',
+    'messenger': '2025-09 发布的老游戏（当时 Hacker News 2,131 分，在回测窗口之前），2026-06 靠媒体报道再度走红；媒体渠道还没有采集器',
+    'farworlds': '来自平台梳理（平台自研的产品），不是渠道线索',
+    'sumbasurf': 'Wavedash 热门页还没有采集器',
+}
+
+
 def report(res, cfg):
     th = cfg['thresholds']
     rows, found, passed = [], 0, 0
@@ -176,16 +192,17 @@ def report(res, cfg):
         if 'hn' in h:
             p = h['hn']['points'] >= th['hn_points_7d']
             ok |= p
-            tags.append(f"HN {h['hn']['points']} 分{'' if p else '（未到 100）'}")
-        elif 'hn_direct' in h:
-            tags.append(f"HN 有帖 {h['hn_direct']['points']} 分，但采集关键词没覆盖")
+            tags.append(f"Hacker News {h['hn']['points']} 分{'' if p else '（门槛 100）'}")
+        elif 'hn_direct' in h and h['hn_direct']['date'] >= START:
+            tags.append(f"Hacker News {h['hn_direct']['points']} 分（门槛 100）")
         if 'threejs' in h:
-            ok = True
-            tags.append(f"three.js 论坛 {h['threejs']['views']} 次浏览")
+            p = h['threejs']['views'] >= th['threejs_views_week']
+            ok |= p
+            tags.append(f"three.js 论坛 {h['threejs']['views']} 次浏览{'' if p else '（门槛 500）'}")
         if 'github' in h:
             p = h['github']['stars'] >= th['github_stars_30d']
             ok |= p
-            tags.append(f"GitHub {h['github']['stars']} 星{'' if p else '（未到 100）'}")
+            tags.append(f"GitHub {h['github']['stars']} 星{'' if p else '（门槛 100）'}")
         if 'awesome' in h:
             ok = True
             tags.append('精选清单')
@@ -195,63 +212,58 @@ def report(res, cfg):
         if 'x' in h:
             ok = True
             tags.append(f"X 样例 {len(h['x']['posts'])} 条")
-        r['found'], r['passed'] = bool(tags), ok
+        r['tags'], r['found'], r['passed'] = tags, bool(tags), ok
         found += bool(tags)
         passed += ok
+        r.pop('miss', None)
         if not ok:
             g = r['group']
-            host = util.host_of(r['url'])
-            if g in ('Verse8', 'Astrocade', 'Rosebud AI'):
-                why = f'{g} 热门页还没有采集器（只读过页面，接口未找到）'
-            elif g.startswith('Wavedash') or host == 'wavedash.com':
-                why = 'Wavedash 热门页还没有采集器'
-            elif 'Vibe Jam' in g or 'Vibe Jam' in r.get('date_text', ''):
-                why = '赛事结果渠道（Vibe Jam、JamVault）还没有采集器'
+            if gid in CASES:
+                why, bucket = CASES[gid], ('X 或媒体首发，固定渠道没有覆盖' if gid in ('tidewater', 'bf1942', 'pokebonk', 'lagoslife', 'messenger')
+                                           else 'Wavedash 等平台热门页没有采集器' if gid == 'sumbasurf' else '来自平台梳理，不是渠道线索')
+            elif g in ('Verse8', 'Astrocade', 'Rosebud AI'):
+                why = f'{g} 热门页还没有采集器（接口未找到）'
+                bucket = 'AI 创作平台热门页没有采集器（Verse8、Astrocade、Rosebud）'
             elif tags:
-                why = '渠道里出现过，但没到门槛'
+                why = '到过渠道，但没到门槛'
+                bucket = '到过渠道，但没到门槛'
             else:
-                why = '首发在 X 或媒体，固定渠道里没有出现；要靠 X 数据覆盖到开发者账号'
+                why = bucket = '固定渠道里没有出现'
             r['miss'] = why
-            miss_reason.setdefault(why, []).append(r['name'])
+            miss_reason.setdefault(bucket, []).append(r['name'])
         rows.append(r)
     lines = ['# 回测报告：68 款基线游戏的渠道召回', '',
              f'- 回测窗口：2026-04-01 至 2026-11-10。运行日期：{util.today()}。',
-             f'- 68 款里，至少在一个已接入的渠道出现过的有 **{found}** 款；按现行门槛能进候选的有 **{passed}** 款。',
+             f'- 68 款里，在已接入的渠道出现过的有 **{found}** 款；按现行门槛能进候选的有 **{passed}** 款，漏掉 **{68 - passed}** 款。',
              '- 口径：Hacker News 和 GitHub 是按月重放采集器；three.js 论坛用年度热门帖；精选清单和 Spawn 热榜用当前内容；'
-             'X 只有两天样例。GitHub 星数是现在的值，不是创建 30 天内的值，所以 GitHub 的召回是上限。', '',
-             '## 按渠道', '']
-    ch = {'hn': 'Hacker News（采集器重放）', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'awesome': 'AI 游戏精选清单',
-          'spawn': 'Spawn 热榜', 'x': 'X 样例（两天）'}
-    lines += ['| 渠道 | 命中款数 | 游戏 |', '|---|---|---|']
-    for k, lab in ch.items():
-        names = [r['name'] for r in rows if k in r['hits']]
-        lines.append(f'| {lab} | {len(names)} | {"、".join(names)} |')
-    hd = [r for r in rows if 'hn_direct' in r['hits'] and 'hn' not in r['hits']]
-    lines.append(f'| Hacker News 有帖但关键词没覆盖 | {len(hd)} | '
-                 + '、'.join(f"{r['name']}（{r['hits']['hn_direct']['points']} 分）" for r in hd) + ' |')
+             'X 只有两天样例。',
+             '- 这是召回的上限，不是当时真能抓到的数量：GitHub 星数和论坛浏览数是现在的累计值，不是发布后 30 天内或一周内的值；'
+             '精选清单和 Spawn 热榜也只能看到现在的内容。',
+             '- "能进候选"不等于"会被自动收录"：收录还要满足入选信号。', '',
+             '## 按渠道', '', '| 渠道 | 过门槛的款数 | 游戏 |', '|---|---|---|']
+    def names(pred):
+        return [r['name'] for r in rows if pred(r['hits'])]
+    for lab, pred in (
+            ('Hacker News（≥ 100 分）', lambda h: 'hn' in h and h['hn']['points'] >= th['hn_points_7d']),
+            ('three.js 论坛（≥ 500 次浏览）', lambda h: 'threejs' in h and h['threejs']['views'] >= th['threejs_views_week']),
+            ('GitHub（≥ 100 星）', lambda h: 'github' in h and h['github']['stars'] >= th['github_stars_30d']),
+            ('AI 游戏精选清单', lambda h: 'awesome' in h),
+            ('Spawn 热榜', lambda h: 'spawn' in h),
+            ('X 样例（两天）', lambda h: 'x' in h)):
+        ns = names(pred)
+        lines.append(f'| {lab} | {len(ns)} | {"、".join(ns)} |')
     lines += ['', '## 漏掉的游戏和原因', '', '| 原因 | 款数 | 游戏 |', '|---|---|---|']
-    for why, names in sorted(miss_reason.items(), key=lambda kv: -len(kv[1])):
-        lines.append(f'| {why} | {len(names)} | {"、".join(names)} |')
+    for why, ns in sorted(miss_reason.items(), key=lambda kv: -len(kv[1])):
+        lines.append(f'| {why} | {len(ns)} | {"、".join(ns)} |')
     lines += ['', '## 逐款明细', '', '| 游戏 | 方向/平台 | 能否进候选 | 出现的渠道 | 漏掉的原因 |', '|---|---|---|---|---|']
     for r in rows:
-        h = r['hits']
-        bits = []
-        for k in ('hn', 'hn_direct', 'threejs', 'github', 'awesome', 'spawn', 'x'):
-            if k in h:
-                v = h[k]
-                bits.append({'hn': lambda: f"HN {v['points']} 分（{v['date']}）",
-                             'hn_direct': lambda: f"HN 按域名查到 {v['points']} 分（{v['date']}）",
-                             'threejs': lambda: f"three.js {v['views']} 次浏览",
-                             'github': lambda: f"GitHub {v['stars']} 星",
-                             'awesome': lambda: '精选清单', 'spawn': lambda: f"Spawn 第 {v['rank']} 名",
-                             'x': lambda: f"X 样例 {len(v['posts'])} 条"}[k]())
-        lines.append(f"| {r['name']} | {r['group']} | {'是' if r['passed'] else '否'} | {'；'.join(bits) or '—'} | {r.get('miss', '')} |")
+        lines.append(f"| {r['name']} | {r['group']} | {'是' if r['passed'] else '否'} | {'；'.join(r['tags']) or '—'} | {r.get('miss', '')} |")
     with open(util.p('backtest', '回测报告.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
     util.save(util.p('backtest', 'result.json'), res)
     print(f'found {found}/68, passed {passed}/68')
-    for why, names in miss_reason.items():
-        print(' ', len(names), why)
+    for why, ns in miss_reason.items():
+        print(' ', len(ns), why, '：', '、'.join(ns))
 
 
 if __name__ == '__main__':

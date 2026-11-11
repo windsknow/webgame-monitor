@@ -315,6 +315,9 @@
   "source_posts": [
    "https://x.com/dangreenheck/status/2102878170089169235",
    "https://x.com/dangreenheck/status/2103004432786993341"
+  ],
+  "alt_keys": [
+   "github.com/dgreenheck/tidewater"
   ]
  },
  {
@@ -463,7 +466,10 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "alt_keys": [
+   "fm1.moises.cloud"
+  ]
  },
  {
   "id": "halcyon",
@@ -1139,7 +1145,10 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "alt_keys": [
+   "fantos-megamart.vercel.app"
+  ]
  },
  {
   "id": "dirtbound",
