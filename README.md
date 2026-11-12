@@ -22,7 +22,7 @@
 
 ## 每天自动做什么
 
-**现在线上只采集**（2026-11-12 起）：采集在 GitHub Actions 上跑，由阿里云服务器的定时器每天 10:30 触发，命令是 `python3 run.py crawl`，只做下面的第 1、2 步，把内容存进 `raw/`。筛选标准定下来之后再启用第 3、4 步（`python3 run.py daily`）。部署和迁移见 `docs/部署步骤.md`。
+**现在线上只采集**（2026-11-12 起）：采集在 GitHub Actions 上跑，由阿里云服务器的定时器每天 7:00 触发，命令是 `python3 run.py crawl`，只做下面的第 1、2 步，把内容存进 `raw/`。筛选标准定下来之后再启用第 3、4 步（`python3 run.py daily`）。部署和迁移见 `docs/部署步骤.md`。
 
 1. **采集**（`monitor/collectors.py`）：Hacker News、three.js 论坛作品区、GitHub、itch.io 网页新品榜、awesome-ai-built-games，以及 Spawn、Verse8、Astrocade、Rosebud、Wavedash 的热门页。原始结果存 `raw/<渠道>/<日期>.json`。
 2. **X 数据接入**（`monitor/x_ingest.py`）：读 `inbox/x/<日期>.json`（没有就按配置去拉），加上 `data/x_manual_posts.json` 里手动补充的帖子链接 → 规则粗筛 → 展开短链 → 规则版主题判断 → 找试玩链接 → 和收录库比对。结果存 `raw/x/<日期>.json`。

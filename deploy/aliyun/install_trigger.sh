@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 在阿里云服务器上装定时触发：每天 10:30 调用 GitHub 接口，触发 Actions 里的采集。
+# 在阿里云服务器上装定时触发：每天 7:00 调用 GitHub 接口，触发 Actions 里的采集。
 # 前提：GitHub 仓库已经建好并推送过代码；令牌已经写进 /etc/webgame-monitor/github_token
 # 用法: sudo bash /opt/webgame-monitor/deploy/install_trigger.sh
 set -euo pipefail

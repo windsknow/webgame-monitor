@@ -26,7 +26,9 @@ def crawl(date, log=None):
     xs = {}
     for back in (2, 1, 0):
         d = (datetime.date.fromisoformat(date) - datetime.timedelta(days=back)).isoformat()
-        if back and os.path.exists(util.p('raw', 'x', f'{d}.json')):
+        # 前两天的：对方的文件已经处理过才跳过。只处理过手动补充帖子的（fetch_time 为空）要再试一次，
+        # 因为采集时间早于对方文件的生成时间时，当天的文件要到第二天才拉得到
+        if back and (util.load(util.p('raw', 'x', f'{d}.json')) or {}).get('fetch_time'):
             continue
         r = x_ingest.run(d)
         if r:

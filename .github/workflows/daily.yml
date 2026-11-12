@@ -3,9 +3,10 @@ name: 每日采集
 # 现在只采集：各渠道的线索和 X 帖子的粗筛结果存进 raw/，不合并、不入库、不发布网页。
 # 筛选标准定下来之后，把下面的 crawl 换成 daily，再按 docs/部署步骤.md 加回发布步骤。
 
-# 不用 GitHub 自己的 schedule（延迟大、不稳定）。由阿里云服务器上的定时器每天北京时间 10:30
+# 不用 GitHub 自己的 schedule（延迟大、不稳定）。由阿里云服务器上的定时器每天北京时间 7:00
 # 调用接口触发（deploy/aliyun/trigger_github.sh），并把北京日期作为 date 传进来。
-# X 数据约 09:30 生成，10:30 触发留了一小时余量。也可以在 Actions 页面手动点 Run workflow。
+# X 数据约 09:30 才生成，7:00 运行时当天的文件还没有，会在第二天的运行里补上（晚一天）。
+# 也可以在 Actions 页面手动点 Run workflow。
 on:
   workflow_dispatch:
     inputs:

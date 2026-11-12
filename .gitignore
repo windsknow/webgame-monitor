@@ -10,3 +10,5 @@ inbox/x/*.json
 data/private/
 backtest/run.log
 backtest/partial.json
+# 初步处理的报告：本机生成，不进仓库
+reports/

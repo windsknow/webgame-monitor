@@ -1,10 +1,10 @@
 [Unit]
-Description=每天 10:30 触发 AI 网页游戏线索采集
+Description=每天 7:00 触发 AI 网页游戏线索采集
 
 [Timer]
-OnCalendar=*-*-* 10:30:00
+OnCalendar=*-*-* 07:00:00
 RandomizedDelaySec=60
-# 服务器在 10:30 正好关机或重启时，开机后补触发一次（日期按触发时的北京日期算）
+# 服务器在 7:00 正好关机或重启时，开机后补触发一次（日期按触发时的北京日期算）
 Persistent=true
 
 [Install]

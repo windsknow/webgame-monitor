@@ -1,8 +1,8 @@
 [Unit]
-Description=AI 网页游戏监测定时：每天 10:30 采集
+Description=AI 网页游戏监测定时：每天 7:00 采集
 
 [Timer]
-OnCalendar=*-*-* 10:30:00
+OnCalendar=*-*-* 07:00:00
 AccuracySec=1s
 Persistent=true
 Unit=webgame-crawl.service
