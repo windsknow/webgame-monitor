@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """管线入口。
 
-  python3 run.py daily [日期]     每天跑：固定渠道采集 → X 数据接入 → 合并打分 → 生成页面
+  python3 run.py crawl [日期]     只采集：固定渠道 + X 数据接入，存进 raw/，不合并、不入库。现在线上每天跑的是这个
+  python3 run.py daily [日期]     采集之后接着合并入库、出汇总（筛选标准定下来之后再用）
   python3 run.py collect [日期]   只跑固定渠道采集
   python3 run.py x [日期]         只跑 X 数据接入（读 inbox/x/<日期>.json，没有就按配置去拉）
   python3 run.py merge [日期]     只跑合并打分
@@ -14,8 +15,11 @@ import sys
 from monitor import build_site, collectors, merge, util, x_ingest
 
 
-def daily(date):
-    log = {'date': date}
+def crawl(date, log=None):
+    """只采集，不筛选：各渠道的线索和 X 帖子的粗筛结果存进 raw/，榜单状态存进 data/state/。"""
+    final = log is None
+    log = log or {'date': date}
+    log['mode'] = 'crawl' if final else 'daily'
     log['collect'] = collectors.run(date)
     # X 数据通常在当天上午送到；顺带补跑前两天里还没处理过的文件
     import datetime, os
@@ -28,15 +32,33 @@ def daily(date):
         if r:
             xs[d] = {k: r[k] for k in ('total_records', 'coarse_hits', 'verdicts', 'in_library')}
     log['x'] = xs
+    if final:
+        save_log(log)
+        bad = [k for k, v in log['collect'].items() if v['error']]
+        print(f"[crawl] {date} 完成：{sum(v['count'] for v in log['collect'].values())} 条线索"
+              + (f"；出错的渠道：{'、'.join(bad)}" if bad else '；各渠道都取到了数'))
+    return log
+
+
+def save_log(log):
+    runs = util.load(util.p('data', 'runlog.json'), [])
+    runs = [r for r in runs if r['date'] != log['date']] + [log]
+    util.save(util.p('data', 'runlog.json'), runs[-120:])
+
+
+def daily(date):
+    log = crawl(date, {'date': date})
     log['merge'] = merge.run(date)
     log['site'] = build_site.run(date)
-    runs = util.load(util.p('data', 'runlog.json'), [])
-    runs = [r for r in runs if r['date'] != date] + [log]
-    util.save(util.p('data', 'runlog.json'), runs[-120:])
+    save_log(log)
     return log
 
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'daily'
     date = sys.argv[2] if len(sys.argv) > 2 else util.today()
-    {'daily': daily, 'collect': collectors.run, 'x': x_ingest.run, 'merge': merge.run, 'site': build_site.run}[cmd](date)
+    res = {'crawl': crawl, 'daily': daily, 'collect': collectors.run, 'x': x_ingest.run, 'merge': merge.run,
+           'site': build_site.run}[cmd](date)
+    # 只采集时：所有渠道都出错（多半是网络不通）才算失败，让定时任务能看到
+    if cmd == 'crawl' and all(v['error'] for v in res['collect'].values()):
+        sys.exit(1)

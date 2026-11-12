@@ -2837,7 +2837,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "40.3 万",
+    "value": "40.4 万",
     "doubt": false
    }
   ],
@@ -2860,7 +2860,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 40.3 万"
+    "说明": "X 单帖浏览 40.4 万"
    }
   ],
   "icon": "earth_icon.ico",
@@ -2872,7 +2872,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 403434,
+     "x_views": 403889,
      "x_likes": null
     }
    }
@@ -2886,7 +2886,7 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 40.3 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 40.4 万"
   ],
   "stats_date": "2026-11-12",
   "hot_since": "2026-11-12"
@@ -2903,7 +2903,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "17.1 万",
+    "value": "17.2 万",
     "doubt": false
    }
   ],
@@ -2933,7 +2933,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 171453,
+     "x_views": 171584,
      "x_likes": null
     }
    }
@@ -2947,7 +2947,7 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 17.1 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 17.2 万"
   ],
   "stats_date": "2026-11-12"
  },
@@ -3098,13 +3098,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "9,308",
+    "value": "9,344",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@0xChuckstock，核验确认），浏览 9,308"
+   "X 帖子（@0xChuckstock，核验确认），浏览 9,344"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
@@ -3114,7 +3114,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 9308,
+     "x_views": 9344,
      "x_likes": 54
     }
    }
@@ -3237,9 +3237,9 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 2,
-     "astrocade_plays": 46541,
-     "astrocade_likes": 1047,
+     "astrocade_rank": 9,
+     "astrocade_plays": 47379,
+     "astrocade_likes": 1073,
      "chart_new_entry": false
     }
    }
@@ -3278,7 +3278,7 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "2.4 万 次",
+    "value": "2.5 万 次",
     "doubt": false
    }
   ],
@@ -3294,9 +3294,9 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 6,
-     "astrocade_plays": 23909,
-     "astrocade_likes": 562,
+     "astrocade_rank": 2,
+     "astrocade_plays": 25106,
+     "astrocade_likes": 610,
      "chart_new_entry": false
     }
    }
@@ -3335,7 +3335,7 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "4.3 万 次",
+    "value": "4.4 万 次",
     "doubt": false
    }
   ],
@@ -3351,9 +3351,9 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 12,
-     "astrocade_plays": 42725,
-     "astrocade_likes": 988,
+     "astrocade_rank": 13,
+     "astrocade_plays": 43768,
+     "astrocade_likes": 1018,
      "chart_new_entry": false
     }
    }
@@ -3392,14 +3392,14 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "19.3 万 次",
+    "value": "19.4 万 次",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 19.3 万 次"
+    "说明": "平台显示游玩 19.4 万 次"
    }
   ],
   "reasons": [
@@ -3413,9 +3413,9 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 13,
-     "astrocade_plays": 192514,
-     "astrocade_likes": 5798,
+     "astrocade_rank": 8,
+     "astrocade_plays": 194323,
+     "astrocade_likes": 5854,
      "chart_new_entry": false
     }
    }
@@ -3529,9 +3529,9 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 5,
-     "astrocade_plays": 47688,
-     "astrocade_likes": 791,
+     "astrocade_rank": 16,
+     "astrocade_plays": 48315,
+     "astrocade_likes": 810,
      "chart_new_entry": false
     }
    }
@@ -3625,13 +3625,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "72 星 / 7 分叉",
+    "value": "71 星 / 7 分叉",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 72 星"
+   "GitHub 71 星"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -3641,7 +3641,7 @@
     "url": "https://github.com/Virtastic/d2-web",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 72,
+     "github_stars": 71,
      "github_forks": 7
     }
    }
@@ -3735,13 +3735,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "75 星",
+    "value": "76 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 75 星"
+   "GitHub 76 星"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -3751,7 +3751,7 @@
     "url": "https://github.com/Ritrls/dream-arcade-demo",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 75,
+     "github_stars": 76,
      "github_forks": 0
     }
    }
@@ -3845,13 +3845,13 @@
   "stats": [
    {
     "label": "Hacker News",
-    "value": "82 分 / 62 评论",
+    "value": "83 分 / 62 评论",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "Hacker News 82 分"
+   "Hacker News 83 分"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -3861,7 +3861,7 @@
     "url": "https://news.ycombinator.com/item?id=50458710",
     "date": "2026-11-12",
     "metrics": {
-     "hn_points": 82,
+     "hn_points": 83,
      "hn_comments": 62
     }
    }
@@ -3900,7 +3900,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "1,795 次",
+    "value": "1,801 次",
     "doubt": false
    }
   ],
@@ -3917,7 +3917,7 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 12,
-     "spawn_plays": 1795,
+     "spawn_plays": 1801,
      "spawn_likes": 75,
      "chart_new_entry": false
     }
@@ -3957,7 +3957,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "3,612 次",
+    "value": "3,621 次",
     "doubt": false
    }
   ],
@@ -3974,7 +3974,7 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 15,
-     "spawn_plays": 3612,
+     "spawn_plays": 3621,
      "spawn_likes": 71,
      "chart_new_entry": false
     }
@@ -4014,7 +4014,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "904 次",
+    "value": "906 次",
     "doubt": false
    }
   ],
@@ -4031,7 +4031,7 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 16,
-     "spawn_plays": 904,
+     "spawn_plays": 906,
      "spawn_likes": 70,
      "chart_new_entry": false
     }
@@ -4071,7 +4071,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "768 次",
+    "value": "769 次",
     "doubt": false
    }
   ],
@@ -4088,7 +4088,7 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 18,
-     "spawn_plays": 768,
+     "spawn_plays": 769,
      "spawn_likes": 59,
      "chart_new_entry": false
     }
@@ -4128,13 +4128,13 @@
   "stats": [
    {
     "label": "three.js 论坛",
-    "value": "186 次浏览",
+    "value": "190 次浏览",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "three.js 论坛作品区，186 次浏览"
+   "three.js 论坛作品区，190 次浏览"
   ],
   "ai_tag": "ai",
   "ai_evidence": "论坛帖子：Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
@@ -4144,7 +4144,7 @@
     "url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
     "date": "2026-11-12",
     "metrics": {
-     "threejs_views": 186,
+     "threejs_views": 190,
      "threejs_replies": 6,
      "threejs_likes": 8
     }
@@ -4184,13 +4184,13 @@
   "stats": [
    {
     "label": "three.js 论坛",
-    "value": "108 次浏览",
+    "value": "110 次浏览",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "three.js 论坛作品区，108 次浏览"
+   "three.js 论坛作品区，110 次浏览"
   ],
   "ai_tag": "ai",
   "ai_evidence": "论坛帖子：I designed and art-directed it; the code was written with the base built in Gemini 3",
@@ -4200,7 +4200,7 @@
     "url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
     "date": "2026-11-12",
     "metrics": {
-     "threejs_views": 108,
+     "threejs_views": 110,
      "threejs_replies": 5,
      "threejs_likes": 3
     }
@@ -4240,13 +4240,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "7,933",
+    "value": "7,938",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 7,933"
+   "X 帖子（@gourav_io，核验确认），浏览 7,938"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4256,7 +4256,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 7933,
+     "x_views": 7938,
      "x_likes": 12
     }
    }
@@ -4315,7 +4315,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 32684,
+     "x_views": 32688,
      "x_likes": 244
     }
    }
@@ -4374,7 +4374,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 12164,
+     "x_views": 12196,
      "x_likes": 119
     }
    }
@@ -4433,7 +4433,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 57158,
+     "x_views": 57246,
      "x_likes": 451
     }
    }
@@ -4492,7 +4492,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 38503,
+     "x_views": 38589,
      "x_likes": 204
     }
    }
@@ -4535,13 +4535,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "19.3 万",
+    "value": "19.4 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@_sholtodouglas，核验确认），浏览 19.3 万"
+   "X 帖子（@_sholtodouglas，核验确认），浏览 19.4 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
@@ -4551,7 +4551,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 193391,
+     "x_views": 193620,
      "x_likes": 1686
     }
    }
@@ -4610,7 +4610,7 @@
     "url": "https://x.com/Izkimar/status/2119931740940640542",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 21866,
+     "x_views": 21913,
      "x_likes": 297
     }
    }
@@ -4669,7 +4669,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 105322,
+     "x_views": 105483,
      "x_likes": 281
     }
    }
@@ -4767,7 +4767,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "1.1 万",
+    "value": "1.2 万",
     "doubt": false
    }
   ],
@@ -4778,7 +4778,7 @@
    }
   ],
   "reasons": [
-   "X 帖子（@scottstts，规则识别），浏览 1.1 万"
+   "X 帖子（@scottstts，规则识别），浏览 1.2 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：正文提到 fable（规则识别）",
@@ -4788,8 +4788,8 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 10670,
-     "x_likes": 201
+     "x_views": 11519,
+     "x_likes": 211
     }
    }
   ],
@@ -4831,13 +4831,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "18.4 万",
+    "value": "18.6 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@loktar00，核验确认），浏览 18.4 万"
+   "X 帖子（@loktar00，核验确认），浏览 18.6 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
@@ -4847,7 +4847,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 183571,
+     "x_views": 185817,
      "x_likes": null
     }
    }
@@ -4973,5 +4973,197 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-12"
+ },
+ {
+  "id": "squishy-balloon-slime-diy-asmr",
+  "name": "Squishy Balloon Slime: DIY ASMR",
+  "kind": "",
+  "group": "待归类",
+  "group_type": "pending",
+  "play": "",
+  "quote": "Pour the gel, add foam, stir in colour, glitter and toppings, then knead your own squishy slime. Fill a balloon and squeeze it!\n\n#Creative #Simulation",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-12",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "squishy-balloon-slime-diy-asmr_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/squishy-balloon-slime-diy-asmr/01M72WBAM0G8SW7RFD9G9ETHJX",
+  "key": "astrocade.com/games/squishy-balloon-slime-diy-asmr/01m72wbam0g8sw7rfd9g9ethjx",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "5 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 5 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-10 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 50048,
+     "astrocade_likes": 575,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-12",
+  "hot_since": "2026-11-12",
+  "images_tried": true
+ },
+ {
+  "id": "minecraft-billionaire-treehouse",
+  "name": "MINECRAFT Billionaire treehouse ",
+  "kind": "",
+  "group": "待归类",
+  "group_type": "pending",
+  "play": "",
+  "quote": "zenithsu_astra!!!",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-12",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "minecraft-billionaire-treehouse_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/minecraft-billionaire-treehouse/01M5W46NECYMERN88X38CH1KMN",
+  "key": "astrocade.com/games/minecraft-billionaire-treehouse/01m5w46necymern88x38ch1kmn",
+  "link_status": "ok",
+  "date_text": "2026-11-01 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "18.9 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 18.9 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-01 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 4,
+     "astrocade_plays": 188553,
+     "astrocade_likes": 5338,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-12",
+  "hot_since": "2026-11-12",
+  "images_tried": true
+ },
+ {
+  "id": "steal-an-egg",
+  "name": "Steal an Egg",
+  "kind": "",
+  "group": "待归类",
+  "group_type": "pending",
+  "play": "",
+  "quote": "Steal eggs, dodge tsunamis & rob rival bases! Hatch pets, find Gold/Diamond/Galaxy mutations & lock your base. 3D model credits (CC-BY) in Settings.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-12",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "steal-an-egg_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/steal-an-egg/01M4TDPH5T4VA3HWH1PB9HFC08",
+  "key": "astrocade.com/games/steal-an-egg/01m4tdph5t4va3hwh1pb9hfc08",
+  "link_status": "ok",
+  "date_text": "2026-10-13 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "83.6 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 83.6 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-13 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 11,
+     "astrocade_plays": 836179,
+     "astrocade_likes": 13628,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-12",
+  "hot_since": "2026-11-12",
+  "images_tried": true
  }
 ]

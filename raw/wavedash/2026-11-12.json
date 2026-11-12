@@ -13,7 +13,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 1,
-    "wavedash_playing": 137,
+    "wavedash_playing": 88,
     "chart_new_entry": false
    },
    "published": "",
@@ -29,7 +29,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 2,
-    "wavedash_playing": 20,
+    "wavedash_playing": 13,
     "chart_new_entry": false
    },
    "published": "",
@@ -39,13 +39,13 @@
   },
   {
    "channel": "wavedash",
-   "title": "Splinter Kick",
-   "url": "https://wavedash.com/games/splinter-kick",
-   "key": "wavedash.com/games/splinter-kick",
+   "title": "Ridgeline",
+   "url": "https://wavedash.com/games/ridgeline",
+   "key": "wavedash.com/games/ridgeline",
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 3,
-    "wavedash_playing": 16,
+    "wavedash_playing": 5,
     "chart_new_entry": false
    },
    "published": "",
@@ -61,7 +61,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 4,
-    "wavedash_playing": 10,
+    "wavedash_playing": 3,
     "chart_new_entry": false
    },
    "published": "",

@@ -1,9 +1,10 @@
 [
  {
   "date": "2026-11-12",
+  "mode": "crawl",
   "collect": {
    "hn": {
-    "count": 16,
+    "count": 170,
     "passed": 16,
     "error": ""
    },
@@ -13,9 +14,9 @@
     "error": ""
    },
    "github": {
-    "count": 27,
-    "passed": 10,
-    "error": ""
+    "count": 0,
+    "passed": 0,
+    "error": "KeyError: 'github_stars'"
    },
    "itch": {
     "count": 36,
@@ -64,28 +65,6 @@
     },
     "in_library": 1
    }
-  },
-  "merge": {
-   "date": "2026-11-12",
-   "counts": {
-    "候选": 13,
-    "收录": 37,
-    "拒绝": 6,
-    "已在库": 11,
-    "观察": 1
-   },
-   "new": [
-    "frost-lumber-camp",
-    "winter-upd-first-date-on-park"
-   ],
-   "new_hot": [],
-   "dropped": []
-  },
-  "site": {
-   "total": 105,
-   "new": 37,
-   "watch": 1,
-   "x_pending": 1
   }
  }
 ]

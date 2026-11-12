@@ -71,6 +71,12 @@ def floor(cfg, name):
     return cfg['thresholds']['floors'][name]
 
 
+def collect_min(cfg, name):
+    """采集范围：达到这个数就存进 raw/。比入库线宽，没配置时退回入库线。"""
+    c = cfg['thresholds'].get('collect') or {}
+    return c[name] if name in c else cfg['thresholds']['floors'][name]
+
+
 WEBBY = re.compile(r'browser|\bweb\b|webgl|webgpu|three\.?js|html5|wasm|webassembly|javascript|typescript|phaser|'
                    r'babylon|pixi|playcanvas|godot web|网页|浏览器', re.I)
 
@@ -81,7 +87,7 @@ def hn(cfg, date, since=None, min_points=None, step_days=2):
     不用关键词搜索，是因为回测发现关键词会漏（例如标题里没有 game 一词的 "Quake ported to safe Rust"）。"""
     since = since or _shift(date, -cfg['window']['reheat_days'])
     th = floor(cfg, 'hn_points')
-    min_points = min_points or th
+    min_points = min_points or collect_min(cfg, 'hn_points')
     seen, leads = {}, []
     a = since
     while a <= date:
@@ -102,15 +108,17 @@ def hn(cfg, date, since=None, min_points=None, step_days=2):
         if not url:
             continue
         host = util.host_of(url)
-        if not GAMEY.search(title) and not host.endswith('itch.io'):
-            continue
+        gamey = bool(GAMEY.search(title)) or host.endswith('itch.io')
+        if not gamey and not title.lower().startswith('show hn'):
+            continue                                 # 标题不像游戏的只留 Show HN（作者发布自己作品的帖子），留给以后筛
         leads.append({
             'channel': 'hn', 'title': title, 'url': url, 'key': util.game_key(url),
             'source_url': f"https://news.ycombinator.com/item?id={h['objectID']}",
             'metrics': {'hn_points': h.get('points'), 'hn_comments': h.get('num_comments')},
             'published': _date(ts=h.get('created_at_i')),
-            'passes': (h.get('points') or 0) >= th,
+            'passes': gamey and (h.get('points') or 0) >= th,
             'ai_hint': ai_hint(title, h.get('story_text')), 'desc': '',
+            'matched': 'title' if gamey else 'show_hn',
         })
     return leads
 
@@ -123,7 +131,7 @@ def threejs(cfg, date, period='weekly', fetch_links=True):
     for t in (d.get('topic_list') or {}).get('topics', []):
         passes = (t.get('views') or 0) >= th
         url, hint, body = '', '', ''
-        if fetch_links and (passes or (t.get('views') or 0) >= th / 2):
+        if fetch_links and (t.get('views') or 0) >= min(th / 2, collect_min(cfg, 'threejs_views_week')):
             td = net.getj(f"https://discourse.threejs.org/t/{t['id']}.json") or {}
             posts = (td.get('post_stream') or {}).get('posts') or [{}]
             p0 = posts[0]
@@ -151,7 +159,7 @@ def threejs(cfg, date, period='weekly', fetch_links=True):
 def github(cfg, date, since=None, min_stars=None):
     since = since or _shift(date, -cfg['window']['new_days'])
     th = floor(cfg, 'github_stars_30d')
-    min_stars = min_stars or th
+    min_stars = min_stars or collect_min(cfg, 'github_stars')
     seen, errs = {}, []
     for q in cfg['github_queries']:
         u = ('https://api.github.com/search/repositories?sort=stars&order=desc&per_page=50&q='
@@ -235,7 +243,12 @@ def awesome(cfg, date, only_new=True):
     state = state or {}
     leads = []
     for repo in cfg['awesome_repos']:
-        md = net.get(f'https://raw.githubusercontent.com/{repo}/HEAD/README.md', retries=2)
+        md = net.get(f'https://raw.githubusercontent.com/{repo}/HEAD/README.md', retries=1)
+        if not md:                                   # 有的网络环境连不上 raw.githubusercontent.com，改走接口
+            md = net.get(f'https://api.github.com/repos/{repo}/readme',
+                         headers=dict(net.github_headers(), Accept='application/vnd.github.raw'), retries=1)
+        if not md.lstrip().startswith(('#', '<', '-', '[', '!')) and '](http' not in md:
+            raise RuntimeError(f'读不到 {repo} 的 README')
         for m in re.finditer(r'^- \[([^\]]+)\]\((https?://[^)\s]+)\)\s*[-–—]\s*(.+)$', md, re.M):
             name, url, desc = m.group(1), m.group(2), m.group(3).strip()
             if 'github.com/' + repo.lower() in url.lower():

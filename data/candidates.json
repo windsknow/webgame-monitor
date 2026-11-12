@@ -10,7 +10,7 @@
     "title": "dsh-game-studio",
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "metrics": {
-     "github_stars": 509,
+     "github_stars": 520,
      "github_forks": 44
     },
     "published": "2026-11-05",
@@ -97,7 +97,7 @@
     "title": "open-source-hands",
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "metrics": {
-     "github_stars": 210,
+     "github_stars": 211,
      "github_forks": 30
     },
     "published": "2026-11-03",
@@ -265,7 +265,7 @@
     "title": "PS4-Games-Installer",
     "source_url": "https://github.com/e1z0/PS4-Games-Installer",
     "metrics": {
-     "github_stars": 102,
+     "github_stars": 103,
      "github_forks": 11
     },
     "published": "2026-10-15",
@@ -347,7 +347,7 @@
     "title": "A great old-timey game-programming hack (2013)",
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "metrics": {
-     "hn_points": 269,
+     "hn_points": 270,
      "hn_comments": 67
     },
     "published": "2026-11-11",
@@ -813,7 +813,7 @@
   "updated": "2026-11-12",
   "x_now": {
    "https://x.com/0xChuckstock/status/2120125184606658728": {
-    "views": 9308,
+    "views": 9344,
     "date": "2026-11-12"
    }
   },
@@ -857,7 +857,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 40.3 万"
+    "说明": "X 单帖浏览 40.4 万"
    }
   ],
   "hard": {
@@ -871,7 +871,7 @@
   "updated": "2026-11-12",
   "x_now": {
    "https://x.com/mattshumer_/status/2119877065701036047": {
-    "views": 403434,
+    "views": 403889,
     "date": "2026-11-12"
    }
   },
@@ -923,7 +923,7 @@
   "updated": "2026-11-12",
   "x_now": {
    "https://x.com/mattshumer_/status/2119872098306810226": {
-    "views": 171453,
+    "views": 171584,
     "date": "2026-11-12"
    }
   },
@@ -1189,9 +1189,9 @@
     "title": "Snowfield Taco Stand",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 2,
-     "astrocade_plays": 46541,
-     "astrocade_likes": 1047,
+     "astrocade_rank": 9,
+     "astrocade_plays": 47379,
+     "astrocade_likes": 1073,
      "chart_new_entry": false
     },
     "published": "2026-11-05",
@@ -1233,9 +1233,9 @@
     "title": "Zombies vs Humans with Guns",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 6,
-     "astrocade_plays": 23909,
-     "astrocade_likes": 562,
+     "astrocade_rank": 2,
+     "astrocade_plays": 25106,
+     "astrocade_likes": 610,
      "chart_new_entry": false
     },
     "published": "2026-11-10",
@@ -1277,9 +1277,9 @@
     "title": "Frost Harbor: Ice Fishing Tycoon",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 12,
-     "astrocade_plays": 42725,
-     "astrocade_likes": 988,
+     "astrocade_rank": 13,
+     "astrocade_plays": 43768,
+     "astrocade_likes": 1018,
      "chart_new_entry": false
     },
     "published": "2026-11-08",
@@ -1321,9 +1321,9 @@
     "title": "Ben 10: Ultimate Aliens",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 13,
-     "astrocade_plays": 192514,
-     "astrocade_likes": 5798,
+     "astrocade_rank": 8,
+     "astrocade_plays": 194323,
+     "astrocade_likes": 5854,
      "chart_new_entry": false
     },
     "published": "2026-10-31",
@@ -1345,7 +1345,7 @@
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 19.3 万 次"
+    "说明": "平台显示游玩 19.4 万 次"
    }
   ],
   "updated": "2026-11-12",
@@ -1423,9 +1423,9 @@
     "title": "Rich or Poor Runner",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 1,
-     "astrocade_plays": 270441,
-     "astrocade_likes": 5092,
+     "astrocade_rank": 12,
+     "astrocade_plays": 271960,
+     "astrocade_likes": 5126,
      "chart_new_entry": false
     },
     "published": "2026-11-02",
@@ -1447,7 +1447,7 @@
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 27 万 次"
+    "说明": "平台显示游玩 27.2 万 次"
    }
   ],
   "updated": "2026-11-12",
@@ -1467,9 +1467,9 @@
     "title": "Steal an Egg Monster",
     "source_url": "https://www.astrocade.com/category/trending",
     "metrics": {
-     "astrocade_rank": 5,
-     "astrocade_plays": 47688,
-     "astrocade_likes": 791,
+     "astrocade_rank": 16,
+     "astrocade_plays": 48315,
+     "astrocade_likes": 810,
      "chart_new_entry": false
     },
     "published": "2026-11-07",
@@ -1561,7 +1561,7 @@
     "title": "d2-web",
     "source_url": "https://github.com/Virtastic/d2-web",
     "metrics": {
-     "github_stars": 72,
+     "github_stars": 71,
      "github_forks": 7
     },
     "published": "2026-10-29",
@@ -1807,7 +1807,7 @@
     "title": "dream-arcade-demo",
     "source_url": "https://github.com/Ritrls/dream-arcade-demo",
     "metrics": {
-     "github_stars": 75,
+     "github_stars": 76,
      "github_forks": 0
     },
     "published": "2026-11-03",
@@ -1982,7 +1982,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50432523",
     "metrics": {
      "hn_points": 31,
-     "hn_comments": 42
+     "hn_comments": 43
     },
     "published": "2026-11-09",
     "passes": true,
@@ -2018,7 +2018,7 @@
     "title": "Play GTA5 on Browser",
     "source_url": "https://news.ycombinator.com/item?id=50458710",
     "metrics": {
-     "hn_points": 82,
+     "hn_points": 83,
      "hn_comments": 62
     },
     "published": "2026-11-11",
@@ -2067,8 +2067,8 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 2,
-     "spawn_plays": 28719,
-     "spawn_likes": 1004,
+     "spawn_plays": 28971,
+     "spawn_likes": 1008,
      "chart_new_entry": false
     },
     "published": "2026-10-31",
@@ -2106,8 +2106,8 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 3,
-     "spawn_plays": 91289,
-     "spawn_likes": 593,
+     "spawn_plays": 91304,
+     "spawn_likes": 594,
      "chart_new_entry": false
     },
     "published": "2026-10-23",
@@ -2150,8 +2150,8 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 5,
-     "spawn_plays": 8460,
-     "spawn_likes": 226,
+     "spawn_plays": 8474,
+     "spawn_likes": 227,
      "chart_new_entry": false
     },
     "published": "2026-10-31",
@@ -2189,8 +2189,8 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 6,
-     "spawn_plays": 5380,
-     "spawn_likes": 181,
+     "spawn_plays": 5386,
+     "spawn_likes": 182,
      "chart_new_entry": false
     },
     "published": "2026-10-20",
@@ -2228,7 +2228,7 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 12,
-     "spawn_plays": 1795,
+     "spawn_plays": 1801,
      "spawn_likes": 75,
      "chart_new_entry": false
     },
@@ -2272,7 +2272,7 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 15,
-     "spawn_plays": 3612,
+     "spawn_plays": 3621,
      "spawn_likes": 71,
      "chart_new_entry": false
     },
@@ -2316,7 +2316,7 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 16,
-     "spawn_plays": 904,
+     "spawn_plays": 906,
      "spawn_likes": 70,
      "chart_new_entry": false
     },
@@ -2360,7 +2360,7 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 18,
-     "spawn_plays": 768,
+     "spawn_plays": 769,
      "spawn_likes": 59,
      "chart_new_entry": false
     },
@@ -2404,7 +2404,7 @@
     "source_url": "https://www.spawn.co/",
     "metrics": {
      "spawn_rank": 20,
-     "spawn_plays": 24050,
+     "spawn_plays": 24298,
      "spawn_likes": 55,
      "chart_new_entry": false
     },
@@ -2442,7 +2442,7 @@
     "title": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
     "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
     "metrics": {
-     "threejs_views": 186,
+     "threejs_views": 190,
      "threejs_replies": 6,
      "threejs_likes": 8
     },
@@ -2484,7 +2484,7 @@
     "title": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
     "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
     "metrics": {
-     "threejs_views": 108,
+     "threejs_views": 110,
      "threejs_replies": 5,
      "threejs_likes": 3
     },
@@ -2552,7 +2552,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/gourav_io/status/2119791071089852888": {
-    "views": 7933,
+    "views": 7938,
     "date": "2026-11-12"
    }
   },
@@ -2607,7 +2607,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/FrensOfPRIA/status/2119643510207099323": {
-    "views": 32684,
+    "views": 32688,
     "date": "2026-11-12"
    }
   },
@@ -2663,7 +2663,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/alightinastorm/status/2120020469487440210": {
-    "views": 12164,
+    "views": 12196,
     "date": "2026-11-12"
    }
   },
@@ -2719,7 +2719,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/alightinastorm/status/2120010936584945922": {
-    "views": 57158,
+    "views": 57246,
     "date": "2026-11-12"
    }
   },
@@ -2775,7 +2775,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/EvanMilenko/status/2119969113762082931": {
-    "views": 38503,
+    "views": 38589,
     "date": "2026-11-12"
    }
   },
@@ -2831,7 +2831,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/_sholtodouglas/status/2119935331499925557": {
-    "views": 193391,
+    "views": 193620,
     "date": "2026-11-12"
    }
   },
@@ -2887,7 +2887,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/Izkimar/status/2119931740940640542": {
-    "views": 21866,
+    "views": 21913,
     "date": "2026-11-12"
    }
   },
@@ -2943,7 +2943,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/kevin_t_ngo/status/2119900487688622171": {
-    "views": 105322,
+    "views": 105483,
     "date": "2026-11-12"
    }
   },
@@ -2973,8 +2973,8 @@
     "title": "Roadside",
     "source_url": "https://x.com/scottstts/status/2120549388745379867",
     "metrics": {
-     "x_views": 10670,
-     "x_likes": 201
+     "x_views": 11477,
+     "x_likes": 211
     },
     "published": "2026-11-11",
     "passes": true,
@@ -2999,7 +2999,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/scottstts/status/2120549388745379867": {
-    "views": 10670,
+    "views": 11519,
     "date": "2026-11-12"
    }
   },
@@ -3058,7 +3058,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/loktar00/status/2120192761542615271": {
-    "views": 183571,
+    "views": 185817,
     "date": "2026-11-12"
    }
   },
@@ -3248,5 +3248,176 @@
    "Astrocade 热门页在榜，2026-11-01 发布"
   ],
   "game_id": "winter-upd-first-date-on-park"
+ },
+ "astrocade.com/games/squishy-balloon-slime-diy-asmr/01m72wbam0g8sw7rfd9g9ethjx": {
+  "key": "astrocade.com/games/squishy-balloon-slime-diy-asmr/01m72wbam0g8sw7rfd9g9ethjx",
+  "url": "https://www.astrocade.com/games/squishy-balloon-slime-diy-asmr/01M72WBAM0G8SW7RFD9G9ETHJX",
+  "name": "Squishy Balloon Slime: DIY ASMR",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Squishy Balloon Slime: DIY ASMR",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 50048,
+     "astrocade_likes": 575,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Pour the gel, add foam, stir in colour, glitter and toppings, then knead your own squishy slime. Fill a balloon and squeeze it!\n\n#Creative #Simulation",
+    "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_50b108f6-cbbe-4522-ab26-a8ff995a5593.webp"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 5 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-10 发布"
+  ],
+  "page": {
+   "ok": true,
+   "title": "Squishy Balloon Slime: DIY ASMR | Astrocade",
+   "desc": "Pour the gel, add foam, stir in colour, glitter and toppings, then knead your own squishy slime. Fill a balloon and squeeze it! #Creative #Simulation",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_50b108f6-cbbe-4522-ab26-a8ff995a5593.webp?width=900&format=jpeg&quality=80&frame=first",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3ClinearGradient id=%22star-gradient%22 gradientUnits=%22userSpaceOnUse%22 x1=%22256%22 y1=%2230.7274%22 x2=%22256%22 y2=%22464.7508%22%3E%3Cstop offset=%220%22 stop-color=%22%23FF4288%22/%3E%3Cstop offset=%221%22 stop-color=%22%23C42FED%22/%3E%3C/linearGradient%3E%3Cpath d=%22M509.553,206.035l-9.987-30.718c-5.623-17.335-20.231-30.258-38.107-33.719l-97.382-18.933l-48.094-86.774 c-8.841-15.924-25.636-25.814-43.835-25.814h-32.299c-18.215,0-35.01,9.898-43.835,25.822l-48.094,86.766l-97.374,18.933 c-17.884,3.469-32.493,16.392-38.115,33.711l-9.971,30.694c-5.639,17.311-1.428,36.349,11.003,49.691l67.664,72.552l-12.092,98.447 c-2.226,18.094,5.55,35.978,20.28,46.666l26.12,18.989c8.72,6.332,19.07,9.575,29.484,9.575c7.196,0,14.431-1.549,21.175-4.695 l89.904-41.923l89.912,41.931c16.521,7.688,35.929,5.816,50.643-4.888l26.112-18.973c14.746-10.705,22.522-28.589,20.296-46.666 l-12.084-98.463l67.656-72.544C510.948,242.383,515.175,223.354,509.553,206.035z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M482.05,206.695l-9.981-30.716c-2.382-7.333-8.557-12.795-16.125-14.267l-110.616-21.499 L290.7,41.655c-3.738-6.744-10.841-10.928-18.551-10.928h-32.297c-7.71,0-14.813,4.184-18.551,10.928l-54.63,98.558L56.056,161.712 c-7.569,1.471-13.743,6.933-16.125,14.267l-9.981,30.716c-2.383,7.333-0.598,15.381,4.661,21.02l76.853,82.411L97.728,421.972 c-0.94,7.653,2.347,15.213,8.585,19.744l26.129,18.984c6.238,4.532,14.444,5.322,21.431,2.064L256,415.138l102.127,47.626 c6.988,3.258,15.194,2.468,21.431-2.064l26.129-18.984c6.238-4.531,9.525-12.092,8.585-19.744l-13.736-111.845l76.853-82.411 C482.648,222.076,484.432,214.028,482.05,206.695z%22 fill=%22url(%23star-gradient)%22/%3E%3Cpath d=%22M147.96,204.077c-15.597,0-28.286,12.689-28.286,28.286s12.689,28.286,28.286,28.286 c15.593,0,28.282-12.689,28.282-28.286S163.553,204.077,147.96,204.077z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M286.571,233.545h-3.102c-1.141,0-2.065,0.924-2.065,2.065c0,12.14-11.495,22.014-25.628,22.014 s-25.628-9.874-25.628-22.014c0-1.141-0.924-2.065-2.065-2.065h-3.102c-2.021,0-3.941,0.883-5.264,2.424 c-1.291,1.504-1.859,3.473-1.565,5.405c2.795,18.412,18.969,32.295,37.623,32.295s34.828-13.883,37.623-32.295 c0.294-1.932-0.274-3.9-1.565-5.405C290.511,234.428,288.591,233.545,286.571,233.545z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M386.687,217.908c1.662,0.367,3.444-0.468,4.203-2.017c1.061-2.198,1.081-4.521,0.048-6.546 c-1.101-2.166-3.259-3.682-5.925-4.166c-25.519-4.594-44.359,5.195-55.911,29.149c-0.484,0.992-0.504,2.138-0.052,3.162 l1.303,2.912c0.387,0.984,2.686,5.788,10.572,4.041c10.805-2.424,27.504-1.791,38.93,7.938c0.661,0.557,1.496,0.867,2.646,0.867 c0.028,0,0.052,0,0.081,0c0.984-0.081,1.916-0.557,2.549-1.307c2.561-3.029,3.473-7.708-0.27-11.33 c-7.615-7.381-19.941-12.245-31.702-12.721C359.289,220.477,370.856,214.282,386.687,217.908z%22 fill=%22%23FFFFFF%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "squishy-balloon-slime-diy-asmr"
+ },
+ "astrocade.com/games/minecraft-billionaire-treehouse/01m5w46necymern88x38ch1kmn": {
+  "key": "astrocade.com/games/minecraft-billionaire-treehouse/01m5w46necymern88x38ch1kmn",
+  "url": "https://www.astrocade.com/games/minecraft-billionaire-treehouse/01M5W46NECYMERN88X38CH1KMN",
+  "name": "MINECRAFT Billionaire treehouse ",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "MINECRAFT Billionaire treehouse ",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 4,
+     "astrocade_plays": 188553,
+     "astrocade_likes": 5338,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-01",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "zenithsu_astra!!!",
+    "image": "https://dzmv1mxivz48k.cloudfront.net/images/Google_115126599802613171365/1793544887524_01M6BSP774VR5SYHJQGZ9HPKQR.image.png"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-01",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 18.9 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-01 发布"
+  ],
+  "page": {
+   "ok": true,
+   "title": "MINECRAFT Billionaire treehouse | Astrocade",
+   "desc": "zenithsu_astra!!!",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/Google_115126599802613171365/1793544887524_01M6BSP774VR5SYHJQGZ9HPKQR.image.png?width=900&format=jpeg&quality=80&frame=first",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3ClinearGradient id=%22star-gradient%22 gradientUnits=%22userSpaceOnUse%22 x1=%22256%22 y1=%2230.7274%22 x2=%22256%22 y2=%22464.7508%22%3E%3Cstop offset=%220%22 stop-color=%22%23FF4288%22/%3E%3Cstop offset=%221%22 stop-color=%22%23C42FED%22/%3E%3C/linearGradient%3E%3Cpath d=%22M509.553,206.035l-9.987-30.718c-5.623-17.335-20.231-30.258-38.107-33.719l-97.382-18.933l-48.094-86.774 c-8.841-15.924-25.636-25.814-43.835-25.814h-32.299c-18.215,0-35.01,9.898-43.835,25.822l-48.094,86.766l-97.374,18.933 c-17.884,3.469-32.493,16.392-38.115,33.711l-9.971,30.694c-5.639,17.311-1.428,36.349,11.003,49.691l67.664,72.552l-12.092,98.447 c-2.226,18.094,5.55,35.978,20.28,46.666l26.12,18.989c8.72,6.332,19.07,9.575,29.484,9.575c7.196,0,14.431-1.549,21.175-4.695 l89.904-41.923l89.912,41.931c16.521,7.688,35.929,5.816,50.643-4.888l26.112-18.973c14.746-10.705,22.522-28.589,20.296-46.666 l-12.084-98.463l67.656-72.544C510.948,242.383,515.175,223.354,509.553,206.035z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M482.05,206.695l-9.981-30.716c-2.382-7.333-8.557-12.795-16.125-14.267l-110.616-21.499 L290.7,41.655c-3.738-6.744-10.841-10.928-18.551-10.928h-32.297c-7.71,0-14.813,4.184-18.551,10.928l-54.63,98.558L56.056,161.712 c-7.569,1.471-13.743,6.933-16.125,14.267l-9.981,30.716c-2.383,7.333-0.598,15.381,4.661,21.02l76.853,82.411L97.728,421.972 c-0.94,7.653,2.347,15.213,8.585,19.744l26.129,18.984c6.238,4.532,14.444,5.322,21.431,2.064L256,415.138l102.127,47.626 c6.988,3.258,15.194,2.468,21.431-2.064l26.129-18.984c6.238-4.531,9.525-12.092,8.585-19.744l-13.736-111.845l76.853-82.411 C482.648,222.076,484.432,214.028,482.05,206.695z%22 fill=%22url(%23star-gradient)%22/%3E%3Cpath d=%22M147.96,204.077c-15.597,0-28.286,12.689-28.286,28.286s12.689,28.286,28.286,28.286 c15.593,0,28.282-12.689,28.282-28.286S163.553,204.077,147.96,204.077z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M286.571,233.545h-3.102c-1.141,0-2.065,0.924-2.065,2.065c0,12.14-11.495,22.014-25.628,22.014 s-25.628-9.874-25.628-22.014c0-1.141-0.924-2.065-2.065-2.065h-3.102c-2.021,0-3.941,0.883-5.264,2.424 c-1.291,1.504-1.859,3.473-1.565,5.405c2.795,18.412,18.969,32.295,37.623,32.295s34.828-13.883,37.623-32.295 c0.294-1.932-0.274-3.9-1.565-5.405C290.511,234.428,288.591,233.545,286.571,233.545z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M386.687,217.908c1.662,0.367,3.444-0.468,4.203-2.017c1.061-2.198,1.081-4.521,0.048-6.546 c-1.101-2.166-3.259-3.682-5.925-4.166c-25.519-4.594-44.359,5.195-55.911,29.149c-0.484,0.992-0.504,2.138-0.052,3.162 l1.303,2.912c0.387,0.984,2.686,5.788,10.572,4.041c10.805-2.424,27.504-1.791,38.93,7.938c0.661,0.557,1.496,0.867,2.646,0.867 c0.028,0,0.052,0,0.081,0c0.984-0.081,1.916-0.557,2.549-1.307c2.561-3.029,3.473-7.708-0.27-11.33 c-7.615-7.381-19.941-12.245-31.702-12.721C359.289,220.477,370.856,214.282,386.687,217.908z%22 fill=%22%23FFFFFF%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "minecraft-billionaire-treehouse"
+ },
+ "astrocade.com/games/steal-an-egg/01m4tdph5t4va3hwh1pb9hfc08": {
+  "key": "astrocade.com/games/steal-an-egg/01m4tdph5t4va3hwh1pb9hfc08",
+  "url": "https://www.astrocade.com/games/steal-an-egg/01M4TDPH5T4VA3HWH1PB9HFC08",
+  "name": "Steal an Egg",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Steal an Egg",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 11,
+     "astrocade_plays": 836179,
+     "astrocade_likes": 13628,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-13",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Steal eggs, dodge tsunamis & rob rival bases! Hatch pets, find Gold/Diamond/Galaxy mutations & lock your base. 3D model credits (CC-BY) in Settings.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793547936255_01M6BWK8FZW0C89ZMJG7HWWGNG.jpg"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-10-13",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 83.6 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-13 发布"
+  ],
+  "page": {
+   "ok": true,
+   "title": "Steal an Egg | Astrocade",
+   "desc": "Steal eggs, dodge tsunamis & rob rival bases! Hatch pets, find Gold/Diamond/Galaxy mutations & lock your base. 3D model credits (CC-BY) in Settings.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793547936255_01M6BWK8FZW0C89ZMJG7HWWGNG.jpg?width=900&format=jpeg&quality=80&frame=first",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3ClinearGradient id=%22star-gradient%22 gradientUnits=%22userSpaceOnUse%22 x1=%22256%22 y1=%2230.7274%22 x2=%22256%22 y2=%22464.7508%22%3E%3Cstop offset=%220%22 stop-color=%22%23FF4288%22/%3E%3Cstop offset=%221%22 stop-color=%22%23C42FED%22/%3E%3C/linearGradient%3E%3Cpath d=%22M509.553,206.035l-9.987-30.718c-5.623-17.335-20.231-30.258-38.107-33.719l-97.382-18.933l-48.094-86.774 c-8.841-15.924-25.636-25.814-43.835-25.814h-32.299c-18.215,0-35.01,9.898-43.835,25.822l-48.094,86.766l-97.374,18.933 c-17.884,3.469-32.493,16.392-38.115,33.711l-9.971,30.694c-5.639,17.311-1.428,36.349,11.003,49.691l67.664,72.552l-12.092,98.447 c-2.226,18.094,5.55,35.978,20.28,46.666l26.12,18.989c8.72,6.332,19.07,9.575,29.484,9.575c7.196,0,14.431-1.549,21.175-4.695 l89.904-41.923l89.912,41.931c16.521,7.688,35.929,5.816,50.643-4.888l26.112-18.973c14.746-10.705,22.522-28.589,20.296-46.666 l-12.084-98.463l67.656-72.544C510.948,242.383,515.175,223.354,509.553,206.035z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M482.05,206.695l-9.981-30.716c-2.382-7.333-8.557-12.795-16.125-14.267l-110.616-21.499 L290.7,41.655c-3.738-6.744-10.841-10.928-18.551-10.928h-32.297c-7.71,0-14.813,4.184-18.551,10.928l-54.63,98.558L56.056,161.712 c-7.569,1.471-13.743,6.933-16.125,14.267l-9.981,30.716c-2.383,7.333-0.598,15.381,4.661,21.02l76.853,82.411L97.728,421.972 c-0.94,7.653,2.347,15.213,8.585,19.744l26.129,18.984c6.238,4.532,14.444,5.322,21.431,2.064L256,415.138l102.127,47.626 c6.988,3.258,15.194,2.468,21.431-2.064l26.129-18.984c6.238-4.531,9.525-12.092,8.585-19.744l-13.736-111.845l76.853-82.411 C482.648,222.076,484.432,214.028,482.05,206.695z%22 fill=%22url(%23star-gradient)%22/%3E%3Cpath d=%22M147.96,204.077c-15.597,0-28.286,12.689-28.286,28.286s12.689,28.286,28.286,28.286 c15.593,0,28.282-12.689,28.282-28.286S163.553,204.077,147.96,204.077z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M286.571,233.545h-3.102c-1.141,0-2.065,0.924-2.065,2.065c0,12.14-11.495,22.014-25.628,22.014 s-25.628-9.874-25.628-22.014c0-1.141-0.924-2.065-2.065-2.065h-3.102c-2.021,0-3.941,0.883-5.264,2.424 c-1.291,1.504-1.859,3.473-1.565,5.405c2.795,18.412,18.969,32.295,37.623,32.295s34.828-13.883,37.623-32.295 c0.294-1.932-0.274-3.9-1.565-5.405C290.511,234.428,288.591,233.545,286.571,233.545z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M386.687,217.908c1.662,0.367,3.444-0.468,4.203-2.017c1.061-2.198,1.081-4.521,0.048-6.546 c-1.101-2.166-3.259-3.682-5.925-4.166c-25.519-4.594-44.359,5.195-55.911,29.149c-0.484,0.992-0.504,2.138-0.052,3.162 l1.303,2.912c0.387,0.984,2.686,5.788,10.572,4.041c10.805-2.424,27.504-1.791,38.93,7.938c0.661,0.557,1.496,0.867,2.646,0.867 c0.028,0,0.052,0,0.081,0c0.984-0.081,1.916-0.557,2.549-1.307c2.561-3.029,3.473-7.708-0.27-11.33 c-7.615-7.381-19.941-12.245-31.702-12.721C359.289,220.477,370.856,214.282,386.687,217.908z%22 fill=%22%23FFFFFF%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "steal-an-egg"
  }
 }

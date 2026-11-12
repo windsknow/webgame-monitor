@@ -1,0 +1,9 @@
+[Unit]
+Description=触发 GitHub Actions 采集 AI 网页游戏线索
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=TZ=Asia/Shanghai
+ExecStart=/opt/webgame-monitor/deploy/trigger_github.sh

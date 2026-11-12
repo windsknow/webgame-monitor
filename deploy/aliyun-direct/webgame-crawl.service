@@ -1,0 +1,15 @@
+[Unit]
+Description=AI 网页游戏监测：每日采集
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=webgamemon
+WorkingDirectory=/opt/webgame-monitor
+Environment=TZ=Asia/Shanghai
+# 可选：/opt/webgame-monitor/.env 里放 X_PULL_URL、X_PULL_TOKEN、GITHUB_TOKEN
+EnvironmentFile=-/opt/webgame-monitor/.env
+ExecStart=/usr/bin/python3 run.py crawl
+TimeoutStartSec=1500
+MemoryMax=300M
+Nice=10

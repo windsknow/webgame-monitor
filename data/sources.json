@@ -9,7 +9,7 @@
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 509,
+     "github_stars": 520,
      "github_forks": 44
     }
    }
@@ -41,7 +41,7 @@
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 210,
+     "github_stars": 211,
      "github_forks": 30
     }
    }
@@ -105,7 +105,7 @@
     "source_url": "https://github.com/e1z0/PS4-Games-Installer",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 102,
+     "github_stars": 103,
      "github_forks": 11
     }
    }
@@ -137,7 +137,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 269,
+     "hn_points": 270,
      "hn_comments": 67
     }
    }
@@ -422,9 +422,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 2,
-     "astrocade_plays": 46541,
-     "astrocade_likes": 1047,
+     "astrocade_rank": 9,
+     "astrocade_plays": 47379,
+     "astrocade_likes": 1073,
      "chart_new_entry": false
     }
    }
@@ -440,9 +440,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 6,
-     "astrocade_plays": 23909,
-     "astrocade_likes": 562,
+     "astrocade_rank": 2,
+     "astrocade_plays": 25106,
+     "astrocade_likes": 610,
      "chart_new_entry": false
     }
    }
@@ -458,9 +458,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 12,
-     "astrocade_plays": 42725,
-     "astrocade_likes": 988,
+     "astrocade_rank": 13,
+     "astrocade_plays": 43768,
+     "astrocade_likes": 1018,
      "chart_new_entry": false
     }
    }
@@ -476,9 +476,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 13,
-     "astrocade_plays": 192514,
-     "astrocade_likes": 5798,
+     "astrocade_rank": 8,
+     "astrocade_plays": 194323,
+     "astrocade_likes": 5854,
      "chart_new_entry": false
     }
    }
@@ -512,9 +512,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 1,
-     "astrocade_plays": 270441,
-     "astrocade_likes": 5092,
+     "astrocade_rank": 12,
+     "astrocade_plays": 271960,
+     "astrocade_likes": 5126,
      "chart_new_entry": false
     }
    }
@@ -530,9 +530,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 5,
-     "astrocade_plays": 47688,
-     "astrocade_likes": 791,
+     "astrocade_rank": 16,
+     "astrocade_plays": 48315,
+     "astrocade_likes": 810,
      "chart_new_entry": false
     }
    }
@@ -564,7 +564,7 @@
     "source_url": "https://github.com/Virtastic/d2-web",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 72,
+     "github_stars": 71,
      "github_forks": 7
     }
    }
@@ -644,7 +644,7 @@
     "source_url": "https://github.com/Ritrls/dream-arcade-demo",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 75,
+     "github_stars": 76,
      "github_forks": 0
     }
    }
@@ -709,7 +709,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "hn_points": 31,
-     "hn_comments": 42
+     "hn_comments": 43
     }
    }
   ]
@@ -724,7 +724,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50458710",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 82,
+     "hn_points": 83,
      "hn_comments": 62
     }
    }
@@ -741,8 +741,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 2,
-     "spawn_plays": 28719,
-     "spawn_likes": 1004,
+     "spawn_plays": 28971,
+     "spawn_likes": 1008,
      "chart_new_entry": false
     }
    }
@@ -759,8 +759,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 3,
-     "spawn_plays": 91289,
-     "spawn_likes": 593,
+     "spawn_plays": 91304,
+     "spawn_likes": 594,
      "chart_new_entry": false
     }
    }
@@ -777,8 +777,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 5,
-     "spawn_plays": 8460,
-     "spawn_likes": 226,
+     "spawn_plays": 8474,
+     "spawn_likes": 227,
      "chart_new_entry": false
     }
    }
@@ -795,8 +795,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 6,
-     "spawn_plays": 5380,
-     "spawn_likes": 181,
+     "spawn_plays": 5386,
+     "spawn_likes": 182,
      "chart_new_entry": false
     }
    }
@@ -813,7 +813,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 12,
-     "spawn_plays": 1795,
+     "spawn_plays": 1801,
      "spawn_likes": 75,
      "chart_new_entry": false
     }
@@ -831,7 +831,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 15,
-     "spawn_plays": 3612,
+     "spawn_plays": 3621,
      "spawn_likes": 71,
      "chart_new_entry": false
     }
@@ -849,7 +849,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 16,
-     "spawn_plays": 904,
+     "spawn_plays": 906,
      "spawn_likes": 70,
      "chart_new_entry": false
     }
@@ -867,7 +867,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 18,
-     "spawn_plays": 768,
+     "spawn_plays": 769,
      "spawn_likes": 59,
      "chart_new_entry": false
     }
@@ -885,7 +885,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 20,
-     "spawn_plays": 24050,
+     "spawn_plays": 24298,
      "spawn_likes": 55,
      "chart_new_entry": false
     }
@@ -902,7 +902,7 @@
     "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
     "first_date": "2026-11-12",
     "metrics": {
-     "threejs_views": 186,
+     "threejs_views": 190,
      "threejs_replies": 6,
      "threejs_likes": 8
     }
@@ -919,7 +919,7 @@
     "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
     "first_date": "2026-11-12",
     "metrics": {
-     "threejs_views": 108,
+     "threejs_views": 110,
      "threejs_replies": 5,
      "threejs_likes": 3
     }
@@ -1064,8 +1064,8 @@
     "source_url": "https://x.com/scottstts/status/2120549388745379867",
     "first_date": "2026-11-12",
     "metrics": {
-     "x_views": 10670,
-     "x_likes": 201
+     "x_views": 11477,
+     "x_likes": 211
     }
    }
   ]
@@ -1153,6 +1153,60 @@
      "astrocade_rank": 15,
      "astrocade_plays": 24777,
      "astrocade_likes": 593,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/squishy-balloon-slime-diy-asmr/01m72wbam0g8sw7rfd9g9ethjx": {
+  "name": "Squishy Balloon Slime: DIY ASMR",
+  "status": "收录",
+  "game_id": "squishy-balloon-slime-diy-asmr",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 50048,
+     "astrocade_likes": 575,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/minecraft-billionaire-treehouse/01m5w46necymern88x38ch1kmn": {
+  "name": "MINECRAFT Billionaire treehouse ",
+  "status": "收录",
+  "game_id": "minecraft-billionaire-treehouse",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 4,
+     "astrocade_plays": 188553,
+     "astrocade_likes": 5338,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/steal-an-egg/01m4tdph5t4va3hwh1pb9hfc08": {
+  "name": "Steal an Egg",
+  "status": "收录",
+  "game_id": "steal-an-egg",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 11,
+     "astrocade_plays": 836179,
+     "astrocade_likes": 13628,
      "chart_new_entry": false
     }
    }

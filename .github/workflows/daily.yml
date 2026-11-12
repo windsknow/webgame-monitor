@@ -1,29 +1,27 @@
-name: 每日采集与发布
+name: 每日采集
 
+# 现在只采集：各渠道的线索和 X 帖子的粗筛结果存进 raw/，不合并、不入库、不发布网页。
+# 筛选标准定下来之后，把下面的 crawl 换成 daily，再按 docs/部署步骤.md 加回发布步骤。
+
+# 不用 GitHub 自己的 schedule（延迟大、不稳定）。由阿里云服务器上的定时器每天北京时间 10:30
+# 调用接口触发（deploy/aliyun/trigger_github.sh），并把北京日期作为 date 传进来。
+# X 数据约 09:30 生成，10:30 触发留了一小时余量。也可以在 Actions 页面手动点 Run workflow。
 on:
-  schedule:
-    # 每天北京时间 10:30（UTC 02:30）。X 数据约 09:30 生成，留一小时余量。
-    - cron: '30 2 * * *'
   workflow_dispatch:
     inputs:
       date:
-        description: '指定日期 YYYY-MM-DD（留空为今天）'
+        description: '指定日期 YYYY-MM-DD（留空为今天的北京日期）'
         required: false
-  push:
-    branches: [main]
-    paths: ['data/games.json', 'data/candidates.json', 'data/x_judgments.json', 'config.json', 'templates/**', 'monitor/**']
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: monitor
   cancel-in-progress: false
 
 jobs:
-  run:
+  crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -31,34 +29,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 跑管线
+      - name: 采集
         env:
           TZ: Asia/Shanghai
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           X_PULL_URL: ${{ secrets.X_PULL_URL }}
           X_PULL_TOKEN: ${{ secrets.X_PULL_TOKEN }}
           MONITOR_DATE: ${{ github.event.inputs.date }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            # 人工改了数据或配置：不重新采集，只重新合并和生成页面
-            python3 run.py merge && python3 run.py site
-          else
-            python3 run.py daily
-          fi
+        run: python3 run.py crawl
       - name: 提交数据
+        if: always()
         run: |
           git config user.name "webgame-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add raw data assets digest
-          git diff --cached --quiet || git commit -m "数据更新 $(TZ=Asia/Shanghai date +%F)"
+          git add raw data
+          git diff --cached --quiet || git commit -m "采集 $(TZ=Asia/Shanghai date +%F)"
           git push
-      # config.json 里 site.enabled 为 false 时不会生成 site/index.html，下面三步跳过
-      - uses: actions/configure-pages@v5
-        if: hashFiles('site/index.html') != ''
-      - uses: actions/upload-pages-artifact@v3
-        if: hashFiles('site/index.html') != ''
-        with:
-          path: site
-      - id: deployment
-        if: hashFiles('site/index.html') != ''
-        uses: actions/deploy-pages@v4
