@@ -1,0 +1,585 @@
+{
+ "date": "2026-11-13",
+ "channel": "itch",
+ "count": 36,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "itch",
+   "title": "Idlecraft",
+   "url": "https://nearlydonegames.itch.io/idlecraft",
+   "key": "nearlydonegames.itch.io/idlecraft",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 1,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-07-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A cozy Voxel-themed idle incremental. Hover to mine, upgrade, repeat."
+  },
+  {
+   "channel": "itch",
+   "title": "Find the Clover",
+   "url": "https://alexisgelin.itch.io/find-the-clover",
+   "key": "alexisgelin.itch.io/find-the-clover",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 2,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-10-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Find a clover in a MIILION!"
+  },
+  {
+   "channel": "itch",
+   "title": "OFF SCRIPT",
+   "url": "https://syring4.itch.io/offscript",
+   "key": "syring4.itch.io/offscript",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 3,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-09-29",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Marble Hornets inspired VN"
+  },
+  {
+   "channel": "itch",
+   "title": "Ommatophilia",
+   "url": "https://ophanimkei.itch.io/omma",
+   "key": "ophanimkei.itch.io/omma",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 4,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2024-12-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "are you tired of watching life go by?"
+  },
+  {
+   "channel": "itch",
+   "title": "Earth ReGen",
+   "url": "https://disagreeg.itch.io/earth-regen",
+   "key": "disagreeg.itch.io/earth-regen",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 5,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-08-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Wire machines together and bring a dead planet back. A factory-building incremental."
+  },
+  {
+   "channel": "itch",
+   "title": "Terraformer Wars",
+   "url": "https://16bitnights.itch.io/terraformer-wars",
+   "key": "16bitnights.itch.io/terraformer-wars",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 6,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-09-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Autobattler, Incremental, Roguelike"
+  },
+  {
+   "channel": "itch",
+   "title": "Mangore the Magnificent",
+   "url": "https://programancer.itch.io/mangore-the-magnificent",
+   "key": "programancer.itch.io/mangore-the-magnificent",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 7,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2024-01-06",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Escape Artist Extrordinere"
+  },
+  {
+   "channel": "itch",
+   "title": "Logo Idle",
+   "url": "https://brainfog-games.itch.io/logo-idle",
+   "key": "brainfog-games.itch.io/logo-idle",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 8,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-10-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "Scritchy Scratchy",
+   "url": "https://funday-games.itch.io/scritchy-scratchy",
+   "key": "funday-games.itch.io/scritchy-scratchy",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 9,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2025-07-04",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A super-satisfying scratch card incremental game"
+  },
+  {
+   "channel": "itch",
+   "title": "Eco Power Towns",
+   "url": "https://crevasse.itch.io/eco-power-towns",
+   "key": "crevasse.itch.io/eco-power-towns",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 10,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-03-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A cozy game about green energy"
+  },
+  {
+   "channel": "itch",
+   "title": "How to date a Sleep Paralysis Demon- Part 2(Demo)",
+   "url": "https://sfour-s4.itch.io/how-to-date-a-sleep-paralysis-demon",
+   "key": "sfour-s4.itch.io/how-to-date-a-sleep-paralysis-demon",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 11,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-04-30",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "PlinkIdle",
+   "url": "https://black-heart-games-studio.itch.io/plinkidle",
+   "key": "black-heart-games-studio.itch.io/plinkidle",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 12,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2025-03-20",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Drop the ball. Upgrade your world. Watch the chaos unfold."
+  },
+  {
+   "channel": "itch",
+   "title": "Supermarket Spree DX",
+   "url": "https://pacdude.itch.io/supermarket-spree-dx",
+   "key": "pacdude.itch.io/supermarket-spree-dx",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 13,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2023-12-04",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Go wild in the aisles in this fun retro throwback!"
+  },
+  {
+   "channel": "itch",
+   "title": "Season Shift",
+   "url": "https://emlise.itch.io/seasonshift",
+   "key": "emlise.itch.io/seasonshift",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 14,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-10-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Shift the world"
+  },
+  {
+   "channel": "itch",
+   "title": "guesthour",
+   "url": "https://mymadnessworks.itch.io/guesthour",
+   "key": "mymadnessworks.itch.io/guesthour",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 15,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-10-26",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "It is good etiquette to honor your guest"
+  },
+  {
+   "channel": "itch",
+   "title": "Dating Killmulator",
+   "url": "https://coolom-games.itch.io/datingkillmulator",
+   "key": "coolom-games.itch.io/datingkillmulator",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 16,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2023-05-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A comedy dating sim about a serial killer, a popular guy, and a psychologist."
+  },
+  {
+   "channel": "itch",
+   "title": "ECHO NOEIN: 残響戦線",
+   "url": "https://noanoa.itch.io/echo-noein-battlefront",
+   "key": "noanoa.itch.io/echo-noein-battlefront",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 17,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "Increstellar+++",
+   "url": "https://wakedk.itch.io/increstellar",
+   "key": "wakedk.itch.io/increstellar",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 18,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Launch balls, let them escape the ring, buy upgrades. A short incremental game."
+  },
+  {
+   "channel": "itch",
+   "title": "Birds Are Not Real",
+   "url": "https://blake-gocey.itch.io/birds-are-not-real",
+   "key": "blake-gocey.itch.io/birds-are-not-real",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 19,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Birds aren’t real. Build them. A conspiracy clicker where you mass-produce robot pigeons to spy on the world."
+  },
+  {
+   "channel": "itch",
+   "title": "Oh My Gold!",
+   "url": "https://littlelanterngamestudio.itch.io/oh-my-gold",
+   "key": "littlelanterngamestudio.itch.io/oh-my-gold",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 20,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Small pan. Big river. Terrible odds. Perfect afternoon"
+  },
+  {
+   "channel": "itch",
+   "title": "Goat Climb",
+   "url": "https://lidoli.itch.io/goat-climb",
+   "key": "lidoli.itch.io/goat-climb",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 21,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Climb a near-vertical cliff as a mountain goat. Footholds are one hoof wide."
+  },
+  {
+   "channel": "itch",
+   "title": "BoosterWare",
+   "url": "https://overheadgames.itch.io/boosterware",
+   "key": "overheadgames.itch.io/boosterware",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 22,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-07-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A deckbuilding autobattler where you cheat at your favorite card game."
+  },
+  {
+   "channel": "itch",
+   "title": "Parking Tycoon",
+   "url": "https://norisekiya.itch.io/parking-tycoon",
+   "key": "norisekiya.itch.io/parking-tycoon",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 23,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Grow a tiny 3-space lot into a galactic mega car park. An isometric tycoon across 6 cities, from downtown to the Moon."
+  },
+  {
+   "channel": "itch",
+   "title": "Scrapyard Robot (Mobile)",
+   "url": "https://dadddydarko.itch.io/scrapyard-robot-mobile",
+   "key": "dadddydarko.itch.io/scrapyard-robot-mobile",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 24,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-10-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Haul scrap, rebuild an old friend, and green a dusty yard. Made for phones, played sideways."
+  },
+  {
+   "channel": "itch",
+   "title": "Sprunki Tri-Shifted MrJevinBoi's Take",
+   "url": "https://therealmrjevinboi.itch.io/sprunki-tri-shifted-mrjevinboi",
+   "key": "therealmrjevinboi.itch.io/sprunki-tri-shifted-mrjevinboi",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 25,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "Smash & Settle",
+   "url": "https://tyroooo.itch.io/smash-and-settle",
+   "key": "tyroooo.itch.io/smash-and-settle",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 26,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A cozy idle game about smashing and settling. Play the demo in your browser."
+  },
+  {
+   "channel": "itch",
+   "title": "Mutant Musume DEMO",
+   "url": "https://fenomenomx.itch.io/mutant-musume",
+   "key": "fenomenomx.itch.io/mutant-musume",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 27,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-03-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Roguelike gambling mutant anime racer"
+  },
+  {
+   "channel": "itch",
+   "title": "Siege Wing",
+   "url": "https://bannerfall.itch.io/siege-wing",
+   "key": "bannerfall.itch.io/siege-wing",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 28,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "One attack helicopter vs a medieval army"
+  },
+  {
+   "channel": "itch",
+   "title": "Yes, You all are Wrong!",
+   "url": "https://playfactorynz.itch.io/yes",
+   "key": "playfactorynz.itch.io/yes",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 29,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-11"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "He started a fight in the comments. They took it offline."
+  },
+  {
+   "channel": "itch",
+   "title": "WHO WRAPPED THIS?",
+   "url": "https://raxeris.itch.io/who-wrapped-this",
+   "key": "raxeris.itch.io/who-wrapped-this",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 30,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "1,000 layers of wrapping paper. who wrapped them all, and what's in the middle?"
+  },
+  {
+   "channel": "itch",
+   "title": "TidyUp 2000 [Demo]",
+   "url": "https://realpeach.itch.io/tidyup2000",
+   "key": "realpeach.itch.io/tidyup2000",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 31,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-06",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A cozy game about organizing a messy desktop."
+  },
+  {
+   "channel": "itch",
+   "title": "The Last Reading",
+   "url": "https://thelatelab.itch.io/the-last-reading",
+   "key": "thelatelab.itch.io/the-last-reading",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 32,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A tarot roguelite about reading clues, weighing curses, and surviving one more day."
+  },
+  {
+   "channel": "itch",
+   "title": "Otter Hollow",
+   "url": "https://psysius.itch.io/otter-hollow",
+   "key": "psysius.itch.io/otter-hollow",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 33,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Incremental"
+  },
+  {
+   "channel": "itch",
+   "title": "Ragdoll Surfing",
+   "url": "https://bravedeveloping.itch.io/ragdoll-surfing",
+   "key": "bravedeveloping.itch.io/ragdoll-surfing",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 34,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Surf giant waves as a ragdoll penguin, pull flips, and wipe out spectacularly."
+  },
+  {
+   "channel": "itch",
+   "title": "WEFT",
+   "url": "https://12oclock.itch.io/weft",
+   "key": "12oclock.itch.io/weft",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 35,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-13"
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hand loom · Flying shuttle · Dobby · Jacquard · Mill"
+  },
+  {
+   "channel": "itch",
+   "title": "Mycelium",
+   "url": "https://zzf1.itch.io/mycelium",
+   "key": "zzf1.itch.io/mycelium",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 36,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-12"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Grow a fungal network under a forest, trade with the trees, and wake the Elder."
+  }
+ ]
+}

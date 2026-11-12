@@ -1,0 +1,769 @@
+{
+ "date": "2026-11-13",
+ "channel": "verse8",
+ "count": 40,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "verse8",
+   "title": "Nine Chronicles : Rune Breaker",
+   "url": "https://verse8.io/G8w7m7T",
+   "key": "verse8.io/g8w7m7t",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 1,
+    "verse8_sessions": 234007,
+    "verse8_likes": 89,
+    "chart_new_entry": false
+   },
+   "published": "2026-06-10",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "룬 브레이커(Rune Breaker)는 북유럽 신화를 배경으로 한 웹 브라우저 기반의 슈팅 로그라이트 게임입니다. 끊임없이 몰려오는 적들의 웨이브에서 살아남고, 게임 판도를 바꾸는 신들의 축복 빌드를 조합하여 스테이지를 넘어 발할라의 정상에 올라서세요.\n\nRune Breaker is a browser-based Norse roguelite shooter — survive endless waves, craft game-changing blessing builds, and climb from the Stages to Valhalla.",
+   "image": "https://contents.verse8.net/verses/70a266e603c1/497b10e2-66bc-4b15-bf6c-ee81e7618d8f.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Cyber Bricks",
+   "url": "https://verse8.io/z9c4K3S",
+   "key": "verse8.io/z9c4k3s",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 2,
+    "verse8_sessions": 447146,
+    "verse8_likes": 313,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-01",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "freeform tetris, neon bricks, 5x5 grid",
+   "image": "https://contents.verse8.io/726c7155-7369-420b-a6d8-18a561cb68c7.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "던전에서 살아남기(Dungeon Survival)",
+   "url": "https://verse8.io/M9z7z8T",
+   "key": "verse8.io/m9z7z8t",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 3,
+    "verse8_sessions": 11634,
+    "verse8_likes": 87,
+    "chart_new_entry": false
+   },
+   "published": "2025-12-20",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "크립토 전은 던전에서 살아남을수 있을까?",
+   "image": "https://contents.verse8.io/verses/38adbe7dd149/c451a572-72f7-480a-9f1a-ff3be3b5b05c.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Hero Verse: Tap Infinity",
+   "url": "https://verse8.io/P3a3P3i",
+   "key": "verse8.io/p3a3p3i",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 4,
+    "verse8_sessions": 41960,
+    "verse8_likes": 148,
+    "chart_new_entry": false
+   },
+   "published": "2026-01-08",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Collect heroes, power them up, and clear stages in this idle clicker RPG with gacha systems.",
+   "image": "https://contents.verse8.io/verses/860e8a9313a0/3fe2affc-6a4d-4467-81af-a85a95a5c5b4.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Color Match Game",
+   "url": "https://verse8.io/o5r6d6M",
+   "key": "verse8.io/o5r6d6m",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 5,
+    "verse8_sessions": 88907,
+    "verse8_likes": 525,
+    "chart_new_entry": false
+   },
+   "published": "2025-10-28",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Match the same colors!",
+   "image": "https://contents.verse8.io/e4bdf9e9-82ac-4844-8453-b7b2432bc1d0.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Chinese Chess Game",
+   "url": "https://verse8.io/f9C3n5n",
+   "key": "verse8.io/f9c3n5n",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 6,
+    "verse8_sessions": 18424,
+    "verse8_likes": 59,
+    "chart_new_entry": false
+   },
+   "published": "2026-02-08",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Each player has 16 pieces:\n\nGeneral (King)\nMoves 1 point horizontally or vertically.\nMust stay inside the palace.\nCannot face the opposing General directly with no pieces in between.\nAdvisor (Guard)\nMoves 1 point diagonally.\nMust stay inside the palace.\nElephant (Bishop)\nMoves 2 points diagonally.\nC",
+   "image": "https://contents.verse8.net/verses/708b65a77643/97f30eac-c038-4f28-82cd-6b10fa0faded.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Color IT! or is it?",
+   "url": "https://verse8.io/E9c6d2D",
+   "key": "verse8.io/e9c6d2d",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 7,
+    "verse8_sessions": 8040,
+    "verse8_likes": 57,
+    "chart_new_entry": false
+   },
+   "published": "2025-11-25",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Color all Tiles! Right?",
+   "image": "https://contents.verse8.io/verses/3df3b15e8aaa/82cea619-e67c-4c32-a32d-2d1186b46179.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Solar Pirates",
+   "url": "https://verse8.io/T8j2d7u",
+   "key": "verse8.io/t8j2d7u",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 8,
+    "verse8_sessions": 506982,
+    "verse8_likes": 49,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-08",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Become a solar system pirate - raid every planet's resources and rise to become the ultimate space buccaneer!",
+   "image": "https://contents.verse8.io/e38594e9-719b-4c0d-a372-fc9dc16e8880.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Mine8",
+   "url": "https://verse8.io/j7s8R9Q",
+   "key": "verse8.io/j7s8r9q",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 9,
+    "verse8_sessions": 3206644,
+    "verse8_likes": 1170,
+    "chart_new_entry": false
+   },
+   "published": "2025-11-13",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "",
+   "image": "https://contents.verse8.io/verses/e91ea9dc1e49/1d42cbdf-3d3a-487e-b301-ddbb31a5f128.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Maple Monsters: Suika Game",
+   "url": "https://verse8.io/z7L3g6b",
+   "key": "verse8.io/z7l3g6b",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 10,
+    "verse8_sessions": 8593,
+    "verse8_likes": 39,
+    "chart_new_entry": false
+   },
+   "published": "2026-06-10",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "A MapleStory-inspired Suika game where you merge monsters, earn power-up cards, and compete for high",
+   "image": "https://contents.verse8.net/verses/91fe9f617b25/1e0d1bea-8920-4b60-a3fb-0e55b9b820b7.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "V8 DRAG RACE",
+   "url": "https://verse8.io/p7S6w5Y",
+   "key": "verse8.io/p7s6w5y",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 11,
+    "verse8_sessions": 579045,
+    "verse8_likes": 49,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-08",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "",
+   "image": "https://contents.verse8.io/58f11d7b-6773-49a3-b87f-a0cb0f44e05c.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Mergeverse",
+   "url": "https://verse8.io/S8H3g6n",
+   "key": "verse8.io/s8h3g6n",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 12,
+    "verse8_sessions": 192146,
+    "verse8_likes": 563,
+    "chart_new_entry": false
+   },
+   "published": "2025-05-21",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Dive into Mergeverse! Merge adorable planets, growing them until giant ones combine. This quirky physics puzzle tests your brain & luck to prevent spills. Aim for ultimate combos and the highest score!",
+   "image": "https://contents.verse8.io/62103b47-c202-4d4d-be82-2d9a3d72e6fb.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Lumio Tales",
+   "url": "https://verse8.io/p9P4P3A",
+   "key": "verse8.io/p9p4p3a",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 13,
+    "verse8_sessions": 47554,
+    "verse8_likes": 129,
+    "chart_new_entry": false
+   },
+   "published": "2025-12-22",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "A cute style RPG where you hunt monsters, level up, and climb the leaderboard.",
+   "image": "https://contents.verse8.io/verses/eb218ab61f12/31397f89-4ac0-4cd1-8005-e0891fef8bb3.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Dungeons and Dungeoners",
+   "url": "https://verse8.io/W2T6m5G",
+   "key": "verse8.io/w2t6m5g",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 14,
+    "verse8_sessions": 10019,
+    "verse8_likes": 37,
+    "chart_new_entry": false
+   },
+   "published": "2026-01-23",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Recruit heroes, brave dark dungeons, and battle for glory in this high-stakes 2D RPG adventure",
+   "image": "https://contents.verse8.io/verses/anonymous/42c9a09c-ed2c-43fa-b958-74a88a7b66bf.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "2048 Neon",
+   "url": "https://verse8.io/R7F7a2u",
+   "key": "verse8.io/r7f7a2u",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 15,
+    "verse8_sessions": 583419,
+    "verse8_likes": 454,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-19",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "같은 숫자를 드래그해서 합치는 슬라이드 퍼즐 게임! 타일을 원하는 방향으로 밀면 같은 숫자끼리 부딪히며 하나로 합쳐지고, 숫자는 두 배로 커져요. 2 → 4 → 8 → 16... 점점 커지는 숫자를 보며 최고 기록에 도전해보세요. 규칙은 간단하지만 빈 칸이 줄어들수록 손에 땀을 쥐게 하는 중독성 있는 퍼즐입니다. 보드가 꽉 차서 더 이상 움직일 칸이 없으면 게임 오버! 과연 몇 점까지 도달할 수 있을까요?\n\n\n\nA sliding puzzle game where you drag matching numbers together to me",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/fd1e22b8-d5b3-4335-b3bc-3885e066ef70.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "UNDER GUN",
+   "url": "https://verse8.io/h4C7B2U",
+   "key": "verse8.io/h4c7b2u",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 16,
+    "verse8_sessions": 37061,
+    "verse8_likes": 110,
+    "chart_new_entry": false
+   },
+   "published": "2026-02-22",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Deliver the cargo and get rewards!",
+   "image": "https://contents.verse8.io/verses/anonymous/46976e8d-d390-49cd-87a5-f86e1916a141.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Pixel Heroes: Toyz Card Game Season 0",
+   "url": "https://verse8.io/S2a2n5c",
+   "key": "verse8.io/s2a2n5c",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 17,
+    "verse8_sessions": 7184,
+    "verse8_likes": 48,
+    "chart_new_entry": false
+   },
+   "published": "2026-02-28",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Collect, trade, sell, upgrade and build stratgies!",
+   "image": "https://contents.verse8.io/verses/anonymous/9d097670-fa08-4f11-8ba9-eeb07e624d01.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "AFK : Three Kingdoms Blade",
+   "url": "https://verse8.io/i6p2G5e",
+   "key": "verse8.io/i6p2g5e",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 18,
+    "verse8_sessions": 154455,
+    "verse8_likes": 351,
+    "chart_new_entry": false
+   },
+   "published": "2026-01-14",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Play AFK Games with $AFKT Token!",
+   "image": "https://contents.verse8.io/verses/cc560d103761/f8f08312-cf53-4b9c-a7fd-8838d962f046.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "The Ani Protocol",
+   "url": "https://verse8.io/V4g5s4k",
+   "key": "verse8.io/v4g5s4k",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 19,
+    "verse8_sessions": 1230867,
+    "verse8_likes": 433,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-25",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Fish with Ani, upgrade your rod, and reel in the top score!",
+   "image": "https://contents.verse8.io/562c2614-01b8-47e6-954f-219d6a3e3562.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Clean 2D Gomoku AI Game",
+   "url": "https://verse8.io/b9Y4Y7R",
+   "key": "verse8.io/b9y4y7r",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 20,
+    "verse8_sessions": 9016,
+    "verse8_likes": 33,
+    "chart_new_entry": false
+   },
+   "published": "2026-01-14",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Beat him",
+   "image": "https://contents.verse8.io/verses/a2c7ea43027f/656aca1d-fc8a-4f7f-b717-98c5f6ba400b.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Shape Master",
+   "url": "https://verse8.io/p7g3C8d",
+   "key": "verse8.io/p7g3c8d",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 21,
+    "verse8_sessions": 186628,
+    "verse8_likes": 50,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-04",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Draw the shapes you see on screen as accurately as possible! It's a fun drawing challenge where you race against time to recreate circles, squares, triangles and more. Test your precision and compete with friends to see who can draw the most perfect shapes",
+   "image": "https://contents.verse8.io/33415ad4-bda9-4945-904b-c8b7f30da957.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Maple Track Rush",
+   "url": "https://verse8.io/T8G7h3T",
+   "key": "verse8.io/t8g7h3t",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 22,
+    "verse8_sessions": 6073,
+    "verse8_likes": 27,
+    "chart_new_entry": false
+   },
+   "published": "2026-08-31",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "PC Controls:\n1: Accelerate (W key or Up Arrow); release to stop.\n2: Shoot (A key) to clear obstacles.\n3: Switch to first-person view (E key).\n4: Boost (Q key) to dash.\n5: Hold the accelerate key while jumping in mid-air to maintain speed.\n\nMobile Controls:\n1: Accelerate button; release to stop.\n2: \"",
+   "image": "https://contents.verse8.net/verses/f032b99d79d3/03582e1a-fd75-4802-bc14-19c4a0e71079.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Sling Shot Rogue",
+   "url": "https://verse8.io/t8q9U4Q",
+   "key": "verse8.io/t8q9u4q",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 23,
+    "verse8_sessions": 66531,
+    "verse8_likes": 168,
+    "chart_new_entry": false
+   },
+   "published": "2025-09-03",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "",
+   "image": "https://contents.verse8.io/03215ab3-fd03-4aa1-abdb-8f0f41eba6e6.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Yapybara Defense",
+   "url": "https://verse8.io/F9x8Q3e",
+   "key": "verse8.io/f9x8q3e",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "trending",
+    "verse8_rank": 24,
+    "verse8_sessions": 224347,
+    "verse8_likes": 1011,
+    "chart_new_entry": false
+   },
+   "published": "2025-12-10",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Protect your Yapybara for more Yaps!",
+   "image": "https://contents.verse8.io/verses/e570410fcb77/a0984a1f-d9b5-4cf1-bf36-f2b41030c329.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Last Dungeon Wars",
+   "url": "https://verse8.io/H8U6v7y",
+   "key": "verse8.io/h8u6v7y",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 2,
+    "verse8_sessions": 1411602,
+    "verse8_likes": 620,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-14",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Last Dungeon Wars",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/de98bc21-d3b6-4684-b5a6-5aef8205099b.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Snake Wars",
+   "url": "https://verse8.io/n6y4e2T",
+   "key": "verse8.io/n6y4e2t",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 3,
+    "verse8_sessions": 1082722,
+    "verse8_likes": 619,
+    "chart_new_entry": false
+   },
+   "published": "2025-12-05",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "",
+   "image": "https://contents.verse8.io/verses/e91ea9dc1e49/3aa99802-0ea4-4df1-ae9c-b47f59d0b6da.jpeg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Food Slicer",
+   "url": "https://verse8.io/y7d9D8v",
+   "key": "verse8.io/y7d9d8v",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 4,
+    "verse8_sessions": 1193066,
+    "verse8_likes": 362,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-28",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Food Slicer is an exciting action-arcade game where players slice through over 70 different types of food items by dragging their finger or cursor across the screen. From fresh fruits and vegetables to pizza, burgers, sushi, and desserts.",
+   "image": "https://contents.verse8.io/03cc64ad-60ad-41a6-bd79-1e20cb081899.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Cold Steel Adventure",
+   "url": "https://verse8.io/f8i5y4r",
+   "key": "verse8.io/f8i5y4r",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 6,
+    "verse8_sessions": 985519,
+    "verse8_likes": 157,
+    "chart_new_entry": false
+   },
+   "published": "2025-10-30",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Cold Steel Adventure",
+   "image": "https://contents.verse8.io/10888d15-27d8-4d65-bf62-e27220ccc008.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "CONNECT",
+   "url": "https://verse8.io/k5r6k9v",
+   "key": "verse8.io/k5r6k9v",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 7,
+    "verse8_sessions": 776601,
+    "verse8_likes": 872,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-26",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "같은 색의 점을 3개 이상 연결해 시원하게 지워 보세요!\n\n점들을 이어 긴 체인을 만들수록 더 높은 점수를 획득할 수 있습니다. 시작점과 끝점을 연결해 고리를 완성하면, 연결된 같은 색의 점이 모두 한 번에 사라집니다. 간단한 규칙이지만 전략적인 판단이 필요한 중독성 퍼즐 게임입니다.\n\n특징\n• 같은 색 점 3개 이상 연결\n• 고리를 만들면 같은 색 점 전체 제거\n• 간단하지만 깊이 있는 퍼즐 플레이\n• 높은 점수에 도전\n• 한국어 / 영어 지원\n\nConnect 3 or more dots of the same color to cle",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/081d2107-f07e-41c6-9647-b77a43b11364.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Neon Worm",
+   "url": "https://verse8.io/j5W6k8A",
+   "key": "verse8.io/j5w6k8a",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 8,
+    "verse8_sessions": 937056,
+    "verse8_likes": 94,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-14",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Grow your neon worm, dodge others, and become the longest in a glowing cyber arena!",
+   "image": "https://contents.verse8.io/37f5f61b-4c9e-4fa2-9c65-253a88758adb.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Curling Sweep",
+   "url": "https://verse8.io/G8p4J4z",
+   "key": "verse8.io/g8p4j4z",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 9,
+    "verse8_sessions": 739530,
+    "verse8_likes": 93,
+    "chart_new_entry": false
+   },
+   "published": "2025-09-28",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "How to Play:\n1.\nClick the stone to launch it toward the target\n2.\nSweep in the blue area to guide the stone\n3.\nGet closer to the center for higher scores\n4.\nYou have 60 seconds to score as much as possible!",
+   "image": "https://contents.verse8.net/verses/0732479045c0/e53884ad-bd80-4c78-ab36-abe48110930e.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Dunk Master",
+   "url": "https://verse8.io/g2y4s4a",
+   "key": "verse8.io/g2y4s4a",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 10,
+    "verse8_sessions": 742092,
+    "verse8_likes": 65,
+    "chart_new_entry": false
+   },
+   "published": "2025-09-19",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Welcome to Dunk Master, a simple and casual 2D free-throw game!\n\nYour mission is to score as many free throws as you can before the time runs out. The challenge increases the longer you play!",
+   "image": "https://contents.verse8.io/1d0402e6-34b1-41b1-a98c-f9365978e9b5.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "TableTennisV8",
+   "url": "https://verse8.io/n5S3b8B",
+   "key": "verse8.io/n5s3b8b",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 12,
+    "verse8_sessions": 573395,
+    "verse8_likes": 141,
+    "chart_new_entry": false
+   },
+   "published": "2025-10-02",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "",
+   "image": "https://contents.verse8.io/09119431-ac15-4666-923e-803fff689515.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "1to50",
+   "url": "https://verse8.io/g2d4Z4s",
+   "key": "verse8.io/g2d4z4s",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 14,
+    "verse8_sessions": 406680,
+    "verse8_likes": 570,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-16",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "1 to 50 Quickly!",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/eb8c78ca-1344-4d81-8a1e-fd501e51fd9d.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Fall Mania",
+   "url": "https://verse8.io/r8a6L7C",
+   "key": "verse8.io/r8a6l7c",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 15,
+    "verse8_sessions": 736761,
+    "verse8_likes": 44,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-17",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Just Don't Fall! Be the last one standing!",
+   "image": "https://contents.verse8.io/682c9c57-a747-4294-9e7d-19d36299e46e.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "SMILE CODE",
+   "url": "https://verse8.io/x3e4c5a",
+   "key": "verse8.io/x3e4c5a",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 16,
+    "verse8_sessions": 453192,
+    "verse8_likes": 144,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-19",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "전교 1등 유키의 완벽한 미소. The perfect smile of top student Yuki.",
+   "image": "https://contents.verse8.net/verses/838198495e6c/84b600f6-22e4-4c6e-a175-cf1d1510bd72.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Become a Detective in 19th Century",
+   "url": "https://verse8.io/t2U2X6v",
+   "key": "verse8.io/t2u2x6v",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 17,
+    "verse8_sessions": 459172,
+    "verse8_likes": 65,
+    "chart_new_entry": false
+   },
+   "published": "2025-08-29",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Investigate the mysterious poisoning of Lord Harrington in 19th century London. Search for clues, question suspects, and make choices that lead to multiple endings. Will you uncover the truth—or let it vanish into the fog?",
+   "image": "https://contents.verse8.io/2dd5e9bc-3a9c-4f17-87ca-1c85f575307e.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Fan-tastic Jump",
+   "url": "https://verse8.io/u7k6c2p",
+   "key": "verse8.io/u7k6c2p",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 18,
+    "verse8_sessions": 478824,
+    "verse8_likes": 77,
+    "chart_new_entry": false
+   },
+   "published": "2025-07-04",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Jump with the arrow keys — your cheers turn an underground idol into a superstar!",
+   "image": "https://contents.verse8.io/8ed40345-3225-449d-a44c-812217c44885.png",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Super Drill Man",
+   "url": "https://verse8.io/s9u6X4n",
+   "key": "verse8.io/s9u6x4n",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 19,
+    "verse8_sessions": 360419,
+    "verse8_likes": 183,
+    "chart_new_entry": false
+   },
+   "published": "2025-12-17",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "A bold, macho man digging the ground with a drill in an action-packed game!",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/81f03e7f-4f70-4c7a-b3f3-a395403f81d0.jpg",
+   "passes": false
+  },
+  {
+   "channel": "verse8",
+   "title": "Soda Pop",
+   "url": "https://verse8.io/G4A3q6Z",
+   "key": "verse8.io/g4a3q6z",
+   "source_url": "https://verse8.io/",
+   "metrics": {
+    "verse8_list": "sessions",
+    "verse8_rank": 20,
+    "verse8_sessions": 377966,
+    "verse8_likes": 68,
+    "chart_new_entry": false
+   },
+   "published": "2025-04-30",
+   "ai_hint": "发布在 AI 创作平台 Verse8",
+   "desc": "Soda Pop is the match-3 chaos you didn’t know you needed!",
+   "image": "https://contents.verse8.net/verses/0818414b9bc5/d7fd45e8-b510-4738-9dc2-d9bacd794592.jpg",
+   "passes": false
+  }
+ ]
+}
