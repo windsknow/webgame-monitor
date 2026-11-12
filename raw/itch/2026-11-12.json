@@ -567,19 +567,19 @@
   },
   {
    "channel": "itch",
-   "title": "Mycelium",
-   "url": "https://zzf1.itch.io/mycelium",
-   "key": "zzf1.itch.io/mycelium",
+   "title": "The Deconsecration Initiative",
+   "url": "https://gwilym.itch.io/the-deconsecration-initiative",
+   "key": "gwilym.itch.io/the-deconsecration-initiative",
    "source_url": "https://itch.io/games/new-and-popular/platform-web",
    "metrics": {
     "itch_rank": 36,
-    "itch_days_on_chart": 1,
-    "itch_first_on_chart": "2026-11-12"
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-11"
    },
-   "published": "2026-11-11",
+   "published": "2026-03-08",
    "passes": false,
    "ai_hint": "",
-   "desc": "Grow a fungal network under a forest, trade with the trees, and wake the Elder."
+   "desc": "Build a giant laser to kill a god"
   }
  ]
 }

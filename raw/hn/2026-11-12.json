@@ -1084,7 +1084,7 @@
    "key": "github.com/rochus-keller/micron",
    "source_url": "https://news.ycombinator.com/item?id=50413266",
    "metrics": {
-    "hn_points": 60,
+    "hn_points": 61,
     "hn_comments": 20
    },
    "published": "2026-11-08",
@@ -2156,7 +2156,7 @@
    "key": "github.com/neighborhood-grid/flatpoints",
    "source_url": "https://news.ycombinator.com/item?id=50427153",
    "metrics": {
-    "hn_points": 20,
+    "hn_points": 21,
     "hn_comments": 6
    },
    "published": "2026-11-09",
@@ -2429,7 +2429,7 @@
    "source_url": "https://news.ycombinator.com/item?id=50457230",
    "metrics": {
     "hn_points": 225,
-    "hn_comments": 85
+    "hn_comments": 86
    },
    "published": "2026-11-11",
    "passes": false,
@@ -2493,7 +2493,7 @@
    "source_url": "https://news.ycombinator.com/item?id=50454625",
    "metrics": {
     "hn_points": 240,
-    "hn_comments": 94
+    "hn_comments": 95
    },
    "published": "2026-11-11",
    "passes": false,

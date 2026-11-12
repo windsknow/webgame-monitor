@@ -13,7 +13,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 1,
-    "wavedash_playing": 121,
+    "wavedash_playing": 111,
     "chart_new_entry": false
    },
    "published": "",
@@ -39,9 +39,9 @@
   },
   {
    "channel": "wavedash",
-   "title": "Open Floor Plan",
-   "url": "https://wavedash.com/games/open-floor-plan",
-   "key": "wavedash.com/games/open-floor-plan",
+   "title": "Tawla",
+   "url": "https://wavedash.com/games/tawla",
+   "key": "wavedash.com/games/tawla",
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 3,
@@ -55,13 +55,13 @@
   },
   {
    "channel": "wavedash",
-   "title": "Matt Portner's Pro Skimboarder",
-   "url": "https://wavedash.com/games/matt-portners-pro-skimboarder",
-   "key": "wavedash.com/games/matt-portners-pro-skimboarder",
+   "title": "Splinter Kick",
+   "url": "https://wavedash.com/games/splinter-kick",
+   "key": "wavedash.com/games/splinter-kick",
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 4,
-    "wavedash_playing": 4,
+    "wavedash_playing": 3,
     "chart_new_entry": false
    },
    "published": "",

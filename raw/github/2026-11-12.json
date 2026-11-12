@@ -72,7 +72,7 @@
    ],
    "source_url": "https://github.com/op7418/guizang-game-skill",
    "metrics": {
-    "github_stars": 160,
+    "github_stars": 161,
     "github_forks": 22
    },
    "published": "2026-11-11",
@@ -1641,25 +1641,6 @@
   },
   {
    "channel": "github",
-   "title": "off-duty-squad",
-   "url": "https://moyu.xiebc.com",
-   "key": "moyu.xiebc.com",
-   "alt_keys": [
-    "github.com/1045857717/off-duty-squad"
-   ],
-   "source_url": "https://github.com/1045857717/off-duty-squad",
-   "metrics": {
-    "github_stars": 5,
-    "github_forks": 0
-   },
-   "published": "2026-10-21",
-   "passes": false,
-   "ai_hint": "",
-   "desc": "带薪摸鱼 · Paid Break Crew — AI-developed 1–4 player office co-op roguelite. 28 professions, workplace oddities, undead, random builds and endless survival. Phaser/React/Socket.IO, Docker and a frameless Windows client.",
-   "topics": "browser-game co-op docker electron multiplayer phaser react roguelite typescript"
-  },
-  {
-   "channel": "github",
    "title": "hacker-fables-game",
    "url": "https://sebastiancarlos.github.io/hacker-fables-game/",
    "key": "sebastiancarlos.github.io/hacker-fables-game",
@@ -1676,6 +1657,25 @@
    "ai_hint": "",
    "desc": "🥷💻 Hacker Fables - A Vim Roguelike Game",
    "topics": "browser-game game javascript-game keyboard-game learn-vim programming-game roguelike roguelite terminal terminal-game typescript-game vim"
+  },
+  {
+   "channel": "github",
+   "title": "off-duty-squad",
+   "url": "https://moyu.xiebc.com",
+   "key": "moyu.xiebc.com",
+   "alt_keys": [
+    "github.com/1045857717/off-duty-squad"
+   ],
+   "source_url": "https://github.com/1045857717/off-duty-squad",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-10-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "带薪摸鱼 · Paid Break Crew — AI-developed 1–4 player office co-op roguelite. 28 professions, workplace oddities, undead, random builds and endless survival. Phaser/React/Socket.IO, Docker and a frameless Windows client.",
+   "topics": "browser-game co-op docker electron multiplayer phaser react roguelite typescript"
   },
   {
    "channel": "github",
