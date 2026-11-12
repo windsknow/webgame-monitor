@@ -2348,7 +2348,7 @@
    "key": "huggingface.co/amsach/deepseek-coder-v2-lite-instruct-maple-sub5gb-gguf",
    "source_url": "https://news.ycombinator.com/item?id=50463281",
    "metrics": {
-    "hn_points": 5,
+    "hn_points": 6,
     "hn_comments": 1
    },
    "published": "2026-11-12",
@@ -2380,7 +2380,7 @@
    "key": "litek8s.dev",
    "source_url": "https://news.ycombinator.com/item?id=50461743",
    "metrics": {
-    "hn_points": 6,
+    "hn_points": 7,
     "hn_comments": 2
    },
    "published": "2026-11-12",
@@ -2428,7 +2428,7 @@
    "key": "termsheetplease.com",
    "source_url": "https://news.ycombinator.com/item?id=50457230",
    "metrics": {
-    "hn_points": 225,
+    "hn_points": 226,
     "hn_comments": 86
    },
    "published": "2026-11-11",
@@ -2492,7 +2492,7 @@
    "key": "github.com/frigadehq/yogurt",
    "source_url": "https://news.ycombinator.com/item?id=50454625",
    "metrics": {
-    "hn_points": 240,
+    "hn_points": 241,
     "hn_comments": 95
    },
    "published": "2026-11-11",

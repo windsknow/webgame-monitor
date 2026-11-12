@@ -13,7 +13,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 1,
-    "wavedash_playing": 111,
+    "wavedash_playing": 121,
     "chart_new_entry": false
    },
    "published": "",
@@ -39,13 +39,13 @@
   },
   {
    "channel": "wavedash",
-   "title": "Tawla",
-   "url": "https://wavedash.com/games/tawla",
-   "key": "wavedash.com/games/tawla",
+   "title": "Matt Portner's Pro Skimboarder",
+   "url": "https://wavedash.com/games/matt-portners-pro-skimboarder",
+   "key": "wavedash.com/games/matt-portners-pro-skimboarder",
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 3,
-    "wavedash_playing": 4,
+    "wavedash_playing": 7,
     "chart_new_entry": false
    },
    "published": "",
@@ -61,7 +61,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 4,
-    "wavedash_playing": 3,
+    "wavedash_playing": 5,
     "chart_new_entry": false
    },
    "published": "",
