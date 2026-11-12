@@ -9,8 +9,8 @@
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 487,
-     "github_forks": 42
+     "github_stars": 509,
+     "github_forks": 44
     }
    }
   ]
@@ -25,8 +25,8 @@
     "source_url": "https://github.com/patch-gg/trompe",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 213,
-     "github_forks": 17
+     "github_stars": 215,
+     "github_forks": 18
     }
    }
   ]
@@ -41,7 +41,7 @@
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 207,
+     "github_stars": 210,
      "github_forks": 30
     }
    }
@@ -57,23 +57,23 @@
     "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 267,
-     "github_forks": 15
+     "github_stars": 269,
+     "github_forks": 16
     }
    }
   ]
  },
  "seriesoftub.es": {
   "name": "seriesoftubes",
-  "status": "候选",
-  "game_id": null,
+  "status": "收录",
+  "game_id": "seriesoftubes",
   "leads": [
    {
     "channel": "github",
     "source_url": "https://github.com/fjaeckel/seriesoftubes",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 218,
+     "github_stars": 219,
      "github_forks": 43
     }
    }
@@ -89,7 +89,7 @@
     "source_url": "https://github.com/LumioGames/LGUI",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 127,
+     "github_stars": 129,
      "github_forks": 17
     }
    }
@@ -105,7 +105,7 @@
     "source_url": "https://github.com/e1z0/PS4-Games-Installer",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 101,
+     "github_stars": 102,
      "github_forks": 11
     }
    }
@@ -121,8 +121,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50433659",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 499,
-     "hn_comments": 445
+     "hn_points": 502,
+     "hn_comments": 449
     }
    }
   ]
@@ -137,8 +137,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 240,
-     "hn_comments": 54
+     "hn_points": 269,
+     "hn_comments": 67
     }
    }
   ]
@@ -161,15 +161,15 @@
  },
  "ghanastreetgames.com": {
   "name": "Ghanaian street games you can play in the browser",
-  "status": "观察",
-  "game_id": null,
+  "status": "收录",
+  "game_id": "ghanaian-street-games-you-can-play-in-th",
   "leads": [
    {
     "channel": "hn",
     "source_url": "https://news.ycombinator.com/item?id=50414117",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 113,
+     "hn_points": 115,
      "hn_comments": 22
     }
    }
@@ -233,7 +233,7 @@
     "source_url": "https://x.com/apekshik/status/2119517930300076261",
     "first_date": "2026-11-10",
     "metrics": {
-     "x_views": 219270,
+     "x_views": 219967,
      "x_likes": 1538
     }
    }
@@ -245,11 +245,20 @@
   "game_id": "saltline",
   "leads": [
    {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50444850",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 71,
+     "hn_comments": 89
+    }
+   },
+   {
     "channel": "x",
     "source_url": "https://x.com/midudev/status/2120163317889347853",
     "first_date": "2026-11-11",
     "metrics": {
-     "x_views": 73945,
+     "x_views": 80354,
      "x_likes": 389
     }
    },
@@ -258,7 +267,7 @@
     "source_url": "https://x.com/mahluukat/status/2120086512549458322",
     "first_date": "2026-11-11",
     "metrics": {
-     "x_views": 214105,
+     "x_views": 216385,
      "x_likes": 250
     }
    },
@@ -267,32 +276,23 @@
     "source_url": "https://x.com/0ooooo0/status/2119985854450204968",
     "first_date": "2026-11-11",
     "metrics": {
-     "x_views": 43848,
+     "x_views": 44015,
      "x_likes": 151
-    }
-   },
-   {
-    "channel": "hn",
-    "source_url": "https://news.ycombinator.com/item?id=50444850",
-    "first_date": "2026-11-12",
-    "metrics": {
-     "hn_points": 69,
-     "hn_comments": 86
     }
    }
   ]
  },
  "remix.gg/g/banana-mine-rush": {
   "name": "Banana Mine Rush",
-  "status": "候选",
-  "game_id": null,
+  "status": "收录",
+  "game_id": "banana-mine-rush",
   "leads": [
    {
     "channel": "x",
     "source_url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "first_date": "2026-11-11",
     "metrics": {
-     "x_views": 8846,
+     "x_views": 9300,
      "x_likes": 54
     }
    }
@@ -340,15 +340,15 @@
     "source_url": "https://news.ycombinator.com/item?id=50448340",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 88,
-     "hn_comments": 20
+     "hn_points": 91,
+     "hn_comments": 22
     }
    }
   ]
  },
  "tinyvalencia.com": {
   "name": "Valencia, Spain in Sim City/Isometric View",
-  "status": "候选",
+  "status": "观察",
   "game_id": null,
   "leads": [
    {
@@ -356,7 +356,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50441518",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 243,
+     "hn_points": 247,
      "hn_comments": 61
     }
    }
@@ -390,6 +390,770 @@
     "metrics": {
      "hn_points": 99,
      "hn_comments": 40
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/voxels/01m5z51hq4k3d8k0h8zf3dzbdd": {
+  "name": "Voxels",
+  "status": "收录",
+  "game_id": "voxels",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 334643,
+     "astrocade_likes": 4939,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/snowfield-taco-stand/01m6jnf4ap6wb19mj9efjthyja": {
+  "name": "Snowfield Taco Stand",
+  "status": "收录",
+  "game_id": "snowfield-taco-stand",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 2,
+     "astrocade_plays": 46541,
+     "astrocade_likes": 1047,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43": {
+  "name": "Zombies vs Humans with Guns",
+  "status": "收录",
+  "game_id": "zombies-vs-humans-with-guns",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 6,
+     "astrocade_plays": 23909,
+     "astrocade_likes": 562,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/frost-harbor-ice-fishing-tycoon/01m6rgpe8anfgq002a14xh6m7w": {
+  "name": "Frost Harbor: Ice Fishing Tycoon",
+  "status": "收录",
+  "game_id": "frost-harbor-ice-fishing-tycoon",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 12,
+     "astrocade_plays": 42725,
+     "astrocade_likes": 988,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j": {
+  "name": "Ben 10: Ultimate Aliens",
+  "status": "收录",
+  "game_id": "ben-10-ultimate-aliens",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 192514,
+     "astrocade_likes": 5798,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/keyboard-escapespace-alien/01m5pk05k0fn6401rn4n1drhc9": {
+  "name": "KEYBOARD ESCAPE(space alien)",
+  "status": "收录",
+  "game_id": "keyboard-escape-space-alien",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 21555,
+     "astrocade_likes": 487,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/rich-or-poor-runner/01m65bwqdwenfeh5kfjy29hbae": {
+  "name": "Rich or Poor Runner",
+  "status": "已在库",
+  "game_id": "as_rich",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 270441,
+     "astrocade_likes": 5092,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/steal-an-egg-monster/01m6bygg6m3mqcwd3y0s375pk5": {
+  "name": "Steal an Egg Monster",
+  "status": "收录",
+  "game_id": "steal-an-egg-monster",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 5,
+     "astrocade_plays": 47688,
+     "astrocade_likes": 791,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "zz85.github.io/slop-cities": {
+  "name": "slop-cities",
+  "status": "收录",
+  "game_id": "slop-cities",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/zz85/slop-cities",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 42,
+     "github_forks": 22
+    }
+   }
+  ]
+ },
+ "opend2.com": {
+  "name": "d2-web",
+  "status": "收录",
+  "game_id": "d2-web",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/Virtastic/d2-web",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 72,
+     "github_forks": 7
+    }
+   }
+  ]
+ },
+ "librehold.org": {
+  "name": "librehold",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/librehold-game/librehold",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 57,
+     "github_forks": 8
+    }
+   }
+  ]
+ },
+ "andvolodko.github.io/mu-online-solo-classic": {
+  "name": "mu-online-solo-classic",
+  "status": "收录",
+  "game_id": "mu-online-solo-classic",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/andvolodko/mu-online-solo-classic",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 39,
+     "github_forks": 28
+    }
+   }
+  ]
+ },
+ "typepper.com": {
+  "name": "typepper",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/leodiegues/typepper",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 35,
+     "github_forks": 2
+    }
+   }
+  ]
+ },
+ "pokemonsurvivors.com": {
+  "name": "pokemon-survivors",
+  "status": "收录",
+  "game_id": "pokemon-survivors",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/pedrobarretto/pokemon-survivors",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 32,
+     "github_forks": 16
+    }
+   }
+  ]
+ },
+ "ritrls.github.io/dream-arcade-demo": {
+  "name": "dream-arcade-demo",
+  "status": "收录",
+  "game_id": "dream-arcade-demo",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/Ritrls/dream-arcade-demo",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 75,
+     "github_forks": 0
+    }
+   }
+  ]
+ },
+ "ashfolk.com": {
+  "name": "ashfolk",
+  "status": "收录",
+  "game_id": "ashfolk",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/imsvidskiy/ashfolk",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 31,
+     "github_forks": 10
+    }
+   }
+  ]
+ },
+ "wired.com": {
+  "name": "Hugging Face's CEO Says His P(Doom) Is 'Close to Zero'",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50388752",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 34,
+     "hn_comments": 19
+    }
+   }
+  ]
+ },
+ "productionalchemist.com": {
+  "name": "I have never seen a game fail because the artists were too slow",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50414234",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 37,
+     "hn_comments": 14
+    }
+   }
+  ]
+ },
+ "sandromaglione.com": {
+  "name": "Indie Game Development with AI",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50432523",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 31,
+     "hn_comments": 42
+    }
+   }
+  ]
+ },
+ "playgta5.com": {
+  "name": "Play GTA5 on Browser",
+  "status": "收录",
+  "game_id": "play-gta5-on-browser",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50458710",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 82,
+     "hn_comments": 62
+    }
+   }
+  ]
+ },
+ "spawn.co/@retro/underground-warfare": {
+  "name": "UNDERGROUND WARFARE",
+  "status": "已在库",
+  "game_id": "sp_underground",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 2,
+     "spawn_plays": 28719,
+     "spawn_likes": 1004,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@izkimar/escape-from-stranglethorn": {
+  "name": "Escape from Stranglethorn",
+  "status": "已在库",
+  "game_id": "sp_stranglethorn",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 3,
+     "spawn_plays": 91289,
+     "spawn_likes": 593,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@smallzero/fabling-park": {
+  "name": "Fabling Park",
+  "status": "已在库",
+  "game_id": "sp_fabling",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 5,
+     "spawn_plays": 8460,
+     "spawn_likes": 226,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@izkimar/diablo-survivors": {
+  "name": "Diablo Survivors",
+  "status": "已在库",
+  "game_id": "sp_diablo",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 6,
+     "spawn_plays": 5380,
+     "spawn_likes": 181,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@yuidev/flickshot": {
+  "name": "Flickshot",
+  "status": "收录",
+  "game_id": "flickshot",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 12,
+     "spawn_plays": 1795,
+     "spawn_likes": 75,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@kevin/spawn-turismo": {
+  "name": "Spawn Turismo",
+  "status": "收录",
+  "game_id": "spawn-turismo",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 15,
+     "spawn_plays": 3612,
+     "spawn_likes": 71,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@yisus/aether-legends": {
+  "name": "Aether Legends",
+  "status": "收录",
+  "game_id": "aether-legends",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 16,
+     "spawn_plays": 904,
+     "spawn_likes": 70,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@fracture/glint": {
+  "name": "GLINT",
+  "status": "收录",
+  "game_id": "glint",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 18,
+     "spawn_plays": 768,
+     "spawn_likes": 59,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "spawn.co/@poisoncode/shogun-s-fate": {
+  "name": "Shogun’s Fate",
+  "status": "已在库",
+  "game_id": "sp_shogun",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "spawn_rank": 20,
+     "spawn_plays": 24050,
+     "spawn_likes": 55,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "tides-of-fortune.fr": {
+  "name": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+  "status": "收录",
+  "game_id": "tides-of-fortune-an-open-world-pirate-ga",
+  "leads": [
+   {
+    "channel": "threejs",
+    "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "threejs_views": 186,
+     "threejs_replies": 6,
+     "threejs_likes": 8
+    }
+   }
+  ]
+ },
+ "afkcity.com": {
+  "name": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+  "status": "收录",
+  "game_id": "afk-city-a-city-that-builds-itself-while",
+  "leads": [
+   {
+    "channel": "threejs",
+    "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "threejs_views": 108,
+     "threejs_replies": 5,
+     "threejs_likes": 3
+    }
+   }
+  ]
+ },
+ "x:2119791071089852888": {
+  "name": "僵尸追逐游戏（未命名）",
+  "status": "收录",
+  "game_id": "game",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/gourav_io/status/2119791071089852888",
+    "first_date": "2026-11-10",
+    "metrics": {
+     "x_views": 7933,
+     "x_likes": 12
+    }
+   }
+  ]
+ },
+ "x:2119643510207099323": {
+  "name": "",
+  "status": "收录",
+  "game_id": "frensofpria",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
+    "first_date": "2026-11-10",
+    "metrics": {
+     "x_views": 32681,
+     "x_likes": 244
+    }
+   }
+  ]
+ },
+ "x:2120020469487440210": {
+  "name": "类 COD 射击游戏（未命名）",
+  "status": "收录",
+  "game_id": "cod",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/alightinastorm/status/2120020469487440210",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 12157,
+     "x_likes": 119
+    }
+   }
+  ]
+ },
+ "x:2120010936584945922": {
+  "name": "three.js 篮球游戏（未命名）",
+  "status": "收录",
+  "game_id": "three-js",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/alightinastorm/status/2120010936584945922",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 57135,
+     "x_likes": 451
+    }
+   }
+  ]
+ },
+ "x:2119969113762082931": {
+  "name": "剑斗游戏（未命名）",
+  "status": "收录",
+  "game_id": "game-2",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/EvanMilenko/status/2119969113762082931",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 38484,
+     "x_likes": 204
+    }
+   }
+  ]
+ },
+ "x:2119935331499925557": {
+  "name": "带传送门的竞技场 FPS（未命名）",
+  "status": "收录",
+  "game_id": "fps",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/_sholtodouglas/status/2119935331499925557",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 193335,
+     "x_likes": 1686
+    }
+   }
+  ]
+ },
+ "x:2119931740940640542": {
+  "name": "MMO 世界演示（未命名）",
+  "status": "收录",
+  "game_id": "mmo",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/Izkimar/status/2119931740940640542",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 21855,
+     "x_likes": 297
+    }
+   }
+  ]
+ },
+ "x:2119900487688622171": {
+  "name": "Gilt & Gutter",
+  "status": "收录",
+  "game_id": "gilt-gutter",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "x_views": 105295,
+     "x_likes": 281
+    }
+   }
+  ]
+ },
+ "x:2120549388745379867": {
+  "name": "Roadside",
+  "status": "收录",
+  "game_id": "roadside",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/scottstts/status/2120549388745379867",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "x_views": 10670,
+     "x_likes": 201
+    }
+   }
+  ]
+ },
+ "loktar00.github.io/lanternfall": {
+  "name": "Lanternfall",
+  "status": "收录",
+  "game_id": "lanternfall",
+  "leads": [
+   {
+    "channel": "x",
+    "source_url": "https://x.com/loktar00/status/2120192761542615271",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "x_views": 183434,
+     "x_likes": null
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/frost-lumber-camp/01m6qdndvyszwaxmcg2edqzk7a": {
+  "name": "Frost Lumber Camp",
+  "status": "收录",
+  "game_id": "frost-lumber-camp",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 7,
+     "astrocade_plays": 43617,
+     "astrocade_likes": 873,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/forge-beyond/01m4013xdhf10rvpjj0mr4tz1e": {
+  "name": "Forge Beyond",
+  "status": "已在库",
+  "game_id": "as_forge",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 523048,
+     "astrocade_likes": 11571,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9": {
+  "name": "Natural Disaster Survival",
+  "status": "已在库",
+  "game_id": "as_nds",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 11,
+     "astrocade_plays": 844725,
+     "astrocade_likes": 15767,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/️-winter-upd-first-date-on-park/01m5yv9ydcbphp8zrf29ax0a4s": {
+  "name": "[❄️ WINTER UPD] FIRST DATE ON PARK",
+  "status": "收录",
+  "game_id": "winter-upd-first-date-on-park",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 15,
+     "astrocade_plays": 24777,
+     "astrocade_likes": 593,
+     "chart_new_entry": false
     }
    }
   ]

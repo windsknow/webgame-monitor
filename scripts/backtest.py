@@ -8,6 +8,7 @@
   GitHub        按月重放采集器的搜索词（星数取现在的值，不是创建 30 天内的值）
   精选清单       读 awesome-ai-built-games 的全部条目
   Spawn         读当前热榜
+  Verse8、Astrocade、Rosebud、Wavedash  读当前的热门页（和采集器同一套读取逻辑，不写入采集状态）
   X             重放两份样例；其余游戏只能看开发者账号是否出现在样例的作者里
 结果写到 backtest/result.json 和 backtest/回测报告.md。不改动 data/ 下的任何文件。
 """
@@ -94,7 +95,6 @@ def main():
         checkpoint('hn_direct')
     # ---- three.js 论坛：年度热门 ----
     print('three.js 论坛…', flush=True)
-    th = cfg['thresholds']['threejs_views_week']
     seen = 0
     for page in ([] if 'threejs' in part['done'] else range(0, 14)):
         d = net.getj(f'https://discourse.threejs.org/c/showcase/7/l/top.json?period=yearly&page={page}', retries=2) or {}
@@ -147,6 +147,25 @@ def main():
         for gid in match(util.game_key(f'https://www.spawn.co/@{owner}/{slug}')):
             res[gid]['hits']['spawn'] = {'rank': rank, 'plays': g.get('play_count')}
 
+    # ---- 四个平台的热门页：借用采集器的读取逻辑，但不写入采集状态 ----
+    print('平台热门页…')
+    keep = collectors._chart
+    collectors._chart = lambda name, entries, cfg_, date_: entries
+    try:
+        for name in ('verse8', 'astrocade', 'rosebud', 'wavedash'):
+            try:
+                entries = collectors.COLLECTORS[name](cfg, util.today())
+            except Exception as ex:
+                print('  ', name, '读取失败', ex)
+                continue
+            for l in entries:
+                for gid in match(l['key'], l['url']):
+                    m = l['metrics']
+                    res[gid]['hits'][name] = {'rank': m.get(f'{name}_rank'), 'plays': m.get(f'{name}_plays') or m.get('verse8_sessions'),
+                                              'playing': m.get('wavedash_playing')}
+    finally:
+        collectors._chart = keep
+
     # ---- X 样例 ----
     print('X 样例…')
     authors = set()
@@ -178,37 +197,52 @@ CASES = {
     'lagoslife': '首发在 X（首发帖 607 万浏览），固定渠道里没有出现',
     'messenger': '2025-09 发布的老游戏（当时 Hacker News 2,131 分，在回测窗口之前），2026-06 靠媒体报道再度走红；媒体渠道还没有采集器',
     'farworlds': '来自平台梳理（平台自研的产品），不是渠道线索',
-    'sumbasurf': 'Wavedash 热门页还没有采集器',
 }
+X_FIRST = ('tidewater', 'bf1942', 'pokebonk', 'lagoslife', 'messenger')
+PLAT = {'verse8': 'Verse8 热门', 'astrocade': 'Astrocade 热门页', 'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门'}
 
 
 def report(res, cfg):
-    th = cfg['thresholds']
+    F = cfg['thresholds']['floors']
+    low = (F.get('chart_min_plays') or {}).get('astrocade', 0)
     rows, found, passed = [], 0, 0
     miss_reason = {}
     for gid, r in res.items():
         h = r['hits']
         tags, ok = [], False
+        # Hacker News：重放命中的直接算；只按域名查到的，标题要像在讲游戏才算（采集器靠标题过滤）
+        hn_pts, hn_ok = 0, False
         if 'hn' in h:
-            p = h['hn']['points'] >= th['hn_points_7d']
+            hn_pts, hn_ok = h['hn']['points'], True
+        d = h.get('hn_direct')
+        if d and d['date'] >= START and (d['points'] or 0) > hn_pts:
+            hn_pts = d['points'] or 0
+            hn_ok = bool(collectors.GAMEY.search(d.get('title') or ''))
+        if hn_pts:
+            p = hn_ok and hn_pts >= F['hn_points']
             ok |= p
-            tags.append(f"Hacker News {h['hn']['points']} 分{'' if p else '（门槛 100）'}")
-        elif 'hn_direct' in h and h['hn_direct']['date'] >= START:
-            tags.append(f"Hacker News {h['hn_direct']['points']} 分（门槛 100）")
+            tags.append(f"Hacker News {hn_pts} 分" + ('' if p else f"（入库线 {F['hn_points']} 分）" if hn_pts < F['hn_points']
+                                                      else '（标题里没有游戏词，采集器滤不到）'))
+        h['_hn_pass'] = bool(hn_pts and hn_ok and hn_pts >= F['hn_points'])
         if 'threejs' in h:
-            p = h['threejs']['views'] >= th['threejs_views_week']
+            p = h['threejs']['views'] >= F['threejs_views_week']
             ok |= p
-            tags.append(f"three.js 论坛 {h['threejs']['views']} 次浏览{'' if p else '（门槛 500）'}")
+            tags.append(f"three.js 论坛 {h['threejs']['views']} 次浏览")
         if 'github' in h:
-            p = h['github']['stars'] >= th['github_stars_30d']
+            p = h['github']['stars'] >= F['github_stars_30d']
             ok |= p
-            tags.append(f"GitHub {h['github']['stars']} 星{'' if p else '（门槛 100）'}")
+            tags.append(f"GitHub {h['github']['stars']} 星")
         if 'awesome' in h:
             ok = True
             tags.append('精选清单')
         if 'spawn' in h:
             ok = True
             tags.append(f"Spawn 热榜第 {h['spawn']['rank']} 名")
+        for name, lab in PLAT.items():
+            if name in h:
+                p = not (name == 'astrocade' and (h[name].get('plays') or 0) < low)
+                ok |= p
+                tags.append(lab + '在榜')
         if 'x' in h:
             ok = True
             tags.append(f"X 样例 {len(h['x']['posts'])} 条")
@@ -218,44 +252,46 @@ def report(res, cfg):
         r.pop('miss', None)
         if not ok:
             g = r['group']
-            if gid in CASES:
-                why, bucket = CASES[gid], ('X 或媒体首发，固定渠道没有覆盖' if gid in ('tidewater', 'bf1942', 'pokebonk', 'lagoslife', 'messenger')
-                                           else 'Wavedash 等平台热门页没有采集器' if gid == 'sumbasurf' else '来自平台梳理，不是渠道线索')
-            elif g in ('Verse8', 'Astrocade', 'Rosebud AI'):
-                why = f'{g} 热门页还没有采集器（接口未找到）'
-                bucket = 'AI 创作平台热门页没有采集器（Verse8、Astrocade、Rosebud）'
+            if gid in X_FIRST:
+                why, bucket = CASES[gid], 'X 或媒体首发，固定渠道没有覆盖'
+            elif gid in CASES:
+                why, bucket = CASES[gid], '来自平台梳理，不是渠道线索'
+            elif g in ('Verse8', 'Astrocade', 'Rosebud AI', 'Wavedash'):
+                why = bucket = '平台游戏，但现在已经不在热门页上'
             elif tags:
-                why = '到过渠道，但没到门槛'
-                bucket = '到过渠道，但没到门槛'
+                why = bucket = '到过渠道，但没到入库线'
             else:
                 why = bucket = '固定渠道里没有出现'
             r['miss'] = why
             miss_reason.setdefault(bucket, []).append(r['name'])
         rows.append(r)
     lines = ['# 回测报告：68 款基线游戏的渠道召回', '',
-             f'- 回测窗口：2026-04-01 至 2026-11-10。运行日期：{util.today()}。',
-             f'- 68 款里，在已接入的渠道出现过的有 **{found}** 款；按现行门槛能进候选的有 **{passed}** 款，漏掉 **{68 - passed}** 款。',
-             '- 口径：Hacker News 和 GitHub 是按月重放采集器；three.js 论坛用年度热门帖；精选清单和 Spawn 热榜用当前内容；'
+             f'- 回测窗口：2026-04-01 至 2026-11-10。运行日期：{util.today()}。按 2026-11-12 放宽后的入库线计算。',
+             f'- 68 款里，在已接入的渠道出现过的有 **{found}** 款；按现行入库线能被发现的有 **{passed}** 款，漏掉 **{68 - passed}** 款。',
+             '- 口径：Hacker News 和 GitHub 是按月重放采集器；three.js 论坛用年度热门帖；精选清单、Spawn 热榜和四个平台的热门页用当前内容；'
              'X 只有两天样例。',
-             '- 这是召回的上限，不是当时真能抓到的数量：GitHub 星数和论坛浏览数是现在的累计值，不是发布后 30 天内或一周内的值；'
-             '精选清单和 Spawn 热榜也只能看到现在的内容。',
-             '- "能进候选"不等于"会被自动收录"：收录还要满足入选信号。', '',
-             '## 按渠道', '', '| 渠道 | 过门槛的款数 | 游戏 |', '|---|---|---|']
+             '- 这是召回的上限，不是当时真能抓到的数量：GitHub 星数和论坛浏览数是现在的累计值；'
+             '精选清单和各平台热门页只能看到现在的内容，"现在在榜"不等于"当时一上榜就能抓到"。',
+             '- GitHub 现在还要求仓库有试玩主页、并且不是引擎或框架，这一条回测里没有重放。', '',
+             '## 按渠道', '', '| 渠道 | 过入库线的款数 | 游戏 |', '|---|---|---|']
+
     def names(pred):
         return [r['name'] for r in rows if pred(r['hits'])]
-    for lab, pred in (
-            ('Hacker News（≥ 100 分）', lambda h: 'hn' in h and h['hn']['points'] >= th['hn_points_7d']),
-            ('three.js 论坛（≥ 500 次浏览）', lambda h: 'threejs' in h and h['threejs']['views'] >= th['threejs_views_week']),
-            ('GitHub（≥ 100 星）', lambda h: 'github' in h and h['github']['stars'] >= th['github_stars_30d']),
-            ('AI 游戏精选清单', lambda h: 'awesome' in h),
-            ('Spawn 热榜', lambda h: 'spawn' in h),
-            ('X 样例（两天）', lambda h: 'x' in h)):
+    chans = [
+        (f"Hacker News（≥ {F['hn_points']} 分）", lambda h: h.get('_hn_pass')),
+        (f"three.js 论坛（≥ {F['threejs_views_week']} 次浏览）", lambda h: 'threejs' in h and h['threejs']['views'] >= F['threejs_views_week']),
+        (f"GitHub（≥ {F['github_stars_30d']} 星）", lambda h: 'github' in h and h['github']['stars'] >= F['github_stars_30d']),
+        ('AI 游戏精选清单', lambda h: 'awesome' in h),
+        ('Spawn 热榜', lambda h: 'spawn' in h)]
+    chans += [(lab, (lambda n: lambda h: n in h)(name)) for name, lab in PLAT.items()]
+    chans.append(('X 样例（两天）', lambda h: 'x' in h))
+    for lab, pred in chans:
         ns = names(pred)
         lines.append(f'| {lab} | {len(ns)} | {"、".join(ns)} |')
     lines += ['', '## 漏掉的游戏和原因', '', '| 原因 | 款数 | 游戏 |', '|---|---|---|']
     for why, ns in sorted(miss_reason.items(), key=lambda kv: -len(kv[1])):
         lines.append(f'| {why} | {len(ns)} | {"、".join(ns)} |')
-    lines += ['', '## 逐款明细', '', '| 游戏 | 方向/平台 | 能否进候选 | 出现的渠道 | 漏掉的原因 |', '|---|---|---|---|---|']
+    lines += ['', '## 逐款明细', '', '| 游戏 | 方向/平台 | 能否被发现 | 出现的渠道 | 漏掉的原因 |', '|---|---|---|---|---|']
     for r in rows:
         lines.append(f"| {r['name']} | {r['group']} | {'是' if r['passed'] else '否'} | {'；'.join(r['tags']) or '—'} | {r.get('miss', '')} |")
     with open(util.p('backtest', '回测报告.md'), 'w', encoding='utf-8') as f:

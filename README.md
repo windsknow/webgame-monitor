@@ -24,9 +24,9 @@
 python3 run.py daily
 ```
 
-1. **采集**（`monitor/collectors.py`）：Hacker News、three.js 论坛作品区、GitHub、itch.io 网页新品榜、awesome-ai-built-games、Spawn 热榜。原始结果存 `raw/<渠道>/<日期>.json`。
-2. **X 数据接入**（`monitor/x_ingest.py`）：读 `inbox/x/<日期>.json`（没有就按配置去拉）→ 规则粗筛 → 展开短链 → 规则版主题判断 → 找试玩链接 → 和收录库比对。结果存 `raw/x/<日期>.json`。
-3. **合并打分**（`monitor/merge.py`）：按试玩链接合并去重，剔除已收录的和仿冒域名，检查硬性条件和入选信号。过线的自动生成卡片追加到 `data/games.json`，其余留在 `data/candidates.json`。
+1. **采集**（`monitor/collectors.py`）：Hacker News、three.js 论坛作品区、GitHub、itch.io 网页新品榜、awesome-ai-built-games，以及 Spawn、Verse8、Astrocade、Rosebud、Wavedash 的热门页。原始结果存 `raw/<渠道>/<日期>.json`。
+2. **X 数据接入**（`monitor/x_ingest.py`）：读 `inbox/x/<日期>.json`（没有就按配置去拉），加上 `data/x_manual_posts.json` 里手动补充的帖子链接 → 规则粗筛 → 展开短链 → 规则版主题判断 → 找试玩链接 → 和收录库比对。结果存 `raw/x/<日期>.json`。
+3. **合并入库**（`monitor/merge.py`）：按试玩链接合并去重，剔除已收录的和仿冒域名，判断是不是网页游戏。是的自动生成卡片追加到 `data/games.json`，其余留在 `data/candidates.json`。已入库的自动卡片，数字和重点标记每次都会按最新数据重算。
 4. **生成页面**（`monitor/build_site.py`）：输出 `site/`，以及 `digest/` 下的日汇总和周汇总文本。
 
 所有门槛、关键词、域名清单都在 `config.json`，改完不用动代码。
@@ -38,26 +38,57 @@ python3 run.py daily
 | `data/games.json` | 已收录的游戏，页面的唯一数据来源。`status` 为 `verified`（人工核验过）或 `auto`（自动收录，待核验） |
 | `data/candidates.json` | 候选队列，按去重键。`status`：收录 / 观察 / 候选 / 已在库 / 拒绝。拒绝的会一直留着，不会再被打开 |
 | `data/sources.json` | 每条线索的原始出处，按去重键归档，用于追溯 |
-| `data/x_judgments.json` | X 帖子的主题判断（按 tweet_id），优先级高于规则判断 |
+| `data/x_judgments.json` | X 帖子的主题判断（按 tweet_id），优先级高于规则判断。合并时按最新内容重新判断，不用重跑 X 接入 |
+| `data/x_manual_posts.json` | 手动补充的 X 帖子链接。加一行 `{"url": "…", "added": "YYYY-MM-DD"}`，下一次每日运行会处理（加入后 7 天内有效）；想马上生效就跑 `python3 run.py x <日期> && python3 run.py merge` |
 | `data/static.json` | 趋势、数据交叉验证表、其他线索、七个方向的说明 |
 | `data/state/` | 各榜单上一次的状态，用来判断"新进榜""新增条目" |
 | `data/runlog.json` | 每天各渠道的线索数，用来发现渠道失效 |
 
-## 入选规则
+## 入库规则（2026-11-12 起）
 
-硬性条件：有能打开的试玩链接；首次公开在近 30 天内，或近 7 天有新热度；没有收录过。
+目标是尽量覆盖，再把重点标出来。过了渠道入库线、判断为网页游戏、并且是近期的线索，直接入库；
+不要求传播数据、游玩次数，也不要求有试玩链接。
 
-入选信号（每类算一条）：
+**各渠道的入库线**（`config.json` 的 `thresholds.floors`）
 
-- 传播：X 单帖浏览 ≥ 20 万，或 7 天内 Hacker News ≥ 100 分
-- 规模：公开计数显示累计玩家或游玩 ≥ 5 万
-- 技术：线索原文同时提到 three.js / WebGPU 和多人、程序化生成或真实世界数据
-- 玩法、商业：规则判断不了，每周核验时在 `candidates.json` 里加 `manual_signals`
+| 渠道 | 入库线 |
+|---|---|
+| X 帖子 | 判断为网页游戏的都入库；没找到试玩链接的，以来源帖子入库 |
+| Hacker News | 7 天内 ≥ 30 分，标题像在讲游戏 |
+| three.js 论坛作品区 | 一周内 ≥ 100 次浏览，内容像在讲游戏或写明 AI 参与 |
+| GitHub | 创建 30 天内 ≥ 30 星，有试玩主页，并且不是引擎、框架、技能包这类工具 |
+| itch.io | 连续 2 周在榜，或描述写明 AI 参与 |
+| AI 游戏精选清单 | 新增的都入库 |
+| Spawn、Verse8、Rosebud、Wavedash 的热门页 | 新进榜的；首次读取时只取近 30 天发布的 |
+| Astrocade 热门页 | 同上，另外要求游玩 ≥ 2 万次（这个榜轮换很快） |
 
-有 AI 证据的满足 1 条就自动收录，没有的要 2 条。只有 1 条信号、还没到线的进"线索观察"。
-新的大模型发布后 14 天内，传播类门槛减半（在 `config.json` 的 `model_release_boost.releases` 里加一行）。
+**怎么判断是网页游戏**（`merge.gameness`）
 
-**这组数字是按基线那批游戏倒推的建议值，还没有逐项确认。**
+- 链接在已知的游戏平台或 AI 创作平台上：直接算。
+- 独立站点和 github.io 这类托管位置：打开页面，首页或前几个同站脚本里能找到画布或游戏引擎才算。
+- 来自精选清单、three.js 论坛作品区、或核验过的 X 帖子：不用再看页面。
+- 只有代码仓库、没有试玩页面的：不入库，留在候选里。
+- 没有试玩链接的 X 帖子：核验确认是游戏的入库；只有规则判断的，要带视频或图片，并且正文有游戏词，或者同时有网页技术词和 AI 词。
+
+另外要求首次公开在近 30 天内，或近 7 天有新热度（新上榜、新帖子）。
+
+**标为重点**（`thresholds.hot`，达到任意一条）
+
+- X 单帖浏览 ≥ 20 万
+- Hacker News ≥ 100 分
+- GitHub ≥ 1,000 星
+- three.js 论坛 ≥ 2,000 次浏览
+- 平台显示游玩 ≥ 5 万次（Verse8 的游玩数口径存疑，不计入）
+- 同时有 Steam 页面；或每周核验时在 `candidates.json` 里加了 `manual_signals`
+
+X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线的会自动标成重点，并写进当天的日汇总。
+基线 68 款的重点是当时逐款判断的，不按这组数字重算。
+
+**页面上怎么放**：重点的、核验过的、写了玩法介绍的用完整卡片；其余自动入库的排在紧凑列表里。
+
+**热度到了重点线、但不能确定是不是游戏的**（例如页面里找不到画布）进"线索观察"，等人工确认。
+
+**这组数字是建议值，还没有逐项确认。**
 
 ## 每周核验怎么做
 
@@ -70,8 +101,9 @@ python3 run.py daily
                   "source_post": "https://x.com/…", "post_views": 123456}],
                   "judged": "2026-11-18", "by": "会话核验"}
    ```
-   然后重跑 `python3 run.py x <日期> && python3 run.py merge`。
-2. 看 `data/candidates.json` 里"观察"的条目：不是游戏的把 `status` 改成 `拒绝` 并写 `reject_reason`；值得收的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）或 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
+   可选字段：`name`（没有试玩链接时用作条目名）、`ingest: false`（是游戏但不该作为单款入库，例如多个演示的合集帖）。
+   然后重跑 `python3 run.py merge`。判为不是游戏的，对应的自动卡片会被撤下；后来找到试玩链接的，原来按帖子入库的卡片会换成游戏链接。
+2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；值得标重点的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
 3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`tech`、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
 4. `python3 run.py site` 重新生成页面。推到 GitHub 后，工作流会自动重新发布。
 
@@ -98,10 +130,10 @@ python3 run.py daily
 
 ## 还没做的
 
-- Astrocade、Rosebud、Verse8、Wavedash 的热门页采集器（接口还没找到）
 - Vibe Jam、JamVault、itch.io AI Jam 的赛事结果采集
 - Dexerto、VGTimes、PocketGamer.biz 的媒体报道采集
 - Poki、CrazyGames 的 Trending（已有另外的抓取脚本，还没接进来）
 - Discord 人数、Steam 页面、Similarweb 访问量的自动核验
-- 已收录游戏的数据不会自动刷新
+- 自动入库的卡片只有 X 来源帖的浏览数会每天重读；其他渠道的数字只在线索再次出现时更新。核验过的卡片不会自动刷新
+- 纯网页元素做的游戏（没有画布）会被判成"可能不是游戏"留在候选里，要人工确认
 - 推送：现在只生成汇总文本，还没有接推送渠道

@@ -2,6 +2,7 @@
  "date": "2026-11-10",
  "fetch_time": "2026-11-10T09:30:42",
  "total_records": 218,
+ "manual_records": 0,
  "coarse_hits": 11,
  "verdicts": {
   "game": 1,
@@ -23,6 +24,7 @@
    "shares": 0,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：threejs、vibe-coded"
    ],
@@ -54,6 +56,21 @@
     "提到网页可玩：threejs、vibe-coded、threejs",
     "提到 AI：vibe-cod"
    ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 7933,
+    "created_at": "Mon Nov 09 13:55:49 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119790712166490112/img/CBcVrXK4eB6gFzqH.jpg",
+    "has_video": true
+   },
+   "name_guess": "",
+   "linkless_ok": true,
    "judgment": {
     "is_game": true,
     "in_browser": null,
@@ -64,17 +81,6 @@
     "by": "会话核验"
    },
    "verdict": "maybe",
-   "game": {
-    "status": "未找到游戏",
-    "url": "",
-    "key": "",
-    "how": "",
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 7908,
-    "created_at": "Mon Nov 09 13:55:49 +0000 2026",
-    "community_note": null
-   },
    "games": [],
    "library": null
   },
@@ -91,6 +97,7 @@
    "shares": 9,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：multiplayer",
     "游戏 + 网页或 AI 关键词"
@@ -128,6 +135,9 @@
     "提到 AI：claude、claude",
     "含排除词：nintendo"
    ],
+   "game": null,
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": true,
     "in_browser": false,
@@ -138,7 +148,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": null,
    "games": [],
    "library": null
   },
@@ -155,6 +164,7 @@
    "shares": 62,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：three.js、网页游戏",
     "游戏 + 网页或 AI 关键词",
@@ -238,6 +248,9 @@
     "提到 AI：claude、codex、claude",
     "含排除词：godot、roblox"
    ],
+   "game": null,
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": false,
     "in_browser": null,
@@ -248,7 +261,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": null,
    "games": [],
    "library": null
   },
@@ -265,6 +277,7 @@
    "shares": 9,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：three.js、threejs"
    ],
@@ -299,6 +312,21 @@
     "提到网页可玩：three.js、threejs、three.js",
     "提到 AI：opus、opus"
    ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 32681,
+    "created_at": "Mon Nov 09 04:09:28 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119635084978651136/img/TxyGCypiGNvkrFkm.jpg",
+    "has_video": true
+   },
+   "name_guess": "",
+   "linkless_ok": true,
    "judgment": {
     "is_game": true,
     "in_browser": null,
@@ -309,17 +337,6 @@
     "by": "会话核验"
    },
    "verdict": "maybe",
-   "game": {
-    "status": "未找到游戏",
-    "url": "",
-    "key": "",
-    "how": "",
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 32578,
-    "created_at": "Mon Nov 09 04:09:28 +0000 2026",
-    "community_note": null
-   },
    "games": [],
    "library": null
   },
@@ -336,6 +353,7 @@
    "shares": 867,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：multiplayer"
    ],
@@ -364,6 +382,21 @@
     "提到游戏：multiplayer",
     "提到网页可玩：multiplayer"
    ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 1283678,
+    "created_at": "Sun Nov 08 23:53:57 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119578935562313728/img/UdzbbWXEeoyn_ill.jpg",
+    "has_video": true
+   },
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": true,
     "in_browser": false,
@@ -374,17 +407,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": {
-    "status": "未找到游戏",
-    "url": "",
-    "key": "",
-    "how": "",
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 1280481,
-    "created_at": "Sun Nov 08 23:53:57 +0000 2026",
-    "community_note": null
-   },
    "games": [],
    "library": null
   },
@@ -401,6 +423,7 @@
    "shares": 11,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "游戏 + 网页或 AI 关键词"
    ],
@@ -429,6 +452,9 @@
     "提到 AI：claude、opus、claude",
     "含排除词：unity 6"
    ],
+   "game": null,
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": true,
     "in_browser": false,
@@ -439,7 +465,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": null,
    "games": [],
    "library": null
   },
@@ -456,6 +481,7 @@
    "shares": 71,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：on the web",
     "游戏 + 网页或 AI 关键词"
@@ -480,6 +506,21 @@
     "提到游戏：game",
     "提到网页可玩：on the web、on the web"
    ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 219967,
+    "created_at": "Sun Nov 08 19:50:27 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119516015931613184/img/OZUXb-wVW2atjYru.jpg",
+    "has_video": true
+   },
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": true,
     "in_browser": true,
@@ -496,17 +537,6 @@
     "by": "会话核验"
    },
    "verdict": "game",
-   "game": {
-    "status": "未找到游戏",
-    "url": "",
-    "key": "",
-    "how": "",
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 219270,
-    "created_at": "Sun Nov 08 19:50:27 +0000 2026",
-    "community_note": null
-   },
    "games": [
     {
      "status": "已找到",
@@ -540,6 +570,7 @@
    "shares": 13,
    "source_api": "for-you",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "模型名 + 制作动词，浏览 ≥ 5 万（作品合集类，待判断）"
    ],
@@ -561,6 +592,21 @@
     "提到 AI：codex、codex",
     "作品合集类帖子，游戏可能在串内，需要看原帖"
    ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 140933,
+    "created_at": "Sun Nov 08 19:31:11 +0000 2026",
+    "community_note": null,
+    "thumb": "",
+    "has_video": false
+   },
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": false,
     "in_browser": null,
@@ -571,17 +617,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": {
-    "status": "未找到游戏",
-    "url": "",
-    "key": "",
-    "how": "",
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 140651,
-    "created_at": "Sun Nov 08 19:31:11 +0000 2026",
-    "community_note": null
-   },
    "games": [],
    "library": null
   },
@@ -598,6 +633,7 @@
    "shares": 7,
    "source_api": "media-list",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：multiplayer"
    ],
@@ -630,6 +666,9 @@
     "提到网页可玩：multiplayer",
     "含排除词：gta 6、ps5"
    ],
+   "game": null,
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": false,
     "in_browser": null,
@@ -640,7 +679,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": null,
    "games": [],
    "library": null
   },
@@ -657,6 +695,7 @@
    "shares": 1,
    "source_api": "media-list",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "强关键词：multiplayer"
    ],
@@ -694,6 +733,9 @@
     "提到网页可玩：multiplayer",
     "含排除词：gta 6"
    ],
+   "game": null,
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": false,
     "in_browser": null,
@@ -704,7 +746,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": null,
    "games": [],
    "library": null
   },
@@ -721,6 +762,7 @@
    "shares": 2,
    "source_api": "media-list",
    "fetch_date": "2026-11-10",
+   "duration": 0,
    "coarse_ways": [
     "链接指向游戏托管位置"
    ],
@@ -751,6 +793,22 @@
     "提到 AI：gpt、opus、opus",
     "找到试玩链接"
    ],
+   "game": {
+    "status": "已找到",
+    "url": "https://sorrycc.github.io/qoduck-showcase/",
+    "key": "sorrycc.github.io/qoduck-showcase",
+    "how": "帖子自带链接",
+    "alt": [],
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 2615,
+    "created_at": "Mon Nov 09 07:16:38 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2119690332665466880/img/R-H--SjG7znCKbC9.jpg",
+    "has_video": true
+   },
+   "name_guess": "",
+   "linkless_ok": false,
    "judgment": {
     "is_game": false,
     "in_browser": null,
@@ -761,18 +819,6 @@
     "by": "会话核验"
    },
    "verdict": "no",
-   "game": {
-    "status": "已找到",
-    "url": "https://sorrycc.github.io/qoduck-showcase/",
-    "key": "sorrycc.github.io/qoduck-showcase",
-    "how": "帖子自带链接",
-    "alt": [],
-    "other_links": [],
-    "related_posts": [],
-    "views_now": 2577,
-    "created_at": "Mon Nov 09 07:16:38 +0000 2026",
-    "community_note": null
-   },
    "games": [],
    "library": null
   }

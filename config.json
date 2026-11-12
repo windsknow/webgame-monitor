@@ -1,5 +1,5 @@
 {
- "_说明": "所有门槛和关键词都在这里改，改完不用动代码。标注「待确认」的数字是按上一份报告倒推的建议值。",
+ "_说明": "所有门槛和关键词都在这里改，改完不用动代码。",
  "x_pull": {
   "_说明": "X 帖子数据的固定拉取地址。{date} 会替换成 YYYY-MM-DD。地址留空时只读 inbox/x/ 目录。如需鉴权，把令牌放进环境变量 X_PULL_TOKEN（GitHub 仓库密钥），不要写在这里。",
   "url_template": "",
@@ -12,34 +12,29 @@
   "issue_days": 7
  },
  "thresholds": {
-  "_说明": "进候选的门槛（各渠道）和入选信号（合并后）。signals_to_publish 是没有 AI 证据时自动收录需要的信号条数，signals_to_publish_ai 是有 AI 证据时需要的条数。",
-  "hn_points_7d": 100,
-  "threejs_views_week": 500,
-  "github_stars_30d": 100,
-  "itch_weeks_on_chart": 2,
-  "spawn_top_n": 20,
-  "x_views_signal": 200000,
-  "x_views_hot": 1000000,
-  "discord_members_signal": 5000,
-  "discord_members_hot": 10000,
-  "players_signal": 50000,
-  "visits_signal": 500000,
-  "visits_hot": 1000000,
-  "media_count_signal": 2,
-  "signals_to_publish": 2,
-  "signals_to_publish_ai": 1
- },
- "model_release_boost": {
-  "_说明": "有新的大模型发布时，之后 days 天内把传播类门槛乘以 factor。在 releases 里追加一行即可生效。",
-  "days": 14,
-  "factor": 0.5,
-  "releases": [
-   {
-    "date": "2026-11-09",
-    "name": "Claude Fable 5.2",
-    "note": "日期取自上一阶段的渠道分析记录"
+  "_说明": "2026-11-12 起：过了「入库线」并且判断为网页游戏的线索直接入库，不再要求传播数据、游玩次数或试玩链接。达到「重点线」的在页面上标为重点。",
+  "floors": {
+   "_说明": "入库线：各渠道的线索达到这个数才会被考虑。",
+   "hn_points": 30,
+   "threejs_views_week": 100,
+   "github_stars_30d": 30,
+   "itch_weeks_on_chart": 2,
+   "chart_top_n": 24,
+   "spawn_top_n": 20,
+   "chart_min_plays": {
+    "_说明": "榜单轮换很快的平台，游玩数到这个数才算上榜。",
+    "astrocade": 20000
    }
-  ]
+  },
+  "hot": {
+   "_说明": "重点线：达到任意一条就标为重点。verse8 的游玩数口径存疑，不参与判断。",
+   "x_views": 200000,
+   "hn_points": 100,
+   "github_stars": 1000,
+   "threejs_views": 2000,
+   "plays": 50000
+  },
+  "x_refresh_days": 14
  },
  "x_keywords": {
   "_说明": "X 帖子规则粗筛。strong 组单独出现就进粗筛；game 组要和 web 或 ai 组同时出现；model 组是模型和工具名，和「制作动词 + 高浏览」一起用来抓作品合集帖；negative 组命中则规则判断为否。 negative 组里放了主机、商店和原生引擎的名字：帖子没带试玩链接又提到这些，多半不是网页游戏。",
@@ -432,5 +427,6 @@
  "site": {
   "title": "AI 网页游戏新品监测",
   "base_url": ""
- }
+ },
+ "x_manual_posts_note": "手动补充的 X 帖子链接写在 data/x_manual_posts.json 里，和每日数据走同一套判断。"
 }

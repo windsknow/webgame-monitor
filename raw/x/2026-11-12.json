@@ -1,0 +1,173 @@
+{
+ "date": "2026-11-12",
+ "fetch_time": null,
+ "total_records": 2,
+ "manual_records": 2,
+ "coarse_hits": 2,
+ "verdicts": {
+  "game": 1,
+  "maybe": 1,
+  "no": 0
+ },
+ "in_library": 1,
+ "items": [
+  {
+   "tweet_id": "2120549388745379867",
+   "link": "https://x.com/scottstts/status/2120549388745379867",
+   "author": "Scott",
+   "handle": "scottstts",
+   "publish_time_utc": "2026-11-11 16:09:06",
+   "text": "Roadside in @threejs, made with Fable 5.2, everything is 100% procedural in this one, including the bike and the arms\n\nFable 5.2 is by far the best model I've seen on 3d modeling, you just gotta push it a bit",
+   "views": 10670,
+   "likes": 201,
+   "comments": 28,
+   "shares": 14,
+   "source_api": "manual",
+   "fetch_date": "2026-11-12",
+   "duration": 120,
+   "coarse_ways": [
+    "强关键词：threejs"
+   ],
+   "hit": {
+    "strong": [
+     "threejs"
+    ],
+    "web": [
+     "threejs"
+    ],
+    "ai": [
+     "fable"
+    ],
+    "model": [
+     "fable"
+    ],
+    "game": [],
+    "negative": []
+   },
+   "links": [],
+   "rule_verdict": "maybe",
+   "rule_reasons": [
+    "提到网页可玩：threejs、threejs",
+    "提到 AI：fable、fable"
+   ],
+   "game": {
+    "status": "未找到游戏",
+    "url": "",
+    "key": "",
+    "how": "",
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 10670,
+    "created_at": "Wed Nov 11 16:09:06 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2120548652007497728/img/uaX1nN--Gos4PQUJ.jpg",
+    "has_video": true,
+    "origin": null
+   },
+   "name_guess": "Roadside",
+   "linkless_ok": true,
+   "judgment": null,
+   "verdict": "maybe",
+   "games": [],
+   "library": null
+  },
+  {
+   "tweet_id": "2120448192324276227",
+   "link": "https://x.com/threejs/status/2120448192324276227",
+   "author": "Three.js",
+   "handle": "threejs",
+   "publish_time_utc": "2026-11-11 09:26:59",
+   "text": "⚔️ https://loktar00.github.io/lanternfall/",
+   "views": 25513,
+   "likes": 475,
+   "comments": 13,
+   "shares": 17,
+   "source_api": "manual",
+   "fetch_date": "2026-11-12",
+   "duration": 68.053,
+   "coarse_ways": [
+    "链接指向游戏托管位置"
+   ],
+   "hit": {
+    "strong": [],
+    "web": [],
+    "ai": [],
+    "model": [],
+    "game": [],
+    "negative": []
+   },
+   "links": [
+    {
+     "short": "https://loktar00.github.io/lanternfall/",
+     "final": "https://loktar00.github.io/lanternfall/",
+     "code": 200,
+     "kind": "game"
+    }
+   ],
+   "rule_verdict": "game",
+   "rule_reasons": [
+    "找到试玩链接"
+   ],
+   "game": {
+    "status": "已找到",
+    "url": "https://loktar00.github.io/lanternfall/",
+    "key": "loktar00.github.io/lanternfall",
+    "how": "帖子自带链接",
+    "alt": [],
+    "other_links": [],
+    "related_posts": [],
+    "views_now": 25513,
+    "created_at": "Wed Nov 11 09:26:59 +0000 2026",
+    "community_note": null,
+    "thumb": "https://pbs.twimg.com/amplify_video_thumb/2120187656881516544/img/ugjT74smgSzi_U3X.jpg",
+    "has_video": true,
+    "origin": {
+     "url": "https://x.com/loktar00/status/2120192761542615271",
+     "handle": "loktar00",
+     "views": 183571,
+     "text": "This is INSANE Fable 5.2 just created this entire game, animations, models, everything.\n\nThe details are absolutely insane, look at the effect when enemies die, animations..\n\nJust blowing my mind what is possible and how quickly it's possible. So impressed!\n\nPlayable link below!"
+    }
+   },
+   "name_guess": "",
+   "linkless_ok": false,
+   "judgment": {
+    "is_game": true,
+    "in_browser": true,
+    "ai_evidence": "作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
+    "note": "@threejs 转发的作品，帖子带试玩链接；视频来自作者 @loktar00 2026-11-10 的原帖。页面标题为 LANTERNFALL，未试玩",
+    "games": [
+     {
+      "name": "Lanternfall",
+      "url": "https://loktar00.github.io/lanternfall/",
+      "how": "@threejs 转发帖自带的链接",
+      "source_post": "https://x.com/loktar00/status/2120192761542615271",
+      "post_views": 183434,
+      "post_time_utc": "2026-11-10 16:32:00"
+     }
+    ],
+    "judged": "2026-11-12",
+    "by": "会话核验"
+   },
+   "verdict": "game",
+   "games": [
+    {
+     "status": "已找到",
+     "name": "Lanternfall",
+     "url": "https://loktar00.github.io/lanternfall/",
+     "key": "loktar00.github.io/lanternfall",
+     "how": "@threejs 转发帖自带的链接",
+     "source_post": "https://x.com/loktar00/status/2120192761542615271",
+     "post_views": 183434,
+     "post_time_utc": "2026-11-10 16:32:00",
+     "library": "lanternfall"
+    }
+   ],
+   "library": {
+    "id": "lanternfall",
+    "name": "Lanternfall",
+    "how": "试玩链接相同",
+    "strength": "dedup"
+   }
+  }
+ ]
+}

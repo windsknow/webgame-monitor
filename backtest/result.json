@@ -19,7 +19,8 @@
    },
    "awesome": {
     "name": "San Francisco -- The Game"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 610 分",
@@ -45,14 +46,14 @@
     "date": "2026-08-04",
     "url": "https://news.ycombinator.com/item?id=49172405",
     "title": "Hop.earth – OpenStreetMap based car racing game"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
-   "Hacker News 90 分（门槛 100）"
+   "Hacker News 90 分"
   ],
   "found": true,
-  "passed": false,
-  "miss": "到过渠道，但没到门槛"
+  "passed": true
  },
  "worldstrike": {
   "name": "World Strike",
@@ -71,7 +72,8 @@
     "date": "2026-11-06",
     "url": "https://news.ycombinator.com/item?id=50389420",
     "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 175 分"
@@ -89,7 +91,8 @@
     "views": 970,
     "date": "2026-10-10",
     "url": "https://discourse.threejs.org/t/roadarium-drive-the-real-streets-of-119-cities-in-your-browser/95169"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "three.js 论坛 970 次浏览"
@@ -105,7 +108,8 @@
   "hits": {
    "awesome": {
     "name": "FULL SEND"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -137,10 +141,11 @@
      "https://x.com/mahluukat/status/2120086512549458322",
      "https://x.com/0ooooo0/status/2119985854450204968"
     ]
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
-   "Hacker News 69 分（门槛 100）",
+   "Hacker News 69 分",
    "X 样例 3 条"
   ],
   "found": true,
@@ -157,10 +162,11 @@
     "date": "2026-09-24",
     "title": "Tidewater Island Fishing Game",
     "url": "https://news.ycombinator.com/item?id=49834073"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "Hacker News 2 分（门槛 100）"
+   "Hacker News 2 分（入库线 30 分）"
   ],
   "found": true,
   "passed": false,
@@ -174,7 +180,8 @@
   "hits": {
    "awesome": {
     "name": "Undersphere"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -192,7 +199,8 @@
     "stars": 120,
     "date": "2026-09-26",
     "url": "https://github.com/jbang2004/long-wind"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "GitHub 120 星"
@@ -210,7 +218,8 @@
     "stars": 173,
     "date": "2026-09-24",
     "url": "https://github.com/mike007jd/voxel-musou"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "GitHub 173 星"
@@ -226,7 +235,8 @@
   "hits": {
    "awesome": {
     "name": "Formula Minus One"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -242,7 +252,8 @@
   "hits": {
    "awesome": {
     "name": "Halcyon"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -260,14 +271,14 @@
     "views": 455,
     "date": "2026-08-28",
     "url": "https://discourse.threejs.org/t/keikoku-camp-a-camping-sim-where-every-texture-mesh-and-sound-is-generated-in-code/93878"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "three.js 论坛 455 次浏览（门槛 500）"
+   "three.js 论坛 455 次浏览"
   ],
   "found": true,
-  "passed": false,
-  "miss": "到过渠道，但没到门槛"
+  "passed": true
  },
  "neonzenith": {
   "name": "Neon Zenith 霓虹天頂",
@@ -282,10 +293,11 @@
    },
    "awesome": {
     "name": "Neon Zenith"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "GitHub 70 星（门槛 100）",
+   "GitHub 70 星",
    "精选清单"
   ],
   "found": true,
@@ -296,7 +308,9 @@
   "group": "游戏复刻与反编译",
   "url": "https://pokebonk.com/",
   "date_text": "2026-10-14 公布",
-  "hits": {},
+  "hits": {
+   "_hn_pass": false
+  },
   "tags": [],
   "found": false,
   "passed": false,
@@ -307,7 +321,9 @@
   "group": "游戏复刻与反编译",
   "url": "https://lagoslife.app/",
   "date_text": "2026-10-01 上线",
-  "hits": {},
+  "hits": {
+   "_hn_pass": false
+  },
   "tags": [],
   "found": false,
   "passed": false,
@@ -333,10 +349,11 @@
    },
    "awesome": {
     "name": "World of ClaudeCraft"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
-   "Hacker News 94 分（门槛 100）",
+   "Hacker News 94 分",
    "精选清单"
   ],
   "found": true,
@@ -353,10 +370,11 @@
     "date": "2026-11-06",
     "title": "Decompiled Battlefield 1942 running on the browser",
     "url": "https://news.ycombinator.com/item?id=50393849"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "Hacker News 6 分（门槛 100）"
+   "Hacker News 6 分（入库线 30 分）"
   ],
   "found": true,
   "passed": false,
@@ -376,7 +394,8 @@
    },
    "awesome": {
     "name": "Three.js Quake"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -401,7 +420,8 @@
     "date": "2026-10-09",
     "url": "https://news.ycombinator.com/item?id=50016312",
     "title": "Show HN: Quake ported to safe Rust, playable in browser"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 241 分"
@@ -419,7 +439,8 @@
     "views": 652,
     "date": "2026-08-28",
     "url": "https://discourse.threejs.org/t/quake-3-in-webgpu/93863"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "three.js 论坛 652 次浏览"
@@ -444,7 +465,8 @@
     "date": "2026-10-12",
     "url": "https://news.ycombinator.com/item?id=50052251",
     "title": "Show HN: PS2 games statically recompiled to WebAssembly"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 316 分"
@@ -462,7 +484,8 @@
     "stars": 249,
     "date": "2026-10-09",
     "url": "https://github.com/mrzh7/scam-with-your-friends-web"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "GitHub 249 星"
@@ -480,7 +503,8 @@
     "posts": [
      "https://x.com/apekshik/status/2119517930300076261"
     ]
-   }
+   },
+   "_hn_pass": false
   },
   "x_author_in_feed": [
    "apekshik"
@@ -499,7 +523,8 @@
   "hits": {
    "awesome": {
     "name": "A Game About Capybaras Delivering Food"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -515,7 +540,8 @@
   "hits": {
    "awesome": {
     "name": "Fanto's Mega-Mart"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -533,7 +559,8 @@
     "views": 1349,
     "date": "2026-10-17",
     "url": "https://discourse.threejs.org/t/dirtbound-a-low-poly-rally-racing-game-in-the-browser/95452"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "three.js 论坛 1349 次浏览"
@@ -549,7 +576,8 @@
   "hits": {
    "awesome": {
     "name": "Bash Fighter"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -574,7 +602,8 @@
     "date": "2026-11-03",
     "url": "https://news.ycombinator.com/item?id=50358352",
     "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 128 分"
@@ -593,14 +622,15 @@
     "date": "2026-10-15",
     "title": "Show HN: I'll Call You Later, an interactive 3D browser short film",
     "url": "https://news.ycombinator.com/item?id=50098087"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "Hacker News 4 分（门槛 100）"
+   "Hacker News 4 分（入库线 30 分）"
   ],
   "found": true,
   "passed": false,
-  "miss": "到过渠道，但没到门槛"
+  "miss": "到过渠道，但没到入库线"
  },
  "magical": {
   "name": "MAGICAL.EXE",
@@ -610,7 +640,8 @@
   "hits": {
    "awesome": {
     "name": "MAGICAL.EXE"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -632,10 +663,11 @@
    },
    "awesome": {
     "name": "WenWare"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "Hacker News 2 分（门槛 100）",
+   "Hacker News 2 分（入库线 30 分）",
    "精选清单"
   ],
   "found": true,
@@ -658,7 +690,8 @@
     "date": "2026-06-18",
     "url": "https://news.ycombinator.com/item?id=48585739",
     "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 244 分"
@@ -683,7 +716,8 @@
     "date": "2026-10-13",
     "url": "https://news.ycombinator.com/item?id=50080246",
     "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 124 分"
@@ -699,7 +733,8 @@
   "hits": {
    "awesome": {
     "name": "Swervle"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -715,7 +750,8 @@
   "hits": {
    "awesome": {
     "name": "Worrrrld!"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -740,7 +776,8 @@
     "date": "2026-06-15",
     "url": "https://news.ycombinator.com/item?id=48543475",
     "title": "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 1038 分"
@@ -765,7 +802,8 @@
     "date": "2026-10-10",
     "url": "https://news.ycombinator.com/item?id=50036864",
     "title": "A city-building game in which the city would prefer you didn't"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 558 分"
@@ -790,7 +828,8 @@
     "date": "2026-10-18",
     "url": "https://news.ycombinator.com/item?id=50140584",
     "title": "Weball: Play Katamari on Websites"
-   }
+   },
+   "_hn_pass": true
   },
   "tags": [
    "Hacker News 308 分"
@@ -809,7 +848,8 @@
     "date": "2025-09-27",
     "title": "A WebGL game where you deliver messages on a tiny planet",
     "url": "https://news.ycombinator.com/item?id=45396441"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [],
   "found": false,
@@ -824,8 +864,9 @@
   "hits": {
    "spawn": {
     "rank": 3,
-    "plays": 91098
-   }
+    "plays": 91289
+   },
+   "_hn_pass": false
   },
   "x_author_in_feed": [
    "Izkimar"
@@ -844,8 +885,9 @@
   "hits": {
    "spawn": {
     "rank": 4,
-    "plays": 14147
-   }
+    "plays": 14157
+   },
+   "_hn_pass": false
   },
   "x_author_in_feed": [
    "Izkimar"
@@ -864,8 +906,9 @@
   "hits": {
    "spawn": {
     "rank": 5,
-    "plays": 8315
-   }
+    "plays": 8460
+   },
+   "_hn_pass": false
   },
   "tags": [
    "Spawn 热榜第 5 名"
@@ -880,12 +923,13 @@
   "date_text": "2026-09-27 上线",
   "hits": {
    "spawn": {
-    "rank": 12,
-    "plays": 1556
-   }
+    "rank": 13,
+    "plays": 1565
+   },
+   "_hn_pass": false
   },
   "tags": [
-   "Spawn 热榜第 12 名"
+   "Spawn 热榜第 13 名"
   ],
   "found": true,
   "passed": true
@@ -898,8 +942,9 @@
   "hits": {
    "spawn": {
     "rank": 1,
-    "plays": 59776
-   }
+    "plays": 60032
+   },
+   "_hn_pass": false
   },
   "tags": [
    "Spawn 热榜第 1 名"
@@ -915,8 +960,9 @@
   "hits": {
    "spawn": {
     "rank": 20,
-    "plays": 22956
-   }
+    "plays": 24050
+   },
+   "_hn_pass": false
   },
   "tags": [
    "Spawn 热榜第 20 名"
@@ -932,8 +978,9 @@
   "hits": {
    "spawn": {
     "rank": 2,
-    "plays": 25022
-   }
+    "plays": 28719
+   },
+   "_hn_pass": false
   },
   "tags": [
    "Spawn 热榜第 2 名"
@@ -949,8 +996,9 @@
   "hits": {
    "spawn": {
     "rank": 6,
-    "plays": 5329
-   }
+    "plays": 5380
+   },
+   "_hn_pass": false
   },
   "x_author_in_feed": [
    "Izkimar"
@@ -966,183 +1014,301 @@
   "group": "Verse8",
   "url": "https://verse8.io/j7s8R9Q",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 9,
+    "plays": 3202086,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "v8_ldw": {
   "name": "Last Dungeon Wars",
   "group": "Verse8",
   "url": "https://verse8.io/H8U6v7y",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 2,
+    "plays": 1411602,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "v8_snake": {
   "name": "Snake Wars",
   "group": "Verse8",
   "url": "https://verse8.io/n6y4e2T",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 3,
+    "plays": 1081068,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "v8_food": {
   "name": "Food Slicer",
   "group": "Verse8",
   "url": "https://verse8.io/y7d9D8v",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 4,
+    "plays": 1193066,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "v8_ani": {
   "name": "The Ani Protocol",
   "group": "Verse8",
   "url": "https://verse8.io/V4g5s4k",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 19,
+    "plays": 1230867,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "v8_cold": {
   "name": "Cold Steel Adventure",
   "group": "Verse8",
   "url": "https://verse8.io/f8i5y4r",
   "date_text": "上线日期平台未显示",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Verse8 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "verse8": {
+    "rank": 6,
+    "plays": 983954,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Verse8 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "as_egg": {
   "name": "Steal an egg",
   "group": "Astrocade",
   "url": "https://www.astrocade.com/games/steal-an-egg/01M2W8RGATG81XEA5YCQ35ZDNS",
   "date_text": "2026-09-19 上线",
-  "hits": {},
+  "hits": {
+   "_hn_pass": false
+  },
   "tags": [],
   "found": false,
   "passed": false,
-  "miss": "Astrocade 热门页还没有采集器（接口未找到）"
+  "miss": "平台游戏，但现在已经不在热门页上"
  },
  "as_nds": {
   "name": "Natural Disaster Survival",
   "group": "Astrocade",
   "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
   "date_text": "2026-10-16 上线",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Astrocade 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "astrocade": {
+    "rank": 11,
+    "plays": 844725,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Astrocade 热门页在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "as_forge": {
   "name": "Forge Beyond",
   "group": "Astrocade",
   "url": "https://www.astrocade.com/games/forge-beyond/01M4013XDHF10RVPJJ0MR4TZ1E",
   "date_text": "2026-10-03 上线",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Astrocade 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "astrocade": {
+    "rank": 8,
+    "plays": 523048,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Astrocade 热门页在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "as_squishy": {
   "name": "Astro Squishy Studio",
   "group": "Astrocade",
   "url": "https://www.astrocade.com/games/astro-squishy-studio-make-your-own-squishy/01M6H4GQ4G904G7952W61BR5YF",
   "date_text": "2026-11-03 上线",
-  "hits": {},
+  "hits": {
+   "_hn_pass": false
+  },
   "tags": [],
   "found": false,
   "passed": false,
-  "miss": "Astrocade 热门页还没有采集器（接口未找到）"
+  "miss": "平台游戏，但现在已经不在热门页上"
  },
  "as_rich": {
   "name": "Rich or Poor Runner",
   "group": "Astrocade",
   "url": "https://www.astrocade.com/games/rich-or-poor-runner/01M65BWQDWENFEH5KFJY29HBAE",
   "date_text": "2026-10-30 上线",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Astrocade 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "astrocade": {
+    "rank": 1,
+    "plays": 270441,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Astrocade 热门页在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "rb_superhot": {
   "name": "SUPERHOT MARIO",
   "group": "Rosebud AI",
   "url": "https://rosebud.ai/play/superhot-mario",
   "date_text": "最近更新 2026-10-05",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Rosebud AI 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "rosebud": {
+    "rank": 2,
+    "plays": 2957,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Rosebud 首页精选在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "rb_chiikawa": {
   "name": "Chiikawa Bonk",
   "group": "Rosebud AI",
   "url": "https://rosebud.ai/play/chiikawa-bonk",
   "date_text": "最近更新 2026-11-03",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Rosebud AI 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "rosebud": {
+    "rank": 4,
+    "plays": 778,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Rosebud 首页精选在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "rb_finger": {
   "name": "Finger Haunt",
   "group": "Rosebud AI",
   "url": "https://rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
   "date_text": "最近更新 2026-10-02",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Rosebud AI 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "rosebud": {
+    "rank": 8,
+    "plays": 28892,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Rosebud 首页精选在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "rb_passengers": {
   "name": "ATTENTION PASSENGERS",
   "group": "Rosebud AI",
   "url": "https://rosebud.ai/play/attention-passengers-plane-crash-survival-game",
   "date_text": "最近更新 2026-08-13",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Rosebud AI 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "rosebud": {
+    "rank": 14,
+    "plays": 12630,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Rosebud 首页精选在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "rb_sir": {
   "name": "Sir Falls-A-Lot",
   "group": "Rosebud AI",
   "url": "https://rosebud.ai/play/laavatorni",
   "date_text": "最近更新 2026-10-15",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Rosebud AI 热门页还没有采集器（接口未找到）"
+  "hits": {
+   "rosebud": {
+    "rank": 1,
+    "plays": 2680,
+    "playing": null
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Rosebud 首页精选在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "farworlds": {
   "name": "Far Worlds",
   "group": "Wavedash 与 Far Worlds",
   "url": "https://farworlds.com/",
   "date_text": "Alpha 测试中",
-  "hits": {},
+  "hits": {
+   "_hn_pass": false
+  },
   "tags": [],
   "found": false,
   "passed": false,
@@ -1153,11 +1319,19 @@
   "group": "Wavedash 与 Far Worlds",
   "url": "https://wavedash.com/games/sumbasurf",
   "date_text": "封面上传于 2026-09",
-  "hits": {},
-  "tags": [],
-  "found": false,
-  "passed": false,
-  "miss": "Wavedash 热门页还没有采集器"
+  "hits": {
+   "wavedash": {
+    "rank": 1,
+    "plays": null,
+    "playing": 153
+   },
+   "_hn_pass": false
+  },
+  "tags": [
+   "Wavedash 热门在榜"
+  ],
+  "found": true,
+  "passed": true
  },
  "tinyskies": {
   "name": "Tiny Skies",
@@ -1167,7 +1341,8 @@
   "hits": {
    "awesome": {
     "name": "Tiny Skies"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"
@@ -1183,7 +1358,8 @@
   "hits": {
    "awesome": {
     "name": "HALDANE-4"
-   }
+   },
+   "_hn_pass": false
   },
   "tags": [
    "精选清单"

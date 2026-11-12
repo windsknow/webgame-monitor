@@ -180,13 +180,29 @@ def find_game(rec, links, cfg):
     other = [l['final'] for l in links if l['kind'] in ('store', 'video', 'repo')]
     related_posts = [l['final'] for l in links if STATUS.search(l['final']) and
                      str(rec.get('tweet_id')) not in l['final']]
-    info = {'views_now': None, 'created_at': None, 'community_note': None}
+    info = {'views_now': None, 'created_at': None, 'community_note': None, 'thumb': '', 'has_video': False,
+            'origin': None}
     cands, how, status = playable(links), '帖子自带链接', '已找到'
     m = STATUS.search(rec.get('link') or '')
     tw = fx_tweet(m.group(1), m.group(2)) if m else {}
     if tw:
         info['views_now'] = tw.get('views')
         info['created_at'] = tw.get('created_at')
+        media = ((tw.get('media') or {}).get('all') or [])
+        if not media and tw.get('quote'):
+            media = (((tw['quote'].get('media') or {}).get('all')) or [])
+        for md in media:
+            info['thumb'] = info['thumb'] or md.get('thumbnail_url') or (md.get('url') if md.get('type') == 'photo' else '') or ''
+            info['has_video'] = info['has_video'] or md.get('type') in ('video', 'gif')
+        # 视频或图片来自另一条帖子（转发别人的作品）：记下原帖，浏览数和 AI 线索以原帖为准
+        for f in ((tw.get('raw_text') or {}).get('facets') or []):
+            mo = STATUS.search(f.get('replacement') or '') if f.get('type') == 'media' else None
+            if mo and m and mo.group(2) != m.group(2):
+                o = fx_tweet(mo.group(1), mo.group(2))
+                if o:
+                    info['origin'] = {'url': f'https://x.com/{mo.group(1)}/status/{mo.group(2)}', 'handle': mo.group(1),
+                                      'views': o.get('views'), 'text': (o.get('text') or '')[:600]}
+                break
         cn = tw.get('community_note')
         if cn:
             info['community_note'] = (cn.get('text') if isinstance(cn, dict) else str(cn))[:600]
@@ -237,6 +253,8 @@ def name_tokens(name):
 
 def match_library(item, lib):
     """返回 None 或 {'id','name','how','strength'}。strength：dedup 确定是同一款；related 同一开发者或正文提到，需人工看。"""
+    # 没找到试玩链接、以这条帖子本身入库的条目，不算"已收录"，否则重跑时会把自己去重掉
+    lib = [x for x in lib if x.get('key') != 'x:' + str(item.get('tweet_id'))]
     text = (item.get('text') or '').lower()
     g = item.get('game') or {}
     posts = [item.get('link') or ''] + g.get('related_posts', []) + [l['final'] for l in item.get('links', [])]
@@ -260,6 +278,89 @@ def match_library(item, lib):
         x = by_handle[0]
         return {'id': x['id'], 'name': x['name'], 'how': '作者是已收录游戏的开发者（可能是新作）', 'strength': 'related'}
     return None
+
+
+NAME_HEAD = re.compile(r"^\W*([A-Z0-9][\w'’.!-]*(?: [\w'’.!&-]+){0,4}?)(?= in @?three| \((?:made|built)|, |: | made | built |\s[-–—|]\s| is | – )")
+
+
+def guess_name(text):
+    """从正文开头猜作品名（如 "Roadside in @threejs, made with …" → Roadside）。猜不出返回空。"""
+    m = NAME_HEAD.match((text or '').strip())
+    name = m.group(1).strip() if m else ''
+    if not (2 <= len(name) <= 40) or re.match(r'(i|we|my|this|just|so|the|new|here|today|update|introducing)\b', name, re.I):
+        return ''
+    if re.search(r'claude|fable|opus|sonnet|codex|cursor|gpt|gemini|grok|three\.?js|webgpu', name, re.I):
+        return ''                                    # 开头是模型或技术名，不是作品名
+    return name
+
+
+def judge(item, j):
+    """把规则判断和人工（或每周会话）的核验结论合成最终结论。返回 (verdict, games)。
+    核验结论优先：任一问明确为否就是 no；是游戏、能网页玩并且给了链接是 game；其余是 maybe。"""
+    game = item.get('game')
+    verdict = item.get('rule_verdict') or 'no'
+    games = [dict(game, name='')] if (game and game.get('status') == '已找到') else []
+    if j:
+        if j.get('games'):
+            games = [{'status': '已找到', 'name': x.get('name', ''), 'url': x['url'], 'key': util.game_key(x['url']),
+                      'how': x.get('how') or '核验时找到', 'source_post': x.get('source_post') or item['link'],
+                      'post_views': x.get('post_views'), 'post_time_utc': x.get('post_time_utc')} for x in j['games']]
+        if j.get('is_game') is False or j.get('in_browser') is False:
+            verdict, games = 'no', []
+        elif j.get('is_game') and j.get('in_browser') and games:
+            verdict = 'game'
+        else:
+            verdict = 'maybe'
+    return verdict, games
+
+
+def linkless_ok(item, j):
+    """没有找到试玩链接的帖子，能不能先入库。
+    核验过的：确认是游戏，并且没有排除网页可玩。
+    只有规则判断的：带视频或图片，正文有游戏词，或者同时有网页技术词和 AI 词；作品合集类帖子不算。"""
+    if j:
+        # ingest 为 false：核验时认为不该作为一款游戏入库（例如多个演示的合集帖）
+        return bool(j.get('is_game')) and j.get('in_browser') is not False and j.get('ingest') is not False
+    hit = item.get('hit') or {}
+    g = item.get('game') or {}
+    if hit.get('negative') or not (g.get('has_video') or g.get('thumb') or item.get('duration')):
+        return False
+    return bool(hit.get('game') or (hit.get('strong') and (hit.get('ai') or hit.get('model'))))
+
+
+def manual_records(date):
+    """data/x_manual_posts.json 里手动补充的帖子链接：用公开接口读成和每日数据同样的记录。"""
+    import datetime
+    import glob
+    # 近 7 天里加进来、还没在别的日期处理过的，都算到这一天（定时任务的日期可能比加入日期晚）
+    done = set()
+    for path in glob.glob(util.p('raw', 'x', '*.json')):
+        if os.path.basename(path)[:-5] != date:
+            done |= {i['tweet_id'] for i in (util.load(path) or {}).get('items', []) if i.get('source_api') == 'manual'}
+    recs = []
+    for mp in util.load(util.p('data', 'x_manual_posts.json'), []):
+        m = STATUS.search(mp.get('url') or '')
+        added = mp.get('added') or ''
+        if not m or not added or added > date or util.days_between(added, date) > 7 or m.group(2) in done:
+            continue
+        tw = fx_tweet(m.group(1), m.group(2))
+        if not tw:
+            print(f"[x] 手动补充的帖子读不到：{mp['url']}")
+            continue
+        try:
+            ts = datetime.datetime.strptime(tw.get('created_at') or '', '%a %b %d %H:%M:%S %z %Y').strftime('%Y-%m-%d %H:%M:%S')
+        except ValueError:
+            ts = ''
+        media = ((tw.get('media') or {}).get('all') or [])
+        recs.append({
+            'tweet_id': m.group(2), 'link': f'https://x.com/{m.group(1)}/status/{m.group(2)}',
+            'author': (tw.get('author') or {}).get('name') or m.group(1), 'publish_time': ts,
+            'full_text': tw.get('text') or '', 'views': tw.get('views'), 'likes': tw.get('likes'),
+            'comments': tw.get('replies'), 'shares': tw.get('retweets'), 'desc_links': tweet_urls(tw),
+            'duration': next((md.get('duration') for md in media if md.get('duration')), 0),
+            'source_api': 'manual',
+        })
+    return recs
 
 
 # ---------- 第二步：主题判断（规则版） ----------
@@ -288,7 +389,7 @@ def rule_verdict(hit, links, game, showcase=False):
         return 'no', reasons
     if not found and (neg or 'store' in kinds):
         return 'no', reasons
-    if found and (g or a or w):
+    if found and (g or a or w or 'game' in kinds):
         return 'game', reasons
     return 'maybe', reasons
 
@@ -297,11 +398,14 @@ def run(date=None):
     cfg = util.config()
     date = date or util.today()
     path = pull(date, cfg)
-    if not path:
+    data = util.load(path) if path else {}
+    recs = list(data.get('records', []))
+    have = {str(r.get('tweet_id')) for r in recs}
+    manual = [r for r in manual_records(date) if r['tweet_id'] not in have]
+    recs += manual
+    if not recs:
         print(f'[x] {date} 没有数据文件')
         return None
-    data = util.load(path)
-    recs = data.get('records', [])
     K = {g: _kw_re(cfg['x_keywords'][g]) for g in ('strong', 'web', 'ai', 'model', 'game', 'negative')}
     cache_path = util.p('data', 'cache', 'links.json')
     cache = util.load(cache_path, {})
@@ -326,7 +430,7 @@ def run(date=None):
             'handle': m.group(1) if m else '',
             'publish_time_utc': r.get('publish_time'), 'text': r.get('full_text'),
             'views': r.get('views'), 'likes': r.get('likes'), 'comments': r.get('comments'), 'shares': r.get('shares'),
-            'source_api': r.get('source_api'), 'fetch_date': date,
+            'source_api': r.get('source_api'), 'fetch_date': date, 'duration': r.get('duration') or 0,
             'coarse_ways': ways, 'hit': hit, 'links': links,
         }
         sc = any(w.startswith('模型名') for w in ways)
@@ -336,28 +440,18 @@ def run(date=None):
         if game and game.get('community_note'):
             verdict = 'no'
             reasons.append('帖子带读者备注，内容可能不实')
-        rule_v = verdict
-        games = [dict(game, name='')] if (game and game.get('status') == '已找到') else []
+        item.update({'rule_verdict': verdict, 'rule_reasons': reasons, 'game': game})
         j = judg.get(item['tweet_id'])
-        if j:
-            # 人工或会话判断优先。三问都成立并且给出了游戏链接才算 game；任一问明确为否就是 no；其余是 maybe。
-            if j.get('games'):
-                games = [{'status': '已找到', 'name': x.get('name', ''), 'url': x['url'], 'key': util.game_key(x['url']),
-                          'how': x.get('how') or '核验时找到', 'source_post': x.get('source_post') or item['link'],
-                          'post_views': x.get('post_views'), 'post_time_utc': x.get('post_time_utc')} for x in j['games']]
-            if j.get('is_game') is False or j.get('in_browser') is False:
-                verdict, games = 'no', []
-            elif j.get('is_game') and j.get('in_browser') and games:
-                verdict = 'game'
-            else:
-                verdict = 'maybe'
-        item.update({'rule_verdict': rule_v, 'rule_reasons': reasons, 'judgment': j, 'verdict': verdict,
-                     'game': game, 'games': games})
+        verdict, games = judge(item, j)
+        item['name_guess'] = (j or {}).get('name') or guess_name(item['text'])
+        item['linkless_ok'] = verdict == 'maybe' and linkless_ok(item, j)
+        item.update({'judgment': j, 'verdict': verdict, 'games': games})
         item['library'] = match_library(item, lib)
         for x in games:
             x['library'] = next((y['id'] for y in lib if y.get('key') == x['key']), None)
         out.append(item)
-    res = {'date': date, 'fetch_time': data.get('fetch_time'), 'total_records': len(recs), 'coarse_hits': len(out),
+    res = {'date': date, 'fetch_time': data.get('fetch_time'), 'total_records': len(recs), 'manual_records': len(manual),
+           'coarse_hits': len(out),
            'verdicts': {v: sum(1 for i in out if i['verdict'] == v) for v in ('game', 'maybe', 'no')},
            'in_library': sum(1 for i in out if (i.get('library') or {}).get('strength') == 'dedup'),
            'items': out}

@@ -10,7 +10,7 @@ import os
 import re
 import shutil
 
-from . import util
+from . import util, x_ingest
 from .merge import issue_of
 
 e = html.escape
@@ -18,7 +18,9 @@ PAL = ['#2a78d6', '#eb6834', '#0a7a0a', '#8a4fd6', '#c2410c', '#0e7490', '#b91c5
 AI_TAG = {'ai': ('tag-ai', 'AI 参与'), 'likely': ('tag-likely', '疑似 AI · 无直接证据'),
           'non_ai': ('tag-non', '非 AI · 创意'), 'unlabeled': ('tag-unl', 'AI 证据待确认')}
 CHANNEL = {'x': 'X 帖子', 'hn': 'Hacker News', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'itch': 'itch.io',
-           'awesome': 'AI 游戏精选清单', 'spawn': 'Spawn 热榜', '基线报告': '2026-11-10 基线整理'}
+           'awesome': 'AI 游戏精选清单', 'spawn': 'Spawn 热榜', 'verse8': 'Verse8 热门', 'astrocade': 'Astrocade 热门页',
+           'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门', '基线报告': '2026-11-10 基线整理'}
+LINK = {'none': ('试玩链接未找到', '看原帖 ↗'), 'repo': ('只有代码仓库', '看仓库 ↗')}
 CAL = ('<svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" '
        'fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="currentColor" '
        'stroke-width="1.4" stroke-linecap="round"/></svg>')
@@ -65,14 +67,16 @@ def card(g, is_new=False):
         tags.append('<span class="tag tag-new">本期新增</span>')
     cls, lab = AI_TAG.get(g.get('ai_tag') or 'unlabeled', AI_TAG['unlabeled'])
     tags.append(f'<span class="tag {cls}" title="{e(g.get("ai_evidence") or "")}">{lab}</span>')
+    if g.get('link_status') in LINK:
+        tags.append(f'<span class="tag tag-nolink">{LINK[g["link_status"]][0]}</span>')
     if g.get('status') == 'auto':
-        tags.append('<span class="tag tag-auto" title="按规则自动收录，介绍文字尚未经过试玩核验">自动收录 · 待核验</span>')
+        tags.append('<span class="tag tag-auto" title="按规则自动入库，介绍文字尚未经过试玩核验">自动入库 · 待核验</span>')
     if g.get('play'):
         p = g['play']
         play = ('<b class="idea">创意点</b>' + e(p[4:])) if p.startswith('创意点：') else e(p)
         play = f'<p class="play">{play}</p>'
     elif g.get('quote'):
-        play = f'<p class="play quote"><b>{e(g.get("quote_src") or "原文")}（原文）</b>{e(g["quote"])}</p>'
+        play = f'<p class="play quote"><b>{e(g.get("quote_src") or "原文")}（原文）</b>{e(html.unescape(g["quote"]))}</p>'
     else:
         play = '<p class="play"></p>'
     tech = f'<b>技术</b>{e(g["tech"])}' if g.get('tech') else ''
@@ -82,10 +86,16 @@ def card(g, is_new=False):
     if fs.get('channel') and fs['channel'] != '基线报告':
         found = f'首次发现：{e(fs["date"])} · {e(CHANNEL.get(fs["channel"], fs["channel"]))}'
     why = ''
-    if g.get('signals'):
-        why = '<b>入选理由</b>' + e('；'.join(f"{s['类别']}：{s['说明']}" for s in g['signals']))
+    if g.get('reasons') or g.get('signals'):
+        bits = list(g.get('reasons') or [])
+        hot_bits = [f"{s['类别']}：{s['说明']}" for s in g.get('signals') or [] if s['类别'] != '技术']
+        if hot_bits:
+            bits.append('标为重点的依据：' + '；'.join(hot_bits))
         if g.get('ai_evidence'):
-            why += e('；AI 证据：' + g['ai_evidence'])
+            bits.append('AI 证据：' + g['ai_evidence'])
+        why = '<b>入库理由</b>' + e('；'.join(bits))
+    src_txt = (g.get('src') or '') + (f"（数据截至 {g['stats_date']}）" if g.get('stats_date') else '')
+    go = LINK.get(g.get('link_status'), ('', '打开 ↗'))[1]
     srcs = ''
     if g.get('sources'):
         seen, links = set(), []
@@ -106,18 +116,55 @@ def card(g, is_new=False):
 <p class="tech">{tech}</p>
 <p class="why">{why}</p>
 <p class="note">{note}</p>
-<footer class="gf"><span class="src" title="{e(g.get('src') or '')}">数据来源：{e(g.get('src') or '')}{srcs}</span><a class="go" href="{e(g['url'])}" target="_blank" rel="noopener">打开 ↗</a></footer>
+<footer class="gf"><span class="src" title="{e(src_txt)}">数据来源：{e(src_txt)}{srcs}</span><a class="go" href="{e(g['url'])}" target="_blank" rel="noopener">{go}</a></footer>
 </article>'''
 
 
-def group_section(meta, games, n):
-    games = sorted(games, key=lambda g: (not g.get('hot'),))
-    cards = '\n'.join(card(g) for g in games)
+def is_full(g):
+    """用完整卡片展示：核验过的、重点的、已经写了玩法介绍的。其余自动入库的用紧凑列表。"""
+    return g.get('status') != 'auto' or g.get('hot') or bool(g.get('play'))
+
+
+def compact_table(games, new_ids=(), prefix=''):
+    """自动入库、还没核验的游戏：一行一款，只放名称、标签、数字和出处。"""
+    rows = []
+    for g in sorted(games, key=lambda g: -heat(g)):
+        fs = g.get('first_seen') or {}
+        tag = AI_TAG.get(g.get('ai_tag') or 'unlabeled', AI_TAG['unlabeled'])
+        tags = f'<span class="tag {tag[0]}" title="{e(g.get("ai_evidence") or "")}">{tag[1]}</span>'
+        if g.get('link_status') in LINK:
+            tags += f' <span class="tag tag-nolink">{LINK[g["link_status"]][0]}</span>'
+        if g['id'] in new_ids:
+            tags = '<span class="tag tag-new">本期新增</span> ' + tags
+        stats = '；'.join(f"{s['label']} {s['value']}" + ('（口径存疑）' if s.get('doubt') else '') for s in g.get('stats', []))
+        seen, links = set(), []
+        for s_ in g.get('sources') or []:
+            if s_['url'] not in seen:
+                seen.add(s_['url'])
+                links.append(f'<a href="{e(s_["url"])}" target="_blank" rel="noopener">{e(CHANNEL.get(s_["channel"], s_["channel"]))}</a>')
+        q = html.unescape((g.get('quote') or '').strip())
+        q = f'<span class="q">{e(q[:110] + ("…" if len(q) > 110 else ""))}</span>' if q else ''
+        rows.append(
+            f'<tr id="{prefix}{e(g["id"])}"><td class="on"><a href="{e(g["url"])}" target="_blank" rel="noopener">{e(g["name"])}</a>'
+            f'{q}</td><td>{tags}</td>'
+            f'<td class="os">{e(fs.get("date") or "")}<br>{e(CHANNEL.get(fs.get("channel"), fs.get("channel") or ""))}</td>'
+            f'<td>{e(stats)}</td><td>{"　".join(links[:4])}</td></tr>')
+    return ('<div class="card tblwrap wt cmp"><table><thead><tr><th>名称</th><th>标签</th><th>首次发现</th><th>数据</th>'
+            '<th>出处</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>')
+
+
+def group_section(meta, games, n, new_ids=()):
+    full = sorted([g for g in games if is_full(g)], key=lambda g: (not g.get('hot'),))
+    rest = [g for g in games if not is_full(g)]
+    cards = '\n'.join(card(g) for g in full)
     nh = sum(1 for g in games if g.get('hot'))
     cnt = f'{len(games)} 款' + (f'，其中重点 {nh} 款' if nh else '')
+    body = f'<div class="cards">{cards}</div>' if full else ''
+    if rest:
+        body += f'<h3 class="gt">自动入库、等待核验的 {len(rest)} 款</h3>' + compact_table(rest, new_ids)
     return (f'<div class="grp" id="{meta["id"]}"><div class="grp-h"><span class="num">{n}</span><div>'
             f'<h3>{e(meta["title"])}<span class="cnt">{cnt}</span></h3><p>{e(meta["sub"])}</p></div></div>'
-            f'<div class="cards">{cards}</div></div>')
+            f'{body}</div>')
 
 
 def lead_metric(l):
@@ -130,8 +177,9 @@ def lead_metric(l):
         return f"{util.fmt_num(m.get('threejs_views'))} 次浏览"
     if l['channel'] == 'github':
         return f"{util.fmt_num(m.get('github_stars'))} 星"
-    if l['channel'] == 'spawn' and m.get('spawn_plays'):
-        return f"游玩 {util.fmt_num(m['spawn_plays'])} 次"
+    for k in ('spawn_plays', 'astrocade_plays', 'rosebud_plays'):
+        if m.get(k):
+            return f"游玩 {util.fmt_num(m[k])} 次"
     return ''
 
 
@@ -149,16 +197,18 @@ def watch_tables(cands, date, issue):
     t1 = ('<div class="card tblwrap wt"><table><thead><tr><th>名称</th><th>首次发现</th><th>来源与数据</th><th>AI 标签</th>'
           '<th>现状</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>') if rows else \
         '<div class="card empty">目前没有处于观察中的线索。</div>'
-    # X 上讲到了游戏、但还没找到试玩链接的帖子（本期内）
+    # X 上像是在讲游戏、但还不能确定是一款网页游戏的帖子（本期内）
     xr = []
+    judg = util.load(util.p('data', 'x_judgments.json'), {})
     for path in sorted(glob.glob(util.p('raw', 'x', '*.json')), reverse=True):
         raw = util.load(path)
         if issue_of(raw['date']) != issue or raw['date'] > date:
             continue
         for it in raw['items']:
-            if it['verdict'] != 'maybe':
-                continue
-            j = it.get('judgment') or {}
+            j = judg.get(it['tweet_id']) or {}
+            verdict, _ = x_ingest.judge(it, j)
+            if verdict != 'maybe' or x_ingest.linkless_ok(it, j):
+                continue                             # 能入库的无链接帖子已经在收录库里了
             note = j.get('note') or '；'.join(it.get('rule_reasons') or [])
             v = (it.get('game') or {}).get('views_now') or it.get('views')
             xr.append((v or 0, f'<tr><td class="on"><a href="{e(it["link"])}" target="_blank" rel="noopener">@{e(it["handle"])}</a></td>'
@@ -172,35 +222,57 @@ def watch_tables(cands, date, issue):
 
 
 def method_html(cfg):
-    th = cfg['thresholds']
+    F, H = cfg['thresholds']['floors'], cfg['thresholds']['hot']
+    low = (F.get('chart_min_plays') or {}).get('astrocade')
     ch = [
-        ('X 帖子数据', '每日帖子数据。先按关键词和链接初筛，再判断是不是在讲一款能在浏览器里玩的游戏，然后顺着帖子找到试玩链接', '找到试玩链接的全部进候选'),
-        ('Hacker News', '标题、链接、分数、评论数', f'7 天内 ≥ {th["hn_points_7d"]} 分'),
-        ('three.js 论坛作品区', '标题、链接、浏览数、回复数', f'一周内 ≥ {th["threejs_views_week"]} 次浏览'),
-        ('GitHub', '仓库名、星数、创建时间、主页链接', f'创建 30 天内 ≥ {th["github_stars_30d"]} 星'),
-        ('itch.io', '网页平台的新品与热门榜', f'连续 {th["itch_weeks_on_chart"]} 周在榜'),
-        ('AI 游戏精选清单', 'awesome-ai-built-games 的新增条目', '新增的全部进候选'),
-        ('Spawn 热榜', '游戏名、游玩数', f'新进前 {th["spawn_top_n"]} 名，或榜首更替'),
+        ('X 帖子数据', '每日帖子数据。先按关键词和链接初筛，再判断是不是在讲一款能在浏览器里玩的游戏，然后顺着帖子找试玩链接',
+         '判断为网页游戏的都入库；没找到试玩链接的，以来源帖子入库'),
+        ('Hacker News', '标题、链接、分数、评论数', f'7 天内 ≥ {F["hn_points"]} 分，标题像在讲游戏'),
+        ('three.js 论坛作品区', '标题、链接、浏览数、首帖内容', f'一周内 ≥ {F["threejs_views_week"]} 次浏览，内容像在讲游戏或写明 AI 参与'),
+        ('GitHub', '仓库名、描述、星数、主页链接', f'创建 30 天内 ≥ {F["github_stars_30d"]} 星，有试玩主页，并且不是引擎或框架'),
+        ('itch.io', '网页平台的新品与热门榜', f'连续 {F["itch_weeks_on_chart"]} 周在榜，或描述写明 AI 参与'),
+        ('AI 游戏精选清单', 'awesome-ai-built-games 的新增条目', '新增的都入库'),
+        ('Spawn 热榜', '前 %d 名的游戏名、游玩数、发布日期' % F['spawn_top_n'], '新进榜的；首次读取时只取近 30 天发布的'),
+        ('Verse8 热门', '趋势和游玩数两个排序的前 %d 名' % F['chart_top_n'], '新进榜的；首次读取时只取近 30 天发布的'),
+        ('Astrocade 热门页', '游戏名、游玩数、发布日期',
+         (f'游玩 ≥ {util.fmt_num(low)} 次并且新进榜的' if low else '新进榜的') + '；首次读取时只取近 30 天发布的'),
+        ('Rosebud 首页精选', '游戏名、游玩数', '新进榜的'),
+        ('Wavedash 热门', '游戏名、实时在线人数', '新进榜的'),
     ]
     rows = ''.join(f'<tr><td class="on">{e(a)}</td><td>{e(b)}</td><td>{e(c)}</td></tr>' for a, b, c in ch)
-    b = cfg.get('model_release_boost') or {}
     return f'''<div class="method">
-<div class="step card"><span class="n">1</span><h3>多渠道发现</h3><p>每天从下表的渠道读取线索，过了门槛的进入候选，并按试玩链接合并去重。已经收录过的游戏和它们的仿冒域名会被剔除。</p></div>
-<div class="step card"><span class="n">2</span><h3>硬性条件</h3><ul><li>浏览器里能直接玩，有能打开的试玩链接</li><li>首次公开在近 {cfg["window"]["new_days"]} 天内，或近 {cfg["window"]["reheat_days"]} 天出现了新的热度</li><li>没有收录过</li></ul></div>
-<div class="step card"><span class="n">3</span><h3>入选信号</h3><ul><li>传播：X 单帖浏览 ≥ {util.fmt_num(th["x_views_signal"])}，或 7 天内 Hacker News ≥ {th["hn_points_7d"]} 分</li><li>规模：公开计数显示累计玩家或游玩 ≥ {util.fmt_num(th["players_signal"])}</li><li>技术：three.js 或 WebGPU，并且有多人同场、程序化生成或真实世界数据</li><li>玩法、商业：每周核验时人工补充</li></ul><p>有 AI 参与证据的满足 {th["signals_to_publish_ai"]} 条即收录，没有的需要 {th["signals_to_publish"]} 条。新的大模型发布后 {b.get("days", 14)} 天内，传播类门槛减半。</p></div>
-<div class="step card"><span class="n">4</span><h3>标签含义</h3><ul><li><b>AI 参与</b>：作者自述、帖子写明模型或工具、发布在 AI 创作平台，或大模型本身是玩法</li><li><b>疑似 AI</b>：没有直接证据，但符合短时间、低成本、高完成度的共性</li><li><b>非 AI · 创意</b>：明确不是 AI 制作，因创意收录</li><li><b>AI 证据待确认</b>：还没有找到证据，也没有排除</li><li><b>自动收录 · 待核验</b>：按规则自动收录，介绍文字还没有经过试玩核验</li></ul></div>
+<div class="step card"><span class="n">1</span><h3>多渠道发现</h3><p>每天从下表的渠道读取线索，过了入库线的按试玩链接合并去重。已经收录过的游戏和它们的仿冒域名会被剔除。</p></div>
+<div class="step card"><span class="n">2</span><h3>入库条件</h3><ul><li>是一款网页游戏：链接在已知的游戏平台上，或者页面里能找到画布或游戏引擎；没有试玩链接的 X 帖子，要带视频或图片并且正文在讲游戏</li><li>首次公开在近 {cfg["window"]["new_days"]} 天内，或近 {cfg["window"]["reheat_days"]} 天有新的热度</li><li>不要求传播数据或游玩次数</li></ul></div>
+<div class="step card"><span class="n">3</span><h3>标为重点</h3><p>达到下面任意一条：</p><ul><li>X 单帖浏览 ≥ {util.fmt_num(H["x_views"])}</li><li>Hacker News ≥ {H["hn_points"]} 分</li><li>GitHub ≥ {util.fmt_num(H["github_stars"])} 星</li><li>three.js 论坛 ≥ {util.fmt_num(H["threejs_views"])} 次浏览</li><li>平台显示游玩 ≥ {util.fmt_num(H["plays"])} 次（Verse8 的游玩数口径存疑，不计入）</li><li>同时有 Steam 页面</li></ul><p>X 来源帖的浏览数在发帖后 {cfg["thresholds"].get("x_refresh_days", 14)} 天内每天重读。2026-11-10 之前收录的 68 款，重点是逐款判断的。</p></div>
+<div class="step card"><span class="n">4</span><h3>标签含义</h3><ul><li><b>AI 参与</b>：作者自述、帖子写明模型或工具、发布在 AI 创作平台，或大模型本身是玩法</li><li><b>疑似 AI</b>：没有直接证据，但符合短时间、低成本、高完成度的共性</li><li><b>非 AI · 创意</b>：明确不是 AI 制作，因创意收录</li><li><b>AI 证据待确认</b>：还没有找到证据，也没有排除</li><li><b>自动入库 · 待核验</b>：按规则自动入库，还没有经过试玩核验</li><li><b>试玩链接未找到</b>：来源帖子展示了游戏，但没有公开的试玩链接，能否在浏览器里玩还没有确认</li></ul></div>
 </div>
-<div class="card tblwrap" style="margin-top:14px"><table><thead><tr><th>渠道</th><th>读取内容</th><th>进候选的门槛</th></tr></thead><tbody>{rows}</tbody></table></div>'''
+<div class="card tblwrap" style="margin-top:14px"><table><thead><tr><th>渠道</th><th>读取内容</th><th>入库线</th></tr></thead><tbody>{rows}</tbody></table></div>'''
 
 
-def digest_text(kind, date, issue, new_games, n_total, watch_names, base_url):
+def digest_text(kind, date, issue, new_games, n_total, watch_names, base_url, new_hot=()):
     rng = issue_range(issue)
+    word = '本期' if kind == 'weekly' else '今日'
     head = f'【AI 网页游戏新品监测】{"周汇总 " + rng if kind == "weekly" else "日汇总 " + date}'
-    lines = [head, f'累计收录 {n_total} 款；{"本期" if kind == "weekly" else "今日"}新增 {len(new_games)} 款。']
-    for g in new_games:
+    hot = [g for g in new_games if g.get('hot')]
+    rest = sorted([g for g in new_games if not g.get('hot')], key=lambda g: -heat(g))
+    lines = [head, f'累计收录 {n_total} 款；{word}新增 {len(new_games)} 款，其中重点 {len(hot)} 款。']
+
+    def line(g, mark):
         st = '，'.join(f"{s['label']} {s['value']}" for s in g.get('stats', [])[:2])
         tag = AI_TAG.get(g.get('ai_tag') or 'unlabeled')[1]
-        lines.append(f"· {g['name']}（{g.get('kind') or '待归类'}，{tag}）{st}  {g['url']}")
+        extra = '，' + LINK[g['link_status']][0] if g.get('link_status') in LINK else ''
+        return f"{mark} {g['name']}（{tag}{extra}）{st}  {g['url']}"
+    for g in hot:
+        lines.append(line(g, '★'))
+    old_hot = [g for g in new_hot if g not in new_games]
+    if old_hot:
+        lines.append(f'{word}升为重点的已入库游戏：')
+        lines += [line(g, '★') for g in old_hot]
+    if rest:
+        lines.append(f'其他新入库 {len(rest)} 款：')
+        lines += [line(g, '·') for g in rest[:12]]
+        if len(rest) > 12:
+            lines.append(f'  另有 {len(rest) - 12} 款见完整页面。')
     if watch_names:
         lines.append('观察中：' + '、'.join(watch_names[:8]) + ('等' if len(watch_names) > 8 else ''))
     if base_url:
@@ -241,10 +313,19 @@ def run(date=None):
     plats = [m for m in st['groups'] if m.get('platform')]
     dir_html = '\n'.join(group_section(m, grouped[m['id']], i + 1) for i, m in enumerate(dirs) if grouped[m['id']])
     plat_html = '\n'.join(group_section(m, grouped[m['id']], f'P{i + 1}') for i, m in enumerate(plats) if grouped[m['id']])
-    pend_html = group_section(by_title['待归类'], grouped['pending'], '新') if grouped['pending'] else ''
+    pend_html = group_section(by_title['待归类'], grouped['pending'], '新', {g['id'] for g in new_games}) if grouped['pending'] else ''
     t1, t2, n_watch, n_x = watch_tables(cands, date, issue)
-    new_html = ('<div class="cards">' + '\n'.join(card(g, True) for g in new_games) + '</div>') if new_games else \
-        '<div class="card empty">本期还没有新增的游戏。</div>'
+    new_full = [g for g in new_games if is_full(g)]
+    new_rest = [g for g in new_games if not is_full(g)]
+    n_new_hot = sum(1 for g in new_games if g.get('hot'))
+    new_html = ''
+    if new_full:
+        new_html += '<div class="cards">' + '\n'.join(card(g, True) for g in new_full) + '</div>'
+    if new_rest:
+        new_html += (f'<h3 class="gt">其他新入库的 {len(new_rest)} 款</h3><p class="sub">按规则自动入库、还没有核验的游戏，'
+                     '按数据从高到低排列。达到重点线后会升为上面的卡片。</p>') + compact_table(new_rest, prefix='new-')
+    if not new_games:
+        new_html = '<div class="card empty">本期还没有新增的游戏。</div>'
     side_dir = ''.join(f'<a class="s2" href="#{m["id"]}"><span>{i + 1}. {e(m["title"])}</span><i>{len(grouped[m["id"]])}</i></a>'
                        for i, m in enumerate(dirs) if grouped[m['id']])
     side_plat = ''.join(f'<a class="s2" href="#{m["id"]}"><span>{e(m["title"])}</span><i>{len(grouped[m["id"]])}</i></a>'
@@ -274,12 +355,12 @@ def run(date=None):
 <header class="top"><div class="wrap">
 <div class="eyebrow">{e(title)} · 本期 {issue_range(issue)} · 数据截至 {date}</div>
 <h1>{e(title)}</h1>
-<p class="lede">持续跟踪新出现的、能在浏览器里直接玩的 AI 游戏。每天从 X、Hacker News、three.js 论坛、GitHub、itch.io 等渠道读取线索，按统一标准筛选后收录。每款游戏都给出日期、数据、玩法、画面和来源，可以直接打开试玩。</p>
+<p class="lede">持续跟踪新出现的、能在浏览器里直接玩的 AI 游戏。每天从 X、Hacker News、three.js 论坛、GitHub、itch.io 和各 AI 创作平台的热门页读取线索，判断为网页游戏的直接入库，达到重点线的单独标出。每款游戏都给出日期、数据和来源。</p>
 <div class="kpis">
 <div class="kpi card"><div class="v">{len(games)}</div><div class="l">累计收录</div><div class="n">其中重点 {n_hot} 款</div></div>
-<div class="kpi card"><div class="v">{len(new_games)}</div><div class="l">本期新增</div><div class="n">{issue_range(issue)}</div></div>
+<div class="kpi card"><div class="v">{len(new_games)}</div><div class="l">本期新增</div><div class="n">其中重点 {n_new_hot} 款</div></div>
 <div class="kpi card"><div class="v">{n_ai}</div><div class="l">有 AI 参与证据</div><div class="n">占累计收录的 {round(n_ai * 100 / max(len(games), 1))}%</div></div>
-<div class="kpi card"><div class="v">{n_watch + n_x}</div><div class="l">线索观察</div><div class="n">{n_watch} 条待信号，{n_x} 条待找链接</div></div>
+<div class="kpi card"><div class="v">{n_watch + n_x}</div><div class="l">线索观察</div><div class="n">{n_watch} 条待确认是不是游戏，{n_x} 条 X 帖子待判断</div></div>
 </div>
 </div></header>
 
@@ -303,17 +384,17 @@ def run(date=None):
 
 <main>
 <section id="new">
-<div class="issue-h"><h2>本期新增</h2><span class="rng">{issue_range(issue)}，共 {len(new_games)} 款</span></div>
-<p class="sub">这一期新收录的游戏，重点游戏排在前面。带"自动收录"标记的卡片是按规则自动收录的，介绍文字取自来源帖子和游戏页面，还没有经过试玩核验。</p>
+<div class="issue-h"><h2>本期新增</h2><span class="rng">{issue_range(issue)}，共 {len(new_games)} 款，其中重点 {n_new_hot} 款</span></div>
+<p class="sub">这一期新入库的游戏。重点游戏和已经写了介绍的用卡片展示，排在前面；其余的列在下面的表里。带"自动入库"标记的还没有经过试玩核验，文字取自来源帖子和游戏页面。</p>
 {new_html}
 </section>
 
 <section id="watch">
 <h2>线索观察</h2>
-<p class="sub">已经找到试玩链接、但入选信号还不够的游戏，会继续跟踪数据变化。</p>
+<p class="sub">热度已经到重点线、但还不能确定是不是一款网页游戏的线索，等人工确认。</p>
 {t1}
-<h3 class="gt">X 上提到、还没有找到试玩链接的</h3>
-<p class="sub">帖子在讲一款游戏，并且提到了 AI，但帖子里没有公开的试玩链接。</p>
+<h3 class="gt">X 上像是在讲游戏、还不能确定的帖子</h3>
+<p class="sub">例如多个演示的合集帖。能确定是一款游戏的，即使没有试玩链接也已经入库。</p>
 {t2}
 </section>
 
@@ -360,7 +441,8 @@ def run(date=None):
 <footer class="end">
 <b>口径说明</b>
 <ul>
-<li>2026-11-10 之前收录的 68 款，数字的读取时间为 2026-11-10；之后收录的游戏，读取时间写在各自的"数据来源"里。网页游戏热度变化很快，数字会迅速过时。</li>
+<li>2026-11-10 之前收录的 68 款，数字的读取时间为 2026-11-10；之后入库的游戏，读取时间写在各自的"数据来源"里。网页游戏热度变化很快，数字会迅速过时。</li>
+<li>2026-11-12 起，判断为网页游戏的线索直接入库，不再要求传播数据。自动入库的条目没有经过试玩；标着"试玩链接未找到"的，能否在浏览器里玩还没有确认。</li>
 <li>开发者自己公布的数据会标明是自述；口径存疑的数据标红。</li>
 <li>同人作品和移植作品与原版权方无关，可能随时下线。</li>
 <li>没有对每款游戏做完整试玩，玩法介绍综合自游戏页面、开发者说明和公开报道。</li>
@@ -411,8 +493,10 @@ var ok=f==='all'||(f==='hot'?c.dataset.hot==='1':c.dataset.ai===f);c.classList.t
     os.makedirs(dg, exist_ok=True)
     base = cfg['site'].get('base_url') or ''
     watch_names = [c['name'] for c in cands.values() if c['status'] == '观察']
-    weekly = digest_text('weekly', date, issue, new_games, len(games), watch_names, base)
-    daily = digest_text('daily', date, issue, today_games, len(games), watch_names, base)
+    weekly = digest_text('weekly', date, issue, new_games, len(games), watch_names, base,
+                         [g for g in games if issue_of(g.get('hot_since') or '2000-01-03') == issue])
+    daily = digest_text('daily', date, issue, today_games, len(games), watch_names, base,
+                        [g for g in games if g.get('hot_since') == date])
     for name, txt in ((f'weekly-{issue}.txt', weekly), (f'daily-{date}.txt', daily),
                       ('weekly-latest.txt', weekly), ('daily-latest.txt', daily)):
         with open(os.path.join(dg, name), 'w', encoding='utf-8') as f:

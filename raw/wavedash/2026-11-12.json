@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-12",
+ "channel": "wavedash",
+ "count": 4,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "wavedash",
+   "title": "SumbaSurf",
+   "url": "https://wavedash.com/games/sumbasurf",
+   "key": "wavedash.com/games/sumbasurf",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 1,
+    "wavedash_playing": 137,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  },
+  {
+   "channel": "wavedash",
+   "title": "Middled",
+   "url": "https://wavedash.com/games/middled",
+   "key": "wavedash.com/games/middled",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 2,
+    "wavedash_playing": 20,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  },
+  {
+   "channel": "wavedash",
+   "title": "Splinter Kick",
+   "url": "https://wavedash.com/games/splinter-kick",
+   "key": "wavedash.com/games/splinter-kick",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 3,
+    "wavedash_playing": 16,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  },
+  {
+   "channel": "wavedash",
+   "title": "Matt Portner's Pro Skimboarder",
+   "url": "https://wavedash.com/games/matt-portners-pro-skimboarder",
+   "key": "wavedash.com/games/matt-portners-pro-skimboarder",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 4,
+    "wavedash_playing": 10,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  }
+ ]
+}

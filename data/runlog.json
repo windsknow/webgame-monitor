@@ -3,18 +3,18 @@
   "date": "2026-11-12",
   "collect": {
    "hn": {
-    "count": 15,
-    "passed": 12,
+    "count": 16,
+    "passed": 16,
     "error": ""
    },
    "threejs": {
-    "count": 43,
-    "passed": 0,
+    "count": 50,
+    "passed": 2,
     "error": ""
    },
    "github": {
-    "count": 18,
-    "passed": 7,
+    "count": 27,
+    "passed": 10,
     "error": ""
    },
    "itch": {
@@ -29,27 +29,63 @@
    },
    "spawn": {
     "count": 20,
+    "passed": 9,
+    "error": ""
+   },
+   "verse8": {
+    "count": 40,
+    "passed": 0,
+    "error": ""
+   },
+   "astrocade": {
+    "count": 20,
+    "passed": 9,
+    "error": ""
+   },
+   "rosebud": {
+    "count": 14,
+    "passed": 0,
+    "error": ""
+   },
+   "wavedash": {
+    "count": 4,
     "passed": 0,
     "error": ""
    }
   },
-  "x": {},
+  "x": {
+   "2026-11-12": {
+    "total_records": 2,
+    "coarse_hits": 2,
+    "verdicts": {
+     "game": 1,
+     "maybe": 1,
+     "no": 0
+    },
+    "in_library": 1
+   }
+  },
   "merge": {
    "date": "2026-11-12",
    "counts": {
-    "候选": 15,
-    "拒绝": 1,
-    "观察": 2,
-    "已在库": 3,
-    "收录": 2
+    "候选": 13,
+    "收录": 37,
+    "拒绝": 6,
+    "已在库": 11,
+    "观察": 1
    },
-   "new": []
+   "new": [
+    "frost-lumber-camp",
+    "winter-upd-first-date-on-park"
+   ],
+   "new_hot": [],
+   "dropped": []
   },
   "site": {
-   "total": 70,
-   "new": 2,
-   "watch": 2,
-   "x_pending": 9
+   "total": 105,
+   "new": 37,
+   "watch": 1,
+   "x_pending": 1
   }
  }
 ]

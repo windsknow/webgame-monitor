@@ -10,13 +10,14 @@
     "title": "dsh-game-studio",
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "metrics": {
-     "github_stars": 487,
-     "github_forks": 42
+     "github_stars": 509,
+     "github_forks": 44
     },
     "published": "2026-11-05",
-    "passes": true,
+    "passes": false,
     "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "ai-agent ai-game-generator deepseek-harness dsh dsh-plugin game gamedev github-pages html5-games threejs"
    }
   ],
   "first_seen": {
@@ -33,7 +34,7 @@
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "现在没有过入库线的线索"
   ],
   "updated": "2026-11-12"
  },
@@ -48,13 +49,14 @@
     "title": "trompe",
     "source_url": "https://github.com/patch-gg/trompe",
     "metrics": {
-     "github_stars": 213,
-     "github_forks": 17
+     "github_stars": 215,
+     "github_forks": 18
     },
     "published": "2026-10-25",
     "passes": true,
     "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "gamedev generative-ai procedural texturing threejs webgl"
    }
   ],
   "first_seen": {
@@ -67,13 +69,22 @@
   "ai_evidence": "",
   "signals": [],
   "hard": {
-   "可玩链接": true,
+   "是网页游戏": false,
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "Patch · Build and play",
+   "desc": "Patch is a Windows app for playing and building game mods, mashups and browser games. It finds the games on your PC, sets up a mod with one press of Play, and lets your own AI coding agent build, test and publish new ones.",
+   "image": "https://patch.gg/link-preview.png",
+   "icon": "https://patch.gg/favicon.ico?favicon.2qxq5a-wja8ni.ico",
+   "has_canvas": false,
+   "canvas_how": ""
+  }
  },
  "abouchedidxcode.github.io/open-source-hands": {
   "key": "abouchedidxcode.github.io/open-source-hands",
@@ -86,13 +97,14 @@
     "title": "open-source-hands",
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "metrics": {
-     "github_stars": 207,
+     "github_stars": 210,
      "github_forks": 30
     },
     "published": "2026-11-03",
-    "passes": true,
+    "passes": false,
     "desc": "Make webcam hand games in the browser, or point your coding agent here and have it make one. MediaPipe hand tracking + a gesture engine + a starter game + a playbook.",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "browser-games coding-agents gestures hand-tracking mediapipe threejs webcam"
    }
   ],
   "first_seen": {
@@ -109,7 +121,7 @@
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "现在没有过入库线的线索"
   ],
   "updated": "2026-11-12"
  },
@@ -124,13 +136,14 @@
     "title": "MetroidPrime2Port",
     "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
     "metrics": {
-     "github_stars": 267,
-     "github_forks": 15
+     "github_stars": 269,
+     "github_forks": 16
     },
     "published": "2026-10-21",
-    "passes": true,
+    "passes": false,
     "desc": "Native port of Metroid Prime 2: Echoes (GameCube) for Linux and Android, built from the PrimeDecomp decompilation. No emulator, no game assets included: bring your own disc image.",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "android decompilation gamecube linux metroid-prime metroid-prime-2 native-port randomizer sdl3 webgpu"
    }
   ],
   "first_seen": {
@@ -147,7 +160,7 @@
    "近期": true
   },
   "reasons": [
-   "只有代码仓库链接，没有试玩页面"
+   "现在没有过入库线的线索"
   ],
   "updated": "2026-11-12"
  },
@@ -162,32 +175,44 @@
     "title": "seriesoftubes",
     "source_url": "https://github.com/fjaeckel/seriesoftubes",
     "metrics": {
-     "github_stars": 218,
+     "github_stars": 219,
      "github_forks": 43
     },
     "published": "2026-10-23",
     "passes": true,
     "desc": "A free cartoon browser game about how the internet really works: lay fiber and subsea cables, peer at IXPs, bill on the 95th percentile and survive backhoes, sharks and route leaks on your way to Tier 1.",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "bgp browser-game educational game internet networking peering simulation"
    }
   ],
   "first_seen": {
    "date": "2026-11-11",
    "channel": "github"
   },
-  "status": "候选",
+  "status": "收录",
   "published": "2026-10-23",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "signals": [],
   "hard": {
-   "可玩链接": true,
+   "是网页游戏": true,
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "GitHub 219 星"
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "Series of Tubes — Build the Internet, One Tube at a Time",
+   "desc": "Lay fiber, buy transit, peer at IXs and keep the eyeballs happy while backhoes, sharks and route leaks try to stop you. A free cartoon game about how the internet really works.",
+   "image": "https://seriesoftub.es/images/og-image.png",
+   "icon": "https://seriesoftub.es/favicon.svg",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "link_status": "ok",
+  "game_id": "seriesoftubes"
  },
  "lumiogames.github.io/lgui": {
   "key": "lumiogames.github.io/lgui",
@@ -200,14 +225,15 @@
     "title": "LGUI",
     "source_url": "https://github.com/LumioGames/LGUI",
     "metrics": {
-     "github_stars": 127,
+     "github_stars": 129,
      "github_forks": 17
     },
     "published": "2026-10-16",
-    "passes": true,
+    "passes": false,
     "ai_hint": "Game UI framework for AI agents, made by LumioGames",
     "desc": "Game UI framework for AI agents, made by LumioGames. Build screens, logic and tests in the browser with no game engine, then export to Unity. 给 AI Agent 用的游戏 UI 框架，不依赖游戏引擎。",
-    "last_date": "2026-11-12"
+    "last_date": "2026-11-12",
+    "topics": "agent-plugins ai-agents claude-code codex fairygui game-ui gamedev html5 puerts typescript ui-framework unity"
    }
   ],
   "first_seen": {
@@ -224,7 +250,7 @@
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "现在没有过入库线的线索"
   ],
   "updated": "2026-11-12"
  },
@@ -239,11 +265,11 @@
     "title": "PS4-Games-Installer",
     "source_url": "https://github.com/e1z0/PS4-Games-Installer",
     "metrics": {
-     "github_stars": 101,
+     "github_stars": 102,
      "github_forks": 11
     },
     "published": "2026-10-15",
-    "passes": true,
+    "passes": false,
     "desc": "A game library manager for jailbroken PS4 consoles. Browse remote catalogs, install packages, launch games, and organize your collection.",
     "last_date": "2026-11-12"
    }
@@ -262,7 +288,7 @@
    "近期": true
   },
   "reasons": [
-   "只有代码仓库链接，没有试玩页面"
+   "现在没有过入库线的线索"
   ],
   "updated": "2026-11-12"
  },
@@ -277,8 +303,8 @@
     "title": "Fable 5.2 one-shotted my nephew's dream game",
     "source_url": "https://news.ycombinator.com/item?id=50433659",
     "metrics": {
-     "hn_points": 499,
-     "hn_comments": 445
+     "hn_points": 502,
+     "hn_comments": 449
     },
     "published": "2026-11-09",
     "passes": true,
@@ -321,8 +347,8 @@
     "title": "A great old-timey game-programming hack (2013)",
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "metrics": {
-     "hn_points": 240,
-     "hn_comments": 54
+     "hn_points": 269,
+     "hn_comments": 67
     },
     "published": "2026-11-11",
     "passes": true,
@@ -417,7 +443,7 @@
     "title": "Show HN: Ghanaian street games you can play in the browser",
     "source_url": "https://news.ycombinator.com/item?id=50414117",
     "metrics": {
-     "hn_points": 113,
+     "hn_points": 115,
      "hn_comments": 22
     },
     "published": "2026-11-08",
@@ -429,20 +455,19 @@
    "date": "2026-11-11",
    "channel": "hn"
   },
-  "status": "观察",
+  "status": "收录",
   "published": "2026-11-08",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 113 分"
+    "说明": "Hacker News 115 分"
    }
   ],
   "hard": {
-   "可玩链接": true,
-   "近期": true,
-   "页面可玩特征": true
+   "是网页游戏": true,
+   "近期": true
   },
   "page": {
    "ok": true,
@@ -453,10 +478,11 @@
    "has_canvas": true
   },
   "reasons": [
-   "传播：Hacker News 113 分",
-   "入选信号不足 2 条"
+   "Hacker News 114 分"
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-12",
+  "link_status": "ok",
+  "game_id": "ghanaian-street-games-you-can-play-in-th"
  },
  "retrosongbird.com": {
   "key": "retrosongbird.com",
@@ -485,16 +511,10 @@
   "published": "2026-11-07",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 93 分（新模型发布后两周内，门槛减半）"
-   }
-  ],
+  "signals": [],
   "hard": {
-   "可玩链接": true,
-   "近期": true,
-   "页面可玩特征": false
+   "是网页游戏": false,
+   "近期": true
   },
   "page": {
    "ok": true,
@@ -505,7 +525,7 @@
    "has_canvas": false
   },
   "reasons": [
-   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
   ],
   "updated": "2026-11-12"
  },
@@ -536,16 +556,10 @@
   "published": "2026-11-06",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 82 分（新模型发布后两周内，门槛减半）"
-   }
-  ],
+  "signals": [],
   "hard": {
-   "可玩链接": true,
-   "近期": true,
-   "页面可玩特征": false
+   "是网页游戏": false,
+   "近期": true
   },
   "page": {
    "ok": true,
@@ -556,7 +570,7 @@
    "has_canvas": false
   },
   "reasons": [
-   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
   ],
   "updated": "2026-11-12"
  },
@@ -588,7 +602,16 @@
   "library_id": "worldstrike",
   "reasons": [
    "试玩链接和已收录的 worldstrike 相同"
-  ]
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 175 分"
+   }
+  ],
+  "updated": "2026-11-12"
  },
  "dimension9.space": {
   "key": "dimension9.space",
@@ -601,7 +624,7 @@
     "title": "Backrooms: Dimension 9",
     "source_url": "https://x.com/apekshik/status/2119517930300076261",
     "metrics": {
-     "x_views": 219270,
+     "x_views": 219967,
      "x_likes": 1538
     },
     "published": "2026-11-08",
@@ -614,7 +637,7 @@
      "other_links": [],
      "via_post": "https://x.com/apekshik/status/2119517930300076261"
     },
-    "last_date": "2026-11-10"
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119516015931613184/img/OZUXb-wVW2atjYru.jpg"
    }
   ],
   "first_seen": {
@@ -626,7 +649,16 @@
   "library_id": "dimension9",
   "reasons": [
    "试玩链接和已收录的 dimension9 相同"
-  ]
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 22 万"
+   }
+  ],
+  "updated": "2026-11-12"
  },
  "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp": {
   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
@@ -634,16 +666,31 @@
   "name": "Saltline",
   "leads": [
    {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "source_url": "https://news.ycombinator.com/item?id=50444850",
+    "metrics": {
+     "hn_points": 71,
+     "hn_comments": 89
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "Saltline: First-person shooter built by Fable 5",
+    "last_date": "2026-11-12"
+   },
+   {
     "channel": "x",
     "date": "2026-11-11",
     "title": "Saltline",
     "source_url": "https://x.com/midudev/status/2120163317889347853",
     "metrics": {
-     "x_views": 73945,
+     "x_views": 80354,
      "x_likes": 389
     },
     "published": "2026-11-10",
     "passes": true,
+    "ai_hint": "正文提到 fable（规则识别）",
     "desc": "Un juego hecho desde cero con Fable 5.2. Coste: 550$\nDice Felix, que trabaja en Anthropic, que fue un prompt.\n\nVamos a tener una ola de juegos y software creado por IA. El tema es que ¿realmente van a aportar algo? ¿lo va a usar alguien?\n\nAyer comenté el sistema operativo que crearon en 8 días y mucha gente decía que si tenía utilidad, que para qué crear algo así... Y tienen razón.\n\nYa no es sólo ",
     "x": {
      "handle": "midudev",
@@ -652,7 +699,7 @@
      "other_links": [],
      "via_post": "https://x.com/midudev/status/2120163317889347853"
     },
-    "last_date": "2026-11-11"
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg"
    },
    {
     "channel": "x",
@@ -660,11 +707,12 @@
     "title": "Saltline",
     "source_url": "https://x.com/mahluukat/status/2120086512549458322",
     "metrics": {
-     "x_views": 214105,
+     "x_views": 216385,
      "x_likes": 250
     },
     "published": "2026-11-10",
     "passes": true,
+    "ai_hint": "正文提到 claude（规则识别）",
     "desc": "Claude ile geliştirilmiş Saltline adlı 3D FPS oyununun kaynak dosyasını inceledim. İnanılmaz ama oyunun tamamı, Three.js kütüphanesi dahil, yalnızca 1,42 MB'lık tek bir HTML dosyasında! 3D geometriler, dokular ve sesler oyun çalışırken kodla üretiliyor. Harici oyun asset'leri yok",
     "x": {
      "handle": "mahluukat",
@@ -673,7 +721,7 @@
      "other_links": [],
      "via_post": "https://x.com/mahluukat/status/2120086512549458322"
     },
-    "last_date": "2026-11-11"
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg"
    },
    {
     "channel": "x",
@@ -681,11 +729,12 @@
     "title": "Saltline",
     "source_url": "https://x.com/0ooooo0/status/2119985854450204968",
     "metrics": {
-     "x_views": 43848,
+     "x_views": 44015,
      "x_likes": 151
     },
     "published": "2026-11-10",
     "passes": true,
+    "ai_hint": "正文提到 fable（规则识别）",
     "desc": "Fable 5.2로 만든 미친 퀄리티의 FPS\n\n8시간 동안 550달러로 만들었다고 함..\n\n대기업 게임사가 몇 년 걸려 만들고 발표할 퀄리티인데 ㄷㄷ https://t.co/FVdiemWNHG",
     "x": {
      "handle": "0ooooo0",
@@ -694,21 +743,7 @@
      "other_links": [],
      "via_post": "https://x.com/0ooooo0/status/2119985854450204968"
     },
-    "last_date": "2026-11-11"
-   },
-   {
-    "channel": "hn",
-    "date": "2026-11-12",
-    "title": "Saltline: First-person shooter built by Fable 5.2",
-    "source_url": "https://news.ycombinator.com/item?id=50444850",
-    "metrics": {
-     "hn_points": 69,
-     "hn_comments": 86
-    },
-    "published": "2026-11-10",
-    "passes": true,
-    "ai_hint": "Saltline: First-person shooter built by Fable 5",
-    "last_date": "2026-11-12"
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119919821538447360/img/tuJ7YP9fTEVJK8C8.jpg"
    }
   ],
   "first_seen": {
@@ -720,7 +755,16 @@
   "library_id": "saltline",
   "reasons": [
    "试玩链接和已收录的 saltline 相同"
-  ]
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Hacker News 标题：Saltline: First-person shooter built by Fable 5",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 21.6 万"
+   }
+  ],
+  "updated": "2026-11-12"
  },
  "remix.gg/g/banana-mine-rush": {
   "key": "remix.gg/g/banana-mine-rush",
@@ -733,7 +777,7 @@
     "title": "Banana Mine Rush",
     "source_url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "metrics": {
-     "x_views": 8846,
+     "x_views": 9300,
      "x_likes": 54
     },
     "published": "2026-11-10",
@@ -747,26 +791,34 @@
      "other_links": [],
      "via_post": "https://x.com/0xChuckstock/status/2120125184606658728"
     },
-    "last_date": "2026-11-11"
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120124768791760896/img/z1VLzmLPCMMRDkFn.jpg"
    }
   ],
   "first_seen": {
    "date": "2026-11-11",
    "channel": "x"
   },
-  "status": "候选",
+  "status": "收录",
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
   "signals": [],
   "hard": {
-   "可玩链接": true,
+   "是网页游戏": true,
    "近期": true
   },
   "reasons": [
-   "暂无入选信号"
+   "X 帖子（@0xChuckstock，核验确认），浏览 9,303"
   ],
-  "updated": "2026-11-12"
+  "updated": "2026-11-12",
+  "x_now": {
+   "https://x.com/0xChuckstock/status/2120125184606658728": {
+    "views": 9308,
+    "date": "2026-11-12"
+   }
+  },
+  "link_status": "ok",
+  "game_id": "banana-mine-rush"
  },
  "spawn.co/@mattshumer/earth": {
   "key": "spawn.co/@mattshumer/earth",
@@ -791,8 +843,7 @@
      "judged_by": "会话核验",
      "other_links": [],
      "via_post": "https://x.com/mattshumer_/status/2119886664017547687"
-    },
-    "last_date": "2026-11-11"
+    }
    }
   ],
   "first_seen": {
@@ -806,7 +857,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 39.8 万"
+    "说明": "X 单帖浏览 40.3 万"
    }
   ],
   "hard": {
@@ -817,7 +868,14 @@
    "传播：X 单帖浏览 39.8 万"
   ],
   "game_id": "earth",
-  "updated": "2026-11-11"
+  "updated": "2026-11-12",
+  "x_now": {
+   "https://x.com/mattshumer_/status/2119877065701036047": {
+    "views": 403434,
+    "date": "2026-11-12"
+   }
+  },
+  "link_status": "ok"
  },
  "spawn.co/@mattshumer/hogwarts-royale": {
   "key": "spawn.co/@mattshumer/hogwarts-royale",
@@ -842,8 +900,7 @@
      "judged_by": "会话核验",
      "other_links": [],
      "via_post": "https://x.com/mattshumer_/status/2119886664017547687"
-    },
-    "last_date": "2026-11-11"
+    }
    }
   ],
   "first_seen": {
@@ -854,12 +911,7 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "X 单帖浏览 17 万（新模型发布后两周内，门槛减半）"
-   }
-  ],
+  "signals": [],
   "hard": {
    "可玩链接": true,
    "近期": true
@@ -868,7 +920,14 @@
    "传播：X 单帖浏览 17 万（新模型发布后两周内，门槛减半）"
   ],
   "game_id": "hogwarts-royale",
-  "updated": "2026-11-11"
+  "updated": "2026-11-12",
+  "x_now": {
+   "https://x.com/mattshumer_/status/2119872098306810226": {
+    "views": 171453,
+    "date": "2026-11-12"
+   }
+  },
+  "link_status": "ok"
  },
  "tis-100.wincon.dev": {
   "key": "tis-100.wincon.dev",
@@ -881,8 +940,8 @@
     "title": "LLMs Play Zachtronics' TIS-100",
     "source_url": "https://news.ycombinator.com/item?id=50448340",
     "metrics": {
-     "hn_points": 88,
-     "hn_comments": 20
+     "hn_points": 91,
+     "hn_comments": 22
     },
     "published": "2026-11-11",
     "passes": true,
@@ -934,7 +993,7 @@
     "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
     "source_url": "https://news.ycombinator.com/item?id=50441518",
     "metrics": {
-     "hn_points": 243,
+     "hn_points": 247,
      "hn_comments": 61
     },
     "published": "2026-11-10",
@@ -946,20 +1005,19 @@
    "date": "2026-11-12",
    "channel": "hn"
   },
-  "status": "候选",
+  "status": "观察",
   "published": "2026-11-10",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 243 分"
+    "说明": "Hacker News 247 分"
    }
   ],
   "hard": {
-   "可玩链接": true,
-   "近期": true,
-   "页面可玩特征": false
+   "是网页游戏": false,
+   "近期": true
   },
   "page": {
    "ok": true,
@@ -970,7 +1028,8 @@
    "has_canvas": false
   },
   "reasons": [
-   "页面里没有发现画布或游戏引擎脚本，可能不是游戏"
+   "传播：Hacker News 247 分",
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
   ],
   "updated": "2026-11-12",
   "note": "像素风的瓦伦西亚城市地图，页面带飞行浏览；是否算游戏待定（2026-11-12）"
@@ -1060,5 +1119,2134 @@
   ],
   "updated": "2026-11-12",
   "reject_reason": "技术文章，标题里的 sandbox 被误当成游戏词（2026-11-12 核验）"
+ },
+ "astrocade.com/games/voxels/01m5z51hq4k3d8k0h8zf3dzbdd": {
+  "key": "astrocade.com/games/voxels/01m5z51hq4k3d8k0h8zf3dzbdd",
+  "url": "https://www.astrocade.com/games/voxels/01M5Z51HQ4K3D8K0H8ZF3DZBDD",
+  "name": "Voxels",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Voxels",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 334643,
+     "astrocade_likes": 4939,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-28",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Mine, craft and build in a blocky world! Play Survival worlds, join servers full of players, go Creative, find the Inferno and the Void.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793550178217_01M6BYQNX93C61Z1YGD4J6HHZC.jpg",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-10-28",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 33.5 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-28 发布"
+  ],
+  "page": {
+   "ok": true,
+   "title": "Voxels | Astrocade",
+   "desc": "Mine, craft and build in a blocky world! Play Survival worlds, join servers full of players, go Creative, find the Inferno and the Void.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793550178217_01M6BYQNX93C61Z1YGD4J6HHZC.jpg?width=900&format=jpeg&quality=80&frame=first",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3ClinearGradient id=%22star-gradient%22 gradientUnits=%22userSpaceOnUse%22 x1=%22256%22 y1=%2230.7274%22 x2=%22256%22 y2=%22464.7508%22%3E%3Cstop offset=%220%22 stop-color=%22%23FF4288%22/%3E%3Cstop offset=%221%22 stop-color=%22%23C42FED%22/%3E%3C/linearGradient%3E%3Cpath d=%22M509.553,206.035l-9.987-30.718c-5.623-17.335-20.231-30.258-38.107-33.719l-97.382-18.933l-48.094-86.774 c-8.841-15.924-25.636-25.814-43.835-25.814h-32.299c-18.215,0-35.01,9.898-43.835,25.822l-48.094,86.766l-97.374,18.933 c-17.884,3.469-32.493,16.392-38.115,33.711l-9.971,30.694c-5.639,17.311-1.428,36.349,11.003,49.691l67.664,72.552l-12.092,98.447 c-2.226,18.094,5.55,35.978,20.28,46.666l26.12,18.989c8.72,6.332,19.07,9.575,29.484,9.575c7.196,0,14.431-1.549,21.175-4.695 l89.904-41.923l89.912,41.931c16.521,7.688,35.929,5.816,50.643-4.888l26.112-18.973c14.746-10.705,22.522-28.589,20.296-46.666 l-12.084-98.463l67.656-72.544C510.948,242.383,515.175,223.354,509.553,206.035z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M482.05,206.695l-9.981-30.716c-2.382-7.333-8.557-12.795-16.125-14.267l-110.616-21.499 L290.7,41.655c-3.738-6.744-10.841-10.928-18.551-10.928h-32.297c-7.71,0-14.813,4.184-18.551,10.928l-54.63,98.558L56.056,161.712 c-7.569,1.471-13.743,6.933-16.125,14.267l-9.981,30.716c-2.383,7.333-0.598,15.381,4.661,21.02l76.853,82.411L97.728,421.972 c-0.94,7.653,2.347,15.213,8.585,19.744l26.129,18.984c6.238,4.532,14.444,5.322,21.431,2.064L256,415.138l102.127,47.626 c6.988,3.258,15.194,2.468,21.431-2.064l26.129-18.984c6.238-4.531,9.525-12.092,8.585-19.744l-13.736-111.845l76.853-82.411 C482.648,222.076,484.432,214.028,482.05,206.695z%22 fill=%22url(%23star-gradient)%22/%3E%3Cpath d=%22M147.96,204.077c-15.597,0-28.286,12.689-28.286,28.286s12.689,28.286,28.286,28.286 c15.593,0,28.282-12.689,28.282-28.286S163.553,204.077,147.96,204.077z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M286.571,233.545h-3.102c-1.141,0-2.065,0.924-2.065,2.065c0,12.14-11.495,22.014-25.628,22.014 s-25.628-9.874-25.628-22.014c0-1.141-0.924-2.065-2.065-2.065h-3.102c-2.021,0-3.941,0.883-5.264,2.424 c-1.291,1.504-1.859,3.473-1.565,5.405c2.795,18.412,18.969,32.295,37.623,32.295s34.828-13.883,37.623-32.295 c0.294-1.932-0.274-3.9-1.565-5.405C290.511,234.428,288.591,233.545,286.571,233.545z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M386.687,217.908c1.662,0.367,3.444-0.468,4.203-2.017c1.061-2.198,1.081-4.521,0.048-6.546 c-1.101-2.166-3.259-3.682-5.925-4.166c-25.519-4.594-44.359,5.195-55.911,29.149c-0.484,0.992-0.504,2.138-0.052,3.162 l1.303,2.912c0.387,0.984,2.686,5.788,10.572,4.041c10.805-2.424,27.504-1.791,38.93,7.938c0.661,0.557,1.496,0.867,2.646,0.867 c0.028,0,0.052,0,0.081,0c0.984-0.081,1.916-0.557,2.549-1.307c2.561-3.029,3.473-7.708-0.27-11.33 c-7.615-7.381-19.941-12.245-31.702-12.721C359.289,220.477,370.856,214.282,386.687,217.908z%22 fill=%22%23FFFFFF%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "voxels"
+ },
+ "astrocade.com/games/snowfield-taco-stand/01m6jnf4ap6wb19mj9efjthyja": {
+  "key": "astrocade.com/games/snowfield-taco-stand/01m6jnf4ap6wb19mj9efjthyja",
+  "url": "https://www.astrocade.com/games/snowfield-taco-stand/01M6JNF4AP6WB19MJ9EFJTHYJA",
+  "name": "Snowfield Taco Stand",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Snowfield Taco Stand",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 2,
+     "astrocade_plays": 46541,
+     "astrocade_likes": 1047,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-05",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Slice giant corn, chop avocados, hunt polar bears and grow a snowy taco stand into a rescue camp. Feed the survivors and throw a CAMP FEAST!",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1794225252972_01M702HAKC3TGKQV1JVV9T0HT5.png",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-05",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-05 发布"
+  ],
+  "game_id": "snowfield-taco-stand"
+ },
+ "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43": {
+  "key": "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
+  "url": "https://www.astrocade.com/games/zombies-vs-humans-with-guns/01M71YM4G1BA64TMV0M1Z64T43",
+  "name": "Zombies vs Humans with Guns",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Zombies vs Humans with Guns",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 6,
+     "astrocade_plays": 23909,
+     "astrocade_likes": 562,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "#action #adventure #creative #survival #horror",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/Google_115974500078511979658/1794314647198_01M72QSDMYNFXQJW2T810DH2Q6.png",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-10 发布"
+  ],
+  "game_id": "zombies-vs-humans-with-guns"
+ },
+ "astrocade.com/games/frost-harbor-ice-fishing-tycoon/01m6rgpe8anfgq002a14xh6m7w": {
+  "key": "astrocade.com/games/frost-harbor-ice-fishing-tycoon/01m6rgpe8anfgq002a14xh6m7w",
+  "url": "https://www.astrocade.com/games/frost-harbor-ice-fishing-tycoon/01M6RGPE8ANFGQ002A14XH6M7W",
+  "name": "Frost Harbor: Ice Fishing Tycoon",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Frost Harbor: Ice Fishing Tycoon",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 12,
+     "astrocade_plays": 42725,
+     "astrocade_likes": 988,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Spear fish through the ice, cook and sell them, hire workers, shoo away cheeky polar bears and grow a frozen fishing village into a bustling harbor.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/d8a1e3d0-b041-707b-bcdb-e943a1d73b81/1793971929471_01M6RGYGBZHFSSBNRTV4S9TXMA.jpg",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-08",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-08 发布"
+  ],
+  "game_id": "frost-harbor-ice-fishing-tycoon"
+ },
+ "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j": {
+  "key": "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j",
+  "url": "https://www.astrocade.com/games/ben-10-ultimate-aliens/01M6922TY8CAM4BKTB68FQJJ3J",
+  "name": "Ben 10: Ultimate Aliens",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Ben 10: Ultimate Aliens",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 192514,
+     "astrocade_likes": 5798,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-31",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/18a18390-0041-70b3-a1c9-abad4b6ec064/1793453251796_01M6929Q6M77G6G3N7VDVD7JF7.png",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-10-31",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 19.3 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-31 发布"
+  ],
+  "page": {
+   "ok": true,
+   "title": "Ben 10: Ultimate Aliens | Astrocade",
+   "desc": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/18a18390-0041-70b3-a1c9-abad4b6ec064/1793453251796_01M6929Q6M77G6G3N7VDVD7JF7.png?width=900&format=jpeg&quality=80&frame=first",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3ClinearGradient id=%22star-gradient%22 gradientUnits=%22userSpaceOnUse%22 x1=%22256%22 y1=%2230.7274%22 x2=%22256%22 y2=%22464.7508%22%3E%3Cstop offset=%220%22 stop-color=%22%23FF4288%22/%3E%3Cstop offset=%221%22 stop-color=%22%23C42FED%22/%3E%3C/linearGradient%3E%3Cpath d=%22M509.553,206.035l-9.987-30.718c-5.623-17.335-20.231-30.258-38.107-33.719l-97.382-18.933l-48.094-86.774 c-8.841-15.924-25.636-25.814-43.835-25.814h-32.299c-18.215,0-35.01,9.898-43.835,25.822l-48.094,86.766l-97.374,18.933 c-17.884,3.469-32.493,16.392-38.115,33.711l-9.971,30.694c-5.639,17.311-1.428,36.349,11.003,49.691l67.664,72.552l-12.092,98.447 c-2.226,18.094,5.55,35.978,20.28,46.666l26.12,18.989c8.72,6.332,19.07,9.575,29.484,9.575c7.196,0,14.431-1.549,21.175-4.695 l89.904-41.923l89.912,41.931c16.521,7.688,35.929,5.816,50.643-4.888l26.112-18.973c14.746-10.705,22.522-28.589,20.296-46.666 l-12.084-98.463l67.656-72.544C510.948,242.383,515.175,223.354,509.553,206.035z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M482.05,206.695l-9.981-30.716c-2.382-7.333-8.557-12.795-16.125-14.267l-110.616-21.499 L290.7,41.655c-3.738-6.744-10.841-10.928-18.551-10.928h-32.297c-7.71,0-14.813,4.184-18.551,10.928l-54.63,98.558L56.056,161.712 c-7.569,1.471-13.743,6.933-16.125,14.267l-9.981,30.716c-2.383,7.333-0.598,15.381,4.661,21.02l76.853,82.411L97.728,421.972 c-0.94,7.653,2.347,15.213,8.585,19.744l26.129,18.984c6.238,4.532,14.444,5.322,21.431,2.064L256,415.138l102.127,47.626 c6.988,3.258,15.194,2.468,21.431-2.064l26.129-18.984c6.238-4.531,9.525-12.092,8.585-19.744l-13.736-111.845l76.853-82.411 C482.648,222.076,484.432,214.028,482.05,206.695z%22 fill=%22url(%23star-gradient)%22/%3E%3Cpath d=%22M147.96,204.077c-15.597,0-28.286,12.689-28.286,28.286s12.689,28.286,28.286,28.286 c15.593,0,28.282-12.689,28.282-28.286S163.553,204.077,147.96,204.077z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M286.571,233.545h-3.102c-1.141,0-2.065,0.924-2.065,2.065c0,12.14-11.495,22.014-25.628,22.014 s-25.628-9.874-25.628-22.014c0-1.141-0.924-2.065-2.065-2.065h-3.102c-2.021,0-3.941,0.883-5.264,2.424 c-1.291,1.504-1.859,3.473-1.565,5.405c2.795,18.412,18.969,32.295,37.623,32.295s34.828-13.883,37.623-32.295 c0.294-1.932-0.274-3.9-1.565-5.405C290.511,234.428,288.591,233.545,286.571,233.545z%22 fill=%22%23FFFFFF%22/%3E%3Cpath d=%22M386.687,217.908c1.662,0.367,3.444-0.468,4.203-2.017c1.061-2.198,1.081-4.521,0.048-6.546 c-1.101-2.166-3.259-3.682-5.925-4.166c-25.519-4.594-44.359,5.195-55.911,29.149c-0.484,0.992-0.504,2.138-0.052,3.162 l1.303,2.912c0.387,0.984,2.686,5.788,10.572,4.041c10.805-2.424,27.504-1.791,38.93,7.938c0.661,0.557,1.496,0.867,2.646,0.867 c0.028,0,0.052,0,0.081,0c0.984-0.081,1.916-0.557,2.549-1.307c2.561-3.029,3.473-7.708-0.27-11.33 c-7.615-7.381-19.941-12.245-31.702-12.721C359.289,220.477,370.856,214.282,386.687,217.908z%22 fill=%22%23FFFFFF%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "ben-10-ultimate-aliens"
+ },
+ "astrocade.com/games/keyboard-escapespace-alien/01m5pk05k0fn6401rn4n1drhc9": {
+  "key": "astrocade.com/games/keyboard-escapespace-alien/01m5pk05k0fn6401rn4n1drhc9",
+  "url": "https://www.astrocade.com/games/keyboard-escapespace-alien/01M5PK05K0FN6401RN4N1DRHC9",
+  "name": "KEYBOARD ESCAPE(space alien)",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "KEYBOARD ESCAPE(space alien)",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 21555,
+     "astrocade_likes": 487,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-24",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "jdevs",
+    "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/5abda82e0cc249888afb53cfb9ac374f.png",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-10-24",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-24 发布"
+  ],
+  "game_id": "keyboard-escape-space-alien"
+ },
+ "astrocade.com/games/rich-or-poor-runner/01m65bwqdwenfeh5kfjy29hbae": {
+  "key": "astrocade.com/games/rich-or-poor-runner/01m65bwqdwenfeh5kfjy29hbae",
+  "url": "https://www.astrocade.com/games/rich-or-poor-runner/01M65BWQDWENFEH5KFJY29HBAE",
+  "name": "Rich or Poor Runner",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Rich or Poor Runner",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 1,
+     "astrocade_plays": 270441,
+     "astrocade_likes": 5092,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-02",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Run from BROKE to BILLIONAIRE! Grab cash, dodge bills, make smart choices and watch your BLOCKHEAD transform. Then move into the home you can afford!",
+    "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/412dff120c7843da8440af157399d664.png",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "已在库",
+  "published": "2026-11-02",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 27 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "library_id": "as_rich",
+  "reasons": [
+   "试玩链接和已收录的 as_rich 相同"
+  ]
+ },
+ "astrocade.com/games/steal-an-egg-monster/01m6bygg6m3mqcwd3y0s375pk5": {
+  "key": "astrocade.com/games/steal-an-egg-monster/01m6bygg6m3mqcwd3y0s375pk5",
+  "url": "https://www.astrocade.com/games/steal-an-egg-monster/01M6BYGG6M3MQCWD3Y0S375PK5",
+  "name": "Steal an Egg Monster",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Steal an Egg Monster",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 5,
+     "astrocade_plays": 47688,
+     "astrocade_likes": 791,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-07",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Steal monster eggs, escape giant guardians, train your speed and hatch T-Rex, megalodon and other monsters in your pen. A spooky 3D adventure with six lively rivals.",
+    "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_120a8903-92d1-4492-938d-67690953ab44.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-07",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-07 发布"
+  ],
+  "game_id": "steal-an-egg-monster"
+ },
+ "zz85.github.io/slop-cities": {
+  "key": "zz85.github.io/slop-cities",
+  "url": "https://zz85.github.io/slop-cities/map/",
+  "name": "slop-cities",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "slop-cities",
+    "source_url": "https://github.com/zz85/slop-cities",
+    "metrics": {
+     "github_stars": 42,
+     "github_forks": 22
+    },
+    "published": "2026-10-26",
+    "passes": true,
+    "desc": "spreading slop to different cities",
+    "topics": "game gta maps threejs",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-10-26",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "Slop Cities · World map",
+   "desc": "Every slop city on a low-poly world map and globe: browser city sims remixed from mrdoob",
+   "image": "",
+   "icon": "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%2212%22 fill=%22%23ffc21a%22/%3E%3C/svg%3E",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "GitHub 42 星"
+  ],
+  "game_id": "slop-cities"
+ },
+ "opend2.com": {
+  "key": "opend2.com",
+  "url": "https://opend2.com",
+  "name": "d2-web",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "d2-web",
+    "source_url": "https://github.com/Virtastic/d2-web",
+    "metrics": {
+     "github_stars": 72,
+     "github_forks": 7
+    },
+    "published": "2026-10-29",
+    "passes": true,
+    "desc": "Play Diablo II: Lord of Destruction in your browser — the 1.13c engine reimplemented in C++ and compiled to WebAssembly. Bring your own game files.",
+    "topics": "browser-game cpp diablo-ii diablo2 emscripten game-engine reimplementation wasm webassembly webgl2",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-10-29",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "OpenD2: Diablo II 1.13c Port for Browser, Windows, Linux, macOS and Android",
+   "desc": "OpenD2 is a full, open-source port of Diablo II: Lord of Destruction 1.13c with multiplayer on the OpenD2 Online Realm. Play in the browser or on Windows, Linux, macOS and Android with your own game files.",
+   "image": "https://opend2.com/og.jpg",
+   "icon": "https://opend2.com/favicon.ico",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "GitHub 72 星"
+  ],
+  "game_id": "d2-web"
+ },
+ "librehold.org": {
+  "key": "librehold.org",
+  "url": "https://librehold.org",
+  "name": "librehold",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "librehold",
+    "source_url": "https://github.com/librehold-game/librehold",
+    "metrics": {
+     "github_stars": 57,
+     "github_forks": 8
+    },
+    "published": "2026-10-28",
+    "passes": true,
+    "desc": "A free, open-source browser strategy game: grow a settlement from a hut to a castle, raise an army, raid and conquer.",
+    "topics": "browser-game contributions-welcome golang good-first-issue multiplayer open-source-game pixel-art react strategy-game",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-28",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "LibreHold — pixel-art village wars in your browser",
+   "desc": "Free village wars in your browser. One-hour games against players and bots, or long worlds that last for weeks.",
+   "image": "https://librehold.org/og/home.png",
+   "icon": "",
+   "has_canvas": false,
+   "canvas_how": ""
+  },
+  "hard": {
+   "是网页游戏": false,
+   "近期": true
+  },
+  "reasons": [
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
+  ]
+ },
+ "andvolodko.github.io/mu-online-solo-classic": {
+  "key": "andvolodko.github.io/mu-online-solo-classic",
+  "url": "https://andvolodko.github.io/mu-online-solo-classic/",
+  "name": "mu-online-solo-classic",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "mu-online-solo-classic",
+    "source_url": "https://github.com/andvolodko/mu-online-solo-classic",
+    "metrics": {
+     "github_stars": 39,
+     "github_forks": 28
+    },
+    "published": "2026-10-17",
+    "passes": true,
+    "desc": "Standalone MU Online 0.97k classic game & server compiled to WebAssembly (C++17 / Emscripten) for 100% client-side in-browser solo gameplay.",
+    "topics": "classic-gaming cpp17 emscripten game-engine gameserver in-browser-game mmorpg mu-online retro-gaming single-player wasm webassembly webgl",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-10-17",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "MU Online Solo Classic",
+   "desc": "",
+   "image": "",
+   "icon": "https://andvolodko.github.io/mu-online-solo-classic/favicon.ico?v=2",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "reasons": [
+   "GitHub 39 星"
+  ],
+  "link_status": "ok",
+  "game_id": "mu-online-solo-classic"
+ },
+ "typepper.com": {
+  "key": "typepper.com",
+  "url": "https://typepper.com",
+  "name": "typepper",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "typepper",
+    "source_url": "https://github.com/leodiegues/typepper",
+    "metrics": {
+     "github_stars": 35,
+     "github_forks": 2
+    },
+    "published": "2026-10-15",
+    "passes": true,
+    "desc": "A spicy little typing game & typing test for your terminal and browser — sprint, blitz, zen, survival and floor-is-lava modes",
+    "topics": "cli game ratatui rust terminal-game tui typing-game typing-practice typing-speed typing-test webassembly wpm",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "候选",
+  "published": "2026-10-15",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "typepper — a spicy little typing game & typing test",
+   "desc": "Climb the Scoville scale as your WPM heats up. Sprint, blitz, zen, survival, floor is lava and hot pursuit — in your browser or your terminal.",
+   "image": "https://typepper.com/og.png",
+   "icon": "https://typepper.com/favicon-5424804f2074b4d2.ico",
+   "has_canvas": false,
+   "canvas_how": ""
+  },
+  "hard": {
+   "是网页游戏": false,
+   "近期": true
+  },
+  "reasons": [
+   "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
+  ]
+ },
+ "pokemonsurvivors.com": {
+  "key": "pokemonsurvivors.com",
+  "url": "https://www.pokemonsurvivors.com",
+  "name": "pokemon-survivors",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "pokemon-survivors",
+    "source_url": "https://github.com/pedrobarretto/pokemon-survivors",
+    "metrics": {
+     "github_stars": 32,
+     "github_forks": 16
+    },
+    "published": "2026-10-13",
+    "passes": true,
+    "desc": "Free Vampire Survivors–style roguelite with Pokémon, in the browser. Unofficial fan game.",
+    "topics": "browser-game canvas fan-game pixel-art pokemon pwa roguelite survivors-like typescript vite",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-10-13",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "Pokémon Survivors – Jogo grátis estilo Vampire Survivors com Pokémon",
+   "desc": "Fan game gratuito estilo Vampire Survivors com Pokémon. Jogue no navegador ou no celular, sem baixar.",
+   "image": "https://www.pokemonsurvivors.com/og.png",
+   "icon": "https://www.pokemonsurvivors.com/assets/pokemon/4/portrait.png",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "GitHub 32 星"
+  ],
+  "game_id": "pokemon-survivors"
+ },
+ "ritrls.github.io/dream-arcade-demo": {
+  "key": "ritrls.github.io/dream-arcade-demo",
+  "url": "https://ritrls.github.io/dream-arcade-demo/",
+  "name": "dream-arcade-demo",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "dream-arcade-demo",
+    "source_url": "https://github.com/Ritrls/dream-arcade-demo",
+    "metrics": {
+     "github_stars": 75,
+     "github_forks": 0
+    },
+    "published": "2026-11-03",
+    "passes": true,
+    "desc": "自然语言创造单位：RunningHub 生成属性、技能和素材，直接带入线路防守、口袋 RTS 和增量矿场。",
+    "topics": "ai ai-game browser-game canvas github-pages javascript runninghub",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-11-03",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "造梦街机 · 自然语言单位工坊",
+   "desc": "用自然语言创造游戏单位，带入庭院防守、口袋RTS和增量矿场直接玩。",
+   "image": "https://ritrls.github.io/dream-arcade-demo/preview.png",
+   "icon": "https://ritrls.github.io/dream-arcade-demo/assets/icon.svg",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "GitHub 75 星"
+  ],
+  "game_id": "dream-arcade-demo"
+ },
+ "ashfolk.com": {
+  "key": "ashfolk.com",
+  "url": "https://ashfolk.com",
+  "name": "ashfolk",
+  "leads": [
+   {
+    "channel": "github",
+    "date": "2026-11-12",
+    "title": "ashfolk",
+    "source_url": "https://github.com/imsvidskiy/ashfolk",
+    "metrics": {
+     "github_stars": 31,
+     "github_forks": 10
+    },
+    "published": "2026-10-18",
+    "passes": true,
+    "desc": "A god simulator about the first tribes on a floating island. Free in your browser.",
+    "topics": "browser-game god-game god-simulator procedural-generation react simulation threejs typescript webgpu",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "status": "收录",
+  "published": "2026-10-18",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "Ashfolk · Free god simulator in your browser",
+   "desc": "A free god simulator in your browser. Shape a floating island, call rain and fire, and watch its first tribes grow from the Stone Age to the Iron Age.",
+   "image": "https://ashfolk.com/og.jpg",
+   "icon": "",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "GitHub 31 星"
+  ],
+  "game_id": "ashfolk"
+ },
+ "wired.com": {
+  "key": "wired.com",
+  "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+  "name": "Hugging Face's CEO Says His P(Doom) Is 'Close to Zero'",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Hugging Face's CEO Says His P(Doom) Is 'Close to Zero'",
+    "source_url": "https://news.ycombinator.com/item?id=50388752",
+    "metrics": {
+     "hn_points": 34,
+     "hn_comments": 19
+    },
+    "published": "2026-11-06",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-06",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接不是试玩页面"
+  ]
+ },
+ "productionalchemist.com": {
+  "key": "productionalchemist.com",
+  "url": "https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow",
+  "name": "I have never seen a game fail because the artists were too slow",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "I have never seen a game fail because the artists were too slow",
+    "source_url": "https://news.ycombinator.com/item?id=50414234",
+    "metrics": {
+     "hn_points": 37,
+     "hn_comments": 14
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-08",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接是文章页，不是试玩页面"
+  ]
+ },
+ "sandromaglione.com": {
+  "key": "sandromaglione.com",
+  "url": "https://www.sandromaglione.com/articles/indie-game-development-with-ai",
+  "name": "Indie Game Development with AI",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Indie Game Development with AI",
+    "source_url": "https://news.ycombinator.com/item?id=50432523",
+    "metrics": {
+     "hn_points": 31,
+     "hn_comments": 42
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "status": "候选",
+  "published": "2026-11-09",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": false,
+   "近期": true
+  },
+  "reasons": [
+   "链接是文章页，不是试玩页面"
+  ]
+ },
+ "playgta5.com": {
+  "key": "playgta5.com",
+  "url": "https://playgta5.com/",
+  "name": "Play GTA5 on Browser",
+  "leads": [
+   {
+    "channel": "hn",
+    "date": "2026-11-12",
+    "title": "Play GTA5 on Browser",
+    "source_url": "https://news.ycombinator.com/item?id=50458710",
+    "metrics": {
+     "hn_points": 82,
+     "hn_comments": 62
+    },
+    "published": "2026-11-11",
+    "passes": true,
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "status": "收录",
+  "published": "2026-11-11",
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "signals": [],
+  "updated": "2026-11-12",
+  "page": {
+   "ok": true,
+   "title": "game",
+   "desc": "",
+   "image": "",
+   "icon": "",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Hacker News 81 分"
+  ],
+  "game_id": "play-gta5-on-browser"
+ },
+ "spawn.co/@retro/underground-warfare": {
+  "key": "spawn.co/@retro/underground-warfare",
+  "url": "https://www.spawn.co/@retro/underground-warfare",
+  "name": "UNDERGROUND WARFARE",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "UNDERGROUND WARFARE",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 2,
+     "spawn_plays": 28719,
+     "spawn_likes": 1004,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-31",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "UNDERGROUND WARFARE",
+    "image": "https://spawnfile.io/dev/character-assets/1793816087834-og-image-6f0dfb55-39d4-497b-acef-57184e95750c-1793816087833.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "已在库",
+  "published": "2026-10-31",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "library_id": "sp_underground",
+  "reasons": [
+   "试玩链接和已收录的 sp_underground 相同"
+  ]
+ },
+ "spawn.co/@izkimar/escape-from-stranglethorn": {
+  "key": "spawn.co/@izkimar/escape-from-stranglethorn",
+  "url": "https://www.spawn.co/@izkimar/escape-from-stranglethorn",
+  "name": "Escape from Stranglethorn",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Escape from Stranglethorn",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 3,
+     "spawn_plays": 91289,
+     "spawn_likes": 593,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-23",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You venture into Stranglethorn's jungle with nine Human classes, gathering valuables and facing fierce enemies. Survive the extraction ritual and haul your treasure back to Booty Bay.",
+    "image": "https://spawnfile.io/dev/character-assets/1792797109042-og-image-62a36fb8-f014-4d5b-a73c-c57c9e6c6307-1792797109041.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "已在库",
+  "published": "2026-10-23",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 9.1 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "library_id": "sp_stranglethorn",
+  "reasons": [
+   "试玩链接和已收录的 sp_stranglethorn 相同"
+  ]
+ },
+ "spawn.co/@smallzero/fabling-park": {
+  "key": "spawn.co/@smallzero/fabling-park",
+  "url": "https://www.spawn.co/@smallzero/fabling-park",
+  "name": "Fabling Park",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Fabling Park",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 5,
+     "spawn_plays": 8460,
+     "spawn_likes": 226,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-31",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You're the owner of Fabling Park, a magical zoo where you fence habitats, adopt 40 original creatures called Fablings, hire staff, and keep guests smiling.",
+    "image": "https://spawnfile.io/dev/character-assets/1793499782325-og-image-d9e0564d-f04e-4d83-b1a9-9210dc72da7e-1793499782325.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "已在库",
+  "published": "2026-10-31",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "library_id": "sp_fabling",
+  "reasons": [
+   "试玩链接和已收录的 sp_fabling 相同"
+  ]
+ },
+ "spawn.co/@izkimar/diablo-survivors": {
+  "key": "spawn.co/@izkimar/diablo-survivors",
+  "url": "https://www.spawn.co/@izkimar/diablo-survivors",
+  "name": "Diablo Survivors",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Diablo Survivors",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 6,
+     "spawn_plays": 5380,
+     "spawn_likes": 181,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-20",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You pick a hero at the campfire and step through the portal into a relentless horde. Dodge, cast, and claim blessings as the dead close in—can you survive until Andariel rises at 7:00?",
+    "image": "https://spawnfile.io/dev/character-assets/1792535542419-og-image-499b35bb-5ef2-48ea-8a2b-622a36938b43-1792535542419.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "已在库",
+  "published": "2026-10-20",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "library_id": "sp_diablo",
+  "reasons": [
+   "试玩链接和已收录的 sp_diablo 相同"
+  ]
+ },
+ "spawn.co/@yuidev/flickshot": {
+  "key": "spawn.co/@yuidev/flickshot",
+  "url": "https://www.spawn.co/@yuidev/flickshot",
+  "name": "Flickshot",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Flickshot",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 12,
+     "spawn_plays": 1795,
+     "spawn_likes": 75,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-16",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You're locked in a fast arena where every headshot counts. Climb the ranked ladder, chase your best score, and prove your aim against players and bots who never stop moving.",
+    "image": "https://spawnfile.io/dev/character-assets/1792162289358-og-image-7bce5421-8c6e-4d12-ac5f-a44be22a23b0-1792162289357.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "收录",
+  "published": "2026-10-16",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Spawn 热榜在榜，2026-10-16 发布"
+  ],
+  "game_id": "flickshot"
+ },
+ "spawn.co/@kevin/spawn-turismo": {
+  "key": "spawn.co/@kevin/spawn-turismo",
+  "url": "https://www.spawn.co/@kevin/spawn-turismo",
+  "name": "Spawn Turismo",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Spawn Turismo",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 15,
+     "spawn_plays": 3612,
+     "spawn_likes": 71,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-16",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You're behind the wheel of a Porsche 911 GT3 RS on a winding 2.4 km hillside circuit. Chase the clock in Time Trial to beat your best lap, or race the grid in multiplayer and cross the line first.",
+    "image": "https://spawnfile.io/dev/character-assets/1792181547344-og-image-b2de56e1-8752-4467-b28e-883432465457-1792181547344.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "收录",
+  "published": "2026-10-16",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Spawn 热榜在榜，2026-10-16 发布"
+  ],
+  "game_id": "spawn-turismo"
+ },
+ "spawn.co/@yisus/aether-legends": {
+  "key": "spawn.co/@yisus/aether-legends",
+  "url": "https://www.spawn.co/@yisus/aether-legends",
+  "name": "Aether Legends",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Aether Legends",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 16,
+     "spawn_plays": 904,
+     "spawn_likes": 70,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-23",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "Elige tu héroe elemental, invoca leyendas en pixel art y cruza Aetheria hasta la grieta de Velmora, donde Vael'Zhar te espera en su trono.",
+    "image": "https://spawnfile.io/dev/character-assets/1793775659943-og-image-37152679-5e61-4e51-b994-e3d5466fa798-1793775659942.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "收录",
+  "published": "2026-10-23",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Spawn 热榜在榜，2026-10-23 发布"
+  ],
+  "game_id": "aether-legends"
+ },
+ "spawn.co/@fracture/glint": {
+  "key": "spawn.co/@fracture/glint",
+  "url": "https://www.spawn.co/@fracture/glint",
+  "name": "GLINT",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "GLINT",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 18,
+     "spawn_plays": 768,
+     "spawn_likes": 59,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-25",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "A CS + CoD style blocky FPS. Pick an operator, build your class and fight for the shard: Shard Cashout, TDM, FFA, Gun Game, Ranked and Bots Only. Level up, prestige, grind camos and unlock skins.",
+    "image": "https://spawnfile.io/dev/character-assets/1794178294060-og-image-47a181be-0310-40c8-ba28-d2f83b311665-1794178294060.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "收录",
+  "published": "2026-10-25",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Spawn 热榜在榜，2026-10-25 发布"
+  ],
+  "game_id": "glint"
+ },
+ "spawn.co/@poisoncode/shogun-s-fate": {
+  "key": "spawn.co/@poisoncode/shogun-s-fate",
+  "url": "https://www.spawn.co/@poisoncode/shogun-s-fate",
+  "name": "Shogun’s Fate",
+  "leads": [
+   {
+    "channel": "spawn",
+    "date": "2026-11-12",
+    "title": "Shogun’s Fate",
+    "source_url": "https://www.spawn.co/",
+    "metrics": {
+     "spawn_rank": 20,
+     "spawn_plays": 24050,
+     "spawn_likes": 55,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-26",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Spawn",
+    "desc": "You build, recruit, and wage war across a living feudal empire. Every decision—from resource management to military strategy—shapes your path to becoming shogun.",
+    "image": "https://spawnfile.io/dev/character-assets/1793037946582-og-image-62e3a4b6-404d-4567-b233-2ac2b2ef5931-1793037946582.webp",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "spawn"
+  },
+  "status": "已在库",
+  "published": "2026-10-26",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "signals": [],
+  "updated": "2026-11-12",
+  "library_id": "sp_shogun",
+  "reasons": [
+   "试玩链接和已收录的 sp_shogun 相同"
+  ]
+ },
+ "tides-of-fortune.fr": {
+  "key": "tides-of-fortune.fr",
+  "url": "https://tides-of-fortune.fr/",
+  "name": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+  "leads": [
+   {
+    "channel": "threejs",
+    "date": "2026-11-12",
+    "title": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+    "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
+    "metrics": {
+     "threejs_views": 186,
+     "threejs_replies": 6,
+     "threejs_likes": 8
+    },
+    "published": "2026-11-08",
+    "passes": true,
+    "ai_hint": "Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
+    "desc": "Hi everyone! Tides of Fortune is an open-world pirate game for the browser, set in the 17th-century Caribbean and inspired by 2000s classics like Sid Meier’s Pirates!: sailing, naval battles, boarding, sword duels, ports, trade and governors’ missions. My goal was really to use three.js and focus on",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "threejs"
+  },
+  "status": "收录",
+  "published": "2026-11-08",
+  "ai_tag": "ai",
+  "ai_evidence": "论坛帖子：Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "three.js 论坛作品区，186 次浏览"
+  ],
+  "game_id": "tides-of-fortune-an-open-world-pirate-ga"
+ },
+ "afkcity.com": {
+  "key": "afkcity.com",
+  "url": "https://afkcity.com/",
+  "name": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+  "leads": [
+   {
+    "channel": "threejs",
+    "date": "2026-11-12",
+    "title": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+    "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
+    "metrics": {
+     "threejs_views": 108,
+     "threejs_replies": 5,
+     "threejs_likes": 3
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "I designed and art-directed it; the code was written with the base built in Gemini 3",
+    "desc": "Hi all! I made AFK City , a free browser game where a city builds itself. Sit back and watch towers rise, traffic flow and day turn to night, or take over and zone it yourself. Play (free, desktop and mobile, no download): AFK City — the free city builder that builds itself 07_1715_golden 1920×1080 ",
+    "last_date": "2026-11-12"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "threejs"
+  },
+  "status": "收录",
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "论坛帖子：I designed and art-directed it; the code was written with the base built in Gemini 3",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "three.js 论坛作品区，108 次浏览"
+  ],
+  "game_id": "afk-city-a-city-that-builds-itself-while"
+ },
+ "x:2119791071089852888": {
+  "key": "x:2119791071089852888",
+  "url": "https://x.com/gourav_io/status/2119791071089852888",
+  "name": "僵尸追逐游戏（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-10",
+    "title": "僵尸追逐游戏（未命名）",
+    "source_url": "https://x.com/gourav_io/status/2119791071089852888",
+    "metrics": {
+     "x_views": 7933,
+     "x_likes": 12
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "帖子写明用 Claude 和 three.js 氛围编程",
+    "desc": "Been working on the zombie AI and it finally feels decent.\n\nThey actually follow you, climb over stuff, and don’t just stand around. Full vibe-coded with @claudeai + @threejs. Here’s the chase clip: https://t.co/rvnsJYYqBl",
+    "x": {
+     "handle": "gourav_io",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/gourav_io/status/2119791071089852888",
+     "note": "开发中的僵尸游戏片段，帖子没有给试玩链接"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119790712166490112/img/CBcVrXK4eB6gFzqH.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/gourav_io/status/2119791071089852888": {
+    "views": 7933,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@gourav_io，核验确认），浏览 7,933"
+  ],
+  "game_id": "game"
+ },
+ "x:2119643510207099323": {
+  "key": "x:2119643510207099323",
+  "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
+  "name": "",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-10",
+    "source_url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
+    "metrics": {
+     "x_views": 32681,
+     "x_likes": 244
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "帖子写明 Three.js + Opus",
+    "desc": "Three months in and the bar just keeps rising.\nThree.js + Opus 4 &amp; 5. \n\n#indiedev #threejs https://t.co/pn17ogeMcx",
+    "x": {
+     "handle": "FrensOfPRIA",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/FrensOfPRIA/status/2119643510207099323",
+     "note": "开发进度片段，作者简介写\"很快上线\"，还没有公开试玩"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119635084978651136/img/TxyGCypiGNvkrFkm.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-10",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/FrensOfPRIA/status/2119643510207099323": {
+    "views": 32684,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明 Three.js + Opus",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@FrensOfPRIA，核验确认），浏览 3.3 万"
+  ],
+  "game_id": "frensofpria"
+ },
+ "x:2120020469487440210": {
+  "key": "x:2120020469487440210",
+  "url": "https://x.com/alightinastorm/status/2120020469487440210",
+  "name": "类 COD 射击游戏（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "类 COD 射击游戏（未命名）",
+    "source_url": "https://x.com/alightinastorm/status/2120020469487440210",
+    "metrics": {
+     "x_views": 12157,
+     "x_likes": 119
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "帖子写明用 Fable 5.2 制作",
+    "desc": "i built a COD like browser game with fable 5.2 https://t.co/VmjgclqKkd",
+    "x": {
+     "handle": "alightinastorm",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/alightinastorm/status/2120020469487440210",
+     "note": "帖子说是浏览器游戏，但没有给链接；作者主页的链接指向另一款作品 FNX（spawn.co/@robot/fnx）"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120020347520966656/img/9AIT_SdyWJU_RkCg.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/alightinastorm/status/2120020469487440210": {
+    "views": 12164,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明用 Fable 5.2 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@alightinastorm，核验确认），浏览 1.2 万"
+  ],
+  "game_id": "cod"
+ },
+ "x:2120010936584945922": {
+  "key": "x:2120010936584945922",
+  "url": "https://x.com/alightinastorm/status/2120010936584945922",
+  "name": "three.js 篮球游戏（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "three.js 篮球游戏（未命名）",
+    "source_url": "https://x.com/alightinastorm/status/2120010936584945922",
+    "metrics": {
+     "x_views": 57135,
+     "x_likes": 451
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "帖子写明让 Fable 5.2 用 three.js 制作",
+    "desc": "i asked fable 5.2 to build a AAA threejs basketball game\n\nwe have reached AGI, from clothing to animations and sounds done by claude https://t.co/StGsCbRq8A",
+    "x": {
+     "handle": "alightinastorm",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/alightinastorm/status/2120010936584945922",
+     "note": "篮球游戏演示片段，帖子没有给试玩链接"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120010868461129728/img/l8iPnlhirjQldw-p.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/alightinastorm/status/2120010936584945922": {
+    "views": 57158,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明让 Fable 5.2 用 three.js 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@alightinastorm，核验确认），浏览 5.7 万"
+  ],
+  "game_id": "three-js"
+ },
+ "x:2119969113762082931": {
+  "key": "x:2119969113762082931",
+  "url": "https://x.com/EvanMilenko/status/2119969113762082931",
+  "name": "剑斗游戏（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "剑斗游戏（未命名）",
+    "source_url": "https://x.com/EvanMilenko/status/2119969113762082931",
+    "metrics": {
+     "x_views": 38484,
+     "x_likes": 204
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "帖子写明由 Fable 5.2 制作",
+    "desc": "Fable 5.2 created a sword fighting game https://t.co/QEGPkNl8mr",
+    "x": {
+     "handle": "EvanMilenko",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/EvanMilenko/status/2119969113762082931",
+     "note": "剑斗游戏演示片段，帖子没有说明平台，也没有试玩链接"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119968397605634048/img/Sm_GQg-IyNgv1DrN.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/EvanMilenko/status/2119969113762082931": {
+    "views": 38503,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@EvanMilenko，核验确认），浏览 3.8 万"
+  ],
+  "game_id": "game-2"
+ },
+ "x:2119935331499925557": {
+  "key": "x:2119935331499925557",
+  "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
+  "name": "带传送门的竞技场 FPS（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "带传送门的竞技场 FPS（未命名）",
+    "source_url": "https://x.com/_sholtodouglas/status/2119935331499925557",
+    "metrics": {
+     "x_views": 193335,
+     "x_likes": 1686
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "帖子写明由 Fable 5.2 制作",
+    "desc": "An arena FPS with portals - Fable 5.2 is the first model that passes my bar for seriously fun and beautiful games. \nWe have had a few fun evenings playtesting this against eachother at the office https://t.co/N0A6cfXHCM",
+    "x": {
+     "handle": "_sholtodouglas",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/_sholtodouglas/status/2119935331499925557",
+     "note": "带传送门的竞技场 FPS，作者说在办公室内部对战试玩；帖子正文和公开可见的回复里都没有试玩链接"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119935171541831680/img/_aYfEpx1CJOAQK1n.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/_sholtodouglas/status/2119935331499925557": {
+    "views": 193391,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@_sholtodouglas，核验确认），浏览 19.3 万"
+  ],
+  "game_id": "fps"
+ },
+ "x:2119931740940640542": {
+  "key": "x:2119931740940640542",
+  "url": "https://x.com/Izkimar/status/2119931740940640542",
+  "name": "MMO 世界演示（未命名）",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "MMO 世界演示（未命名）",
+    "source_url": "https://x.com/Izkimar/status/2119931740940640542",
+    "metrics": {
+     "x_views": 21855,
+     "x_likes": 297
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "帖子写明用 Fable 5.2 一天做成",
+    "desc": "Fable 5.2 is INSANE for gamedev. I built this entire MMO world in a single day.\n\nIt really excels at making stylized art which I think is a much bigger test for a new model than hyperrealism. \n\nEvery single asset you see was generated from code. https://t.co/iGoNbSy7jH",
+    "x": {
+     "handle": "Izkimar",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/Izkimar/status/2119931740940640542",
+     "note": "MMO 世界演示片段，帖子没有给试玩链接；作者是 Spawn 上多款已收录游戏的开发者"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119927822403731456/img/t6WJYpWlVbVjXns5.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/Izkimar/status/2119931740940640542": {
+    "views": 21866,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明用 Fable 5.2 一天做成",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@Izkimar，核验确认），浏览 2.2 万"
+  ],
+  "game_id": "mmo"
+ },
+ "x:2119900487688622171": {
+  "key": "x:2119900487688622171",
+  "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
+  "name": "Gilt & Gutter",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-11",
+    "title": "Gilt & Gutter",
+    "source_url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
+    "metrics": {
+     "x_views": 105295,
+     "x_likes": 281
+    },
+    "published": "2026-11-09",
+    "passes": true,
+    "ai_hint": "帖子写明由 Claude Fable 5.2 制作",
+    "desc": "Claude Fable 5.2 made this game demo, playable in the browser\n\nGilt &amp; Gutter is a 1v1 first-person shooter with two playable characters https://t.co/7Y0RA8IV6b",
+    "x": {
+     "handle": "kevin_t_ngo",
+     "found_how": "",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/kevin_t_ngo/status/2119900487688622171",
+     "note": "Gilt & Gutter，帖子说可以在浏览器里玩，但正文没有链接；作者的个人网站和 itch.io 页面也没有列出这款游戏"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2119899054520061952/img/5AHKPQpLbKV5Hi0o.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/kevin_t_ngo/status/2119900487688622171": {
+    "views": 105322,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-09",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：帖子写明由 Claude Fable 5.2 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@kevin_t_ngo，核验确认），浏览 10.5 万"
+  ],
+  "game_id": "gilt-gutter"
+ },
+ "x:2120549388745379867": {
+  "key": "x:2120549388745379867",
+  "url": "https://x.com/scottstts/status/2120549388745379867",
+  "name": "Roadside",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-12",
+    "title": "Roadside",
+    "source_url": "https://x.com/scottstts/status/2120549388745379867",
+    "metrics": {
+     "x_views": 10670,
+     "x_likes": 201
+    },
+    "published": "2026-11-11",
+    "passes": true,
+    "ai_hint": "正文提到 fable（规则识别）",
+    "desc": "Roadside in @threejs, made with Fable 5.2, everything is 100% procedural in this one, including the bike and the arms\n\nFable 5.2 is by far the best model I've seen on 3d modeling, you just gotta push it a bit",
+    "x": {
+     "handle": "scottstts",
+     "found_how": "",
+     "judged_by": "规则",
+     "other_links": [],
+     "via_post": "https://x.com/scottstts/status/2120549388745379867",
+     "note": ""
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120548652007497728/img/uaX1nN--Gos4PQUJ.jpg",
+    "linkless": true
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/scottstts/status/2120549388745379867": {
+    "views": 10670,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-11",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：正文提到 fable（规则识别）",
+  "signals": [
+   {
+    "类别": "技术",
+    "说明": "线索原文提到：threejs、procedural"
+   }
+  ],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "none",
+  "reasons": [
+   "X 帖子（@scottstts，规则识别），浏览 1.1 万"
+  ],
+  "game_id": "roadside"
+ },
+ "loktar00.github.io/lanternfall": {
+  "key": "loktar00.github.io/lanternfall",
+  "url": "https://loktar00.github.io/lanternfall/",
+  "name": "Lanternfall",
+  "leads": [
+   {
+    "channel": "x",
+    "date": "2026-11-12",
+    "title": "Lanternfall",
+    "source_url": "https://x.com/loktar00/status/2120192761542615271",
+    "metrics": {
+     "x_views": 183434,
+     "x_likes": null
+    },
+    "published": "2026-11-10",
+    "passes": true,
+    "ai_hint": "作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
+    "desc": "This is INSANE Fable 5.2 just created this entire game, animations, models, everything.\n\nThe details are absolutely insane, look at the effect when enemies die, animations..\n\nJust blowing my mind what is possible and how quickly it's possible. So impressed!\n\nPlayable link below!",
+    "x": {
+     "handle": "loktar00",
+     "found_how": "@threejs 转发帖自带的链接",
+     "judged_by": "会话核验",
+     "other_links": [],
+     "via_post": "https://x.com/threejs/status/2120448192324276227"
+    },
+    "image": "https://pbs.twimg.com/amplify_video_thumb/2120187656881516544/img/ugjT74smgSzi_U3X.jpg"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "x"
+  },
+  "status": "收录",
+  "x_now": {
+   "https://x.com/loktar00/status/2120192761542615271": {
+    "views": 183571,
+    "date": "2026-11-12"
+   }
+  },
+  "published": "2026-11-10",
+  "ai_tag": "ai",
+  "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "X 帖子（@loktar00，核验确认），浏览 18.3 万"
+  ],
+  "game_id": "lanternfall"
+ },
+ "astrocade.com/games/frost-lumber-camp/01m6qdndvyszwaxmcg2edqzk7a": {
+  "key": "astrocade.com/games/frost-lumber-camp/01m6qdndvyszwaxmcg2edqzk7a",
+  "url": "https://www.astrocade.com/games/frost-lumber-camp/01M6QDNDVYSZWAXMCG2EDQZK7A",
+  "name": "Frost Lumber Camp",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Frost Lumber Camp",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 7,
+     "astrocade_plays": 43617,
+     "astrocade_likes": 873,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-07",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Spin your axe ring through a frozen forest, stack logs and meat sky-high, and build a railway camp!",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1793954160746_01M6R0083AE94QPFHFG674P29V.jpg"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-07",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-07 发布"
+  ],
+  "game_id": "frost-lumber-camp"
+ },
+ "astrocade.com/games/forge-beyond/01m4013xdhf10rvpjj0mr4tz1e": {
+  "key": "astrocade.com/games/forge-beyond/01m4013xdhf10rvpjj0mr4tz1e",
+  "url": "https://www.astrocade.com/games/forge-beyond/01M4013XDHF10RVPJJ0MR4TZ1E",
+  "name": "Forge Beyond",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Forge Beyond",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 523048,
+     "astrocade_likes": 11571,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-19",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Train your hero, battle dungeons, and forge powerful gear. Collect pets, unlock race powers, and master swords, hammers, and gauntlets as you journey through new Worlds.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/Google_100411990910946493899/1793762496683_01M6J9745BT2BD2QSB0N94YMXG.gif"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "已在库",
+  "published": "2026-10-19",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 52.3 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "library_id": "as_forge",
+  "reasons": [
+   "试玩链接和已收录的 as_forge 相同"
+  ]
+ },
+ "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9": {
+  "key": "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+  "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+  "name": "Natural Disaster Survival",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "Natural Disaster Survival",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 11,
+     "astrocade_plays": 844725,
+     "astrocade_likes": 15767,
+     "chart_new_entry": false
+    },
+    "published": "2026-10-17",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Survive 12 natural disasters on 10 island maps! Tornadoes, tsunamis, meteors and more destroy everything. Outlast the bots, earn coins, and top the survival leaderboard.",
+    "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793541492936_01M6BPEM68NJTJ5PKF807KM7Y2.jpg"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "已在库",
+  "published": "2026-10-17",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 84.5 万 次"
+   }
+  ],
+  "updated": "2026-11-12",
+  "library_id": "as_nds",
+  "reasons": [
+   "试玩链接和已收录的 as_nds 相同"
+  ]
+ },
+ "astrocade.com/games/️-winter-upd-first-date-on-park/01m5yv9ydcbphp8zrf29ax0a4s": {
+  "key": "astrocade.com/games/️-winter-upd-first-date-on-park/01m5yv9ydcbphp8zrf29ax0a4s",
+  "url": "https://www.astrocade.com/games/️-winter-upd-first-date-on-park/01M5YV9YDCBPHP8ZRF29AX0A4S",
+  "name": "[❄️ WINTER UPD] FIRST DATE ON PARK",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "date": "2026-11-12",
+    "title": "[❄️ WINTER UPD] FIRST DATE ON PARK",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "metrics": {
+     "astrocade_rank": 15,
+     "astrocade_plays": 24777,
+     "astrocade_likes": 593,
+     "chart_new_entry": false
+    },
+    "published": "2026-11-01",
+    "passes": true,
+    "ai_hint": "发布在 AI 创作平台 Astrocade",
+    "desc": "Winter season A cute first date in a walled amusement park: ride 15+ rides together, swim, sit on benches, share a candlelit dinner, hug, kiss and meet park visitors. Play as him or her, day or night!",
+    "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/a2c9f17a05dc40119667dd64ee98c3f6.png"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "status": "收录",
+  "published": "2026-11-01",
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "signals": [],
+  "updated": "2026-11-12",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-01 发布"
+  ],
+  "game_id": "winter-upd-first-date-on-park"
  }
 }

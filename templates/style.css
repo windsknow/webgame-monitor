@@ -217,3 +217,12 @@ footer.end{margin-top:40px;border-top:1px solid var(--border);padding:20px 0 60p
 .issue-h{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
 .issue-h .rng{font-size:13px;color:var(--text-3)}
 .wt table{min-width:680px}
+.tag-nolink{background:color-mix(in srgb,var(--warn) 14%,transparent);color:var(--warn)}
+.cmp table{min-width:860px}
+.cmp td{vertical-align:top}
+.cmp td:first-child{min-width:190px;white-space:normal}
+.cmp .q{display:block;margin-top:3px;font-weight:400;font-size:12.5px;line-height:1.5;color:var(--text-3);white-space:normal}
+.cmp .tag{display:inline-block;margin:0 2px 3px 0}
+.cmp td:nth-child(4){font-variant-numeric:tabular-nums;min-width:150px}
+.grp>.gt{margin-top:20px}
+@media (max-width:640px){.cmp table{min-width:760px}.cmp td:first-child{min-width:170px;max-width:230px}}
