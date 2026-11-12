@@ -425,6 +425,8 @@
   "lappemic/awesome-ai-built-games"
  ],
  "site": {
+  "_说明": "enabled 为 false 时不生成网页，也不发布；数据、日汇总和周汇总照常产出。2026-11-12 用户决定：网页先不出，只有游戏卡片沿用上一份报告的样式是确认的，其余版块要另外设计。",
+  "enabled": false,
   "title": "AI 网页游戏新品监测",
   "base_url": ""
  },

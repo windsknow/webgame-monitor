@@ -2,7 +2,9 @@
 
 每天从固定渠道和外部提供的 X 帖子数据里找新出现的、能在浏览器里玩的 AI 游戏，按统一标准筛选后生成一个静态网站。
 
-- 页面：`site/index.html`（由 `python3 run.py site` 生成，不进仓库；线上由 GitHub Actions 生成并发布）
+- **网页暂停生成**（2026-11-12 起，`config.json` 的 `site.enabled` 为 `false`）：只有游戏卡片沿用上一份报告的样式是确认的，其余版块要另外设计。现在的产出是数据文件和汇总文本。改回 `true` 后 `python3 run.py site` 会重新生成 `site/index.html`
+- 工作流、脚本和会话的分工、产出字段：`docs/工作流与产出字段.md`
+- 入库线和重点线的数据依据：`docs/入库线和重点线的数据依据.md`
 - 基线：2026-11-10 整理的 68 款，见 `data/games.json`
 - 只依赖 Python 3 标准库和 `curl`
 
@@ -27,7 +29,7 @@ python3 run.py daily
 1. **采集**（`monitor/collectors.py`）：Hacker News、three.js 论坛作品区、GitHub、itch.io 网页新品榜、awesome-ai-built-games，以及 Spawn、Verse8、Astrocade、Rosebud、Wavedash 的热门页。原始结果存 `raw/<渠道>/<日期>.json`。
 2. **X 数据接入**（`monitor/x_ingest.py`）：读 `inbox/x/<日期>.json`（没有就按配置去拉），加上 `data/x_manual_posts.json` 里手动补充的帖子链接 → 规则粗筛 → 展开短链 → 规则版主题判断 → 找试玩链接 → 和收录库比对。结果存 `raw/x/<日期>.json`。
 3. **合并入库**（`monitor/merge.py`）：按试玩链接合并去重，剔除已收录的和仿冒域名，判断是不是网页游戏。是的自动生成卡片追加到 `data/games.json`，其余留在 `data/candidates.json`。已入库的自动卡片，数字和重点标记每次都会按最新数据重算。
-4. **生成页面**（`monitor/build_site.py`）：输出 `site/`，以及 `digest/` 下的日汇总和周汇总文本。
+4. **出汇总**（`monitor/build_site.py`）：输出 `digest/` 下的日汇总和周汇总文本。网页暂停期间不生成 `site/`。
 
 所有门槛、关键词、域名清单都在 `config.json`，改完不用动代码。
 

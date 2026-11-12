@@ -293,14 +293,16 @@ def run(date=None):
     st = util.load(util.p('data', 'static.json'), {})
     issue = issue_of(date)
     out = util.p('site')
-    os.makedirs(os.path.join(out, 'assets'), exist_ok=True)
-    shutil.copyfile(util.p('templates', 'style.css'), os.path.join(out, 'assets', 'style.css'))
-    if os.path.isdir(os.path.join(out, 'assets', 'games')):
-        shutil.rmtree(os.path.join(out, 'assets', 'games'))
-    shutil.copytree(util.p('assets', 'games'), os.path.join(out, 'assets', 'games'))
-    for n in ('favicon.png', 'touch.png'):
-        if os.path.exists(util.p('assets', n)):
-            shutil.copyfile(util.p('assets', n), os.path.join(out, 'assets', n))
+    enabled = cfg['site'].get('enabled', True)
+    if enabled:
+        os.makedirs(os.path.join(out, 'assets'), exist_ok=True)
+        shutil.copyfile(util.p('templates', 'style.css'), os.path.join(out, 'assets', 'style.css'))
+        if os.path.isdir(os.path.join(out, 'assets', 'games')):
+            shutil.rmtree(os.path.join(out, 'assets', 'games'))
+        shutil.copytree(util.p('assets', 'games'), os.path.join(out, 'assets', 'games'))
+        for n in ('favicon.png', 'touch.png'):
+            if os.path.exists(util.p('assets', n)):
+                shutil.copyfile(util.p('assets', n), os.path.join(out, 'assets', n))
 
     new_games = sorted([g for g in games if g.get('issue') == issue], key=lambda g: (not g.get('hot'), -heat(g)))
     today_games = [g for g in games if g.get('added') == date and g.get('issue') != '基线']
@@ -486,11 +488,15 @@ var ok=f==='all'||(f==='hot'?c.dataset.hot==='1':c.dataset.ai===f);c.classList.t
 </body>
 </html>
 '''
-    with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(page)
+    if enabled:
+        with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as f:
+            f.write(page)
+    elif os.path.exists(os.path.join(out, 'index.html')):
+        os.remove(os.path.join(out, 'index.html'))   # 网页暂停期间不留旧页面，免得被误发布
     # 汇总文本：方便直接推送
     dg = os.path.join(out, 'digest')
-    os.makedirs(dg, exist_ok=True)
+    if enabled:
+        os.makedirs(dg, exist_ok=True)
     base = cfg['site'].get('base_url') or ''
     watch_names = [c['name'] for c in cands.values() if c['status'] == '观察']
     weekly = digest_text('weekly', date, issue, new_games, len(games), watch_names, base,
@@ -498,17 +504,18 @@ var ok=f==='all'||(f==='hot'?c.dataset.hot==='1':c.dataset.ai===f);c.classList.t
     daily = digest_text('daily', date, issue, today_games, len(games), watch_names, base,
                         [g for g in games if g.get('hot_since') == date])
     for name, txt in ((f'weekly-{issue}.txt', weekly), (f'daily-{date}.txt', daily),
-                      ('weekly-latest.txt', weekly), ('daily-latest.txt', daily)):
+                      ('weekly-latest.txt', weekly), ('daily-latest.txt', daily)) if enabled else ():
         with open(os.path.join(dg, name), 'w', encoding='utf-8') as f:
             f.write(txt)
     os.makedirs(util.p('digest'), exist_ok=True)
     for name, txt in ((f'weekly-{issue}.txt', weekly), (f'daily-{date}.txt', daily)):
         with open(util.p('digest', name), 'w', encoding='utf-8') as f:
             f.write(txt)
-    with open(os.path.join(out, '.nojekyll'), 'w') as f:
-        f.write('')
-    print(f'[site] {date} 累计 {len(games)}，本期新增 {len(new_games)}，观察 {n_watch}，待找链接 {n_x} → site/index.html '
-          f'({len(page.encode()) // 1024} KB)')
+    if enabled:
+        with open(os.path.join(out, '.nojekyll'), 'w') as f:
+            f.write('')
+    print(f'[site] {date} 累计 {len(games)}，本期新增 {len(new_games)}，观察 {n_watch}，待判断的 X 帖子 {n_x} → '
+          + (f'site/index.html ({len(page.encode()) // 1024} KB)' if enabled else '网页已暂停（config.json 的 site.enabled），只生成了汇总文本'))
     return {'total': len(games), 'new': len(new_games), 'watch': n_watch, 'x_pending': n_x}
 
 

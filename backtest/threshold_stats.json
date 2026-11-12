@@ -1,0 +1,3360 @@
+{
+ "threejs": {
+  "date": "2026-11-12",
+  "days": 30,
+  "topics": [
+   {
+    "views": 475,
+    "title": "Introducing Interstellar - Across Time & Space (An immersive 3D Journey)",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 355,
+    "title": "RIRRI'S: a rainy-night convenience store as a portfolio",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 247,
+    "title": "I'll Call You Later: an interactive 3D short film in the browser that you can talk to",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 314,
+    "title": "Lunar Walk — A Moon exploration scene built with Three.js",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 256,
+    "title": "Leaf Me Alone! – a leaf blower game with 7,200 simulated leaves (three.js, ~230 KB, mobile)",
+    "date": "2026-10-18",
+    "gamey": true
+   },
+   {
+    "views": 1354,
+    "title": "Dirtbound: A Low-Poly Rally Racing Game in the Browser",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 177,
+    "title": "Incredible Space — procedural architecture, moving mechanisms, and surreal worlds",
+    "date": "2026-10-18",
+    "gamey": false
+   },
+   {
+    "views": 147,
+    "title": "A firework-powered logo: interactive particles, bloom, and a full-logo explosion",
+    "date": "2026-10-25",
+    "gamey": false
+   },
+   {
+    "views": 72,
+    "title": "Personal site gone Retro 3D",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 350,
+    "title": "My portfolio is a retro workshop desk you can actually use",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 189,
+    "title": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+    "date": "2026-11-08",
+    "gamey": true
+   },
+   {
+    "views": 157,
+    "title": "Made a Poolrooms liminal space scene with Three.js + WebGPU",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 114,
+    "title": "PSP in browser interactive",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 106,
+    "title": "Tutelia: from a 2D floor plan to a 3D house you can walk through, in the browser",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 80,
+    "title": "Scrivo - An endless parkour runner drawn in blue ballpoint ink (three.js)",
+    "date": "2026-10-16",
+    "gamey": false
+   },
+   {
+    "views": 73,
+    "title": "Hallween 3D Scene for my website",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 77,
+    "title": "A tiny fat line code and a logo",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 76,
+    "title": "Cellua Humana - 3D interactive human cell for you to explore",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 66,
+    "title": "Kart Chaos – browser kart racer with online multiplayer",
+    "date": "2026-10-14",
+    "gamey": true
+   },
+   {
+    "views": 839,
+    "title": "LearnAnatomy3D – interactive human anatomy atlas (≈2,900 structures)",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 66,
+    "title": "World Explorer: an open world of the whole planet, streamed from OpenStreetMap",
+    "date": "2026-10-26",
+    "gamey": true
+   },
+   {
+    "views": 260,
+    "title": "Forest Environment Built with Three.js and WebGPU",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 82,
+    "title": "Following the mesh on a tunnel",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 153,
+    "title": "Eroded landscape prototype",
+    "date": "2026-10-24",
+    "gamey": false
+   },
+   {
+    "views": 124,
+    "title": "Pac-Man Game (Three.js)",
+    "date": "2026-10-16",
+    "gamey": true
+   },
+   {
+    "views": 135,
+    "title": "Warehouse Racing",
+    "date": "2026-10-19",
+    "gamey": true
+   },
+   {
+    "views": 188,
+    "title": "I Built this Campfire Using Grok Bot & Three.js",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 53,
+    "title": "Another 3d Dice roller! https://manthrax.github.io/three-polydice/polydice.html",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 121,
+    "title": "Another page-flip library, with pages that bend and roll",
+    "date": "2026-10-27",
+    "gamey": false
+   },
+   {
+    "views": 94,
+    "title": "Coriolis particle effect",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 196,
+    "title": "Sand-racer: real-time sand simulation & terramechanics in WebGPU (three.js r187 + TSL)",
+    "date": "2026-11-01",
+    "gamey": true
+   },
+   {
+    "views": 179,
+    "title": "LibreCorsa: Browser racing sim with 500 Hz physics, GPU tyre deformation, and WebHID force feedback",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 176,
+    "title": "Terrain Generation Lab: 10 Procedural Terrain Generation & Erosion Algorithms",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 186,
+    "title": "Ski Resort Tycoon game built with three.js",
+    "date": "2026-10-19",
+    "gamey": true
+   },
+   {
+    "views": 161,
+    "title": "A live 3D digital twin of my house in three.js, driven by Home Assistant (procedural materials, raymarched smoke, in-browser 4K video export)",
+    "date": "2026-10-24",
+    "gamey": false
+   },
+   {
+    "views": 223,
+    "title": "HEX TIDE Lite — Interactive fluid simulation in Three.js, optimized for smooth mobile performance",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 104,
+    "title": "Boom Bloom! – a firework chain-reaction game in three.js (analytic GPU sparks, 100% procedural, mobile)",
+    "date": "2026-10-24",
+    "gamey": true
+   },
+   {
+    "views": 181,
+    "title": "A drivable 3D map with live market data and multiplayer presence (no bundler, 21 modules)",
+    "date": "2026-11-01",
+    "gamey": true
+   },
+   {
+    "views": 87,
+    "title": "Mara Vey and the Lost Sunstones: a 2.5D platformer in three.js that runs on phones",
+    "date": "2026-10-14",
+    "gamey": true
+   },
+   {
+    "views": 50,
+    "title": "Ecologie.fr: a scroll-driven valley of silhouettes in plain three.js",
+    "date": "2026-11-01",
+    "gamey": false
+   },
+   {
+    "views": 224,
+    "title": "Tesla Roadster contolled Landing game (I turned the cool telsla demo to a playable game)",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 20,
+    "title": "CHROMA VIVA 008: Interactive Cloth Art with Three.js",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 116,
+    "title": "Open GPU Benchmarker: a browser GPU benchmark where the entire city is generated in code",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 114,
+    "title": "A funny driving game with a lot of personality and exploding sheep",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 110,
+    "title": "Highvale: a voxel survival game on three.js WebGPU, playable in the browser",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 103,
+    "title": "Curllmooha — An Interactive Three.js Portfolio",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 101,
+    "title": "eulerjs: rigid-body physics built for three.js, with cannon-es's ease and physics you can trust",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 93,
+    "title": "Squad Dance - a browser 3D dance editor with vertical video export",
+    "date": "2026-10-18",
+    "gamey": false
+   },
+   {
+    "views": 181,
+    "title": "NOIRGRID BURGERS an interactive 3D web experience built layer by layer",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 147,
+    "title": "Robot Playground: program a 3D pick-and-place robot in your browser",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 205,
+    "title": "NINE LOOPS: SUBWAY – an Exit 8-style anomaly loop game in three.js (mobile, EN/JA, online leaderboard)",
+    "date": "2026-10-26",
+    "gamey": true
+   },
+   {
+    "views": 112,
+    "title": "Camera Lab — Explore the Inside of a Camera in 3D with Three.js",
+    "date": "2026-11-08",
+    "gamey": false
+   },
+   {
+    "views": 82,
+    "title": "davesocozy: my art portfolio and print shop as a 3D house you walk through",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 76,
+    "title": "Morph Chess — sculpted gemstone pieces, gold inlays and reflective boards",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 76,
+    "title": "Lam Rimba – A tiny 3D forest conservation game built with Three.js",
+    "date": "2026-10-15",
+    "gamey": true
+   },
+   {
+    "views": 123,
+    "title": "3DRoll: physics-based 3D dice in the browser, 18 materials, links that set the dice and material",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 110,
+    "title": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+    "date": "2026-11-09",
+    "gamey": false
+   },
+   {
+    "views": 71,
+    "title": "R3F Sketch Material: a hand-drawn ballpoint look for any mesh, all in the shader",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 75,
+    "title": "[PLAYTEST] We built a fast-paced kaiju game where everything is destructible. ",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 70,
+    "title": "How an air conditioner moves heat - interactive 3D cutaway you can break",
+    "date": "2026-10-16",
+    "gamey": false
+   },
+   {
+    "views": 280,
+    "title": "Client City: a walkable 3D portfolio city built with Three.js",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 70,
+    "title": "TSL Material Graph: a visual shader graph editor for TSL (Unity Shader Graph style)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 136,
+    "title": "WebGPU Shadow Accumulation and Sunlight Analysis. ( Which spot receives the most Sunlight throughout the Year )",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 57,
+    "title": "The Clearing: walk a 3D forest and light a campfire with one line about your day",
+    "date": "2026-11-01",
+    "gamey": false
+   },
+   {
+    "views": 207,
+    "title": "img2threejs – turn one image into a website-ready Three.js component",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 53,
+    "title": "Crop Circle Crew – draw crop circles with a UFO in three.js (~200k GPU-bent stalks, mobile)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 95,
+    "title": "Sneakers 3D Configurator",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 82,
+    "title": "Gargantua — Playable Interstellar Black Hole in Browser [Three.js + React]",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 137,
+    "title": "[FREE GAME] Dustline: a persistent colony builder, every building assembled from script-generated glTF pieces",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 91,
+    "title": "Efectazo – a 3D free-kick football game in three.js r160 (Magnus curl, floodlight shadows, procedural grass)",
+    "date": "2026-10-23",
+    "gamey": true
+   },
+   {
+    "views": 145,
+    "title": "FLOAT — 3D First-Person Momentum Parkour Browser Game (Three.js + Rapier3D)",
+    "date": "2026-10-27",
+    "gamey": true
+   },
+   {
+    "views": 42,
+    "title": "Streets of Nice - defend a game shop in a 3D browser beat 'em up",
+    "date": "2026-11-10",
+    "gamey": true
+   },
+   {
+    "views": 138,
+    "title": "Survive the Horde – A Multiplayer Zombie Survival & Battle Royale Game Built with Three.js ",
+    "date": "2026-10-31",
+    "gamey": true
+   },
+   {
+    "views": 38,
+    "title": "Enigmista – the release website of a password-research tool (three.js + custom GLSL)",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 118,
+    "title": "New game plz try respond",
+    "date": "2026-10-27",
+    "gamey": true
+   },
+   {
+    "views": 200,
+    "title": "Ocarina Simulator: a playable 3D ocarina with six scanned models and Web Audio",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 32,
+    "title": "PROPORTION PIECE — a growing procedural gallery for generative art",
+    "date": "2026-10-24",
+    "gamey": false
+   },
+   {
+    "views": 184,
+    "title": "I built a browser game inspired by Tesla's new Roadster and its rocket thrusters",
+    "date": "2026-10-19",
+    "gamey": true
+   },
+   {
+    "views": 106,
+    "title": "Finding my way: a portfolio that falls into a black hole and comes home",
+    "date": "2026-11-01",
+    "gamey": false
+   },
+   {
+    "views": 155,
+    "title": "Stage3D a free in-browser 3D stage planner for live sound & lighting techs",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 58,
+    "title": "&day — a consulting firm's whole story told by 20k grains (one vertex shader, lightning that splits the logo, live-synthesised sound)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "CLANG! — A comic-style FPS built with Three.js",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 142,
+    "title": "Digital Garden — a four-season flower garden (three.js/WebGPU, Houdini → glTF)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 52,
+    "title": "The Grey Mare of Aldermare: a highland legend told through scroll in live halftone",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 137,
+    "title": "7 small 3D browser games with zero model, texture or audio files (~900 KB each)",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 131,
+    "title": "three-map-terrain: Real-world 3D terrain with OpenStreetMap buildings, roads and bridges",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 92,
+    "title": "My 3D Product Configurator Demo",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 100,
+    "title": "tiny-boat-big-lake",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 77,
+    "title": "Refracting the Milky Way through a glass prism (Snell's law at each face)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 118,
+    "title": "Procedurally generated Forbidden City (故宫) — full first-person walkthrough, zero external 3D models",
+    "date": "2026-10-24",
+    "gamey": false
+   },
+   {
+    "views": 120,
+    "title": "Fish Tank Plus: a living reef in three.js with a real 3D window effect",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 87,
+    "title": "Editorium – marketplace and library for 3D assets",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 85,
+    "title": "Hey Three.js team! 👋, Tuxdi Labs showcase",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 60,
+    "title": "Coccolith – a tiny planet you can land on and wander around",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 112,
+    "title": "Aquarius: a 3D aquarium game where every fish, plant and rock is made in code",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 115,
+    "title": "ThreeJS / Blender in browser - WebAssembly",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 67,
+    "title": "Three-Live & XR-Live: Run procedural Three.js  natively on Android Filament & iOS RealityKit (and WebXR)",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 120,
+    "title": "Nxtspace — Cross-Platform 2D Floor Plan & 3D Architecture Editor",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 104,
+    "title": "Mycelium Incursion – an arcade shooter inside a spinning space colony (Three.js WebGPU, shipping on Steam)",
+    "date": "2026-11-01",
+    "gamey": true
+   },
+   {
+    "views": 113,
+    "title": "AAA GTAV style car game",
+    "date": "2026-10-27",
+    "gamey": true
+   },
+   {
+    "views": 76,
+    "title": "Concordia: a 21 km rotating space city you can walk in the browser",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 102,
+    "title": "Undriven – endless open world driving through forests, fields and mountains. Day/night, rain and thunderstorms. Free, no download",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 96,
+    "title": "Clayground: a browser clay studio for making little characters",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 93,
+    "title": "Cinderwake – a survivors-style ARPG in the browser (three.js WebGPU + TSL)",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 69,
+    "title": "https://danielalshriky.com/my-3d-worlds",
+    "date": "2026-10-31",
+    "gamey": false
+   },
+   {
+    "views": 88,
+    "title": "Night Workspace — an interactive 3D room portfolio built with Three.js",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 55,
+    "title": "PhysPicks: Real-Time 3D Physics Ball & Name Picker built with Three.js & Cannon-es",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 59,
+    "title": "Riviera Rivals: a full strategy card game in react-three-fiber (free, in the browser)",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 75,
+    "title": "Driftbound — A 3D sledding game with slingshot launches, built with Three.js",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 75,
+    "title": "TX-01 Titan Slayer — a procedural single-file Three.js starship with a wormhole jump",
+    "date": "2026-11-01",
+    "gamey": false
+   },
+   {
+    "views": 69,
+    "title": "Card Alchemy: a Three.js experiment and the reusable skill behind it",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 66,
+    "title": "here STAGE: live events inside shared 3D venues, in the browser",
+    "date": "2026-10-13",
+    "gamey": false
+   },
+   {
+    "views": 66,
+    "title": "Mokizen: a browser editor for designing aquariums and terrariums in 3D (feedback welcome)",
+    "date": "2026-11-01",
+    "gamey": false
+   },
+   {
+    "views": 65,
+    "title": "Hammy Pinball! – the pinball is a hamster in a hamster ball (three.js, custom 480 Hz physics, 100% procedural, mobile)",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 66,
+    "title": "M / DRIVE — a Three.js arcade racer with Rapier physics, nitro and cinematic stunts",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 67,
+    "title": "Subway Surfer game (Body controlled game)",
+    "date": "2026-10-23",
+    "gamey": true
+   },
+   {
+    "views": 20,
+    "title": "Client comments pinned to parts of a three.js scene",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 61,
+    "title": "Echo Bot: a hexapod robot you can play with in the browser (three.js)",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 44,
+    "title": "Showcase: GitHub activity as language-specific Three.js planets",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 59,
+    "title": "Chess With Yuno – A 3D Anime Chess Game",
+    "date": "2026-11-01",
+    "gamey": true
+   },
+   {
+    "views": 59,
+    "title": "Lumi Playground — 7 Interactive Mini-Games with a Glowing Jelly Character (Three.js)",
+    "date": "2026-10-23",
+    "gamey": true
+   },
+   {
+    "views": 60,
+    "title": "Plip Plop! – stone skipping on photo-real lakes in three.js (custom water shader, mobile)",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 60,
+    "title": "Four-ball Billiards – 3D carom & pool in the browser (AI matches + 1–4 player online)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 57,
+    "title": "360 Panorama Viewer — a Three.js equirectangular viewer with Little Planet, VR split-view and cubemap tools, running 100% locally",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 56,
+    "title": "WITHIN — a walkable 3D painting gallery with a Qingming riverside scene",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 56,
+    "title": "Planet-X: a living 3D globe where you can dig straight through the Earth",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 59,
+    "title": "[FREE GAME] Brickbrag – build a brick city together, then drive, race and fly over it (multiplayer, runs on phones)",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 57,
+    "title": "[FREE GAME] Free 2 Play Boxing Game, Boxar's Edge - Arcade Style FPS Boxing Game",
+    "date": "2026-10-13",
+    "gamey": true
+   },
+   {
+    "views": 55,
+    "title": "Shine Ahoy! – a lighthouse boat-herding game in three.js (one-plane sea shader, 100% procedural, mobile)",
+    "date": "2026-10-24",
+    "gamey": true
+   },
+   {
+    "views": 57,
+    "title": "Switch Lab – a 3D keyboard toy in the browser with 100 switches you can swap and type on (three.js, mobile)",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 58,
+    "title": "Log On Globe - Space missions and events rebuilt in a Three.js webapp",
+    "date": "2026-10-15",
+    "gamey": false
+   },
+   {
+    "views": 55,
+    "title": "Haunt Sweet Home! – a dollhouse ghost-haunting game in three.js (~230 KB, mobile)",
+    "date": "2026-10-19",
+    "gamey": true
+   },
+   {
+    "views": 56,
+    "title": "Physics based Open world, fly the roadster ",
+    "date": "2026-10-19",
+    "gamey": true
+   },
+   {
+    "views": 54,
+    "title": "CHROMA VIVA 004 — An interactive ink sea with Three.js",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 52,
+    "title": "Between Light and Shadow — Three.js Music Film",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 53,
+    "title": "Script in, vertical episode out: a three.js renderer for recurring-character shorts",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 50,
+    "title": "Hotel Komaiha: my résumé as a walkable art-deco hotel, 100% procedural (no models, textures or audio files)",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 51,
+    "title": "Picnic Heist! – a sneaky ant colony game in three.js (instanced ants, tilt-shift macro look, mobile)",
+    "date": "2026-10-23",
+    "gamey": true
+   },
+   {
+    "views": 49,
+    "title": "Lightverse: a navigable 3D universe in R3F where reputation is earned, not bought (feedback wanted)",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 52,
+    "title": "OVU – a 3D drawing studio in the browser, built with three.js + React Three Fiber",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 49,
+    "title": "Pip: a Three.js virtual pet fruit fly cared for through Twitch chat",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 49,
+    "title": "Building 106: sun and 25 years of climate on a real building (WebGPU + WebGL 2)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 49,
+    "title": "Fighter Ready: a scroll-driven 3D boxing gym",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 49,
+    "title": "ariarium — a little ocean that moves with your music",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 47,
+    "title": "Qiaflo City Simulation: An interactive 3D simulation experience that demonstrates how the real-time BLE pet recovery ecosystem work.",
+    "date": "2026-10-24",
+    "gamey": false
+   },
+   {
+    "views": 48,
+    "title": "Hired Hands Games: studio site with a 3D logo that falls apart into cubes",
+    "date": "2026-10-14",
+    "gamey": true
+   },
+   {
+    "views": 57,
+    "title": "My own three.js studio",
+    "date": "2026-11-06",
+    "gamey": false
+   },
+   {
+    "views": 47,
+    "title": "Freeze Out - a first-person 4v4 snowball fight in the browser (three.js WebGPU, mobile + gamepad)",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 48,
+    "title": "VybeNomad: a cozy digital nomad life sim in Three.js that runs on phones",
+    "date": "2026-10-27",
+    "gamey": true
+   },
+   {
+    "views": 47,
+    "title": "Wildlands Seasonkeeper",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 46,
+    "title": "Clickety Clack! – a photo-real domino chain-reaction game in three.js (custom physics, mobile)",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 45,
+    "title": "Tessera4X: a turn-based hex strategy game in React Three Fiber, with every piece built in code",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 44,
+    "title": "Drone race in three.js: tilt-to-fly physics, and my own flying turned into 9 coefficients",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 42,
+    "title": "000h: an open-source React component library with three.js sculptures you can stir, scatter and reshape",
+    "date": "2026-10-31",
+    "gamey": false
+   },
+   {
+    "views": 44,
+    "title": "3D Time Zones, my app for navigating through time and space",
+    "date": "2026-10-14",
+    "gamey": false
+   },
+   {
+    "views": 42,
+    "title": "Head editor with three.js",
+    "date": "2026-10-23",
+    "gamey": false
+   },
+   {
+    "views": 41,
+    "title": "3D t-shirt from two flat photos (distance-field depth)",
+    "date": "2026-10-21",
+    "gamey": false
+   },
+   {
+    "views": 43,
+    "title": "Showcase: a 3D doll world where handmade art dolls become playable characters (26-bone GLB, chunked streaming)",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 40,
+    "title": "Kacho Refine – a 1998 panel puzzle game rebuilt in full 3D, playable in the browser",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 22,
+    "title": "trying to test some feature and get logs into my server for my multiplayer streamed game, require some support , also some sort of showcase",
+    "date": "2026-11-11",
+    "gamey": true
+   },
+   {
+    "views": 41,
+    "title": "Speedmaxxing: a Three.js racer on Dubai’s Sheikh Zayed Road, with cannon-es crashes and an FPV replay director",
+    "date": "2026-11-01",
+    "gamey": true
+   },
+   {
+    "views": 39,
+    "title": "Rawi Rai - haiku poem website with tiny game at homepage",
+    "date": "2026-10-23",
+    "gamey": true
+   },
+   {
+    "views": 37,
+    "title": "Deep-Time Diamond: a scroll-driven rough-to-brilliant morph with Three.js",
+    "date": "2026-10-19",
+    "gamey": false
+   },
+   {
+    "views": 37,
+    "title": "Slow & Steady – an iPhone idle racer where the race track is a three.js voxel scene",
+    "date": "2026-10-17",
+    "gamey": true
+   },
+   {
+    "views": 37,
+    "title": "A portfolio you can explore — a playable world built with Three.js",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 37,
+    "title": " Engine-X: a 3D atlas of real machines you can explode, section and run in the browser",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 38,
+    "title": "New game experience I developed in memory of my mother",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 35,
+    "title": "Walking Into Van Gogh – a multiplayer three.js world built from Van Gogh's paintings",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 36,
+    "title": "Luddo House: multiplayer Luddo at a 3D table",
+    "date": "2026-10-15",
+    "gamey": true
+   },
+   {
+    "views": 37,
+    "title": "A portfolio you walk through",
+    "date": "2026-11-09",
+    "gamey": false
+   },
+   {
+    "views": 36,
+    "title": "Homecraft: Minecraft-style personal website you can walk through",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 35,
+    "title": "DRIFTIT – top-down drift game with custom car physics and procedural low-poly worlds",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 35,
+    "title": "A browser-based 3D product customization and branding studio.",
+    "date": "2026-11-09",
+    "gamey": false
+   },
+   {
+    "views": 39,
+    "title": "Steam Deck OLED — Interactive 3D Showcase (Three.js, Dynamic Screen Canvas, Web Audio)",
+    "date": "2026-11-09",
+    "gamey": false
+   },
+   {
+    "views": 35,
+    "title": "BuildHope EdTech — Reimagining Digital Learning Through Interactive 3D Web Experiences",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 35,
+    "title": "An idea to showcase offroad suspensions turned into a complex sandbox game",
+    "date": "2026-10-21",
+    "gamey": true
+   },
+   {
+    "views": 33,
+    "title": "NeuralSpecOcean: Physics-Informed Neural & Multi-Spectral Coastal Simulation in WebGL2",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 38,
+    "title": "Opensim OAR , GLB to simple web 3d page",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 32,
+    "title": "SuperEscuela Solar",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "RentSynk – a cross-platform property management app landing page featuring interactive 3D graphics built with Three.js",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "Pounce Atlas: exploring a dataset as geography, industries and activity",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 31,
+    "title": "Vizbite: 3D fruits you can cut open to see their nutrients",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "Toonda – a cozy MMORPG that runs in the browser (three.js, works on mid-range phones)",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 29,
+    "title": "Ratubo — multiplayer 3D arena in Three.js (guess which pipe the rat runs to)",
+    "date": "2026-10-30",
+    "gamey": true
+   },
+   {
+    "views": 32,
+    "title": "Whoops Tac Toe — hidden-move tic-tac-toe on a Three.js cube",
+    "date": "2026-10-27",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "OFRENDA, building a Día de Muertos altar in the browser",
+    "date": "2026-10-26",
+    "gamey": false
+   },
+   {
+    "views": 29,
+    "title": "PrintHaus: deterministic parametric buildings with GLB export and five quality settings",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 28,
+    "title": "Piramidka — a Three.js physics playground built with AI assistance",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 32,
+    "title": "[For Hire]3d website developer",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 36,
+    "title": "Salon Noir: a private 3D casino in the browser (blackjack & roulette, no build step)",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 32,
+    "title": "Walk into the website: a 3D showroom with scroll scenes and walkable rooms",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 31,
+    "title": "Palindrome of a Fall — Interactive WebGL reverse-poem where scrolling down is a fall, and scrolling up is a flight",
+    "date": "2026-10-30",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "ÁUREA Residences: from Unreal to the browser with 3D Gaussian Splatting",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 26,
+    "title": "Stovetop: a kitchen simulated in the browser",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 29,
+    "title": "EXP_02 // The Micro-Discrete & The Wave",
+    "date": "2026-10-17",
+    "gamey": false
+   },
+   {
+    "views": 30,
+    "title": "I built a SceNoCo framework to bring some order in Three.js game built with AI",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 25,
+    "title": "PainterlyPass + BakedDebris: painterly post-processing and rewindable explosion debris",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 25,
+    "title": "Modus: a WebGL landing where the cursor stirs a fluid drawn in ASCII",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 25,
+    "title": "Rhyflitzer – Map Madness: open-world arcade racer on real Swiss towns (three.js, buildless)",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 24,
+    "title": "Discography – browsing music as physical CDs",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 25,
+    "title": "latteart.app - Interactive latte art simulator",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 23,
+    "title": "GitHub Planet — turning GitHub activity into language-shaped 3D worlds",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 24,
+    "title": " Horizonte Quetzal: fall into a ray-traced black hole while millions of years pass outside",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 21,
+    "title": "Filmstrip Photo & Video Slider",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 19,
+    "title": "The Happy Hour & Co. – a golden-hour long table where every art workshop opens into its own 3D world",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 47,
+    "title": "From a Cookie Photo to a Three.js Physics Demo 🍪",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 19,
+    "title": "Pastel Drive: a cozy browser driving game where deliveries bring the colors back",
+    "date": "2026-11-10",
+    "gamey": true
+   },
+   {
+    "views": 18,
+    "title": "Meanwhile on Earth – what an observer N light-years away would see (globe.gl + custom shaders)",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 17,
+    "title": "Cinematic 3D Decks: F1 Economics and Reaction Time",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 27,
+    "title": "First Marks — a Three.js portfolio told through cave paintings",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 22,
+    "title": "BEYOND - Interactive space exploration with real scientific data",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 16,
+    "title": "Slug Thug: a browser game whose 3D parts run on three.js",
+    "date": "2026-11-07",
+    "gamey": true
+   },
+   {
+    "views": 16,
+    "title": "Real-time black hole landing page: ray-marched lensing in one ShaderMaterial",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 16,
+    "title": "Giving AI a face it can control: come explore the uncanny valley with me",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 14,
+    "title": "Introducing SpinMi Studio Beta ",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 15,
+    "title": "My personal Three.js projects: bathroom, kitchen and shoe configurators, plus Atlas",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 15,
+    "title": "Beyond Portals - solo/coop horde survival in 3D, free in your browser (desktop & phone)",
+    "date": "2026-11-07",
+    "gamey": false
+   },
+   {
+    "views": 14,
+    "title": "Pergola49 – a 3D pergola configurator for Luxembourg (Astro + three.js)",
+    "date": "2026-11-10",
+    "gamey": false
+   },
+   {
+    "views": 21,
+    "title": "Discover how small we are, a true-scale flight from Earth to Andromeda in three.js",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 19,
+    "title": "Perigee: a real-time 3D viewer of everything orbiting the Earth, the Moon and Mars (and the solar system)",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 14,
+    "title": "Map to Globe: wrap any equirectangular map around a 3D globe and export a transparent PNG",
+    "date": "2026-11-11",
+    "gamey": false
+   },
+   {
+    "views": 53,
+    "title": "ELITE WARFARE – a body-cam tactical FPS in the browser (bots, P2P multiplayer, 2 maps)",
+    "date": "2026-11-11",
+    "gamey": true
+   },
+   {
+    "views": 9,
+    "title": "Tour du Pain: a cycling game for smart trainers, built with three.js",
+    "date": "2026-11-11",
+    "gamey": true
+   },
+   {
+    "views": 26,
+    "title": "voxel-based algorithm playground",
+    "date": "2026-11-11",
+    "gamey": true
+   }
+  ]
+ },
+ "x": {
+  "all": [
+   490,
+   45,
+   548,
+   15183,
+   37695,
+   138559,
+   69692,
+   223785,
+   139504,
+   259394,
+   4059,
+   7301,
+   319763,
+   104797,
+   56341,
+   1316752,
+   56749,
+   54499,
+   2536688,
+   11414,
+   16006,
+   1726,
+   666529,
+   5099,
+   266852,
+   1400708,
+   462842,
+   57425,
+   121609,
+   12653,
+   1818387,
+   1755363,
+   524700,
+   810540,
+   3249,
+   1055209,
+   1200159,
+   1318927,
+   67116,
+   11923,
+   179151,
+   156002,
+   114196,
+   29034,
+   23404,
+   3060994,
+   183531,
+   2687884,
+   14393,
+   6296828,
+   992927,
+   1667366,
+   26308,
+   226535,
+   3678076,
+   102928,
+   4027,
+   1899,
+   395,
+   822,
+   2693,
+   1299,
+   886,
+   21,
+   492,
+   25,
+   66,
+   4359,
+   1556,
+   299,
+   69,
+   99,
+   89,
+   80,
+   1721,
+   86,
+   323,
+   100,
+   585,
+   96,
+   2524,
+   129,
+   105,
+   87,
+   115,
+   113,
+   103,
+   106,
+   4464,
+   3685,
+   161,
+   235,
+   3444,
+   318,
+   1059,
+   258,
+   4474,
+   519,
+   644,
+   9375,
+   708,
+   2756,
+   2254,
+   4926,
+   777,
+   816,
+   3242,
+   9940,
+   673,
+   600,
+   16,
+   799,
+   2845,
+   450,
+   604,
+   1261,
+   422,
+   51353,
+   1307,
+   674,
+   652,
+   724,
+   809,
+   1307,
+   816,
+   13112,
+   8203,
+   6414,
+   10601,
+   647,
+   3091,
+   188,
+   980,
+   14622,
+   889,
+   628,
+   7140,
+   3453,
+   994,
+   1152,
+   3368,
+   828,
+   1100,
+   5299,
+   74,
+   1218,
+   1251,
+   3911,
+   13439,
+   3275,
+   4285,
+   4626,
+   11379,
+   3794,
+   14747,
+   4458,
+   11178,
+   9796,
+   1571,
+   10661,
+   4029,
+   1727,
+   4031,
+   5933,
+   10027,
+   8120,
+   3714,
+   4858,
+   8510,
+   1631,
+   1744,
+   2354,
+   4280,
+   1178,
+   1682,
+   5984,
+   894,
+   4975,
+   2116,
+   2286,
+   2317,
+   203182,
+   1850,
+   2476,
+   1591,
+   2188,
+   1925,
+   2943,
+   6484,
+   14052,
+   2120,
+   2110,
+   2571,
+   3170,
+   633,
+   707,
+   652,
+   2047,
+   2533,
+   2018,
+   9536,
+   2192,
+   7458,
+   2657,
+   2415,
+   2828,
+   3562,
+   2627,
+   3861,
+   20584,
+   13687,
+   48987,
+   47,
+   14772,
+   508,
+   529,
+   6334,
+   3676,
+   55,
+   21231,
+   99,
+   867,
+   111642,
+   6467,
+   2590,
+   1550129,
+   5091,
+   270205,
+   18485,
+   79254,
+   34902,
+   26607,
+   4256534,
+   929023,
+   21648,
+   17199,
+   23950,
+   304974,
+   3779,
+   7532,
+   191357,
+   70748,
+   29240,
+   53038,
+   26636,
+   19999,
+   29024,
+   74083,
+   25976,
+   58048,
+   8927,
+   31669,
+   18138,
+   2376,
+   4573,
+   117299,
+   16902,
+   216012,
+   7147,
+   1288050,
+   921810,
+   84536,
+   7841,
+   967875,
+   59205,
+   4282,
+   153628,
+   175591,
+   45685,
+   113795,
+   126168,
+   47574,
+   1734372,
+   479131,
+   1681,
+   1738,
+   180,
+   205,
+   2640,
+   2440,
+   321,
+   272,
+   68,
+   2825,
+   424,
+   1554,
+   1640,
+   1476,
+   4301,
+   1493,
+   686,
+   2070,
+   4235,
+   12523,
+   172,
+   2469,
+   5509,
+   61862,
+   4545,
+   19968,
+   646,
+   3289,
+   4988,
+   2253,
+   231,
+   3236,
+   757,
+   1007,
+   5283,
+   2199,
+   2485,
+   704,
+   3287,
+   231,
+   95902,
+   3107,
+   1062,
+   2869,
+   8509,
+   302,
+   39132,
+   4547,
+   2578,
+   938,
+   1164,
+   1173,
+   3111,
+   966,
+   7689,
+   3132,
+   6789,
+   3620,
+   247,
+   2620,
+   1065,
+   907,
+   8168,
+   2776,
+   3585,
+   6819,
+   197,
+   1523,
+   311,
+   4660,
+   3958,
+   7310,
+   3459,
+   1330,
+   8019,
+   250,
+   8418,
+   375196,
+   8122,
+   10322,
+   347,
+   1313,
+   1789,
+   5162,
+   8631,
+   1577,
+   4222,
+   2948,
+   12070,
+   546,
+   3327,
+   7770,
+   3762,
+   7517,
+   3931,
+   2705,
+   2321,
+   2396,
+   1911,
+   340,
+   942,
+   5819,
+   1762,
+   19880,
+   3507,
+   3955,
+   4764,
+   1291,
+   428,
+   12894,
+   936,
+   2071,
+   448,
+   2538,
+   37,
+   443,
+   31,
+   510,
+   1348,
+   409,
+   37964,
+   350,
+   5428,
+   443,
+   431,
+   23,
+   22,
+   26,
+   204,
+   676,
+   406,
+   658,
+   22,
+   24,
+   4710,
+   21,
+   25,
+   22,
+   568,
+   70881,
+   2715,
+   1165,
+   774,
+   600,
+   75,
+   29524,
+   94345,
+   10084,
+   351
+  ],
+  "coarse": [
+   7933,
+   7301,
+   56341,
+   32681,
+   1283678,
+   11923,
+   219967,
+   140933,
+   9375,
+   2756,
+   2615,
+   80354,
+   63431,
+   9300,
+   124965,
+   216385,
+   1544419,
+   23950,
+   12157,
+   57135,
+   44015,
+   29024,
+   156967,
+   38484,
+   2911,
+   193335,
+   21855,
+   105295,
+   1139448,
+   161684,
+   1493,
+   5509,
+   410,
+   88838,
+   10670,
+   25513
+  ],
+  "game": [
+   {
+    "views": 7933,
+    "handle": "gourav_io"
+   },
+   {
+    "views": 32681,
+    "handle": "FrensOfPRIA"
+   },
+   {
+    "views": 219967,
+    "handle": "apekshik"
+   },
+   {
+    "views": 80354,
+    "handle": "midudev"
+   },
+   {
+    "views": 9300,
+    "handle": "0xChuckstock"
+   },
+   {
+    "views": 216385,
+    "handle": "mahluukat"
+   },
+   {
+    "views": 12157,
+    "handle": "alightinastorm"
+   },
+   {
+    "views": 57135,
+    "handle": "alightinastorm"
+   },
+   {
+    "views": 44015,
+    "handle": "0ooooo0"
+   },
+   {
+    "views": 38484,
+    "handle": "EvanMilenko"
+   },
+   {
+    "views": 193335,
+    "handle": "_sholtodouglas"
+   },
+   {
+    "views": 21855,
+    "handle": "Izkimar"
+   },
+   {
+    "views": 105295,
+    "handle": "kevin_t_ngo"
+   },
+   {
+    "views": 1139448,
+    "handle": "mattshumer_"
+   },
+   {
+    "views": 10670,
+    "handle": "scottstts"
+   },
+   {
+    "views": 25513,
+    "handle": "threejs"
+   }
+  ]
+ },
+ "platforms": {
+  "spawn": [
+   {
+    "v": 60032,
+    "title": "Dust 2 DM",
+    "published": "2026-09-28",
+    "passes": false
+   },
+   {
+    "v": 28719,
+    "title": "UNDERGROUND WARFARE",
+    "published": "2026-10-31",
+    "passes": true
+   },
+   {
+    "v": 91289,
+    "title": "Escape from Stranglethorn",
+    "published": "2026-10-23",
+    "passes": true
+   },
+   {
+    "v": 14157,
+    "title": "League of Spawn",
+    "published": "2026-10-05",
+    "passes": false
+   },
+   {
+    "v": 8460,
+    "title": "Fabling Park",
+    "published": "2026-10-31",
+    "passes": true
+   },
+   {
+    "v": 5380,
+    "title": "Diablo Survivors",
+    "published": "2026-10-20",
+    "passes": true
+   },
+   {
+    "v": 2322,
+    "title": "Steal an Egg",
+    "published": "2026-09-28",
+    "passes": false
+   },
+   {
+    "v": 12204,
+    "title": "MOG",
+    "published": "2026-10-11",
+    "passes": false
+   },
+   {
+    "v": 3111,
+    "title": "Hot Drop",
+    "published": "2026-07-28",
+    "passes": false
+   },
+   {
+    "v": 2016,
+    "title": "Higher",
+    "published": "2026-03-20",
+    "passes": false
+   },
+   {
+    "v": 3402,
+    "title": "The Backrooms",
+    "published": "2026-01-27",
+    "passes": false
+   },
+   {
+    "v": 1795,
+    "title": "Flickshot",
+    "published": "2026-10-16",
+    "passes": true
+   },
+   {
+    "v": 1565,
+    "title": "INKBLADE",
+    "published": "2026-09-27",
+    "passes": false
+   },
+   {
+    "v": 5043,
+    "title": "Call of Paint",
+    "published": "2026-09-13",
+    "passes": false
+   },
+   {
+    "v": 3612,
+    "title": "Spawn Turismo",
+    "published": "2026-10-16",
+    "passes": true
+   },
+   {
+    "v": 904,
+    "title": "Aether Legends",
+    "published": "2026-10-23",
+    "passes": true
+   },
+   {
+    "v": 3213,
+    "title": "Portal Heist",
+    "published": "2026-09-23",
+    "passes": false
+   },
+   {
+    "v": 768,
+    "title": "GLINT",
+    "published": "2026-10-25",
+    "passes": true
+   },
+   {
+    "v": 1647,
+    "title": "MechaBlade",
+    "published": "2026-07-30",
+    "passes": false
+   },
+   {
+    "v": 24050,
+    "title": "Shogun’s Fate",
+    "published": "2026-10-26",
+    "passes": true
+   }
+  ],
+  "astrocade": [
+   {
+    "v": 270441,
+    "title": "Rich or Poor Runner",
+    "published": "2026-11-02",
+    "passes": true
+   },
+   {
+    "v": 1353,
+    "title": "SPIDERMAN VS WHITE MONSTER",
+    "published": "2026-11-08",
+    "passes": false
+   },
+   {
+    "v": 9839,
+    "title": "Snowball Rush",
+    "published": "2026-11-08",
+    "passes": false
+   },
+   {
+    "v": 470425,
+    "title": "Minecraft Creative",
+    "published": "2026-10-06",
+    "passes": false
+   },
+   {
+    "v": 47688,
+    "title": "Steal an Egg Monster",
+    "published": "2026-11-07",
+    "passes": true
+   },
+   {
+    "v": 23909,
+    "title": "Zombies vs Humans with Guns",
+    "published": "2026-11-10",
+    "passes": true
+   },
+   {
+    "v": 43617,
+    "title": "Frost Lumber Camp",
+    "published": "2026-11-07",
+    "passes": true
+   },
+   {
+    "v": 523048,
+    "title": "Forge Beyond",
+    "published": "2026-10-19",
+    "passes": true
+   },
+   {
+    "v": 687535,
+    "title": "Saiyan Hero",
+    "published": "2026-10-02",
+    "passes": false
+   },
+   {
+    "v": 1954,
+    "title": "HELI RESCUE",
+    "published": "2026-10-14",
+    "passes": false
+   },
+   {
+    "v": 844725,
+    "title": "Natural Disaster Survival",
+    "published": "2026-10-17",
+    "passes": true
+   },
+   {
+    "v": 42725,
+    "title": "Frost Harbor: Ice Fishing Tycoon",
+    "published": "2026-11-08",
+    "passes": true
+   },
+   {
+    "v": 192514,
+    "title": "Ben 10: Ultimate Aliens",
+    "published": "2026-10-31",
+    "passes": true
+   },
+   {
+    "v": 9821,
+    "title": "Eat The World 2",
+    "published": "2026-11-10",
+    "passes": false
+   },
+   {
+    "v": 24777,
+    "title": "[❄️ WINTER UPD] FIRST DATE ON PARK",
+    "published": "2026-11-01",
+    "passes": true
+   },
+   {
+    "v": 6901,
+    "title": "Superman of steel",
+    "published": "2026-11-09",
+    "passes": false
+   },
+   {
+    "v": 16934,
+    "title": "+1 Pickaxe Swing for Eggs",
+    "published": "2026-11-04",
+    "passes": false
+   },
+   {
+    "v": 355,
+    "title": "Hidden Object Finder",
+    "published": "2026-11-09",
+    "passes": false
+   },
+   {
+    "v": 359,
+    "title": "Doraemon: Big Dreams Adventure",
+    "published": "2026-09-16",
+    "passes": false
+   },
+   {
+    "v": 2190,
+    "title": "DUBAI POLICE",
+    "published": "2026-11-09",
+    "passes": false
+   }
+  ],
+  "rosebud": [
+   {
+    "v": 2680,
+    "title": "Sir Falls-A-Lot",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 2957,
+    "title": "SUPERHOT MARIO",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 33627,
+    "title": "Camo Chameleon",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 778,
+    "title": "Chiikawa Bonk",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 3455,
+    "title": "Midnight Racer",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 3268,
+    "title": "Kingdom Core",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 1053,
+    "title": "Not A Parrot Racing Game",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 28892,
+    "title": "Finger Haunt – Haunted Survival FPS",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 1192,
+    "title": "TRAINO",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 1758,
+    "title": "Candy Merge",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 8316,
+    "title": "Totoy Bato",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 1140,
+    "title": "STICKY BUNNY",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 1353,
+    "title": "MOWZONE",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 12630,
+    "title": "ATTENTION PASSENGERS - Plane Crash Survival Game",
+    "published": "",
+    "passes": false
+   }
+  ],
+  "verse8": [
+   {
+    "v": 233781,
+    "title": "Nine Chronicles : Rune Breaker",
+    "published": "2026-06-10",
+    "passes": false
+   },
+   {
+    "v": 446662,
+    "title": "Cyber Bricks",
+    "published": "2025-08-01",
+    "passes": false
+   },
+   {
+    "v": 11480,
+    "title": "던전에서 살아남기(Dungeon Survival)",
+    "published": "2025-12-20",
+    "passes": false
+   },
+   {
+    "v": 41778,
+    "title": "Hero Verse: Tap Infinity",
+    "published": "2026-01-08",
+    "passes": false
+   },
+   {
+    "v": 88838,
+    "title": "Color Match Game",
+    "published": "2025-10-28",
+    "passes": false
+   },
+   {
+    "v": 18424,
+    "title": "Chinese Chess Game",
+    "published": "2026-02-08",
+    "passes": false
+   },
+   {
+    "v": 8037,
+    "title": "Color IT! or is it?",
+    "published": "2025-11-25",
+    "passes": false
+   },
+   {
+    "v": 506982,
+    "title": "Solar Pirates",
+    "published": "2025-08-08",
+    "passes": false
+   },
+   {
+    "v": 3202086,
+    "title": "Mine8",
+    "published": "2025-11-13",
+    "passes": false
+   },
+   {
+    "v": 8477,
+    "title": "Maple Monsters: Suika Game",
+    "published": "2026-06-10",
+    "passes": false
+   },
+   {
+    "v": 578774,
+    "title": "V8 DRAG RACE",
+    "published": "2025-08-08",
+    "passes": false
+   },
+   {
+    "v": 191777,
+    "title": "Mergeverse",
+    "published": "2025-05-21",
+    "passes": false
+   },
+   {
+    "v": 47337,
+    "title": "Lumio Tales",
+    "published": "2025-12-22",
+    "passes": false
+   },
+   {
+    "v": 9843,
+    "title": "Dungeons and Dungeoners",
+    "published": "2026-01-23",
+    "passes": false
+   },
+   {
+    "v": 582352,
+    "title": "2048 Neon",
+    "published": "2025-07-19",
+    "passes": false
+   },
+   {
+    "v": 36997,
+    "title": "UNDER GUN",
+    "published": "2026-02-22",
+    "passes": false
+   },
+   {
+    "v": 7052,
+    "title": "Pixel Heroes: Toyz Card Game Season 0",
+    "published": "2026-02-28",
+    "passes": false
+   },
+   {
+    "v": 154332,
+    "title": "AFK : Three Kingdoms Blade",
+    "published": "2026-01-14",
+    "passes": false
+   },
+   {
+    "v": 1230867,
+    "title": "The Ani Protocol",
+    "published": "2025-07-25",
+    "passes": false
+   },
+   {
+    "v": 9010,
+    "title": "Clean 2D Gomoku AI Game",
+    "published": "2026-01-14",
+    "passes": false
+   },
+   {
+    "v": 186415,
+    "title": "Shape Master",
+    "published": "2025-08-04",
+    "passes": false
+   },
+   {
+    "v": 5908,
+    "title": "Maple Track Rush",
+    "published": "2026-08-31",
+    "passes": false
+   },
+   {
+    "v": 66531,
+    "title": "Sling Shot Rogue",
+    "published": "2025-09-03",
+    "passes": false
+   },
+   {
+    "v": 224347,
+    "title": "Yapybara Defense",
+    "published": "2025-12-10",
+    "passes": false
+   },
+   {
+    "v": 1411602,
+    "title": "Last Dungeon Wars",
+    "published": "2025-07-14",
+    "passes": false
+   },
+   {
+    "v": 1081068,
+    "title": "Snake Wars",
+    "published": "2025-12-05",
+    "passes": false
+   },
+   {
+    "v": 1193066,
+    "title": "Food Slicer",
+    "published": "2025-07-28",
+    "passes": false
+   },
+   {
+    "v": 983954,
+    "title": "Cold Steel Adventure",
+    "published": "2025-10-30",
+    "passes": false
+   },
+   {
+    "v": 776163,
+    "title": "CONNECT",
+    "published": "2025-07-26",
+    "passes": false
+   },
+   {
+    "v": 937056,
+    "title": "Neon Worm",
+    "published": "2025-07-14",
+    "passes": false
+   },
+   {
+    "v": 738214,
+    "title": "Curling Sweep",
+    "published": "2025-09-28",
+    "passes": false
+   },
+   {
+    "v": 739346,
+    "title": "Dunk Master",
+    "published": "2025-09-19",
+    "passes": false
+   },
+   {
+    "v": 572336,
+    "title": "TableTennisV8",
+    "published": "2025-10-02",
+    "passes": false
+   },
+   {
+    "v": 406680,
+    "title": "1to50",
+    "published": "2025-07-16",
+    "passes": false
+   },
+   {
+    "v": 736761,
+    "title": "Fall Mania",
+    "published": "2025-08-17",
+    "passes": false
+   },
+   {
+    "v": 453192,
+    "title": "SMILE CODE",
+    "published": "2025-08-19",
+    "passes": false
+   },
+   {
+    "v": 459172,
+    "title": "Become a Detective in 19th Century",
+    "published": "2025-08-29",
+    "passes": false
+   },
+   {
+    "v": 478824,
+    "title": "Fan-tastic Jump",
+    "published": "2025-07-04",
+    "passes": false
+   },
+   {
+    "v": 360419,
+    "title": "Super Drill Man",
+    "published": "2025-12-17",
+    "passes": false
+   },
+   {
+    "v": 377390,
+    "title": "Soda Pop",
+    "published": "2025-04-30",
+    "passes": false
+   }
+  ],
+  "wavedash": [
+   {
+    "v": 137,
+    "title": "SumbaSurf",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 20,
+    "title": "Middled",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 16,
+    "title": "Splinter Kick",
+    "published": "",
+    "passes": false
+   },
+   {
+    "v": 10,
+    "title": "Matt Portner's Pro Skimboarder",
+    "published": "",
+    "passes": false
+   }
+  ]
+ },
+ "github": {
+  "date": "2026-11-12",
+  "days": 30,
+  "since": "2026-10-13",
+  "counts": {
+   "topic:threejs game": {
+    "0": 684,
+    "1": 170,
+    "10": 14,
+    "30": 8,
+    "100": 4,
+    "300": 1,
+    "1000": 0
+   },
+   "topic:webgpu game": {
+    "0": 83,
+    "1": 29,
+    "10": 4,
+    "30": 3,
+    "100": 1,
+    "300": 0,
+    "1000": 0
+   },
+   "browser game": {
+    "0": 6386,
+    "1": 719,
+    "10": 45,
+    "30": 17,
+    "100": 5,
+    "300": 0,
+    "1000": 0
+   },
+   "vibe coded game": {
+    "0": 328,
+    "1": 33,
+    "10": 0,
+    "30": 0,
+    "100": 0,
+    "300": 0,
+    "1000": 0
+   },
+   "topic:browser-game": {
+    "0": 1610,
+    "1": 328,
+    "10": 15,
+    "30": 8,
+    "100": 2,
+    "300": 0,
+    "1000": 0
+   },
+   "topic:html5-game": {
+    "0": 802,
+    "1": 95,
+    "10": 5,
+    "30": 2,
+    "100": 1,
+    "300": 0,
+    "1000": 0
+   }
+  }
+ },
+ "hn_all": {
+  "date": "2026-11-12",
+  "days": 30,
+  "counts": {
+   "0": 31127,
+   "2": 21695,
+   "5": 7343,
+   "10": 4256,
+   "30": 2525,
+   "50": 2004,
+   "100": 1315,
+   "200": 747,
+   "300": 483,
+   "500": 234
+  }
+ },
+ "hn": {
+  "date": "2026-11-12",
+  "days": 30,
+  "min_points": 10,
+  "scanned_until": "2026-11-14",
+  "stories_scanned": 4257,
+  "gamey": [
+   {
+    "points": 16,
+    "title": "Epic Games' new vibe-coded launcher is 46% faster than Steam",
+    "url": "https://www.neowin.net/news/epic-wants-you-to-ditch-steam-for-its-new-faster-vibe-coded-games-launcher/",
+    "date": "2026-10-14",
+    "show": false
+   },
+   {
+    "points": 10,
+    "title": "Epic Games Launcher and Fortnite with Anti-Cheat on Linux",
+    "url": "https://www.gamingonlinux.com/2026/10/epic-games-launcher-preview-arrives-native-linux-support-fortnite-for-linux-is-coming-and-upgraded-easy-anti-cheat/",
+    "date": "2026-10-14",
+    "show": false
+   },
+   {
+    "points": 109,
+    "title": "AI is mass decompiling games. That's both awesome and scary",
+    "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+    "date": "2026-10-14",
+    "show": false
+   },
+   {
+    "points": 24,
+    "title": "The new (and vibe coded) Epic Games Launcher",
+    "url": "https://store.epicgames.com/news/epic-games-launcher-preview",
+    "date": "2026-10-14",
+    "show": false
+   },
+   {
+    "points": 58,
+    "title": "Game of Life – But Multiplayer, Hypermedia and Python",
+    "url": "https://stario.dev/apps/life",
+    "date": "2026-10-14",
+    "show": false
+   },
+   {
+    "points": 124,
+    "title": "Show HN: Wonderhop – A daily game: guess what most people say, or what none do",
+    "url": "https://wonderhop.io/en/",
+    "date": "2026-10-13",
+    "show": true
+   },
+   {
+    "points": 18,
+    "title": "Google Play now lets anyone build private, vibe-coded apps that run on Android",
+    "url": "https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/",
+    "date": "2026-10-13",
+    "show": false
+   },
+   {
+    "points": 10,
+    "title": "Show HN: Agor, multiplayer AI – stop running agents alone",
+    "url": "https://github.com/preset-io/agor",
+    "date": "2026-10-13",
+    "show": true
+   },
+   {
+    "points": 177,
+    "title": "How to engineer an AI harness for game development",
+    "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+    "date": "2026-10-13",
+    "show": false
+   },
+   {
+    "points": 248,
+    "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+    "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+    "date": "2026-10-13",
+    "show": false
+   },
+   {
+    "points": 16,
+    "title": "Untitled Goose Game Studio's Newest Isn't on Xbox Because of BDS Movement",
+    "url": "https://bigwalk.game/xbox/",
+    "date": "2026-10-16",
+    "show": false
+   },
+   {
+    "points": 19,
+    "title": "Espresso machine can run Doom",
+    "url": "https://www.gamespot.com/articles/this-espresso-machine-can-run-doom/",
+    "date": "2026-10-16",
+    "show": false
+   },
+   {
+    "points": 242,
+    "title": "US Rep Announces Congressional Legislation to Protect Video Game Ownership",
+    "url": "https://ritchietorres.house.gov/posts/rep-torres-announces-power-to-the-players-act-legislation-to-ensure-gamers-own-their-games",
+    "date": "2026-10-16",
+    "show": false
+   },
+   {
+    "points": 163,
+    "title": "Rendering pretty sky in Around The World game",
+    "url": "https://frozenfractal.com/blog/2026/10/12/around-the-world-34-a-pretty-sky/",
+    "date": "2026-10-16",
+    "show": false
+   },
+   {
+    "points": 76,
+    "title": "Show HN: Parin – A 2D game engine between raylib and Godot, written in Dlang",
+    "url": "https://github.com/Kapendev/parin",
+    "date": "2026-10-16",
+    "show": true
+   },
+   {
+    "points": 29,
+    "title": "Chirp Pong – uses microphones and audio for networked game play",
+    "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+    "date": "2026-10-16",
+    "show": false
+   },
+   {
+    "points": 11,
+    "title": "Google let a fake Chrome app on the Play Store, and it got over 100k downloads",
+    "url": "https://www.androidauthority.com/fake-chrome-app-play-store-3723121/",
+    "date": "2026-10-15",
+    "show": false
+   },
+   {
+    "points": 10,
+    "title": "Deltabox: A rollback-able agent sandbox",
+    "url": "https://github.com/delta-box/deltabox-lite",
+    "date": "2026-10-15",
+    "show": false
+   },
+   {
+    "points": 238,
+    "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+    "url": "https://github.com/antirez/c64-hw-simulator",
+    "date": "2026-10-15",
+    "show": false
+   },
+   {
+    "points": 20,
+    "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+    "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+    "date": "2026-10-18",
+    "show": false
+   },
+   {
+    "points": 231,
+    "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+    "url": "https://legendofhyrule.com/",
+    "date": "2026-10-18",
+    "show": true
+   },
+   {
+    "points": 308,
+    "title": "Weball: Play Katamari on Websites",
+    "url": "https://www.funwithcomputervision.com/weball/",
+    "date": "2026-10-18",
+    "show": false
+   },
+   {
+    "points": 40,
+    "title": "The game industry is broken – can we fix it?",
+    "url": "https://knowledge.edge-online.com/p/the-game-industry-is-broken-can-we-fix-it-tim-sweeney-edge-crash",
+    "date": "2026-10-18",
+    "show": false
+   },
+   {
+    "points": 465,
+    "title": "NY announces game ownership bill requiring ownership rather than licensing",
+    "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+    "date": "2026-10-18",
+    "show": false
+   },
+   {
+    "points": 76,
+    "title": "Beyond Tetris: The other games of Alexey Pajitnov [video]",
+    "url": "https://www.youtube.com/watch?v=QH_LPimUJMs",
+    "date": "2026-10-17",
+    "show": false
+   },
+   {
+    "points": 52,
+    "title": "Porting video games to VHS",
+    "url": "https://gardinerbryant.com/what-if-video-games-came-on-vhs/",
+    "date": "2026-10-17",
+    "show": false
+   },
+   {
+    "points": 17,
+    "title": "Commodore 64 Hardware Simulator",
+    "url": "https://github.com/antirez/c64-hw-simulator",
+    "date": "2026-10-17",
+    "show": false
+   },
+   {
+    "points": 14,
+    "title": "Show HN: Online Piano – Play a Free Virtual Piano Keyboard",
+    "url": "https://urpiano.com/",
+    "date": "2026-10-17",
+    "show": true
+   },
+   {
+    "points": 12,
+    "title": "OpenDE: Play Deus Ex 1999 demo in the browser",
+    "url": "https://opende.netlify.app",
+    "date": "2026-10-20",
+    "show": false
+   },
+   {
+    "points": 41,
+    "title": "Show HN: AI-built browser games, collected in one place",
+    "url": "https://playgroundarcade.com/",
+    "date": "2026-10-20",
+    "show": true
+   },
+   {
+    "points": 12,
+    "title": "Show HN: Snitch – my Mac talked to 347 servers in one idle hour, so I built this",
+    "url": "https://github.com/aixisstudio/Snitch",
+    "date": "2026-10-20",
+    "show": true
+   },
+   {
+    "points": 19,
+    "title": "Game decompilation site is closing because AI has 'broken the community aspect'",
+    "url": "https://www.videogameschronicle.com/news/one-of-the-biggest-game-decompilation-sites-is-closing-because-ai-has-broken-the-community-aspect/",
+    "date": "2026-10-20",
+    "show": false
+   },
+   {
+    "points": 12,
+    "title": "A train simulator game for console hackers",
+    "url": "https://github.com/antoniovazquezaraujo/LeTrain",
+    "date": "2026-10-19",
+    "show": false
+   },
+   {
+    "points": 34,
+    "title": "Spending 10 months building the most human-like chess bot",
+    "url": "https://mbuffett.com/posts/most-human-chess-bot",
+    "date": "2026-10-19",
+    "show": false
+   },
+   {
+    "points": 233,
+    "title": "Way to Play Super Mario 64: On Apple Vision Pro",
+    "url": "https://www.pagetable.com/303",
+    "date": "2026-10-19",
+    "show": false
+   },
+   {
+    "points": 241,
+    "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+    "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 49,
+    "title": "Retired decorator's Pokémon cards sell for £1.5M",
+    "url": "https://www.bbc.co.uk/news/articles/cvp8gy1zwxxwo",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 70,
+    "title": "Reverse engineer of PC-98 Touhou games retires",
+    "url": "https://rec98.nmlgc.net/blog/2026-10-05",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 398,
+    "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+    "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 191,
+    "title": "The Quake Fan who built the map editor everybody uses",
+    "url": "https://funcarena.com/articles/the-quake-fan-who-built-the-map-editor-everybody-uses",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 31,
+    "title": "LLM agents play Pokemon showdown",
+    "url": "https://olivergrabner.com/research/pokemon/",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 193,
+    "title": "Epic Games Inc v Apple Inc",
+    "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552",
+    "date": "2026-10-22",
+    "show": false
+   },
+   {
+    "points": 17,
+    "title": "Open Source Games",
+    "url": "https://opensourcegames.dev/",
+    "date": "2026-10-21",
+    "show": false
+   },
+   {
+    "points": 12,
+    "title": "Show HN: I created instruments for people who have no idea how to play one",
+    "url": "https://jamfetti.boondoggle.studio/",
+    "date": "2026-10-21",
+    "show": true
+   },
+   {
+    "points": 81,
+    "title": "I reverse engineered a board game",
+    "url": "https://wuemeli.com/blog/reversing-hitster-game/",
+    "date": "2026-10-21",
+    "show": false
+   },
+   {
+    "points": 39,
+    "title": "Chip Builder is a puzzle and strategy game that teaches you chip design",
+    "url": "https://chipbuilder.org/",
+    "date": "2026-10-21",
+    "show": false
+   },
+   {
+    "points": 134,
+    "title": "C vs. C#: racing VLC's Gaussian blur",
+    "url": "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp/",
+    "date": "2026-10-21",
+    "show": false
+   },
+   {
+    "points": 49,
+    "title": "The Best Monopoly Strategy, Tested on 300M Games [video]",
+    "url": "https://www.youtube.com/watch?v=S_2eVAaw1UM",
+    "date": "2026-10-21",
+    "show": false
+   },
+   {
+    "points": 209,
+    "title": "Decompiling Fast Food Tycoon 2: Drawing the World",
+    "url": "https://healeycodes.com/decompiling-fast-food-tycoon-2-drawing-the-world",
+    "date": "2026-10-24",
+    "show": false
+   },
+   {
+    "points": 15,
+    "title": "The complete history of the PC game Civilization, as told by Sid Meier [video]",
+    "url": "https://www.youtube.com/watch?v=SdfxTXCw15s",
+    "date": "2026-10-24",
+    "show": false
+   },
+   {
+    "points": 22,
+    "title": "Factorio version 2.1, the final major update for the game, has been released",
+    "url": "https://factorio.com/blog/post/fff-449",
+    "date": "2026-10-23",
+    "show": false
+   },
+   {
+    "points": 11,
+    "title": "List of Game PC Ports and Recompilations",
+    "url": "https://www.alwaysleaveanote.com/pc-ports/",
+    "date": "2026-10-23",
+    "show": false
+   },
+   {
+    "points": 71,
+    "title": "I turned my TV into a Game Boy Color with a Pokemon town as my home screen",
+    "url": "https://twitter.com/robbietilton/status/2111936458923851923",
+    "date": "2026-10-23",
+    "show": false
+   },
+   {
+    "points": 12,
+    "title": "Show HN: Searching for optimal strategies in a puzzle game with chance (Drop7)",
+    "url": "https://drop7.dev",
+    "date": "2026-10-23",
+    "show": true
+   },
+   {
+    "points": 10,
+    "title": "The Onion Voting Simulator 3D on Steam",
+    "url": "https://store.steampowered.com/app/5372440/The_Onion_Voting_Simulator_3D/",
+    "date": "2026-10-26",
+    "show": false
+   },
+   {
+    "points": 11,
+    "title": "Show HN: Ultimidi – piano learning web game",
+    "url": "https://game.ultimidi.com/",
+    "date": "2026-10-26",
+    "show": true
+   },
+   {
+    "points": 18,
+    "title": "Show HN: A Minecraft mod that generates the world at 1:1 scale",
+    "url": "https://github.com/pirut/earth-platform",
+    "date": "2026-10-26",
+    "show": true
+   },
+   {
+    "points": 46,
+    "title": "Show HN: Glider 4.0 Unofficial Web Edition (Mac game port)",
+    "url": "https://dbohdan.github.io/glider/",
+    "date": "2026-10-25",
+    "show": true
+   },
+   {
+    "points": 12,
+    "title": "Jukebox-OS: Deterministic time-travel replay and ACID tool sandbox for AI agents",
+    "url": "https://github.com/socrates6969/jukebox-os",
+    "date": "2026-10-25",
+    "show": false
+   },
+   {
+    "points": 220,
+    "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+    "url": "https://github.com/ihhub/fheroes2",
+    "date": "2026-10-25",
+    "show": false
+   },
+   {
+    "points": 28,
+    "title": "Nintendo's worst nightmare begins as Switch 2 games start running on PC and Mac",
+    "url": "https://videocardz.com/newz/nintendos-worst-nightmare-begins-as-switch-2-exclusive-games-start-running-on-pcs-and-macs",
+    "date": "2026-10-28",
+    "show": false
+   },
+   {
+    "points": 47,
+    "title": "The October inflection point for vibe game development",
+    "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+    "date": "2026-10-28",
+    "show": false
+   },
+   {
+    "points": 33,
+    "title": "Decompiling Games with AI: Virtueel Zoetermeer",
+    "url": "https://bou.ke/blog/zoetermeer/",
+    "date": "2026-10-28",
+    "show": false
+   },
+   {
+    "points": 71,
+    "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+    "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+    "date": "2026-10-28",
+    "show": false
+   },
+   {
+    "points": 12,
+    "title": "碁の国: Play Chess as Town Building",
+    "url": "https://gonokuni.plpl.town/",
+    "date": "2026-10-28",
+    "show": false
+   },
+   {
+    "points": 34,
+    "title": "Play Cyberpunk 2077 in the Browser",
+    "url": "https://cyberpunk2077.lol/",
+    "date": "2026-10-27",
+    "show": false
+   },
+   {
+    "points": 245,
+    "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+    "url": "https://tng.episodle.com/",
+    "date": "2026-10-30",
+    "show": true
+   },
+   {
+    "points": 85,
+    "title": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
+    "url": "https://catcopter.com",
+    "date": "2026-10-30",
+    "show": true
+   },
+   {
+    "points": 37,
+    "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+    "url": "https://sketch.wakeshift.ai/games/q5ucru",
+    "date": "2026-10-30",
+    "show": true
+   },
+   {
+    "points": 126,
+    "title": "Anthropic Cracking Down on Video Game Rewrites",
+    "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+    "date": "2026-10-30",
+    "show": false
+   },
+   {
+    "points": 132,
+    "title": "Show HN: I Turned DOOM into a Transformer",
+    "url": "https://github.com/mottopanikeiku/doomformer",
+    "date": "2026-10-29",
+    "show": true
+   },
+   {
+    "points": 425,
+    "title": "We ran AI agent swarms in Minecraft and Mindustry",
+    "url": "https://labs.ycombinator.com/projects/games/index.html",
+    "date": "2026-10-29",
+    "show": false
+   },
+   {
+    "points": 12,
+    "title": "Apple bullied flash memory suppliers, and why AI datacenters changed the game",
+    "url": "https://www.msn.com/en-us/news/other/the-beleaguered-chip-sellers-getting-their-revenge-on-apple/ar-AA2ghTPi",
+    "date": "2026-10-29",
+    "show": false
+   },
+   {
+    "points": 272,
+    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "url": "https://github.com/SheepSeb/tinyworldformer",
+    "date": "2026-10-29",
+    "show": false
+   },
+   {
+    "points": 43,
+    "title": "Show HN: UK Farming Simulator",
+    "url": "https://butterbean.farm/",
+    "date": "2026-10-29",
+    "show": true
+   },
+   {
+    "points": 36,
+    "title": "A playable version of Portal prequel F-Stop leaked",
+    "url": "https://www.theverge.com/games/1024206/playable-portal-prequel-f-stop-leak",
+    "date": "2026-11-01",
+    "show": false
+   },
+   {
+    "points": 21,
+    "title": "I vibecoded a 2d pixel game in 6h yesterday",
+    "url": "https://www.sabih.dev/game/",
+    "date": "2026-11-01",
+    "show": false
+   },
+   {
+    "points": 181,
+    "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+    "date": "2026-11-01",
+    "show": false
+   },
+   {
+    "points": 196,
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+    "date": "2026-10-31",
+    "show": false
+   },
+   {
+    "points": 15,
+    "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
+    "url": "https://www.jointter.com/",
+    "date": "2026-10-31",
+    "show": true
+   },
+   {
+    "points": 31,
+    "title": "Anthropic orders AI tool Claude to stop remaking video games",
+    "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+    "date": "2026-10-31",
+    "show": false
+   },
+   {
+    "points": 74,
+    "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+    "date": "2026-10-31",
+    "show": false
+   },
+   {
+    "points": 128,
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "url": "https://uncracked.city",
+    "date": "2026-11-03",
+    "show": true
+   },
+   {
+    "points": 10,
+    "title": "Tencent-owned game's CDN compromised to deliver trojan via PC launcher",
+    "url": "https://gist.github.com/MotherSphere/d6c049a09ba8ac3085c51ee9df24a4e5",
+    "date": "2026-11-03",
+    "show": false
+   },
+   {
+    "points": 13,
+    "title": "Itch.io Deletes 'Terabytes' of AI Slop in to Counter Surge in Game Uploads",
+    "url": "https://kotaku.com/itch-io-gen-ai-slop-terrabytes-deleted-claude-chagpt-steam-epic-2000752485",
+    "date": "2026-11-03",
+    "show": false
+   },
+   {
+    "points": 29,
+    "title": "No brother of mine will play the flute",
+    "url": "https://homosabiens.substack.com/p/no-brother-of-mine-will-play-the",
+    "date": "2026-11-03",
+    "show": false
+   },
+   {
+    "points": 498,
+    "title": "Could a modern chess engine on a Pentium have defeated Kasparov in 1996?",
+    "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+    "date": "2026-11-03",
+    "show": false
+   },
+   {
+    "points": 72,
+    "title": "Show HN: I built a little browser game to practice Vim commands",
+    "url": "https://hjkl.duy.run",
+    "date": "2026-11-03",
+    "show": true
+   },
+   {
+    "points": 52,
+    "title": "Show HN: The DNA of DOOM – How code structure survives across 44 ports",
+    "url": "https://squid-protocol.github.io/gitgalaxy/museum-of-code/doom-dna/",
+    "date": "2026-11-02",
+    "show": true
+   },
+   {
+    "points": 138,
+    "title": "BioWare co-founder: game execs \"have never made a game\" and don't get it",
+    "url": "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
+    "date": "2026-11-02",
+    "show": false
+   },
+   {
+    "points": 101,
+    "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+    "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+    "date": "2026-11-02",
+    "show": false
+   },
+   {
+    "points": 11,
+    "title": "Show HN: Inference business simulator – don't go broke, rent GPUs, serve tokens",
+    "url": "https://makermaker.ai/breakthroughs/inference/simulation/",
+    "date": "2026-11-05",
+    "show": true
+   },
+   {
+    "points": 151,
+    "title": "Being a kid making games in the early 2000s",
+    "url": "https://jaytholen.net/teengamedev/",
+    "date": "2026-11-05",
+    "show": false
+   },
+   {
+    "points": 13,
+    "title": "Echoloc: A minimalist echolocation horror videogame",
+    "url": "https://level102.itch.io/echoloc",
+    "date": "2026-11-07",
+    "show": false
+   },
+   {
+    "points": 10,
+    "title": "Google Described Its Agent Sandbox. I Built One with Firecracker and Measured It",
+    "url": "https://antonau.tech/posts/2026/11/agents-microvm-firecracker/",
+    "date": "2026-11-07",
+    "show": false
+   },
+   {
+    "points": 93,
+    "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+    "url": "https://www.retrosongbird.com/",
+    "date": "2026-11-07",
+    "show": false
+   },
+   {
+    "points": 14,
+    "title": "Evergreen by Carta: Multiplayer coding platform where teams+agents ship together",
+    "url": "https://evergreen.carta.com/blog/introducing-evergreen",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 99,
+    "title": "Replit rebuilt its sandbox engine with microVMs",
+    "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 82,
+    "title": "Size-It-Up (Game)",
+    "url": "https://magnitudle.com/size-it-up",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 24,
+    "title": "Steam gets restored games after EA producer stumbles across old tapes",
+    "url": "https://www.rockpapershotgun.com/steam-gets-a-boatload-of-restored-wing-commanders-and-ultima-ports-after-ea-producer-stumbles-across-cupboard-of-old-tapes",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 175,
+    "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+    "url": "https://worldstrike.fun/",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 34,
+    "title": "Hugging Face's CEO Says His P(Doom) Is 'Close to Zero'",
+    "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+    "date": "2026-11-06",
+    "show": false
+   },
+   {
+    "points": 502,
+    "title": "Fable 5.2 one-shotted my nephew's dream game",
+    "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+    "date": "2026-11-09",
+    "show": false
+   },
+   {
+    "points": 31,
+    "title": "Indie Game Development with AI",
+    "url": "https://www.sandromaglione.com/articles/indie-game-development-with-ai",
+    "date": "2026-11-09",
+    "show": false
+   },
+   {
+    "points": 11,
+    "title": "Battle Draw fighting simulator by Neal.fun",
+    "url": "https://neal.fun/battle-draw/",
+    "date": "2026-11-09",
+    "show": false
+   },
+   {
+    "points": 37,
+    "title": "I have never seen a game fail because the artists were too slow",
+    "url": "https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow",
+    "date": "2026-11-08",
+    "show": false
+   },
+   {
+    "points": 115,
+    "title": "Show HN: Ghanaian street games you can play in the browser",
+    "url": "https://www.ghanastreetgames.com/",
+    "date": "2026-11-08",
+    "show": true
+   },
+   {
+    "points": 55,
+    "title": "WaveDudeNext 2D Wave Simulator",
+    "url": "https://github.com/graealex/WaveDudeNext",
+    "date": "2026-11-08",
+    "show": false
+   },
+   {
+    "points": 83,
+    "title": "Play GTA5 on Browser",
+    "url": "https://playgta5.com/",
+    "date": "2026-11-11",
+    "show": false
+   },
+   {
+    "points": 270,
+    "title": "A great old-timey game-programming hack (2013)",
+    "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+    "date": "2026-11-11",
+    "show": false
+   },
+   {
+    "points": 91,
+    "title": "LLMs Play Zachtronics' TIS-100",
+    "url": "https://tis-100.wincon.dev/",
+    "date": "2026-11-11",
+    "show": false
+   },
+   {
+    "points": 71,
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+    "date": "2026-11-10",
+    "show": false
+   },
+   {
+    "points": 247,
+    "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+    "url": "https://tinyvalencia.com/",
+    "date": "2026-11-10",
+    "show": true
+   }
+  ]
+ }
+}

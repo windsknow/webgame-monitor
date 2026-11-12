@@ -52,9 +52,13 @@ jobs:
           git add raw data assets digest
           git diff --cached --quiet || git commit -m "数据更新 $(TZ=Asia/Shanghai date +%F)"
           git push
+      # config.json 里 site.enabled 为 false 时不会生成 site/index.html，下面三步跳过
       - uses: actions/configure-pages@v5
+        if: hashFiles('site/index.html') != ''
       - uses: actions/upload-pages-artifact@v3
+        if: hashFiles('site/index.html') != ''
         with:
           path: site
       - id: deployment
+        if: hashFiles('site/index.html') != ''
         uses: actions/deploy-pages@v4
