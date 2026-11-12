@@ -14,9 +14,9 @@
     "error": ""
    },
    "github": {
-    "count": 0,
-    "passed": 0,
-    "error": "KeyError: 'github_stars'"
+    "count": 91,
+    "passed": 10,
+    "error": ""
    },
    "itch": {
     "count": 36,
@@ -40,7 +40,7 @@
    },
    "astrocade": {
     "count": 20,
-    "passed": 9,
+    "passed": 6,
     "error": ""
    },
    "rosebud": {

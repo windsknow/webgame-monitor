@@ -13,7 +13,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 1,
-    "wavedash_playing": 88,
+    "wavedash_playing": 121,
     "chart_new_entry": false
    },
    "published": "",
@@ -29,7 +29,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 2,
-    "wavedash_playing": 13,
+    "wavedash_playing": 11,
     "chart_new_entry": false
    },
    "published": "",
@@ -39,13 +39,13 @@
   },
   {
    "channel": "wavedash",
-   "title": "Ridgeline",
-   "url": "https://wavedash.com/games/ridgeline",
-   "key": "wavedash.com/games/ridgeline",
+   "title": "Open Floor Plan",
+   "url": "https://wavedash.com/games/open-floor-plan",
+   "key": "wavedash.com/games/open-floor-plan",
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 3,
-    "wavedash_playing": 5,
+    "wavedash_playing": 4,
     "chart_new_entry": false
    },
    "published": "",
@@ -61,7 +61,7 @@
    "source_url": "https://wavedash.com/",
    "metrics": {
     "wavedash_rank": 4,
-    "wavedash_playing": 3,
+    "wavedash_playing": 4,
     "chart_new_entry": false
    },
    "published": "",
