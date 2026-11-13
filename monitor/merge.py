@@ -42,7 +42,7 @@ CH_SRC = {'x': 'X 帖子数据读取自公开接口', 'hn': 'Hacker News 官方�
           'verse8': 'Verse8 平台页面显示值', 'astrocade': 'Astrocade 平台页面显示值', 'rosebud': 'Rosebud 平台页面显示值',
           'wavedash': 'Wavedash 平台页面显示值', 'fable52': 'Fable52.games 页面显示值'}
 LEAD_KEYS = ('channel', 'date', 'title', 'source_url', 'metrics', 'published', 'passes', 'ai_hint', 'desc', 'x', 'image',
-             'topics', 'linkless', 'author', 'author_url', 'repo')
+             'topics', 'linkless', 'author', 'author_url', 'repo', 'mirror_url', 'origin', 'article', 'matched')
 
 
 def issue_of(date):
@@ -207,6 +207,8 @@ def reasons_of(c):
             s = f"X 帖子（@{(l.get('x') or {}).get('handle', '')}，{how}），浏览 {util.fmt_num(x_views(c, l))}"
         elif ch == 'hn':
             s = f"Hacker News {m.get('hn_points')} 分"
+            if l.get('article', {}).get('url'):
+                s += '（帖子是一篇文章，试玩链接取自文章正文）'
         elif ch == 'threejs':
             s = f"three.js 论坛作品区，{util.fmt_num(m.get('threejs_views'))} 次浏览"
         elif ch == 'github':
@@ -215,6 +217,13 @@ def reasons_of(c):
             s = f"itch.io 网页新品榜第 {m.get('itch_rank')} 名"
         elif ch == 'awesome':
             s = 'AI 游戏精选清单新增条目'
+        elif ch == 'fable52':
+            o = l.get('origin') or {}
+            s = 'Fable52.games 合集站收录（二手渠道）'
+            if o.get('how') and o['how'] != '合集站给的链接':
+                s += "，试玩链接取自" + (' ' if o['how'][:1].isascii() else '') + o['how']
+            if m.get('x_views'):
+                s += f"，作者帖子浏览 {util.fmt_num(m['x_views'])}"
         elif ch in CHARTS:
             s = CH_NAME[ch] + ('新上榜' if m.get('chart_new_entry') else '在榜')
             if l.get('published'):
@@ -234,6 +243,10 @@ def ai_tag_of(c, cfg):
         if l.get('ai_hint'):
             who = {'x': '来源帖子', 'hn': 'Hacker News 标题', 'github': '仓库描述', 'threejs': '论坛帖子',
                    'itch': 'itch.io 描述'}.get(l['channel'], '')
+            if l['channel'] == 'hn' and l.get('read') in ('article', 'page'):
+                who = 'Hacker News 链接的' + ('文章正文' if l['read'] == 'article' else '页面')
+            if l['channel'] == 'fable52' and (l.get('origin') or {}).get('x') and not l['ai_hint'].startswith('Fable52'):
+                who = '作者帖子'
             return 'ai', (who + '：' if who else '') + l['ai_hint']
     if is_ai_platform(c['url'], cfg):
         return 'ai', f'发布在 AI 创作平台（{host}）'
@@ -367,7 +380,7 @@ def card_dynamic(c, cfg, date):
 
 
 def ensure_images(card, c):
-    """重点卡片才抓图。没有试玩页面的用来源帖子的视频封面。"""
+    """每张自动卡片抓一次图（信息流页面每张卡片都有头图）。没有试玩页面的用来源帖子的视频封面。"""
     if card.get('shot') or card.get('images_tried'):
         return
     meta = c.get('page') or {}
@@ -512,8 +525,7 @@ def run(date=None, publish=True, refresh=True):
                 if card['hot'] and not was_hot:
                     card['hot_since'] = date
                     new_hot.append(card['name'])
-                if card['hot']:
-                    ensure_images(card, c)
+                ensure_images(card, c)
             continue
         st, gid = match_library(key, c['url'], c['name'], lib)
         if st == '已在库':
@@ -541,7 +553,7 @@ def run(date=None, publish=True, refresh=True):
                 card['hot'] = is_hot(c['signals'])
                 if card['hot']:
                     card['hot_since'] = date
-                    ensure_images(card, c)
+                ensure_images(card, c)
                 lib.append(card)
                 lib_ids.add(card['id'])
                 by_id[card['id']] = card

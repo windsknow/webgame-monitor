@@ -9,7 +9,7 @@
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 520,
+     "github_stars": 529,
      "github_forks": 44
     }
    }
@@ -17,7 +17,7 @@
  },
  "patch.gg": {
   "name": "trompe",
-  "status": "候选",
+  "status": "拒绝",
   "game_id": null,
   "leads": [
    {
@@ -41,7 +41,7 @@
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 211,
+     "github_stars": 212,
      "github_forks": 30
     }
    }
@@ -57,14 +57,14 @@
     "source_url": "https://github.com/Odrannnn/MetroidPrime2Port",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 269,
+     "github_stars": 270,
      "github_forks": 16
     }
    }
   ]
  },
  "seriesoftub.es": {
-  "name": "seriesoftubes",
+  "name": "Series of Tubes",
   "status": "收录",
   "game_id": "seriesoftubes",
   "leads": [
@@ -73,7 +73,7 @@
     "source_url": "https://github.com/fjaeckel/seriesoftubes",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 219,
+     "github_stars": 221,
      "github_forks": 43
     }
    }
@@ -137,8 +137,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50448921",
     "first_date": "2026-11-11",
     "metrics": {
-     "hn_points": 270,
-     "hn_comments": 67
+     "hn_points": 281,
+     "hn_comments": 71
     }
    }
   ]
@@ -160,7 +160,7 @@
   ]
  },
  "ghanastreetgames.com": {
-  "name": "Ghanaian street games you can play in the browser",
+  "name": "Ghana Street Games",
   "status": "收录",
   "game_id": "ghanaian-street-games-you-can-play-in-th",
   "leads": [
@@ -177,7 +177,7 @@
  },
  "retrosongbird.com": {
   "name": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
-  "status": "候选",
+  "status": "拒绝",
   "game_id": null,
   "leads": [
    {
@@ -192,9 +192,9 @@
   ]
  },
  "magnitudle.com": {
-  "name": "Size-It-Up (Game)",
-  "status": "候选",
-  "game_id": null,
+  "name": "Size It Up",
+  "status": "收录",
+  "game_id": "size-it-up",
   "leads": [
    {
     "channel": "hn",
@@ -251,6 +251,20 @@
     "metrics": {
      "hn_points": 71,
      "hn_comments": 89
+    }
+   },
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 3102,
+     "fable52_featured": true,
+     "x_views": 4302522,
+     "github_stars": 276,
+     "hn_points": 71,
+     "hn_comments": 90,
+     "chart_new_entry": false
     }
    },
    {
@@ -340,24 +354,24 @@
     "source_url": "https://news.ycombinator.com/item?id=50448340",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 91,
+     "hn_points": 93,
      "hn_comments": 22
     }
    }
   ]
  },
  "tinyvalencia.com": {
-  "name": "Valencia, Spain in Sim City/Isometric View",
-  "status": "观察",
-  "game_id": null,
+  "name": "Tiny València",
+  "status": "收录",
+  "game_id": "tiny-val-ncia",
   "leads": [
    {
     "channel": "hn",
     "source_url": "https://news.ycombinator.com/item?id=50441518",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 247,
-     "hn_comments": 61
+     "hn_points": 250,
+     "hn_comments": 62
     }
    }
   ]
@@ -422,9 +436,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 9,
-     "astrocade_plays": 47379,
-     "astrocade_likes": 1073,
+     "astrocade_rank": 3,
+     "astrocade_plays": 54227,
+     "astrocade_likes": 1212,
      "chart_new_entry": false
     }
    }
@@ -440,9 +454,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 2,
-     "astrocade_plays": 25106,
-     "astrocade_likes": 610,
+     "astrocade_rank": 1,
+     "astrocade_plays": 34560,
+     "astrocade_likes": 824,
      "chart_new_entry": false
     }
    }
@@ -458,9 +472,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 13,
-     "astrocade_plays": 43768,
-     "astrocade_likes": 1018,
+     "astrocade_rank": 7,
+     "astrocade_plays": 43895,
+     "astrocade_likes": 1022,
      "chart_new_entry": false
     }
    }
@@ -476,9 +490,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 8,
-     "astrocade_plays": 194323,
-     "astrocade_likes": 5854,
+     "astrocade_rank": 10,
+     "astrocade_plays": 210821,
+     "astrocade_likes": 6245,
      "chart_new_entry": false
     }
    }
@@ -530,9 +544,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 16,
-     "astrocade_plays": 48315,
-     "astrocade_likes": 810,
+     "astrocade_rank": 13,
+     "astrocade_plays": 54674,
+     "astrocade_likes": 922,
      "chart_new_entry": false
     }
    }
@@ -540,7 +554,7 @@
  },
  "zz85.github.io/slop-cities": {
   "name": "slop-cities",
-  "status": "收录",
+  "status": "拒绝",
   "game_id": "slop-cities",
   "leads": [
    {
@@ -549,13 +563,13 @@
     "first_date": "2026-11-12",
     "metrics": {
      "github_stars": 42,
-     "github_forks": 22
+     "github_forks": 23
     }
    }
   ]
  },
  "opend2.com": {
-  "name": "d2-web",
+  "name": "OpenD2",
   "status": "收录",
   "game_id": "d2-web",
   "leads": [
@@ -565,29 +579,29 @@
     "first_date": "2026-11-12",
     "metrics": {
      "github_stars": 71,
-     "github_forks": 7
+     "github_forks": 8
     }
    }
   ]
  },
  "librehold.org": {
-  "name": "librehold",
-  "status": "候选",
-  "game_id": null,
+  "name": "LibreHold",
+  "status": "收录",
+  "game_id": "librehold",
   "leads": [
    {
     "channel": "github",
     "source_url": "https://github.com/librehold-game/librehold",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 57,
+     "github_stars": 56,
      "github_forks": 8
     }
    }
   ]
  },
  "andvolodko.github.io/mu-online-solo-classic": {
-  "name": "mu-online-solo-classic",
+  "name": "MU Online Solo Classic",
   "status": "收录",
   "game_id": "mu-online-solo-classic",
   "leads": [
@@ -604,8 +618,8 @@
  },
  "typepper.com": {
   "name": "typepper",
-  "status": "候选",
-  "game_id": null,
+  "status": "收录",
+  "game_id": "typepper",
   "leads": [
    {
     "channel": "github",
@@ -635,7 +649,7 @@
   ]
  },
  "ritrls.github.io/dream-arcade-demo": {
-  "name": "dream-arcade-demo",
+  "name": "造梦街机",
   "status": "收录",
   "game_id": "dream-arcade-demo",
   "leads": [
@@ -651,7 +665,7 @@
   ]
  },
  "ashfolk.com": {
-  "name": "ashfolk",
+  "name": "Ashfolk",
   "status": "收录",
   "game_id": "ashfolk",
   "leads": [
@@ -716,7 +730,7 @@
  },
  "playgta5.com": {
   "name": "Play GTA5 on Browser",
-  "status": "收录",
+  "status": "拒绝",
   "game_id": "play-gta5-on-browser",
   "leads": [
    {
@@ -724,8 +738,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50458710",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 83,
-     "hn_comments": 62
+     "hn_points": 91,
+     "hn_comments": 63
     }
    }
   ]
@@ -741,8 +755,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 2,
-     "spawn_plays": 28971,
-     "spawn_likes": 1008,
+     "spawn_plays": 31500,
+     "spawn_likes": 1048,
      "chart_new_entry": false
     }
    }
@@ -759,8 +773,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 3,
-     "spawn_plays": 91304,
-     "spawn_likes": 594,
+     "spawn_plays": 91450,
+     "spawn_likes": 599,
      "chart_new_entry": false
     }
    }
@@ -777,8 +791,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 5,
-     "spawn_plays": 8474,
-     "spawn_likes": 227,
+     "spawn_plays": 8638,
+     "spawn_likes": 230,
      "chart_new_entry": false
     }
    }
@@ -795,8 +809,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 6,
-     "spawn_plays": 5386,
-     "spawn_likes": 182,
+     "spawn_plays": 5465,
+     "spawn_likes": 183,
      "chart_new_entry": false
     }
    }
@@ -813,8 +827,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 12,
-     "spawn_plays": 1801,
-     "spawn_likes": 75,
+     "spawn_plays": 1833,
+     "spawn_likes": 76,
      "chart_new_entry": false
     }
    }
@@ -831,8 +845,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 15,
-     "spawn_plays": 3621,
-     "spawn_likes": 71,
+     "spawn_plays": 3667,
+     "spawn_likes": 72,
      "chart_new_entry": false
     }
    }
@@ -849,7 +863,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 16,
-     "spawn_plays": 906,
+     "spawn_plays": 922,
      "spawn_likes": 70,
      "chart_new_entry": false
     }
@@ -866,8 +880,8 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 18,
-     "spawn_plays": 769,
+     "spawn_rank": 19,
+     "spawn_plays": 798,
      "spawn_likes": 59,
      "chart_new_entry": false
     }
@@ -885,7 +899,7 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 20,
-     "spawn_plays": 24298,
+     "spawn_plays": 24342,
      "spawn_likes": 55,
      "chart_new_entry": false
     }
@@ -893,7 +907,7 @@
   ]
  },
  "tides-of-fortune.fr": {
-  "name": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+  "name": "Tides of Fortune",
   "status": "收录",
   "game_id": "tides-of-fortune-an-open-world-pirate-ga",
   "leads": [
@@ -902,7 +916,7 @@
     "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
     "first_date": "2026-11-12",
     "metrics": {
-     "threejs_views": 190,
+     "threejs_views": 206,
      "threejs_replies": 6,
      "threejs_likes": 8
     }
@@ -910,7 +924,7 @@
   ]
  },
  "afkcity.com": {
-  "name": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+  "name": "AFK City",
   "status": "收录",
   "game_id": "afk-city-a-city-that-builds-itself-while",
   "leads": [
@@ -919,8 +933,8 @@
     "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
     "first_date": "2026-11-12",
     "metrics": {
-     "threejs_views": 110,
-     "threejs_replies": 5,
+     "threejs_views": 128,
+     "threejs_replies": 6,
      "threejs_likes": 3
     }
    }
@@ -1064,8 +1078,8 @@
     "source_url": "https://x.com/scottstts/status/2120549388745379867",
     "first_date": "2026-11-12",
     "metrics": {
-     "x_views": 11477,
-     "x_likes": 211
+     "x_views": 14894,
+     "x_likes": 258
     }
    }
   ]
@@ -1096,9 +1110,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 7,
-     "astrocade_plays": 43617,
-     "astrocade_likes": 873,
+     "astrocade_rank": 6,
+     "astrocade_plays": 44306,
+     "astrocade_likes": 891,
      "chart_new_entry": false
     }
    }
@@ -1114,9 +1128,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 8,
-     "astrocade_plays": 523048,
-     "astrocade_likes": 11571,
+     "astrocade_rank": 5,
+     "astrocade_plays": 529154,
+     "astrocade_likes": 11700,
      "chart_new_entry": false
     }
    }
@@ -1204,10 +1218,791 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 11,
-     "astrocade_plays": 836179,
-     "astrocade_likes": 13628,
+     "astrocade_rank": 2,
+     "astrocade_plays": 843668,
+     "astrocade_likes": 13727,
      "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/anime-wedding-dress-up-studio/01m6yny64txyvqppf6y9pjhrhd": {
+  "name": "Anime Wedding Dress Up Studio",
+  "status": "收录",
+  "game_id": "anime-wedding-dress-up-studio",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 5,
+     "astrocade_plays": 76816,
+     "astrocade_likes": 1403,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/sunrise-high-school-life/01m6xqanaf2kfj35pn7fzfbcz1": {
+  "name": "Sunrise High School life",
+  "status": "收录",
+  "game_id": "sunrise-high-school-life",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 70941,
+     "astrocade_likes": 1562,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/ninja-unleashed/01m6fpjd9esykwav7jkfjbbyga": {
+  "name": "NINJA UNLEASHED",
+  "status": "收录",
+  "game_id": "ninja-unleashed",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "astrocade_rank": 9,
+     "astrocade_plays": 35649,
+     "astrocade_likes": 638,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/dental-cleaning-tycoon/01kzx6hj2sfzxqbm8qjj4fkmdf": {
+  "name": "Dental Cleaning Tycoon",
+  "status": "拒绝",
+  "game_id": "dental-cleaning-tycoon",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "astrocade_rank": 19,
+     "astrocade_plays": 813770,
+     "astrocade_likes": 12167,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "shaunprice.github.io/soccer-3d": {
+  "name": "Pocket Soccer 3D",
+  "status": "收录",
+  "game_id": "pocket-soccer-3d",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/pocket-soccer-3d",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 744,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/mothlight": {
+  "name": "MOTHLIGHT // Vesper-9",
+  "status": "收录",
+  "game_id": "mothlight-vesper-9",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/mothlight",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 317,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "what-the-water-keeps.vercel.app": {
+  "name": "What the Water Keeps",
+  "status": "收录",
+  "game_id": "what-the-water-keeps",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/what-the-water-keeps",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 308,
+     "fable52_featured": false,
+     "x_views": 486166,
+     "hn_points": 1,
+     "hn_comments": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fablestar.games": {
+  "name": "Bayhaven",
+  "status": "收录",
+  "game_id": "bayhaven",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/bayhaven",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 328,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/jimao-cs": {
+  "name": "几猫CS",
+  "status": "收录",
+  "game_id": "cs",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/jimao-cs",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 132,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "dustfalls.netlify.app": {
+  "name": "Dustfall",
+  "status": "收录",
+  "game_id": "dustfall",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/dustfall",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 281,
+     "fable52_featured": false,
+     "github_stars": 3,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "blameless.petruha.ge": {
+  "name": "BLAMELESS",
+  "status": "收录",
+  "game_id": "blameless",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/blameless",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 335,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike": {
+  "name": "鹈鹕骑单车 · Pelican on a Bike",
+  "status": "收录",
+  "game_id": "pelican-on-a-bike",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/pelican-on-a-bike",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 345,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/qingyun-sword-flight": {
+  "name": "青云宗 · 御剑采灵",
+  "status": "收录",
+  "game_id": "game-3",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/qingyun-sword-flight",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 197,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "evensong-phi.vercel.app": {
+  "name": "Evensong",
+  "status": "收录",
+  "game_id": "evensong",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/evensong",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 243,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "anxiangsir.com": {
+  "name": "黑神话：悟空 · 虎先锋",
+  "status": "收录",
+  "game_id": "game-4",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/wukong-tiger-vanguard",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 103,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/tidebell": {
+  "name": "Tidebell 潮钟",
+  "status": "收录",
+  "game_id": "tidebell",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/tidebell",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 189,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "sharpwizard.github.io/ironvale": {
+  "name": "Ironvale",
+  "status": "收录",
+  "game_id": "ironvale",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/ironvale",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 244,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "wquguru.github.io/fable52-fps-repro": {
+  "name": "SUBLEVEL 07",
+  "status": "收录",
+  "game_id": "sublevel-07",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 182,
+     "fable52_featured": false,
+     "github_stars": 82,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "op7418.github.io/guizang-game-skill": {
+  "name": "雾锁山门",
+  "status": "收录",
+  "game_id": "game-5",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/wusuo-shanmen",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 106,
+     "fable52_featured": false,
+     "github_stars": 271,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "source_url": "https://github.com/op7418/guizang-game-skill",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 228,
+     "github_forks": 32
+    }
+   }
+  ]
+ },
+ "basemazab.github.io/tuktuk": {
+  "name": "TukTuk: وسّع يا باشا",
+  "status": "收录",
+  "game_id": "tuktuk",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/tuktuk",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 139,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d": {
+  "name": "飞车 3D",
+  "status": "收录",
+  "game_id": "3d",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/feiche-3d",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 67,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "settlement-bluff-fable52.vercel.app": {
+  "name": "Hanford Reach",
+  "status": "收录",
+  "game_id": "hanford-reach",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/hanford-reach",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 83,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "lol.hanyue.io": {
+  "name": "海克斯大乱斗",
+  "status": "收录",
+  "game_id": "game-6",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/hextech-aram",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 38,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fedifianto.github.io/shuttlestrike": {
+  "name": "Shuttle Strike",
+  "status": "收录",
+  "game_id": "shuttle-strike",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/shuttle-strike",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 60,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "harvest-standoff.vercel.app": {
+  "name": "Harvest Standoff",
+  "status": "收录",
+  "game_id": "harvest-standoff",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/harvest-standoff",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 58,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "s77ffy.github.io/daedalus": {
+  "name": "Daedalus",
+  "status": "收录",
+  "game_id": "daedalus",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/daedalus",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 82,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship": {
+  "name": "运输船 3D",
+  "status": "收录",
+  "game_id": "3d-2",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/transport-ship-3d",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 27,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "v25.dafeiyugame.site": {
+  "name": "暖光玩具房 · V25",
+  "status": "收录",
+  "game_id": "v25",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/warm-toy-room-v25",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 25,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "jakozaur.github.io/sf_bay_area_transit_fable_5_2_game": {
+  "name": "Boring Game",
+  "status": "收录",
+  "game_id": "boring-game",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 51,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/misremember": {
+  "name": "MISREMEMBER",
+  "status": "收录",
+  "game_id": "misremember",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/misremember",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 53,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "oldzitterhand.github.io/sternenjaeger": {
+  "name": "Sternenjäger",
+  "status": "收录",
+  "game_id": "sternenj-ger",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/sternenjaeger",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 63,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "web-jjuuxm.tulingai.com": {
+  "name": "盐线行动 Online",
+  "status": "收录",
+  "game_id": "online",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/saltline-online",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 20,
+     "fable52_featured": false,
+     "github_stars": 16,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "dndnoob.github.io/emberdeep": {
+  "name": "Emberdeep",
+  "status": "收录",
+  "game_id": "emberdeep",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/emberdeep",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 54,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "masugus.github.io/fable5.2-5min-game": {
+  "name": "Becario del Universo",
+  "status": "收录",
+  "game_id": "becario-del-universo",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/becario-del-universo",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 22,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "cf.hanyue.io": {
+  "name": "BREACH · 运输船联机大厅",
+  "status": "收录",
+  "game_id": "breach",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/breach-transport-ship-online",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/duskline-vxn7rh": {
+  "name": "Duskline",
+  "status": "收录",
+  "game_id": "duskline",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/duskline-vxn7rh",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 6,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/flight-simulator-nfljgw": {
+  "name": "Open Skies",
+  "status": "收录",
+  "game_id": "open-skies",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/flight-simulator-nfljgw",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 2,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "speedydevil007.github.io/road-sdl2-rash": {
+  "name": "Road Rash (1996) Web Edition",
+  "status": "收录",
+  "game_id": "road-sdl2-rash",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/speedydevil007/road-sdl2-rash",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "github_stars": 30,
+     "github_forks": 0
+    }
+   }
+  ]
+ },
+ "aidens-revenge.pages.dev": {
+  "name": "Aiden's Revenge",
+  "status": "收录",
+  "game_id": "aidens-revenge",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50433659",
+    "first_date": "2026-11-11",
+    "metrics": {
+     "hn_points": 504,
+     "hn_comments": 450
+    }
+   }
+  ]
+ },
+ "termsheetplease.com": {
+  "name": "Term Sheet, Please",
+  "status": "收录",
+  "game_id": "term-sheet-please",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50457230",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "hn_points": 238,
+     "hn_comments": 94
+    }
+   }
+  ]
+ },
+ "fable52.games": {
+  "name": "Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
+  "status": "拒绝",
+  "game_id": "fable52-games-play-and-inspect-fable-5-2",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50469007",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "hn_points": 61,
+     "hn_comments": 53
+    }
+   }
+  ]
+ },
+ "moddb.com": {
+  "name": "Abandoned Quake 4 expansion finished by modders and now playable",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50467618",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "hn_points": 228,
+     "hn_comments": 77
+    }
+   }
+  ]
+ },
+ "spawn.co/@smallzero/chimera-vocal-synth": {
+  "name": "Chimera Vocal Synth",
+  "status": "拒绝",
+  "game_id": "chimera-vocal-synth",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "spawn_rank": 17,
+     "spawn_plays": 2025,
+     "spawn_likes": 66,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "wavedash.com/games/sweatypanzer": {
+  "name": "SweatyPanzer",
+  "status": "收录",
+  "game_id": "sweatypanzer",
+  "leads": [
+   {
+    "channel": "wavedash",
+    "source_url": "https://wavedash.com/",
+    "first_date": "2026-11-13",
+    "metrics": {
+     "wavedash_rank": 3,
+     "wavedash_playing": 15,
+     "chart_new_entry": true
     }
    }
   ]

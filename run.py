@@ -7,12 +7,13 @@
   python3 run.py collect [日期]   只跑固定渠道采集
   python3 run.py x [日期]         只跑 X 数据接入（读 inbox/x/<日期>.json，没有就按配置去拉）
   python3 run.py merge [日期]     只跑合并打分
-  python3 run.py site [日期]      只生成页面
+  python3 run.py site [日期]      只生成页面（旧版报告式页面，受 config 里 site.enabled 控制）
+  python3 run.py feed [日期]      生成信息流页面 site/index.html：重点游戏轮播 + 检索、标签筛选 + 按入库日期分组的卡片
 日期默认是今天（UTC+8 的日期由调用方决定，可用环境变量 MONITOR_DATE 指定）。
 """
 import sys
 
-from monitor import build_site, collectors, merge, util, x_ingest
+from monitor import build_site, collectors, feed, merge, util, x_ingest
 
 
 def crawl(date, log=None):
@@ -60,7 +61,7 @@ if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'daily'
     date = sys.argv[2] if len(sys.argv) > 2 else util.today()
     res = {'crawl': crawl, 'daily': daily, 'collect': collectors.run, 'x': x_ingest.run, 'merge': merge.run,
-           'site': build_site.run}[cmd](date)
+           'site': build_site.run, 'feed': feed.run}[cmd](date)
     # 只采集时：所有渠道都出错（多半是网络不通）才算失败，让定时任务能看到
     if cmd == 'crawl' and all(v['error'] for v in res['collect'].values()):
         sys.exit(1)

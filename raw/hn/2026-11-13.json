@@ -2,7 +2,7 @@
  "date": "2026-11-13",
  "channel": "hn",
  "count": 158,
- "passed": 17,
+ "passed": 18,
  "error": "",
  "leads": [
   {
@@ -18,8 +18,9 @@
    "published": "2026-11-07",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "EyesRhythm is a free, private webcam blink rate detector for Mac and Windows. It scores how often and how steadily you blink during screen work, and Poise shows which way you turned your head so the neck and shoulders are not stuck in one pose.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -34,8 +35,9 @@
    "published": "2026-11-07",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "Guess where — and when — each photo was taken.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -449,9 +451,13 @@
    },
    "published": "2026-11-06",
    "passes": true,
-   "ai_hint": "",
+   "ai_hint": "Early on, we realized that as AI agents become increasingly autonomous and widely adopted, the environment in which they operate needs to evolve too",
    "desc": "",
-   "matched": "title"
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "Sections Agent sandboxes are all the rage. A new sandbox startup is announced every couple of weeks. At Replit, we’ve been running sandboxes for nearly a decade. For years, we’ve run our custom sandbox infrastructure to make it easy for anyone to code online, and now Agents use these sandboxes to build applications without requiring any coding at all. In the past few months, we finished rolling ou"
+   }
   },
   {
    "channel": "hn",
@@ -792,8 +798,8 @@
   {
    "channel": "hn",
    "title": "Fable 5.2 one-shotted my nephew's dream game",
-   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-   "key": "notesbylex.com",
+   "url": "https://aidens-revenge.pages.dev/",
+   "key": "aidens-revenge.pages.dev",
    "source_url": "https://news.ycombinator.com/item?id=50433659",
    "metrics": {
     "hn_points": 504,
@@ -803,7 +809,13 @@
    "passes": true,
    "ai_hint": "Fable 5",
    "desc": "",
-   "matched": "title"
+   "matched": "article_link",
+   "read": "article",
+   "article": {
+    "excerpt": "Fable 5.2 One-Shotted My Nephew's Dream Game LLMs can make complete multi-level games that are fun. Lex Toumbourou · Nov 10, 2026 GameProjects CodingAgents TL;DR - Fable 5.2 one-shotted my nephew's dream game from a bunch of drawings, and it's a lot of fun. You can try it here . I've always loved beat 'em ups, and they seem to have come back into vogue in the last few years, with remakes of old cl",
+    "context": "hew's dream game from a bunch of drawings, and it's a lot of fun. You can try it [here]",
+    "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
+   }
   },
   {
    "channel": "hn",
@@ -913,9 +925,13 @@
    },
    "published": "2026-11-09",
    "passes": true,
-   "ai_hint": "",
+   "ai_hint": "With the agent, they took about 20 minutes each: 2D design from ChatGPT Low-poly version of the design, again from ChatGPT Breakdown of every view for 3D modeling, still ChatGPT 3D modeling with Blend",
    "desc": "",
-   "matched": "title"
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "Contents Choosing your game is choosing your bottleneck The characters the agent couldn't make A style the agent can repeat Build a system that verifies for you Entity Component System (ECS) Automatic checks for agents The first playable is fast, the game is not How a game with agents gets made Playtest as a player, report as a player The problem of the fishery Checking the economy with math How t"
+   }
   },
   {
    "channel": "hn",
@@ -946,8 +962,9 @@
    "published": "2026-11-09",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "A Mac app that takes a photo of anyone who uses your Mac while you",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -962,8 +979,9 @@
    "published": "2026-11-09",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "Use your Mac on iPhone, iPad or another display. Arrange windows into panes, switch with Stage Peek, use touch and keyboard controls, and access files. Free and open source.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -1042,8 +1060,9 @@
    "published": "2026-11-09",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "Enter any place on Earth. See every satellite that passed over it this week, and the actual pictures they took.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -1362,8 +1381,9 @@
    "published": "2026-11-08",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "3D PC Builder and Part Picker. Find compatible parts for the lowest prices and see how your build looks before you buy.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -1395,7 +1415,11 @@
    "passes": true,
    "ai_hint": "",
    "desc": "",
-   "matched": "title"
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "I Have Never Seen a Game Fail Because the Artists Were Too Slow AI is optimising the cheapest part of production Rob Sandberg Aug 03, 2026 45 13 7 Share Rework consumes 30 to 50 per cent of software development effort, and reworked code costs around 2.5 times first pass development Skull and Bones burned eight years and a reported 200 million dollars on unstable direction rather than slow executio"
+   }
   },
   {
    "channel": "hn",
@@ -1568,10 +1592,11 @@
     "hn_comments": 94
    },
    "published": "2026-11-11",
-   "passes": false,
+   "passes": true,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "YC founders are raising a round. Inspect the financials, question the records, and decide who gets funded.",
+   "matched": "page",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -1827,7 +1852,11 @@
    "passes": true,
    "ai_hint": "",
    "desc": "",
-   "matched": "title"
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "A Great Old-Timey Game-Programming Hack - Tom Moertel’s Blog Tom Moertel’s Blog Home About Archive A Great Old-Timey Game-Programming Hack By Tom Moertel Posted on December 14, 2013 Tags: assembly , 6809 , games , hacks A long time ago, when I was a college undergrad, I spent some time working on computer video games. This was in the 8-bit PC era, when the gaming hardware was almost impossibly slo"
+   }
   },
   {
    "channel": "hn",
@@ -2130,8 +2159,9 @@
    "published": "2026-11-10",
    "passes": false,
    "ai_hint": "Aircad has a built-in AI agent and a comprehensive scripting API with a stage-and-commit workflow, so you know exactly what is happening during a complex change",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "Precision 2D drafting and 3D modeling, with multiplayer editing and an AI agent that drafts, models, and renders alongside you.",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -2434,8 +2464,9 @@
    "published": "2026-11-12",
    "passes": false,
    "ai_hint": "",
-   "desc": "",
-   "matched": "show_hn"
+   "desc": "What would your AI red lines be? Write down what would make you act on AI, and what you",
+   "matched": "show_hn",
+   "read": "page"
   },
   {
    "channel": "hn",
@@ -2451,7 +2482,11 @@
    "passes": true,
    "ai_hint": "",
    "desc": "",
-   "matched": "title"
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "Just a moment..."
+   }
   },
   {
    "channel": "hn",

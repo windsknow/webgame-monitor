@@ -1,23 +1,27 @@
 {
  "date": "2026-11-13",
  "channel": "fable52",
- "count": 32,
- "passed": 32,
+ "count": 34,
+ "passed": 34,
  "error": "",
  "leads": [
   {
    "channel": "fable52",
    "title": "Saltline",
-   "url": "https://realcodebear.github.io/saltline-fable-5.2/",
-   "key": "realcodebear.github.io/saltline-fable-5.2",
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
    "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
    "metrics": {
-    "fable52_plays": 2816,
+    "fable52_plays": 3102,
     "fable52_featured": true,
+    "x_views": 4302522,
+    "github_stars": 276,
+    "hn_points": 71,
+    "hn_comments": 90,
     "chart_new_entry": false
    },
    "published": "2026-10-20",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "I wanted to test Fable 5",
    "desc": "The original one-prompt FPS: cut three uplink relays in a rainy container port while drones and robot dogs hunt you.",
    "image": "https://fable52.games/thumbs/saltline-fable-5-2-fps.jpg",
    "author": "Felix Rieseberg",
@@ -31,6 +35,14 @@
     "Procedural",
     "Single File"
    ],
+   "mirror_url": "https://realcodebear.github.io/saltline-fable-5.2/",
+   "origin": {
+    "how": "作者帖子里的链接",
+    "x": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+    "hn": "https://news.ycombinator.com/item?id=50444850",
+    "x_text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHH"
+   },
    "passes": true
   },
   {
@@ -40,12 +52,13 @@
    "key": "shaunprice.github.io/soccer-3d",
    "source_url": "https://fable52.games/play/pocket-soccer-3d",
    "metrics": {
-    "fable52_plays": 669,
+    "fable52_plays": 744,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Soccer-3D - Claude Fable 5",
    "desc": "Seven-a-side 3D football with referees, offside, cards, penalties and tactics, in one HTML file.",
    "image": "https://fable52.games/thumbs/pocket-soccer-3d.jpg",
    "author": "ShaunPrice",
@@ -58,6 +71,14 @@
     "Mobile",
     "Single File"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/ShaunPrice/soccer-3d",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -67,8 +88,9 @@
    "key": "fable52.games/play/mothlight",
    "source_url": "https://fable52.games/play/mothlight",
    "metrics": {
-    "fable52_plays": 264,
+    "fable52_plays": 317,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-11",
@@ -84,58 +106,14 @@
     "WebGL",
     "Cyberpunk"
    ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Bayhaven",
-   "url": "https://fablestar.games/play/",
-   "key": "fablestar.games",
-   "source_url": "https://fable52.games/play/bayhaven",
-   "metrics": {
-    "fable52_plays": 296,
-    "fable52_featured": false,
-    "chart_new_entry": false
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/hahaliu1029/fable5.2demo",
+    "hn": "",
+    "x_text": ""
    },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "An original open-world crime game written live by Fable 5.2, one autonomous session at a time.",
-   "image": "https://fable52.games/thumbs/bayhaven.jpg",
-   "author": "fablestar",
-   "author_url": "https://fablestar.games/",
-   "repo": "https://github.com/fablestar/bayhaven",
-   "topics": [
-    "Open World",
-    "Driving",
-    "Three.js",
-    "WebGL"
-   ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Dustfall",
-   "url": "https://dustfalls.netlify.app/",
-   "key": "dustfalls.netlify.app",
-   "source_url": "https://fable52.games/play/dustfall",
-   "metrics": {
-    "fable52_plays": 252,
-    "fable52_featured": false,
-    "chart_new_entry": false
-   },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
-   "image": "https://fable52.games/thumbs/dustfall.jpg",
-   "author": "webKing021",
-   "author_url": "https://github.com/webKing021",
-   "repo": "https://github.com/webKing021/dustfall",
-   "topics": [
-    "Open World",
-    "Western",
-    "Three.js",
-    "WebGL"
-   ],
    "passes": true
   },
   {
@@ -145,12 +123,15 @@
    "key": "what-the-water-keeps.vercel.app",
    "source_url": "https://fable52.games/play/what-the-water-keeps",
    "metrics": {
-    "fable52_plays": 264,
+    "fable52_plays": 308,
     "fable52_featured": false,
+    "x_views": 486166,
+    "hn_points": 1,
+    "hn_comments": 0,
     "chart_new_entry": false
    },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "published": "2026-11-09",
+   "ai_hint": "Claude Fable 5",
    "desc": "A slow boat ride by lantern light through a chain of very different realms, or let the current carry you.",
    "image": "https://fable52.games/thumbs/what-the-water-keeps.jpg",
    "author": "Kevin Ngo",
@@ -163,58 +144,49 @@
     "Web Audio API",
     "Relaxing"
    ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "鹈鹕骑单车 · Pelican on a Bike",
-   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
-   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
-   "source_url": "https://fable52.games/play/pelican-on-a-bike",
-   "metrics": {
-    "fable52_plays": 317,
-    "fable52_featured": false,
-    "chart_new_entry": false
+   "mirror_url": "",
+   "origin": {
+    "how": "Hacker News 帖子的链接",
+    "x": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+    "repo": "",
+    "hn": "https://news.ycombinator.com/item?id=50451107",
+    "x_text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
-   "published": "2026-11-09",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
-   "desc": "A helmeted pelican in a scarf rides a vintage bike along the coast, chasing fish.",
-   "image": "https://fable52.games/thumbs/pelican-on-a-bike.jpg",
-   "author": "bytednsdoc.com",
-   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
-   "repo": "",
-   "topics": [
-    "Casual",
-    "Three.js",
-    "Procedural",
-    "Single File"
-   ],
    "passes": true
   },
   {
    "channel": "fable52",
-   "title": "BLAMELESS",
-   "url": "https://blameless.petruha.ge/",
-   "key": "blameless.petruha.ge",
-   "source_url": "https://fable52.games/play/blameless",
+   "title": "Bayhaven",
+   "url": "https://fablestar.games/play/",
+   "key": "fablestar.games",
+   "source_url": "https://fable52.games/play/bayhaven",
    "metrics": {
-    "fable52_plays": 303,
+    "fable52_plays": 328,
     "fable52_featured": false,
+    "github_stars": 1,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "An on-call shooter: 03:07, prod is down, and you kubectl exec into production in person.",
-   "image": "https://fable52.games/thumbs/blameless.jpg",
-   "author": "Petyok",
-   "author_url": "https://github.com/Petyok",
-   "repo": "https://github.com/Petyok/blameless",
+   "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
+   "desc": "An original open-world crime game written live by Fable 5.2, one autonomous session at a time.",
+   "image": "https://fable52.games/thumbs/bayhaven.jpg",
+   "author": "fablestar",
+   "author_url": "https://fablestar.games/",
+   "repo": "https://github.com/fablestar/bayhaven",
    "topics": [
-    "3D FPS",
+    "Open World",
+    "Driving",
     "Three.js",
-    "WebGL",
-    "Programmer Humor"
+    "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/fablestar/bayhaven",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -224,7 +196,7 @@
    "key": "fable52.games/play/jimao-cs",
    "source_url": "https://fable52.games/play/jimao-cs",
    "metrics": {
-    "fable52_plays": 87,
+    "fable52_plays": 132,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -242,31 +214,118 @@
     "Web Audio API",
     "中文"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
-   "title": "Evensong",
-   "url": "https://evensong-phi.vercel.app/",
-   "key": "evensong-phi.vercel.app",
-   "source_url": "https://fable52.games/play/evensong",
+   "title": "Dustfall",
+   "url": "https://dustfalls.netlify.app/",
+   "key": "dustfalls.netlify.app",
+   "source_url": "https://fable52.games/play/dustfall",
    "metrics": {
-    "fable52_plays": 218,
+    "fable52_plays": 281,
+    "fable52_featured": false,
+    "github_stars": 3,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Created to test the Claude Fable 5",
+   "desc": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
+   "image": "https://fable52.games/thumbs/dustfall.jpg",
+   "author": "webKing021",
+   "author_url": "https://github.com/webKing021",
+   "repo": "https://github.com/webKing021/dustfall",
+   "topics": [
+    "Open World",
+    "Western",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/webKing021/dustfall",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "BLAMELESS",
+   "url": "https://blameless.petruha.ge",
+   "key": "blameless.petruha.ge",
+   "source_url": "https://fable52.games/play/blameless",
+   "metrics": {
+    "fable52_plays": 335,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "All done by Claude Fable 5",
+   "desc": "An on-call shooter: 03:07, prod is down, and you kubectl exec into production in person.",
+   "image": "https://fable52.games/thumbs/blameless.jpg",
+   "author": "Petyok",
+   "author_url": "https://github.com/Petyok",
+   "repo": "https://github.com/Petyok/blameless",
+   "topics": [
+    "3D FPS",
+    "Three.js",
+    "WebGL",
+    "Programmer Humor"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/Petyok/blameless",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "鹈鹕骑单车 · Pelican on a Bike",
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
+   "source_url": "https://fable52.games/play/pelican-on-a-bike",
+   "metrics": {
+    "fable52_plays": 345,
     "fable52_featured": false,
     "chart_new_entry": false
    },
    "published": "2026-11-09",
    "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
-   "desc": "One duel in a drowned cathedral: a souls-like demo that plays in the browser.",
-   "image": "https://fable52.games/thumbs/evensong.jpg",
-   "author": "evensong-phi.vercel.app",
-   "author_url": "https://evensong-phi.vercel.app/",
+   "desc": "A helmeted pelican in a scarf rides a vintage bike along the coast, chasing fish.",
+   "image": "https://fable52.games/thumbs/pelican-on-a-bike.jpg",
+   "author": "bytednsdoc.com",
+   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
    "repo": "",
    "topics": [
-    "Action",
-    "Souls-like",
-    "WebGL"
+    "Casual",
+    "Three.js",
+    "Procedural",
+    "Single File"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -276,8 +335,9 @@
    "key": "fable52.games/play/qingyun-sword-flight",
    "source_url": "https://fable52.games/play/qingyun-sword-flight",
    "metrics": {
-    "fable52_plays": 162,
+    "fable52_plays": 197,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-11",
@@ -294,32 +354,47 @@
     "Xianxia",
     "Flight"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/hahaliu1029/fable5.2demo",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
-   "title": "TukTuk: وسّع يا باشا",
-   "url": "https://basemazab.github.io/tuktuk/",
-   "key": "basemazab.github.io/tuktuk",
-   "source_url": "https://fable52.games/play/tuktuk",
+   "title": "Evensong",
+   "url": "https://evensong-phi.vercel.app/",
+   "key": "evensong-phi.vercel.app",
+   "source_url": "https://fable52.games/play/evensong",
    "metrics": {
-    "fable52_plays": 132,
+    "fable52_plays": 243,
     "fable52_featured": false,
     "chart_new_entry": false
    },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "Weave a tuk-tuk through a crowded Egyptian street, dodging microbuses, taxis and watermelon carts.",
-   "image": "https://fable52.games/thumbs/tuktuk.jpg",
-   "author": "basemazab",
-   "author_url": "https://github.com/basemazab",
-   "repo": "https://github.com/basemazab/tuktuk",
+   "published": "2026-11-09",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+   "desc": "One duel in a drowned cathedral: a souls-like demo that plays in the browser.",
+   "image": "https://fable52.games/thumbs/evensong.jpg",
+   "author": "evensong-phi.vercel.app",
+   "author_url": "https://evensong-phi.vercel.app/",
+   "repo": "",
    "topics": [
-    "Driving",
-    "Arcade",
-    "Three.js",
-    "Mobile"
+    "Action",
+    "Souls-like",
+    "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -329,7 +404,7 @@
    "key": "anxiangsir.com",
    "source_url": "https://fable52.games/play/wukong-tiger-vanguard",
    "metrics": {
-    "fable52_plays": 68,
+    "fable52_plays": 103,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -346,6 +421,14 @@
     "Fan-made",
     "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -355,8 +438,9 @@
    "key": "fable52.games/play/tidebell",
    "source_url": "https://fable52.games/play/tidebell",
    "metrics": {
-    "fable52_plays": 168,
+    "fable52_plays": 189,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-11",
@@ -373,6 +457,14 @@
     "Underwater",
     "Procedural"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/hahaliu1029/fable5.2demo",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -382,12 +474,13 @@
    "key": "sharpwizard.github.io/ironvale",
    "source_url": "https://fable52.games/play/ironvale",
    "metrics": {
-    "fable52_plays": 228,
+    "fable52_plays": 244,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
    "desc": "A 3D real-time strategy game: gather, build, advance through three ages and defeat the Crimson March.",
    "image": "https://fable52.games/thumbs/ironvale.jpg",
    "author": "SharpWizard",
@@ -399,21 +492,30 @@
     "Three.js",
     "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/SharpWizard/ironvale",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
    "title": "SUBLEVEL 07",
-   "url": "https://fable52.games/play/sublevel-07-fps-repro",
-   "key": "fable52.games/play/sublevel-07-fps-repro",
+   "url": "https://wquguru.github.io/fable52-fps-repro/",
+   "key": "wquguru.github.io/fable52-fps-repro",
    "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
    "metrics": {
-    "fable52_plays": 160,
+    "fable52_plays": 182,
     "fable52_featured": false,
+    "github_stars": 82,
     "chart_new_entry": false
    },
    "published": "2026-11-02",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Fable 5",
    "desc": "A one-sentence FPS prompt, 73 autonomous turns, 41 minutes: wet reflective floors and three waves of hover drones in a 128 KB file.",
    "image": "https://fable52.games/thumbs/sublevel-07-fps-repro.jpg",
    "author": "wquguru",
@@ -425,6 +527,14 @@
     "WebGL",
     "Reflections"
    ],
+   "mirror_url": "https://fable52.games/play/sublevel-07-fps-repro",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/wquguru/fable52-fps-repro",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -434,12 +544,13 @@
    "key": "op7418.github.io/guizang-game-skill",
    "source_url": "https://fable52.games/play/wusuo-shanmen",
    "metrics": {
-    "fable52_plays": 86,
+    "fable52_plays": 106,
     "fable52_featured": false,
+    "github_stars": 271,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
    "desc": "A 3D action demo from the 歸藏 Game Skill: a mist-shrouded mountain gate built by an AI agent skill.",
    "image": "https://fable52.games/thumbs/wusuo-shanmen.jpg",
    "author": "歸藏 (op7418)",
@@ -451,59 +562,49 @@
     "WebGL",
     "Wuxia"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/op7418/guizang-game-skill",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
-   "title": "Shuttle Strike",
-   "url": "https://fedifianto.github.io/shuttlestrike/",
-   "key": "fedifianto.github.io/shuttlestrike",
-   "source_url": "https://fable52.games/play/shuttle-strike",
+   "title": "TukTuk: وسّع يا باشا",
+   "url": "https://basemazab.github.io/tuktuk/",
+   "key": "basemazab.github.io/tuktuk",
+   "source_url": "https://fable52.games/play/tuktuk",
    "metrics": {
-    "fable52_plays": 54,
+    "fable52_plays": 139,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
-   "image": "https://fable52.games/thumbs/shuttle-strike.jpg",
-   "author": "fedifianto",
-   "author_url": "https://github.com/fedifianto",
-   "repo": "https://github.com/fedifianto/shuttlestrike",
+   "ai_hint": "Written by Claude Fable 5",
+   "desc": "Weave a tuk-tuk through a crowded Egyptian street, dodging microbuses, taxis and watermelon carts.",
+   "image": "https://fable52.games/thumbs/tuktuk.jpg",
+   "author": "basemazab",
+   "author_url": "https://github.com/basemazab",
+   "repo": "https://github.com/basemazab/tuktuk",
    "topics": [
-    "Sports",
-    "Webcam",
+    "Driving",
+    "Arcade",
     "Three.js",
-    "Hand Tracking",
-    "Single File"
+    "Mobile"
    ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Hanford Reach",
-   "url": "https://settlement-bluff-fable52.vercel.app/",
-   "key": "settlement-bluff-fable52.vercel.app",
-   "source_url": "https://fable52.games/play/hanford-reach",
-   "metrics": {
-    "fable52_plays": 72,
-    "fable52_featured": false,
-    "chart_new_entry": false
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/basemazab/tuktuk",
+    "hn": "",
+    "x_text": ""
    },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A cozy settlement builder in the ruins of a small town on the Columbia River, in first or third person.",
-   "image": "https://fable52.games/thumbs/hanford-reach.jpg",
-   "author": "chzbloom123",
-   "author_url": "https://github.com/chzbloom123",
-   "repo": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
-   "topics": [
-    "Simulation",
-    "Builder",
-    "Three.js",
-    "WebGL"
-   ],
    "passes": true
   },
   {
@@ -513,7 +614,7 @@
    "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d",
    "source_url": "https://fable52.games/play/feiche-3d",
    "metrics": {
-    "fable52_plays": 50,
+    "fable52_plays": 67,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -530,21 +631,134 @@
     "Fan-made",
     "Single File"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Hanford Reach",
+   "url": "https://settlement-bluff-fable52.vercel.app",
+   "key": "settlement-bluff-fable52.vercel.app",
+   "source_url": "https://fable52.games/play/hanford-reach",
+   "metrics": {
+    "fable52_plays": 83,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "A cozy settlement builder in the ruins of a small town on the Columbia River, in first or third person.",
+   "image": "https://fable52.games/thumbs/hanford-reach.jpg",
+   "author": "chzbloom123",
+   "author_url": "https://github.com/chzbloom123",
+   "repo": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
+   "topics": [
+    "Simulation",
+    "Builder",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "海克斯大乱斗",
+   "url": "https://lol.hanyue.io/",
+   "key": "lol.hanyue.io",
+   "source_url": "https://fable52.games/play/hextech-aram",
+   "metrics": {
+    "fable52_plays": 38,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+   "desc": "Pick a champion and brawl online on a frozen bridge in this fan-made ARAM-style arena.",
+   "image": "https://fable52.games/thumbs/hextech-aram.jpg",
+   "author": "hanyue.io",
+   "author_url": "https://lol.hanyue.io/",
+   "repo": "",
+   "topics": [
+    "MOBA",
+    "Multiplayer",
+    "Fan-made"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Shuttle Strike",
+   "url": "https://fedifianto.github.io/shuttlestrike/",
+   "key": "fedifianto.github.io/shuttlestrike",
+   "source_url": "https://fable52.games/play/shuttle-strike",
+   "metrics": {
+    "fable52_plays": 60,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "simple badminton game with claude fable 5",
+   "desc": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
+   "image": "https://fable52.games/thumbs/shuttle-strike.jpg",
+   "author": "fedifianto",
+   "author_url": "https://github.com/fedifianto",
+   "repo": "https://github.com/fedifianto/shuttlestrike",
+   "topics": [
+    "Sports",
+    "Webcam",
+    "Three.js",
+    "Hand Tracking",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/fedifianto/shuttlestrike",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
    "title": "Harvest Standoff",
-   "url": "https://harvest-standoff.vercel.app/",
+   "url": "https://harvest-standoff.vercel.app",
    "key": "harvest-standoff.vercel.app",
    "source_url": "https://fable52.games/play/harvest-standoff",
    "metrics": {
-    "fable52_plays": 50,
+    "fable52_plays": 58,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Fable 5",
    "desc": "Kid-friendly 5v5 farm battles: animals versus farmhands, a Stink-Pumpkin, and nobody gets hurt.",
    "image": "https://fable52.games/thumbs/harvest-standoff.jpg",
    "author": "andreteow",
@@ -556,6 +770,14 @@
     "WebGL",
     "Family"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/andreteow/farm-ca",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -565,12 +787,13 @@
    "key": "s77ffy.github.io/daedalus",
    "source_url": "https://fable52.games/play/daedalus",
    "metrics": {
-    "fable52_plays": 75,
+    "fable52_plays": 82,
     "fable52_featured": false,
+    "github_stars": 1,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
    "desc": "A Greek-mythology puzzle game built with Fable 5.2.",
    "image": "https://fable52.games/thumbs/daedalus.jpg",
    "author": "S77FFY",
@@ -581,6 +804,14 @@
     "Mythology",
     "Single File"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/S77FFY/daedalus",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -590,7 +821,7 @@
    "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship",
    "source_url": "https://fable52.games/play/transport-ship-3d",
    "metrics": {
-    "fable52_plays": 19,
+    "fable52_plays": 27,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -607,59 +838,14 @@
     "Fan-made",
     "Single File"
    ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Boring Game",
-   "url": "https://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
-   "key": "jakozaur.github.io/sf_bay_area_transit_fable_5_2_game",
-   "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
-   "metrics": {
-    "fable52_plays": 46,
-    "fable52_featured": false,
-    "chart_new_entry": false
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
    },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A voxel San Francisco Bay Area on real map data: plan the line, pick the boring machine, cut the red tape.",
-   "image": "https://fable52.games/thumbs/boring-game-sf-bay-transit.jpg",
-   "author": "jakozaur",
-   "author_url": "https://github.com/jakozaur",
-   "repo": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
-   "topics": [
-    "Simulation",
-    "Strategy",
-    "Voxel",
-    "Transit"
-   ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Sternenjäger",
-   "url": "https://oldzitterhand.github.io/sternenjaeger/",
-   "key": "oldzitterhand.github.io/sternenjaeger",
-   "source_url": "https://fable52.games/play/sternenjaeger",
-   "metrics": {
-    "fable52_plays": 60,
-    "fable52_featured": false,
-    "chart_new_entry": false
-   },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A sci-fi space shooter with 12 sectors and 3 boss fights, all in one HTML file.",
-   "image": "https://fable52.games/thumbs/sternenjaeger.jpg",
-   "author": "oldzitterhand",
-   "author_url": "https://github.com/oldzitterhand",
-   "repo": "https://github.com/oldzitterhand/sternenjaeger",
-   "topics": [
-    "Shooter",
-    "Arcade",
-    "Canvas",
-    "Mobile",
-    "Single File"
-   ],
    "passes": true
   },
   {
@@ -669,7 +855,7 @@
    "key": "v25.dafeiyugame.site",
    "source_url": "https://fable52.games/play/warm-toy-room-v25",
    "metrics": {
-    "fable52_plays": 14,
+    "fable52_plays": 25,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -685,6 +871,49 @@
     "3D",
     "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Boring Game",
+   "url": "https://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
+   "key": "jakozaur.github.io/sf_bay_area_transit_fable_5_2_game",
+   "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
+   "metrics": {
+    "fable52_plays": 51,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Congrats for shipping Fable 5",
+   "desc": "A voxel San Francisco Bay Area on real map data: plan the line, pick the boring machine, cut the red tape.",
+   "image": "https://fable52.games/thumbs/boring-game-sf-bay-transit.jpg",
+   "author": "jakozaur",
+   "author_url": "https://github.com/jakozaur",
+   "repo": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+   "topics": [
+    "Simulation",
+    "Strategy",
+    "Voxel",
+    "Transit"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -694,8 +923,9 @@
    "key": "fable52.games/play/misremember",
    "source_url": "https://fable52.games/play/misremember",
    "metrics": {
-    "fable52_plays": 49,
+    "fable52_plays": 53,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-11",
@@ -711,6 +941,50 @@
     "Three.js",
     "WebGL"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/hahaliu1029/fable5.2demo",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Sternenjäger",
+   "url": "https://oldzitterhand.github.io/sternenjaeger/",
+   "key": "oldzitterhand.github.io/sternenjaeger",
+   "source_url": "https://fable52.games/play/sternenjaeger",
+   "metrics": {
+    "fable52_plays": 63,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "browser game created with Fable 5",
+   "desc": "A sci-fi space shooter with 12 sectors and 3 boss fights, all in one HTML file.",
+   "image": "https://fable52.games/thumbs/sternenjaeger.jpg",
+   "author": "oldzitterhand",
+   "author_url": "https://github.com/oldzitterhand",
+   "repo": "https://github.com/oldzitterhand/sternenjaeger",
+   "topics": [
+    "Shooter",
+    "Arcade",
+    "Canvas",
+    "Mobile",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/oldzitterhand/sternenjaeger",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -720,8 +994,9 @@
    "key": "web-jjuuxm.tulingai.com",
    "source_url": "https://fable52.games/play/saltline-online",
    "metrics": {
-    "fable52_plays": 14,
+    "fable52_plays": 20,
     "fable52_featured": false,
+    "github_stars": 16,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
@@ -737,6 +1012,48 @@
     "Three.js",
     "WebSocket"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/wenzhengshi/fable5-2-salt-online",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Emberdeep",
+   "url": "https://dndnoob.github.io/EmberDeep/",
+   "key": "dndnoob.github.io/emberdeep",
+   "source_url": "https://fable52.games/play/emberdeep",
+   "metrics": {
+    "fable52_plays": 54,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Testing the Limits of Fable 5",
+   "desc": "A single-file dungeon descent where your torch is burning down.",
+   "image": "https://fable52.games/thumbs/emberdeep.jpg",
+   "author": "DNDNoob",
+   "author_url": "https://github.com/DNDNoob",
+   "repo": "https://github.com/DNDNoob/EmberDeep",
+   "topics": [
+    "Adventure",
+    "Roguelike",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/DNDNoob/EmberDeep",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
@@ -746,8 +1063,9 @@
    "key": "masugus.github.io/fable5.2-5min-game",
    "source_url": "https://fable52.games/play/becario-del-universo",
    "metrics": {
-    "fable52_plays": 18,
+    "fable52_plays": 22,
     "fable52_featured": false,
+    "github_stars": 0,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
@@ -762,31 +1080,14 @@
     "Mobile",
     "Single File"
    ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "海克斯大乱斗",
-   "url": "https://lol.hanyue.io/",
-   "key": "lol.hanyue.io",
-   "source_url": "https://fable52.games/play/hextech-aram",
-   "metrics": {
-    "fable52_plays": 20,
-    "fable52_featured": false,
-    "chart_new_entry": false
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/masugus/fable5.2-5min-game",
+    "hn": "",
+    "x_text": ""
    },
-   "published": "2026-11-09",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
-   "desc": "Pick a champion and brawl online on a frozen bridge in this fan-made ARAM-style arena.",
-   "image": "https://fable52.games/thumbs/hextech-aram.jpg",
-   "author": "hanyue.io",
-   "author_url": "https://lol.hanyue.io/",
-   "repo": "",
-   "topics": [
-    "MOBA",
-    "Multiplayer",
-    "Fan-made"
-   ],
    "passes": true
   },
   {
@@ -796,7 +1097,7 @@
    "key": "cf.hanyue.io",
    "source_url": "https://fable52.games/play/breach-transport-ship-online",
    "metrics": {
-    "fable52_plays": 12,
+    "fable52_plays": 18,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -812,31 +1113,72 @@
     "Multiplayer",
     "Fan-made"
    ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   },
   {
    "channel": "fable52",
-   "title": "Emberdeep",
-   "url": "https://dndnoob.github.io/EmberDeep/",
-   "key": "dndnoob.github.io/emberdeep",
-   "source_url": "https://fable52.games/play/emberdeep",
+   "title": "Duskline",
+   "url": "https://fable52.games/play/duskline-vxn7rh",
+   "key": "fable52.games/play/duskline-vxn7rh",
+   "source_url": "https://fable52.games/play/duskline-vxn7rh",
    "metrics": {
-    "fable52_plays": 49,
+    "fable52_plays": 6,
     "fable52_featured": false,
     "chart_new_entry": false
    },
-   "published": "2026-11-10",
+   "published": "2026-11-12",
    "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A single-file dungeon descent where your torch is burning down.",
-   "image": "https://fable52.games/thumbs/emberdeep.jpg",
-   "author": "DNDNoob",
-   "author_url": "https://github.com/DNDNoob",
-   "repo": "https://github.com/DNDNoob/EmberDeep",
-   "topics": [
-    "Adventure",
-    "Roguelike",
-    "Single File"
-   ],
+   "desc": "3D endless runner: a maintenance robot flees a sweeper drone along an elevated metro line at sunset",
+   "image": "https://fable52.games/thumbs/duskline-vxn7rh.jpg",
+   "author": "Raúl Berná",
+   "author_url": "https://x.com/sr_rauldev",
+   "repo": "",
+   "topics": [],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Open Skies",
+   "url": "https://fable52.games/play/flight-simulator-nfljgw",
+   "key": "fable52.games/play/flight-simulator-nfljgw",
+   "source_url": "https://fable52.games/play/flight-simulator-nfljgw",
+   "metrics": {
+    "fable52_plays": 2,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "Fly anywhere on Earth: real airports, real terrain and live weather, with a flight school that teaches you one skill at a time",
+   "image": "https://fable52.games/thumbs/flight-simulator-nfljgw.jpg",
+   "author": "ari neuwirth",
+   "author_url": "",
+   "repo": "",
+   "topics": [],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": ""
+   },
    "passes": true
   }
  ]

@@ -8,8 +8,8 @@
   {
    "channel": "hn",
    "title": "Fable 5.2 one-shotted my nephew's dream game",
-   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-   "key": "notesbylex.com",
+   "url": "https://aidens-revenge.pages.dev/",
+   "key": "aidens-revenge.pages.dev",
    "source_url": "https://news.ycombinator.com/item?id=50433659",
    "metrics": {
     "hn_points": 496,
@@ -18,7 +18,14 @@
    "published": "2026-11-09",
    "passes": true,
    "ai_hint": "Fable 5",
-   "desc": ""
+   "desc": "",
+   "read": "article",
+   "article": {
+    "excerpt": "Fable 5.2 One-Shotted My Nephew's Dream Game LLMs can make complete multi-level games that are fun. Lex Toumbourou · Nov 10, 2026 GameProjects CodingAgents TL;DR - Fable 5.2 one-shotted my nephew's dream game from a bunch of drawings, and it's a lot of fun. You can try it here . I've always loved beat 'em ups, and they seem to have come back into vogue in the last few years, with remakes of old cl",
+    "context": "hew's dream game from a bunch of drawings, and it's a lot of fun. You can try it [here]",
+    "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
+   },
+   "matched": "article_link"
   },
   {
    "channel": "hn",
@@ -33,7 +40,11 @@
    "published": "2026-11-11",
    "passes": true,
    "ai_hint": "",
-   "desc": ""
+   "desc": "",
+   "read": "article",
+   "article": {
+    "excerpt": "A Great Old-Timey Game-Programming Hack - Tom Moertel’s Blog Tom Moertel’s Blog Home About Archive A Great Old-Timey Game-Programming Hack By Tom Moertel Posted on December 14, 2013 Tags: assembly , 6809 , games , hacks A long time ago, when I was a college undergrad, I spent some time working on computer video games. This was in the 8-bit PC era, when the gaming hardware was almost impossibly slo"
+   }
   },
   {
    "channel": "hn",

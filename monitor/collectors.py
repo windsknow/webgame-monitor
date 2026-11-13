@@ -120,7 +120,8 @@ def hn(cfg, date, since=None, min_points=None, step_days=2):
             'ai_hint': ai_hint(title, h.get('story_text')), 'desc': '',
             'matched': 'title' if gamey else 'show_hn',
         })
-    return leads
+    from .enrich import enrich_hn                 # 过了分数线的：文章读正文找试玩链接，Show HN 读页面判断是不是游戏
+    return enrich_hn(leads, cfg)
 
 
 # ---------------- three.js 论坛作品区 ----------------
@@ -453,8 +454,11 @@ def wavedash(cfg, date):
 
 def fable52(cfg, date):
     """Fable52.games：收集 Claude Fable 5.2 做的网页游戏的合集站（2026-11-12 上 Hacker News）。
-    首页列出全部游戏（名称、一句话介绍、站内游玩数、作者、技术标签）；详情页有试玩链接、源码仓库和收录日期。
-    详情只在第一次见到时读，存在 data/state/fable52_detail.json 里。规则同榜单：新出现的过线；首次运行只有近 30 天的过线。"""
+    这是二手渠道：站上的试玩链接可能是别人的镜像，介绍是站长写的。所以只用它拿到游戏名、介绍和线索，
+    再按作者帖子 → 源码仓库 → HN 搜索找原始出处（enrich.trace_origin），试玩链接、日期和传播数字以原始出处为准。
+    首页列出全部游戏；详情页有试玩链接、作者链接、源码仓库和收录日期，第一次见到时读，存在 data/state/fable52_detail.json。
+    原始出处在收录后 14 天内每天重查一次（作者帖子的浏览数会涨）。规则同榜单：新出现的过线；首次运行只有近 30 天的过线。"""
+    from .enrich import trace_origin
     page = net.get('https://fable52.games/', retries=2, maxb=3_000_000)
     games = []
     for o in _objects_with(_flight(page), r'"games":\['):
@@ -463,6 +467,7 @@ def fable52(cfg, date):
             break
     detail_p = util.p('data', 'state', 'fable52_detail.json')
     cache = util.load(detail_p, {}) or {}
+    days = cfg['thresholds'].get('x_refresh_days', 14)
     entries = []
     for g in games:
         slug = g.get('slug')
@@ -477,20 +482,37 @@ def fable52(cfg, date):
             d = {'play_url': o.get('playUrl') or '', 'source_repo': o.get('sourceUrl') or '',
                  'author_url': o.get('authorUrl') or '', 'has_prompt': bool(o.get('promptText')),
                  'listed': dc.group(1) if dc else ''}
-            if p:
-                cache[slug] = d
-        url = d.get('play_url') or own              # 站内托管的（没有外部链接）用站内页面
+            if not p:
+                continue
+            cache[slug] = d
+        play = d.get('play_url') or own              # 站内托管的（没有外部链接）用站内页面
+        if not d.get('origin') or (d['origin'].get('checked', '') < date and
+                                   util.days_between(d.get('listed') or date, date) <= days):
+            d['origin'] = dict(trace_origin(g.get('title') or slug, play, d.get('author_url'), d.get('source_repo'),
+                                            cfg, _shift(d.get('listed') or date, -60)), checked=date)
+        org = d['origin']
+        url = org.get('url') or play
+        m = {'fable52_plays': g.get('playCount'), 'fable52_featured': bool(g.get('isFeatured'))}
+        if org['x'].get('views'):
+            m['x_views'] = org['x']['views']
+        if org['repo'].get('stars') is not None:
+            m['github_stars'] = org['repo']['stars']
+        if org['hn'].get('points'):
+            m['hn_points'], m['hn_comments'] = org['hn']['points'], org['hn']['comments']
+        pub = min(x for x in (org.get('published'), d.get('listed')) if x) if (org.get('published') or d.get('listed')) else ''
         entries.append({
             'channel': 'fable52', 'title': g.get('title') or slug, 'url': url, 'key': util.game_key(url),
-            'source_url': own,
-            'metrics': {'fable52_plays': g.get('playCount'), 'fable52_featured': bool(g.get('isFeatured'))},
-            # 详情页的 dateCreated 是收录进这个站的日期，不一定是游戏首次公开的日期
-            'published': d.get('listed', ''),
-            'ai_hint': f"Fable52.games 收录，标注由 {g.get('modelVersion') or 'Claude Fable 5.2'} 制作",
+            'source_url': own, 'metrics': m,
+            # 有原始出处的用原始出处的日期；否则是收录进这个站的日期，不一定是游戏首次公开的日期
+            'published': pub,
+            'ai_hint': org.get('ai_hint') or f"Fable52.games 收录，标注由 {g.get('modelVersion') or 'Claude Fable 5.2'} 制作",
             'desc': (g.get('tagline') or '')[:300],
             'image': ('https://fable52.games' + g['thumbnailUrl']) if (g.get('thumbnailUrl') or '').startswith('/') else '',
             'author': g.get('authorName') or '', 'author_url': d.get('author_url', ''),
             'repo': d.get('source_repo', ''), 'topics': g.get('techTags') or [],
+            'mirror_url': play if org.get('mirror') else '',
+            'origin': {'how': org.get('how'), 'x': org['x'].get('url', ''), 'repo': org['repo'].get('url', ''),
+                       'hn': org['hn'].get('url', ''), 'x_text': org['x'].get('text', '')[:300]},
         })
     util.save(detail_p, cache)
     # 两款游戏的试玩链接归一后撞成同一个键（同一个静态托管下的不同目录等）时，改用站内页面区分

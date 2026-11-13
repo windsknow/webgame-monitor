@@ -2837,7 +2837,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "40.4 万",
+    "value": "41 万",
     "doubt": false
    }
   ],
@@ -2860,7 +2860,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 40.4 万"
+    "说明": "X 单帖浏览 41 万"
    }
   ],
   "icon": "earth_icon.ico",
@@ -2872,7 +2872,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 403889,
+     "x_views": 410341,
      "x_likes": null
     }
    }
@@ -2886,9 +2886,9 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 40.4 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 41 万"
   ],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12"
  },
  {
@@ -2933,7 +2933,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 171584,
+     "x_views": 172288,
      "x_likes": null
     }
    }
@@ -2949,22 +2949,22 @@
   "reasons": [
    "X 帖子（@mattshumer_，核验确认），浏览 17.2 万"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13"
  },
  {
   "id": "seriesoftubes",
-  "name": "seriesoftubes",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "Series of Tubes",
+  "kind": "互联网基建经营",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
   "date_text": "2026-10-23 首次公开",
-  "play": "",
+  "play": "从一台路由器起步，铺光纤和海底光缆、在交换中心互联、按 95 计费，应对挖断光缆、鲨鱼咬线和路由泄漏，一路做到一级运营商。卡通画风，讲互联网实际怎么运转。",
   "quote": "Lay fiber, buy transit, peer at IXs and keep the eyeballs happy while backhoes, sharks and route leaks try to stop you. A free cartoon game about how the internet really works.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "开源；仓库里带一个 MCP 服务，让 AI 客户端能玩和调试这个游戏",
   "xcheck": "",
   "src": "GitHub 接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-11",
@@ -2973,7 +2973,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "seriesoftubes_shot.png",
   "extra_shots": [],
   "url": "https://seriesoftub.es/",
   "key": "seriesoftub.es",
@@ -2981,13 +2981,18 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "219 星 / 43 分叉",
+    "value": "221 星 / 43 分叉",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "题材少见：用经营游戏讲互联网基础设施怎么运转"
+   }
+  ],
   "reasons": [
-   "GitHub 219 星"
+   "GitHub 221 星"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -2997,23 +3002,26 @@
     "url": "https://github.com/fjaeckel/seriesoftubes",
     "date": "2026-11-11",
     "metrics": {
-     "github_stars": 219,
+     "github_stars": 221,
      "github_forks": 43
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
  },
  {
   "id": "ghanaian-street-games-you-can-play-in-th",
-  "name": "Ghanaian street games you can play in the browser",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "Ghana Street Games",
+  "kind": "街头游戏合集",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
   "date_text": "2026-11-08 首次公开",
-  "play": "",
+  "play": "35 款加纳街头游戏的 3D 合集，例如 Four Corners、Laski、One Pole、点球大战，可以和朋友一起玩。",
   "quote": "35 playable Ghanaian street games: Four Corners, Laski, One Pole, penalties, neighbourhood Pilolo and Pampanaa, and more.",
   "quote_src": "页面自述",
   "tech": "",
@@ -3064,7 +3072,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
   "images_tried": true
  },
@@ -3089,8 +3097,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "banana-mine-rush_icon.ico",
+  "shot": "banana-mine-rush_shot.jpg",
   "extra_shots": [],
   "url": "https://remix.gg/g/banana-mine-rush",
   "key": "remix.gg/g/banana-mine-rush",
@@ -3098,13 +3106,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "9,344",
+    "value": "9,699",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@0xChuckstock，核验确认），浏览 9,344"
+   "X 帖子（@0xChuckstock，核验确认），浏览 9,699"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude Fable 5.2 制作，发布在 Remix",
@@ -3114,7 +3122,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 9344,
+     "x_views": 9699,
      "x_likes": 54
     }
    }
@@ -3125,7 +3133,8 @@
   "source_posts": [
    "https://x.com/0xChuckstock/status/2120125184606658728"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "voxels",
@@ -3187,24 +3196,24 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
   "images_tried": true
  },
  {
   "id": "snowfield-taco-stand",
   "name": "Snowfield Taco Stand",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "kind": "经营",
+  "group": "Astrocade",
+  "group_type": "direction",
   "date_text": "2026-11-05 首次公开",
-  "play": "",
+  "play": "雪原上切玉米、剁牛油果、猎北极熊，把塔可摊做成救援营地，喂饱幸存者。",
   "quote": "Slice giant corn, chop avocados, hunt polar bears and grow a snowy taco stand into a rescue camp. Feed the survivors and throw a CAMP FEAST!",
   "quote_src": "平台页面描述",
   "tech": "",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3213,7 +3222,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "snowfield-taco-stand_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/snowfield-taco-stand/01M6JNF4AP6WB19MJ9EFJTHYJA",
   "key": "astrocade.com/games/snowfield-taco-stand/01m6jnf4ap6wb19mj9efjthyja",
@@ -3221,11 +3230,16 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "4.7 万 次",
+    "value": "5.4 万 次",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 5.4 万 次"
+   }
+  ],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-05 发布"
   ],
@@ -3237,16 +3251,18 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 9,
-     "astrocade_plays": 47379,
-     "astrocade_likes": 1073,
+     "astrocade_rank": 3,
+     "astrocade_plays": 54227,
+     "astrocade_likes": 1212,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "zombies-vs-humans-with-guns",
@@ -3270,7 +3286,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "zombies-vs-humans-with-guns_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/zombies-vs-humans-with-guns/01M71YM4G1BA64TMV0M1Z64T43",
   "key": "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
@@ -3278,7 +3294,7 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "2.5 万 次",
+    "value": "3.5 万 次",
     "doubt": false
    }
   ],
@@ -3294,16 +3310,17 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 2,
-     "astrocade_plays": 25106,
-     "astrocade_likes": 610,
+     "astrocade_rank": 1,
+     "astrocade_plays": 34560,
+     "astrocade_likes": 824,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "frost-harbor-ice-fishing-tycoon",
@@ -3327,7 +3344,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "frost-harbor-ice-fishing-tycoon_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/frost-harbor-ice-fishing-tycoon/01M6RGPE8ANFGQ002A14XH6M7W",
   "key": "astrocade.com/games/frost-harbor-ice-fishing-tycoon/01m6rgpe8anfgq002a14xh6m7w",
@@ -3351,16 +3368,17 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 13,
-     "astrocade_plays": 43768,
-     "astrocade_likes": 1018,
+     "astrocade_rank": 7,
+     "astrocade_plays": 43895,
+     "astrocade_likes": 1022,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "ben-10-ultimate-aliens",
@@ -3392,14 +3410,14 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "19.4 万 次",
+    "value": "21.1 万 次",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 19.4 万 次"
+    "说明": "平台显示游玩 21.1 万 次"
    }
   ],
   "reasons": [
@@ -3413,16 +3431,16 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 8,
-     "astrocade_plays": 194323,
-     "astrocade_likes": 5854,
+     "astrocade_rank": 10,
+     "astrocade_plays": 210821,
+     "astrocade_likes": 6245,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
   "images_tried": true
  },
@@ -3448,7 +3466,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "keyboard-escape-space-alien_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/keyboard-escapespace-alien/01M5PK05K0FN6401RN4N1DRHC9",
   "key": "astrocade.com/games/keyboard-escapespace-alien/01m5pk05k0fn6401rn4n1drhc9",
@@ -3481,7 +3499,8 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "steal-an-egg-monster",
@@ -3496,7 +3515,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3505,7 +3524,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "steal-an-egg-monster_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/steal-an-egg-monster/01M6BYGG6M3MQCWD3Y0S375PK5",
   "key": "astrocade.com/games/steal-an-egg-monster/01m6bygg6m3mqcwd3y0s375pk5",
@@ -3513,11 +3532,16 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "4.8 万 次",
+    "value": "5.5 万 次",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 5.5 万 次"
+   }
+  ],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-07 发布"
   ],
@@ -3529,83 +3553,30 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 16,
-     "astrocade_plays": 48315,
-     "astrocade_likes": 810,
+     "astrocade_rank": 13,
+     "astrocade_plays": 54674,
+     "astrocade_likes": 922,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
- },
- {
-  "id": "slop-cities",
-  "name": "slop-cities",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
-  "date_text": "2026-10-26 首次公开",
-  "play": "",
-  "quote": "Every slop city on a low-poly world map and globe: browser city sims remixed from mrdoob",
-  "quote_src": "页面自述",
-  "tech": "",
-  "xcheck": "",
-  "src": "GitHub 接口",
-  "hot": false,
-  "status": "auto",
-  "first_seen": {
-   "date": "2026-11-12",
-   "channel": "github"
-  },
-  "added": "2026-11-12",
-  "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
-  "extra_shots": [],
-  "url": "https://zz85.github.io/slop-cities/map/",
-  "key": "zz85.github.io/slop-cities",
-  "link_status": "ok",
-  "stats": [
-   {
-    "label": "GitHub",
-    "value": "42 星 / 22 分叉",
-    "doubt": false
-   }
-  ],
-  "signals": [],
-  "reasons": [
-   "GitHub 42 星"
-  ],
-  "ai_tag": "unlabeled",
-  "ai_evidence": "",
-  "sources": [
-   {
-    "channel": "github",
-    "url": "https://github.com/zz85/slop-cities",
-    "date": "2026-11-12",
-    "metrics": {
-     "github_stars": 42,
-     "github_forks": 22
-    }
-   }
-  ],
-  "x_handles": [],
-  "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "d2-web",
-  "name": "d2-web",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "OpenD2",
+  "kind": "暗黑破坏神 2 移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
   "date_text": "2026-10-29 首次公开",
-  "play": "",
+  "play": "暗黑破坏神 2 毁灭之王 1.13c 的引擎重写后编译到 WebAssembly，在浏览器里玩，需自备游戏文件，有联机服务器。",
   "quote": "OpenD2 is a full, open-source port of Diablo II: Lord of Destruction 1.13c with multiplayer on the OpenD2 Online Realm. Play in the browser or on Windows, Linux, macOS and Android with your own game files.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "C++ 编译到 WebAssembly",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3616,8 +3587,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "d2-web_icon.ico",
+  "shot": "d2-web_shot.jpg",
   "extra_shots": [],
   "url": "https://opend2.com",
   "key": "opend2.com",
@@ -3625,7 +3596,7 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "71 星 / 7 分叉",
+    "value": "71 星 / 8 分叉",
     "doubt": false
    }
   ],
@@ -3633,8 +3604,8 @@
   "reasons": [
    "GitHub 71 星"
   ],
-  "ai_tag": "unlabeled",
-  "ai_evidence": "",
+  "ai_tag": "ai",
+  "ai_evidence": "README：\"Much of the code was written with heavy help from AI coding\"",
   "sources": [
    {
     "channel": "github",
@@ -3642,13 +3613,14 @@
     "date": "2026-11-12",
     "metrics": {
      "github_stars": 71,
-     "github_forks": 7
+     "github_forks": 8
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "pokemon-survivors",
@@ -3671,8 +3643,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "pokemon-survivors_icon.png",
+  "shot": "pokemon-survivors_shot.png",
   "extra_shots": [],
   "url": "https://www.pokemonsurvivors.com",
   "key": "pokemonsurvivors.com",
@@ -3703,19 +3675,20 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "dream-arcade-demo",
-  "name": "dream-arcade-demo",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "造梦街机",
+  "kind": "AI 生成单位的策略合集",
+  "group": "把大模型当作玩法本身",
+  "group_type": "direction",
   "date_text": "2026-11-03 首次公开",
-  "play": "",
+  "play": "用自然语言描述单位，模型生成属性、技能和素材，再带进庭院防守、口袋 RTS、增量矿场里玩。",
   "quote": "用自然语言创造游戏单位，带入庭院防守、口袋RTS和增量矿场直接玩。",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "调用 RunningHub 的模型接口",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3727,7 +3700,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "dream-arcade-demo_shot.jpg",
   "extra_shots": [],
   "url": "https://ritrls.github.io/dream-arcade-demo/",
   "key": "ritrls.github.io/dream-arcade-demo",
@@ -3743,8 +3716,8 @@
   "reasons": [
    "GitHub 76 星"
   ],
-  "ai_tag": "unlabeled",
-  "ai_evidence": "",
+  "ai_tag": "ai",
+  "ai_evidence": "玩法本身调用 RunningHub 上的模型生成单位的属性、技能和素材",
   "sources": [
    {
     "channel": "github",
@@ -3758,16 +3731,17 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "ashfolk",
-  "name": "ashfolk",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "Ashfolk",
+  "kind": "上帝模拟",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
   "date_text": "2026-10-18 首次公开",
-  "play": "",
+  "play": "塑造一座浮空岛，降雨放火，看岛上的部落从石器时代发展到铁器时代。",
   "quote": "A free god simulator in your browser. Shape a floating island, call rain and fire, and watch its first tribes grow from the Stone Age to the Iron Age.",
   "quote_src": "页面自述",
   "tech": "",
@@ -3782,7 +3756,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "ashfolk_shot.jpg",
   "extra_shots": [],
   "url": "https://ashfolk.com",
   "key": "ashfolk.com",
@@ -3813,62 +3787,8 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
- },
- {
-  "id": "play-gta5-on-browser",
-  "name": "Play GTA5 on Browser",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
-  "date_text": "2026-11-11 首次公开",
-  "play": "",
-  "quote": "",
-  "quote_src": "",
-  "tech": "",
-  "xcheck": "",
-  "src": "Hacker News 官方接口",
-  "hot": false,
-  "status": "auto",
-  "first_seen": {
-   "date": "2026-11-12",
-   "channel": "hn"
-  },
-  "added": "2026-11-12",
-  "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
-  "extra_shots": [],
-  "url": "https://playgta5.com/",
-  "key": "playgta5.com",
-  "link_status": "ok",
-  "stats": [
-   {
-    "label": "Hacker News",
-    "value": "83 分 / 62 评论",
-    "doubt": false
-   }
-  ],
-  "signals": [],
-  "reasons": [
-   "Hacker News 83 分"
-  ],
-  "ai_tag": "unlabeled",
-  "ai_evidence": "",
-  "sources": [
-   {
-    "channel": "hn",
-    "url": "https://news.ycombinator.com/item?id=50458710",
-    "date": "2026-11-12",
-    "metrics": {
-     "hn_points": 83,
-     "hn_comments": 62
-    }
-   }
-  ],
-  "x_handles": [],
-  "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "flickshot",
@@ -3891,8 +3811,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "flickshot_icon.ico",
+  "shot": "flickshot_shot.jpg",
   "extra_shots": [],
   "url": "https://www.spawn.co/@yuidev/flickshot",
   "key": "spawn.co/@yuidev/flickshot",
@@ -3900,7 +3820,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "1,801 次",
+    "value": "1,833 次",
     "doubt": false
    }
   ],
@@ -3917,15 +3837,16 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 12,
-     "spawn_plays": 1801,
-     "spawn_likes": 75,
+     "spawn_plays": 1833,
+     "spawn_likes": 76,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "spawn-turismo",
@@ -3948,8 +3869,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "spawn-turismo_icon.ico",
+  "shot": "spawn-turismo_shot.jpg",
   "extra_shots": [],
   "url": "https://www.spawn.co/@kevin/spawn-turismo",
   "key": "spawn.co/@kevin/spawn-turismo",
@@ -3957,7 +3878,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "3,621 次",
+    "value": "3,667 次",
     "doubt": false
    }
   ],
@@ -3974,15 +3895,16 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 15,
-     "spawn_plays": 3621,
-     "spawn_likes": 71,
+     "spawn_plays": 3667,
+     "spawn_likes": 72,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "aether-legends",
@@ -4005,8 +3927,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "aether-legends_icon.ico",
+  "shot": "aether-legends_shot.jpg",
   "extra_shots": [],
   "url": "https://www.spawn.co/@yisus/aether-legends",
   "key": "spawn.co/@yisus/aether-legends",
@@ -4014,7 +3936,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "906 次",
+    "value": "922 次",
     "doubt": false
    }
   ],
@@ -4031,7 +3953,7 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 16,
-     "spawn_plays": 906,
+     "spawn_plays": 922,
      "spawn_likes": 70,
      "chart_new_entry": false
     }
@@ -4039,7 +3961,8 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "glint",
@@ -4062,8 +3985,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "glint_icon.ico",
+  "shot": "glint_shot.jpg",
   "extra_shots": [],
   "url": "https://www.spawn.co/@fracture/glint",
   "key": "spawn.co/@fracture/glint",
@@ -4071,7 +3994,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "769 次",
+    "value": "798 次",
     "doubt": false
    }
   ],
@@ -4087,8 +4010,8 @@
     "url": "https://www.spawn.co/",
     "date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 18,
-     "spawn_plays": 769,
+     "spawn_rank": 19,
+     "spawn_plays": 798,
      "spawn_likes": 59,
      "chart_new_entry": false
     }
@@ -4096,19 +4019,20 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "tides-of-fortune-an-open-world-pirate-ga",
-  "name": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "Tides of Fortune",
+  "kind": "开放世界海盗",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
   "date_text": "2026-11-08 首次公开",
-  "play": "",
+  "play": "17 世纪加勒比海：航海、海战、接舷、单挑、港口贸易和总督任务，游戏里没有任何素材文件。",
   "quote": "Hi everyone! Tides of Fortune is an open-world pirate game for the browser, set in the 17th-century Caribbean and inspired by 2000s classics like Sid Meier’s Pirates!: sailing, naval battles, boarding, sword duels, ports, trade and governors’ missions. My goal was really to use three.js and focus on",
   "quote_src": "论坛首帖原文",
-  "tech": "",
+  "tech": "three.js，零素材文件",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
   "hot": false,
@@ -4128,13 +4052,13 @@
   "stats": [
    {
     "label": "three.js 论坛",
-    "value": "190 次浏览",
+    "value": "206 次浏览",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "three.js 论坛作品区，190 次浏览"
+   "three.js 论坛作品区，206 次浏览"
   ],
   "ai_tag": "ai",
   "ai_evidence": "论坛帖子：Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
@@ -4144,7 +4068,7 @@
     "url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
     "date": "2026-11-12",
     "metrics": {
-     "threejs_views": 190,
+     "threejs_views": 206,
      "threejs_replies": 6,
      "threejs_likes": 8
     }
@@ -4152,19 +4076,20 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "afk-city-a-city-that-builds-itself-while",
-  "name": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "AFK City",
+  "kind": "放置城市建造",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
   "date_text": "2026-11-09 首次公开",
-  "play": "",
+  "play": "看一座低多边形城市自己长出来：高楼拔起、车流往来、昼夜交替，也可以接手自己划区规划。",
   "quote": "Hi all! I made AFK City , a free browser game where a city builds itself. Sit back and watch towers rise, traffic flow and day turn to night, or take over and zone it yourself. Play (free, desktop and mobile, no download): AFK City — the free city builder that builds itself 07_1715_golden 1920×1080 ",
   "quote_src": "论坛首帖原文",
-  "tech": "",
+  "tech": "three.js r186，支持手机",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
   "hot": false,
@@ -4175,8 +4100,8 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
-  "shot": null,
+  "icon": "afk-city-a-city-that-builds-itself-while_icon.ico",
+  "shot": "afk-city-a-city-that-builds-itself-while_shot.png",
   "extra_shots": [],
   "url": "https://afkcity.com/",
   "key": "afkcity.com",
@@ -4184,13 +4109,13 @@
   "stats": [
    {
     "label": "three.js 论坛",
-    "value": "110 次浏览",
+    "value": "128 次浏览",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "three.js 论坛作品区，110 次浏览"
+   "three.js 论坛作品区，128 次浏览"
   ],
   "ai_tag": "ai",
   "ai_evidence": "论坛帖子：I designed and art-directed it; the code was written with the base built in Gemini 3",
@@ -4200,15 +4125,16 @@
     "url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
     "date": "2026-11-12",
     "metrics": {
-     "threejs_views": 110,
-     "threejs_replies": 5,
+     "threejs_views": 128,
+     "threejs_replies": 6,
      "threejs_likes": 3
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "game",
@@ -4232,7 +4158,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "game_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/gourav_io/status/2119791071089852888",
   "key": "x:2119791071089852888",
@@ -4240,13 +4166,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "7,938",
+    "value": "7,963",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 7,938"
+   "X 帖子（@gourav_io，核验确认），浏览 7,963"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4256,7 +4182,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 7938,
+     "x_views": 7963,
      "x_likes": 12
     }
    }
@@ -4267,7 +4193,8 @@
   "source_posts": [
    "https://x.com/gourav_io/status/2119791071089852888"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "frensofpria",
@@ -4291,7 +4218,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "frensofpria_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
   "key": "x:2119643510207099323",
@@ -4315,7 +4242,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 32688,
+     "x_views": 32763,
      "x_likes": 244
     }
    }
@@ -4326,7 +4253,8 @@
   "source_posts": [
    "https://x.com/FrensOfPRIA/status/2119643510207099323"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "cod",
@@ -4350,7 +4278,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "cod_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/alightinastorm/status/2120020469487440210",
   "key": "x:2120020469487440210",
@@ -4374,7 +4302,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 12196,
+     "x_views": 12365,
      "x_likes": 119
     }
    }
@@ -4385,7 +4313,8 @@
   "source_posts": [
    "https://x.com/alightinastorm/status/2120020469487440210"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "three-js",
@@ -4409,7 +4338,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "three-js_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/alightinastorm/status/2120010936584945922",
   "key": "x:2120010936584945922",
@@ -4417,13 +4346,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "5.7 万",
+    "value": "5.8 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@alightinastorm，核验确认），浏览 5.7 万"
+   "X 帖子（@alightinastorm，核验确认），浏览 5.8 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明让 Fable 5.2 用 three.js 制作",
@@ -4433,7 +4362,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 57246,
+     "x_views": 57612,
      "x_likes": 451
     }
    }
@@ -4444,7 +4373,8 @@
   "source_posts": [
    "https://x.com/alightinastorm/status/2120010936584945922"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "game-2",
@@ -4468,7 +4398,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "game-2_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/EvanMilenko/status/2119969113762082931",
   "key": "x:2119969113762082931",
@@ -4492,7 +4422,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 38589,
+     "x_views": 38979,
      "x_likes": 204
     }
    }
@@ -4503,7 +4433,8 @@
   "source_posts": [
    "https://x.com/EvanMilenko/status/2119969113762082931"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "fps",
@@ -4527,7 +4458,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "fps_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
   "key": "x:2119935331499925557",
@@ -4535,13 +4466,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "19.4 万",
+    "value": "19.5 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@_sholtodouglas，核验确认），浏览 19.4 万"
+   "X 帖子（@_sholtodouglas，核验确认），浏览 19.5 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
@@ -4551,7 +4482,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 193620,
+     "x_views": 195188,
      "x_likes": 1686
     }
    }
@@ -4562,7 +4493,8 @@
   "source_posts": [
    "https://x.com/_sholtodouglas/status/2119935331499925557"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "mmo",
@@ -4586,7 +4518,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "mmo_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/Izkimar/status/2119931740940640542",
   "key": "x:2119931740940640542",
@@ -4610,7 +4542,7 @@
     "url": "https://x.com/Izkimar/status/2119931740940640542",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 21913,
+     "x_views": 22203,
      "x_likes": 297
     }
    }
@@ -4621,7 +4553,8 @@
   "source_posts": [
    "https://x.com/Izkimar/status/2119931740940640542"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "gilt-gutter",
@@ -4645,7 +4578,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "gilt-gutter_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
   "key": "x:2119900487688622171",
@@ -4653,13 +4586,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "10.5 万",
+    "value": "10.6 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@kevin_t_ngo，核验确认），浏览 10.5 万"
+   "X 帖子（@kevin_t_ngo，核验确认），浏览 10.6 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Claude Fable 5.2 制作",
@@ -4669,7 +4602,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 105483,
+     "x_views": 106225,
      "x_likes": 281
     }
    }
@@ -4680,19 +4613,20 @@
   "source_posts": [
    "https://x.com/kevin_t_ngo/status/2119900487688622171"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "mu-online-solo-classic",
-  "name": "mu-online-solo-classic",
-  "kind": "",
-  "group": "待归类",
-  "group_type": "pending",
+  "name": "MU Online Solo Classic",
+  "kind": "老网游单机化",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
   "date_text": "2026-10-17 首次公开",
-  "play": "",
+  "play": "奇迹 MU 0.97k 的客户端和服务端一起编译到 WebAssembly，在浏览器里单机玩。",
   "quote": "Standalone MU Online 0.97k classic game & server compiled to WebAssembly (C++17 / Emscripten) for 100% client-side in-browser solo gameplay.",
   "quote_src": "仓库描述",
-  "tech": "",
+  "tech": "C++17，Emscripten，WebGL2",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -4703,7 +4637,7 @@
   },
   "added": "2026-11-12",
   "issue": "2026-11-09",
-  "icon": null,
+  "icon": "mu-online-solo-classic_icon.ico",
   "shot": null,
   "extra_shots": [],
   "url": "https://andvolodko.github.io/mu-online-solo-classic/",
@@ -4720,8 +4654,8 @@
   "reasons": [
    "GitHub 39 星"
   ],
-  "ai_tag": "unlabeled",
-  "ai_evidence": "",
+  "ai_tag": "ai",
+  "ai_evidence": "README：移植工作由 Cursor（Grok）和 Google Antigravity（Gemini）协助结对编程",
   "sources": [
    {
     "channel": "github",
@@ -4735,7 +4669,8 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "roadside",
@@ -4758,7 +4693,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "roadside_shot.jpg",
   "extra_shots": [],
   "url": "https://x.com/scottstts/status/2120549388745379867",
   "key": "x:2120549388745379867",
@@ -4767,7 +4702,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "1.2 万",
+    "value": "1.5 万",
     "doubt": false
    }
   ],
@@ -4778,7 +4713,7 @@
    }
   ],
   "reasons": [
-   "X 帖子（@scottstts，规则识别），浏览 1.2 万"
+   "X 帖子（@scottstts，规则识别），浏览 1.5 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：正文提到 fable（规则识别）",
@@ -4788,8 +4723,8 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 11519,
-     "x_likes": 211
+     "x_views": 15383,
+     "x_likes": 258
     }
    }
   ],
@@ -4799,7 +4734,8 @@
   "source_posts": [
    "https://x.com/scottstts/status/2120549388745379867"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "lanternfall",
@@ -4822,7 +4758,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "lanternfall_shot.jpg",
   "extra_shots": [],
   "url": "https://loktar00.github.io/lanternfall/",
   "key": "loktar00.github.io/lanternfall",
@@ -4831,13 +4767,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "18.6 万",
+    "value": "19.2 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@loktar00，核验确认），浏览 18.6 万"
+   "X 帖子（@loktar00，核验确认），浏览 19.2 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
@@ -4847,7 +4783,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 185817,
+     "x_views": 192357,
      "x_likes": null
     }
    }
@@ -4858,7 +4794,8 @@
   "source_posts": [
    "https://x.com/loktar00/status/2120192761542615271"
   ],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "frost-lumber-camp",
@@ -4881,7 +4818,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "frost-lumber-camp_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/frost-lumber-camp/01M6QDNDVYSZWAXMCG2EDQZK7A",
   "key": "astrocade.com/games/frost-lumber-camp/01m6qdndvyszwaxmcg2edqzk7a",
@@ -4906,16 +4843,17 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 7,
-     "astrocade_plays": 43617,
-     "astrocade_likes": 873,
+     "astrocade_rank": 6,
+     "astrocade_plays": 44306,
+     "astrocade_likes": 891,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "winter-upd-first-date-on-park",
@@ -4938,7 +4876,7 @@
   "added": "2026-11-12",
   "issue": "2026-11-09",
   "icon": null,
-  "shot": null,
+  "shot": "winter-upd-first-date-on-park_shot.jpg",
   "extra_shots": [],
   "url": "https://www.astrocade.com/games/️-winter-upd-first-date-on-park/01M5YV9YDCBPHP8ZRF29AX0A4S",
   "key": "astrocade.com/games/️-winter-upd-first-date-on-park/01m5yv9ydcbphp8zrf29ax0a4s",
@@ -4972,7 +4910,8 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12"
+  "stats_date": "2026-11-13",
+  "images_tried": true
  },
  {
   "id": "squishy-balloon-slime-diy-asmr",
@@ -5034,7 +4973,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
   "images_tried": true
  },
@@ -5098,7 +5037,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
   "images_tried": true
  },
@@ -5132,14 +5071,14 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "83.6 万 次",
+    "value": "84.4 万 次",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 83.6 万 次"
+    "说明": "平台显示游玩 84.4 万 次"
    }
   ],
   "reasons": [
@@ -5153,17 +5092,2741 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 11,
-     "astrocade_plays": 836179,
-     "astrocade_likes": 13628,
+     "astrocade_rank": 2,
+     "astrocade_plays": 843668,
+     "astrocade_likes": 13727,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-12",
+  "stats_date": "2026-11-13",
   "hot_since": "2026-11-12",
+  "images_tried": true
+ },
+ {
+  "id": "anime-wedding-dress-up-studio",
+  "name": "Anime Wedding Dress Up Studio",
+  "kind": "换装",
+  "group": "Astrocade",
+  "group_type": "direction",
+  "play": "给动漫新娘搭配婚纱、头纱、首饰和捧花，挑选婚礼场地，走红毯赚爱心值。",
+  "quote": "Style your anime bride! Mix gowns, veils, jewelry and bouquets, pick dreamy wedding venues, then walk the aisle for love points.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "anime-wedding-dress-up-studio_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/anime-wedding-dress-up-studio/01M6YNY64TXYVQPPF6Y9PJHRHD",
+  "key": "astrocade.com/games/anime-wedding-dress-up-studio/01m6yny64txyvqppf6y9pjhrhd",
+  "link_status": "ok",
+  "date_text": "2026-11-08 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "7.7 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 7.7 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-08 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-12",
+    "metrics": {
+     "astrocade_rank": 5,
+     "astrocade_plays": 76816,
+     "astrocade_likes": 1403,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "sunrise-high-school-life",
+  "name": "Sunrise High School life",
+  "kind": "校园生活模拟",
+  "group": "Astrocade",
+  "group_type": "direction",
+  "play": "方块画风的校园生活：上课、答老师的题、吃午饭、在校庆上跳舞、坐校车、装扮自己的学生，有小地图、课表、昼夜循环和金币。",
+  "quote": "Live a blocky school life: attend classes, quiz teachers, eat lunch, dance at the festival, ride the bus and customize your student. Minimap, timetable, day-night cycle and coins!",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "sunrise-high-school-life_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/sunrise-high-school-life/01M6XQANAF2KFJ35PN7FZFBCZ1",
+  "key": "astrocade.com/games/sunrise-high-school-life/01m6xqanaf2kfj35pn7fzfbcz1",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "7.1 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 7.1 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-09 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-13",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 70941,
+     "astrocade_likes": 1562,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "ninja-unleashed",
+  "name": "NINJA UNLEASHED",
+  "kind": "3D 跑酷",
+  "group": "Astrocade",
+  "group_type": "direction",
+  "play": "扮演原创忍者，在动漫风村庄的屋顶上冲刺、跳跃、飞檐走壁。",
+  "quote": "**Description:** Dash, jump, and wall-run through a vibrant 3D anime village as an original ninja on a free-form rooftop run.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "ninja-unleashed_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/ninja-unleashed/01M6FPJD9ESYKWAV7JKFJBBYGA",
+  "key": "astrocade.com/games/ninja-unleashed/01m6fpjd9esykwav7jkfjbbyga",
+  "link_status": "ok",
+  "date_text": "2026-11-03 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.6 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-03 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-13",
+    "metrics": {
+     "astrocade_rank": 9,
+     "astrocade_plays": 35649,
+     "astrocade_likes": 638,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "pocket-soccer-3d",
+  "name": "Pocket Soccer 3D",
+  "kind": "3D 足球",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "7 人制 3D 足球，有裁判、越位、红黄牌、点球和战术设置，全部在一个网页文件里，支持手机。",
+  "quote": "Seven-a-side 3D football with referees, offside, cards, penalties and tactics, in one HTML file.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js，单文件约 1.2 MB",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "pocket-soccer-3d_icon.png",
+  "shot": "pocket-soccer-3d_shot.jpg",
+  "extra_shots": [],
+  "url": "https://shaunprice.github.io/soccer-3d/",
+  "key": "shaunprice.github.io/soccer-3d",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "744 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "规则完整的 7 人制足球做进单个网页文件；Fable52.games 站内游玩数排第二"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Soccer-3D - Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/pocket-soccer-3d",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 744,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
+ },
+ {
+  "id": "mothlight-vesper-9",
+  "name": "MOTHLIGHT // Vesper-9",
+  "kind": "赛博朋克竞速",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "雨夜的赛博城市里，穿过 5 个街区的 12 道光门。",
+  "quote": "Street racing through a rain-slick cyberpunk city: thread 12 light gates across five districts.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "mothlight-vesper-9_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/mothlight",
+  "key": "fable52.games/play/mothlight",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "317 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/mothlight",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 317,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "what-the-water-keeps",
+  "name": "What the Water Keeps",
+  "kind": "氛围探索",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "提灯驾一条小船，沿安静的水道穿过一连串风格迥异的世界，也可以放手让水流带着走。",
+  "quote": "A slow boat ride by lantern light through a chain of very different realms, or let the current carry you.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL、Web Audio",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "what-the-water-keeps_icon.ico",
+  "shot": "what-the-water-keeps_shot.jpg",
+  "extra_shots": [],
+  "url": "https://what-the-water-keeps.vercel.app/",
+  "key": "what-the-water-keeps.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "308 次",
+    "doubt": false
+   },
+   {
+    "label": "X 帖子浏览",
+    "value": "48.6 万",
+    "doubt": false
+   },
+   {
+    "label": "Hacker News",
+    "value": "1 分 / 0 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 48.6 万"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自 Hacker News 帖子的链接，作者帖子浏览 48.6 万"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "作者帖子：Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/what-the-water-keeps",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 308,
+     "fable52_featured": false,
+     "x_views": 486166,
+     "hn_points": 1,
+     "hn_comments": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "bayhaven",
+  "name": "Bayhaven",
+  "kind": "开放世界犯罪动作（持续开发中）",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "原创开放世界犯罪游戏，可以驾车。作者让 Fable 5.2 每次跑一个自主会话往下写，页面标题写着当前是第几天，是一款公开边做边玩的游戏。",
+  "quote": "An original open-world crime game written live by Fable 5.2, one autonomous session at a time.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "bayhaven_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fablestar.games/play/",
+  "key": "fablestar.games",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "328 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "新的制作方式：模型每次跑一个自主会话，公开地连续开发一款开放世界游戏"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Bayhaven: an original open-world game, written live by Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/bayhaven",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 328,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
+ },
+ {
+  "id": "cs",
+  "name": "几猫CS",
+  "kind": "Saltline 中文换皮",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "Saltline 的完整汉化版，雨夜集装箱港口改成了\"几猫\"码头。",
+  "quote": "A fully Chinese-localized remix of Saltline: a rain-soaked container-port FPS rebranded as the 几猫 shipping terminal.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "cs_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/jimao-cs",
+  "key": "fable52.games/play/jimao-cs",
+  "link_status": "ok",
+  "date_text": "2026-11-12 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "132 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/jimao-cs",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 132,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "dustfall",
+  "name": "Dustfall",
+  "kind": "开放世界西部",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "原创开放世界西部游戏：骑马、打猎、钓鱼、打牌，在 Sorrel 盆地了结一桩旧怨。",
+  "quote": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "dustfall_shot.jpg",
+  "extra_shots": [],
+  "url": "https://dustfalls.netlify.app/",
+  "key": "dustfalls.netlify.app",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "281 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "3 星",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "用 Fable 5.2 做出包含骑马、打猎、钓鱼、打牌等多种系统的开放世界"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Created to test the Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/dustfall",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 281,
+     "fable52_featured": false,
+     "github_stars": 3,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
+ },
+ {
+  "id": "blameless",
+  "name": "BLAMELESS",
+  "kind": "程序员题材 FPS",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "凌晨 3:07 值班告警响起、线上挂了，主角亲自\"kubectl exec\"进生产环境开枪解决问题。",
+  "quote": "An on-call shooter: 03:07, prod is down, and you kubectl exec into production in person.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "blameless_shot.jpg",
+  "extra_shots": [],
+  "url": "https://blameless.petruha.ge",
+  "key": "blameless.petruha.ge",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "335 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "程序员值班梗做成的射击游戏，作者写明由 AI 按一句提示词做出"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "页面描述写\"Built by an AI from one prompt\"；Fable52.games 标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/blameless",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 335,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
+ },
+ {
+  "id": "pelican-on-a-bike",
+  "name": "鹈鹕骑单车 · Pelican on a Bike",
+  "kind": "休闲",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "戴头盔、围围巾的鹈鹕骑老式单车沿海边追鱼。",
+  "quote": "A helmeted pelican in a scarf rides a vintage bike along the coast, chasing fish.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js，程序化生成，单文件",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "pelican-on-a-bike_shot.jpg",
+  "extra_shots": [],
+  "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
+  "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "345 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/pelican-on-a-bike",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 345,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "game-3",
+  "name": "青云宗 · 御剑采灵",
+  "kind": "仙侠御剑飞行",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "第三人称御剑飞过云海，收集 20 团灵气，点亮宗门山门。",
+  "quote": "Third-person sword flight over a sea of clouds: gather 20 motes of qi, light the sect gate and fly through.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "game-3_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/qingyun-sword-flight",
+  "key": "fable52.games/play/qingyun-sword-flight",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "197 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/qingyun-sword-flight",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 197,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "evensong",
+  "name": "Evensong",
+  "kind": "魂系动作 Demo",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "在被水淹没的大教堂里打一场首领战。",
+  "quote": "One duel in a drowned cathedral: a souls-like demo that plays in the browser.",
+  "quote_src": "平台页面描述",
+  "tech": "WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "evensong_icon.ico",
+  "shot": "evensong_shot.jpg",
+  "extra_shots": [],
+  "url": "https://evensong-phi.vercel.app/",
+  "key": "evensong-phi.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "243 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/evensong",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 243,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "game-4",
+  "name": "黑神话：悟空 · 虎先锋",
+  "kind": "同人首领战",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "play": "同人向的《黑神话：悟空》虎先锋首领战。",
+  "quote": "A fan-made browser boss fight against the Tiger Vanguard.",
+  "quote_src": "平台页面描述",
+  "tech": "WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "game-4_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.anxiangsir.com/wukong-tiger-engine/",
+  "key": "anxiangsir.com",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "103 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/wukong-tiger-vanguard",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 103,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "tidebell",
+  "name": "Tidebell 潮钟",
+  "kind": "水下探索",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "驾小潜艇从珊瑚礁潜到深渊，唤醒 7 口潮钟。",
+  "quote": "Pilot a tiny submersible from sunlit reefs to the abyss and wake seven sleeping tide bells.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL，程序化生成",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "tidebell_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/tidebell",
+  "key": "fable52.games/play/tidebell",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "189 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/tidebell",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 189,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "ironvale",
+  "name": "Ironvale",
+  "kind": "3D 即时战略",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "采集、建造、经历三个时代，击败 Crimson March。",
+  "quote": "A 3D real-time strategy game: gather, build, advance through three ages and defeat the Crimson March.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "ironvale_shot.jpg",
+  "extra_shots": [],
+  "url": "https://sharpwizard.github.io/ironvale/",
+  "key": "sharpwizard.github.io/ironvale",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "244 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Ironvale: a game made with AI (Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/ironvale",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 244,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "sublevel-07",
+  "name": "SUBLEVEL 07",
+  "kind": "FPS 复现实验",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "一句话提示词、73 轮自主操作、41 分钟，做出带反光地面和三波无人机的 FPS，文件 128 KB。",
+  "quote": "A one-sentence FPS prompt, 73 autonomous turns, 41 minutes: wet reflective floors and three waves of hover drones in a 128 KB file.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "sublevel-07_shot.jpg",
+  "extra_shots": [],
+  "url": "https://wquguru.github.io/fable52-fps-repro/",
+  "key": "wquguru.github.io/fable52-fps-repro",
+  "link_status": "ok",
+  "date_text": "2026-11-02 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "182 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "82 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/sublevel-07-fps-repro",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 182,
+     "fable52_featured": false,
+     "github_stars": 82,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "game-5",
+  "name": "雾锁山门",
+  "kind": "3D 武侠动作 Demo",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "雾气笼罩的山门场景动作演示，出自\"歸藏 Game Skill\"这个给 AI 用的做游戏技能包。",
+  "quote": "A 3D action demo from the 歸藏 Game Skill: a mist-shrouded mountain gate built by an AI agent skill.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值；GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "game-5_icon.png",
+  "shot": "game-5_shot.jpg",
+  "extra_shots": [],
+  "url": "https://op7418.github.io/guizang-game-skill/",
+  "key": "op7418.github.io/guizang-game-skill",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "106 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "271 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
+   "GitHub 228 星"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/wusuo-shanmen",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 106,
+     "fable52_featured": false,
+     "github_stars": 271,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/op7418/guizang-game-skill",
+    "date": "2026-11-12",
+    "metrics": {
+     "github_stars": 228,
+     "github_forks": 32
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "tuktuk",
+  "name": "TukTuk: وسّع يا باشا",
+  "kind": "街头驾驶",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "开嘟嘟车穿过拥挤的埃及街道，躲小巴、出租车和西瓜车。",
+  "quote": "Weave a tuk-tuk through a crowded Egyptian street, dodging microbuses, taxis and watermelon carts.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js，支持手机",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "tuktuk_shot.jpg",
+  "extra_shots": [],
+  "url": "https://basemazab.github.io/tuktuk/",
+  "key": "basemazab.github.io/tuktuk",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "139 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Written by Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/tuktuk",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 139,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "3d",
+  "name": "飞车 3D",
+  "kind": "同人卡丁车",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "play": "同人向 3D 卡丁车，有漂移集气、加速和氮气。",
+  "quote": "A fan-made 3D kart racer with drift charging, boosts, nitro and item races on four classic-style tracks.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "3d_shot.jpg",
+  "extra_shots": [],
+  "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
+  "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "67 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/feiche-3d",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 67,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "hanford-reach",
+  "name": "Hanford Reach",
+  "kind": "定居点建造",
+  "group": "端游级3D 美术表现力",
+  "group_type": "direction",
+  "play": "在哥伦比亚河边小镇的废墟里建定居点，可切换第一或第三人称。",
+  "quote": "A cozy settlement builder in the ruins of a small town on the Columbia River, in first or third person.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "hanford-reach_shot.jpg",
+  "extra_shots": [],
+  "url": "https://settlement-bluff-fable52.vercel.app",
+  "key": "settlement-bluff-fable52.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "83 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/hanford-reach",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 83,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "game-6",
+  "name": "海克斯大乱斗",
+  "kind": "同人大乱斗",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "play": "选英雄，在冰桥上联机对战，同人向的英雄联盟大乱斗。",
+  "quote": "Pick a champion and brawl online on a frozen bridge in this fan-made ARAM-style arena.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "game-6_icon.png",
+  "shot": "game-6_shot.jpg",
+  "extra_shots": [],
+  "url": "https://lol.hanyue.io/",
+  "key": "lol.hanyue.io",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "38 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/hextech-aram",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 38,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "shuttle-strike",
+  "name": "Shuttle Strike",
+  "kind": "体感羽毛球",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "第一人称羽毛球，用摄像头追踪你的手：握拍、挥拍、扣杀。",
+  "quote": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js，摄像头手部追踪，单文件",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "shuttle-strike_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fedifianto.github.io/shuttlestrike/",
+  "key": "fedifianto.github.io/shuttlestrike",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "60 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "玩法",
+    "说明": "用摄像头追踪手部当输入的羽毛球，网页游戏里少见的玩法"
+   }
+  ],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "simple badminton game with claude fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/shuttle-strike",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 60,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true,
+  "hot_since": "2026-11-13",
+  "hot_manual": true
+ },
+ {
+  "id": "harvest-standoff",
+  "name": "Harvest Standoff",
+  "kind": "5v5 团队对战",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "面向孩子的农场对战：动物对农场工人，抢\"臭南瓜\"，没人会受伤。",
+  "quote": "Kid-friendly 5v5 farm battles: animals versus farmhands, a Stink-Pumpkin, and nobody gets hurt.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "harvest-standoff_icon.png",
+  "shot": "harvest-standoff_shot.jpg",
+  "extra_shots": [],
+  "url": "https://harvest-standoff.vercel.app",
+  "key": "harvest-standoff.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "58 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/harvest-standoff",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 58,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "daedalus",
+  "name": "Daedalus",
+  "kind": "希腊神话解谜",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "希腊神话题材的解谜游戏。",
+  "quote": "A Greek-mythology puzzle game built with Fable 5.2.",
+  "quote_src": "平台页面描述",
+  "tech": "单文件",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "daedalus_shot.jpg",
+  "extra_shots": [],
+  "url": "https://s77ffy.github.io/daedalus/",
+  "key": "s77ffy.github.io/daedalus",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "82 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Greek Mythology Puzzle Game (built using Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/daedalus",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 82,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "3d-2",
+  "name": "运输船 3D",
+  "kind": "同人地图复刻",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "play": "同人复刻经典 FPS 地图\"运输船\"。",
+  "quote": "A fan-made browser remake of the classic \"Transport Ship\" map: team deathmatch against bots.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "3d-2_shot.jpg",
+  "extra_shots": [],
+  "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship/transport-ship.html",
+  "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "27 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/transport-ship-3d",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 27,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "v25",
+  "name": "暖光玩具房 · V25",
+  "kind": "3D 平台跳跃 Demo",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "在暖光玩具房里跑跳、搬玩具，收集 5 颗星。",
+  "quote": "A co-op-style platformer demo: run, jump and haul toys around a warm-lit playroom to collect five stars.",
+  "quote_src": "平台页面描述",
+  "tech": "WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "v25_icon.png",
+  "shot": "v25_shot.jpg",
+  "extra_shots": [],
+  "url": "https://v25.dafeiyugame.site/",
+  "key": "v25.dafeiyugame.site",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "25 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/warm-toy-room-v25",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 25,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "boring-game",
+  "name": "Boring Game",
+  "kind": "交通建设模拟",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "play": "在按真实地图数据做的体素旧金山湾区规划地铁线、选盾构机、应付审批，看能不能把造价压到波兰的 2 倍以内。",
+  "quote": "A voxel San Francisco Bay Area on real map data: plan the line, pick the boring machine, cut the red tape.",
+  "quote_src": "平台页面描述",
+  "tech": "体素，真实地图数据",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "boring-game_shot.jpg",
+  "extra_shots": [],
+  "url": "https://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
+  "key": "jakozaur.github.io/sf_bay_area_transit_fable_5_2_game",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "51 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Congrats for shipping Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/boring-game-sf-bay-transit",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 51,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "misremember",
+  "name": "MISREMEMBER",
+  "kind": "心理恐怖探索",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "有东西按你的记忆重建了童年的家，你不看的时候它会变。",
+  "quote": "Something rebuilt your childhood home from your memory of it, and nothing changes while you're looking.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js、WebGL",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "misremember_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/misremember",
+  "key": "fable52.games/play/misremember",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "53 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/misremember",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 53,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "sternenj-ger",
+  "name": "Sternenjäger",
+  "kind": "太空射击",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "12 个星区、3 场首领战，全部在一个网页文件里。",
+  "quote": "A sci-fi space shooter with 12 sectors and 3 boss fights, all in one HTML file.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas，单文件，支持手机",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "sternenj-ger_shot.jpg",
+  "extra_shots": [],
+  "url": "https://oldzitterhand.github.io/sternenjaeger/",
+  "key": "oldzitterhand.github.io/sternenjaeger",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "63 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "browser game created with Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/sternenjaeger",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 63,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "online",
+  "name": "盐线行动 Online",
+  "kind": "多人港口枪战",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "play": "Saltline 改成多人自由混战：倒下 5 秒复活，支持全服语音。",
+  "quote": "Saltline goes multiplayer: a free-for-all online port shootout with 5-second respawns.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js，WebSocket",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "online_shot.jpg",
+  "extra_shots": [],
+  "url": "https://web-jjuuxm.tulingai.com/",
+  "key": "web-jjuuxm.tulingai.com",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "20 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "16 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/saltline-online",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 20,
+     "fable52_featured": false,
+     "github_stars": 16,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "emberdeep",
+  "name": "Emberdeep",
+  "kind": "地牢探险",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "火把会慢慢烧完的单文件地牢下潜。",
+  "quote": "A single-file dungeon descent where your torch is burning down.",
+  "quote_src": "平台页面描述",
+  "tech": "单文件",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "emberdeep_shot.jpg",
+  "extra_shots": [],
+  "url": "https://dndnoob.github.io/EmberDeep/",
+  "key": "dndnoob.github.io/emberdeep",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "54 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Testing the Limits of Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/emberdeep",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 54,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "becario-del-universo",
+  "name": "Becario del Universo",
+  "kind": "休闲小任务",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "给宇宙新来的实习生安排的一串小任务，手机和电脑都能玩。",
+  "quote": "Cosmic micro-tasks for the universe's newest intern, made for mobile and desktop.",
+  "quote_src": "平台页面描述",
+  "tech": "单文件",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "becario-del-universo_shot.jpg",
+  "extra_shots": [],
+  "url": "https://masugus.github.io/fable5.2-5min-game/",
+  "key": "masugus.github.io/fable5.2-5min-game",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "22 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/becario-del-universo",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 22,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "breach",
+  "name": "BREACH · 运输船联机大厅",
+  "kind": "多人 FPS",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "play": "运输船地图的多人 FPS 大厅，起个名字就能进。",
+  "quote": "Online multiplayer FPS lobby on a transport-ship map: pick a name and jump in.",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "breach_shot.jpg",
+  "extra_shots": [],
+  "url": "https://cf.hanyue.io/",
+  "key": "cf.hanyue.io",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/breach-transport-ship-online",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "duskline",
+  "name": "Duskline",
+  "kind": "3D 无尽跑酷",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "日落时分的高架地铁线上，一台维修机器人躲避清扫无人机的追赶。",
+  "quote": "3D endless runner: a maintenance robot flees a sweeper drone along an elevated metro line at sunset",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "duskline_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/duskline-vxn7rh",
+  "key": "fable52.games/play/duskline-vxn7rh",
+  "link_status": "ok",
+  "date_text": "2026-11-12 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "6 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/duskline-vxn7rh",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 6,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "open-skies",
+  "name": "Open Skies",
+  "kind": "飞行模拟",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "play": "全球任意地点起飞，真实机场、真实地形和实时天气；有飞行学校，一次教一项技能。",
+  "quote": "Fly anywhere on Earth: real airports, real terrain and live weather, with a flight school that teaches you one skill at a time",
+  "quote_src": "平台页面描述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "fable52"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "open-skies_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/flight-simulator-nfljgw",
+  "key": "fable52.games/play/flight-simulator-nfljgw",
+  "link_status": "ok",
+  "date_text": "2026-11-13 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "2 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/flight-simulator-nfljgw",
+    "date": "2026-11-13",
+    "metrics": {
+     "fable52_plays": 2,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "road-sdl2-rash",
+  "name": "Road Rash (1996) Web Edition",
+  "kind": "老游戏移植",
+  "group": "游戏复刻与反编译",
+  "group_type": "direction",
+  "play": "1996 年 PC 版 Road Rash 的 C 语言移植和网页版，支持手柄和高分辨率。",
+  "quote": "Modern native 64-bit C port and WebAssembly release of Road Rash (1996 PC). Runs natively on Windows 10/11, Linux, Steam Deck, and Web Browsers via SDL2. Features gamepad support,   1280x960 high-res rendering, SoundFont audio, in-game options overlay, and real-time physics/AI modding",
+  "quote_src": "仓库描述",
+  "tech": "C 语言，SDL2，编译到 WebAssembly",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "github"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://speedydevil007.github.io/road-sdl2-rash/",
+  "key": "speedydevil007.github.io/road-sdl2-rash",
+  "link_status": "ok",
+  "date_text": "2026-10-28 首次公开",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "30 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "GitHub 30 星"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "README 写明项目做了 5 年，\"Thanks to LLMs\" 终于完成",
+  "sources": [
+   {
+    "channel": "github",
+    "url": "https://github.com/speedydevil007/road-sdl2-rash",
+    "date": "2026-11-13",
+    "metrics": {
+     "github_stars": 30,
+     "github_forks": 0
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "aidens-revenge",
+  "name": "Aiden's Revenge",
+  "kind": "多人同屏清版动作",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "作者睡前把侄子画的角色和设定交给 Fable 5.2，第二天早上游戏就做好了。侄子的设定是 5 名以家人和家里的狗为原型的英雄、12 个首领；成品有 12 关，最多 4 人插手柄同屏合作，打败首领能解锁家人角色，之后又陆续加了更多亲戚。",
+  "quote": "",
+  "quote_src": "",
+  "tech": "作者的提示词允许模型用 ChatGPT Images 2.5 生成图片",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "aidens-revenge_icon.png",
+  "shot": "aidens-revenge_shot.jpg",
+  "extra_shots": [],
+  "url": "https://aidens-revenge.pages.dev/",
+  "key": "aidens-revenge.pages.dev",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "504 分 / 450 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 504 分"
+   }
+  ],
+  "reasons": [
+   "Hacker News 504 分（帖子是一篇文章，试玩链接取自文章正文）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "作者文章：Fable 5.2 按侄子的一叠手绘一次做出了这款游戏，文中给出了完整提示词",
+  "sources": [
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50433659",
+    "date": "2026-11-11",
+    "metrics": {
+     "hn_points": 504,
+     "hn_comments": 450
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "term-sheet-please",
+  "name": "Term Sheet, Please",
+  "kind": "模仿 Papers, Please 的投资审核",
+  "group": "独立精品与巧妙创意",
+  "group_type": "direction",
+  "play": "模仿《Papers, Please》的玩法：YC 创业者来融资，你查财务、问记录，决定给谁投钱。",
+  "quote": "YC founders are raising a round. Inspect the financials, question the records, and decide who gets funded.",
+  "quote_src": "页面自述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "term-sheet-please_icon.ico",
+  "shot": "term-sheet-please_shot.png",
+  "extra_shots": [],
+  "url": "https://termsheetplease.com/",
+  "key": "termsheetplease.com",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "238 分 / 94 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 238 分"
+   }
+  ],
+  "reasons": [
+   "Hacker News 238 分"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50457230",
+    "date": "2026-11-12",
+    "metrics": {
+     "hn_points": 238,
+     "hn_comments": 94
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "sweatypanzer",
+  "name": "SweatyPanzer",
+  "kind": "多人坦克对战",
+  "group": "Wavedash 与 Far Worlds",
+  "group_type": "direction",
+  "play": "浏览器里的多人坦克对战，输入昵称就能开车上场，不用下载。",
+  "quote": "",
+  "quote_src": "",
+  "tech": "",
+  "xcheck": "",
+  "src": "Wavedash 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-13",
+   "channel": "wavedash"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "sweatypanzer_icon.svg",
+  "shot": "sweatypanzer_shot.jpg",
+  "extra_shots": [],
+  "url": "https://wavedash.com/games/sweatypanzer",
+  "key": "wavedash.com/games/sweatypanzer",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [
+   {
+    "label": "Wavedash 实时在线",
+    "value": "15 人",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Wavedash 热门新上榜"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "wavedash",
+    "url": "https://wavedash.com/",
+    "date": "2026-11-13",
+    "metrics": {
+     "wavedash_rank": 3,
+     "wavedash_playing": 15,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "size-it-up",
+  "name": "Size It Up",
+  "kind": "每日猜尺寸",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "每天 5 组图形对比，拖动调整目标物体的大小，猜它和参照物的真实比例，满分 500 分。",
+  "quote": "Play the official, original Size It Up game by Magnitudle. Estimate real-world scale across five daily visual comparisons and score up to 500 points.",
+  "quote_src": "页面自述",
+  "tech": "",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "hn"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "size-it-up_icon.svg",
+  "shot": "size-it-up_shot.png",
+  "extra_shots": [],
+  "url": "https://magnitudle.com/size-it-up",
+  "key": "magnitudle.com",
+  "link_status": "ok",
+  "date_text": "2026-11-06 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "82 分 / 27 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Hacker News 82 分"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50395869",
+    "date": "2026-11-11",
+    "metrics": {
+     "hn_points": 82,
+     "hn_comments": 27
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "tiny-val-ncia",
+  "name": "Tiny València",
+  "kind": "真实城市地图 + 游玩模式",
+  "group": "把真实世界做成游戏",
+  "group_type": "direction",
+  "play": "等距像素风的瓦伦西亚城市地图，每栋建筑都对应真实建筑，整个市域都画了。页面快捷键里有 G 游玩、M 地铁、P 飞机，游玩时可以调速度和高度。",
+  "quote": "An isometric pixel-art map of València, painted block by block.",
+  "quote_src": "页面自述",
+  "tech": "OpenStreetMap、西班牙地籍和 IGN 数据，图像模型重绘",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "hn"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "tiny-val-ncia_icon.ico",
+  "shot": "tiny-val-ncia_shot.jpg",
+  "extra_shots": [],
+  "url": "https://tinyvalencia.com/",
+  "key": "tinyvalencia.com",
+  "link_status": "ok",
+  "date_text": "2026-11-10 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "250 分 / 62 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 250 分"
+   }
+  ],
+  "reasons": [
+   "Hacker News 250 分"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "页面自述：真实的三维城市数据按固定等距视角渲染，再由一个按像素画风格训练的图像模型逐块重绘",
+  "sources": [
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50441518",
+    "date": "2026-11-12",
+    "metrics": {
+     "hn_points": 250,
+     "hn_comments": 62
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "hot_since": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "librehold",
+  "name": "LibreHold",
+  "kind": "像素风村庄战争",
+  "group": "多人在线交互",
+  "group_type": "direction",
+  "play": "一局一小时，最多 12 名玩家加 18 个机器人；从小屋发展到城堡，练兵、劫掠、占领村庄。也有持续数周的长期世界。",
+  "quote": "Free village wars in your browser. One-hour games against players and bots, or long worlds that last for weeks.",
+  "quote_src": "页面自述",
+  "tech": "开源",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-11",
+   "channel": "github"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": null,
+  "shot": "librehold_shot.png",
+  "extra_shots": [],
+  "url": "https://librehold.org",
+  "key": "librehold.org",
+  "link_status": "ok",
+  "date_text": "2026-10-28 首次公开",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "56 星 / 8 分叉",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "GitHub 56 星"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "github",
+    "url": "https://github.com/librehold-game/librehold",
+    "date": "2026-11-12",
+    "metrics": {
+     "github_stars": 56,
+     "github_forks": 8
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
+  "images_tried": true
+ },
+ {
+  "id": "typepper",
+  "name": "typepper",
+  "kind": "打字游戏",
+  "group": "休闲益智与分享比拼",
+  "group_type": "direction",
+  "play": "打字越快越准，辣度越高，从甜椒一路升到卡罗来纳死神辣椒；有冲刺、闪电、禅、生存等模式，浏览器和终端都能玩。",
+  "quote": "Climb the Scoville scale as your WPM heats up. Sprint, blitz, zen, survival, floor is lava and hot pursuit — in your browser or your terminal.",
+  "quote_src": "页面自述",
+  "tech": "",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "added": "2026-11-13",
+  "issue": "2026-11-09",
+  "icon": "typepper_icon.ico",
+  "shot": "typepper_shot.png",
+  "extra_shots": [],
+  "url": "https://typepper.com",
+  "key": "typepper.com",
+  "link_status": "ok",
+  "date_text": "2026-10-15 首次公开",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "35 星 / 2 分叉",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "GitHub 35 星"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "github",
+    "url": "https://github.com/leodiegues/typepper",
+    "date": "2026-11-12",
+    "metrics": {
+     "github_stars": 35,
+     "github_forks": 2
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-13",
   "images_tried": true
  }
 ]

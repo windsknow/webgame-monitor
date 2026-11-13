@@ -4,223 +4,793 @@
   "source_repo": "https://github.com/realcodebear/saltline-fable-5.2",
   "author_url": "https://x.com/felixrieseberg/status/2119925633564463609",
   "has_prompt": false,
-  "listed": "2026-10-20"
+  "listed": "2026-10-20",
+  "origin": {
+   "x": {
+    "url": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "handle": "felixrieseberg",
+    "views": 4302522,
+    "likes": 14516,
+    "date": "2026-11-09",
+    "text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp"
+   },
+   "repo": {
+    "url": "https://github.com/realcodebear/saltline-fable-5.2",
+    "created": "2026-11-10",
+    "stars": 276,
+    "homepage": "",
+    "desc": "",
+    "owner": "realcodebear"
+   },
+   "hn": {
+    "url": "https://news.ycombinator.com/item?id=50444850",
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "points": 71,
+    "comments": 90,
+    "date": "2026-11-10",
+    "link": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp"
+   },
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "how": "作者帖子里的链接",
+   "mirror": true,
+   "published": "2026-11-09",
+   "ai_hint": "I wanted to test Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "pocket-soccer-3d": {
   "play_url": "https://shaunprice.github.io/soccer-3d/",
   "source_repo": "https://github.com/ShaunPrice/soccer-3d",
   "author_url": "https://github.com/ShaunPrice",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ShaunPrice/soccer-3d",
+    "created": "2026-11-10",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Soccer-3D - Claude Fable 5.2 test.",
+    "owner": "ShaunPrice"
+   },
+   "hn": {},
+   "url": "https://shaunprice.github.io/soccer-3d/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "Soccer-3D - Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "mothlight": {
   "play_url": "",
   "source_repo": "https://github.com/hahaliu1029/fable5.2demo",
   "author_url": "https://github.com/hahaliu1029",
   "has_prompt": true,
-  "listed": "2026-11-11"
+  "listed": "2026-11-11",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "hahaliu1029"
+   },
+   "hn": {},
+   "url": "https://fable52.games/play/mothlight",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "bayhaven": {
   "play_url": "https://fablestar.games/play/",
   "source_repo": "https://github.com/fablestar/bayhaven",
   "author_url": "https://fablestar.games/",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/fablestar/bayhaven",
+    "created": "2026-11-11",
+    "stars": 1,
+    "homepage": "https://fablestar.games/watch.html",
+    "desc": "Bayhaven: an original open-world game, written live by Claude Fable 5.2. Every line, every commit.",
+    "owner": "fablestar"
+   },
+   "hn": {},
+   "url": "https://fablestar.games/play/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "dustfall": {
   "play_url": "https://dustfalls.netlify.app/",
   "source_repo": "https://github.com/webKing021/dustfall",
   "author_url": "https://github.com/webKing021",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/webKing021/dustfall",
+    "created": "2026-11-10",
+    "stars": 3,
+    "homepage": "https://dustfalls.netlify.app/",
+    "desc": "Dustfall: an original open-world western browser game (Three.js + Vite). Created to test the Claude Fable 5.2 model.",
+    "owner": "webKing021"
+   },
+   "hn": {},
+   "url": "https://dustfalls.netlify.app/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "Created to test the Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "what-the-water-keeps": {
   "play_url": "https://what-the-water-keeps.vercel.app/",
   "source_repo": "",
   "author_url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {
+    "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+    "handle": "kevin_t_ngo",
+    "views": 486166,
+    "likes": 4208,
+    "date": "2026-11-09",
+    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
+   },
+   "repo": {},
+   "hn": {
+    "url": "https://news.ycombinator.com/item?id=50451107",
+    "title": "What the Water Keeps",
+    "points": 1,
+    "comments": 0,
+    "date": "2026-11-11",
+    "link": "https://what-the-water-keeps.vercel.app/"
+   },
+   "url": "https://what-the-water-keeps.vercel.app/",
+   "how": "Hacker News 帖子的链接",
+   "mirror": false,
+   "published": "2026-11-09",
+   "ai_hint": "Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "pelican-on-a-bike": {
   "play_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
   "source_repo": "",
   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "blameless": {
   "play_url": "https://blameless.petruha.ge/",
   "source_repo": "https://github.com/Petyok/blameless",
   "author_url": "https://github.com/Petyok",
   "has_prompt": true,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/Petyok/blameless",
+    "created": "2026-11-10",
+    "stars": 0,
+    "homepage": "https://blameless.petruha.ge",
+    "desc": "An on-call shooter: 03:07, the pager goes off, prod is down, and you kill what is crashing it. three.js. All done by Claude Fable 5.2 from one prompt.",
+    "owner": "Petyok"
+   },
+   "hn": {},
+   "url": "https://blameless.petruha.ge",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "All done by Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "jimao-cs": {
   "play_url": "",
   "source_repo": "",
   "author_url": "https://jiage.app/play/jimao-3a",
   "has_prompt": false,
-  "listed": "2026-11-12"
+  "listed": "2026-11-12",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/jimao-cs",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "evensong": {
   "play_url": "https://evensong-phi.vercel.app/",
   "source_repo": "",
   "author_url": "https://evensong-phi.vercel.app/",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://evensong-phi.vercel.app/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "qingyun-sword-flight": {
   "play_url": "",
   "source_repo": "https://github.com/hahaliu1029/fable5.2demo",
   "author_url": "https://github.com/hahaliu1029",
   "has_prompt": true,
-  "listed": "2026-11-11"
+  "listed": "2026-11-11",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "hahaliu1029"
+   },
+   "hn": {},
+   "url": "https://fable52.games/play/qingyun-sword-flight",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "tuktuk": {
   "play_url": "https://basemazab.github.io/tuktuk/",
   "source_repo": "https://github.com/basemazab/tuktuk",
   "author_url": "https://github.com/basemazab",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/basemazab/tuktuk",
+    "created": "2026-11-12",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Tuk-tuk: a 3D game on an Egyptian street. Everything is drawn in code, no image or sound files. Written by Claude Fable 5.2.",
+    "owner": "basemazab"
+   },
+   "hn": {},
+   "url": "https://basemazab.github.io/tuktuk/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-12",
+   "ai_hint": "Written by Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "wukong-tiger-vanguard": {
   "play_url": "https://www.anxiangsir.com/wukong-tiger-engine/",
   "source_repo": "",
   "author_url": "https://www.anxiangsir.com/wukong-tiger-engine/",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://www.anxiangsir.com/wukong-tiger-engine/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "sublevel-07-fps-repro": {
   "play_url": "",
   "source_repo": "https://github.com/wquguru/fable52-fps-repro",
   "author_url": "https://x.com/wquguru",
   "has_prompt": true,
-  "listed": "2026-11-02"
+  "listed": "2026-11-02",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/wquguru/fable52-fps-repro",
+    "created": "2026-11-11",
+    "stars": 82,
+    "homepage": "https://wquguru.github.io/fable52-fps-repro/",
+    "desc": "Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demos, prompts & cost data",
+    "owner": "wquguru"
+   },
+   "hn": {},
+   "url": "https://wquguru.github.io/fable52-fps-repro/",
+   "how": "源码仓库的主页",
+   "mirror": true,
+   "published": "2026-11-11",
+   "ai_hint": "Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "wusuo-shanmen": {
   "play_url": "https://op7418.github.io/guizang-game-skill/",
   "source_repo": "https://github.com/op7418/guizang-game-skill",
   "author_url": "https://github.com/op7418",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/op7418/guizang-game-skill",
+    "created": "2026-11-11",
+    "stars": 271,
+    "homepage": "https://op7418.github.io/guizang-game-skill/",
+    "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
+    "owner": "op7418"
+   },
+   "hn": {},
+   "url": "https://op7418.github.io/guizang-game-skill/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
+   "checked": "2026-11-13"
+  }
  },
  "tidebell": {
   "play_url": "",
   "source_repo": "https://github.com/hahaliu1029/fable5.2demo",
   "author_url": "https://github.com/hahaliu1029",
   "has_prompt": true,
-  "listed": "2026-11-11"
+  "listed": "2026-11-11",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "hahaliu1029"
+   },
+   "hn": {},
+   "url": "https://fable52.games/play/tidebell",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "ironvale": {
   "play_url": "https://sharpwizard.github.io/ironvale/",
   "source_repo": "https://github.com/SharpWizard/ironvale",
   "author_url": "https://github.com/SharpWizard",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/SharpWizard/ironvale",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "https://sharpwizard.github.io/ironvale/",
+    "desc": "Ironvale: a game made with AI (Claude Fable 5.2). An original 3D real-time strategy game for PC (Windows exe or desktop browser), built entirely from plain-language prompts in Claude Code.",
+    "owner": "SharpWizard"
+   },
+   "hn": {},
+   "url": "https://sharpwizard.github.io/ironvale/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "hanford-reach": {
   "play_url": "https://settlement-bluff-fable52.vercel.app/",
   "source_repo": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
   "author_url": "https://github.com/chzbloom123",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "https://settlement-bluff-fable52.vercel.app",
+    "desc": "",
+    "owner": "chzbloom123"
+   },
+   "hn": {},
+   "url": "https://settlement-bluff-fable52.vercel.app",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "shuttle-strike": {
   "play_url": "https://fedifianto.github.io/shuttlestrike/",
   "source_repo": "https://github.com/fedifianto/shuttlestrike",
   "author_url": "https://github.com/fedifianto",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/fedifianto/shuttlestrike",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "simple badminton game with claude fable 5.2",
+    "owner": "fedifianto"
+   },
+   "hn": {},
+   "url": "https://fedifianto.github.io/shuttlestrike/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "simple badminton game with claude fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "feiche-3d": {
   "play_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
   "source_repo": "",
   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "harvest-standoff": {
   "play_url": "https://harvest-standoff.vercel.app/",
   "source_repo": "https://github.com/andreteow/farm-ca",
   "author_url": "https://github.com/andreteow",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/andreteow/farm-ca",
+    "created": "2026-11-10",
+    "stars": 0,
+    "homepage": "https://harvest-standoff.vercel.app",
+    "desc": "Fable 5.2 farm inspired CS game ",
+    "owner": "andreteow"
+   },
+   "hn": {},
+   "url": "https://harvest-standoff.vercel.app",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "transport-ship-3d": {
   "play_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship/transport-ship.html",
   "source_repo": "",
   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship/transport-ship.html",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship/transport-ship.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "daedalus": {
   "play_url": "https://s77ffy.github.io/daedalus/",
   "source_repo": "https://github.com/S77FFY/daedalus",
   "author_url": "https://github.com/S77FFY",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/S77FFY/daedalus",
+    "created": "2026-11-10",
+    "stars": 1,
+    "homepage": "",
+    "desc": "Greek Mythology Puzzle Game (built using Fable 5.2)",
+    "owner": "S77FFY"
+   },
+   "hn": {},
+   "url": "https://s77ffy.github.io/daedalus/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "boring-game-sf-bay-transit": {
   "play_url": "https://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
   "source_repo": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
   "author_url": "https://github.com/jakozaur",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+    "created": "2026-11-10",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Congrats for shipping Fable 5.2, now let's build a train to author's HQ",
+    "owner": "jakozaur"
+   },
+   "hn": {},
+   "url": "https://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-10",
+   "ai_hint": "Congrats for shipping Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "sternenjaeger": {
   "play_url": "https://oldzitterhand.github.io/sternenjaeger/",
   "source_repo": "https://github.com/oldzitterhand/sternenjaeger",
   "author_url": "https://github.com/oldzitterhand",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/oldzitterhand/sternenjaeger",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "browser game created with Fable 5.2 - zero effort prompt",
+    "owner": "oldzitterhand"
+   },
+   "hn": {},
+   "url": "https://oldzitterhand.github.io/sternenjaeger/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "browser game created with Fable 5",
+   "checked": "2026-11-13"
+  }
  },
  "warm-toy-room-v25": {
   "play_url": "https://v25.dafeiyugame.site/",
   "source_repo": "",
   "author_url": "https://v25.dafeiyugame.site/",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://v25.dafeiyugame.site/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "misremember": {
   "play_url": "",
   "source_repo": "https://github.com/hahaliu1029/fable5.2demo",
   "author_url": "https://github.com/hahaliu1029",
   "has_prompt": false,
-  "listed": "2026-11-11"
+  "listed": "2026-11-11",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "hahaliu1029"
+   },
+   "hn": {},
+   "url": "https://fable52.games/play/misremember",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "saltline-online": {
   "play_url": "https://web-jjuuxm.tulingai.com/",
   "source_repo": "https://github.com/wenzhengshi/fable5-2-salt-online",
   "author_url": "https://github.com/wenzhengshi",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
+    "created": "2026-11-11",
+    "stars": 16,
+    "homepage": "",
+    "desc": "",
+    "owner": "wenzhengshi"
+   },
+   "hn": {},
+   "url": "https://web-jjuuxm.tulingai.com/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "becario-del-universo": {
   "play_url": "https://masugus.github.io/fable5.2-5min-game/",
   "source_repo": "https://github.com/masugus/fable5.2-5min-game",
   "author_url": "https://github.com/masugus",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/masugus/fable5.2-5min-game",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "masugus"
+   },
+   "hn": {},
+   "url": "https://masugus.github.io/fable5.2-5min-game/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "hextech-aram": {
   "play_url": "https://lol.hanyue.io/",
   "source_repo": "",
   "author_url": "https://lol.hanyue.io/",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://lol.hanyue.io/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "breach-transport-ship-online": {
   "play_url": "https://cf.hanyue.io/",
   "source_repo": "",
   "author_url": "https://cf.hanyue.io/",
   "has_prompt": false,
-  "listed": "2026-11-09"
+  "listed": "2026-11-09",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://cf.hanyue.io/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  },
  "emberdeep": {
   "play_url": "https://dndnoob.github.io/EmberDeep/",
   "source_repo": "https://github.com/DNDNoob/EmberDeep",
   "author_url": "https://github.com/DNDNoob",
   "has_prompt": false,
-  "listed": "2026-11-10"
+  "listed": "2026-11-10",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/DNDNoob/EmberDeep",
+    "created": "2026-11-12",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Testing the Limits of Fable 5.2 Game Design",
+    "owner": "DNDNoob"
+   },
+   "hn": {},
+   "url": "https://dndnoob.github.io/EmberDeep/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-12",
+   "ai_hint": "Testing the Limits of Fable 5",
+   "checked": "2026-11-13"
+  }
+ },
+ "duskline-vxn7rh": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "https://x.com/sr_rauldev",
+  "has_prompt": true,
+  "listed": "2026-11-12",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/duskline-vxn7rh",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
+ },
+ "flight-simulator-nfljgw": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": true,
+  "listed": "2026-11-13",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/flight-simulator-nfljgw",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-13"
+  }
  }
 }

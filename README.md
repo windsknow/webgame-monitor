@@ -2,7 +2,7 @@
 
 每天从固定渠道和外部提供的 X 帖子数据里找新出现的、能在浏览器里玩的 AI 游戏，按统一标准筛选后生成一个静态网站。
 
-- **网页暂停生成**（2026-11-12 起，`config.json` 的 `site.enabled` 为 `false`）：只有游戏卡片沿用上一份报告的样式是确认的，其余版块要另外设计。现在的产出是数据文件和汇总文本。改回 `true` 后 `python3 run.py site` 会重新生成 `site/index.html`
+- **网页（2026-11-13 起）**：新做的是信息流页面，`python3 run.py feed [日期]` 生成 `site/index.html`（`monitor/feed.py`、`templates/feed.css`）。开头是重点游戏的头图轮播，下面是检索框、标签筛选（状态、方向、AI 标签、发现渠道）和按入库日期分组的游戏卡片，卡片沿用上一份报告的样式。它不受 `site.enabled` 控制；旧版报告式页面（`python3 run.py site`）仍然暂停。页面放到哪里发布还没定（私有仓库用不了免费的 GitHub Pages）
 - 工作流、脚本和会话的分工、产出字段：`docs/工作流与产出字段.md`
 - 入库线和重点线的数据依据：`docs/入库线和重点线的数据依据.md`
 - 基线：2026-11-10 整理的 68 款，见 `data/games.json`
@@ -106,7 +106,7 @@ X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线�
    然后重跑 `python3 run.py merge`。判为不是游戏的，对应的自动卡片会被撤下；后来找到试玩链接的，原来按帖子入库的卡片会换成游戏链接。
 2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；值得标重点的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
 3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`tech`、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
-4. `python3 run.py site` 重新生成页面。推到 GitHub 后，工作流会自动重新发布。
+4. `python3 run.py feed` 重新生成信息流页面。
 
 写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）；重点游戏把 `hot` 设为 `true`。
 
