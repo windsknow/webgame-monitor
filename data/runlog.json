@@ -134,5 +134,78 @@
     "in_library": 1
    }
   }
+ },
+ {
+  "date": "2026-11-14",
+  "mode": "crawl",
+  "collect": {
+   "hn": {
+    "count": 149,
+    "passed": 14,
+    "error": ""
+   },
+   "threejs": {
+    "count": 50,
+    "passed": 2,
+    "error": ""
+   },
+   "github": {
+    "count": 92,
+    "passed": 10,
+    "error": ""
+   },
+   "itch": {
+    "count": 36,
+    "passed": 0,
+    "error": ""
+   },
+   "awesome": {
+    "count": 0,
+    "passed": 0,
+    "error": ""
+   },
+   "spawn": {
+    "count": 20,
+    "passed": 0,
+    "error": ""
+   },
+   "verse8": {
+    "count": 40,
+    "passed": 2,
+    "error": ""
+   },
+   "astrocade": {
+    "count": 20,
+    "passed": 11,
+    "error": ""
+   },
+   "rosebud": {
+    "count": 14,
+    "passed": 0,
+    "error": ""
+   },
+   "wavedash": {
+    "count": 4,
+    "passed": 0,
+    "error": ""
+   },
+   "fable52": {
+    "count": 34,
+    "passed": 0,
+    "error": ""
+   }
+  },
+  "x": {
+   "2026-11-12": {
+    "total_records": 2,
+    "coarse_hits": 2,
+    "verdicts": {
+     "game": 1,
+     "maybe": 1,
+     "no": 0
+    },
+    "in_library": 1
+   }
+  }
  }
 ]

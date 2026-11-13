@@ -1,0 +1,261 @@
+{
+ "date": "2026-11-14",
+ "channel": "rosebud",
+ "count": 14,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "rosebud",
+   "title": "Sir Falls-A-Lot",
+   "url": "https://rosebud.ai/play/laavatorni",
+   "key": "rosebud.ai/play/laavatorni",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 1,
+    "rosebud_plays": 3191,
+    "rosebud_likes": 43,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/1fc6b64d-b7d5-4aec-ba98-457b9dfcd6ad.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "SUPERHOT MARIO",
+   "url": "https://rosebud.ai/play/superhot-mario",
+   "key": "rosebud.ai/play/superhot-mario",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 2,
+    "rosebud_plays": 3582,
+    "rosebud_likes": 57,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/610924dc-55c3-4998-a1cd-bf1399a9d0a0.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Camo Chameleon",
+   "url": "https://rosebud.ai/play/camo-chameleon-1",
+   "key": "rosebud.ai/play/camo-chameleon-1",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 3,
+    "rosebud_plays": 34142,
+    "rosebud_likes": 227,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/c5fa1ce2-c188-4ca1-9cb5-6fff46c19e1d.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Chiikawa Bonk",
+   "url": "https://rosebud.ai/play/chiikawa-bonk",
+   "key": "rosebud.ai/play/chiikawa-bonk",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 4,
+    "rosebud_plays": 1020,
+    "rosebud_likes": 26,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/0ba2f194-d8cd-4447-8124-7f692f9be246.jpg",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Midnight Racer",
+   "url": "https://rosebud.ai/play/midnight-racer",
+   "key": "rosebud.ai/play/midnight-racer",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 5,
+    "rosebud_plays": 3760,
+    "rosebud_likes": 77,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/a9f342c5-44fd-4614-8f99-913ae3003457.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Kingdom Core",
+   "url": "https://rosebud.ai/play/kingdom-core",
+   "key": "rosebud.ai/play/kingdom-core",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 6,
+    "rosebud_plays": 3414,
+    "rosebud_likes": 24,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/d02449eb-9f26-4af5-8158-0a3701566287.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Not A Parrot Racing Game",
+   "url": "https://rosebud.ai/play/not-a-parrot-racing-game",
+   "key": "rosebud.ai/play/not-a-parrot-racing-game",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 7,
+    "rosebud_plays": 1094,
+    "rosebud_likes": 12,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/e6befdfc-3a1a-43c8-a43e-ede6683faf32.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Finger Haunt – Haunted Survival FPS",
+   "url": "https://rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+   "key": "rosebud.ai/play/finger-haunt-haunted-hotel-survival-fps",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 8,
+    "rosebud_plays": 29224,
+    "rosebud_likes": 467,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/39c5183f-eac0-4738-b255-12c3d48cc1c0.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "TRAINO",
+   "url": "https://rosebud.ai/play/traino",
+   "key": "rosebud.ai/play/traino",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 9,
+    "rosebud_plays": 1261,
+    "rosebud_likes": 15,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/51bdebfc-adc4-4a9b-a887-9b726a42b20f.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Candy Merge",
+   "url": "https://rosebud.ai/play/candy-merge",
+   "key": "rosebud.ai/play/candy-merge",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 10,
+    "rosebud_plays": 1813,
+    "rosebud_likes": 11,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/3135fb61-185a-4f2e-8f29-4ac05791d99b-thumbnail.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "Totoy Bato",
+   "url": "https://rosebud.ai/play/totoy-bato",
+   "key": "rosebud.ai/play/totoy-bato",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 11,
+    "rosebud_plays": 8479,
+    "rosebud_likes": 68,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/ba71183d-44af-4639-b237-07066d8eaddc.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "STICKY BUNNY",
+   "url": "https://rosebud.ai/play/sticky-bunny",
+   "key": "rosebud.ai/play/sticky-bunny",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 12,
+    "rosebud_plays": 1171,
+    "rosebud_likes": 14,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/019ac57e-d549-4e14-9703-81d222c92256.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "MOWZONE",
+   "url": "https://rosebud.ai/play/mowzone",
+   "key": "rosebud.ai/play/mowzone",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 13,
+    "rosebud_plays": 1401,
+    "rosebud_likes": 12,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/b74f6ea7-f96e-41fb-9c0d-9d6f2963fa20.png",
+   "passes": false
+  },
+  {
+   "channel": "rosebud",
+   "title": "ATTENTION PASSENGERS - Plane Crash Survival Game",
+   "url": "https://rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+   "key": "rosebud.ai/play/attention-passengers-plane-crash-survival-game",
+   "source_url": "https://rosebud.ai/",
+   "metrics": {
+    "rosebud_rank": 14,
+    "rosebud_plays": 13105,
+    "rosebud_likes": 119,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "发布在 AI 创作平台 Rosebud",
+   "desc": "",
+   "image": "https://storage.googleapis.com/rosebud_assets_storage/project_preview_images/c423abd5-a93b-4d64-8982-1585c839591c.webp",
+   "passes": false
+  }
+ ]
+}

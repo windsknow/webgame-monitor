@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Soccer-3D - Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "mothlight": {
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "bayhaven": {
@@ -110,7 +110,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "dustfall": {
@@ -135,7 +135,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "what-the-water-keeps": {
@@ -148,8 +148,8 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 486166,
-    "likes": 4208,
+    "views": 499252,
+    "likes": 4234,
     "date": "2026-11-09",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
@@ -167,7 +167,7 @@
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "pelican-on-a-bike": {
@@ -185,7 +185,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "blameless": {
@@ -210,7 +210,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "jimao-cs": {
@@ -228,7 +228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "evensong": {
@@ -246,7 +246,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "qingyun-sword-flight": {
@@ -271,7 +271,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "tuktuk": {
@@ -296,7 +296,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Written by Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "wukong-tiger-vanguard": {
@@ -314,7 +314,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "sublevel-07-fps-repro": {
@@ -328,7 +328,7 @@
    "repo": {
     "url": "https://github.com/wquguru/fable52-fps-repro",
     "created": "2026-11-11",
-    "stars": 82,
+    "stars": 87,
     "homepage": "https://wquguru.github.io/fable52-fps-repro/",
     "desc": "Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demos, prompts & cost data",
     "owner": "wquguru"
@@ -339,7 +339,7 @@
    "mirror": true,
    "published": "2026-11-11",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "wusuo-shanmen": {
@@ -353,7 +353,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 271,
+    "stars": 311,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -364,7 +364,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "tidebell": {
@@ -389,7 +389,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "ironvale": {
@@ -414,7 +414,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "hanford-reach": {
@@ -439,7 +439,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "shuttle-strike": {
@@ -464,7 +464,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "simple badminton game with claude fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "feiche-3d": {
@@ -482,7 +482,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "harvest-standoff": {
@@ -507,7 +507,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "transport-ship-3d": {
@@ -525,7 +525,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "daedalus": {
@@ -550,7 +550,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -575,7 +575,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Congrats for shipping Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "sternenjaeger": {
@@ -600,7 +600,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "browser game created with Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "warm-toy-room-v25": {
@@ -618,7 +618,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "misremember": {
@@ -643,7 +643,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "saltline-online": {
@@ -657,7 +657,7 @@
    "repo": {
     "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
     "created": "2026-11-11",
-    "stars": 16,
+    "stars": 18,
     "homepage": "",
     "desc": "",
     "owner": "wenzhengshi"
@@ -668,7 +668,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "becario-del-universo": {
@@ -693,7 +693,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "hextech-aram": {
@@ -711,7 +711,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "breach-transport-ship-online": {
@@ -729,7 +729,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "emberdeep": {
@@ -754,7 +754,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Testing the Limits of Fable 5",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "duskline-vxn7rh": {
@@ -772,7 +772,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  },
  "flight-simulator-nfljgw": {
@@ -790,7 +790,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-13"
+   "checked": "2026-11-14"
   }
  }
 }
