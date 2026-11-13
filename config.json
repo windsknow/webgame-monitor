@@ -239,6 +239,7 @@
  "game_hosts": {
   "_说明": "展开后的链接落在这些位置，视为「可能是可玩的网页游戏」。",
   "suffix": [
+   "bytednsdoc.com",
    "github.io",
    "vercel.app",
    "pages.dev",

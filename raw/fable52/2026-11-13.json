@@ -12,7 +12,7 @@
    "key": "realcodebear.github.io/saltline-fable-5.2",
    "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
    "metrics": {
-    "fable52_plays": 2812,
+    "fable52_plays": 2816,
     "fable52_featured": true,
     "chart_new_entry": false
    },
@@ -40,7 +40,7 @@
    "key": "shaunprice.github.io/soccer-3d",
    "source_url": "https://fable52.games/play/pocket-soccer-3d",
    "metrics": {
-    "fable52_plays": 666,
+    "fable52_plays": 669,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -67,7 +67,7 @@
    "key": "fable52.games/play/mothlight",
    "source_url": "https://fable52.games/play/mothlight",
    "metrics": {
-    "fable52_plays": 262,
+    "fable52_plays": 264,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -93,7 +93,7 @@
    "key": "fablestar.games",
    "source_url": "https://fable52.games/play/bayhaven",
    "metrics": {
-    "fable52_plays": 295,
+    "fable52_plays": 296,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -119,7 +119,7 @@
    "key": "dustfalls.netlify.app",
    "source_url": "https://fable52.games/play/dustfall",
    "metrics": {
-    "fable52_plays": 251,
+    "fable52_plays": 252,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -145,7 +145,7 @@
    "key": "what-the-water-keeps.vercel.app",
    "source_url": "https://fable52.games/play/what-the-water-keeps",
    "metrics": {
-    "fable52_plays": 262,
+    "fable52_plays": 264,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -169,10 +169,10 @@
    "channel": "fable52",
    "title": "鹈鹕骑单车 · Pelican on a Bike",
    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
-   "key": "lf3-static.bytednsdoc.com",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
    "source_url": "https://fable52.games/play/pelican-on-a-bike",
    "metrics": {
-    "fable52_plays": 316,
+    "fable52_plays": 317,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -198,7 +198,7 @@
    "key": "blameless.petruha.ge",
    "source_url": "https://fable52.games/play/blameless",
    "metrics": {
-    "fable52_plays": 301,
+    "fable52_plays": 303,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -224,7 +224,7 @@
    "key": "fable52.games/play/jimao-cs",
    "source_url": "https://fable52.games/play/jimao-cs",
    "metrics": {
-    "fable52_plays": 86,
+    "fable52_plays": 87,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -251,7 +251,7 @@
    "key": "evensong-phi.vercel.app",
    "source_url": "https://fable52.games/play/evensong",
    "metrics": {
-    "fable52_plays": 217,
+    "fable52_plays": 218,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -303,7 +303,7 @@
    "key": "basemazab.github.io/tuktuk",
    "source_url": "https://fable52.games/play/tuktuk",
    "metrics": {
-    "fable52_plays": 131,
+    "fable52_plays": 132,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -350,12 +350,65 @@
   },
   {
    "channel": "fable52",
+   "title": "Tidebell 潮钟",
+   "url": "https://fable52.games/play/tidebell",
+   "key": "fable52.games/play/tidebell",
+   "source_url": "https://fable52.games/play/tidebell",
+   "metrics": {
+    "fable52_plays": 168,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "Pilot a tiny submersible from sunlit reefs to the abyss and wake seven sleeping tide bells.",
+   "image": "https://fable52.games/thumbs/tidebell.jpg",
+   "author": "hahaliu1029",
+   "author_url": "https://github.com/hahaliu1029",
+   "repo": "https://github.com/hahaliu1029/fable5.2demo",
+   "topics": [
+    "Exploration",
+    "Three.js",
+    "WebGL",
+    "Underwater",
+    "Procedural"
+   ],
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "Ironvale",
+   "url": "https://sharpwizard.github.io/ironvale/",
+   "key": "sharpwizard.github.io/ironvale",
+   "source_url": "https://fable52.games/play/ironvale",
+   "metrics": {
+    "fable52_plays": 228,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "A 3D real-time strategy game: gather, build, advance through three ages and defeat the Crimson March.",
+   "image": "https://fable52.games/thumbs/ironvale.jpg",
+   "author": "SharpWizard",
+   "author_url": "https://github.com/SharpWizard",
+   "repo": "https://github.com/SharpWizard/ironvale",
+   "topics": [
+    "RTS",
+    "Strategy",
+    "Three.js",
+    "WebGL"
+   ],
+   "passes": true
+  },
+  {
+   "channel": "fable52",
    "title": "SUBLEVEL 07",
    "url": "https://fable52.games/play/sublevel-07-fps-repro",
    "key": "fable52.games/play/sublevel-07-fps-repro",
    "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
    "metrics": {
-    "fable52_plays": 159,
+    "fable52_plays": 160,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -402,54 +455,28 @@
   },
   {
    "channel": "fable52",
-   "title": "Tidebell 潮钟",
-   "url": "https://fable52.games/play/tidebell",
-   "key": "fable52.games/play/tidebell",
-   "source_url": "https://fable52.games/play/tidebell",
+   "title": "Shuttle Strike",
+   "url": "https://fedifianto.github.io/shuttlestrike/",
+   "key": "fedifianto.github.io/shuttlestrike",
+   "source_url": "https://fable52.games/play/shuttle-strike",
    "metrics": {
-    "fable52_plays": 166,
-    "fable52_featured": false,
-    "chart_new_entry": false
-   },
-   "published": "2026-11-11",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "Pilot a tiny submersible from sunlit reefs to the abyss and wake seven sleeping tide bells.",
-   "image": "https://fable52.games/thumbs/tidebell.jpg",
-   "author": "hahaliu1029",
-   "author_url": "https://github.com/hahaliu1029",
-   "repo": "https://github.com/hahaliu1029/fable5.2demo",
-   "topics": [
-    "Exploration",
-    "Three.js",
-    "WebGL",
-    "Underwater",
-    "Procedural"
-   ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Ironvale",
-   "url": "https://sharpwizard.github.io/ironvale/",
-   "key": "sharpwizard.github.io/ironvale",
-   "source_url": "https://fable52.games/play/ironvale",
-   "metrics": {
-    "fable52_plays": 226,
+    "fable52_plays": 54,
     "fable52_featured": false,
     "chart_new_entry": false
    },
    "published": "2026-11-10",
    "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A 3D real-time strategy game: gather, build, advance through three ages and defeat the Crimson March.",
-   "image": "https://fable52.games/thumbs/ironvale.jpg",
-   "author": "SharpWizard",
-   "author_url": "https://github.com/SharpWizard",
-   "repo": "https://github.com/SharpWizard/ironvale",
+   "desc": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
+   "image": "https://fable52.games/thumbs/shuttle-strike.jpg",
+   "author": "fedifianto",
+   "author_url": "https://github.com/fedifianto",
+   "repo": "https://github.com/fedifianto/shuttlestrike",
    "topics": [
-    "RTS",
-    "Strategy",
+    "Sports",
+    "Webcam",
     "Three.js",
-    "WebGL"
+    "Hand Tracking",
+    "Single File"
    ],
    "passes": true
   },
@@ -481,36 +508,9 @@
   },
   {
    "channel": "fable52",
-   "title": "Shuttle Strike",
-   "url": "https://fedifianto.github.io/shuttlestrike/",
-   "key": "fedifianto.github.io/shuttlestrike",
-   "source_url": "https://fable52.games/play/shuttle-strike",
-   "metrics": {
-    "fable52_plays": 53,
-    "fable52_featured": false,
-    "chart_new_entry": false
-   },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
-   "image": "https://fable52.games/thumbs/shuttle-strike.jpg",
-   "author": "fedifianto",
-   "author_url": "https://github.com/fedifianto",
-   "repo": "https://github.com/fedifianto/shuttlestrike",
-   "topics": [
-    "Sports",
-    "Webcam",
-    "Three.js",
-    "Hand Tracking",
-    "Single File"
-   ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
    "title": "飞车 3D",
    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
-   "key": "lf3-static.bytednsdoc.com",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d",
    "source_url": "https://fable52.games/play/feiche-3d",
    "metrics": {
     "fable52_plays": 50,
@@ -560,9 +560,34 @@
   },
   {
    "channel": "fable52",
+   "title": "Daedalus",
+   "url": "https://s77ffy.github.io/daedalus/",
+   "key": "s77ffy.github.io/daedalus",
+   "source_url": "https://fable52.games/play/daedalus",
+   "metrics": {
+    "fable52_plays": 75,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "A Greek-mythology puzzle game built with Fable 5.2.",
+   "image": "https://fable52.games/thumbs/daedalus.jpg",
+   "author": "S77FFY",
+   "author_url": "https://github.com/S77FFY",
+   "repo": "https://github.com/S77FFY/daedalus",
+   "topics": [
+    "Puzzle",
+    "Mythology",
+    "Single File"
+   ],
+   "passes": true
+  },
+  {
+   "channel": "fable52",
    "title": "运输船 3D",
    "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship/transport-ship.html",
-   "key": "lf3-static.bytednsdoc.com",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/cf-transport-ship",
    "source_url": "https://fable52.games/play/transport-ship-3d",
    "metrics": {
     "fable52_plays": 19,
@@ -580,31 +605,6 @@
     "3D FPS",
     "Three.js",
     "Fan-made",
-    "Single File"
-   ],
-   "passes": true
-  },
-  {
-   "channel": "fable52",
-   "title": "Daedalus",
-   "url": "https://s77ffy.github.io/daedalus/",
-   "key": "s77ffy.github.io/daedalus",
-   "source_url": "https://fable52.games/play/daedalus",
-   "metrics": {
-    "fable52_plays": 74,
-    "fable52_featured": false,
-    "chart_new_entry": false
-   },
-   "published": "2026-11-10",
-   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
-   "desc": "A Greek-mythology puzzle game built with Fable 5.2.",
-   "image": "https://fable52.games/thumbs/daedalus.jpg",
-   "author": "S77FFY",
-   "author_url": "https://github.com/S77FFY",
-   "repo": "https://github.com/S77FFY/daedalus",
-   "topics": [
-    "Puzzle",
-    "Mythology",
     "Single File"
    ],
    "passes": true
@@ -746,7 +746,7 @@
    "key": "masugus.github.io/fable5.2-5min-game",
    "source_url": "https://fable52.games/play/becario-del-universo",
    "metrics": {
-    "fable52_plays": 17,
+    "fable52_plays": 18,
     "fable52_featured": false,
     "chart_new_entry": false
    },
@@ -771,7 +771,7 @@
    "key": "lol.hanyue.io",
    "source_url": "https://fable52.games/play/hextech-aram",
    "metrics": {
-    "fable52_plays": 19,
+    "fable52_plays": 20,
     "fable52_featured": false,
     "chart_new_entry": false
    },

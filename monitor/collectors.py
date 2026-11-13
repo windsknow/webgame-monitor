@@ -493,6 +493,13 @@ def fable52(cfg, date):
             'repo': d.get('source_repo', ''), 'topics': g.get('techTags') or [],
         })
     util.save(detail_p, cache)
+    # 两款游戏的试玩链接归一后撞成同一个键（同一个静态托管下的不同目录等）时，改用站内页面区分
+    count = {}
+    for l in entries:
+        count[l['key']] = count.get(l['key'], 0) + 1
+    for l in entries:
+        if count[l['key']] > 1:
+            l['url'], l['key'] = l['source_url'], util.game_key(l['source_url'])
     return _chart('fable52', entries, cfg, date)
 
 

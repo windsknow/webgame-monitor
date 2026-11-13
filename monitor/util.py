@@ -87,6 +87,7 @@ SUBDOMAIN_SUFFIX = {
     'fly.dev': 0, 'onrender.com': 0, 'workers.dev': 0, 'surge.sh': 0,
     'replit.app': 0, 'lovable.app': 0, 'glitch.me': 0, 'firebaseapp.com': 0,
     'up.railway.app': 0, 'herokuapp.com': 0, 'bolt.host': 0,
+    'bytednsdoc.com': 4,  # 字节的静态文件 CDN：/obj/<空间>/<桶>/<游戏目录>/index.html
 }
 TRACK_PARAMS = re.compile(r'^(utm_|ref$|ref_|fbclid|gclid|s$|t$|si$|source$|via$)')
 
