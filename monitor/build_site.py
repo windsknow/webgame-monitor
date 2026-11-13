@@ -19,7 +19,7 @@ AI_TAG = {'ai': ('tag-ai', 'AI 参与'), 'likely': ('tag-likely', '疑似 AI · 
           'non_ai': ('tag-non', '非 AI · 创意'), 'unlabeled': ('tag-unl', 'AI 证据待确认')}
 CHANNEL = {'x': 'X 帖子', 'hn': 'Hacker News', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'itch': 'itch.io',
            'awesome': 'AI 游戏精选清单', 'spawn': 'Spawn 热榜', 'verse8': 'Verse8 热门', 'astrocade': 'Astrocade 热门页',
-           'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门', '基线报告': '2026-11-10 基线整理'}
+           'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门', 'fable52': 'Fable52.games 合集站', '基线报告': '2026-11-10 基线整理'}
 LINK = {'none': ('试玩链接未找到', '看原帖 ↗'), 'repo': ('只有代码仓库', '看仓库 ↗')}
 CAL = ('<svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="2" '
        'fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M2 6.5h12M5.5 1.5v3M10.5 1.5v3" stroke="currentColor" '
@@ -238,6 +238,7 @@ def method_html(cfg):
          (f'游玩 ≥ {util.fmt_num(low)} 次并且新进榜的' if low else '新进榜的') + '；首次读取时只取近 30 天发布的'),
         ('Rosebud 首页精选', '游戏名、游玩数', '新进榜的'),
         ('Wavedash 热门', '游戏名、实时在线人数', '新进榜的'),
+        ('Fable52.games', 'Fable 5.2 网页游戏合集站的全部条目：名称、介绍、站内游玩数、作者、试玩链接', '新出现的；首次读取时只取近 30 天收录的'),
     ]
     rows = ''.join(f'<tr><td class="on">{e(a)}</td><td>{e(b)}</td><td>{e(c)}</td></tr>' for a, b, c in ch)
     return f'''<div class="method">

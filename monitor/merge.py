@@ -24,25 +24,25 @@ from .x_ingest import STATUS, classify_link, host_in
 TECH = re.compile(r'webgpu|three\.?js|webgl|babylon|playcanvas', re.I)
 TECH_PLUS = re.compile(r'multiplayer|mmo\b|\b\d{3,}\s*players|procedural|openstreetmap|\bosm\b|real[- ]world|'
                        r'real earth|satellite|google maps|map data|gaussian|path[- ]?trac|ray[- ]?trac|多人|程序化|真实地图', re.I)
-CHARTS = ('spawn', 'verse8', 'astrocade', 'rosebud', 'wavedash')
+CHARTS = ('spawn', 'verse8', 'astrocade', 'rosebud', 'wavedash', 'fable52')
 # 渠道读到的数字 → 卡片上的标签。第三项为 True 的是口径存疑的数字（页面标红，不参与重点判断）
 METRIC_LABEL = {
     'x_views': ('X 帖子浏览', False), 'hn_points': ('Hacker News', False), 'threejs_views': ('three.js 论坛', False),
     'github_stars': ('GitHub', False), 'itch_rank': ('itch.io 网页新品榜', False),
     'spawn_plays': ('Spawn 游玩数', False), 'astrocade_plays': ('Astrocade 游玩数', False),
     'rosebud_plays': ('Rosebud 游玩数', False), 'verse8_sessions': ('Verse8 游玩数', True),
-    'wavedash_playing': ('Wavedash 实时在线', False),
+    'wavedash_playing': ('Wavedash 实时在线', False), 'fable52_plays': ('Fable52.games 站内游玩数', False),
 }
 PLAYS = ('spawn_plays', 'astrocade_plays', 'rosebud_plays')
 CH_NAME = {'x': 'X 帖子', 'hn': 'Hacker News', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'itch': 'itch.io 网页新品榜',
            'awesome': 'AI 游戏精选清单', 'spawn': 'Spawn 热榜', 'verse8': 'Verse8 热门', 'astrocade': 'Astrocade 热门页',
-           'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门'}
+           'rosebud': 'Rosebud 首页精选', 'wavedash': 'Wavedash 热门', 'fable52': 'Fable52.games 合集站'}
 CH_SRC = {'x': 'X 帖子数据读取自公开接口', 'hn': 'Hacker News 官方接口', 'threejs': 'three.js 官方论坛接口',
           'github': 'GitHub 接口', 'itch': 'itch.io 榜单', 'awesome': 'AI 游戏精选清单', 'spawn': 'Spawn 平台页面显示值',
           'verse8': 'Verse8 平台页面显示值', 'astrocade': 'Astrocade 平台页面显示值', 'rosebud': 'Rosebud 平台页面显示值',
-          'wavedash': 'Wavedash 平台页面显示值'}
+          'wavedash': 'Wavedash 平台页面显示值', 'fable52': 'Fable52.games 页面显示值'}
 LEAD_KEYS = ('channel', 'date', 'title', 'source_url', 'metrics', 'published', 'passes', 'ai_hint', 'desc', 'x', 'image',
-             'topics', 'linkless')
+             'topics', 'linkless', 'author', 'author_url', 'repo')
 
 
 def issue_of(date):
@@ -303,7 +303,7 @@ def gameness(c, kind, cfg):
     链接情况：ok 有试玩链接；repo 只有代码仓库；none 还没找到试玩链接。"""
     host = util.host_of(c['url'])
     # 不用再看页面的来源：精选清单、three.js 论坛作品区（过线时已要求像游戏），以及核验过的 X 帖子
-    trusted = any((l['channel'] in ('awesome', 'threejs') and l.get('passes')) or
+    trusted = any((l['channel'] in ('awesome', 'threejs', 'fable52') and l.get('passes')) or
                   (l['channel'] == 'x' and (l.get('x') or {}).get('judged_by') not in (None, '规则')) for l in c['leads'])
     if kind == 'none':
         return True, 'none', []

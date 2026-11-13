@@ -18,9 +18,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from monitor import util, x_ingest  # noqa: E402
 
-CH = ['hn', 'threejs', 'github', 'itch', 'awesome', 'spawn', 'verse8', 'astrocade', 'rosebud', 'wavedash']
+CH = ['hn', 'threejs', 'github', 'itch', 'awesome', 'spawn', 'verse8', 'astrocade', 'rosebud', 'wavedash', 'fable52']
 CH_NAME = {'hn': 'Hacker News', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'itch': 'itch.io', 'awesome': 'AI 游戏精选清单',
-           'spawn': 'Spawn', 'verse8': 'Verse8', 'astrocade': 'Astrocade', 'rosebud': 'Rosebud', 'wavedash': 'Wavedash', 'x': 'X 帖子'}
+           'spawn': 'Spawn', 'verse8': 'Verse8', 'astrocade': 'Astrocade', 'rosebud': 'Rosebud', 'wavedash': 'Wavedash', 'fable52': 'Fable52.games', 'x': 'X 帖子'}
 KIND = {'game': '游戏平台或托管站', 'site': '独立站点', 'repo': '代码仓库', 'article': '文章页', 'video': '视频',
         'social': '社交平台', 'store': '商店页', 'docs': '其他（文档、首页等）', '': '没有链接'}
 
@@ -39,7 +39,7 @@ def metric(l):
         return m.get('verse8_sessions') or 0, f"游玩 {util.fmt_num(m.get('verse8_sessions'))} 次（口径存疑）"
     if ch == 'wavedash':
         return m.get('wavedash_playing') or 0, f"实时在线 {m.get('wavedash_playing')} 人"
-    for k in ('spawn_plays', 'astrocade_plays', 'rosebud_plays'):
+    for k in ('spawn_plays', 'astrocade_plays', 'rosebud_plays', 'fable52_plays'):
         if k in m:
             return m.get(k) or 0, f"游玩 {util.fmt_num(m.get(k))} 次"
     return 0, ''

@@ -58,6 +58,7 @@ PATH_HOSTS = {
     'astrocade.com': 3,        # /games/<slug>/<id>
     'rosebud.ai': 2,           # /play/<slug>
     'wavedash.com': 2,         # /games/<slug>
+    'fable52.games': 2,        # /play/<slug>
     'levels.io': 1,
     'play.google.com': 9, 'apps.apple.com': 9,
     'store.steampowered.com': 2,
