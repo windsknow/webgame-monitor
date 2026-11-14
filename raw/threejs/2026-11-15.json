@@ -1,0 +1,457 @@
+{
+ "date": "2026-11-15",
+ "channel": "threejs",
+ "count": 28,
+ "passed": 4,
+ "error": "",
+ "leads": [
+  {
+   "channel": "threejs",
+   "title": "AFK City: a city that builds itself while you watch (three.js r186, runs on phones)",
+   "url": "https://afkcity.com/",
+   "key": "afkcity.com",
+   "source_url": "https://discourse.threejs.org/t/afk-city-a-city-that-builds-itself-while-you-watch-three-js-r186-runs-on-phones/96910",
+   "metrics": {
+    "threejs_views": 193,
+    "threejs_replies": 10,
+    "threejs_likes": 4
+   },
+   "published": "2026-11-09",
+   "passes": true,
+   "ai_hint": "I designed and art-directed it; the code was written with the base built in Gemini 3",
+   "desc": "Hi all! I made AFK City , a free browser game where a city builds itself. Sit back and watch towers rise, traffic flow and day turn to night, or take over and zone it yourself. Play (free, desktop and mobile, no download): AFK City — the free city builder that builds itself 07_1715_golden 1920×1080 "
+  },
+  {
+   "channel": "threejs",
+   "title": "Tides of Fortune : an open-world pirate game in three.js with zero asset files",
+   "url": "https://tides-of-fortune.fr/",
+   "key": "tides-of-fortune.fr",
+   "source_url": "https://discourse.threejs.org/t/tides-of-fortune-an-open-world-pirate-game-in-three-js-with-zero-asset-files/96867",
+   "metrics": {
+    "threejs_views": 247,
+    "threejs_replies": 7,
+    "threejs_likes": 9
+   },
+   "published": "2026-11-08",
+   "passes": true,
+   "ai_hint": "Code:  GitHub - silvestroz/tides-of-fortune: Vibecoded 3D pirate game, playable in your browser · GitHub",
+   "desc": "Hi everyone! Tides of Fortune is an open-world pirate game for the browser, set in the 17th-century Caribbean and inspired by 2000s classics like Sid Meier’s Pirates!: sailing, naval battles, boarding, sword duels, ports, trade and governors’ missions. My goal was really to use three.js and focus on"
+  },
+  {
+   "channel": "threejs",
+   "title": "ELITE WARFARE – a body-cam tactical FPS in the browser (bots, P2P multiplayer, 2 maps)",
+   "url": "https://elitewarfare.fun",
+   "key": "elitewarfare.fun",
+   "source_url": "https://discourse.threejs.org/t/elite-warfare-a-body-cam-tactical-fps-in-the-browser-bots-p2p-multiplayer-2-maps/97088",
+   "metrics": {
+    "threejs_views": 104,
+    "threejs_replies": 1,
+    "threejs_likes": 5
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "ELITE WARFARE is built by Claude under my direction: the ELITE vs INSURGENTS theme and body cam, La Finca, the firing range, Domination, Kill Confirmed and Paintball, drones, pick-ups, the squad radio",
+   "desc": "image 1600×295 101 KB Game: https://elitewarfare.fun ELITE WARFARE is a team tactical FPS that runs entirely in the browser: ELITE against INSURGENTS, seen through a body cam. No install, no server of our own. It’s a static site on Netlify with optional peer-to-peer multiplayer. PC only, desktop bro"
+  },
+  {
+   "channel": "threejs",
+   "title": "PhysPicks: Real-Time 3D Physics Ball & Name Picker built with Three.js & Cannon-es",
+   "url": "https://physpicks.com",
+   "key": "physpicks.com",
+   "source_url": "https://discourse.threejs.org/t/physpicks-real-time-3d-physics-ball-name-picker-built-with-three-js-cannon-es/96988",
+   "metrics": {
+    "threejs_views": 78,
+    "threejs_replies": 2,
+    "threejs_likes": 3
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone, I’d like to share PhysPicks ( https://physpicks.com ), an interactive, client-side 3D physics engine built to transform routine number and list selection into a visual, transparent experience directly in your browser. Screenshot 2026-11-10 at 19.53.53 1920×1154 186 KB Instead of hiding "
+  },
+  {
+   "channel": "threejs",
+   "title": "Camera Lab — Explore the Inside of a Camera in 3D with Three.js",
+   "url": "https://the-camera.vercel.app/",
+   "key": "the-camera.vercel.app",
+   "source_url": "https://discourse.threejs.org/t/camera-lab-explore-the-inside-of-a-camera-in-3d-with-three-js/96845",
+   "metrics": {
+    "threejs_views": 138,
+    "threejs_replies": 5,
+    "threejs_likes": 4
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "the-camera.PNG 1881×825 123 KB Hey everyone! I wanted to share a Three.js project I’ve been working on called Camera Lab — Inside the Camera . The idea was to create an interactive 3D experience that lets users explore a camera in a more engaging way, rather than just looking at static images. I bui"
+  },
+  {
+   "channel": "threejs",
+   "title": "Streets of Nice - defend a game shop in a 3D browser beat 'em up",
+   "url": "https://streetsofnice.com",
+   "key": "streetsofnice.com",
+   "source_url": "https://discourse.threejs.org/t/streets-of-nice-defend-a-game-shop-in-a-3d-browser-beat-em-up/96927",
+   "metrics": {
+    "threejs_views": 57,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Defend a game shop with arcade combos, throws and flying consoles. I built Streets of Nice with Three.js, playable directly in the browser on desktop and mobile, with keyboard, touch and gamepad support. Play free, no account or download: STREETS OF NICE STREETS OF NICE - The Manager Defend your vid"
+  },
+  {
+   "channel": "threejs",
+   "title": "voxel-based algorithm playground",
+   "url": "https://0xb00.com/algorithms",
+   "key": "0xb00.com",
+   "source_url": "https://discourse.threejs.org/t/voxel-based-algorithm-playground/97091",
+   "metrics": {
+    "threejs_views": 51,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I’ve been working on this infrastructure for algorithm visualization that colocates visual intuition with rigor. Each algorithm has a thumbnail portrait, and you can expand the code to trace through the execution with a more in-depth visualization. let me know what you think! site: 0xb00"
+  },
+  {
+   "channel": "threejs",
+   "title": "Discover how small we are, a true-scale flight from Earth to Andromeda in three.js",
+   "url": "https://howsmallarewe.com/en/",
+   "key": "howsmallarewe.com",
+   "source_url": "https://discourse.threejs.org/t/discover-how-small-we-are-a-true-scale-flight-from-earth-to-andromeda-in-three-js/97067",
+   "metrics": {
+    "threejs_views": 32,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Press V to swap the whole sky to the new full-sky UV map by Brice Ménard (released with Anthropic, made with Claude Science)",
+   "desc": "Hi all. I made a browser space flight where everything sits at its real distance: you leave Earth, pass the planets at their actual positions for today, fly between nearby stars and end up outside the Milky Way and at Andromeda. Discover how small we are How Big Is the Universe? Free 3D Space &amp; "
+  },
+  {
+   "channel": "threejs",
+   "title": "From a Cookie Photo to a Three.js Physics Demo 🍪",
+   "url": "https://vorodis2.com/_cookies/",
+   "key": "vorodis2.com",
+   "source_url": "https://discourse.threejs.org/t/from-a-cookie-photo-to-a-three-js-physics-demo/97071",
+   "metrics": {
+    "threejs_views": 102,
+    "threejs_replies": 2,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "Asked ChatGPT to remove the box and space the cookies apart for 3D generation",
+   "desc": "Yesterday I spent the day digging garden beds. After all that physical work, programming suddenly felt especially appealing Live demo: Cookies I opened Upwork and came across a project about fitting cookies of different shapes efficiently into gift boxes. I thought: why not build a quick demo to inc"
+  },
+  {
+   "channel": "threejs",
+   "title": "Client comments pinned to parts of a three.js scene",
+   "url": "https://clickandsay.com/model.html?m=j9u7ts14bv28&feedback=drfmvjfxoz5192usqv6b",
+   "key": "clickandsay.com",
+   "source_url": "https://discourse.threejs.org/t/client-comments-pinned-to-parts-of-a-three-js-scene/97069",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I’m Beri, I build websites on my own in Austria, and some of them have a three.js scene. Client feedback on those was always painful. Feedback tools see the canvas as one rectangle, so a note lands “somewhere on the canvas”, and without preserveDrawingBuffer the screenshot that comes with it is blan"
+  },
+  {
+   "channel": "threejs",
+   "title": "Tour du Pain: a cycling game for smart trainers, built with three.js",
+   "url": "https://tourdupain.app/demo",
+   "key": "tourdupain.app",
+   "source_url": "https://discourse.threejs.org/t/tour-du-pain-a-cycling-game-for-smart-trainers-built-with-three-js/97062",
+   "metrics": {
+    "threejs_views": 35,
+    "threejs_replies": 1,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all, I’m Wouter. I’m a video maker, not a game developer, and over the last months I built a cycling game for smart trainers in three.js. Mostly because I wanted to ride indoors and talk to my friends at the same time. The scene is an 8.3 km lake lap in the south of France, with a stone viaduct t"
+  },
+  {
+   "channel": "threejs",
+   "title": "Freeze Out - a first-person 4v4 snowball fight in the browser (three.js WebGPU, mobile + gamepad)",
+   "url": "https://newkrok.com/gamer-zone/freeze-out",
+   "key": "newkrok.com",
+   "source_url": "https://discourse.threejs.org/t/freeze-out-a-first-person-4v4-snowball-fight-in-the-browser-three-js-webgpu-mobile-gamepad/96804",
+   "metrics": {
+    "threejs_views": 58,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "A note on how it was made: I designed and playtested it, and the code (including every model drawn in code) was written with Claude Code",
+   "desc": "Hi everyone! I made a first-person snowball fight: four against four with bots on eight winter maps. Snowballs fly on a real arc, so you tap to throw quickly or hold to wind up a longer throw. A hit on the head counts twice, and three hits freeze you solid until you come back at your base. Play (fre"
+  },
+  {
+   "channel": "threejs",
+   "title": "Walk into the website: a 3D showroom with scroll scenes and walkable rooms",
+   "url": "https://firstpage3d.com/en/",
+   "key": "firstpage3d.com",
+   "source_url": "https://discourse.threejs.org/t/walk-into-the-website-a-3d-showroom-with-scroll-scenes-and-walkable-rooms/97006",
+   "metrics": {
+    "threejs_views": 55,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone, we’re a small web studio in Korea and this is our 3D website showroom, built with three.js. Live: FIRST PAGE · 3D Website Showroom FP3D_cover 1616×1264 225 KB FP3D_behance_03 1920×1240 280 KB FP3D_behance_04 1920×1640 485 KB FP3D_behance_05 1920×1180 378 KB What’s inside: A scroll-drive"
+  },
+  {
+   "channel": "threejs",
+   "title": "trying to test some feature and get logs into my server for my multiplayer streamed game, require some support , also some sort of showcase",
+   "url": "https://gabo89.github.io/zombieGame/receiver.html",
+   "key": "gabo89.github.io/zombiegame",
+   "source_url": "https://discourse.threejs.org/t/trying-to-test-some-feature-and-get-logs-into-my-server-for-my-multiplayer-streamed-game-require-some-support-also-some-sort-of-showcase/97019",
+   "metrics": {
+    "threejs_views": 31,
+    "threejs_replies": 2,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "hello i been working on a multiplayer game , where values are sync across player and also game is streamed so none of the source code is published , also allow make the game agnostic to the player computer setup , can you help me check how good you able to see the game across time , i know in the be"
+  },
+  {
+   "channel": "threejs",
+   "title": "Steam Deck OLED — Interactive 3D Showcase (Three.js, Dynamic Screen Canvas, Web Audio)",
+   "url": "https://3deck.dev",
+   "key": "3deck.dev",
+   "source_url": "https://discourse.threejs.org/t/steam-deck-oled-interactive-3d-showcase-three-js-dynamic-screen-canvas-web-audio/96906",
+   "metrics": {
+    "threejs_views": 47,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "Interactive Gyro / Orbit : Dynamic tilt tracking reacts to cursor movement and mobile orientation, calculating subtle real-time light glints across the chassis",
+   "desc": "Steam Deck OLED — Interactive 3D Showcase (Three.js, Dynamic Screen Canvas, Web Audio) Category : Showcase Tags : showcase , webgl , react-three-fiber , shaders , audio , 3D Live Links Live Demo : 3deck.dev GitHub Repository : github.com/scr01ex/steamdeck-3d-showcase Project Overview &amp; Master Wa"
+  },
+  {
+   "channel": "threejs",
+   "title": "A portfolio you walk through",
+   "url": "https://robertriopel.ca",
+   "key": "robertriopel.ca",
+   "source_url": "https://discourse.threejs.org/t/a-portfolio-you-walk-through/96904",
+   "metrics": {
+    "threejs_views": 44,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I rebuilt my portfolio and it walks you through a forest. Live @ robertriopel.ca Made with three.js r187, no framework. No texture files - Every tree, root, lantern and creature is drawn with Canvas 2D at load time. Each painter writes four greyscale layers packed into one RGBA texture: A is the sil"
+  },
+  {
+   "channel": "threejs",
+   "title": "First Marks — a Three.js portfolio told through cave paintings",
+   "url": "https://hiremeifucan.com/",
+   "key": "hiremeifucan.com",
+   "source_url": "https://discourse.threejs.org/t/first-marks-a-three-js-portfolio-told-through-cave-paintings/97074",
+   "metrics": {
+    "threejs_views": 41,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I’m a product designer, and I built First Marks to tell my story through paintings on the walls of a firelit cave. The paintings are chapters you can explore, with narration and fire ambience you can turn off. There’s also a written version of the story. Three.js renders the cave. I wanted the setti"
+  },
+  {
+   "channel": "threejs",
+   "title": "A browser-based 3D product customization and branding studio.",
+   "url": "https://themarkstudio.online",
+   "key": "themarkstudio.online",
+   "source_url": "https://discourse.threejs.org/t/a-browser-based-3d-product-customization-and-branding-studio/96911",
+   "metrics": {
+    "threejs_views": 38,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Live Demo: https://themarkstudio.online THEMARK STUDIO is a browser-based 3D product customization and branding platform built with React and Three.js. The goal is to make it easier to turn 3D product models into branded, presentation-ready mockups without requiring users to learn a full professiona"
+  },
+  {
+   "channel": "threejs",
+   "title": "Pastel Drive: a cozy browser driving game where deliveries bring the colors back",
+   "url": "https://www.pasteldrive.com/",
+   "key": "pasteldrive.com",
+   "source_url": "https://discourse.threejs.org/t/pastel-drive-a-cozy-browser-driving-game-where-deliveries-bring-the-colors-back/97000",
+   "metrics": {
+    "threejs_views": 34,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all! I’ve been working on Pastel Drive, a relaxing endless driving game that runs in the browser on desktop and mobile. Play it here: https://www.pasteldrive.com/ or on itch: https://muliache.itch.io/pastel-drive The website is also made using three.js, using the shared game asset library. Lore A"
+  },
+  {
+   "channel": "threejs",
+   "title": "Modus: a WebGL landing where the cursor stirs a fluid drawn in ASCII",
+   "url": "https://modus.fantik.studio/?ref=threejs",
+   "key": "modus.fantik.studio",
+   "source_url": "https://discourse.threejs.org/t/modus-a-webgl-landing-where-the-cursor-stirs-a-fluid-drawn-in-ascii/96991",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Modus: a WebGL landing where the cursor stirs a fluid drawn in ASCII",
+   "desc": "Hi all! Sharing Modus®, a landing we built at Fantik Studio® for a platform for multi-agent AI: Modus: immersive WebGL landing by Fantik Studio It’s plain JavaScript and Three.js, no framework. It got an Honorable Mention on Awwwards, and the hover ended up in Awwwards Inspiration, so here is how th"
+  },
+  {
+   "channel": "threejs",
+   "title": "Perigee: a real-time 3D viewer of everything orbiting the Earth, the Moon and Mars (and the solar system)",
+   "url": "https://perigee.info/?view=earth&sel=25544&follow=1",
+   "key": "perigee.info",
+   "source_url": "https://discourse.threejs.org/t/perigee-a-real-time-3d-viewer-of-everything-orbiting-the-earth-the-moon-and-mars-and-the-solar-system/97066",
+   "metrics": {
+    "threejs_views": 36,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all, I’ve been building Perigee (perigee.info), a free, open-source (MIT) web viewer that shows in real time the 16,000+ active satellites around the Earth, the spacecraft orbiting the Moon and Mars, and the probes crossing the solar system. It’s plain TypeScript + Three.js (WebGL2), no framework"
+  },
+  {
+   "channel": "threejs",
+   "title": "Filmstrip Photo & Video Slider",
+   "url": "https://fwdapps.net/p/fpavs/index.html",
+   "key": "fwdapps.net",
+   "source_url": "https://discourse.threejs.org/t/filmstrip-photo-video-slider/96998",
+   "metrics": {
+    "threejs_views": 30,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Filmstrip Photo &amp; Video Slider An interactive gallery built with Three.js, featuring a curved 3D filmstrip with smooth dragging, dynamic bending, and animated transitions into photo and video collections. It supports mixed image ratios, autoplay videos, captions, and optional flowmap, noise, and"
+  },
+  {
+   "channel": "threejs",
+   "title": "BEYOND - Interactive space exploration with real scientific data",
+   "url": "https://beyondexplore.org",
+   "key": "beyondexplore.org",
+   "source_url": "https://discourse.threejs.org/t/beyond-interactive-space-exploration-with-real-scientific-data/96995",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone! I’m Afshin, an independent developer from Sweden. For the past months I’ve been building BEYOND: a free, browser-based space simulator in Three.js (WebGPU with WebGL 2 fallback, TSL node materials). Some things under the hood: - A sky built from the real Gaia DR3 star catalogue, streame"
+  },
+  {
+   "channel": "threejs",
+   "title": "Meanwhile on Earth – what an observer N light-years away would see (globe.gl + custom shaders)",
+   "url": "https://deemonder.github.io/meanwhile-on-earth/",
+   "key": "deemonder.github.io/meanwhile-on-earth",
+   "source_url": "https://discourse.threejs.org/t/meanwhile-on-earth-what-an-observer-n-light-years-away-would-see-globe-gl-custom-shaders/96993",
+   "metrics": {
+    "threejs_views": 27,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "I built this with heavy help from Claude Code, and the commits say so",
+   "desc": "The farther away you are, the further back in time you see. Light from Earth takes a year to cross each light-year, so an observer 81 light-years away is watching 1945, one at 2,000 light-years is watching the Roman Empire, and one at 250 million light-years is watching Pangaea. I built a globe that"
+  },
+  {
+   "channel": "threejs",
+   "title": "Real-time black hole landing page: ray-marched lensing in one ShaderMaterial",
+   "url": "https://lessicon.com/?src=threejs&c=showcase",
+   "key": "lessicon.com",
+   "source_url": "https://discourse.threejs.org/t/real-time-black-hole-landing-page-ray-marched-lensing-in-one-shadermaterial/96989",
+   "metrics": {
+    "threejs_views": 27,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "(Written by an AI agent that works for me, Aboud, from my code",
+   "desc": "Hi! I’m a student, and this is the landing page of a study app I’m building: a black hole you throw your notes into, and a study website comes out. Live: lessicon: turn your notes into a study website Standalone shader (raw WebGL, ~9 KB, no libraries): https://codepen.io/abdul-rahman-kayali/pen/GgWz"
+  },
+  {
+   "channel": "threejs",
+   "title": "Map to Globe: wrap any equirectangular map around a 3D globe and export a transparent PNG",
+   "url": "https://ai360generator.com/map-to-globe",
+   "key": "ai360generator.com",
+   "source_url": "https://discourse.threejs.org/t/map-to-globe-wrap-any-equirectangular-map-around-a-3d-globe-and-export-a-transparent-png/97060",
+   "metrics": {
+    "threejs_views": 25,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "map-to-globe-before-after 2600×1000 245 KB I made a small free tool with three.js: drop in a flat map (a real world map, a fantasy continent or a planet texture) and it’s wrapped around a sphere you can spin and zoom. You can add an atmosphere glow, pick a dark, light or transparent background, and "
+  },
+  {
+   "channel": "threejs",
+   "title": "Giving AI a face it can control: come explore the uncanny valley with me",
+   "url": "https://huggingface.co/spaces/Mnemosyne-OS/mnemosyne-avatar",
+   "key": "huggingface.co/spaces/mnemosyne-os/mnemosyne-avatar",
+   "source_url": "https://discourse.threejs.org/t/giving-ai-a-face-it-can-control-come-explore-the-uncanny-valley-with-me/96984",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Today we talk to AI through a text box. It answers well, but nobody looks at us. I wanted to give it a face. Not a mask that moves its lips: a face that reacts. I learned quickly that a face does not live through its shape. It lives through what it does between the words. A glance that drifts away a"
+  },
+  {
+   "channel": "threejs",
+   "title": "Pergola49 – a 3D pergola configurator for Luxembourg (Astro + three.js)",
+   "url": "https://pergola49.lu/en/configurator/",
+   "key": "pergola49.lu",
+   "source_url": "https://discourse.threejs.org/t/pergola49-a-3d-pergola-configurator-for-luxembourg-astro-three-js/96986",
+   "metrics": {
+    "threejs_views": 17,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all, I’d like to share Pergola49, a configurator where homeowners in Luxembourg design a bioclimatic pergola and see an indicative price including installation: Pergola49 Pergola configurator for Luxembourg with prices | Pergola49 Configure your bioclimatic pergola: size, roof, colour, sides and "
+  }
+ ]
+}

@@ -1,11 +1,11 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "keys": [
   "wavedash.com/games/sumbasurf",
+  "wavedash.com/games/matt-portners-pro-skimboarder",
   "wavedash.com/games/splinter-kick",
-  "wavedash.com/games/sweatypanzer",
-  "wavedash.com/games/tawla"
+  "wavedash.com/games/saltline-surf"
  ],
  "seen": {
   "wavedash.com/games/sumbasurf": "2026-11-12",
@@ -15,6 +15,7 @@
   "wavedash.com/games/ridgeline": "2026-11-12",
   "wavedash.com/games/open-floor-plan": "2026-11-12",
   "wavedash.com/games/tawla": "2026-11-12",
-  "wavedash.com/games/sweatypanzer": "2026-11-13"
+  "wavedash.com/games/sweatypanzer": "2026-11-13",
+  "wavedash.com/games/saltline-surf": "2026-11-15"
  }
 }

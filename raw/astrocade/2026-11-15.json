@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-15",
+ "channel": "astrocade",
+ "count": 20,
+ "passed": 4,
+ "error": "",
+ "leads": [
+  {
+   "channel": "astrocade",
+   "title": "Blast Block Sandbox",
+   "url": "https://www.astrocade.com/games/blast-block-sandbox/01M75RSDVKFPTSWAGCQ1F0D25W",
+   "key": "astrocade.com/games/blast-block-sandbox/01m75rsdvkfptswagcq1f0d25w",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 1,
+    "astrocade_plays": 32269,
+    "astrocade_likes": 630,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-11",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Fly over a blocky world, light 11 kinds of TNT with flint and steel, and blow it sky-high: nukes, fireworks, launch pads, instant forests and tunnels!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/abe7d75d4ba94609afb77162452e9b38.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Smash for Millions",
+   "url": "https://www.astrocade.com/games/smash-for-millions/01M7BPY8MW0XK2GFTM0W0MR61B",
+   "key": "astrocade.com/games/smash-for-millions/01m7bpy8mw0xk2gftm0w0mr61b",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 2,
+    "astrocade_plays": 2390,
+    "astrocade_likes": 53,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-14",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Grab a hammer and smash your way through 10 blocky biomes! Break everything, collect coins, buy bigger hammers.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/5fcbb966ae674d1a82c888dcdd9d9f22.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Whirlwind Hunter",
+   "url": "https://www.astrocade.com/games/whirlwind-hunter/01M657G722GCY51VVHNVX3GC32",
+   "key": "astrocade.com/games/whirlwind-hunter/01m657g722gcy51vvhnvx3gc32",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 3,
+    "astrocade_plays": 207689,
+    "astrocade_likes": 4021,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-31",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Chop polar bears, grind the meat, grill steaks for the camp — then spin into a whirlwind!",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1793531750355_01M6BD59YK3Y8CJ11P5RNWHFST.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Mecha Arm +1",
+   "url": "https://www.astrocade.com/games/mecha-arm-1/01M7675SHB4GE1JX6N8MCPXBGK",
+   "key": "astrocade.com/games/mecha-arm-1/01m7675shb4ge1jx6n8mcpxbgk",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 4,
+    "astrocade_plays": 49034,
+    "astrocade_likes": 1252,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Race and climb, collect all differents mecha arms",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/c8c78bb798734495a78de96821c2a87d.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sunrise High School life",
+   "url": "https://www.astrocade.com/games/sunrise-high-school-life/01M6XQANAF2KFJ35PN7FZFBCZ1",
+   "key": "astrocade.com/games/sunrise-high-school-life/01m6xqanaf2kfj35pn7fzfbcz1",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 5,
+    "astrocade_plays": 112490,
+    "astrocade_likes": 2414,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Live a blocky school life: attend classes, quiz teachers, eat lunch, dance at the festival, ride the bus and customize your student. Minimap, timetable, day-night cycle and coins!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/65656ea7bfaa4ffb81741c7f9a1154bd.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "+1 Pickaxe Swing for Eggs",
+   "url": "https://www.astrocade.com/games/1-pickaxe-swing-for-eggs/01M6HRNHMXVRB8JKGK799B1ZJB",
+   "key": "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 6,
+    "astrocade_plays": 21774,
+    "astrocade_likes": 472,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/0841f390-1041-7009-e3f9-2a1095f0d189/1793781567132_01M6JVD3MWV45GAKA622XE735Z.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Steal a Dragon",
+   "url": "https://www.astrocade.com/games/steal-a-dragon/01M6V09A7CPK3K8H87BCWA1XRQ",
+   "key": "astrocade.com/games/steal-a-dragon/01m6v09a7cpk3k8h87bcwa1xrq",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 7,
+    "astrocade_plays": 30676,
+    "astrocade_likes": 548,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-08",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Steal dragon eggs, hatch them and raise them from Baby to ELDER! Ride your dragons over the Dragon Queen's fire, grab Meteor Eggs and steal from rival bases!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_ad75ccca-d8ee-4a4f-b324-887a7e328011.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Save the Fish",
+   "url": "https://www.astrocade.com/games/save-the-fish/01M7AAMRJSNGFFFPF5ZDSDNDMX",
+   "key": "astrocade.com/games/save-the-fish/01m7aamrjsngfffpf5zdsdndmx",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 8,
+    "astrocade_plays": 24980,
+    "astrocade_likes": 307,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-14",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Pull pins, guide water, save the fish! Route bubbly water past toxic slime and hungry sharks across 20 brainy physics puzzles.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/c91692c383b248829d74d1341c10ea26.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Zombies vs Humans with Guns",
+   "url": "https://www.astrocade.com/games/zombies-vs-humans-with-guns/01M71YM4G1BA64TMV0M1Z64T43",
+   "key": "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 9,
+    "astrocade_plays": 81890,
+    "astrocade_likes": 1931,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "#action #adventure #creative #survival #horror",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/Google_115974500078511979658/1794314647198_01M72QSDMYNFXQJW2T810DH2Q6.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Steal an Egg",
+   "url": "https://www.astrocade.com/games/steal-an-egg/01M72P3BHG5NHHS8FKXVEXS8GJ",
+   "key": "astrocade.com/games/steal-an-egg/01m72p3bhg5nhhs8fkxvexs8gj",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 10,
+    "astrocade_plays": 853,
+    "astrocade_likes": 16,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Steal eggs from giant mama animals, outrun them home, hatch cute baby pets and train on your treadmill to reach rarer biomes!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/fedfb1d1186948d3bbec70fc7eb1fda3.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sky Drop Royale",
+   "url": "https://www.astrocade.com/games/sky-drop-royale/01M6XJGZFP3P3N5KE08YNZNGVH",
+   "key": "astrocade.com/games/sky-drop-royale/01m6xjgzfp3p3n5ke08ynzngvh",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 11,
+    "astrocade_plays": 20696,
+    "astrocade_likes": 671,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-08",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Drop from the barge, glide to a floating island, loot guns and be the last skydiver standing while the islands fall into the clouds!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/b1459222e0604ccf986c91e1dbe85629.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Gym Masters ",
+   "url": "https://www.astrocade.com/games/gym-masters/01M72RRGENXZD56JPB89C5PJBX",
+   "key": "astrocade.com/games/gym-masters/01m72rrgenxzd56jpb89c5pjbx",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 12,
+    "astrocade_plays": 92043,
+    "astrocade_likes": 1296,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Run through a cool gym as a pale voxel man, grab weights, pick muscle doors and knock out bodybuilders with ragdoll fights!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/d2ccf41578294aaebd232a0414bc6b17.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Port Tycoon",
+   "url": "https://www.astrocade.com/games/port-tycoon/01M56ANDC2SEY9SR1FWJSJVZ00",
+   "key": "astrocade.com/games/port-tycoon/01m56andc2sey9sr1fwjsjvz00",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 13,
+    "astrocade_plays": 6947,
+    "astrocade_likes": 91,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-22",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "PORT TYCOON: BUILD • MANAGE • EXPAND.\n emphasizing managing a busy shipping port,",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_158d69d0-9f05-421a-aebc-9f6c74a55d7c.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Th0r : Asgard's Only Defender",
+   "url": "https://www.astrocade.com/games/th0r-asgards-only-defender/01M6XB8NQK6AF328FPA3MKM1A2",
+   "key": "astrocade.com/games/th0r-asgards-only-defender/01m6xb8nqk6af328fpa3mkm1a2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 14,
+    "astrocade_plays": 1961,
+    "astrocade_likes": 63,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-08",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Fight as Th0r across a block-built Asgard, cross the royal battlefield, and climb the palace to face Hela at the highest tower.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/44284a2b15f9463aad8c37b32cce0771.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Gym Man",
+   "url": "https://www.astrocade.com/games/gym-man/01M7B0P4VXFDYB38M92CMWV5ER",
+   "key": "astrocade.com/games/gym-man/01m7b0p4vxfdyb38m92cmwv5er",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 15,
+    "astrocade_plays": 1279,
+    "astrocade_likes": 26,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Step into the gym, lift weights, build strength, and become stronger! Train hard, complete fitness challenges, unlock new equipment, and become the ultimate Gym Man!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/eb0bd790ba514ce7a03f702eb60474c2.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Tiny Survivor 2: Big Eater",
+   "url": "https://www.astrocade.com/games/tiny-survivor-2-big-eater/01M2RMG4TVMJC3HR652CJXPPSQ",
+   "key": "astrocade.com/games/tiny-survivor-2-big-eater/01m2rmg4tvmjc3hr652cjxppsq",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 16,
+    "astrocade_plays": 1594,
+    "astrocade_likes": 15,
+    "chart_new_entry": false
+   },
+   "published": "2026-09-17",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "**Description:** Start as a tiny fish, eat smaller prey, avoid bigger predators, and grow into the ocean's apex predator!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_72c2c367-29ac-4f24-9e57-4750acedf274.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Stickman Archer",
+   "url": "https://www.astrocade.com/games/stickman-archer/01KHYPFX5D977V3PTZSKR6XFVK",
+   "key": "astrocade.com/games/stickman-archer/01khypfx5d977v3ptzskr6xfvk",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 17,
+    "astrocade_plays": 2836331,
+    "astrocade_likes": 26160,
+    "chart_new_entry": false
+   },
+   "published": "2026-02-20",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Created with Astrocade!                                                   Remix allowed.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_ff189524-813d-46af-ba33-f909e64449c1.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Heist Dash",
+   "url": "https://www.astrocade.com/games/heist-dash/01KVNRAGQAP9Y7GZPZT2DA4EEY",
+   "key": "astrocade.com/games/heist-dash/01kvnragqap9y7gzpzt2da4eey",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 18,
+    "astrocade_plays": 509,
+    "astrocade_likes": 12,
+    "chart_new_entry": false
+   },
+   "published": "2026-06-21",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Navigate a bustling museum as a nimble thief, using stealth and quick thinking to avoid capture after a daring art heist.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_1eef523c-e189-483a-b211-92cc049e0486.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Web hero City rescue",
+   "url": "https://www.astrocade.com/games/web-hero-city-rescue/01M6GAY98X4JNS8NK8HZ50K2VK",
+   "key": "astrocade.com/games/web-hero-city-rescue/01m6gay98x4jns8nk8hz50k2vk",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 19,
+    "astrocade_plays": 11356,
+    "astrocade_likes": 152,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-05",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "🕷️ Spider-Man the city hero ❤️\n\nGet ready for an intense showdown between Web Man  and Black lein this exciting gameplay! 🕸️ Who will win this epic battle?",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_crop_3f00078e-ed66-4c87-92ca-b4404f80c258.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Banga Soup & Starch Master",
+   "url": "https://www.astrocade.com/games/banga-soup-starch-master/01M4QX5VYB0TH75E1RZP64H08Y",
+   "key": "astrocade.com/games/banga-soup-starch-master/01m4qx5vyb0th75e1rzp64h08y",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 20,
+    "astrocade_plays": 377,
+    "astrocade_likes": 5,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-12",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "**Description:** Step into a cozy Niger Delta kitchen with a polished, reusable 15-step cooking-screen preview.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_15bc30ed-75d8-4e6e-a025-6c7519d3fd2d.webp",
+   "passes": false
+  }
+ ]
+}
