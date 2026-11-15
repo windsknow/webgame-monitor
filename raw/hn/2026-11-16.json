@@ -1,0 +1,2620 @@
+{
+ "date": "2026-11-16",
+ "channel": "hn",
+ "count": 161,
+ "passed": 13,
+ "error": "",
+ "leads": [
+  {
+   "channel": "hn",
+   "title": "Show HN: A Git friendly open API client",
+   "url": "https://github.com/awake-client/awake",
+   "key": "github.com/awake-client/awake",
+   "source_url": "https://news.ycombinator.com/item?id=50447169",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Movement breaks that only show up while Claude Code is working",
+   "url": "https://github.com/mamrezme/30yr-uptime",
+   "key": "github.com/mamrezme/30yr-uptime",
+   "source_url": "https://news.ycombinator.com/item?id=50447073",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Show HN: Movement breaks that only show up while Claude Code is working",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: AI agents that barter your stuff for things you want",
+   "url": "https://barterpilot.com/",
+   "key": "barterpilot.com",
+   "source_url": "https://news.ycombinator.com/item?id=50446649",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 4
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Show HN: AI agents that barter your stuff for things you want",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Umless, open-source on-device dictation that writes what you meant",
+   "url": "https://github.com/jatinbishla/Umless",
+   "key": "github.com/jatinbishla/umless",
+   "source_url": "https://news.ycombinator.com/item?id=50444913",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 2
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: WallHang – Plan a gallery wall and get exact nail positions (iOS)",
+   "url": "https://wallhang.app",
+   "key": "wallhang.app",
+   "source_url": "https://news.ycombinator.com/item?id=50444909",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Saltline: First-person shooter built by Fable 5.2",
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "source_url": "https://news.ycombinator.com/item?id=50444850",
+   "metrics": {
+    "hn_points": 72,
+    "hn_comments": 90
+   },
+   "published": "2026-11-10",
+   "passes": true,
+   "ai_hint": "Saltline: First-person shooter built by Fable 5",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+   "url": "https://github.com/0xdeadf1sh/T1DMAI",
+   "key": "github.com/0xdeadf1sh/t1dmai",
+   "source_url": "https://news.ycombinator.com/item?id=50444761",
+   "metrics": {
+    "hn_points": 113,
+    "hn_comments": 60
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: TheoremSmith: Mass-Producing Hard Proof Problems to Train LLMs",
+   "url": "https://charleshuang.me/2026/09/27/theoremsmith/",
+   "key": "charleshuang.me",
+   "source_url": "https://news.ycombinator.com/item?id=50444276",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "key": "github.com/googlechrome/modern-web-guidance",
+   "source_url": "https://news.ycombinator.com/item?id=50443812",
+   "metrics": {
+    "hn_points": 447,
+    "hn_comments": 146
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "(Ofc, some of the things we thought AI didn&#x27;t know turned out to be wrong :)  We run codex&#x2F;claude&#x2F;agy against 200 tasks without the skill and then with",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: WolveKafka – Consume Kafka with a plain HTTP endpoint",
+   "url": "https://github.com/wolveflake/wolvekafka",
+   "key": "github.com/wolveflake/wolvekafka",
+   "source_url": "https://news.ycombinator.com/item?id=50443596",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 4
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Y Recombinator – The HN threads HN keeps recommending",
+   "url": "https://yrecombinator.org/",
+   "key": "yrecombinator.org",
+   "source_url": "https://news.ycombinator.com/item?id=50442257",
+   "metrics": {
+    "hn_points": 14,
+    "hn_comments": 8
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "&quot; So, I tried to collect all of them!<p>It takes every HN comment that links to another HN item, drops the dupe&#x2F;previous discussion&#x2F;related links, and uses Sonnet to decide which of the",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: We built a way to remove inherited biases from decision models",
+   "url": "https://www.hirundo.io/blog/decision-models-inherit-their-base-models-risks-hirundo-fixes-them",
+   "key": "hirundo.io",
+   "source_url": "https://news.ycombinator.com/item?id=50442255",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 2
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: NodusDB – Zanzibar-style authorization, embedded like SQLite",
+   "url": "https://github.com/Pragadeesh-19/nodusdb",
+   "key": "github.com/pragadeesh-19/nodusdb",
+   "source_url": "https://news.ycombinator.com/item?id=50441801",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Mantis – Faster browser interaction than Playwright MCP",
+   "url": "https://github.com/perzianhq/mantis/blob/main/README.md",
+   "key": "github.com/perzianhq/mantis",
+   "source_url": "https://news.ycombinator.com/item?id=50441765",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 2
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Mantis lets AI agents browse by reading pages as text, clicking controls by number, and seeing what changed after each action",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Maybe Be Careful: What games like RuneScape, Clocktower teach us about AI trust",
+   "url": "https://miguelconner.substack.com/p/maybe-be-careful",
+   "key": "miguelconner.substack.com",
+   "source_url": "https://news.ycombinator.com/item?id=50441543",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+   "url": "https://tinyvalencia.com/",
+   "key": "tinyvalencia.com",
+   "source_url": "https://news.ycombinator.com/item?id=50441518",
+   "metrics": {
+    "hn_points": 261,
+    "hn_comments": 63
+   },
+   "published": "2026-11-10",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+   "url": "https://aircad.com",
+   "key": "aircad.com",
+   "source_url": "https://news.ycombinator.com/item?id=50441350",
+   "metrics": {
+    "hn_points": 95,
+    "hn_comments": 47
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Aircad has a built-in AI agent and a comprehensive scripting API with a stage-and-commit workflow, so you know exactly what is happening during a complex change",
+   "desc": "Precision 2D drafting and 3D modeling, with multiplayer editing and an AI agent that drafts, models, and renders alongside you.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Cosh – An open-source AI agent orchestrator",
+   "url": "https://github.com/DiegoZaluski/co-sh",
+   "key": "github.com/diegozaluski/co-sh",
+   "source_url": "https://news.ycombinator.com/item?id=50439141",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 4
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Show HN: Cosh – An open-source AI agent orchestrator",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Commune, one feed for newsletters on Beehiiv, Kit, Ghost, and more",
+   "url": "https://usecommune.com",
+   "key": "usecommune.com",
+   "source_url": "https://news.ycombinator.com/item?id=50439050",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+   "url": "https://github.com/HolyArrs/HolyArrs",
+   "key": "github.com/holyarrs/holyarrs",
+   "source_url": "https://news.ycombinator.com/item?id=50439000",
+   "metrics": {
+    "hn_points": 169,
+    "hn_comments": 138
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A fan-made GTA 6 radio wheel with 12 playable stations",
+   "url": "https://gta6radio.live",
+   "key": "gta6radio.live",
+   "source_url": "https://news.ycombinator.com/item?id=50438113",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Video Analysis with Homomorphic Encryption",
+   "url": "https://github.com/belfortlabs/blindsight-demo",
+   "key": "github.com/belfortlabs/blindsight-demo",
+   "source_url": "https://news.ycombinator.com/item?id=50437839",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Willder, an open source context layer that syncs apps, agents and teams",
+   "url": "https://github.com/willderai/willder-core",
+   "key": "github.com/willderai/willder-core",
+   "source_url": "https://news.ycombinator.com/item?id=50436876",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
+   "url": "https://zthr.ai/",
+   "key": "zthr.ai",
+   "source_url": "https://news.ycombinator.com/item?id=50435672",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 5
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "Show HN: ZTHR – what replaces code review when AI agents write all the code",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Dating app based on your LinkedIn profile",
+   "url": "https://synergy.dating/",
+   "key": "synergy.dating",
+   "source_url": "https://news.ycombinator.com/item?id=50435336",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Battle-Draw",
+   "url": "https://neal.fun/battle-draw/",
+   "key": "neal.fun",
+   "source_url": "https://news.ycombinator.com/item?id=50433752",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Fable 5.2 one-shotted my nephew's dream game",
+   "url": "https://aidens-revenge.pages.dev/",
+   "key": "aidens-revenge.pages.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50433659",
+   "metrics": {
+    "hn_points": 505,
+    "hn_comments": 450
+   },
+   "published": "2026-11-09",
+   "passes": true,
+   "ai_hint": "Fable 5",
+   "desc": "",
+   "matched": "article_link",
+   "read": "article",
+   "article": {
+    "excerpt": "Fable 5.2 One-Shotted My Nephew's Dream Game LLMs can make complete multi-level games that are fun. Lex Toumbourou · Nov 10, 2026 GameProjects CodingAgents TL;DR - Fable 5.2 one-shotted my nephew's dream game from a bunch of drawings, and it's a lot of fun. You can try it here . I've always loved beat 'em ups, and they seem to have come back into vogue in the last few years, with remakes of old cl",
+    "context": "hew's dream game from a bunch of drawings, and it's a lot of fun. You can try it [here]",
+    "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
+   }
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Every Job in the Observability Space",
+   "url": "https://o11y.jobs/",
+   "key": "o11y.jobs",
+   "source_url": "https://news.ycombinator.com/item?id=50433321",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Totle, daily math puzzle game; Saturday puzzles have the fewest answers",
+   "url": "https://playtotle.com/",
+   "key": "playtotle.com",
+   "source_url": "https://news.ycombinator.com/item?id=50433154",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 2
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Vork – headless 3D and VFX engine for agents",
+   "url": "https://github.com/voyager-so/vork",
+   "key": "github.com/voyager-so/vork",
+   "source_url": "https://news.ycombinator.com/item?id=50432998",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 2
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Brick Atlas: Explore 1000+ LEGO sets on one zoomable canvas",
+   "url": "https://showcase.zoomhub.net/ecommerce/brick-atlas",
+   "key": "showcase.zoomhub.net",
+   "source_url": "https://news.ycombinator.com/item?id=50432776",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "using Claude Haiku and Sonnet (spend: ~$60",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Agent-email-guard – agent tried to send 400 receipts, stopped at 5",
+   "url": "https://github.com/agentisend/agent-email-guard",
+   "key": "github.com/agentisend/agent-email-guard",
+   "source_url": "https://news.ycombinator.com/item?id=50432613",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Emma, a real-time AI video persona from Nuance Labs",
+   "url": "https://app.nuancelabs.ai/try",
+   "key": "app.nuancelabs.ai",
+   "source_url": "https://news.ycombinator.com/item?id=50432589",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 5
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Indie Game Development with AI",
+   "url": "https://www.sandromaglione.com/articles/indie-game-development-with-ai",
+   "key": "sandromaglione.com",
+   "source_url": "https://news.ycombinator.com/item?id=50432523",
+   "metrics": {
+    "hn_points": 31,
+    "hn_comments": 43
+   },
+   "published": "2026-11-09",
+   "passes": true,
+   "ai_hint": "With the agent, they took about 20 minutes each: 2D design from ChatGPT Low-poly version of the design, again from ChatGPT Breakdown of every view for 3D modeling, still ChatGPT 3D modeling with Blend",
+   "desc": "",
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "Contents Choosing your game is choosing your bottleneck The characters the agent couldn't make A style the agent can repeat Build a system that verifies for you Entity Component System (ECS) Automatic checks for agents The first playable is fast, the game is not How a game with agents gets made Playtest as a player, report as a player The problem of the fishery Checking the economy with math How t"
+   }
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Airgap-check – find what your AI app silently downloads offline",
+   "url": "https://github.com/humanethq/airgap-check",
+   "key": "github.com/humanethq/airgap-check",
+   "source_url": "https://news.ycombinator.com/item?id=50431705",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Someone Was Here – Find out who used your Mac while you were away",
+   "url": "https://someonewashere.app/",
+   "key": "someonewashere.app",
+   "source_url": "https://news.ycombinator.com/item?id=50429812",
+   "metrics": {
+    "hn_points": 116,
+    "hn_comments": 48
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A Mac app that takes a photo of anyone who uses your Mac while you",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+   "url": "https://meowdisplay.app/",
+   "key": "meowdisplay.app",
+   "source_url": "https://news.ycombinator.com/item?id=50429636",
+   "metrics": {
+    "hn_points": 121,
+    "hn_comments": 45
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Use your Mac on iPhone, iPad or another display. Arrange windows into panes, switch with Stage Peek, use touch and keyboard controls, and access files. Free and open source.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Rollare – Bracket maker with registration and live scoring",
+   "url": "https://rollare.com/",
+   "key": "rollare.com",
+   "source_url": "https://news.ycombinator.com/item?id=50429266",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Black Friday for Developers",
+   "url": "https://www.blackfriday.dev",
+   "key": "blackfriday.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50429172",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "key": "github.com/dodaios/ste80-humanizer",
+   "source_url": "https://news.ycombinator.com/item?id=50429144",
+   "metrics": {
+    "hn_points": 114,
+    "hn_comments": 44
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Write GitHub Actions in any language: Loopt",
+   "url": "https://github.com/preloopdev/loopt",
+   "key": "github.com/preloopdev/loopt",
+   "source_url": "https://news.ycombinator.com/item?id=50429031",
+   "metrics": {
+    "hn_points": 15,
+    "hn_comments": 5
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+   "url": "https://www.watched.earth",
+   "key": "watched.earth",
+   "source_url": "https://news.ycombinator.com/item?id=50428907",
+   "metrics": {
+    "hn_points": 494,
+    "hn_comments": 88
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Enter any place on Earth. See every satellite that passed over it this week, and the actual pictures they took.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Traccia – open-sourced AI agent runtime governance",
+   "url": "https://github.com/traccia-ai/traccia-py",
+   "key": "github.com/traccia-ai/traccia-py",
+   "source_url": "https://news.ycombinator.com/item?id=50428375",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "Show HN: Traccia – open-sourced AI agent runtime governance",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: 3D to 2D, point clouds flattening (geometry images)",
+   "url": "https://github.com/Neighborhood-Grid/flatpoints",
+   "key": "github.com/neighborhood-grid/flatpoints",
+   "source_url": "https://news.ycombinator.com/item?id=50427153",
+   "metrics": {
+    "hn_points": 24,
+    "hn_comments": 8
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: One TUI to Manage MCP Servers for Claude Code and Codex",
+   "url": "https://toolshed.run",
+   "key": "toolshed.run",
+   "source_url": "https://news.ycombinator.com/item?id=50426990",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "Show HN: One TUI to Manage MCP Servers for Claude Code and Codex",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Thrum – run Claude Code, Codex and other coding agents as one team",
+   "url": "https://thrum.team/",
+   "key": "thrum.team",
+   "source_url": "https://news.ycombinator.com/item?id=50426559",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 8
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "Show HN: Thrum – run Claude Code, Codex and other coding agents as one team",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: SketchyCraft – Timed drawing sessions and a visual progress calendar",
+   "url": "https://www.sketchycraft.com/",
+   "key": "sketchycraft.com",
+   "source_url": "https://news.ycombinator.com/item?id=50426495",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Battle Draw fighting simulator by Neal.fun",
+   "url": "https://neal.fun/battle-draw/",
+   "key": "neal.fun",
+   "source_url": "https://news.ycombinator.com/item?id=50426230",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Pgxio – a tiny PostgreSQL layer inside Nginx",
+   "url": "https://github.com/mishabunte/pgxio",
+   "key": "github.com/mishabunte/pgxio",
+   "source_url": "https://news.ycombinator.com/item?id=50425203",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Harness Resource Bench – CPU, memory and disk of coding agents",
+   "url": "https://leonardcser.github.io/harness-resource-bench",
+   "key": "leonardcser.github.io/harness-resource-bench",
+   "source_url": "https://news.ycombinator.com/item?id=50424580",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: AI boom or bust, US war footing or not (four scenarios to 2029)",
+   "url": "https://elviovicosa.com/war/",
+   "key": "elviovicosa.com",
+   "source_url": "https://news.ycombinator.com/item?id=50423912",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "SHOW HN: GerGit - A Free Open-Source Git GUI Client for Linux Inspired by Fork",
+   "url": "https://github.com/IcaruzSoftware/GerGit",
+   "key": "github.com/icaruzsoftware/gergit",
+   "source_url": "https://news.ycombinator.com/item?id=50423525",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Glassbrain – Read your agent's brain, know what your agent knows",
+   "url": "https://github.com/voidixyn/glassbrain",
+   "key": "github.com/voidixyn/glassbrain",
+   "source_url": "https://news.ycombinator.com/item?id=50423154",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "url": "https://github.com/OmniJev/Flide",
+   "key": "github.com/omnijev/flide",
+   "source_url": "https://news.ycombinator.com/item?id=50421155",
+   "metrics": {
+    "hn_points": 126,
+    "hn_comments": 30
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Jot – Select text anywhere on macOS, tap Shift twice, get Markdown",
+   "url": "https://sayjot.xyz/",
+   "key": "sayjot.xyz",
+   "source_url": "https://news.ycombinator.com/item?id=50420069",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: RealtimeVAD – trading false positives for 110ms earlier end-of-speech",
+   "url": "https://github.com/KoljaB/RealtimeVAD",
+   "key": "github.com/koljab/realtimevad",
+   "source_url": "https://news.ycombinator.com/item?id=50474586",
+   "metrics": {
+    "hn_points": 33,
+    "hn_comments": 8
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Kiln – A WebGPU alternative to transformers.js, 2.2× faster (median)",
+   "url": "https://github.com/erdemozkan/kiln",
+   "key": "github.com/erdemozkan/kiln",
+   "source_url": "https://news.ycombinator.com/item?id=50474384",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+   "url": "https://github.com/cerulion-inc/cerulion",
+   "key": "github.com/cerulion-inc/cerulion",
+   "source_url": "https://news.ycombinator.com/item?id=50474106",
+   "metrics": {
+    "hn_points": 12,
+    "hn_comments": 8
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "Installation and quickstart (with a one-shot prompt for your favorite coding agent) here at the repo README: <a href=\"https:&#x2F;&#x2F;github",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose",
+   "url": "https://github.com/ori-drs/drs-vpt",
+   "key": "github.com/ori-drs/drs-vpt",
+   "source_url": "https://news.ycombinator.com/item?id=50472560",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "key": "github.com/parcha-ai/agentrun",
+   "source_url": "https://news.ycombinator.com/item?id=50471650",
+   "metrics": {
+    "hn_points": 138,
+    "hn_comments": 40
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "AgentRun works with Pi, Claude Agents, Codex, OpenCode, and any other harness that supports ACP",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Jigwise, free jigsaw puzzles in the browser",
+   "url": "https://jigwise.com",
+   "key": "jigwise.com",
+   "source_url": "https://news.ycombinator.com/item?id=50471267",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 2
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+   "url": "https://github.com/simpsoka/zigzag",
+   "key": "github.com/simpsoka/zigzag",
+   "source_url": "https://news.ycombinator.com/item?id=50470488",
+   "metrics": {
+    "hn_points": 740,
+    "hn_comments": 256
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Apron Chat Protocol",
+   "url": "https://apron.chat/",
+   "key": "apron.chat",
+   "source_url": "https://news.ycombinator.com/item?id=50470343",
+   "metrics": {
+    "hn_points": 66,
+    "hn_comments": 6
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "<p>- My favourite fun capability is embedding streaming messages, great for LLM outputs",
+   "desc": "Apron is a minimal protocol for self-hosted chats. Simple enough to write a server in ~100 lines, powerful enough for rooms, threads, bots, reactions, and more.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A self-hosted PHP platform combining CMS, e-commerce and more, built-in",
+   "url": "https://getvale.org",
+   "key": "getvale.org",
+   "source_url": "https://news.ycombinator.com/item?id=50469123",
+   "metrics": {
+    "hn_points": 14,
+    "hn_comments": 6
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
+   "url": "https://fable52.games",
+   "key": "fable52.games",
+   "source_url": "https://news.ycombinator.com/item?id=50469007",
+   "metrics": {
+    "hn_points": 72,
+    "hn_comments": 61
+   },
+   "published": "2026-11-12",
+   "passes": true,
+   "ai_hint": "games – Play and inspect Fable 5",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I built a calendar app that gives each event its own to-do list",
+   "url": "https://apps.apple.com/ph/app/daily-planner-tasks-zesfy/id6479947874",
+   "key": "apps.apple.com/ph/app/daily-planner-tasks-zesfy/id6479947874",
+   "source_url": "https://news.ycombinator.com/item?id=50468901",
+   "metrics": {
+    "hn_points": 15,
+    "hn_comments": 4
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Inches TV – Inspiring Moments, 24/7",
+   "url": "https://www.inches.tv/",
+   "key": "inches.tv",
+   "source_url": "https://news.ycombinator.com/item?id=50468897",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Turri – a coding agent with the power of regenerative software",
+   "url": "https://github.com/turri-oss/turri",
+   "key": "github.com/turri-oss/turri",
+   "source_url": "https://news.ycombinator.com/item?id=50468121",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 11
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: AI Red Lines – write down what would make you act on AI",
+   "url": "https://yourairedlines.com",
+   "key": "yourairedlines.com",
+   "source_url": "https://news.ycombinator.com/item?id=50467880",
+   "metrics": {
+    "hn_points": 39,
+    "hn_comments": 34
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "What would your AI red lines be? Write down what would make you act on AI, and what you",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+   "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+   "key": "moddb.com",
+   "source_url": "https://news.ycombinator.com/item?id=50467618",
+   "metrics": {
+    "hn_points": 309,
+    "hn_comments": 129
+   },
+   "published": "2026-11-12",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "openq4 0.14.1 windows x64 file - ModDB openQ4 Quake 4 mod | Released Sep 18, 2026 openQ4 is a free, open-source engine and game-code replacement for Quake 4. Play the original campaign and multiplayer on today's Windows, Linux and Steam Deck, with widescreen support, smooth high-refresh motion and optional visual upgrades. Add file Report openq4 0.14.1 windows x64 Location Games : Quake 4 : Mods :"
+   }
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Silos, An open source (MIT) CLI sandbox orchestrator for local agents",
+   "url": "https://github.com/SilosLabs/silo-cli",
+   "key": "github.com/siloslabs/silo-cli",
+   "source_url": "https://news.ycombinator.com/item?id=50467012",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Hijacking Samsung TV SmartHub Ads",
+   "url": "https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/",
+   "key": "dvratil.cz",
+   "source_url": "https://news.ycombinator.com/item?id=50465987",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: MFlare – Cloudflare usage and deploy status in the macOS menu bar",
+   "url": "https://mflare.yuy1n.io/",
+   "key": "mflare.yuy1n.io",
+   "source_url": "https://news.ycombinator.com/item?id=50464616",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Taster – Plain-English rules your agent can't forget or ignore",
+   "url": "https://github.com/rinkesh2010rpp/taster-ai",
+   "key": "github.com/rinkesh2010rpp/taster-ai",
+   "source_url": "https://news.ycombinator.com/item?id=50464583",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: DeepSeek-Coder-V2-Lite Under 5GB: 65 TPS 100% In-VRAM on 6GB GPU",
+   "url": "https://huggingface.co/AmSach/DeepSeek-Coder-V2-Lite-Instruct-MAPLE-Sub5GB-GGUF",
+   "key": "huggingface.co/amsach/deepseek-coder-v2-lite-instruct-maple-sub5gb-gguf",
+   "source_url": "https://news.ycombinator.com/item?id=50463281",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 3
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+   "url": "https://github.com/DaleFranks/ramasite",
+   "key": "github.com/dalefranks/ramasite",
+   "source_url": "https://news.ycombinator.com/item?id=50462469",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 2
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "<p>In the past year or so, the company I work for has been delving into using Claude Code, and I got an idea",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Litek8s – Kubernetes API in one Rust binary, 23 MiB idle",
+   "url": "https://litek8s.dev/",
+   "key": "litek8s.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50461743",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 4
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Making a Game Boy Advance Game with GPT-6 Astra",
+   "url": "https://www.spritefusion.com/blog/making-a-game-boy-advance-game-with-gpt-6-astra",
+   "key": "spritefusion.com",
+   "source_url": "https://news.ycombinator.com/item?id=50460209",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Making a Game Boy Advance Game with GPT-6 Astra",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Play GTA5 on Browser",
+   "url": "https://playgta5.com/",
+   "key": "playgta5.com",
+   "source_url": "https://news.ycombinator.com/item?id=50458710",
+   "metrics": {
+    "hn_points": 91,
+    "hn_comments": 68
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Thread Police eliminates stray replies in Slack channels with Jev",
+   "url": "https://github.com/seanparkross/slack-thread-police",
+   "key": "github.com/seanparkross/slack-thread-police",
+   "source_url": "https://news.ycombinator.com/item?id=50457264",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+   "url": "https://termsheetplease.com/",
+   "key": "termsheetplease.com",
+   "source_url": "https://news.ycombinator.com/item?id=50457230",
+   "metrics": {
+    "hn_points": 247,
+    "hn_comments": 97
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "YC founders are raising a round. Inspect the financials, question the records, and decide who gets funded.",
+   "matched": "page",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Spared – self-hosted Workers and Durable Objects for Rust apps",
+   "url": "https://github.com/michaelmagan/spared",
+   "key": "github.com/michaelmagan/spared",
+   "source_url": "https://news.ycombinator.com/item?id=50457024",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Web Crawl Platformer Game",
+   "url": "https://game.commoncrawl.org/",
+   "key": "game.commoncrawl.org",
+   "source_url": "https://news.ycombinator.com/item?id=50455680",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "org&#x2F;research-papers</a><p>Credits: Claude, @malteos, @thunderpoot, and Grogmar Thunderfist, and many others",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+   "url": "https://github.com/klad-app/klad",
+   "key": "github.com/klad-app/klad",
+   "source_url": "https://news.ycombinator.com/item?id=50454951",
+   "metrics": {
+    "hn_points": 84,
+    "hn_comments": 34
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "One of the things that frustrated me the most was that using AI agents for game development is very annoying in the art department",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "key": "github.com/frigadehq/yogurt",
+   "source_url": "https://news.ycombinator.com/item?id=50454625",
+   "metrics": {
+    "hn_points": 305,
+    "hn_comments": 115
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "For call summaries and questions, I use a local open weight LLM that automatically gets downloaded and set up based on what your hardware can handle without your cooling fans firing off like crazy (th",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Perch by mxRaven, a self-hosted mailbox and CLI in 1 file",
+   "url": "https://perch.mxraven.com",
+   "key": "perch.mxraven.com",
+   "source_url": "https://news.ycombinator.com/item?id=50454221",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 2
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
+   "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
+   "key": "github.com/0xdeadf1sh/assemblyforneovim",
+   "source_url": "https://news.ycombinator.com/item?id=50453229",
+   "metrics": {
+    "hn_points": 106,
+    "hn_comments": 20
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I created a library for correctly using SQLite in Go programs",
+   "url": "https://github.com/cattlecloud/litesql",
+   "key": "github.com/cattlecloud/litesql",
+   "source_url": "https://news.ycombinator.com/item?id=50453176",
+   "metrics": {
+    "hn_points": 26,
+    "hn_comments": 2
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Faraway – Physically accurate solar system, time travel 1900–2100",
+   "url": "https://faraway.space/",
+   "key": "faraway.space",
+   "source_url": "https://news.ycombinator.com/item?id=50452549",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Aq – an attention queue TUI for Claude Code",
+   "url": "https://github.com/nodo-labs-uk/attention-queue",
+   "key": "github.com/nodo-labs-uk/attention-queue",
+   "source_url": "https://news.ycombinator.com/item?id=50452257",
+   "metrics": {
+    "hn_points": 19,
+    "hn_comments": 4
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Show HN: Aq – an attention queue TUI for Claude Code",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: ThingStudio, Node-RED style programming for microcontrollers",
+   "url": "https://thingstudio.net/",
+   "key": "thingstudio.net",
+   "source_url": "https://news.ycombinator.com/item?id=50452230",
+   "metrics": {
+    "hn_points": 15,
+    "hn_comments": 2
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Pots – Open-source Grok Bot alternative, used by 6 startups for a month",
+   "url": "https://github.com/Crokily/pi-durable-bot",
+   "key": "github.com/crokily/pi-durable-bot",
+   "source_url": "https://news.ycombinator.com/item?id=50452040",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 3
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Show HN: Pots – Open-source Grok Bot alternative, used by 6 startups for a month",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Log every LLM call with tokens, cost, latency, and time to first token",
+   "url": "https://github.com/garritfra/llmtee",
+   "key": "github.com/garritfra/llmtee",
+   "source_url": "https://news.ycombinator.com/item?id=50451943",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 2
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Show HN: Log every LLM call with tokens, cost, latency, and time to first token",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+   "url": "https://github.com/adrbn/bo2-mac",
+   "key": "github.com/adrbn/bo2-mac",
+   "source_url": "https://news.ycombinator.com/item?id=50449891",
+   "metrics": {
+    "hn_points": 151,
+    "hn_comments": 67
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "So I used Claude Opus 5",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Fastsleep.app – Imagine micro-scenarios to get sleepy",
+   "url": "https://fastsleep.app/",
+   "key": "fastsleep.app",
+   "source_url": "https://news.ycombinator.com/item?id=50449576",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 3
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Caramel: a speech-to-speech conversation model trained only on audio",
+   "url": "https://naklecha.com/research/caramel-1",
+   "key": "naklecha.com",
+   "source_url": "https://news.ycombinator.com/item?id=50449320",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Daily GPU Rental Prices Across AWS, Azure, RunPod and Vast.ai",
+   "url": "https://taipeiledger.com/gpu/",
+   "key": "taipeiledger.com",
+   "source_url": "https://news.ycombinator.com/item?id=50449232",
+   "metrics": {
+    "hn_points": 15,
+    "hn_comments": 3
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "The indie game community is in disarray over AI and Big Walk",
+   "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+   "key": "theverge.com",
+   "source_url": "https://news.ycombinator.com/item?id=50449004",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 2
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "A great old-timey game-programming hack (2013)",
+   "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+   "key": "blog.moertel.com",
+   "source_url": "https://news.ycombinator.com/item?id=50448921",
+   "metrics": {
+    "hn_points": 289,
+    "hn_comments": 73
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title",
+   "read": "article",
+   "article": {
+    "excerpt": "A Great Old-Timey Game-Programming Hack - Tom Moertel’s Blog Tom Moertel’s Blog Home About Archive A Great Old-Timey Game-Programming Hack By Tom Moertel Posted on December 14, 2013 Tags: assembly , 6809 , games , hacks A long time ago, when I was a college undergrad, I spent some time working on computer video games. This was in the 8-bit PC era, when the gaming hardware was almost impossibly slo"
+   }
+  },
+  {
+   "channel": "hn",
+   "title": "LLMs Play Zachtronics' TIS-100",
+   "url": "https://tis-100.wincon.dev/",
+   "key": "tis-100.wincon.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50448340",
+   "metrics": {
+    "hn_points": 96,
+    "hn_comments": 23
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+   "url": "https://mimzie.com/",
+   "key": "mimzie.com",
+   "source_url": "https://news.ycombinator.com/item?id=50448283",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Infinite Shaders",
+   "url": "https://shaderfrog.com/infinite",
+   "key": "shaderfrog.com",
+   "source_url": "https://news.ycombinator.com/item?id=50501503",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 4
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Whiteboard – Open-source alternative to Miro",
+   "url": "https://whiteboard.puter.com/",
+   "key": "whiteboard.puter.com",
+   "source_url": "https://news.ycombinator.com/item?id=50499062",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+   "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+   "key": "github.com/vaibhaav-tiwari/deepseek-v3-jax",
+   "source_url": "https://news.ycombinator.com/item?id=50497589",
+   "metrics": {
+    "hn_points": 271,
+    "hn_comments": 27
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+   "url": "https://github.com/paul-nameless/agweb",
+   "key": "github.com/paul-nameless/agweb",
+   "source_url": "https://news.ycombinator.com/item?id=50497147",
+   "metrics": {
+    "hn_points": 107,
+    "hn_comments": 36
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Lampka – a Windows PDF reader whose dark mode keeps figures in colour",
+   "url": "https://lampka.app/",
+   "key": "lampka.app",
+   "source_url": "https://news.ycombinator.com/item?id=50497141",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
+   "url": "https://github.com/FURSOY/fursoy-cpu",
+   "key": "github.com/fursoy/fursoy-cpu",
+   "source_url": "https://news.ycombinator.com/item?id=50497137",
+   "metrics": {
+    "hn_points": 85,
+    "hn_comments": 36
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+   "url": "https://gitlab.com/snipedbywifi/terminactory",
+   "key": "gitlab.com",
+   "source_url": "https://news.ycombinator.com/item?id=50497132",
+   "metrics": {
+    "hn_points": 164,
+    "hn_comments": 40
+   },
+   "published": "2026-11-14",
+   "passes": true,
+   "ai_hint": "5 claude models made a base for the game that I liked, and then i went ham adding features &#x2F; fixing some minor flaws (like adding claude code hooks so you recieve &quot;telegrams&quot; [the agent",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Sauron – Error tracking and product analytics in one self-hosted stack",
+   "url": "https://sauron.splimter.com/",
+   "key": "sauron.splimter.com",
+   "source_url": "https://news.ycombinator.com/item?id=50496763",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
+   "url": "https://www.shotoku.dev/",
+   "key": "shotoku.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50496705",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "Show HN: Shotoku – Local-first action governance and budget caps for AI agents",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Cyberviber – a $15 touch screen to show which Claude session needs you",
+   "url": "https://cyberviber.de/",
+   "key": "cyberviber.de",
+   "source_url": "https://news.ycombinator.com/item?id=50496642",
+   "metrics": {
+    "hn_points": 12,
+    "hn_comments": 2
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "Show HN: Cyberviber – a $15 touch screen to show which Claude session needs you",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Timon, an open-source AI workstation for coordinating agents",
+   "url": "https://github.com/ai-timon/timon",
+   "key": "github.com/ai-timon/timon",
+   "source_url": "https://news.ycombinator.com/item?id=50496631",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Gamma PDF – AI-native PDF reader, self-hosted",
+   "url": "https://gammapdf.com/",
+   "key": "gammapdf.com",
+   "source_url": "https://news.ycombinator.com/item?id=50495073",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 3
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "<p>You can connect Gamma to Codex (Claude) with Gamma MCP, using it as a knowledge base",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Free Dictionary API – Wiktionary data, no API key required",
+   "url": "https://api.suvankar.cc/docs/dictionary",
+   "key": "api.suvankar.cc",
+   "source_url": "https://news.ycombinator.com/item?id=50494578",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: EDNA – 100% on-device human sensing so AI can perceive the user",
+   "url": "https://openos.space",
+   "key": "openos.space",
+   "source_url": "https://news.ycombinator.com/item?id=50494144",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Naughty Dog's Lisp-Based Game Engines [video]",
+   "url": "https://www.youtube.com/watch?v=RXdI2o0yplY",
+   "key": "youtube.com/watch/rxdi2o0yply",
+   "source_url": "https://news.ycombinator.com/item?id=50493965",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Geocode the planet(630M addresses), indexed in 5h on a 9 GB RAM budget",
+   "url": "https://github.com/open-geocode-rs/open-geocode",
+   "key": "github.com/open-geocode-rs/open-geocode",
+   "source_url": "https://news.ycombinator.com/item?id=50493418",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Quahuru: An original dice strategy board game",
+   "url": "https://quahuru.com",
+   "key": "quahuru.com",
+   "source_url": "https://news.ycombinator.com/item?id=50493383",
+   "metrics": {
+    "hn_points": 10,
+    "hn_comments": 9
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Open-Source Version of Cyclon: Phone where AI is the interface?",
+   "url": "https://opencyclone.vercel.app/",
+   "key": "opencyclone.vercel.app",
+   "source_url": "https://news.ycombinator.com/item?id=50493213",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: RemoteKu – Desktop Roku remote and live ECP keyboard deck for Mac/PC",
+   "url": "https://github.com/KevinOBytes/remoteku",
+   "key": "github.com/kevinobytes/remoteku",
+   "source_url": "https://news.ycombinator.com/item?id=50492532",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Light control for MacBook charger status light (open-source)",
+   "url": "https://github.com/Getterbetter/ember/releases/tag/v1.0.1",
+   "key": "github.com/getterbetter/ember",
+   "source_url": "https://news.ycombinator.com/item?id=50492269",
+   "metrics": {
+    "hn_points": 18,
+    "hn_comments": 10
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Xdoc – High-fidelity Offline PPTX viewer and pdf converter",
+   "url": "https://structurify.io/en/playground/",
+   "key": "structurify.io",
+   "source_url": "https://news.ycombinator.com/item?id=50492268",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+   "url": "https://kingstonyip.com/portal2bench",
+   "key": "kingstonyip.com",
+   "source_url": "https://news.ycombinator.com/item?id=50492238",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "Show HN: Portal2Bench – Can AI agents solve Portal 2?",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+   "url": "https://grounds.top/",
+   "key": "grounds.top",
+   "source_url": "https://news.ycombinator.com/item?id=50491545",
+   "metrics": {
+    "hn_points": 216,
+    "hn_comments": 27
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Watch U.S. skies empty after the Nov 13, 2026 ground stop. Flights airborne against a normal Friday, departures, and the backlog at major airports.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: NETWAR – hacker MMO with 15-second card duels on a shared hex map",
+   "url": "https://play-netwar.com/?from=hn",
+   "key": "play-netwar.com",
+   "source_url": "https://news.ycombinator.com/item?id=50491021",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I have trained a model to predict my blood sugar",
+   "url": "https://github.com/0xdeadf1sh/T1DMAI",
+   "key": "github.com/0xdeadf1sh/t1dmai",
+   "source_url": "https://news.ycombinator.com/item?id=50489490",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 2
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: College Basketball Stats and Predictions",
+   "url": "https://fijimf.com/",
+   "key": "fijimf.com",
+   "source_url": "https://news.ycombinator.com/item?id=50488733",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 2
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+   "url": "https://isometricsf.com/",
+   "key": "isometricsf.com",
+   "source_url": "https://news.ycombinator.com/item?id=50487228",
+   "metrics": {
+    "hn_points": 252,
+    "hn_comments": 75
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "An isometric pixel-art map of the whole San Francisco Bay Area. Search a place, a town or an address, then send someone the view.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Leetsys – Practice system design interviews with an AI interviewer",
+   "url": "https://www.leetsys.dev",
+   "key": "leetsys.dev",
+   "source_url": "https://news.ycombinator.com/item?id=50484902",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Cal.flare – cal.diy ported to Cloudflare Workers",
+   "url": "https://github.com/ralphbibera/cal.flare",
+   "key": "github.com/ralphbibera/cal.flare",
+   "source_url": "https://news.ycombinator.com/item?id=50484737",
+   "metrics": {
+    "hn_points": 11,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call",
+   "url": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+   "key": "github.com/langfuse/langfuse",
+   "source_url": "https://news.ycombinator.com/item?id=50484682",
+   "metrics": {
+    "hn_points": 9,
+    "hn_comments": 1
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Hexalexagons, a daily word game on a hexagonal grid",
+   "url": "https://hexalexagons.com/",
+   "key": "hexalexagons.com",
+   "source_url": "https://news.ycombinator.com/item?id=50484579",
+   "metrics": {
+    "hn_points": 21,
+    "hn_comments": 12
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Harness Tuner – eval-driven tuning loop for agent tools, prompts, model",
+   "url": "https://github.com/Kiln-AI/harness-tuner",
+   "key": "github.com/kiln-ai/harness-tuner",
+   "source_url": "https://news.ycombinator.com/item?id=50484443",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 5
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Build Django Admin internal tools with your coding agent",
+   "url": "https://djangocontrolroom.com/build",
+   "key": "djangocontrolroom.com",
+   "source_url": "https://news.ycombinator.com/item?id=50484330",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Hardware Crackmes: 100 GameBoy Advance Games",
+   "url": "https://remyhax.xyz/posts/gba-cheat-crackmes/",
+   "key": "remyhax.xyz",
+   "source_url": "https://news.ycombinator.com/item?id=50483772",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I'm putting Sentrint up for acquisition, bidding starting at $5,102 USD",
+   "url": "https://sentrint.com/",
+   "key": "sentrint.com",
+   "source_url": "https://news.ycombinator.com/item?id=50482723",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I designed my ideal wall calendar",
+   "url": "https://shop.karthikmahadevan.com/flow-calendar",
+   "key": "shop.karthikmahadevan.com",
+   "source_url": "https://news.ycombinator.com/item?id=50482470",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Reflota – Open-source data recovery for NTFS/FAT disks with phased copy",
+   "url": "https://github.com/Christ10-8/reflota",
+   "key": "github.com/christ10-8/reflota",
+   "source_url": "https://news.ycombinator.com/item?id=50482455",
+   "metrics": {
+    "hn_points": 30,
+    "hn_comments": 3
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
+   "url": "https://www.niklasroy.com/carton-clock/",
+   "key": "niklasroy.com",
+   "source_url": "https://news.ycombinator.com/item?id=50482279",
+   "metrics": {
+    "hn_points": 73,
+    "hn_comments": 2
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "<p>The design of the gears and escapement was AI-assisted: Claude built me interactive browser tools that generate templates and 3D-printable jigs and tools",
+   "desc": "“Carton Clock” is a purist experiment in trash bin horology. The experiment culminates in the successful build of a clock, made out of empty drink…",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: PharmA2A, an open protocol for pharmacy-to-supplier orders on A2A",
+   "url": "https://github.com/pharma2a/pharma2a",
+   "key": "github.com/pharma2a/pharma2a",
+   "source_url": "https://news.ycombinator.com/item?id=50478543",
+   "metrics": {
+    "hn_points": 14,
+    "hn_comments": 4
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I built a Rick and Morty explainer video generator",
+   "url": "https://usediorama.com/rick-and-morty",
+   "key": "usediorama.com",
+   "source_url": "https://news.ycombinator.com/item?id=50477993",
+   "metrics": {
+    "hn_points": 12,
+    "hn_comments": 22
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: KittyBrowser, I built a web browser in your terminal",
+   "url": "https://github.com/graiz/kittybrowser",
+   "key": "github.com/graiz/kittybrowser",
+   "source_url": "https://news.ycombinator.com/item?id=50477091",
+   "metrics": {
+    "hn_points": 7,
+    "hn_comments": 6
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "WebGL Flight Simulator with seed generated terrain",
+   "url": "https://baron.by.dai.studio/",
+   "key": "baron.by.dai.studio",
+   "source_url": "https://news.ycombinator.com/item?id=50510296",
+   "metrics": {
+    "hn_points": 34,
+    "hn_comments": 7
+   },
+   "published": "2026-11-15",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Widefleet Cloud - Deploy agent-built internal apps with SSO and storage",
+   "url": "https://widefleet.com/",
+   "key": "widefleet.com",
+   "source_url": "https://news.ycombinator.com/item?id=50509606",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 2
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "com&#x2F;widefleet&#x2F;widefleet</a><p>Curious how you’re dealing with vibe-coded apps at work, whether you built them yourself or ended up maintaining someone else’s",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A tiny macOS app that turns off the MacBook display [free license]",
+   "url": "https://blackoutapp.io/",
+   "key": "blackoutapp.io",
+   "source_url": "https://news.ycombinator.com/item?id=50507722",
+   "metrics": {
+    "hn_points": 8,
+    "hn_comments": 26
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Amiga Studio: IDE for making games and apps for Amiga and C64 in assembler or C",
+   "url": "https://piershaw.itch.io/amiga-studio-ide",
+   "key": "piershaw.itch.io/amiga-studio-ide",
+   "source_url": "https://news.ycombinator.com/item?id=50506978",
+   "metrics": {
+    "hn_points": 18,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+   "url": "https://github.com/db-branch/db-branch",
+   "key": "github.com/db-branch/db-branch",
+   "source_url": "https://news.ycombinator.com/item?id=50506940",
+   "metrics": {
+    "hn_points": 28,
+    "hn_comments": 7
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Nano-Edge-TTS – 70x realtime, Lightweight Kokoro-based TTS model",
+   "url": "https://huggingface.co/drmhse/nano-edge-tts",
+   "key": "huggingface.co/drmhse/nano-edge-tts",
+   "source_url": "https://news.ycombinator.com/item?id=50506255",
+   "metrics": {
+    "hn_points": 12,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: a Rust implementation of the Reticulum mesh networking stack",
+   "url": "https://github.com/aljazceru/Reticulum-rs",
+   "key": "github.com/aljazceru/reticulum-rs",
+   "source_url": "https://news.ycombinator.com/item?id=50506235",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+   "url": "https://www.bbc.com/news/articles/c6jd7k5ryl1mo",
+   "key": "bbc.com",
+   "source_url": "https://news.ycombinator.com/item?id=50505964",
+   "metrics": {
+    "hn_points": 15,
+    "hn_comments": 3
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Can a VPN be decentralised.. I think it's the best for homelabs",
+   "url": "https://github.com/CLoaKY233/kith",
+   "key": "github.com/cloaky233/kith",
+   "source_url": "https://news.ycombinator.com/item?id=50505492",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 2
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "<p>ps : I used a lot of Claude while building it, so I&#x27;m sure there are rough edges I haven&#x27;t found",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Gawain – Require type hints on all Python variables",
+   "url": "https://github.com/matheuzgomes/gawain",
+   "key": "github.com/matheuzgomes/gawain",
+   "source_url": "https://news.ycombinator.com/item?id=50504072",
+   "metrics": {
+    "hn_points": 67,
+    "hn_comments": 51
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+   "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+   "key": "github.com/tthanh2k6/turbo-browser-mcp",
+   "source_url": "https://news.ycombinator.com/item?id=50503930",
+   "metrics": {
+    "hn_points": 46,
+    "hn_comments": 9
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: KrocPDF – A Local-First, Alternative to iLovePDF",
+   "url": "https://github.com/KrocPDF/KrocPDF",
+   "key": "github.com/krocpdf/krocpdf",
+   "source_url": "https://news.ycombinator.com/item?id=50503891",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: PowerQueue free online message queue supports AWS, GCE, Azure, AMQP",
+   "url": "https://www.powerqueue.link",
+   "key": "powerqueue.link",
+   "source_url": "https://news.ycombinator.com/item?id=50503655",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "ChatMate: Remote Prompt Execution on AI Assistants Through Sandbox Escaping [video]",
+   "url": "https://www.youtube.com/watch?v=MspRSCAb6uI",
+   "key": "youtube.com/watch/msprscab6ui",
+   "source_url": "https://news.ycombinator.com/item?id=50503511",
+   "metrics": {
+    "hn_points": 5,
+    "hn_comments": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "My favourite modern NES games",
+   "url": "https://www.speedrun.com/cg2a",
+   "key": "speedrun.com",
+   "source_url": "https://news.ycombinator.com/item?id=50503465",
+   "metrics": {
+    "hn_points": 197,
+    "hn_comments": 39
+   },
+   "published": "2026-11-15",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "article_link",
+   "read": "article",
+   "article": {
+    "excerpt": "25 of my favourite modern NES games Written by – Jordi November 15, 2026 We are in the middle of the Second ReNESance (the first one is the one that saved the video game industry in North America). The combined decades of research and knowledge on how the venerable little NES works have produced a true cornucopia of games. We are all lucky to be here to witness it. I am always happy to inform vide",
+    "context": "ponsive and engaging. Very fun to play. It’s no surprise then that this game has [achieved some popularity with speedrunners]",
+    "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/"
+   }
+  },
+  {
+   "channel": "hn",
+   "title": "Game Repacker DODI Retires Ahead of Wedding, Hands Site to New Team",
+   "url": "https://torrentfreak.com/game-repacker-dodi-retires-ahead-of-wedding-hands-site-to-new-team/",
+   "key": "torrentfreak.com",
+   "source_url": "https://news.ycombinator.com/item?id=50503269",
+   "metrics": {
+    "hn_points": 12,
+    "hn_comments": 3
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "title"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: Umbrella – macOS app to capture audio from any app",
+   "url": "https://umbrella.pixelegg.me/",
+   "key": "umbrella.pixelegg.me",
+   "source_url": "https://news.ycombinator.com/item?id=50503097",
+   "metrics": {
+    "hn_points": 26,
+    "hn_comments": 9
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+   "url": "https://bobbiec.github.io/jamaican-font.html",
+   "key": "bobbiec.github.io/jamaican-font.html",
+   "source_url": "https://news.ycombinator.com/item?id=50502839",
+   "metrics": {
+    "hn_points": 53,
+    "hn_comments": 7
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A font where the letters are based on the Jamaican flag design.",
+   "matched": "show_hn",
+   "read": "page"
+  },
+  {
+   "channel": "hn",
+   "title": "Show HN: I made a tiny HN-style forum for small communities",
+   "url": "https://github.com/skorokithakis/soliloquy",
+   "key": "github.com/skorokithakis/soliloquy",
+   "source_url": "https://news.ycombinator.com/item?id=50502423",
+   "metrics": {
+    "hn_points": 6,
+    "hn_comments": 2
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "",
+   "matched": "show_hn"
+  }
+ ]
+}

@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Soccer-3D - Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "mothlight": {
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "bayhaven": {
@@ -110,7 +110,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "dustfall": {
@@ -135,7 +135,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "what-the-water-keeps": {
@@ -148,26 +148,26 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 503226,
-    "likes": 4250,
+    "views": 506648,
+    "likes": 4267,
     "date": "2026-11-09",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
    "repo": {},
    "hn": {
-    "url": "https://news.ycombinator.com/item?id=50451107",
-    "title": "What the Water Keeps",
-    "points": 1,
-    "comments": 0,
-    "date": "2026-11-11",
-    "link": "https://what-the-water-keeps.vercel.app/"
+    "url": "https://news.ycombinator.com/item?id=50506981",
+    "title": "What the Water Keeps – Reverse-engineered Three.js source of the Fable 5.2 game",
+    "points": 2,
+    "comments": 1,
+    "date": "2026-11-15",
+    "link": "https://github.com/dill-lk/What-the-Water-Keeps"
    },
    "url": "https://what-the-water-keeps.vercel.app/",
-   "how": "Hacker News 帖子的链接",
+   "how": "合集站给的链接",
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "pelican-on-a-bike": {
@@ -185,7 +185,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "blameless": {
@@ -210,7 +210,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "jimao-cs": {
@@ -228,7 +228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "evensong": {
@@ -246,7 +246,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "qingyun-sword-flight": {
@@ -271,7 +271,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "tuktuk": {
@@ -296,7 +296,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Written by Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "wukong-tiger-vanguard": {
@@ -314,7 +314,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "sublevel-07-fps-repro": {
@@ -328,7 +328,7 @@
    "repo": {
     "url": "https://github.com/wquguru/fable52-fps-repro",
     "created": "2026-11-11",
-    "stars": 90,
+    "stars": 95,
     "homepage": "https://wquguru.github.io/fable52-fps-repro/",
     "desc": "Fable 5.2 一句话生成 3D FPS 复现：4 个单文件演示、提示词与缓存账单 / One-prompt 3D FPS repro with demos, prompts & cost data",
     "owner": "wquguru"
@@ -339,7 +339,7 @@
    "mirror": true,
    "published": "2026-11-11",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "wusuo-shanmen": {
@@ -353,7 +353,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 340,
+    "stars": 357,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -364,7 +364,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "tidebell": {
@@ -389,7 +389,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "ironvale": {
@@ -414,7 +414,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "hanford-reach": {
@@ -439,7 +439,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "shuttle-strike": {
@@ -464,7 +464,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "simple badminton game with claude fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "feiche-3d": {
@@ -482,7 +482,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "harvest-standoff": {
@@ -496,7 +496,7 @@
    "repo": {
     "url": "https://github.com/andreteow/farm-ca",
     "created": "2026-11-10",
-    "stars": 0,
+    "stars": 1,
     "homepage": "https://harvest-standoff.vercel.app",
     "desc": "Fable 5.2 farm inspired CS game ",
     "owner": "andreteow"
@@ -507,7 +507,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "transport-ship-3d": {
@@ -525,7 +525,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "daedalus": {
@@ -550,7 +550,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -575,7 +575,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Congrats for shipping Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "sternenjaeger": {
@@ -600,7 +600,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "browser game created with Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "warm-toy-room-v25": {
@@ -618,7 +618,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "misremember": {
@@ -643,7 +643,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "saltline-online": {
@@ -657,7 +657,7 @@
    "repo": {
     "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
     "created": "2026-11-11",
-    "stars": 20,
+    "stars": 23,
     "homepage": "",
     "desc": "",
     "owner": "wenzhengshi"
@@ -668,7 +668,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "becario-del-universo": {
@@ -693,7 +693,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "hextech-aram": {
@@ -711,7 +711,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "breach-transport-ship-online": {
@@ -729,7 +729,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "emberdeep": {
@@ -754,7 +754,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Testing the Limits of Fable 5",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "duskline-vxn7rh": {
@@ -772,7 +772,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
   }
  },
  "flight-simulator-nfljgw": {
@@ -790,7 +790,143 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-15"
+   "checked": "2026-11-16"
+  }
+ },
+ "makinamon-pulso": {
+  "play_url": "https://gavilanbe.github.io/makinamon-pulso/",
+  "source_repo": "https://github.com/gavilanbe/makinamon-pulso",
+  "author_url": "https://github.com/gavilanbe",
+  "has_prompt": false,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/gavilanbe/makinamon-pulso",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "https://gavilanbe.github.io/makinamon-pulso/",
+    "desc": "🔋 MAKINAMON · Versión Pulso — RPG de criaturas-máquina estilo Game Boy Color: 10 capítulos, 50 Makinamon, 50 ataques con animación propia y un compañero que te sigue. Hecho con Claude Fable 5.2",
+    "owner": "gavilanbe"
+   },
+   "hn": {},
+   "url": "https://gavilanbe.github.io/makinamon-pulso/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "Hecho con Claude Fable 5",
+   "checked": "2026-11-16"
+  }
+ },
+ "riftline": {
+  "play_url": "https://wongh26.github.io/claude_fps/",
+  "source_repo": "https://github.com/wongh26/claude_fps",
+  "author_url": "https://github.com/wongh26",
+  "has_prompt": false,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/wongh26/claude_fps",
+    "created": "2026-11-13",
+    "stars": 0,
+    "homepage": "",
+    "desc": "testing Claude Fable 5.2 for game dev",
+    "owner": "wongh26"
+   },
+   "hn": {},
+   "url": "https://wongh26.github.io/claude_fps/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-13",
+   "ai_hint": "testing Claude Fable 5",
+   "checked": "2026-11-16"
+  }
+ },
+ "the-county": {
+  "play_url": "https://themizeguy.github.io/fable-5.2-potatobench/",
+  "source_repo": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+  "author_url": "https://github.com/TheMizeGuy",
+  "has_prompt": true,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/TheMizeGuy/fable-5.2-potatobench",
+    "created": "2026-11-11",
+    "stars": 1,
+    "homepage": "https://themizeguy.github.io/fable-5.2-potatobench/",
+    "desc": "The County: a potato farming strategy game. Fable 5.2's entry in PotatoBench (PotatoBench made by TheMizeGuy)",
+    "owner": "TheMizeGuy"
+   },
+   "hn": {},
+   "url": "https://themizeguy.github.io/fable-5.2-potatobench/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "Fable 5",
+   "checked": "2026-11-16"
+  }
+ },
+ "emberhold-xwn1lu": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": true,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/emberhold-xwn1lu",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-16"
+  }
+ },
+ "arcfall-artillery-ho7odp": {
+  "play_url": "https://arcfall.ez8.tools/",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": true,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://arcfall.ez8.tools/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-16"
+  }
+ },
+ "tidemark": {
+  "play_url": "https://dsh-game-store.com/games/tidemark/play/",
+  "source_repo": "https://github.com/CocoSgt/dsh-game-tidemark",
+  "author_url": "https://github.com/CocoSgt",
+  "has_prompt": false,
+  "listed": "2026-11-15",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/CocoSgt/dsh-game-tidemark",
+    "created": "2026-11-13",
+    "stars": 19,
+    "homepage": "https://dsh-game-store.com/games/tidemark/",
+    "desc": "《潮汐战线》Tidemark：《高级战争》式的回合制战棋，海陆空 33 个兵种、29 位指挥官，开源，网页和 DSH 里都能玩 · Turn-based strategy in the spirit of Advance Wars",
+    "owner": "CocoSgt"
+   },
+   "hn": {},
+   "url": "https://dsh-game-store.com/games/tidemark/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-13",
+   "ai_hint": "",
+   "checked": "2026-11-16"
   }
  }
 }
