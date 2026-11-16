@@ -272,19 +272,26 @@
   "is_game": true,
   "in_browser": null,
   "ai_evidence": "帖子写明用 Fable 5.2 一天做成",
-  "note": "MMO 世界演示片段，帖子没有给试玩链接；作者是 Spawn 上多款已收录游戏的开发者",
+  "note": "MMO 世界演示片段，作者在回复里说项目名叫 The Sanctuary，在 Spawn 上做；没有试玩链接",
   "games": [],
-  "judged": "2026-11-11",
+  "judged": "2026-11-16",
   "by": "会话核验",
-  "name": "MMO 世界演示（未命名）"
+  "name": "The Sanctuary"
  },
  "2119900487688622171": {
   "is_game": true,
   "in_browser": true,
   "ai_evidence": "帖子写明由 Claude Fable 5.2 制作",
-  "note": "Gilt & Gutter，帖子说可以在浏览器里玩，但正文没有链接；作者的个人网站和 itch.io 页面也没有列出这款游戏",
-  "games": [],
-  "judged": "2026-11-11",
+  "note": "Gilt & Gutter，帖子正文没有链接，作者在回复里给出了试玩地址",
+  "games": [
+   {
+    "name": "Gilt & Gutter",
+    "url": "https://gilt-and-gutter.vercel.app/",
+    "how": "作者在回复里给出的链接",
+    "source_post": "https://x.com/kevin_t_ngo/status/2119900487688622171"
+   }
+  ],
+  "judged": "2026-11-16",
   "by": "会话核验",
   "name": "Gilt & Gutter"
  },
