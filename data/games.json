@@ -2872,7 +2872,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 426417,
+     "x_views": 426467,
      "x_likes": null
     }
    }
@@ -2933,7 +2933,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 173236,
+     "x_views": 173248,
      "x_likes": null
     }
    }
@@ -3122,7 +3122,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 10071,
+     "x_views": 10073,
      "x_likes": 54
     }
    }
@@ -4172,13 +4172,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "8,606",
+    "value": "8,607",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 8,606"
+   "X 帖子（@gourav_io，核验确认），浏览 8,607"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4188,7 +4188,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 8606,
+     "x_views": 8607,
      "x_likes": 12
     }
    }
@@ -4248,7 +4248,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 32969,
+     "x_views": 32970,
      "x_likes": 244
     }
    }
@@ -4308,7 +4308,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 12727,
+     "x_views": 12735,
      "x_likes": 119
     }
    }
@@ -4368,7 +4368,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 58278,
+     "x_views": 58284,
      "x_likes": 451
     }
    }
@@ -4428,7 +4428,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 39742,
+     "x_views": 39750,
      "x_likes": 204
     }
    }
@@ -4444,12 +4444,12 @@
  },
  {
   "id": "fps",
-  "name": "带传送门的竞技场 FPS（未命名）",
-  "kind": "带传送门的竞技场 FPS",
+  "name": "Parallax",
+  "kind": "带传送门的团队竞技场 FPS",
   "group": "多人在线交互",
   "group_type": "direction",
   "date_text": "2026-11-09 发帖",
-  "play": "带传送门的竞技场 FPS；作者说在办公室和同事对战玩了好几个晚上，Fable 5.2 是第一个让他觉得能做出\"真正好玩又好看\"游戏的模型。帖子只有视频。",
+  "play": "太空站竞技场里的团队对战 FPS，白队对紫队，玩家可以穿过传送门移动和射击。以上按视频抽帧整理：片头署名\"Anthropic Studios（not a real studio）\"，片尾标题是 PARALLAX。作者说在办公室和同事对战玩了好几个晚上。帖子只有视频，没有试玩链接。Splitgate（以传送门为核心玩法的竞技场 FPS）官方账号在回复里说\"Looks weirdly familiar\"，这条回复有 4.5 万浏览。",
   "quote": "An arena FPS with portals - Fable 5.2 is the first model that passes my bar for seriously fun and beautiful games. \nWe have had a few fun evenings playtesting this against eachother at the office https://t.co/N0A6cfXHCM",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2",
@@ -4488,7 +4488,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 197743,
+     "x_views": 197774,
      "x_likes": 1686
     }
    }
@@ -4500,7 +4500,8 @@
    "https://x.com/_sholtodouglas/status/2119935331499925557"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "名称和玩法取自 X 帖子视频抽帧（2026-11-16），回复内容取自不登录打开的 X 原帖页面"
  },
  {
   "id": "mmo",
@@ -4548,7 +4549,7 @@
     "url": "https://x.com/Izkimar/status/2119931740940640542",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 22487,
+     "x_views": 22492,
      "x_likes": 297
     }
    }
@@ -4608,7 +4609,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 107703,
+     "x_views": 107716,
      "x_likes": 281
     }
    }
@@ -4729,7 +4730,7 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 15968,
+     "x_views": 15970,
      "x_likes": 267
     }
    }
@@ -4789,7 +4790,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 196742,
+     "x_views": 196802,
      "x_likes": null
     }
    }
@@ -5364,6 +5365,13 @@
      "github_stars": 1,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/ShaunPrice/soccer-3d",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5429,6 +5437,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5504,6 +5519,20 @@
      "hn_comments": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
+   },
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50451107",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5573,6 +5602,13 @@
      "github_stars": 2,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/fablestar/bayhaven",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5700,6 +5736,13 @@
      "github_stars": 3,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/webKing021/dustfall",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5770,6 +5813,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/Petyok/blameless",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -5892,6 +5942,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6069,6 +6126,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6132,6 +6196,13 @@
      "github_stars": 1,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/SharpWizard/ironvale",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6195,6 +6266,13 @@
      "github_stars": 90,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/wquguru/fable52-fps-repro",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6331,6 +6409,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/basemazab/tuktuk",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6451,6 +6536,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/chzbloom123/settlement-bluff-fable5.2",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6576,6 +6668,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/fedifianto/shuttlestrike",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6641,6 +6740,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/andreteow/farm-ca",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6704,6 +6810,13 @@
      "github_stars": 1,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/S77FFY/daedalus",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6881,6 +6994,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/jakozaur/sf_bay_area_transit_fable_5_2_game",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6944,6 +7064,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/hahaliu1029/fable5.2demo",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -7007,6 +7134,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/oldzitterhand/sternenjaeger",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -7070,6 +7204,13 @@
      "github_stars": 20,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -7133,6 +7274,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/DNDNoob/EmberDeep",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -7196,6 +7344,13 @@
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/masugus/fable5.2-5min-game",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],

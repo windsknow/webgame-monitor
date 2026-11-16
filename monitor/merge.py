@@ -372,11 +372,24 @@ def card_dynamic(c, cfg, date):
         'ai_tag': c['ai_tag'], 'ai_evidence': c['ai_evidence'],
         'sources': [{'channel': l['channel'], 'url': l['source_url'], 'date': l['date'],
                      'metrics': dict(l['metrics'], **({'x_views': x_views(c, l)} if l['channel'] == 'x' else {}))}
-                    for l in c['leads']],
+                    for l in c['leads']] + origin_sources(c),
         'x_handles': sorted({l['x']['handle'] for l in c['leads'] if l.get('x') and l['x'].get('handle')}),
         'source_posts': sorted({l['source_url'] for l in c['leads'] if l['channel'] == 'x'}),
         'stats_date': date,
     }
+
+
+def origin_sources(c):
+    """二手渠道溯源找到的原始出处（作者 X 帖、源码仓库、HN 帖），作为来源链接放进卡片。不算发现渠道。"""
+    out, seen = [], {l['source_url'] for l in c['leads']}
+    for l in c['leads']:
+        o = l.get('origin') or {}
+        for ch, k in (('x', 'x'), ('github', 'repo'), ('hn', 'hn')):
+            u = o.get(k)
+            if u and u not in seen:
+                seen.add(u)
+                out.append({'channel': ch, 'url': u, 'date': l['date'], 'metrics': {}, 'origin': True})
+    return out
 
 
 def ensure_images(card, c):

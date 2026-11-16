@@ -24,7 +24,7 @@ STATUS_TAGS = [('hot', '重点'), ('new', '近 7 天入库'), ('verified', '已�
 
 
 def channels_of(g):
-    chs = [s['channel'] for s in g.get('sources') or []]
+    chs = [s['channel'] for s in g.get('sources') or [] if not s.get('origin')]
     fs = (g.get('first_seen') or {}).get('channel')
     if fs:
         chs.append(fs)
