@@ -53,6 +53,7 @@ PATH_HOSTS = {
     'claude.ai': 2,            # /artifact/<id>
     'claude.site': 2,          # /artifacts/<id>
     'github.com': 2,           # /<owner>/<repo>
+    'gitlab.com': 2,           # /<owner>/<repo>
     'spawn.co': 2,             # /@user/<game>
     'verse8.io': 1,
     'astrocade.com': 3,        # /games/<slug>/<id>

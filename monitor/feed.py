@@ -81,9 +81,16 @@ def run(date=None):
 
     week_ago = (datetime.date.fromisoformat(date) - datetime.timedelta(days=7)).isoformat()
     groups_order = [m['title'] for m in st['groups']]
-    # 重点轮播：最近升为重点的在前，同一天按热度
-    hot = sorted([g for g in games if g.get('hot')],
-                 key=lambda g: (g.get('hot_since') or g.get('added') or '', heat(g)), reverse=True)[:12]
+    # 重点轮播：只放首次公开在 30 天内的新品（平台热门榜上的老作品重新上榜不放），最近升为重点的在前，同一天按热度；
+    fresh = (datetime.date.fromisoformat(date) - datetime.timedelta(days=util.config()['window']['new_days'])).isoformat()
+    # 同一发现渠道最多放 4 款，免得平台热门榜（每天轮换）把轮播占满
+    hot, per_ch = [], {}
+    for g in sorted([g for g in games if g.get('hot') and date_key(g) >= fresh],
+                    key=lambda g: (g.get('hot_since') or g.get('added') or '', heat(g)), reverse=True):
+        ch = (channels_of(g) or [''])[0]
+        if per_ch.get(ch, 0) < 4 and len(hot) < 12:
+            hot.append(g)
+            per_ch[ch] = per_ch.get(ch, 0) + 1
 
     # 信息流：按入库日期倒序；同一天里重点在前，再按热度。首批整理的 68 款按首次公开日期排
     days = {}
@@ -169,7 +176,7 @@ def run(date=None):
 </div></div>
 
 <section class="hero wrap2" aria-label="重点游戏">
-<div class="hero-h"><h2>重点游戏</h2><span>传播或游玩数据达到重点线的游戏，最近升为重点的在前</span></div>
+<div class="hero-h"><h2>重点游戏</h2><span>首次公开在 30 天内、传播或游玩数据达到重点线的新品，最近升为重点的在前</span></div>
 <div class="carousel" id="car">
 <div class="track" id="track">{hero_html}</div>
 <button type="button" class="nav prev" aria-label="上一张">‹</button><button type="button" class="nav next" aria-label="下一张">›</button>
