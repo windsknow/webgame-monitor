@@ -2828,7 +2828,7 @@
  {
   "id": "earth",
   "name": "Earth",
-  "kind": "可破坏的\"镜像地球\"",
+  "kind": "体素地球探索",
   "group": "把真实世界做成游戏",
   "group_type": "direction",
   "url": "https://www.spawn.co/@mattshumer/earth",
@@ -2841,7 +2841,7 @@
     "doubt": false
    }
   ],
-  "play": "作者把它称为\"镜像地球\"：可以去任何地方、破坏任何东西，天气等状态与真实地球实时对应。这些是作者帖子里的说法，尚未试玩核实。",
+  "play": "片尾字幕写\"THE WHOLE PLANET. IN VOXELS. IN YOUR BROWSER.\"。画面里是体素风的真实地理：海岸日落、巴黎街道雨夜、美国犹他 US-163 公路、纽约式高楼和广告屏，还有从太空俯瞰地球。看起来像第三人称或飞行视角在全球各地移动。 作者说可以去任何地方、破坏任何东西，天气等与真实地球实时对应，未试玩核实。（玩法取自视频抽帧） X 回复：看到 1 条，有人说在毛伊岛上空玩跳伞，并夸作者做得好。",
   "quote": "Play Earth by @mattshumer on Spawn, free in your browser.",
   "quote_src": "页面自述",
   "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
@@ -2889,7 +2889,8 @@
    "X 帖子（@mattshumer_，核验确认），浏览 42.6 万"
   ],
   "stats_date": "2026-11-15",
-  "hot_since": "2026-11-12"
+  "hot_since": "2026-11-12",
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "hogwarts-royale",
@@ -2907,7 +2908,7 @@
     "doubt": false
    }
   ],
-  "play": "以霍格沃茨为背景的大逃杀：空降入场，找到魔杖，在缩圈中活到最后。作者给模型的要求是\"把《哈利·波特》和《堡垒之夜》混在一起\"。玩法取自平台页面的介绍，尚未试玩核实。",
+  "play": "画面里玩家骑着扫帚在城堡和森林上空飞行，能进入三把扫帚酒馆，场景里有紫色毒圈压过来，天上有摄魂怪式的黑影，地上有紫色宝箱，玩家还能撑起魔法护盾。 作者给模型的要求是\"把《哈利·波特》和《堡垒之夜》混在一起\"；平台页介绍说空降入场、找魔杖、在缩圈中活到最后。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "A battle royale at Hogwarts: drop in, find a wand, outlast the ring.",
   "quote_src": "页面自述",
   "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
@@ -2949,7 +2950,8 @@
   "reasons": [
    "X 帖子（@mattshumer_，核验确认），浏览 17.3 万"
   ],
-  "stats_date": "2026-11-15"
+  "stats_date": "2026-11-15",
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "seriesoftubes",
@@ -3079,11 +3081,11 @@
  {
   "id": "banana-mine-rush",
   "name": "Banana Mine Rush",
-  "kind": "3D 卡丁车",
+  "kind": "矿车竞速",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
   "date_text": "2026-11-10 首次公开",
-  "play": "作者用 Fable 5.2 在 Remix 平台上做的 3D 卡丁车，浏览器里不用账号就能玩；Remix 平台自带多人、排行榜和成就。",
+  "play": "片尾标题 BANANA MINE RUSH，\"PLAY NOW ON REMIX\"。画面是猩猩角色坐矿车在丛林和矿洞轨道上竞速，屏幕文字提示：加速带、选轨道、跳过缺口、低头躲横梁、躲石头、超过对手；还有爆炸（KABOOM）。 作者说用 Fable 5.2 在 Remix 平台上做，浏览器里不用账号就能玩，平台自带多人、排行榜和成就。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Here's my new 3D kart racer game I built with @claudeai\nFable 5.2 with @AskVenice on @RemixGG_ \n\nLike all remix games:\n-> Playable instantly in browser w/o account\n-> Automatically generates trailer\n-> Free multiplayer\n-> Instant distribution to all of our gamers\n-> Built-in leaderboard and achievements\n\ngive it a try: https://t.co/c8mEl5W13Q",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2、Venice",
@@ -3134,7 +3136,8 @@
    "https://x.com/0xChuckstock/status/2120125184606658728"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "voxels",
@@ -4145,11 +4148,11 @@
  {
   "id": "game",
   "name": "僵尸追逐游戏（未命名）",
-  "kind": "僵尸追逐",
+  "kind": "第三人称射击加僵尸",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-09 发帖",
-  "play": "作者在调僵尸 AI：僵尸会跟着玩家走、翻过障碍物。帖子只有一段追逐视频，没有试玩链接。",
+  "play": "画面是第三人称视角：穿 12 号 NEW YORK 球衣的角色拿步枪，屏幕右下有弹药数（40/240 等）。多个僵尸追过来，能翻过黄色的墙，被打倒后倒地。场景是深色空地加黄色矮墙，看起来像测试场地。 作者说在调僵尸 AI：僵尸会跟着玩家走、翻过障碍物，用 Claude 加 three.js 做，没有试玩链接。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Been working on the zombie AI and it finally feels decent.\n\nThey actually follow you, climb over stuff, and don’t just stand around. Full vibe-coded with @claudeai + @threejs. Here’s the chase clip: https://t.co/rvnsJYYqBl",
   "quote_src": "来源帖子原文",
   "tech": "three.js，Claude 辅助编程",
@@ -4200,16 +4203,17 @@
    "https://x.com/gourav_io/status/2119791071089852888"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "frensofpria",
   "name": "@FrensOfPRIA 的作品（未命名）",
-  "kind": "3D 作品（玩法未说明）",
+  "kind": "第一人称摩托射击",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-09 发帖",
-  "play": "作者做了三个月的 three.js 作品，帖子只有视频，没写玩法和名字。",
+  "play": "画面是第一人称：骑摩托在室内竞技场里开枪，有 HUD、弹药数、小地图，顶部有一个名叫 HARLAN FUSE 的血条，屏幕下方有 Harlan 的对话字幕。场地有彩灯、轮胎围栏和 BOOM 灯牌，看起来像摩托对战或 Boss 战。 作者说做了三个月，用 three.js 加 Opus 4 和 5，帖子没写玩法和名字。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Three months in and the bar just keeps rising.\nThree.js + Opus 4 &amp; 5. \n\n#indiedev #threejs https://t.co/pn17ogeMcx",
   "quote_src": "来源帖子原文",
   "tech": "three.js，Claude Opus 4 和 5",
@@ -4260,7 +4264,8 @@
    "https://x.com/FrensOfPRIA/status/2119643510207099323"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "cod",
@@ -4387,11 +4392,11 @@
  {
   "id": "game-2",
   "name": "剑斗游戏（未命名）",
-  "kind": "剑斗",
+  "kind": "日式剑斗（波次）",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-10 发帖",
-  "play": "Fable 5.2 做的剑斗游戏，帖子只有视频。",
+  "play": "画面是雪地神社场景，黑红配色的武士用刀砍杀成群敌人，屏幕上有\"第四波\"（WAVE 4）、连杀数、MERCILESS、IAI STORM、BEATDOWN 等字样，底部按键提示有 LIGHT、HEAVY、PARRY、JUMP、DASH、BREAK、EXECUTE。 作者只写了\"Fable 5.2 做的剑斗游戏\"。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Fable 5.2 created a sword fighting game https://t.co/QEGPkNl8mr",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2",
@@ -4442,7 +4447,8 @@
    "https://x.com/EvanMilenko/status/2119969113762082931"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "fps",
@@ -4508,11 +4514,11 @@
  {
   "id": "mmo",
   "name": "MMO 世界演示（未命名）",
-  "kind": "MMO 场景演示",
+  "kind": "MMO 世界探索演示",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-09 发帖",
-  "play": "作者一天内做出的风格化 MMO 世界，称画面里每个素材都由代码生成。帖子只有视频。",
+  "play": "画面是低多边形风格的开阔世界：城镇教堂和集市、草原、瀑布、水车和石桥、河流，最后是一座废墟里的紫色传送门。屏幕右侧有一列小图标，像是 UI 工具栏。视频里没有战斗或任务。 作者说一天内做出，称画面里每个素材都由代码生成。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Fable 5.2 is INSANE for gamedev. I built this entire MMO world in a single day.\n\nIt really excels at making stylized art which I think is a much bigger test for a new model than hyperrealism. \n\nEvery single asset you see was generated from code. https://t.co/iGoNbSy7jH",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2，素材全部程序生成",
@@ -4563,7 +4569,8 @@
    "https://x.com/Izkimar/status/2119931740940640542"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "gilt-gutter",
@@ -4572,7 +4579,7 @@
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-09 发帖",
-  "play": "1v1 第一人称射击 Demo，两个可选角色，作者说浏览器里能玩。",
+  "play": "片头可选两名角色（其中一名叫 Tally）。进场后是蒸汽朋克风的车站大厅，第一人称持枪战斗，HUD 有弹药数和队伍状态，提示栏出现\"Tally is down\"。作者说是 1v1 第一人称射击 Demo，两个可玩角色，浏览器里能玩。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Claude Fable 5.2 made this game demo, playable in the browser\n\nGilt &amp; Gutter is a 1v1 first-person shooter with two playable characters https://t.co/7Y0RA8IV6b",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2",
@@ -4623,7 +4630,8 @@
    "https://x.com/kevin_t_ngo/status/2119900487688622171"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "mu-online-solo-classic",
@@ -4687,7 +4695,7 @@
   "kind": "第一人称骑摩托",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "第一人称骑摩托沿乡间公路行驶，作者说场景、摩托和手臂全部程序生成。",
+  "play": "画面是第一人称骑橙色摩托，沿黄昏的乡间公路行驶，可见仪表盘、后视镜和双臂，路边有树、电线杆、房屋和远山。视频里没有别的玩法元素。作者说场景、摩托和手臂都是程序生成，用 three.js。（玩法取自视频抽帧） X 回复：不登录时一条也没显示。",
   "quote": "Roadside in @threejs, made with Fable 5.2, everything is 100% procedural in this one, including the bike and the arms\n\nFable 5.2 is by far the best model I've seen on 3d modeling, you just gotta push it a bit",
   "quote_src": "来源帖子原文",
   "tech": "three.js，Claude Fable 5.2，全程序生成",
@@ -4744,7 +4752,8 @@
    "https://x.com/scottstts/status/2120549388745379867"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "lanternfall",
@@ -5457,10 +5466,10 @@
  {
   "id": "what-the-water-keeps",
   "name": "What the Water Keeps",
-  "kind": "氛围探索",
+  "kind": "氛围划船探索",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "提灯驾一条小船，沿安静的水道穿过一连串风格迥异的世界，也可以放手让水流带着走。",
+  "play": "画面是玩家划着挂灯笼的小船，依次经过日落水道、红色水车、樱花大树、绿色雨林树根、发光洞穴、雪地、星空湖面等不同场景，片尾标题 What the water keeps。作者说是穿过 8 个梦境般的世界的划船之旅，浏览器里能玩。（玩法取自视频抽帧） X 回复：没有可见回复。",
   "quote": "A slow boat ride by lantern light through a chain of very different realms, or let the current carry you.",
   "quote_src": "平台页面描述",
   "tech": "three.js、WebGL、Web Audio",
@@ -5542,7 +5551,8 @@
   "source_posts": [],
   "stats_date": "2026-11-15",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自 X 帖子视频抽帧，回复取自不登录打开的 X 原帖页面（2026-11-16）"
  },
  {
   "id": "bayhaven",
