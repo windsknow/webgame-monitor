@@ -1,0 +1,219 @@
+{
+ "date": "2026-11-17",
+ "channel": "awesome",
+ "count": 15,
+ "passed": 15,
+ "error": "",
+ "leads": [
+  {
+   "channel": "awesome",
+   "title": "Cookiesaner",
+   "url": "https://cookiesaner.itch.io/demo",
+   "key": "cookiesaner.itch.io/demo",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+   "desc": "Survivor-like bullet heaven starring the creator's dog, who auto-fires ćevapi, eats Balkan food to grow through five belly stages and rolls through the horde on a full belly. Free browser demo. Built with Godot."
+  },
+  {
+   "channel": "awesome",
+   "title": "Ram Man: Half Goat, Half God",
+   "url": "https://azreal-the-fallen.itch.io/ram-man",
+   "key": "azreal-the-fallen.itch.io/ram-man",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude · Three",
+   "desc": "Brawl through a rainy neon city as a half-goat demigod, throwing cars and enemies and hunting secret caches across Neon Row's four quarters. Built with Claude · Three.js, cannon-es."
+  },
+  {
+   "channel": "awesome",
+   "title": "Kart Rush",
+   "url": "https://stevkazt.github.io/kart-rush/",
+   "key": "stevkazt.github.io/kart-rush",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+   "desc": "Cartoon kart racing in a phone browser against five rivals on seven tracks, with items, drifting and a Grand Prix, its models, textures and sound all generated in code. Built with Claude Code · Three.js, cannon-es."
+  },
+  {
+   "channel": "awesome",
+   "title": "OpenAero DFW",
+   "url": "https://mutaafaziz.com/openaero/",
+   "key": "mutaafaziz.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+   "desc": "Fly a Boeing 737-800, Cessna 172S or F-16C over real satellite imagery of Dallas-Fort Worth in today's METAR weather, with every landing graded. Built with Claude Code · Three.js."
+  },
+  {
+   "channel": "awesome",
+   "title": "A Guilda",
+   "url": "https://labiel1.itch.io/a-guilda",
+   "key": "labiel1.itch.io/a-guilda",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+   "desc": "Run a failing fantasy guild by choosing who goes on each mission, as the heroes' bonds, scars and choices change the story. Download for Windows or Android. Built with Godot."
+  },
+  {
+   "channel": "awesome",
+   "title": "Dou Dizhu",
+   "url": "https://doudizhu.pocketplay.win/",
+   "key": "doudizhu.pocketplay.win",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code",
+   "desc": "The Chinese three-player card game Fight the Landlord: bid to become the landlord, then the two farmers team up against them, with computer players, a random online table or friends by room code. Built with Claude Code."
+  },
+  {
+   "channel": "awesome",
+   "title": "HALFLIGHT",
+   "url": "https://csaf.itch.io/halflight",
+   "key": "csaf.itch.io/halflight",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+   "desc": "Run a vault of 43 decaying isotopes across five decay chains, where the decay pays you and a breach is a timed crisis you can still trade against. Built with HTML5 Canvas."
+  },
+  {
+   "channel": "awesome",
+   "title": "Next, Please!",
+   "url": "https://robertchaba.github.io/next-please/",
+   "key": "robertchaba.github.io/next-please",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Codex",
+   "desc": "Examine patients, check paperwork and stamp fitness-for-work certificates under bureaucratic and political pressure in a darkly comic clinic sim set in 1983 Poland. Built with Codex."
+  },
+  {
+   "channel": "awesome",
+   "title": "EraGuessr",
+   "url": "https://eraguessr.ai/play/daily",
+   "key": "eraguessr.ai",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code, Codex",
+   "desc": "Guess when and where a photorealistic scene from history is set, with a new scene every day. Built with Claude Code, Codex."
+  },
+  {
+   "channel": "awesome",
+   "title": "Gravity",
+   "url": "https://gravity.hertzmc.com/",
+   "key": "gravity.hertzmc.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · HTML5 Canvas",
+   "desc": "Grow a little planet with eyes from pebble to black hole by eating smaller space rocks, across six levels with boss fights plus an Endless mode, on phone or desktop. Built with Claude Code · HTML5 Canvas."
+  },
+  {
+   "channel": "awesome",
+   "title": "Appside app catalog",
+   "url": "https://appside.build/docs/catalog/",
+   "key": "appside.build",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Free game listing for agents: Claude Code, Cursor or another AI agent registers a game through a remote MCP server, proves ownership with a token on the game's domain and gets a public page, with a sa",
+   "desc": "Free game listing for agents: Claude Code, Cursor or another AI agent registers a game through a remote MCP server, proves ownership with a token on the game's domain and gets a public page, with a sandboxed Play button for web builds."
+  },
+  {
+   "channel": "awesome",
+   "title": "SpriteForge",
+   "url": "https://www.spriteforge.tech/game-kit",
+   "key": "spriteforge.tech",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Hosted MCP server and Claude Code plugin that draws a matching pixel-art kit for the game an agent is building: hero, enemies, items, tiles and animations in one style, saved into the project as PNGs ",
+   "desc": "Hosted MCP server and Claude Code plugin that draws a matching pixel-art kit for the game an agent is building: hero, enemies, items, tiles and animations in one style, saved into the project as PNGs and sprite sheets."
+  },
+  {
+   "channel": "awesome",
+   "title": "Claude Code Games",
+   "url": "https://claudecodegames.com/",
+   "key": "claudecodegames.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Free browser games made with Claude, GPT and other AI tools, each game page crediting the AI tool and the maker, playable with no download or account",
+   "desc": "Free browser games made with Claude, GPT and other AI tools, each game page crediting the AI tool and the maker, playable with no download or account."
+  },
+  {
+   "channel": "awesome",
+   "title": "OttersPlay",
+   "url": "https://ottersplay.com/made-with-ai/",
+   "key": "ottersplay.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+   "desc": "Directory of AI-assisted browser games with creator credits, coding-tool and engine notes, controls, and links to the original games."
+  },
+  {
+   "channel": "awesome",
+   "title": "Awesome Fable 5.2",
+   "url": "https://github.com/fengyiqicoder/awesome-fable-5.2",
+   "key": "github.com/fengyiqicoder/awesome-fable-5.2",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Games, 3D worlds and web pages built with Claude Fable 5",
+   "desc": "Games, 3D worlds and web pages built with Claude Fable 5.2, each with a GIF preview and a link to play or watch."
+  }
+ ]
+}

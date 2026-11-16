@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Soccer-3D - Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "mothlight": {
@@ -74,7 +74,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 0,
+    "stars": 1,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "bayhaven": {
@@ -99,7 +99,7 @@
    "repo": {
     "url": "https://github.com/fablestar/bayhaven",
     "created": "2026-11-11",
-    "stars": 2,
+    "stars": 3,
     "homepage": "https://fablestar.games/watch.html",
     "desc": "Bayhaven: an original open-world game, written live by Claude Fable 5.2. Every line, every commit.",
     "owner": "fablestar"
@@ -110,7 +110,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "dustfall": {
@@ -135,7 +135,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "what-the-water-keeps": {
@@ -148,8 +148,8 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 506648,
-    "likes": 4267,
+    "views": 508893,
+    "likes": 4278,
     "date": "2026-11-09",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
@@ -167,7 +167,7 @@
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "pelican-on-a-bike": {
@@ -185,7 +185,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "blameless": {
@@ -210,7 +210,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "jimao-cs": {
@@ -228,7 +228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "evensong": {
@@ -246,7 +246,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "qingyun-sword-flight": {
@@ -260,7 +260,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 0,
+    "stars": 1,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -271,7 +271,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "tuktuk": {
@@ -296,7 +296,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Written by Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "wukong-tiger-vanguard": {
@@ -314,7 +314,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "sublevel-07-fps-repro": {
@@ -353,7 +353,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 357,
+    "stars": 378,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -364,7 +364,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "tidebell": {
@@ -378,7 +378,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 0,
+    "stars": 1,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -389,7 +389,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "ironvale": {
@@ -403,7 +403,7 @@
    "repo": {
     "url": "https://github.com/SharpWizard/ironvale",
     "created": "2026-11-11",
-    "stars": 1,
+    "stars": 2,
     "homepage": "https://sharpwizard.github.io/ironvale/",
     "desc": "Ironvale: a game made with AI (Claude Fable 5.2). An original 3D real-time strategy game for PC (Windows exe or desktop browser), built entirely from plain-language prompts in Claude Code.",
     "owner": "SharpWizard"
@@ -414,7 +414,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "hanford-reach": {
@@ -439,7 +439,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "shuttle-strike": {
@@ -464,7 +464,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "simple badminton game with claude fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "feiche-3d": {
@@ -482,7 +482,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "harvest-standoff": {
@@ -507,7 +507,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "transport-ship-3d": {
@@ -525,7 +525,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "daedalus": {
@@ -550,7 +550,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -575,7 +575,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Congrats for shipping Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "sternenjaeger": {
@@ -600,7 +600,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "browser game created with Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "warm-toy-room-v25": {
@@ -618,7 +618,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "misremember": {
@@ -632,7 +632,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 0,
+    "stars": 1,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -643,7 +643,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "saltline-online": {
@@ -657,7 +657,7 @@
    "repo": {
     "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
     "created": "2026-11-11",
-    "stars": 23,
+    "stars": 24,
     "homepage": "",
     "desc": "",
     "owner": "wenzhengshi"
@@ -668,7 +668,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "becario-del-universo": {
@@ -693,7 +693,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "hextech-aram": {
@@ -711,7 +711,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "breach-transport-ship-online": {
@@ -729,7 +729,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "emberdeep": {
@@ -754,7 +754,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Testing the Limits of Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "duskline-vxn7rh": {
@@ -772,7 +772,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "flight-simulator-nfljgw": {
@@ -790,7 +790,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "makinamon-pulso": {
@@ -815,7 +815,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Hecho con Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "riftline": {
@@ -840,7 +840,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "testing Claude Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "the-county": {
@@ -865,7 +865,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "emberhold-xwn1lu": {
@@ -883,7 +883,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "arcfall-artillery-ho7odp": {
@@ -901,7 +901,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
   }
  },
  "tidemark": {
@@ -915,7 +915,7 @@
    "repo": {
     "url": "https://github.com/CocoSgt/dsh-game-tidemark",
     "created": "2026-11-13",
-    "stars": 19,
+    "stars": 22,
     "homepage": "https://dsh-game-store.com/games/tidemark/",
     "desc": "《潮汐战线》Tidemark：《高级战争》式的回合制战棋，海陆空 33 个兵种、29 位指挥官，开源，网页和 DSH 里都能玩 · Turn-based strategy in the spirit of Advance Wars",
     "owner": "CocoSgt"
@@ -926,7 +926,511 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "",
-   "checked": "2026-11-16"
+   "checked": "2026-11-17"
+  }
+ },
+ "ushiro-no-haniwa": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game6/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game6/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "pon-to-mori-wa-tomoru": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "hitotsubu-teien": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game2/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game2/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "undertow-y8xvs5": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/undertow-y8xvs5",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "black-tide-hdab0j": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/black-tide-hdab0j",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "graveyard-shift": {
+  "play_url": "https://zombies.ethanplus.ai/",
+  "source_repo": "https://github.com/ethanplusai/zombies",
+  "author_url": "https://x.com/ethanplusai",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ethanplusai/zombies",
+    "created": "2026-11-11",
+    "stars": 10,
+    "homepage": "https://zombies.ethanplus.ai",
+    "desc": "Graveyard Shift: a round-based zombies shooter that runs in the browser. three.js, one HTML file, everything generated in code.",
+    "owner": "ethanplusai"
+   },
+   "hn": {},
+   "url": "https://zombies.ethanplus.ai",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-11",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "solar-system-3d": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/solar-system-3d",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "duel-knights": {
+  "play_url": "https://bitofastickler.github.io/duel-knights/",
+  "source_repo": "https://github.com/bitofastickler/duel-knights",
+  "author_url": "https://github.com/bitofastickler",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/bitofastickler/duel-knights",
+    "created": "2026-11-14",
+    "stars": 1,
+    "homepage": "",
+    "desc": "A game of medieval duels! ",
+    "owner": "bitofastickler"
+   },
+   "hn": {},
+   "url": "https://bitofastickler.github.io/duel-knights/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "last-return": {
+  "play_url": "https://last-return.sknol.com/",
+  "source_repo": "https://github.com/StefanKnol/Last-Return",
+  "author_url": "https://github.com/StefanKnol",
+  "has_prompt": true,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/StefanKnol/Last-Return",
+    "created": "2026-11-14",
+    "stars": 2,
+    "homepage": "https://last-return.sknol.com/",
+    "desc": "Claude Fable 5.2 test, started with minimal prompt; 'make me a 3d LiDAR horror game'",
+    "owner": "StefanKnol"
+   },
+   "hn": {},
+   "url": "https://last-return.sknol.com/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "Claude Fable 5",
+   "checked": "2026-11-17"
+  }
+ },
+ "escape-the-fable": {
+  "play_url": "https://ai-gamez-r-funz.github.io/escape-the-fable/",
+  "source_repo": "https://github.com/ai-gamez-r-funz/escape-the-fable",
+  "author_url": "https://github.com/ai-gamez-r-funz",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ai-gamez-r-funz/escape-the-fable",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "ai-gamez-r-funz"
+   },
+   "hn": {},
+   "url": "https://ai-gamez-r-funz.github.io/escape-the-fable/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "shutterpine": {
+  "play_url": "https://dquanbui.github.io/shutterpine/",
+  "source_repo": "https://github.com/DQuanBui/shutterpine",
+  "author_url": "https://github.com/DQuanBui",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/DQuanBui/shutterpine",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "",
+    "desc": "SHUTTERPINE — a first-person narrative mystery for the browser. Some things only exist on film.",
+    "owner": "DQuanBui"
+   },
+   "hn": {},
+   "url": "https://dquanbui.github.io/shutterpine/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "mini-rpg": {
+  "play_url": "https://ertertwert.com/MiniRPG.html",
+  "source_repo": "https://github.com/ertertwert/Mini-RPG",
+  "author_url": "https://github.com/ertertwert",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ertertwert/Mini-RPG",
+    "created": "2026-11-12",
+    "stars": 0,
+    "homepage": "https://ertertwert.com/MiniRPG.html",
+    "desc": "Mini RPG Game",
+    "owner": "ertertwert"
+   },
+   "hn": {},
+   "url": "https://ertertwert.com/MiniRPG.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-12",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "hitsuji-ga-ippiki": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game8/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game8/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "circular-tic-tac-toe": {
+  "play_url": "https://muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web/",
+  "source_repo": "https://github.com/muhammad-sayed-mahdy/circular-tic-tac-toe-web",
+  "author_url": "https://github.com/muhammad-sayed-mahdy",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/muhammad-sayed-mahdy/circular-tic-tac-toe-web",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "https://muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web/",
+    "desc": "Circular Tic Tac Toe: a free browser game on a ring-shaped board (32 cells, four in a row wins). Play a friend or an unbeatable AI. Vanilla JS, no dependencies.",
+    "owner": "muhammad-sayed-mahdy"
+   },
+   "hn": {},
+   "url": "https://muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "the-long-climb": {
+  "play_url": "https://hilaytrivedi.github.io/thirty-days/",
+  "source_repo": "https://github.com/HILAYTRIVEDI/thirty-days",
+  "author_url": "https://github.com/HILAYTRIVEDI",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/HILAYTRIVEDI/thirty-days",
+    "created": "2026-11-14",
+    "stars": 1,
+    "homepage": "",
+    "desc": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5.2",
+    "owner": "HILAYTRIVEDI"
+   },
+   "hn": {},
+   "url": "https://hilaytrivedi.github.io/thirty-days/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5",
+   "checked": "2026-11-17"
+  }
+ },
+ "reel-delve": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game5/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game5/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "rawza-ring": {
+  "play_url": "https://hashmatullahzaher.github.io/mazar-rawza-race/",
+  "source_repo": "https://github.com/Hashmatullahzaher/mazar-rawza-race",
+  "author_url": "https://github.com/Hashmatullahzaher",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/Hashmatullahzaher/mazar-rawza-race",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "3D street race on the real streets around the Shrine of Hazrat Ali, Mazar-i-Sharif. Built by Claude Fable 5.2 from one prompt.",
+    "owner": "Hashmatullahzaher"
+   },
+   "hn": {},
+   "url": "https://hashmatullahzaher.github.io/mazar-rawza-race/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "Built by Claude Fable 5",
+   "checked": "2026-11-17"
+  }
+ },
+ "liquid-labyrinth": {
+  "play_url": "https://maze.bbbit.cc/",
+  "source_repo": "https://github.com/tuki0918/maze-exit",
+  "author_url": "https://github.com/tuki0918",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/tuki0918/maze-exit",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "https://maze.bbbit.cc",
+    "desc": "Fable 5.2 sample game",
+    "owner": "tuki0918"
+   },
+   "hn": {},
+   "url": "https://maze.bbbit.cc",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "Fable 5",
+   "checked": "2026-11-17"
+  }
+ },
+ "lumen-reel": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game4/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game4/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "kirimodoshi": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game7/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game7/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
+  }
+ },
+ "emberdeep-tomoshimori": {
+  "play_url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game3/index.html",
+  "source_repo": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+  "author_url": "https://github.com/shioa2006-game",
+  "has_prompt": false,
+  "listed": "2026-11-16",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "shioa2006-game"
+   },
+   "hn": {},
+   "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game3/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-17"
   }
  }
 }

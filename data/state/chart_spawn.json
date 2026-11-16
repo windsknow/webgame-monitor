@@ -1,6 +1,6 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "keys": [
   "spawn.co/@tiger/dust-2-dm",
   "spawn.co/@retro/underground-warfare",
@@ -19,9 +19,9 @@
   "spawn.co/@donutfrumjupitr/the-backrooms",
   "spawn.co/@maine/call-of-paint",
   "spawn.co/@yisus/aether-legends",
-  "spawn.co/@fracture/glint",
   "spawn.co/@poisoncode/shogun-s-fate",
-  "spawn.co/@j/portal-heist"
+  "spawn.co/@fracture/glint",
+  "spawn.co/@yisus/die-again"
  ],
  "seen": {
   "spawn.co/@tiger/dust-2-dm": "2026-11-12",
@@ -44,6 +44,7 @@
   "spawn.co/@fracture/glint": "2026-11-12",
   "spawn.co/@ress/mechablade": "2026-11-12",
   "spawn.co/@poisoncode/shogun-s-fate": "2026-11-12",
-  "spawn.co/@smallzero/chimera-vocal-synth": "2026-11-13"
+  "spawn.co/@smallzero/chimera-vocal-synth": "2026-11-13",
+  "spawn.co/@yisus/die-again": "2026-11-17"
  }
 }

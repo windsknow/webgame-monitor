@@ -588,5 +588,80 @@
   "first": "2026-11-11",
   "name": "Awesome Vibe Coding",
   "baseline": true
+ },
+ "cookiesaner.itch.io/demo": {
+  "first": "2026-11-17",
+  "name": "Cookiesaner",
+  "baseline": false
+ },
+ "azreal-the-fallen.itch.io/ram-man": {
+  "first": "2026-11-17",
+  "name": "Ram Man: Half Goat, Half God",
+  "baseline": false
+ },
+ "stevkazt.github.io/kart-rush": {
+  "first": "2026-11-17",
+  "name": "Kart Rush",
+  "baseline": false
+ },
+ "mutaafaziz.com": {
+  "first": "2026-11-17",
+  "name": "OpenAero DFW",
+  "baseline": false
+ },
+ "labiel1.itch.io/a-guilda": {
+  "first": "2026-11-17",
+  "name": "A Guilda",
+  "baseline": false
+ },
+ "doudizhu.pocketplay.win": {
+  "first": "2026-11-17",
+  "name": "Dou Dizhu",
+  "baseline": false
+ },
+ "csaf.itch.io/halflight": {
+  "first": "2026-11-17",
+  "name": "HALFLIGHT",
+  "baseline": false
+ },
+ "robertchaba.github.io/next-please": {
+  "first": "2026-11-17",
+  "name": "Next, Please!",
+  "baseline": false
+ },
+ "eraguessr.ai": {
+  "first": "2026-11-17",
+  "name": "EraGuessr",
+  "baseline": false
+ },
+ "gravity.hertzmc.com": {
+  "first": "2026-11-17",
+  "name": "Gravity",
+  "baseline": false
+ },
+ "appside.build": {
+  "first": "2026-11-17",
+  "name": "Appside app catalog",
+  "baseline": false
+ },
+ "spriteforge.tech": {
+  "first": "2026-11-17",
+  "name": "SpriteForge",
+  "baseline": false
+ },
+ "claudecodegames.com": {
+  "first": "2026-11-17",
+  "name": "Claude Code Games",
+  "baseline": false
+ },
+ "ottersplay.com": {
+  "first": "2026-11-17",
+  "name": "OttersPlay",
+  "baseline": false
+ },
+ "github.com/fengyiqicoder/awesome-fable-5.2": {
+  "first": "2026-11-17",
+  "name": "Awesome Fable 5.2",
+  "baseline": false
  }
 }
