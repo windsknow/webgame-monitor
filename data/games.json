@@ -2844,7 +2844,7 @@
   "play": "片尾字幕写\"THE WHOLE PLANET. IN VOXELS. IN YOUR BROWSER.\"。画面里是体素风的真实地理：海岸日落、巴黎街道雨夜、美国犹他 US-163 公路、纽约式高楼和广告屏，还有从太空俯瞰地球。看起来像第三人称或飞行视角在全球各地移动。 作者说可以去任何地方、破坏任何东西，天气等与真实地球实时对应，未试玩核实。（玩法取自视频抽帧） X 回复（约 10 条）：作者说游戏里有彩蛋，可以飞去月球；有玩家反馈打开就报错；有人问地址里的 room=local 是否意味着看不到别人留下的弹坑，作者让他去掉参数自己试。",
   "quote": "Play Earth by @mattshumer on Spawn, free in your browser.",
   "quote_src": "页面自述",
-  "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）；作者称由 Claude Fable 5.2 生成",
   "xcheck": "",
   "src": "帖子数据读取自 X（2026-11-11 读取）；玩法为作者自述",
   "hot": true,
@@ -2890,7 +2890,9 @@
   ],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "体素风的整颗地球可飞行探索，X 单帖浏览 42.7 万；作者称天气与真实地球实时对应，未核实。",
+  "tech_basis": "平台说明 / 作者自述"
  },
  {
   "id": "hogwarts-royale",
@@ -2911,7 +2913,7 @@
   "play": "画面里玩家骑着扫帚在城堡和森林上空飞行，能进入三把扫帚酒馆，场景里有紫色毒圈压过来，天上有摄魂怪式的黑影，地上有紫色宝箱，玩家还能撑起魔法护盾。 作者给模型的要求是\"把《哈利·波特》和《堡垒之夜》混在一起\"；平台页介绍说空降入场、找魔杖、在缩圈中活到最后。（玩法取自视频抽帧） X 回复（约 14 条）：褒贬混杂。有人质疑模型直接混搭《哈利·波特》IP 是否该受限制，有人嫌视频大半在走路、说这类 AI 3D 内容粗糙；也有人觉得魔杖对战的大逃杀有意思。",
   "quote": "A battle royale at Hogwarts: drop in, find a wand, outlast the ring.",
   "quote_src": "页面自述",
-  "tech": "作者称由 Claude Fable 5.2 生成；发布在 AI 创作平台 Spawn",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）；作者称由 Claude Fable 5.2 生成",
   "xcheck": "",
   "src": "帖子数据读取自 X（2026-11-11 读取）；玩法取自平台页面介绍和作者帖子",
   "hot": false,
@@ -2951,7 +2953,9 @@
    "X 帖子（@mattshumer_，核验确认），浏览 17.3 万"
   ],
   "stats_date": "2026-11-16",
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "把《哈利·波特》和《堡垒之夜》直接混搭的大逃杀，X 浏览 17.3 万；回复里有人质疑 IP 混用。",
+  "tech_basis": "平台说明 / 作者自述"
  },
  {
   "id": "seriesoftubes",
@@ -2963,7 +2967,7 @@
   "play": "从一台路由器起步，铺光纤和海底光缆、在交换中心互联、按 95 计费，应对挖断光缆、鲨鱼咬线和路由泄漏，一路做到一级运营商。卡通画风，讲互联网实际怎么运转。",
   "quote": "Lay fiber, buy transit, peer at IXs and keep the eyeballs happy while backhoes, sharks and route leaks try to stop you. A free cartoon game about how the internet really works.",
   "quote_src": "页面自述",
-  "tech": "开源；仓库里带一个 MCP 服务，让 AI 客户端能玩和调试这个游戏",
+  "tech": "Canvas 2D 渲染，含 WebSocket，开源；仓库带 MCP 服务",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": true,
@@ -3014,7 +3018,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "互联网基建题材的开源模拟经营，GitHub 236 星；仓库自带 MCP 服务，AI 客户端可直接玩和调试。",
+  "tech_basis": "站点代码特征识别 / 平台说明"
  },
  {
   "id": "ghanaian-street-games-you-can-play-in-th",
@@ -3026,7 +3032,7 @@
   "play": "35 款加纳街头游戏的 3D 合集，例如 Four Corners、Laski、One Pole、点球大战，可以和朋友一起玩。",
   "quote": "35 playable Ghanaian street games: Four Corners, Laski, One Pole, penalties, neighbourhood Pilolo and Pampanaa, and more.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "浏览器 3D（页面有 WebGL 检测提示），含 Canvas 2D、Firebase；具体引擎未识别",
   "xcheck": "",
   "src": "Hacker News 官方接口",
   "hot": true,
@@ -3076,7 +3082,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把 35 款加纳街头游戏做成网页合集，Hacker News 116 分、22 条评论。",
+  "tech_basis": "站点代码特征识别（补查脚本）"
  },
  {
   "id": "banana-mine-rush",
@@ -3088,7 +3096,7 @@
   "play": "片尾标题 BANANA MINE RUSH，\"PLAY NOW ON REMIX\"。画面是猩猩角色坐矿车在丛林和矿洞轨道上竞速，屏幕文字提示：加速带、选轨道、跳过缺口、低头躲横梁、躲石头、超过对手；还有爆炸（KABOOM）。 作者说用 Fable 5.2 在 Remix 平台上做，浏览器里不用账号就能玩，平台自带多人、排行榜和成就。（玩法取自视频抽帧） X 回复（约 7 条）：以夸赞为主。有玩家要求支持手机横屏，作者说在做；作者说明这是在 Remix 平台上用 Fable 5.2 做的简单示例，主要为测试模型，平台会给创作者回访玩家等数据。",
   "quote": "Here's my new 3D kart racer game I built with @claudeai\nFable 5.2 with @AskVenice on @RemixGG_ \n\nLike all remix games:\n-> Playable instantly in browser w/o account\n-> Automatically generates trailer\n-> Free multiplayer\n-> Instant distribution to all of our gamers\n-> Built-in leaderboard and achievements\n\ngive it a try: https://t.co/c8mEl5W13Q",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2、Venice",
+  "tech": "Remix 平台（自带多人、排行榜和成就）；作者称由 Claude Fable 5.2 配合 Venice 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -3137,7 +3145,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "Remix 平台上用 Fable 5.2 做的 3D 矿车竞速，作者称主要为测试模型；X 浏览 1 万。",
+  "tech_basis": "作者自述 / 平台说明"
  },
  {
   "id": "voxels",
@@ -3146,10 +3156,10 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-10-28 首次公开",
-  "play": "方块世界里采集、合成、建造；有生存世界、多人服务器和创造模式。",
+  "play": "在方块世界里采集、合成、建造，有生存世界、多人服务器和创造模式；页面还提到可以去找 Inferno 和 Void。",
   "quote": "Mine, craft and build in a blocky world! Play Survival worlds, join servers full of players, go Creative, find the Inferno and the Void.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -3201,7 +3211,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 热门榜第 1，游玩 33.5 万次，是榜上体量最大的 Minecraft 式沙盒。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "snowfield-taco-stand",
@@ -3210,10 +3222,10 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-11-05 首次公开",
-  "play": "雪原上切玉米、剁牛油果、猎北极熊，把塔可摊做成救援营地，喂饱幸存者。",
+  "play": "在雪原上切巨型玉米、剁牛油果、猎北极熊来做塔可，把小摊逐步扩成救援营地，喂饱幸存者并办 CAMP FEAST 营地盛宴。",
   "quote": "Slice giant corn, chop avocados, hunt polar bears and grow a snowy taco stand into a rescue camp. Feed the survivors and throw a CAMP FEAST!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -3265,7 +3277,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 热门榜第 3；与 Frost Harbor 等同属冰雪经营，是榜上扎堆的题材。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "zombies-vs-humans-with-guns",
@@ -3277,7 +3291,7 @@
   "play": "平台页面没有写玩法，以下只按标题和封面图描述：方块风格的人类持枪对抗僵尸。页面标签是动作、冒险、生存、恐怖。",
   "quote": "#action #adventure #creative #survival #horror",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -3329,7 +3343,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "hot_since": "2026-11-14"
+  "hot_since": "2026-11-14",
+  "highlight": "页面没有玩法描述，游玩 11.3 万次、榜第 8，参考价值主要在榜单热度。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "frost-harbor-ice-fishing-tycoon",
@@ -3338,10 +3354,10 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-11-08 首次公开",
-  "play": "凿冰叉鱼、烹饪售卖、雇工人、赶走北极熊，把冰上渔村经营成港口。",
+  "play": "在冰面凿洞叉鱼，烹饪后售卖，雇工人、赶走北极熊，把冰上渔村逐步经营成繁忙的港口。",
   "quote": "Spear fish through the ice, cook and sell them, hire workers, shoo away cheeky polar bears and grow a frozen fishing village into a bustling harbor.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -3387,7 +3403,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 热门榜第 7，冰雪经营题材，与 Snowfield Taco Stand 等同期上榜。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "ben-10-ultimate-aliens",
@@ -3399,7 +3417,7 @@
   "play": "用《Ben 10》的角色：变身多种外星英雄并进化成终极形态，对战 Vilgax 等反派。用的是 Ben 10 的 IP。",
   "quote": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -3451,7 +3469,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "直接使用《Ben 10》IP 的同人动作游戏，游玩 30.3 万次、榜第 5；存在授权风险。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "keyboard-escape-space-alien",
@@ -3463,7 +3483,7 @@
   "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是在太空里踩着键盘按键逃离外星人。",
   "quote": "jdevs",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -3509,7 +3529,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "页面描述只有一个作者名，看不出玩法；榜第 13、游玩 2.2 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "steal-an-egg-monster",
@@ -3521,7 +3543,7 @@
   "play": "偷怪物蛋、躲开巨型守卫、练速度，在围栏里孵出霸王龙、巨齿鲨等怪物；同场有 6 个对手。和同平台热门的 Steal an Egg 是同一玩法。",
   "quote": "Steal monster eggs, escape giant guardians, train your speed and hatch T-Rex, megalodon and other monsters in your pen. A spooky 3D adventure with six lively rivals.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -3573,7 +3595,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "同平台 Steal an Egg（84.4 万次）的怪物主题变体，是偷蛋公式被复用的样本。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "d2-web",
@@ -3585,7 +3609,7 @@
   "play": "暗黑破坏神 2 毁灭之王 1.13c 的引擎重写后编译到 WebAssembly，在浏览器里玩，需自备游戏文件，有联机服务器。",
   "quote": "OpenD2 is a full, open-source port of Diablo II: Lord of Destruction 1.13c with multiplayer on the OpenD2 Online Realm. Play in the browser or on Windows, Linux, macOS and Android with your own game files.",
   "quote_src": "页面自述",
-  "tech": "C++ 编译到 WebAssembly",
+  "tech": "C++ 编译为 WebAssembly（Emscripten），WebGL2 渲染；开源",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3629,7 +3653,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把《暗黑破坏神 2：毁灭之王》1.13c 引擎重写并编译到浏览器，需自备游戏文件，带联机服务器；GitHub 73 星。",
+  "tech_basis": "仓库标签 / 作者自述"
  },
  {
   "id": "pokemon-survivors",
@@ -3641,7 +3667,7 @@
   "play": "《吸血鬼幸存者》式的宝可梦同人肉鸽：27 只初始宝可梦可选，能进化、打超梦、收服传说宝可梦；可单人或最多 4 人在线合作，另有 4v4、3v3 的类《宝可梦大集结》竞技场和一座在线小镇。非官方同人作品。",
   "quote": "Fan game gratuito estilo Vampire Survivors com Pokémon. Jogue no navegador ou no celular, sem baixar.",
   "quote_src": "页面自述",
-  "tech": "开源",
+  "tech": "TypeScript + Vite，Canvas 渲染，PWA，开源；含 Web Audio",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3685,7 +3711,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "体量较完整的非官方宝可梦同人：27 只初始宝可梦、最多 4 人联机和竞技场；存在 IP 风险，GitHub 32 星。",
+  "tech_basis": "仓库标签 / 站点代码特征识别"
  },
  {
   "id": "dream-arcade-demo",
@@ -3697,7 +3725,7 @@
   "play": "用自然语言描述单位，模型生成属性、技能和素材，再带进庭院防守、口袋 RTS、增量矿场里玩。",
   "quote": "用自然语言创造游戏单位，带入庭院防守、口袋RTS和增量矿场直接玩。",
   "quote_src": "页面自述",
-  "tech": "调用 RunningHub 的模型接口",
+  "tech": "原生 JavaScript + Canvas，GitHub Pages 静态托管；调用 RunningHub 模型接口",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3741,7 +3769,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把大模型生成单位这一环节放进玩法本身，再带入三种玩法模式；GitHub 96 星。",
+  "tech_basis": "仓库标签 / 作者自述"
  },
  {
   "id": "ashfolk",
@@ -3750,10 +3780,10 @@
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
   "date_text": "2026-10-18 首次公开",
-  "play": "塑造一座浮空岛，降雨放火，看岛上的部落从石器时代发展到铁器时代。",
+  "play": "玩家塑造一座浮空岛，可以降雨、放火来干预环境，看岛上的第一批部落从石器时代发展到铁器时代。这是一款上帝模拟游戏。",
   "quote": "A free god simulator in your browser. Shape a floating island, call rain and fire, and watch its first tribes grow from the Stone Age to the Iron Age.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "three.js（支持 WebGPU），React + TypeScript，PWA，程序化生成",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -3797,7 +3827,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "带程序化生成的浏览器上帝模拟，GitHub 31 星，仓库标签含 WebGPU。",
+  "tech_basis": "仓库标签"
  },
  {
   "id": "flickshot",
@@ -3806,10 +3838,10 @@
   "group": "Spawn",
   "group_type": "direction",
   "date_text": "2026-10-16 首次公开",
-  "play": "在快节奏竞技场里比爆头，有排位天梯和最高分，对手是玩家和机器人。",
+  "play": "在方块风的快节奏竞技场里练枪和比爆头，页面称玩起来像瞄准训练器：有对机器人的混战、1v1 排位和追踪练习场，可冲天梯、刷最高分。",
   "quote": "You're locked in a fast arena where every headshot counts. Climb the ranked ladder, chase your best score, and prove your aim against players and bots who never stop moving.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）",
   "xcheck": "",
   "src": "Spawn 平台页面显示值",
   "hot": false,
@@ -3855,7 +3887,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "页面称 3 周内迭代 6,429 个版本；Spawn 游玩 1,983 次，榜第 11。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "spawn-turismo",
@@ -3864,10 +3898,10 @@
   "group": "Spawn",
   "group_type": "direction",
   "date_text": "2026-10-16 首次公开",
-  "play": "驾驶保时捷 911 GT3 RS 跑 2.4 公里山路赛道，可计时赛刷圈速，也可多人比赛。",
+  "play": "驾驶保时捷 911 GT3 RS 跑 2.4 公里的山间赛道；可在计时赛里刷个人最佳圈速，也可进多人比赛抢先冲线。",
   "quote": "You're behind the wheel of a Porsche 911 GT3 RS on a winding 2.4 km hillside circuit. Chase the clock in Time Trial to beat your best lap, or race the grid in multiplayer and cross the line first.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）",
   "xcheck": "",
   "src": "Spawn 平台页面显示值",
   "hot": false,
@@ -3913,7 +3947,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "页面称 3 周内迭代 2,919 个版本；使用真实车型，Spawn 游玩 3,889 次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "aether-legends",
@@ -3922,10 +3958,10 @@
   "group": "Spawn",
   "group_type": "direction",
   "date_text": "2026-10-23 首次公开",
-  "play": "选择元素英雄、召唤像素风传奇角色，穿越大陆去打最终首领（页面是西班牙语）。",
+  "play": "选元素英雄、召唤像素风传奇角色并组成六人小队，用 Brave Burst 连锁技攻打虚空，穿过 Aetheria 大陆去王座上的最终首领 Vael'Zhar（页面为西班牙语）。",
   "quote": "Elige tu héroe elemental, invoca leyendas en pixel art y cruza Aetheria hasta la grieta de Velmora, donde Vael'Zhar te espera en su trono.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）",
   "xcheck": "",
   "src": "Spawn 平台页面显示值",
   "hot": false,
@@ -3971,7 +4007,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "西班牙语的召唤养成 RPG，页面称 2 周迭代 7,418 个版本；游玩 988 次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "glint",
@@ -3983,7 +4021,7 @@
   "play": "CS 加 COD 风格的方块 FPS：选干员、配兵种，有夺晶、团队死斗、个人混战、枪械升级、排位等模式，可升级、转生、解锁迷彩和皮肤。",
   "quote": "A CS + CoD style blocky FPS. Pick an operator, build your class and fight for the shard: Shard Cashout, TDM, FFA, Gun Game, Ranked and Bots Only. Level up, prestige, grind camos and unlock skins.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）",
   "xcheck": "",
   "src": "Spawn 平台页面显示值",
   "hot": false,
@@ -4029,7 +4067,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "类 CS 加 COD 的方块 FPS，页面称 4 周迭代 17,075 个版本；游玩 930 次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "tides-of-fortune-an-open-world-pirate-ga",
@@ -4041,7 +4081,7 @@
   "play": "17 世纪加勒比海：航海、海战、接舷、单挑、港口贸易和总督任务，游戏里没有任何素材文件。",
   "quote": "Hi everyone! Tides of Fortune is an open-world pirate game for the browser, set in the 17th-century Caribbean and inspired by 2000s classics like Sid Meier’s Pirates!: sailing, naval battles, boarding, sword duels, ports, trade and governors’ missions. My goal was really to use three.js and focus on",
   "quote_src": "论坛首帖原文",
-  "tech": "three.js，零素材文件",
+  "tech": "three.js，零素材文件；仓库描述为 vibecoded",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
   "hot": false,
@@ -4086,7 +4126,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "仓库自称 vibecoded 的 3D 海盗游戏，作者称零素材文件，全部由代码生成；致敬《席德·梅尔的海盗》。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "afk-city-a-city-that-builds-itself-while",
@@ -4095,10 +4137,10 @@
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
   "date_text": "2026-11-09 首次公开",
-  "play": "看一座低多边形城市自己长出来：高楼拔起、车流往来、昼夜交替，也可以接手自己划区规划。",
+  "play": "一座低多边形城市会自己长起来：高楼拔地而起、车流往来、昼夜交替，旁观即可；也可以随时接手，自己划区规划。支持手机。",
   "quote": "Hi all! I made AFK City , a free browser game where a city builds itself. Sit back and watch towers rise, traffic flow and day turn to night, or take over and zone it yourself. Play (free, desktop and mobile, no download): AFK City — the free city builder that builds itself 07_1715_golden 1920×1080 ",
   "quote_src": "论坛首帖原文",
-  "tech": "three.js r186，支持手机",
+  "tech": "three.js r186（WebGL），含 Firebase、Web Audio；作者称代码基础由 Gemini 3 搭建",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
   "hot": false,
@@ -4143,7 +4185,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "偏放置观赏的城市建造，作者称自己做设计和美术指导、代码基础由 Gemini 3 搭建。",
+  "tech_basis": "作者自述 / 站点代码特征识别"
  },
  {
   "id": "game",
@@ -4155,7 +4199,7 @@
   "play": "画面是第三人称视角：穿 12 号 NEW YORK 球衣的角色拿步枪，屏幕右下有弹药数（40/240 等）。多个僵尸追过来，能翻过黄色的墙，被打倒后倒地。场景是深色空地加黄色矮墙，看起来像测试场地。 作者说在调僵尸 AI：僵尸会跟着玩家走、翻过障碍物，用 Claude 加 three.js 做，没有试玩链接。（玩法取自视频抽帧） X 回复（约 8 条）：多为鼓励，有人称赞僵尸会翻越障碍。有人指出角色模型像是取自《World War Z》，作者承认，说因为没有显卡跑文字生成动作的工具，这是临时做法；动画是微调过的 Mixamo 动画，以后考虑改用 Godot 或 Unreal。没有试玩链接。",
   "quote": "Been working on the zombie AI and it finally feels decent.\n\nThey actually follow you, climb over stuff, and don’t just stand around. Full vibe-coded with @claudeai + @threejs. Here’s the chase clip: https://t.co/rvnsJYYqBl",
   "quote_src": "来源帖子原文",
-  "tech": "three.js，Claude 辅助编程",
+  "tech": "three.js；作者称用 Claude 氛围编程，动画为微调后的 Mixamo 动画",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4204,7 +4248,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者在调僵尸 AI，会追人、翻越障碍，X 浏览 8,620；无试玩链接，角色模型来源在回复里有争议。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "frensofpria",
@@ -4216,7 +4262,7 @@
   "play": "画面是第一人称：骑摩托在室内竞技场里开枪，有 HUD、弹药数、小地图，顶部有一个名叫 HARLAN FUSE 的血条，屏幕下方有 Harlan 的对话字幕。场地有彩灯、轮胎围栏和 BOOM 灯牌，看起来像摩托对战或 Boss 战。 作者说做了三个月，用 three.js 加 Opus 4 和 5，帖子没写玩法和名字。（玩法取自视频抽帧） X 回复（约 10 条）：多数夸画风和氛围、想试玩，有人问低配电脑能否流畅；也有人批评是 AI 粗制滥造、枪械瞄准手感差。作者没有在回复里补充游戏名或链接。",
   "quote": "Three months in and the bar just keeps rising.\nThree.js + Opus 4 &amp; 5. \n\n#indiedev #threejs https://t.co/pn17ogeMcx",
   "quote_src": "来源帖子原文",
-  "tech": "three.js，Claude Opus 4 和 5",
+  "tech": "three.js；作者称用 Claude Opus 4 和 5",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4265,7 +4311,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称做了三个月，X 浏览 3.3 万；回复里夸氛围也有人批评是 AI 粗制滥造，没有试玩链接。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "cod",
@@ -4277,7 +4325,7 @@
   "play": "第一人称团队死斗：在废墟沙漠城或河边小镇里，和 CT、T 两方的机器人及朋友打无尽死斗。画面有小地图、比分、倒计时、弹药、血量护甲、金钱和 Armory 武器栏，能打穿墙面。作者说游戏发布在 Spawn，两天内迭代了 1714 个版本，但没给具体链接。 X 回复（约 12 条）：多为惊叹浏览器里能跑类 COD 游戏，有人问能否直接在浏览器玩、订阅要花多少钱；少数负面，认为画面难看。作者在回复里说游戏发布在 Spawn，用 Claude 5x 订阅加 three.js 制作，没给具体链接。",
   "quote": "i built a COD like browser game with fable 5.2 https://t.co/VmjgclqKkd",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2",
+  "tech": "three.js，发布在 Spawn；作者称用 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4326,7 +4374,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "名称和玩法取自作者在帖子下的回复和视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "名称和玩法取自作者在帖子下的回复和视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称用 Fable 5.2 做类 COD 游戏，两天迭代 1714 版；X 浏览 1.3 万，无链接。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "three-js",
@@ -4338,7 +4388,7 @@
   "play": "3D 篮球比赛：VIBES 队对 LUDDITES 队，有转播风格的比分条、首发五人介绍和满场观众；玩家操控一名球员，屏幕提示可以切换球员、传球、投篮。作者说服装、动画和音效都由 Claude 完成。帖子只有视频，没有试玩链接。 X 回复（约 10 条）：多为惊叹。有人要链接，作者说还在找发布渠道，暂时不能玩；有人认为称它为\"AAA\"言过其实。作者说这一版是用 Opus 5.5 时的状态。",
   "quote": "i asked fable 5.2 to build a AAA threejs basketball game\n\nwe have reached AGI, from clothing to animations and sounds done by claude https://t.co/StGsCbRq8A",
   "quote_src": "来源帖子原文",
-  "tech": "three.js，Claude Fable 5.2",
+  "tech": "three.js；作者称由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4387,7 +4437,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "名称和玩法取自视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "名称和玩法取自视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称服装、动画和音效都由 Claude 完成，X 浏览 5.8 万；尚无试玩链接，被问到“AAA”说法有争议。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "game-2",
@@ -4399,7 +4451,7 @@
   "play": "画面是雪地神社场景，黑红配色的武士用刀砍杀成群敌人，屏幕上有\"第四波\"（WAVE 4）、连杀数、MERCILESS、IAI STORM、BEATDOWN 等字样，底部按键提示有 LIGHT、HEAVY、PARRY、JUMP、DASH、BREAK、EXECUTE。 作者只写了\"Fable 5.2 做的剑斗游戏\"。（玩法取自视频抽帧） X 回复（约 17 条）：多为夸赞，有人说像《对马岛之魂》。多条回复问有没有链接、会不会发布、做了多久，作者都没有回答，只说明用的是 three.js。",
   "quote": "Fable 5.2 created a sword fighting game https://t.co/QEGPkNl8mr",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2",
+  "tech": "three.js；作者称由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4448,7 +4500,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "Fable 5.2 一句话做出的日式剑斗，X 浏览 4 万，被比作《对马岛之魂》；作者未给链接。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "fps",
@@ -4460,7 +4514,7 @@
   "play": "太空站竞技场里的团队对战 FPS，白队对紫队，玩家可以穿过传送门移动和射击。以上按视频抽帧整理：片头署名\"Anthropic Studios（not a real studio）\"，片尾标题是 PARALLAX。作者说在办公室和同事对战玩了好几个晚上。帖子只有视频，没有试玩链接。Splitgate（以传送门为核心玩法的竞技场 FPS）官方账号在回复里说\"Looks weirdly familiar\"，这条回复有 4.5 万浏览。 X 回复（约 10 条）：讨论最多的是像 Splitgate；作者回应说做之前不知道 Splitgate，只是想试物理效果和更快的节奏。有人问能否在网页上玩，作者没有回答。",
   "quote": "An arena FPS with portals - Fable 5.2 is the first model that passes my bar for seriously fun and beautiful games. \nWe have had a few fun evenings playtesting this against eachother at the office https://t.co/N0A6cfXHCM",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2",
+  "tech": "作者称由 Claude Fable 5.2 制作；帖子未写引擎",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4509,7 +4563,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "名称和玩法取自 X 帖子视频抽帧（2026-11-16），回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "名称和玩法取自 X 帖子视频抽帧（2026-11-16），回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "Fable 5.2 做的传送门 FPS，X 浏览 19.8 万；Splitgate 官号回复“似曾相识”。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "mmo",
@@ -4521,7 +4577,7 @@
   "play": "画面是低多边形风格的开阔世界：城镇教堂和集市、草原、瀑布、水车和石桥、河流，最后是一座废墟里的紫色传送门。屏幕右侧有一列小图标，像是 UI 工具栏。视频里没有战斗或任务。 作者说一天内做出，称画面里每个素材都由代码生成。（玩法取自视频抽帧） X 回复（约 8 条）：几乎都在夸画面。作者确认是在 Spawn 上用 Fable 5.2 做的，项目名叫 The Sanctuary，另开了 Discord 社群发布进度；没有试玩链接。",
   "quote": "Fable 5.2 is INSANE for gamedev. I built this entire MMO world in a single day.\n\nIt really excels at making stylized art which I think is a much bigger test for a new model than hyperrealism. \n\nEvery single asset you see was generated from code. https://t.co/iGoNbSy7jH",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2，素材全部程序生成",
+  "tech": "Spawn 平台；作者称由 Claude Fable 5.2 制作，素材全部程序生成",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4570,7 +4626,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称一天内做出整个 MMO 风格世界，素材全部由代码生成；X 浏览 2.3 万，只有视频演示。",
+  "tech_basis": "作者自述 / 平台说明"
  },
  {
   "id": "gilt-gutter",
@@ -4582,7 +4640,7 @@
   "play": "片头可选两名角色（其中一名叫 Tally）。进场后是蒸汽朋克风的车站大厅，第一人称持枪战斗，HUD 有弹药数和队伍状态，提示栏出现\"Tally is down\"。作者说是 1v1 第一人称射击 Demo，两个可玩角色，浏览器里能玩。（玩法取自视频抽帧） X 回复（约 6 条）：作者补充了核心规则：子弹分金色和青色两种，和自己外套同色的子弹不造成伤害、还能给枪充能，异色才造成伤害；3D 模型用 Tripo3D 生成，再由 Claude 做骨骼绑定和动画。有玩家反馈敌人很难打死，作者说会调低难度。作者在回复里给了试玩链接。",
   "quote": "Claude Fable 5.2 made this game demo, playable in the browser\n\nGilt &amp; Gutter is a 1v1 first-person shooter with two playable characters https://t.co/7Y0RA8IV6b",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2",
+  "tech": "three.js（WebGL），Vercel 部署；作者称由 Claude Fable 5.2 制作，3D 模型用 Tripo3D 生成",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4631,7 +4689,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "以同色子弹不伤人为核心规则的 1v1 FPS，作者称模型用 Tripo3D；X 浏览 10.8 万。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "mu-online-solo-classic",
@@ -4643,7 +4703,7 @@
   "play": "奇迹 MU 0.97k 的客户端和服务端一起编译到 WebAssembly，在浏览器里单机玩。",
   "quote": "Standalone MU Online 0.97k classic game & server compiled to WebAssembly (C++17 / Emscripten) for 100% client-side in-browser solo gameplay.",
   "quote_src": "仓库描述",
-  "tech": "C++17，Emscripten，WebGL2",
+  "tech": "C++17 经 Emscripten 编译为 WebAssembly，WebGL2 渲染；纯客户端运行",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -4687,7 +4747,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把老网游《奇迹 MU》的客户端和服务端一起编进浏览器单机运行，涉及原作 IP；GitHub 39 星、30 分叉。",
+  "tech_basis": "作者自述 / 站点代码特征识别"
  },
  {
   "id": "roadside",
@@ -4698,7 +4760,7 @@
   "play": "画面是第一人称骑橙色摩托，沿黄昏的乡间公路行驶，可见仪表盘、后视镜和双臂，路边有树、电线杆、房屋和远山。视频里没有别的玩法元素。作者说场景、摩托和手臂都是程序生成，用 three.js。（玩法取自视频抽帧） X 回复（约 10 条）：几乎都在夸程序化建模（摩托、手臂、后视镜反光）。作者说换镜头后场景不够稳定，所以用固定镜头。没有人问玩法，看起来是场景演示，不是可玩的游戏。",
   "quote": "Roadside in @threejs, made with Fable 5.2, everything is 100% procedural in this one, including the bike and the arms\n\nFable 5.2 is by far the best model I've seen on 3d modeling, you just gotta push it a bit",
   "quote_src": "来源帖子原文",
-  "tech": "three.js，Claude Fable 5.2，全程序生成",
+  "tech": "three.js；作者称由 Claude Fable 5.2 制作，全程序生成",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4753,7 +4815,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称摩托和手臂全部程序生成，X 浏览 1.6 万；看起来是固定镜头的场景演示，不是可玩游戏。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "lanternfall",
@@ -4764,7 +4828,7 @@
   "play": "夜间荒原的俯视视角，四人小队跟着提灯前进、自动战斗，升级时三选一技能卡，有名为 The Barrow King 的首领战，看起来像小队版的类幸存者游戏。作者强调动画、模型和敌人死亡特效都由 Fable 5.2 生成。 X 回复（约 10 条）：多在问制作过程。作者说前后调整约 16 次、实际用时约 45 分钟，走路动画是让模型做骨骼动画并逐帧分析步态，没用 Mixamo；有人指出水面倒影会闪烁。",
   "quote": "This is INSANE Fable 5.2 just created this entire game, animations, models, everything.\n\nThe details are absolutely insane, look at the effect when enemies die, animations..\n\nJust blowing my mind what is possible and how quickly it's possible. So impressed!\n\nPlayable link below!",
   "quote_src": "来源帖子原文",
-  "tech": "Claude Fable 5.2",
+  "tech": "three.js（WebGL），含 Web Audio，页面约 4 MB；作者称由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
   "hot": false,
@@ -4814,7 +4878,9 @@
   ],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "note": "玩法取自视频抽帧（2026-11-16），没有试玩；回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自视频抽帧（2026-11-16），没有试玩；回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "作者称动画和模型全由 Fable 5.2 生成，约 45 分钟；X 浏览 19.7 万，有可玩链接。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "frost-lumber-camp",
@@ -4822,10 +4888,10 @@
   "kind": "伐木经营",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "转动斧环穿过冰封森林，堆木头和肉，建起铁路营地。",
+  "play": "转动围绕角色的斧环穿过冰封森林，砍树、打猎，把木头和肉越堆越高，用它们建起铁路营地。",
   "quote": "Spin your axe ring through a frozen forest, stack logs and meat sky-high, and build a railway camp!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -4878,7 +4944,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "hot_since": "2026-11-14"
+  "hot_since": "2026-11-14",
+  "highlight": "Astrocade 热门榜上的又一款冰雪经营，游玩 6.2 万次，与同期上榜的雪原题材扎堆。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "winter-upd-first-date-on-park",
@@ -4889,7 +4957,7 @@
   "play": "在游乐园里约会：一起坐 15 个以上的游乐设施、游泳、烛光晚餐，可选男女角色和昼夜；最近做了冬季更新。",
   "quote": "Winter season A cute first date in a walled amusement park: ride 15+ rides together, swim, sit on benches, share a candlelit dinner, hug, kiss and meet park visitors. Play as him or her, day or night!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -4936,7 +5004,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "以约会为主题的游乐园模拟，近期做了冬季更新；游玩 2.5 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "squishy-balloon-slime-diy-asmr",
@@ -4944,10 +5014,10 @@
   "kind": "解压 DIY",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "倒胶、加泡沫、调颜色和亮片，揉出自己的史莱姆，灌进气球再捏。",
+  "play": "倒入胶体，加泡沫、颜色、亮片和配料，揉出自己的史莱姆，再灌进气球捏压；标签为创作和模拟。",
   "quote": "Pour the gel, add foam, stir in colour, glitter and toppings, then knead your own squishy slime. Fill a balloon and squeeze it!\n\n#Creative #Simulation",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -5000,7 +5070,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "解压 ASMR 类 DIY 玩法，游玩 5 万次，参考价值在于热度。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "minecraft-billionaire-treehouse",
@@ -5011,7 +5083,7 @@
   "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是方块风的巨树豪宅，带玻璃电梯。标题直接用了 Minecraft 的名字。",
   "quote": "zenithsu_astra!!!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -5064,7 +5136,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "标题直接使用 Minecraft 名称，游玩 18.9 万次，页面描述只有一个用户名；有商标和授权风险。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "steal-an-egg",
@@ -5075,7 +5149,7 @@
   "play": "偷蛋、躲海啸、抢对手基地，孵出宠物并找金、钻石、银河等变异，锁住自己的基地。",
   "quote": "Steal eggs, dodge tsunamis & rob rival bases! Hatch pets, find Gold/Diamond/Galaxy mutations & lock your base. 3D model credits (CC-BY) in Settings.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -5128,7 +5202,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-12",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 偷蛋公式的母本，游玩 84.4 万次；页面注明 3D 模型为 CC-BY 并在设置里署名。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "anime-wedding-dress-up-studio",
@@ -5139,7 +5215,7 @@
   "play": "给动漫新娘搭配婚纱、头纱、首饰和捧花，挑选婚礼场地，走红毯赚爱心值。",
   "quote": "Style your anime bride! Mix gowns, veils, jewelry and bouquets, pick dreamy wedding venues, then walk the aisle for love points.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -5192,7 +5268,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 热门榜上的常规换装玩法，游玩 7.7 万次，参考价值主要在榜单热度。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "sunrise-high-school-life",
@@ -5203,7 +5281,7 @@
   "play": "方块画风的校园生活：上课、答老师的题、吃午饭、在校庆上跳舞、坐校车、装扮自己的学生，有小地图、课表、昼夜循环和金币。",
   "quote": "Live a blocky school life: attend classes, quiz teachers, eat lunch, dance at the festival, ride the bus and customize your student. Minimap, timetable, day-night cycle and coins!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -5256,7 +5334,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "方块画风的校园生活模拟，含课表、小地图和昼夜循环，游玩 11.2 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "ninja-unleashed",
@@ -5267,7 +5347,7 @@
   "play": "扮演原创忍者，在动漫风村庄的屋顶上冲刺、跳跃、飞檐走壁。",
   "quote": "**Description:** Dash, jump, and wall-run through a vibrant 3D anime village as an original ninja on a free-form rooftop run.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -5314,7 +5394,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "页面强调原创忍者角色的 3D 屋顶跑酷，游玩 3.6 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "pocket-soccer-3d",
@@ -5325,7 +5407,7 @@
   "play": "7 人制 3D 足球，有裁判、越位、红黄牌、点球和战术设置，全部在一个网页文件里，支持手机。",
   "quote": "Seven-a-side 3D football with referees, offside, cards, penalties and tactics, in one HTML file.",
   "quote_src": "平台页面描述",
-  "tech": "three.js，单文件约 1.2 MB",
+  "tech": "three.js r128（cdnjs 引入，WebGL），单 HTML 文件，含 Web Audio；仓库描述标注 Claude Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -5391,7 +5473,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "单个 HTML 文件（约 1.2 MB）里装下 7 人制足球的裁判、越位、红黄牌和点球；GitHub 1 星。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "mothlight-vesper-9",
@@ -5399,10 +5483,10 @@
   "kind": "赛博朋克竞速",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "雨夜的赛博城市里，穿过 5 个街区的 12 道光门。",
+  "play": "在雨夜湿滑的赛博朋克城市里开车竞速，穿过五个街区的 12 道光门。",
   "quote": "Street racing through a rain-slick cyberpunk city: thread 12 light gates across five districts.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -5461,7 +5545,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Fable52.games 收录的赛博朋克竞速，站内游玩 667 次，题材和氛围为主要卖点。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "what-the-water-keeps",
@@ -5472,7 +5558,7 @@
   "play": "画面是玩家划着挂灯笼的小船，依次经过日落水道、红色水车、樱花大树、绿色雨林树根、发光洞穴、雪地、星空湖面等不同场景，片尾标题 What the water keeps。作者说是穿过 8 个梦境般的世界的划船之旅，浏览器里能玩。（玩法取自视频抽帧） X 回复（约 5 条）：都在夸画面，没有玩法提问或负面评价。",
   "quote": "A slow boat ride by lantern light through a chain of very different realms, or let the current carry you.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL、Web Audio",
+  "tech": "three.js（WebGL），含 Web Audio；作者称由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -5552,7 +5638,9 @@
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）"
+  "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
+  "highlight": "划船穿过 8 个梦境般的世界，也可让水流带着走；X 浏览 50.7 万，是氛围向 Fable 5.2 作品的传播样本。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签 / 作者自述"
  },
  {
   "id": "bayhaven",
@@ -5563,7 +5651,7 @@
   "play": "原创开放世界犯罪游戏，可以驾车。作者让 Fable 5.2 每次跑一个自主会话往下写，页面标题写着当前是第几天，是一款公开边做边玩的游戏。",
   "quote": "An original open-world crime game written live by Fable 5.2, one autonomous session at a time.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；作者称由 Claude Fable 5.2 逐会话自主编写",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -5629,7 +5717,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "作者让 Fable 5.2 每次跑一个自主会话往下写，公开边做边玩，页面标题标出当前第几天。",
+  "tech_basis": "Fable52 标签 / 作者自述"
  },
  {
   "id": "cs",
@@ -5637,10 +5727,10 @@
   "kind": "Saltline 中文换皮",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "Saltline 的完整汉化版，雨夜集装箱港口改成了\"几猫\"码头。",
+  "play": "Saltline 的完整中文换皮版：雨夜集装箱港口 FPS，场景改名为“几猫”码头，界面全部汉化。",
   "quote": "A fully Chinese-localized remix of Saltline: a rain-soaked container-port FPS rebranded as the 几猫 shipping terminal.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL），含 Web Audio；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -5686,7 +5776,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "基于他人作品 Saltline 的中文二次改作，反映 Fable52.games 的 remix 风气。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "dustfall",
@@ -5697,7 +5789,7 @@
   "play": "原创开放世界西部游戏：骑马、打猎、钓鱼、打牌，在 Sorrel 盆地了结一桩旧怨。",
   "quote": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL），含 Web Audio；作者称为测试 Claude Fable 5 而做",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -5763,7 +5855,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "开放世界西部：骑马、打猎、钓鱼、打牌；作者称为测试 Fable 5 而做，GitHub 3 星。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "blameless",
@@ -5774,7 +5868,7 @@
   "play": "凌晨 3:07 值班告警响起、线上挂了，主角亲自\"kubectl exec\"进生产环境开枪解决问题。",
   "quote": "An on-call shooter: 03:07, prod is down, and you kubectl exec into production in person.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL），含 Canvas 2D、Web Audio；页面称由 AI 一个提示词生成，作者标注 Claude Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -5840,7 +5934,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "程序员梗 FPS：凌晨值班时亲自 kubectl exec 进生产环境开枪；页面称由 AI 一个提示词生成。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "pelican-on-a-bike",
@@ -5848,10 +5944,10 @@
   "kind": "休闲",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "戴头盔、围围巾的鹈鹕骑老式单车沿海边追鱼。",
+  "play": "实时 3D 海岸骑行：戴头盔、围红围巾的鹈鹕骑老式单车沿海边追鱼，场景有海浪、落日和一篮子鱼。",
   "quote": "A helmeted pelican in a scarf rides a vintage bike along the coast, chasing fish.",
   "quote_src": "平台页面描述",
-  "tech": "three.js，程序化生成，单文件",
+  "tech": "three.js，程序化生成，单 HTML 文件；作者称一个提示词由 Claude Opus 5.5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -5897,7 +5993,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "单个 HTML 约 0.8 MB 的程序化 3D 小品，作者称是一个提示词的 Claude Opus 5.5 作品。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "game-3",
@@ -5905,10 +6003,10 @@
   "kind": "仙侠御剑飞行",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "第三人称御剑飞过云海，收集 20 团灵气，点亮宗门山门。",
+  "play": "第三人称御剑飞行，穿过云海收集 20 团灵气，点亮宗门山门并飞过。",
   "quote": "Third-person sword flight over a sea of clouds: gather 20 motes of qi, light the sect gate and fly through.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -5967,7 +6065,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "国风仙侠题材的小体量飞行体验，站内游玩 444 次。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "evensong",
@@ -5975,10 +6075,10 @@
   "kind": "魂系动作 Demo",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "在被水淹没的大教堂里打一场首领战。",
+  "play": "在被水淹没的大教堂里与首领单挑一场的魂系动作 Demo，在浏览器里玩。",
   "quote": "One duel in a drowned cathedral: a souls-like demo that plays in the browser.",
   "quote_src": "平台页面描述",
-  "tech": "WebGL",
+  "tech": "three.js（WebGL）；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6024,7 +6124,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "只做一场首领战的魂系小体量 Demo；来源标注“Fable 5.2”未经核实。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "game-4",
@@ -6032,10 +6134,10 @@
   "kind": "同人首领战",
   "group": "游戏复刻与反编译",
   "group_type": "direction",
-  "play": "同人向的《黑神话：悟空》虎先锋首领战。",
+  "play": "同人向的《黑神话：悟空》，玩家挑战虎先锋首领战，在浏览器里玩。",
   "quote": "A fan-made browser boss fight against the Tiger Vanguard.",
   "quote_src": "平台页面描述",
-  "tech": "WebGL",
+  "tech": "three.js（WebGL），含 Web Audio；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6081,7 +6183,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "国产 IP 同人复刻，有授权风险；来源标注“Fable 5.2”未经核实。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "tidebell",
@@ -6089,10 +6193,10 @@
   "kind": "水下探索",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "驾小潜艇从珊瑚礁潜到深渊，唤醒 7 口潮钟。",
+  "play": "驾驶小潜艇从阳光照到的珊瑚礁一路下潜到深渊，唤醒 7 口沉睡的潮钟。",
   "quote": "Pilot a tiny submersible from sunlit reefs to the abyss and wake seven sleeping tide bells.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL，程序化生成",
+  "tech": "three.js（WebGL），程序化生成；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6151,7 +6255,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "水下探索加程序化生成，与同作者 hahaliu1029 的数款作品同属一个仓库。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "ironvale",
@@ -6159,10 +6265,10 @@
   "kind": "3D 即时战略",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "采集、建造、经历三个时代，击败 Crimson March。",
+  "play": "采集资源、建造，推进三个时代，最终击败 Crimson March 的 3D 即时战略。",
   "quote": "A 3D real-time strategy game: gather, build, advance through three ages and defeat the Crimson March.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；仓库描述标注由 Claude Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6221,7 +6327,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "标注由 Fable 5 制作的 3D 即时战略，类型比常见的单场景小游戏重；站内游玩 388 次、GitHub 1 星。",
+  "tech_basis": "Fable52 标签 / 仓库描述"
  },
  {
   "id": "sublevel-07",
@@ -6232,7 +6340,7 @@
   "play": "一句话提示词、73 轮自主操作、41 分钟，做出带反光地面和三波无人机的 FPS，文件 128 KB。",
   "quote": "A one-sentence FPS prompt, 73 autonomous turns, 41 minutes: wet reflective floors and three waves of hover drones in a 128 KB file.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL），单 HTML 文件约 128 KB；用 Claude Code 加 Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6291,7 +6399,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "一句话提示词、73 轮自主操作、41 分钟、128 KB 单文件做出 FPS 的复现实验，GitHub 95 星。",
+  "tech_basis": "Fable52 标签 / 仓库描述"
  },
  {
   "id": "game-5",
@@ -6299,10 +6409,10 @@
   "kind": "3D 武侠动作 Demo",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "雾气笼罩的山门场景动作演示，出自\"歸藏 Game Skill\"这个给 AI 用的做游戏技能包。",
+  "play": "俯视角仙侠动作：爬上雾气笼罩的山门，击败守卫，并与将领李苍决斗。",
   "quote": "A 3D action demo from the 歸藏 Game Skill: a mist-shrouded mountain gate built by an AI agent skill.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL），单 HTML 文件；素材由 AI 生成（仓库标签含 Tripo）；页面另含 WebAssembly 模块",
   "xcheck": "",
   "src": "Fable52.games 页面显示值；GitHub 接口",
   "hot": false,
@@ -6364,7 +6474,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "“歸藏 Game Skill”（给 AI 用的做游戏技能包）的演示，该仓库 GitHub 357 星。",
+  "tech_basis": "站点代码特征识别 / 仓库标签"
  },
  {
   "id": "tuktuk",
@@ -6372,10 +6484,10 @@
   "kind": "街头驾驶",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "开嘟嘟车穿过拥挤的埃及街道，躲小巴、出租车和西瓜车。",
+  "play": "开嘟嘟车在拥挤的埃及街道里穿行，躲避小巴、出租车和西瓜皮卡；页面称所有内容由代码绘制。",
   "quote": "Weave a tuk-tuk through a crowded Egyptian street, dodging microbuses, taxis and watermelon carts.",
   "quote_src": "平台页面描述",
-  "tech": "three.js，支持手机",
+  "tech": "three.js，含 Canvas 2D、Web Audio，支持手机；仓库描述标注由 Claude Fable 5 编写",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6434,7 +6546,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "埃及街头题材的 3D 小游戏，页面为阿拉伯语，支持手机；站内游玩 201 次。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "3d",
@@ -6442,10 +6556,10 @@
   "kind": "同人卡丁车",
   "group": "游戏复刻与反编译",
   "group_type": "direction",
-  "play": "同人向 3D 卡丁车，有漂移集气、加速和氮气。",
+  "play": "还原 QQ飞车的 11 城、情迷爱琴海、法老金字塔、雪地大冒险四张赛道，支持漂移集气、小喷、双喷、氮气和道具赛。",
   "quote": "A fan-made 3D kart racer with drift charging, boosts, nitro and item races on four classic-style tracks.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "three.js，单 HTML 文件，含 Web Audio；Fable52.games 标注由 Claude Opus 5.5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6491,7 +6605,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "国产竞速 IP 的同人 3D 复刻，存在授权风险；单个 HTML 约 0.7 MB。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "hanford-reach",
@@ -6499,10 +6615,10 @@
   "kind": "定居点建造",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "在哥伦比亚河边小镇的废墟里建定居点，可切换第一或第三人称。",
+  "play": "走过哥伦比亚河边小镇的废墟，是一款休闲定居点建造游戏的首个可玩关卡（作者称是作为礼物制作），可切换第一和第三人称。",
   "quote": "A cozy settlement builder in the ruins of a small town on the Columbia River, in first or third person.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6561,7 +6677,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "只有第一关的建造游戏雏形，站内游玩 121 次、GitHub 0 星，完成度偏低。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "game-6",
@@ -6569,10 +6687,10 @@
   "kind": "同人大乱斗",
   "group": "多人在线交互",
   "group_type": "direction",
-  "play": "选英雄，在冰桥上联机对战，同人向的英雄联盟大乱斗。",
+  "play": "选英雄，在嚎哭深渊的冰桥上联机对战，国服风格的《英雄联盟》海克斯大乱斗同人作品。",
   "quote": "Pick a champion and brawl online on a frozen bridge in this fan-made ARAM-style arena.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "引擎未识别（页面使用自带的 lol-assets 脚本）；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6618,7 +6736,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "国产客户端 IP 的同人联机作品，存在授权风险；来源标注“Fable 5.2”未经核实。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "shuttle-strike",
@@ -6629,7 +6749,7 @@
   "play": "第一人称羽毛球，用摄像头追踪你的手：握拍、挥拍、扣杀。",
   "quote": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
   "quote_src": "平台页面描述",
-  "tech": "three.js，摄像头手部追踪，单文件",
+  "tech": "three.js r160（WebGL），单 HTML 文件，摄像头手部追踪，含 Web Audio；作者称用 Claude Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": true,
@@ -6695,7 +6815,9 @@
   "stats_date": "2026-11-16",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true
+  "hot_manual": true,
+  "highlight": "用摄像头追踪手部来挥拍的第一人称羽毛球，单个 HTML 约 70 KB。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "harvest-standoff",
@@ -6703,10 +6825,10 @@
   "kind": "5v5 团队对战",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "面向孩子的农场对战：动物对农场工人，抢\"臭南瓜\"，没人会受伤。",
+  "play": "5v5 动物对农场工人的亲子向对战：偷偷把臭南瓜运进去并及时塞住，或是做最后存活的队伍；没人会受伤，只会弄得一团糟。",
   "quote": "Kid-friendly 5v5 farm battles: animals versus farmhands, a Stink-Pumpkin, and nobody gets hurt.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（页面自带 three.min.js），含 Canvas 2D、Web Audio；作者标注 Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6765,7 +6887,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "面向儿童的非暴力 5v5 团队对战，是这一批作品里少见的亲子题材。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "daedalus",
@@ -6773,10 +6897,10 @@
   "kind": "希腊神话解谜",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "希腊神话题材的解谜游戏。",
+  "play": "从海底爬到奥林匹斯山，解 30 道以古代机械为基础的谜题，途中会遇到六位神。",
   "quote": "A Greek-mythology puzzle game built with Fable 5.2.",
   "quote_src": "平台页面描述",
-  "tech": "单文件",
+  "tech": "Canvas 2D，单 HTML 文件，含 Web Audio；仓库描述标注使用 Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6835,7 +6959,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "30 道谜题加神话题材，单个 HTML 约 120 KB，GitHub 1 星。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "3d-2",
@@ -6843,10 +6969,10 @@
   "kind": "同人地图复刻",
   "group": "游戏复刻与反编译",
   "group_type": "direction",
-  "play": "同人复刻经典 FPS 地图\"运输船\"。",
+  "play": "穿越火线经典地图“运输船”的网页 3D 复刻：团队竞技，潜伏者对保卫者，与机器人对战。",
   "quote": "A fan-made browser remake of the classic \"Transport Ship\" map: team deathmatch against bots.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "three.js，单 HTML 文件，含 Web Audio；作者称一个提示词由 Claude Opus 5.5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6892,7 +7018,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "国产射击 IP 经典地图的同人复刻，有授权风险；作者称一个提示词由 Opus 5.5 完成。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "v25",
@@ -6900,10 +7028,10 @@
   "kind": "3D 平台跳跃 Demo",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "在暖光玩具房里跑跳、搬玩具，收集 5 颗星。",
+  "play": "在暖光玩具房里跑跳、搬运玩具，收集五枚星光；页面称是偏合作风格的平台跳跃 Demo。",
   "quote": "A co-op-style platformer demo: run, jump and haul toys around a warm-lit playroom to collect five stars.",
   "quote_src": "平台页面描述",
-  "tech": "WebGL",
+  "tech": "Godot 导出（WebAssembly），WebRTC 点对点联机，含 WebSocket、Web Audio；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -6949,7 +7077,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "代码特征显示是带 WebRTC 联机的 Godot 导出，不同于同批多数 three.js；来源未核实。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "boring-game",
@@ -6960,7 +7090,7 @@
   "play": "在按真实地图数据做的体素旧金山湾区规划地铁线、选盾构机、应付审批，看能不能把造价压到波兰的 2 倍以内。",
   "quote": "A voxel San Francisco Bay Area on real map data: plan the line, pick the boring machine, cut the red tape.",
   "quote_src": "平台页面描述",
-  "tech": "体素，真实地图数据",
+  "tech": "three.js，体素，真实地图数据，含 Web Audio",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7019,7 +7149,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "按真实地图数据做的体素旧金山湾区，拿“造价压到波兰的 2 倍以内”做目标，把基建成本和审批做成玩法。",
+  "tech_basis": "站点代码特征识别 / 仓库标签"
  },
  {
   "id": "misremember",
@@ -7027,10 +7159,10 @@
   "kind": "心理恐怖探索",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "有东西按你的记忆重建了童年的家，你不看的时候它会变。",
+  "play": "探索一座按你的记忆重建的童年老屋，恐怖机制是“你注视时一切不变，不看时它会变”。",
   "quote": "Something rebuilt your childhood home from your memory of it, and nothing changes while you're looking.",
   "quote_src": "平台页面描述",
-  "tech": "three.js、WebGL",
+  "tech": "three.js（WebGL）；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7089,7 +7221,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "利用“不看时场景改变”做恐怖机制，与同作者 hahaliu1029 的另几款同属一个仓库；站内游玩 100 次。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "sternenj-ger",
@@ -7100,7 +7234,7 @@
   "play": "12 个星区、3 场首领战，全部在一个网页文件里。",
   "quote": "A sci-fi space shooter with 12 sectors and 3 boss fights, all in one HTML file.",
   "quote_src": "平台页面描述",
-  "tech": "Canvas，单文件，支持手机",
+  "tech": "Canvas 2D，单 HTML 文件，支持手机，含 Web Audio；作者称用 Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7159,7 +7293,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "12 个星区、3 场首领战，装在单个约 40 KB 的 HTML 文件里，标题为德语。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "online",
@@ -7167,10 +7303,10 @@
   "kind": "多人港口枪战",
   "group": "多人在线交互",
   "group_type": "direction",
-  "play": "Saltline 改成多人自由混战：倒下 5 秒复活，支持全服语音。",
+  "play": "Saltline 的多人在线版：港口 3D 枪战，支持自由混战和邀请制红蓝小队，倒下 5 秒复活，另有队伍语音、全服大字、本地回放和敏感词拦截。",
   "quote": "Saltline goes multiplayer: a free-for-all online port shootout with 5-second respawns.",
   "quote_src": "平台页面描述",
-  "tech": "three.js，WebSocket",
+  "tech": "three.js，WebSocket 联机；Fable52.games 标注由 Claude Fable 5.2 加 deepseek-flash 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7229,7 +7365,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "在 Saltline 上加联机和语音，GitHub 23 星；标注 Fable 5.2 加 deepseek-flash。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "emberdeep",
@@ -7237,10 +7375,10 @@
   "kind": "地牢探险",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "火把会慢慢烧完的单文件地牢下潜。",
+  "play": "第一人称地牢下潜：火把会慢慢烧完，要找齐三块碎片、打破封印、继续往深处走；可单人，也可和朋友一起。",
   "quote": "A single-file dungeon descent where your torch is burning down.",
   "quote_src": "平台页面描述",
-  "tech": "单文件",
+  "tech": "three.js，单 HTML 文件，WebRTC 点对点和 WebSocket 联机，含 Web Audio；作者称用 Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7299,7 +7437,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "单个 HTML 约 0.86 MB 就含联机；仓库标题为“Testing the Limits of Fable 5”。",
+  "tech_basis": "站点代码特征识别 / 仓库描述"
  },
  {
   "id": "becario-del-universo",
@@ -7307,10 +7447,10 @@
   "kind": "休闲小任务",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "给宇宙新来的实习生安排的一串小任务，手机和电脑都能玩。",
+  "play": "你是替老板运行宇宙的无薪实习生（老板已经去喝了 138 亿年咖啡），要连续快速完成一串小任务；手机和电脑都能玩。",
   "quote": "Cosmic micro-tasks for the universe's newest intern, made for mobile and desktop.",
   "quote_src": "平台页面描述",
-  "tech": "单文件",
+  "tech": "Canvas 2D，单 HTML 文件，含 Web Audio；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7369,7 +7509,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "幽默题材的单文件微任务游戏，约 49 KB，站内游玩 50 次。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "breach",
@@ -7377,10 +7519,10 @@
   "kind": "多人 FPS",
   "group": "多人在线交互",
   "group_type": "direction",
-  "play": "运输船地图的多人 FPS 大厅，起个名字就能进。",
+  "play": "运输船地图的在线多人 FPS 大厅，起个名字就能进房间开打。",
   "quote": "Online multiplayer FPS lobby on a transport-ship map: pick a name and jump in.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "引擎未识别（页面使用自带的静态脚本，含 PWA 安装脚本）；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7426,7 +7568,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "与“海克斯大乱斗”同出 hanyue.io，同样是国产射击 IP 地图的同人联机，存在授权风险；来源标注未核实。",
+  "tech_basis": "站点代码特征识别 / Fable52 标签"
  },
  {
   "id": "duskline",
@@ -7434,10 +7578,10 @@
   "kind": "3D 无尽跑酷",
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
-  "play": "日落时分的高架地铁线上，一台维修机器人躲避清扫无人机的追赶。",
+  "play": "3D 无尽跑酷：日落时分，维修机器人沿高架地铁线奔跑，躲避清扫无人机的追赶。",
   "quote": "3D endless runner: a maintenance robot flees a sweeper drone along an elevated metro line at sunset",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "WebGL，单文件，支持手机；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7483,7 +7627,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "常规题材的单文件 3D 跑酷，站内游玩 84 次，参考价值有限。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "open-skies",
@@ -7494,7 +7640,7 @@
   "play": "全球任意地点起飞，真实机场、真实地形和实时天气；有飞行学校，一次教一项技能。",
   "quote": "Fly anywhere on Earth: real airports, real terrain and live weather, with a flight school that teaches you one skill at a time",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "three.js，调用真实地理数据；Fable52.games 标注由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -7540,7 +7686,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "全球任意地点起飞，用真实机场、真实地形和实时天气，还带一课一技能的飞行学校；站内游玩 64 次。",
+  "tech_basis": "Fable52 标签"
  },
  {
   "id": "road-sdl2-rash",
@@ -7551,7 +7699,7 @@
   "play": "1996 年 PC 版 Road Rash 的 C 语言移植和网页版，支持手柄和高分辨率。",
   "quote": "Modern native 64-bit C port and WebAssembly release of Road Rash (1996 PC). Runs natively on Windows 10/11, Linux, Steam Deck, and Web Browsers via SDL2. Features gamepad support,   1280x960 high-res rendering, SoundFont audio, in-game options overlay, and real-time physics/AI modding",
   "quote_src": "仓库描述",
-  "tech": "C 语言，SDL2，编译到 WebAssembly",
+  "tech": "C 语言（64 位）加 SDL2，编译为 WebAssembly，1280x960 高清渲染，SoundFont 音频",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -7596,7 +7744,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "1996 年 PC 版 Road Rash 的 64 位 C 移植加网页版，GitHub 33 星；涉原作版权。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "aidens-revenge",
@@ -7607,7 +7757,7 @@
   "play": "作者睡前把侄子画的角色和设定交给 Fable 5.2，第二天早上游戏就做好了。侄子的设定是 5 名以家人和家里的狗为原型的英雄、12 个首领；成品有 12 关，最多 4 人插手柄同屏合作，打败首领能解锁家人角色，之后又陆续加了更多亲戚。",
   "quote": "",
   "quote_src": "",
-  "tech": "作者的提示词允许模型用 ChatGPT Images 2.5 生成图片",
+  "tech": "Phaser（WebGL 渲染）；作者称用 Fable 5.2 一次生成，提示词允许模型用 ChatGPT Images 2.5 生成图片",
   "xcheck": "",
   "src": "Hacker News 官方接口",
   "hot": true,
@@ -7658,7 +7808,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "“一次生成”给侄子的游戏，Hacker News 505 分、450 评论，传播度很高。",
+  "tech_basis": "站点代码特征识别（补查脚本） / 作者自述"
  },
  {
   "id": "term-sheet-please",
@@ -7720,7 +7872,8 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把《Papers, Please》的审核玩法换成 YC 融资尽调，Hacker News 247 分、97 条评论。"
  },
  {
   "id": "sweatypanzer",
@@ -7728,10 +7881,10 @@
   "kind": "多人坦克对战",
   "group": "Wavedash 与 Far Worlds",
   "group_type": "direction",
-  "play": "浏览器里的多人坦克对战，输入昵称就能开车上场，不用下载。",
+  "play": "浏览器里的多人坦克对战：输入昵称就能开车上场，不用下载。",
   "quote": "",
   "quote_src": "",
-  "tech": "",
+  "tech": "Wavedash 平台托管；引擎未识别",
   "xcheck": "",
   "src": "Wavedash 平台页面显示值",
   "hot": false,
@@ -7777,7 +7930,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Wavedash 上的免下载联机坦克，目前实时在线 13 人。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "size-it-up",
@@ -7788,7 +7943,7 @@
   "play": "每天 5 组图形对比，拖动调整目标物体的大小，猜它和参照物的真实比例，满分 500 分。",
   "quote": "Play the official, original Size It Up game by Magnitudle. Estimate real-world scale across five daily visual comparisons and score up to 500 points.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "Next.js（Turbopack 构建），Canvas 2D，Supabase 后端",
   "xcheck": "",
   "src": "Hacker News 官方接口",
   "hot": false,
@@ -7833,7 +7988,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "每天 5 道估算真实尺寸的视觉对比题，Hacker News 82 分、27 条评论。",
+  "tech_basis": "站点代码特征识别"
  },
  {
   "id": "tiny-val-ncia",
@@ -7844,7 +8001,7 @@
   "play": "等距像素风的瓦伦西亚城市地图，每栋建筑都对应真实建筑，整个市域都画了。页面快捷键里有 G 游玩、M 地铁、P 飞机，游玩时可以调速度和高度。",
   "quote": "An isometric pixel-art map of València, painted block by block.",
   "quote_src": "页面自述",
-  "tech": "OpenStreetMap、西班牙地籍和 IGN 数据，图像模型重绘",
+  "tech": "Canvas 2D，用 OpenSeadragon 做缩放浏览；数据来自 OpenStreetMap、西班牙地籍和 IGN，图像模型重绘",
   "xcheck": "",
   "src": "Hacker News 官方接口",
   "hot": true,
@@ -7895,7 +8052,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-13",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "每栋建筑都对应真实建筑的整座城市等距像素地图，Hacker News 261 分、63 条评论。",
+  "tech_basis": "站点代码特征识别 / 作者自述"
  },
  {
   "id": "librehold",
@@ -7906,7 +8065,7 @@
   "play": "一局一小时，最多 12 名玩家加 18 个机器人；从小屋发展到城堡，练兵、劫掠、占领村庄。也有持续数周的长期世界。",
   "quote": "Free village wars in your browser. One-hour games against players and bots, or long worlds that last for weeks.",
   "quote_src": "页面自述",
-  "tech": "开源",
+  "tech": "Go 后端，React 前端，开源",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -7951,7 +8110,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "开源的像素风村庄战争，一局一小时也有持续数周的长期世界；GitHub 56 星。",
+  "tech_basis": "仓库标签"
  },
  {
   "id": "typepper",
@@ -7962,7 +8123,7 @@
   "play": "打字越快越准，辣度越高，从甜椒一路升到卡罗来纳死神辣椒；有冲刺、闪电、禅、生存等模式，浏览器和终端都能玩。",
   "quote": "Climb the Scoville scale as your WPM heats up. Sprint, blitz, zen, survival, floor is lava and hot pursuit — in your browser or your terminal.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "Rust（终端界面用 ratatui），浏览器端编译为 WebAssembly，开源",
   "xcheck": "",
   "src": "GitHub 接口",
   "hot": false,
@@ -8007,7 +8168,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "同一份 Rust 代码既能在终端里跑，也能在浏览器里玩的打字游戏，GitHub 36 星。",
+  "tech_basis": "仓库标签 / 站点代码特征识别"
  },
  {
   "id": "minecraft-underwater-quarrying-of-minera",
@@ -8018,7 +8181,7 @@
   "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是方块风的海底采矿场，有挖掘机和矿石。标题直接用了 Minecraft 的名字。",
   "quote": "Astra_creator!!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8071,7 +8234,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "标题直接使用 Minecraft 名称，游玩 7 万次，页面描述只有一个创作者名；有商标和授权风险。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "mecha-arm-1",
@@ -8079,10 +8244,10 @@
   "kind": "竞速攀爬",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "竞速和攀爬，收集各种机械臂。",
+  "play": "竞速并攀爬，沿途收集各式机械臂；页面描述只有这一句，细节未知。",
   "quote": "Race and climb, collect all differents mecha arms",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -8129,7 +8294,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 的“+1”命名公式作品，游玩 4.9 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "gym-masters",
@@ -8140,7 +8307,7 @@
   "play": "扮演苍白的体素小人穿过健身房，抓哑铃、选肌肉门，用布娃娃物理打倒健美选手。",
   "quote": "Run through a cool gym as a pale voxel man, grab weights, pick muscle doors and knock out bodybuilders with ragdoll fights!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8193,7 +8360,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "hot_since": "2026-11-15"
+  "hot_since": "2026-11-15",
+  "highlight": "把选门跑酷和布娃娃格斗结合在健身房里，游玩 13 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "dress-up-showdown",
@@ -8201,10 +8370,10 @@
   "kind": "换装",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "给角色搭配礼服、发型、鞋子和饰品，参加主题时装秀让评委打分。",
+  "play": "给角色搭配礼服、发型、鞋子和闪亮配饰，参加主题时装秀，走秀后由评委给造型打分。",
   "quote": "Dress her up with gowns, hairstyles, shoes and sparkly extras, then strut the runway in themed fashion contests where judges score your look! 👗✨",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -8251,7 +8420,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 上的常规换装玩法，游玩 4 万次，参考价值主要在热度。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "apex-strike",
@@ -8259,10 +8430,10 @@
   "kind": "4v4 团队射击",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "3D 4v4 团队淘汰射击，可自定义装备。",
+  "play": "3D 4v4 团队淘汰射击，开局前可自定义装备，主打节奏快的枪战。",
   "quote": "High-octane 3D 4v4 team elimination! Customize loadouts, master fast-paced gunplay, and deploy into intense combat!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8315,7 +8486,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "游玩 167.7 万次，是这批 Astrocade 作品里射击类体量最大的。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "1-pickaxe-swing-for-eggs",
@@ -8323,10 +8496,10 @@
   "kind": "挖矿孵蛋",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "挥镐每次 +1 力量，砸蛋块、躲守卫，在围栏里孵出 42 种动物。",
+  "play": "每挥一次镐 +1 力量，砸开蛋块、躲避守卫，在自己的围栏里孵出 42 种动物。",
   "quote": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -8373,7 +8546,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把 +1 成长公式和偷蛋养成混合，是 Astrocade 公式化玩法的样本，游玩 2.3 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "supersmash",
@@ -8381,10 +8556,10 @@
   "kind": "破坏沙盒",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "作者说是《Teardown》的改版，加了更多建筑和破坏方式。",
+  "play": "作者称是《Teardown》的翻改版，加入了更多建筑和更多破坏方式。",
   "quote": "remixed version of teardown adds more structres and way more discrution ops",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8437,7 +8612,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "直接挂靠《Teardown》的破坏沙盒，游玩 15.9 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "duck-chaos-3d",
@@ -8448,7 +8625,7 @@
   "play": "扮演一只鸭子在 3D 公园里冲人叫、偷食物、制造混乱，攒满混乱值。",
   "quote": "Waddle through a 3D park as a mischievous duck, honking at people, stealing food, and causing delightful mayhem to fill your chaos meter!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8501,7 +8678,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "扮演鸭子在公园里捣乱的 3D 小品，游玩 5.6 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "stickman-archer",
@@ -8512,7 +8691,7 @@
   "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是火柴人弓箭手。",
   "quote": "Created with Astrocade!                                                   Remix allowed.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8565,7 +8744,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "页面只写“允许 remix”，没有玩法介绍；游玩 283.6 万次，是这批里游玩数最高的。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "wild-hunter-3d",
@@ -8573,10 +8754,10 @@
   "kind": "狙击狩猎",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "在体素森林里用狙击镜打方块动物，攒金币解锁新目标。",
+  "play": "在体素风森林里用狙击镜瞄准方块动物，仔细瞄准后射击，攒金币解锁新的目标。",
   "quote": "Hunt blocky animals in a vibrant voxel forest using your sniper scope—aim carefully and collect coins to unlock new targets! animal sut",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8629,7 +8810,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Astrocade 上的常规狩猎玩法，游玩 5.3 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "lifebox",
@@ -8640,7 +8823,7 @@
   "play": "2D 像素物理沙盒：用各种工具造地形、拆地形，搭建筑、做物质反应实验。",
   "quote": "A 2D pixel-art sandbox game where players manipulate a world with physics, building structures, and experimenting with reactions.\n\n• Create and destroy terrain with various tools\n• Observe and interact with a dynamic, physics-driven environment",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8693,7 +8876,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "hot_since": "2026-11-14",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "2D 像素物理沙盒，游玩 39.5 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "nine-chronicles-twist-of-destiny",
@@ -8701,10 +8886,10 @@
   "kind": "转轮战斗",
   "group": "Verse8",
   "group_type": "direction",
-  "play": "转转轮、放技能、打怪物，Nine Chronicles 系列的作品。",
+  "play": "回合制黑暗奇幻：选英雄，转动老虎机式转轮，中间格的符号决定本回合行动（如攻击、破甲、回血），对付越来越强的怪物。",
   "quote": "Spin the reels, unleash powerful skills, and challenge monsters in Twist of Destiny",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Verse8 平台生成",
   "xcheck": "",
   "src": "Verse8 平台页面显示值",
   "hot": false,
@@ -8752,7 +8937,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把老虎机悬念和英雄养成结合，并借用 Nine Chronicles 的角色；Verse8 游玩 184 次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "nine-chronicles-rise-of-the-grove",
@@ -8760,10 +8947,10 @@
   "kind": "放置英雄 RPG",
   "group": "Verse8",
   "group_type": "direction",
-  "play": "组建英雄小队，推 300 关，打竞技场，Nine Chronicles 系列的作品。",
+  "play": "像素风放置英雄 RPG：收集英雄并在 3×3 格上布阵，技能自动释放，推 300 关战役并挑战首领，在竞技场里按 Elo 排名往上爬。",
   "quote": "Idle hero RPG: build your squad, clear 300 stages, battle in the Arena.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Verse8 平台生成",
   "xcheck": "",
   "src": "Verse8 平台页面显示值",
   "hot": false,
@@ -8811,7 +8998,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "借用 Nine Chronicles 角色的放置 RPG，规模是 300 关加竞技场；Verse8 游玩 398 次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "blast-block-sandbox",
@@ -8822,7 +9011,7 @@
   "play": "在方块世界里飞行，用打火石点燃 11 种 TNT：核弹、烟花、弹射板、瞬间森林、隧道等。",
   "quote": "Fly over a blocky world, light 11 kinds of TNT with flint and steel, and blow it sky-high: nukes, fireworks, launch pads, instant forests and tunnels!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -8869,7 +9058,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "以 11 种 TNT 为核心的方块爆破沙盒，游玩 3.2 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "steal-a-dragon",
@@ -8880,7 +9071,7 @@
   "play": "偷龙蛋、孵化并把龙从幼年养到长老，骑龙飞越龙后的火焰，抢陨石蛋、偷对手基地。",
   "quote": "Steal dragon eggs, hatch them and raise them from Baby to ELDER! Ride your dragons over the Dragon Queen's fire, grab Meteor Eggs and steal from rival bases!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -8927,7 +9118,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "把偷蛋公式换成龙题材，带从幼年养到长老的成长线，游玩 3.4 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "save-the-fish",
@@ -8935,10 +9128,10 @@
   "kind": "拔针解谜",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "拔针引水救鱼，避开毒液和鲨鱼，共 20 关物理谜题。",
+  "play": "拔掉针栓引导水流救鱼，水要绕开毒液和饥饿的鲨鱼，共 20 道物理谜题。",
   "quote": "Pull pins, guide water, save the fish! Route bubbly water past toxic slime and hungry sharks across 20 brainy physics puzzles.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -8991,7 +9184,9 @@
   "source_posts": [],
   "stats_date": "2026-11-16",
   "images_tried": true,
-  "hot_since": "2026-11-16"
+  "hot_since": "2026-11-16",
+  "highlight": "Astrocade 上的常规拔针物理谜题，游玩 6.2 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "sky-drop-royale",
@@ -9002,7 +9197,7 @@
   "play": "从飞船上跳下、滑翔到浮空岛、捡枪，岛屿会不断坠入云层，活到最后的赢。",
   "quote": "Drop from the barge, glide to a floating island, loot guns and be the last skydiver standing while the islands fall into the clouds!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -9049,7 +9244,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "浮空岛不断坠落的轻量大逃杀，游玩 2.1 万次。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "elite-warfare",
@@ -9060,7 +9257,7 @@
   "play": "精英部队对叛军的团队战术 FPS，随身摄像头视角。两张丛林地图，有夺点、团队死斗、确认击杀和彩弹模式，机器人能感知和寻路，支持点对点联机，有 240 多句英语和西班牙语小队无线电。另带一个浏览器里的角色工具：导入模型、自动绑骨、套用游戏动画。只支持电脑。作者说整款游戏由 Claude 在他的指导下完成；引擎是从另一款 three.js FPS《Karen Warfare》公开发布的代码研究改出来的，论坛里有人追问是否有授权。",
   "quote": "image 1600×295 101 KB Game: https://elitewarfare.fun ELITE WARFARE is a team tactical FPS that runs entirely in the browser: ELITE against INSURGENTS, seen through a body cam. No install, no server of our own. It’s a static site on Netlify with optional peer-to-peer multiplayer. PC only, desktop bro",
   "quote_src": "论坛首帖原文",
-  "tech": "three.js，React + TypeScript，点对点联机，Claude",
+  "tech": "three.js，React + TypeScript，点对点联机，静态站部署在 Netlify；作者称由 Claude 在其指导下编写",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
   "hot": false,
@@ -9106,7 +9303,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "作者称整款由 Claude 在其指导下完成，纯静态站加点对点联机；论坛有人追问引擎授权。",
+  "tech_basis": "作者自述"
  },
  {
   "id": "saltline-surf-beta",
@@ -9114,10 +9313,10 @@
   "kind": "在线冲浪",
   "group": "Wavedash 与 Far Worlds",
   "group_type": "direction",
-  "play": "作者 Liam 的冲浪游戏：进在线房间、邀请朋友一起冲浪。测试版。",
+  "play": "拿起冲浪板进入在线场次，邀请朋友一起冲浪；页面标注为测试版。",
   "quote": "",
   "quote_src": "",
-  "tech": "",
+  "tech": "Wavedash 平台托管；引擎未识别",
   "xcheck": "",
   "src": "Wavedash 平台页面显示值",
   "hot": false,
@@ -9163,7 +9362,9 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "Wavedash 上的联机冲浪测试版，目前实时在线 3 人，页面信息很少。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "dating-my-handsome-idol-boyfriend-2",
