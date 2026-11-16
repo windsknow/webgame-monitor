@@ -4264,12 +4264,12 @@
  },
  {
   "id": "cod",
-  "name": "类 COD 射击游戏（未命名）",
-  "kind": "类 COD 射击",
+  "name": "Frontline Warfare: Deathmatch",
+  "kind": "团队死斗 FPS",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-10 发帖",
-  "play": "作者说是用 Fable 5.2 做的类《使命召唤》浏览器射击游戏。帖子只有视频。",
+  "play": "第一人称团队死斗：在废墟沙漠城或河边小镇里，和 CT、T 两方的机器人及朋友打无尽死斗。画面有小地图、比分、倒计时、弹药、血量护甲、金钱和 Armory 武器栏，能打穿墙面。作者说游戏发布在 Spawn，两天内迭代了 1714 个版本，但没给具体链接。",
   "quote": "i built a COD like browser game with fable 5.2 https://t.co/VmjgclqKkd",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2",
@@ -4320,16 +4320,17 @@
    "https://x.com/alightinastorm/status/2120020469487440210"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "名称和玩法取自作者在帖子下的回复和视频抽帧（2026-11-16）"
  },
  {
   "id": "three-js",
-  "name": "three.js 篮球游戏（未命名）",
+  "name": "Vibes Basketball",
   "kind": "3D 篮球",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
   "date_text": "2026-11-10 发帖",
-  "play": "作者让 Fable 5.2 做\"3A 级\"three.js 篮球游戏，称服装、动画和音效都是 Claude 做的。帖子只有视频。",
+  "play": "3D 篮球比赛：VIBES 队对 LUDDITES 队，有转播风格的比分条、首发五人介绍和满场观众；玩家操控一名球员，屏幕提示可以切换球员、传球、投篮。作者说服装、动画和音效都由 Claude 完成。帖子只有视频，没有试玩链接。",
   "quote": "i asked fable 5.2 to build a AAA threejs basketball game\n\nwe have reached AGI, from clothing to animations and sounds done by claude https://t.co/StGsCbRq8A",
   "quote_src": "来源帖子原文",
   "tech": "three.js，Claude Fable 5.2",
@@ -4380,7 +4381,8 @@
    "https://x.com/alightinastorm/status/2120010936584945922"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "名称和玩法取自视频抽帧（2026-11-16）"
  },
  {
   "id": "game-2",
@@ -4750,7 +4752,7 @@
   "kind": "小队动作",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "作者帖子没写玩法；截图是夜间场景里提灯的四人小队，底栏有守卫、游侠等角色。作者强调动画、模型和敌人死亡特效都由 Fable 5.2 生成。",
+  "play": "夜间荒原的俯视视角，四人小队跟着提灯前进、自动战斗，升级时三选一技能卡，有名为 The Barrow King 的首领战，看起来像小队版的类幸存者游戏。作者强调动画、模型和敌人死亡特效都由 Fable 5.2 生成。",
   "quote": "This is INSANE Fable 5.2 just created this entire game, animations, models, everything.\n\nThe details are absolutely insane, look at the effect when enemies die, animations..\n\nJust blowing my mind what is possible and how quickly it's possible. So impressed!\n\nPlayable link below!",
   "quote_src": "来源帖子原文",
   "tech": "Claude Fable 5.2",
@@ -4802,7 +4804,8 @@
    "https://x.com/loktar00/status/2120192761542615271"
   ],
   "stats_date": "2026-11-15",
-  "images_tried": true
+  "images_tried": true,
+  "note": "玩法取自视频抽帧（2026-11-16），没有试玩"
  },
  {
   "id": "frost-lumber-camp",

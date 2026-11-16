@@ -2924,7 +2924,8 @@
   "reasons": [
    "X 帖子（@alightinastorm，核验确认），浏览 1.2 万"
   ],
-  "game_id": "cod"
+  "game_id": "cod",
+  "name_manual": "Frontline Warfare: Deathmatch"
  },
  "x:2120010936584945922": {
   "key": "x:2120010936584945922",
@@ -2980,7 +2981,8 @@
   "reasons": [
    "X 帖子（@alightinastorm，核验确认），浏览 5.7 万"
   ],
-  "game_id": "three-js"
+  "game_id": "three-js",
+  "name_manual": "Vibes Basketball"
  },
  "x:2119969113762082931": {
   "key": "x:2119969113762082931",
