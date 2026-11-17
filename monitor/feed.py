@@ -13,7 +13,7 @@ import re
 import shutil
 
 from . import util
-from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, heat, method_html
+from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, heat, method_html, split_reply, stats_x_first
 
 e = html.escape
 WEEK = '一二三四五六日'
@@ -45,8 +45,8 @@ def hero(g):
            else f'<div class="noshot" style="--c:{col}"><span>{e(g["name"])}</span></div>')
     cls, lab = AI_TAG.get(g.get('ai_tag') or 'unlabeled', AI_TAG['unlabeled'])
     stats = ''.join(f'<div><b>{e(s["value"])}</b><span>{e(s["label"])}</span></div>'
-                    for s in (g.get('stats') or [])[:3] if not s.get('doubt'))
-    text = g.get('play') or html.unescape(g.get('quote') or '')
+                    for s in stats_x_first(g)[:3] if not s.get('doubt'))
+    text = split_reply(g.get('play'))[0] or html.unescape(g.get('quote') or '')
     sig = '；'.join(s['说明'] for s in g.get('signals') or [] if s['类别'] != '技术')
     go = LINK.get(g.get('link_status'), ('', '试玩 ↗'))[1]
     return f'''<article class="slide" id="hero-{e(g['id'])}">
@@ -56,6 +56,7 @@ def hero(g):
 <h3>{e(g['name'])}</h3>
 <p class="slide-kind">{e(g.get('kind') or '')}{' · ' if g.get('kind') else ''}{e(g.get('date_text') or '')}</p>
 <p class="slide-text">{e(text)}</p>
+{f'<p class="slide-why"><b>亮点</b>{e(g["highlight"])}</p>' if g.get('highlight') else ''}
 {f'<p class="slide-why">重点依据：{e(sig)}</p>' if sig else ''}
 <div class="slide-stats">{stats}</div>
 <div class="slide-act"><a class="btn" href="{e(g['url'])}" target="_blank" rel="noopener">{go}</a><a class="btn btn-2" href="#{e(g['id'])}">看卡片</a></div>
@@ -116,7 +117,7 @@ def run(date=None):
             st_tags.append('auto' if g.get('status') == 'auto' else 'verified')
             if g.get('link_status') == 'none':
                 st_tags.append('nolink')
-            text = ' '.join(str(g.get(k) or '') for k in ('name', 'kind', 'play', 'quote', 'tech', 'group', 'url', 'ai_evidence'))
+            text = ' '.join(str(g.get(k) or '') for k in ('name', 'kind', 'play', 'highlight', 'quote', 'tech', 'group', 'url', 'ai_evidence'))
             text += ' ' + ' '.join(g.get('x_handles') or []) + ' ' + ' '.join(CH_SHORT[c] for c in chs)
             attrs = {'data-grp': grp, 'data-ch': ' '.join(chs), 'data-st': ' '.join(st_tags),
                      'data-q': re.sub(r'\s+', ' ', html.unescape(text)).lower(), 'data-added': g.get('added') or ''}
@@ -164,7 +165,7 @@ def run(date=None):
 <body class="feed-page">
 <header class="bar"><div class="bar-in">
 <a class="brand" href="#top">{e(title)}</a>
-<label class="search"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="搜索游戏名、玩法、技术、作者…" autocomplete="off"></label>
+<label class="search"><svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="搜索游戏名、玩法、亮点、技术、作者…" autocomplete="off"></label>
 <button id="themeBtn" type="button">深色</button>
 </div></header>
 

@@ -107,3 +107,4 @@ html{scroll-padding-top:calc(var(--bar-h) + 16px)}
   .fl{padding-top:0}
   .cards{grid-template-columns:1fr}
 }
+.slide-why b{font-weight:700;margin-right:6px}

@@ -226,3 +226,12 @@ footer.end{margin-top:40px;border-top:1px solid var(--border);padding:20px 0 60p
 .cmp td:nth-child(4){font-variant-numeric:tabular-nums;min-width:150px}
 .grp>.gt{margin-top:20px}
 @media (max-width:640px){.cmp table{min-width:760px}.cmp td:first-child{min-width:170px;max-width:230px}}
+/* 亮点、玩法标签、X 浏览排第一（2026-11-17） */
+.g>.hl{margin:10px 16px 0}
+.hl{margin:0;font-size:13.5px;line-height:1.6;color:var(--text)}
+.hl b,.play b.lab{font-size:11.5px;font-weight:600;letter-spacing:.04em;margin-right:8px}
+.hl b{color:var(--hot)}
+.play b.lab{color:var(--text-3)}
+.st.st-x{background:var(--accent-soft)}
+.st.st-x dt{color:var(--accent)}
+.note b+br+b,.note b:not(:first-child){margin-top:6px}

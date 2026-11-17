@@ -48,6 +48,23 @@ def date_key(g):
     return (g.get('added') or '') if g.get('status') == 'auto' else ''
 
 
+def is_x(s):
+    return s.get('label', '').startswith('X ')
+
+
+def stats_x_first(g):
+    """卡片数字：X 浏览排第一，其余保持原顺序。"""
+    st = g.get('stats') or []
+    return [s for s in st if is_x(s)] + [s for s in st if not is_x(s)]
+
+
+def split_reply(p):
+    """玩法文字末尾的"X 回复（约 N 条）：…"拆出来单独显示。"""
+    p = p or ''
+    m = re.search(r'\s*X 回复(（[^）]*）)?：', p)
+    return (p.strip(), '') if not m else (p[:m.start()].strip(), p[m.end():].strip())
+
+
 def card(g, is_new=False):
     col = PAL[sum(map(ord, g['id'])) % len(PAL)]
     first = next((c for c in g['name'] if c.isalnum()), '?').upper()
@@ -57,8 +74,8 @@ def card(g, is_new=False):
     shot_html = (f'<img src="{A}{e(g["shot"])}" alt="{e(g["name"])} 画面" loading="lazy">' if g.get('shot')
                  else f'<div class="noshot" style="--c:{col}"><span>{e(g["name"])}</span><small>暂无画面截图</small></div>')
     stats = ''.join(
-        f'<div class="st{" st-red" if s.get("doubt") else ""}"><dt>{e(s["label"])}{"（口径存疑）" if s.get("doubt") else ""}</dt>'
-        f'<dd>{e(s["value"])}</dd></div>' for s in g.get('stats', []))
+        f'<div class="st{" st-red" if s.get("doubt") else ""}{" st-x" if is_x(s) else ""}"><dt>{e(s["label"])}{"（口径存疑）" if s.get("doubt") else ""}</dt>'
+        f'<dd>{e(s["value"])}</dd></div>' for s in stats_x_first(g))
     xs = ''.join(f'<img src="{A}{e(x)}" alt="{e(g["name"])} 画面" loading="lazy">' for x in g.get('extra_shots', []))
     xs = f'<div class="xshots">{xs}</div>' if xs else ''
     hot = '<span class="hot">★ 重点</span>' if g.get('hot') else ''
@@ -71,16 +88,17 @@ def card(g, is_new=False):
         tags.append(f'<span class="tag tag-nolink">{LINK[g["link_status"]][0]}</span>')
     if g.get('status') == 'auto':
         tags.append('<span class="tag tag-auto" title="按规则自动入库，介绍文字尚未经过试玩核验">自动入库 · 待核验</span>')
-    if g.get('play'):
-        p = g['play']
-        play = ('<b class="idea">创意点</b>' + e(p[4:])) if p.startswith('创意点：') else e(p)
+    p, reply = split_reply(g.get('play'))
+    if p:
+        play = ('<b class="idea">创意点</b>' + e(p[4:])) if p.startswith('创意点：') else '<b class="lab">玩法</b>' + e(p)
         play = f'<p class="play">{play}</p>'
     elif g.get('quote'):
         play = f'<p class="play quote"><b>{e(g.get("quote_src") or "原文")}（原文）</b>{e(html.unescape(g["quote"]))}</p>'
     else:
         play = '<p class="play"></p>'
     tech = f'<b>技术</b>{e(g["tech"])}' if g.get('tech') else ''
-    note = f'<b>交叉验证</b>{e(g["xcheck"])}' if g.get('xcheck') else ''
+    hl = f'<p class="hl"><b>亮点</b>{e(g["highlight"])}</p>' if g.get('highlight') else ''
+    note = (f'<b>X 回复</b>{e(reply)}' if reply else '') + (f'<b>交叉验证</b>{e(g["xcheck"])}' if g.get('xcheck') else '')
     fs = g.get('first_seen') or {}
     found = ''
     if fs.get('channel') and fs['channel'] != '基线报告':
@@ -94,7 +112,8 @@ def card(g, is_new=False):
         if g.get('ai_evidence'):
             bits.append('AI 证据：' + g['ai_evidence'])
         why = '<b>入库理由</b>' + e('；'.join(bits))
-    src_txt = (g.get('src') or '') + (f"（数据截至 {g['stats_date']}）" if g.get('stats_date') else '')
+    src_txt = (g.get('src') or '') + (f"（数据截至 {g['stats_date']}）" if g.get('stats_date') else '') + \
+        (f"；技术栈依据：{g['tech_basis']}" if g.get('tech_basis') else '') + (f"；{g['note']}" if g.get('note') else '')
     go = LINK.get(g.get('link_status'), ('', '打开 ↗'))[1]
     srcs = ''
     if g.get('sources'):
@@ -113,6 +132,7 @@ def card(g, is_new=False):
 <p class="found">{found}</p>
 <dl class="stats">{stats}</dl>
 {play}
+{hl}
 <p class="tech">{tech}</p>
 <p class="why">{why}</p>
 <p class="note">{note}</p>
