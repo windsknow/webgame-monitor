@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Soccer-3D - Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "mothlight": {
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "bayhaven": {
@@ -110,7 +110,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "dustfall": {
@@ -135,7 +135,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "what-the-water-keeps": {
@@ -148,8 +148,8 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 508893,
-    "likes": 4278,
+    "views": 510658,
+    "likes": 4276,
     "date": "2026-11-09",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
@@ -167,7 +167,7 @@
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "pelican-on-a-bike": {
@@ -185,7 +185,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "blameless": {
@@ -199,7 +199,7 @@
    "repo": {
     "url": "https://github.com/Petyok/blameless",
     "created": "2026-11-10",
-    "stars": 0,
+    "stars": 1,
     "homepage": "https://blameless.petruha.ge",
     "desc": "An on-call shooter: 03:07, the pager goes off, prod is down, and you kill what is crashing it. three.js. All done by Claude Fable 5.2 from one prompt.",
     "owner": "Petyok"
@@ -210,7 +210,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "jimao-cs": {
@@ -228,7 +228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "evensong": {
@@ -246,7 +246,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "qingyun-sword-flight": {
@@ -271,7 +271,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "tuktuk": {
@@ -296,7 +296,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Written by Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "wukong-tiger-vanguard": {
@@ -314,7 +314,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "sublevel-07-fps-repro": {
@@ -353,7 +353,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 378,
+    "stars": 398,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -364,7 +364,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "tidebell": {
@@ -389,7 +389,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "ironvale": {
@@ -414,7 +414,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "hanford-reach": {
@@ -439,7 +439,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "shuttle-strike": {
@@ -453,7 +453,7 @@
    "repo": {
     "url": "https://github.com/fedifianto/shuttlestrike",
     "created": "2026-11-11",
-    "stars": 0,
+    "stars": 1,
     "homepage": "",
     "desc": "simple badminton game with claude fable 5.2",
     "owner": "fedifianto"
@@ -464,7 +464,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "simple badminton game with claude fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "feiche-3d": {
@@ -482,7 +482,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "harvest-standoff": {
@@ -507,7 +507,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "transport-ship-3d": {
@@ -525,7 +525,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "daedalus": {
@@ -539,7 +539,7 @@
    "repo": {
     "url": "https://github.com/S77FFY/daedalus",
     "created": "2026-11-10",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "Greek Mythology Puzzle Game (built using Fable 5.2)",
     "owner": "S77FFY"
@@ -550,7 +550,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -575,7 +575,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Congrats for shipping Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "sternenjaeger": {
@@ -600,7 +600,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "browser game created with Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "warm-toy-room-v25": {
@@ -618,7 +618,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "misremember": {
@@ -643,7 +643,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "saltline-online": {
@@ -668,7 +668,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "becario-del-universo": {
@@ -693,7 +693,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "hextech-aram": {
@@ -711,7 +711,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "breach-transport-ship-online": {
@@ -729,7 +729,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "emberdeep": {
@@ -754,7 +754,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Testing the Limits of Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "duskline-vxn7rh": {
@@ -772,7 +772,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "flight-simulator-nfljgw": {
@@ -790,7 +790,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "makinamon-pulso": {
@@ -815,7 +815,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Hecho con Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "riftline": {
@@ -840,7 +840,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "testing Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "the-county": {
@@ -865,7 +865,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "emberhold-xwn1lu": {
@@ -883,7 +883,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "arcfall-artillery-ho7odp": {
@@ -901,7 +901,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "tidemark": {
@@ -915,7 +915,7 @@
    "repo": {
     "url": "https://github.com/CocoSgt/dsh-game-tidemark",
     "created": "2026-11-13",
-    "stars": 22,
+    "stars": 24,
     "homepage": "https://dsh-game-store.com/games/tidemark/",
     "desc": "《潮汐战线》Tidemark：《高级战争》式的回合制战棋，海陆空 33 个兵种、29 位指挥官，开源，网页和 DSH 里都能玩 · Turn-based strategy in the spirit of Advance Wars",
     "owner": "CocoSgt"
@@ -926,7 +926,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "ushiro-no-haniwa": {
@@ -951,7 +951,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "pon-to-mori-wa-tomoru": {
@@ -976,7 +976,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "hitotsubu-teien": {
@@ -1001,7 +1001,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "undertow-y8xvs5": {
@@ -1019,7 +1019,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "black-tide-hdab0j": {
@@ -1037,7 +1037,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "graveyard-shift": {
@@ -1051,7 +1051,7 @@
    "repo": {
     "url": "https://github.com/ethanplusai/zombies",
     "created": "2026-11-11",
-    "stars": 10,
+    "stars": 13,
     "homepage": "https://zombies.ethanplus.ai",
     "desc": "Graveyard Shift: a round-based zombies shooter that runs in the browser. three.js, one HTML file, everything generated in code.",
     "owner": "ethanplusai"
@@ -1062,7 +1062,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "solar-system-3d": {
@@ -1080,7 +1080,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "duel-knights": {
@@ -1105,7 +1105,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "last-return": {
@@ -1119,7 +1119,7 @@
    "repo": {
     "url": "https://github.com/StefanKnol/Last-Return",
     "created": "2026-11-14",
-    "stars": 2,
+    "stars": 3,
     "homepage": "https://last-return.sknol.com/",
     "desc": "Claude Fable 5.2 test, started with minimal prompt; 'make me a 3d LiDAR horror game'",
     "owner": "StefanKnol"
@@ -1130,7 +1130,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "escape-the-fable": {
@@ -1155,7 +1155,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "shutterpine": {
@@ -1180,7 +1180,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "mini-rpg": {
@@ -1205,7 +1205,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "hitsuji-ga-ippiki": {
@@ -1230,7 +1230,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "circular-tic-tac-toe": {
@@ -1255,7 +1255,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "the-long-climb": {
@@ -1280,7 +1280,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "reel-delve": {
@@ -1305,7 +1305,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "rawza-ring": {
@@ -1330,7 +1330,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "Built by Claude Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "liquid-labyrinth": {
@@ -1355,7 +1355,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "lumen-reel": {
@@ -1380,7 +1380,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "kirimodoshi": {
@@ -1405,7 +1405,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   }
  },
  "emberdeep-tomoshimori": {
@@ -1430,7 +1430,657 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
+  }
+ },
+ "metro-rush": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/metro/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "night-market-ring": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/ring/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "matchmaking-corner": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/match/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "t-minus": {
+  "play_url": "https://missioncontrol.dractec.com/",
+  "source_repo": "https://github.com/XDracam/spaceappschallenge2026",
+  "author_url": "https://github.com/XDracam",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/XDracam/spaceappschallenge2026",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "",
+    "desc": "",
+    "owner": "XDracam"
+   },
+   "hn": {},
+   "url": "https://missioncontrol.dractec.com/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-18"
+  }
+ },
+ "crystal-tower-defense": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/td/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "apex-lap-blender": {
+  "play_url": "https://ololo-dev.github.io/apex-lap-fable-5-2-blender/",
+  "source_repo": "https://github.com/ololo-dev/apex-lap-fable-5-2-blender",
+  "author_url": "https://github.com/ololo-dev",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ololo-dev/apex-lap-fable-5-2-blender",
+    "created": "2026-11-16",
+    "stars": 0,
+    "homepage": "https://ololo-dev.github.io/apex-lap-fable-5-2-blender/",
+    "desc": "Apex Lap, a 3D racing game built by Claude Fable 5.2 with Blender in one ololo session",
+    "owner": "ololo-dev"
+   },
+   "hn": {},
+   "url": "https://ololo-dev.github.io/apex-lap-fable-5-2-blender/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-16",
+   "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "chip-jacket": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/chip/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "ripcore": {
+  "play_url": "https://ripcore.netlify.app",
+  "source_repo": "https://github.com/majidmanzarpour/threejs-game-skills",
+  "author_url": "https://x.com/majidmanzarpour",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "created": "2026-06-14",
+    "stars": 2842,
+    "homepage": "",
+    "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+    "owner": "majidmanzarpour"
+   },
+   "hn": {},
+   "url": "https://ripcore.netlify.app",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-06-14",
+   "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
+   "checked": "2026-11-18"
+  }
+ },
+ "rider": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/rider/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "qingchao": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/tide/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "raptor-race": {
+  "play_url": "https://drew879.github.io/raptor-race-fable/",
+  "source_repo": "https://github.com/drew879/raptor-race-fable",
+  "author_url": "https://github.com/drew879",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/drew879/raptor-race-fable",
+    "created": "2026-11-16",
+    "stars": 0,
+    "homepage": "",
+    "desc": "A remake of Raptor Race with Fable 5.2 instead of Opus 5.5",
+    "owner": "drew879"
+   },
+   "hn": {},
+   "url": "https://drew879.github.io/raptor-race-fable/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-16",
+   "ai_hint": "A remake of Raptor Race with Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "starship-dogfight": {
+  "play_url": "https://starshipdogfight.netlify.app",
+  "source_repo": "https://github.com/majidmanzarpour/threejs-game-skills",
+  "author_url": "https://x.com/majidmanzarpour",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "created": "2026-06-14",
+    "stars": 2842,
+    "homepage": "",
+    "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+    "owner": "majidmanzarpour"
+   },
+   "hn": {},
+   "url": "https://starshipdogfight.netlify.app",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-06-14",
+   "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
+   "checked": "2026-11-18"
+  }
+ },
+ "gz-drift": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/gz/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "maple-run": {
+  "play_url": "https://maple-run-fable.vercel.app",
+  "source_repo": "https://github.com/nanha0130/maple-run-fable",
+  "author_url": "https://github.com/nanha0130",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/nanha0130/maple-run-fable",
+    "created": "2026-11-16",
+    "stars": 0,
+    "homepage": "https://maple-run-fable.vercel.app",
+    "desc": "A railway endless runner in peak maple season. Run as yourself: one photo becomes a 3D Gaussian-splat runner (PINOC / Viggle API).",
+    "owner": "nanha0130"
+   },
+   "hn": {},
+   "url": "https://maple-run-fable.vercel.app",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-16",
+   "ai_hint": "",
+   "checked": "2026-11-18"
+  }
+ },
+ "lisenok-game": {
+  "play_url": "https://sashatchersunov6-rgb.github.io/lisenok-game/",
+  "source_repo": "https://github.com/sashatchersunov6-rgb/lisenok-game",
+  "author_url": "https://github.com/sashatchersunov6-rgb",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/sashatchersunov6-rgb/lisenok-game",
+    "created": "2026-11-16",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5.2 в Syntx",
+    "owner": "sashatchersunov6-rgb"
+   },
+   "hn": {},
+   "url": "https://sashatchersunov6-rgb.github.io/lisenok-game/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-16",
+   "ai_hint": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "sanjie-bajiaoshan": {
+  "play_url": "https://xiyouji.vibecoco.ai",
+  "source_repo": "https://github.com/zenstory-ai/novel-to-game",
+  "author_url": "https://github.com/zenstory-ai",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zenstory-ai/novel-to-game",
+    "created": "2026-07-18",
+    "stars": 1124,
+    "homepage": "https://zenstory.ai/zh/novel-to-game",
+    "desc": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
+    "owner": "zenstory-ai"
+   },
+   "hn": {},
+   "url": "https://zenstory.ai/zh/novel-to-game",
+   "how": "源码仓库的主页",
+   "mirror": true,
+   "published": "2026-07-18",
+   "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
+   "checked": "2026-11-18"
+  }
+ },
+ "eat-and-go": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/eat/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "moyu-master": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/moyu/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "gabriels-sweet-town": {
+  "play_url": "https://chomachomachoma.github.io/candyland_pwa/",
+  "source_repo": "https://github.com/chomachomachoma/candyland_pwa",
+  "author_url": "https://github.com/chomachomachoma",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/chomachomachoma/candyland_pwa",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Candyland kids game. Created with. Claude Code Fable 5.2.",
+    "owner": "chomachomachoma"
+   },
+   "hn": {},
+   "url": "https://chomachomachoma.github.io/candyland_pwa/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "Claude Code Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "scrub-master": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/scrub/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "bubble-wrap": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/pop/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "apex-lap": {
+  "play_url": "https://ololo-dev.github.io/apex-lap-fable-5-2/",
+  "source_repo": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+  "author_url": "https://github.com/ololo-dev",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+    "created": "2026-11-16",
+    "stars": 1,
+    "homepage": "https://ololo-dev.github.io/apex-lap-fable-5-2/",
+    "desc": "Apex Lap, a 3D racing game built by Claude Fable 5.2 in one ololo session",
+    "owner": "ololo-dev"
+   },
+   "hn": {},
+   "url": "https://ololo-dev.github.io/apex-lap-fable-5-2/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-16",
+   "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "rufus-crush": {
+  "play_url": "https://bhoult.github.io/phone-games/rufus-crush/",
+  "source_repo": "https://github.com/bhoult/phone-games",
+  "author_url": "https://github.com/bhoult",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/bhoult/phone-games",
+    "created": "2026-11-15",
+    "stars": 0,
+    "homepage": "https://bhoult.github.io/phone-games/",
+    "desc": "Small offline games for a phone. First up: Rufus Crush, a match-3 about a black lab (Rust + WebGL).",
+    "owner": "bhoult"
+   },
+   "hn": {},
+   "url": "https://bhoult.github.io/phone-games/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "",
+   "checked": "2026-11-18"
+  }
+ },
+ "office-smash": {
+  "play_url": "https://zhgarylu.github.io/everyday-game/smash/",
+  "source_repo": "https://github.com/zhgarylu/everyday-game",
+  "author_url": "https://github.com/zhgarylu",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "created": "2026-11-15",
+    "stars": 1,
+    "homepage": "https://zhgarylu.github.io/everyday-game/",
+    "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
+    "owner": "zhgarylu"
+   },
+   "hn": {},
+   "url": "https://zhgarylu.github.io/everyday-game/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-15",
+   "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
+   "checked": "2026-11-18"
+  }
+ },
+ "earthfm": {
+  "play_url": "https://earthfm.vercel.app/play",
+  "source_repo": "https://github.com/Aarosunn/SpaceApps",
+  "author_url": "https://github.com/Aarosunn",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/Aarosunn/SpaceApps",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "https://earthfm.vercel.app",
+    "desc": "",
+    "owner": "Aarosunn"
+   },
+   "hn": {},
+   "url": "https://earthfm.vercel.app",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-18"
+  }
+ },
+ "jester": {
+  "play_url": "https://jester-pi.vercel.app",
+  "source_repo": "https://github.com/aaron-sulbaran/jester",
+  "author_url": "https://github.com/aaron-sulbaran",
+  "has_prompt": false,
+  "listed": "2026-11-17",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/aaron-sulbaran/jester",
+    "created": "2026-11-14",
+    "stars": 0,
+    "homepage": "https://jester-pi.vercel.app",
+    "desc": "Act out any clip. Get judged. A HackPrinceton Fall 2026 project.",
+    "owner": "aaron-sulbaran"
+   },
+   "hn": {},
+   "url": "https://jester-pi.vercel.app",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-14",
+   "ai_hint": "",
+   "checked": "2026-11-18"
   }
  }
 }

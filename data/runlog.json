@@ -393,5 +393,67 @@
    }
   },
   "x": {}
+ },
+ {
+  "date": "2026-11-18",
+  "mode": "crawl",
+  "collect": {
+   "hn": {
+    "count": 171,
+    "passed": 13,
+    "error": ""
+   },
+   "threejs": {
+    "count": 46,
+    "passed": 2,
+    "error": ""
+   },
+   "github": {
+    "count": 89,
+    "passed": 8,
+    "error": ""
+   },
+   "itch": {
+    "count": 36,
+    "passed": 1,
+    "error": ""
+   },
+   "awesome": {
+    "count": 0,
+    "passed": 0,
+    "error": ""
+   },
+   "spawn": {
+    "count": 20,
+    "passed": 0,
+    "error": ""
+   },
+   "verse8": {
+    "count": 40,
+    "passed": 0,
+    "error": ""
+   },
+   "astrocade": {
+    "count": 20,
+    "passed": 3,
+    "error": ""
+   },
+   "rosebud": {
+    "count": 14,
+    "passed": 0,
+    "error": ""
+   },
+   "wavedash": {
+    "count": 4,
+    "passed": 0,
+    "error": ""
+   },
+   "fable52": {
+    "count": 87,
+    "passed": 26,
+    "error": ""
+   }
+  },
+  "x": {}
  }
 ]
