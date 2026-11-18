@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Soccer-3D - Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "mothlight": {
@@ -74,7 +74,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "bayhaven": {
@@ -110,7 +110,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Bayhaven: an original open-world game, written live by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "dustfall": {
@@ -135,7 +135,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "what-the-water-keeps": {
@@ -148,8 +148,8 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 510658,
-    "likes": 4276,
+    "views": 511921,
+    "likes": 4277,
     "date": "2026-11-09",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
    },
@@ -167,7 +167,7 @@
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "pelican-on-a-bike": {
@@ -185,7 +185,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "blameless": {
@@ -199,7 +199,7 @@
    "repo": {
     "url": "https://github.com/Petyok/blameless",
     "created": "2026-11-10",
-    "stars": 1,
+    "stars": 2,
     "homepage": "https://blameless.petruha.ge",
     "desc": "An on-call shooter: 03:07, the pager goes off, prod is down, and you kill what is crashing it. three.js. All done by Claude Fable 5.2 from one prompt.",
     "owner": "Petyok"
@@ -210,7 +210,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "jimao-cs": {
@@ -228,7 +228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "evensong": {
@@ -246,7 +246,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "qingyun-sword-flight": {
@@ -260,7 +260,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -271,7 +271,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "tuktuk": {
@@ -296,7 +296,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Written by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "wukong-tiger-vanguard": {
@@ -314,7 +314,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "sublevel-07-fps-repro": {
@@ -353,7 +353,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 398,
+    "stars": 410,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -364,7 +364,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "tidebell": {
@@ -378,7 +378,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -389,7 +389,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "ironvale": {
@@ -403,7 +403,7 @@
    "repo": {
     "url": "https://github.com/SharpWizard/ironvale",
     "created": "2026-11-11",
-    "stars": 2,
+    "stars": 3,
     "homepage": "https://sharpwizard.github.io/ironvale/",
     "desc": "Ironvale: a game made with AI (Claude Fable 5.2). An original 3D real-time strategy game for PC (Windows exe or desktop browser), built entirely from plain-language prompts in Claude Code.",
     "owner": "SharpWizard"
@@ -414,7 +414,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "hanford-reach": {
@@ -439,7 +439,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "shuttle-strike": {
@@ -464,7 +464,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "simple badminton game with claude fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "feiche-3d": {
@@ -482,7 +482,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "harvest-standoff": {
@@ -507,7 +507,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "transport-ship-3d": {
@@ -525,7 +525,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "daedalus": {
@@ -550,7 +550,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -575,7 +575,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Congrats for shipping Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "sternenjaeger": {
@@ -600,7 +600,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "browser game created with Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "warm-toy-room-v25": {
@@ -618,7 +618,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "misremember": {
@@ -632,7 +632,7 @@
    "repo": {
     "url": "https://github.com/hahaliu1029/fable5.2demo",
     "created": "2026-11-11",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "",
     "owner": "hahaliu1029"
@@ -643,7 +643,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "saltline-online": {
@@ -657,7 +657,7 @@
    "repo": {
     "url": "https://github.com/wenzhengshi/fable5-2-salt-online",
     "created": "2026-11-11",
-    "stars": 24,
+    "stars": 26,
     "homepage": "",
     "desc": "",
     "owner": "wenzhengshi"
@@ -668,7 +668,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "becario-del-universo": {
@@ -693,7 +693,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "hextech-aram": {
@@ -711,7 +711,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "breach-transport-ship-online": {
@@ -729,7 +729,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "emberdeep": {
@@ -754,7 +754,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "Testing the Limits of Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "duskline-vxn7rh": {
@@ -772,7 +772,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "flight-simulator-nfljgw": {
@@ -790,7 +790,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "makinamon-pulso": {
@@ -815,7 +815,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Hecho con Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "riftline": {
@@ -840,7 +840,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "testing Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "the-county": {
@@ -865,7 +865,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "emberhold-xwn1lu": {
@@ -883,7 +883,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "arcfall-artillery-ho7odp": {
@@ -901,7 +901,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "tidemark": {
@@ -926,7 +926,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "ushiro-no-haniwa": {
@@ -951,7 +951,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "pon-to-mori-wa-tomoru": {
@@ -976,7 +976,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "hitotsubu-teien": {
@@ -1001,7 +1001,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "undertow-y8xvs5": {
@@ -1019,7 +1019,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "black-tide-hdab0j": {
@@ -1037,7 +1037,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "graveyard-shift": {
@@ -1062,7 +1062,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "solar-system-3d": {
@@ -1080,7 +1080,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "duel-knights": {
@@ -1094,7 +1094,7 @@
    "repo": {
     "url": "https://github.com/bitofastickler/duel-knights",
     "created": "2026-11-14",
-    "stars": 1,
+    "stars": 2,
     "homepage": "",
     "desc": "A game of medieval duels! ",
     "owner": "bitofastickler"
@@ -1105,7 +1105,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "last-return": {
@@ -1130,7 +1130,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "escape-the-fable": {
@@ -1155,7 +1155,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "shutterpine": {
@@ -1180,7 +1180,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "mini-rpg": {
@@ -1205,7 +1205,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "hitsuji-ga-ippiki": {
@@ -1230,7 +1230,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "circular-tic-tac-toe": {
@@ -1255,7 +1255,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "the-long-climb": {
@@ -1280,7 +1280,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "reel-delve": {
@@ -1305,7 +1305,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "rawza-ring": {
@@ -1330,7 +1330,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "Built by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "liquid-labyrinth": {
@@ -1355,7 +1355,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "lumen-reel": {
@@ -1380,7 +1380,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "kirimodoshi": {
@@ -1405,7 +1405,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "emberdeep-tomoshimori": {
@@ -1430,7 +1430,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "metro-rush": {
@@ -1455,7 +1455,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "night-market-ring": {
@@ -1480,7 +1480,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "matchmaking-corner": {
@@ -1505,7 +1505,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "t-minus": {
@@ -1530,7 +1530,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "crystal-tower-defense": {
@@ -1555,7 +1555,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "apex-lap-blender": {
@@ -1580,7 +1580,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "chip-jacket": {
@@ -1605,7 +1605,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "ripcore": {
@@ -1619,7 +1619,7 @@
    "repo": {
     "url": "https://github.com/majidmanzarpour/threejs-game-skills",
     "created": "2026-06-14",
-    "stars": 2842,
+    "stars": 2850,
     "homepage": "",
     "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
     "owner": "majidmanzarpour"
@@ -1630,7 +1630,7 @@
    "mirror": false,
    "published": "2026-06-14",
    "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "rider": {
@@ -1655,7 +1655,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "qingchao": {
@@ -1680,7 +1680,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "raptor-race": {
@@ -1705,7 +1705,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "A remake of Raptor Race with Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "starship-dogfight": {
@@ -1719,7 +1719,7 @@
    "repo": {
     "url": "https://github.com/majidmanzarpour/threejs-game-skills",
     "created": "2026-06-14",
-    "stars": 2842,
+    "stars": 2850,
     "homepage": "",
     "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
     "owner": "majidmanzarpour"
@@ -1730,7 +1730,7 @@
    "mirror": false,
    "published": "2026-06-14",
    "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "gz-drift": {
@@ -1755,7 +1755,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "maple-run": {
@@ -1780,7 +1780,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "lisenok-game": {
@@ -1805,7 +1805,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "sanjie-bajiaoshan": {
@@ -1819,7 +1819,7 @@
    "repo": {
     "url": "https://github.com/zenstory-ai/novel-to-game",
     "created": "2026-07-18",
-    "stars": 1124,
+    "stars": 1136,
     "homepage": "https://zenstory.ai/zh/novel-to-game",
     "desc": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
     "owner": "zenstory-ai"
@@ -1830,7 +1830,7 @@
    "mirror": true,
    "published": "2026-07-18",
    "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "eat-and-go": {
@@ -1855,7 +1855,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "moyu-master": {
@@ -1880,7 +1880,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "gabriels-sweet-town": {
@@ -1905,7 +1905,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Claude Code Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "scrub-master": {
@@ -1930,7 +1930,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "bubble-wrap": {
@@ -1955,7 +1955,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "apex-lap": {
@@ -1980,7 +1980,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "rufus-crush": {
@@ -2005,7 +2005,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "office-smash": {
@@ -2030,7 +2030,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "earthfm": {
@@ -2055,7 +2055,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
   }
  },
  "jester": {
@@ -2080,7 +2080,32 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-18"
+   "checked": "2026-11-19"
+  }
+ },
+ "ganzi-wanxia-hangkongxin": {
+  "play_url": "https://jambocoder159.github.io/ai-game-duel/versions/fable/index.html",
+  "source_repo": "https://github.com/jambocoder159/ai-game-duel",
+  "author_url": "https://github.com/jambocoder159",
+  "has_prompt": false,
+  "listed": "2026-11-18",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/jambocoder159/ai-game-duel",
+    "created": "2026-11-18",
+    "stars": 0,
+    "homepage": "",
+    "desc": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6.2 Astra）與柑仔的晚霞航空信（Claude Fable 5.2）",
+    "owner": "jambocoder159"
+   },
+   "hn": {},
+   "url": "https://jambocoder159.github.io/ai-game-duel/versions/fable/index.html",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "2026-11-18",
+   "ai_hint": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6",
+   "checked": "2026-11-19"
   }
  }
 }

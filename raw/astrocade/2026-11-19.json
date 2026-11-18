@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-19",
+ "channel": "astrocade",
+ "count": 20,
+ "passed": 4,
+ "error": "",
+ "leads": [
+  {
+   "channel": "astrocade",
+   "title": "STEAL A BABY",
+   "url": "https://www.astrocade.com/games/steal-a-baby/01M6ZTFFG9EJ5QN9XZF2THP9F5",
+   "key": "astrocade.com/games/steal-a-baby/01m6ztffg9ej5qn9xzf2thp9f5",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 1,
+    "astrocade_plays": 7756,
+    "astrocade_likes": 171,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-15",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Steal eggs, battle in the arena & snatch dropped eggs! 🥚💥 Keep your starter pet on rebirth & train speed. Auto-saves constantly—quit anytime & jump right back in! 💾✨",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/b460792b64cd4b60bec41e481ff2a93e.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Giant Salami Saw",
+   "url": "https://www.astrocade.com/games/giant-salami-saw/01M7B4YM0Q5XFDCXS4CXG8Y74X",
+   "key": "astrocade.com/games/giant-salami-saw/01m7b4ym0q5xfdcxs4cxg8y74x",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 2,
+    "astrocade_plays": 111580,
+    "astrocade_likes": 2102,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-14",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1794598876961_01M7B6VDS12SEFEM6Y9K1QCJVT.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Ben 10: Ultimate Aliens",
+   "url": "https://www.astrocade.com/games/ben-10-ultimate-aliens/01M6922TY8CAM4BKTB68FQJJ3J",
+   "key": "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 3,
+    "astrocade_plays": 372923,
+    "astrocade_likes": 9926,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-31",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/18a18390-0041-70b3-a1c9-abad4b6ec064/1793453251796_01M6929Q6M77G6G3N7VDVD7JF7.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Minecraft treehouse",
+   "url": "https://www.astrocade.com/games/minecraft-treehouse/01M74ZR5NCF1F1CDDCV10BR8WH",
+   "key": "astrocade.com/games/minecraft-treehouse/01m74zr5ncf1f1cddcv10br8wh",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 4,
+    "astrocade_plays": 7717,
+    "astrocade_likes": 196,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Explore a colossal Minecraft-style world-tree HQ of gold, glass & emerald — ride the crystal elevator, cross sky bridges, and watch waterfalls glow at night.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/7f9a9550235346fe9a94899a95508484.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Neon Bikes.io",
+   "url": "https://www.astrocade.com/games/neon-bikes-io/01M7EDHKD5VFAGCMKSVDEJVG0F",
+   "key": "astrocade.com/games/neon-bikes-io/01m7edhkd5vfagcmksvdejvg0f",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 5,
+    "astrocade_plays": 5035,
+    "astrocade_likes": 99,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-15",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "#arcade #survival #tactics",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_crop_bb96746f-2fbc-4b7e-abf9-c9483f81572b.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Makeover Studio",
+   "url": "https://www.astrocade.com/games/makeover-studio/01M7EEKFPKNAKKGZ2KKAAPHSDH",
+   "key": "astrocade.com/games/makeover-studio/01m7eekfpknakkgz2kkaaphsdh",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 6,
+    "astrocade_plays": 33988,
+    "astrocade_likes": 663,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-16",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Wash and style hair, apply makeup, and choose outfits and accessories in Makeover Studio.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_3d81b8cb-18f4-47fa-808d-6d7710e62691.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Natural Disaster Survival",
+   "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+   "key": "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 7,
+    "astrocade_plays": 969010,
+    "astrocade_likes": 17740,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-17",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Survive 12 natural disasters on 10 island maps! Tornadoes, tsunamis, meteors and more destroy everything. Outlast the bots, earn coins, and top the survival leaderboard.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793541492936_01M6BPEM68NJTJ5PKF807KM7Y2.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Artisan Brownie Kitchen",
+   "url": "https://www.astrocade.com/games/artisan-brownie-kitchen/01M4B3MRNTCA5Y1GXKJS2Q0QWF",
+   "key": "astrocade.com/games/artisan-brownie-kitchen/01m4b3mrntca5y1gxkjs2q0qwf",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 8,
+    "astrocade_plays": 286923,
+    "astrocade_likes": 4369,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-12",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Master the art of brownie-making in this cozy kitchen simulator where every crack, pour, and stir comes alive with satisfying animations and sounds.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_0b517085-8d29-433b-adda-e4a7f9b1ae80.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "+1 Pickaxe Swing for Eggs",
+   "url": "https://www.astrocade.com/games/1-pickaxe-swing-for-eggs/01M6HRNHMXVRB8JKGK799B1ZJB",
+   "key": "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 9,
+    "astrocade_plays": 26937,
+    "astrocade_likes": 595,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/0841f390-1041-7009-e3f9-2a1095f0d189/1793781567132_01M6JVD3MWV45GAKA622XE735Z.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "High-power Contra os Invasores Intergalácticos!",
+   "url": "https://www.astrocade.com/games/high-power-contra-os-invasores-intergalácticos/01KGKFWH42K7G4G7XEPB05KWTB",
+   "key": "astrocade.com/games/high-power-contra-os-invasores-intergalácticos/01kgkfwh42k7g4g7xepb05kwtb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 10,
+    "astrocade_plays": 37974,
+    "astrocade_likes": 1096,
+    "chart_new_entry": true
+   },
+   "published": "2026-02-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Tap to guide High-Power through a classic cartoon adventure as he saves the city from alien invaders!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/fe90578d-4fee-4a2b-8657-8a5d1095bb53.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "ULTIMATE CONSTRUCTION CREW SIMULATOR2",
+   "url": "https://www.astrocade.com/games/ultimate-construction-crew-simulator2/01M7EM1091MDD8ER8B8SGV2TWX",
+   "key": "astrocade.com/games/ultimate-construction-crew-simulator2/01m7em1091mdd8er8b8sgv2twx",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 11,
+    "astrocade_plays": 6410,
+    "astrocade_likes": 73,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-15",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Operate a hydraulic excavator, scoop soil, and explore a sprawling, sunlit 3D construction site in Ultimate Construction Crew Simulator!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/8306d2d9178f4f32832ddc710cc17fce.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Swim to win",
+   "url": "https://www.astrocade.com/games/swim-to-win/01M5E8QCBT39N06YHASM9CFKJK",
+   "key": "astrocade.com/games/swim-to-win/01m5e8qcbt39n06yhasm9cfkjk",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 12,
+    "astrocade_plays": 12842,
+    "astrocade_likes": 140,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-23",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "🏊‍♂️ Dive into Swim Racer and experience the ultimate swimming race! 🌊 Swim faster, train to improve your speed, compete against other players, and race your way to victory! 🏁 Challenge your rivals",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/f8d16330-f0b1-70f5-8d16-2390e6be8257/1792745184517_01M5KZ17854SC94DGVMNAXAT28.1000062393.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Love & crime_couple  Adventure",
+   "url": "https://www.astrocade.com/games/love-crime-couple-adventure/01M60115R2JNQYKXXJMYZBZNQ3",
+   "key": "astrocade.com/games/love-crime-couple-adventure/01m60115r2jnqykxxjmyzbznq3",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 13,
+    "astrocade_plays": 163647,
+    "astrocade_likes": 2344,
+    "chart_new_entry": true
+   },
+   "published": "2026-10-29",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Take your couple on café dates, enjoy coffee, walk together, hug, and dance.\nDrive sports cars, explore the city, and experience realistic traffic and exciting missions.",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/Google_110660035000748961430/1793284679848_01M641HA580KR81RA4XBW5A72X.1000081436.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Battle for the Crown",
+   "url": "https://www.astrocade.com/games/battle-for-the-crown/01M6P7WQ8KTNWKRYCC2HH6ZXDV",
+   "key": "astrocade.com/games/battle-for-the-crown/01m6p7wq8ktnwkrycc2hh6zxdv",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 14,
+    "astrocade_plays": 5465,
+    "astrocade_likes": 142,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-06",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "🔥 Gojo vs Sukuna – The Ultimate Battle! 🔥\n\nWitness an epic showdown between Satoru Gojo, the strongest modern sorcerer, and Ryomen Sukuna, the King of Curses! ⚡ Unleash incredible cursed techniques",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/be14752cddf94d4eaff2bd73d63ba77c.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Stickman: One Bullet Challenge",
+   "url": "https://www.astrocade.com/games/stickman-one-bullet-challenge/01M7KYWC38JQ995N9FSMCJ368N",
+   "key": "astrocade.com/games/stickman-one-bullet-challenge/01m7kywc38jq995n9fsmcj368n",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 15,
+    "astrocade_plays": 1224,
+    "astrocade_likes": 14,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-18",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "One bullet. Every enemy. Drag to aim, bank your shot off walls and watch the ricochet drop every stickman in a single perfect shot!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/3eae55c144154fcd82f6abff0f3ac0f8.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sky Cycle Racing 3D",
+   "url": "https://www.astrocade.com/games/sky-cycle-racing-3d/01M6NE5E4WS5MQQGCZJF5FRN8N",
+   "key": "astrocade.com/games/sky-cycle-racing-3d/01m6ne5e4ws5mqqgczjf5frn8n",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 16,
+    "astrocade_plays": 2150,
+    "astrocade_likes": 33,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-05",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Pedal your racing cycle across cloud-top stunt tracks, nail loops and huge jumps, and beat five rivals in a colorful 3D sky race.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/d8be62d783924cbf82b9f7863edf169b.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Mumbai City Interceptor",
+   "url": "https://www.astrocade.com/games/mumbai-city-interceptor/01M782J401YWTEX6ENZ1TXNPG7",
+   "key": "astrocade.com/games/mumbai-city-interceptor/01m782j401ywtex6enz1txnpg7",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 17,
+    "astrocade_plays": 3352,
+    "astrocade_likes": 55,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Patrol the streets of Mumbai — chase gold thieves from Zaveri Bazaar, rescue a tourist at the harbour and catch a diamond smuggler in your flashing police cruiser!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/24bf8547cdf64e4eb1bbc7274fa585ae.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Pizza Empire Tycoon",
+   "url": "https://www.astrocade.com/games/pizza-empire-tycoon/01M6Q18PJ5KK1S6J0J7K8KPD0C",
+   "key": "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 18,
+    "astrocade_plays": 35971,
+    "astrocade_likes": 659,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-06",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "This 3D isometric simulation game lets you manage every step of a busy pizza shop, from hand-crafting dough and toppings to managing a growing fleet of automated machines and staff. You will manually handle orders to start, then strategically upgrade your restaurant with high-tech ovens and conveyor",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/df3e980a134a4af8bfac0dc635c2b1da.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "SQUID GAME - THE LAST SEASON",
+   "url": "https://www.astrocade.com/games/squid-game-the-last-season/01M72TE24TMR490FQVXGC63MSA",
+   "key": "astrocade.com/games/squid-game-the-last-season/01m72te24tmr490fqvxgc63msa",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 19,
+    "astrocade_plays": 2293,
+    "astrocade_likes": 37,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "SQUID GAME - THE LAST SEASON: Survive eight 3D trials as Player 456—Red Light, Glass Bridge, Tug of War, Pentathlon, Mingle, Sky Jump Rope, Hide & Seek, and the collapsing finale.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/eccce98517fc47f8b9ba56aaada9ec13.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Tiny Survivor 2: Big Eater",
+   "url": "https://www.astrocade.com/games/tiny-survivor-2-big-eater/01M2RMG4TVMJC3HR652CJXPPSQ",
+   "key": "astrocade.com/games/tiny-survivor-2-big-eater/01m2rmg4tvmjc3hr652cjxppsq",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 20,
+    "astrocade_plays": 2902,
+    "astrocade_likes": 25,
+    "chart_new_entry": false
+   },
+   "published": "2026-09-17",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "**Description:** Start as a tiny fish, eat smaller prey, avoid bigger predators, and grow into the ocean's apex predator!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_72c2c367-29ac-4f24-9e57-4750acedf274.webp",
+   "passes": false
+  }
+ ]
+}
