@@ -109,7 +109,7 @@ X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线�
 2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；值得标重点的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
 3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`highlight`（亮点）、`tech` 和 `tech_basis`（技术栈依据，优先按站点代码特征识别）、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
 4. 只有视频、玩法写不出来的卡片：下载帖子视频抽帧读图补玩法，再按 `docs/登录态读取社区规范.md` 登录读回复做概括。玩法末尾注明"（玩法取自视频抽帧）"。
-5. `python3 run.py feed` 重新生成信息流页面。
+5. `python3 run.py feed` 重新生成信息流页面；`python3 scripts/weekly_page.py <起> <止> <输出目录> [编辑稿.json]` 生成周报网页（`artifact.html` 可直接发布）。技术栈可先跑 `python3 -I scripts/detect_tech.py data/games.json <输出.json> <起> <止>` 按站点代码特征识别。
 
 写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）；重点游戏把 `hot` 设为 `true`。
 

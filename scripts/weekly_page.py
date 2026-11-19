@@ -19,7 +19,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from monitor import util                                                      # noqa: E402
-from monitor.build_site import card, heat                              # noqa: E402
+from monitor.build_site import card, date_key, heat                              # noqa: E402
 from monitor.feed import CH_SHORT, channels_of                                # noqa: E402
 
 e = html.escape
@@ -50,7 +50,8 @@ CSS = '''
 .bar i{display:block;height:10px;border-radius:5px;background:var(--accent);opacity:.85}
 .bar em{font-style:normal;text-align:right;color:var(--text-2);font-variant-numeric:tabular-nums}
 .notes{margin:0;padding-left:1.2em;display:grid;gap:5px;font-size:14px;color:var(--text-2);max-width:900px}
-@media (max-width:560px){.wrap{padding:0 16px}h1{font-size:26px}.chips{position:static}.g{scroll-margin-top:16px}}
+.wrap{padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px))}
+@media (max-width:560px){.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}h1{font-size:26px}.chips{position:static}.g{scroll-margin-top:16px}}
 '''
 
 
@@ -123,7 +124,7 @@ def run(d0, d1, out, draft=None):
                    for k, v in sorted(chs.items(), key=lambda kv: -kv[1]))
     n_hot = sum(1 for g in games if g.get('hot'))
     n_ai = sum(1 for g in games if g.get('ai_tag') == 'ai')
-    n_pub = sum(1 for g in games if (re.match(r'\d{4}-\d{2}-\d{2}', g.get('date_text') or '') and g['date_text'][:10] >= d0))
+    n_pub = sum(1 for g in games if (date_key(g) or '') >= d0)
     d = draft or {}
     title = d.get('title') or f'{d0[5:].replace("-", " 月 ", 1)} 日至 {d1[5:].replace("-", " 月 ", 1)} 日新增 {len(games)} 款网页游戏'
     notes = d.get('notes') or []
@@ -141,7 +142,7 @@ def run(d0, d1, out, draft=None):
 <h1>{e(title)}</h1>
 <p class="lede">{e(d.get('lede') or '')}</p>
 <div class="kpis"><div class="kpi card"><div class="v">{len(games)}</div><div class="l">新入库</div></div>
-<div class="kpi card"><div class="v">{n_pub}</div><div class="l">{e(d0[5:])} 之后首次公开</div></div>
+<div class="kpi card"><div class="v">{n_pub}</div><div class="l">{e(d0[5:])} 起首次公开</div></div>
 <div class="kpi card"><div class="v">{n_hot}</div><div class="l">过了重点线</div></div>
 <div class="kpi card"><div class="v">{n_ai}</div><div class="l">有 AI 参与证据</div></div></div>
 </div></header>
@@ -163,6 +164,13 @@ var g=c.getAttribute('data-g');gs.forEach(function(s){{s.hidden=!!g&&s.getAttrib
 '''
     with open(os.path.join(out, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(page)
+    # 发布成 Claude Artifact 用的版本：不带 doctype、html、head、body 外壳（发布时会自动套上）
+    frag = re.sub(r'^.*?<head>', '', page, count=1, flags=re.S)
+    frag = frag.replace('</head>\n<body>', '', 1).replace('</body></html>', '')
+    frag = frag.replace('<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n', '', 1)
+    frag = frag.replace('<title>', '<meta name="claude:viewport-fit-sides" content="cover">\n<title>', 1)
+    with open(os.path.join(out, 'artifact.html'), 'w', encoding='utf-8') as f:
+        f.write(frag)
     print(f'[weekly] {d0} 至 {d1}：{len(games)} 款，重点 {n_hot} → {out}/index.html ({len(page.encode()) // 1024} KB)')
 
 
