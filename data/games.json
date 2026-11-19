@@ -2841,7 +2841,7 @@
     "doubt": false
    }
   ],
-  "play": "片尾字幕写\"THE WHOLE PLANET. IN VOXELS. IN YOUR BROWSER.\"。画面里是体素风的真实地理：海岸日落、巴黎街道雨夜、美国犹他 US-163 公路、纽约式高楼和广告屏，还有从太空俯瞰地球。看起来像第三人称或飞行视角在全球各地移动。 作者说可以去任何地方、破坏任何东西，天气等与真实地球实时对应，未试玩核实。（玩法取自视频抽帧） X 回复（约 10 条）：作者说游戏里有彩蛋，可以飞去月球；有玩家反馈打开就报错；有人问地址里的 room=local 是否意味着看不到别人留下的弹坑，作者让他去掉参数自己试。",
+  "play": "把真实地球做成体素世界在浏览器里探索。视频里镜头先后掠过海岸日落、雨夜的巴黎街道、犹他州 US-163 公路（带经纬度标注）、霓虹广告牌密布的纽约式街区，再拉到太空俯瞰海岸线，机身是一架红色飞行器，说明可以在近地面和高空之间切换。作者称可去任何地方、破坏任何东西，天气等与真实地球实时对应。地形、建筑、树冠高度取自开放地图和高程数据（片尾署名 Overture、OpenStreetMap、NOAA 等）。目标、失败条件和成长系统：未确认，更像开放沙盒。 X 回复（约 10 条）：作者说游戏里有彩蛋，可以飞去月球；有玩家反馈打开就报错；有人问地址里的 room=local 是否意味着看不到别人留下的弹坑，作者让他去掉参数自己试。",
   "quote": "Play Earth by @mattshumer on Spawn, free in your browser.",
   "quote_src": "页面自述",
   "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）；作者称由 Claude Fable 5.2 生成",
@@ -2891,8 +2891,16 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
-  "highlight": "体素风的整颗地球可飞行探索，X 单帖浏览 42.7 万；作者称天气与真实地球实时对应，未核实。",
-  "tech_basis": "平台说明 / 作者自述"
+  "highlight": "用开放地图数据生成整颗体素地球，可飞可逛可破坏",
+  "tech_basis": "平台说明 / 作者自述",
+  "videos": [
+   {
+    "url": "https://x.com/mattshumer_/status/2119877065701036047",
+    "label": "X 帖视频",
+    "duration": 56.8
+   }
+  ],
+  "play_basis": "视频抽帧（X 帖视频 56.8 秒，8 帧）+ 帖子文字 + 片尾数据署名；未确认：操作键位、破坏方式、多人房间（room 参数）的实际表现、有无任务或成长系统均未试玩；天气实时对应只是作者说法（2026-11-19 核验）"
  },
  {
   "id": "hogwarts-royale",
@@ -2964,7 +2972,7 @@
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
   "date_text": "2026-10-23 首次公开",
-  "play": "从一台路由器起步，铺光纤和海底光缆、在交换中心互联、按 95 计费，应对挖断光缆、鲨鱼咬线和路由泄漏，一路做到一级运营商。卡通画风，讲互联网实际怎么运转。",
+  "play": "你从一座城市里的一台路由器起步，目标是长成不依赖他人的一级运营商。核心循环是接客户（家庭宽带、企业、托管、DDoS 防护、低延迟交易、AI 机房等，部分带特殊要求），铺光纤和租海底光缆的波长，在互联网交换中心做对等互联，按 95 百分位计费收转接费，再用更高一代的路由器和链路聚合扩容。同时要处理挖断光缆、鲨鱼咬线、路由泄漏、DDoS、红海和波罗的海断缆等故障，可调链路度量做流量工程。支持玩家自建服务器的多人模式，互相买卖转接、合建海缆，有实时排行榜。存档在浏览器本地，无需账号。公司名全是双关梗，不用真实品牌。",
   "quote": "Lay fiber, buy transit, peer at IXs and keep the eyeballs happy while backhoes, sharks and route leaks try to stop you. A free cartoon game about how the internet really works.",
   "quote_src": "页面自述",
   "tech": "Canvas 2D 渲染，含 WebSocket，开源；仓库带 MCP 服务",
@@ -3019,8 +3027,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "互联网基建题材的开源模拟经营，GitHub 236 星；仓库自带 MCP 服务，AI 客户端可直接玩和调试。",
-  "tech_basis": "站点代码特征识别 / 平台说明"
+  "highlight": "把真实互联网运作做成卡通经营，含多人对等互联和排行榜",
+  "tech_basis": "站点代码特征识别 / 平台说明",
+  "play_basis": "仓库 README（GitHub 官方说明）+ 页面标题；未找到视频；未确认：具体操作方式（鼠标拖拽还是菜单）、新手引导和失败条件（破产还是没有）未试玩确认（2026-11-19 核验）"
  },
  {
   "id": "ghanaian-street-games-you-can-play-in-th",
@@ -3029,7 +3038,7 @@
   "group": "休闲益智与分享比拼",
   "group_type": "direction",
   "date_text": "2026-11-08 首次公开",
-  "play": "35 款加纳街头游戏的 3D 合集，例如 Four Corners、Laski、One Pole、点球大战，可以和朋友一起玩。",
+  "play": "3D 街头游戏合集，页面标语是“Same street. A whole childhood.”，点进去是一条街，可选约 35 款加纳孩子玩的游戏，含 Four Corners、Laski、One Pole、点球、Pilolo、Pampanaa 以及 Ludo 等。可以单人对电脑，也可以多人轮流传手机。已看到的规则设置：跳远类可选 2 到 4 人和落地方式；街头足球可选每方人数、阵型、球门（小门或大门加守门员）和场地（沙地街道、混凝土球场、草地公园）；Four Corners 四人各守一边球门，可设每人 1/3/5 条命，难度三档。操作为键盘 WASD 或方向键加空格，也有触屏简易和完整两套按键，还能切换镜头视角。",
   "quote": "35 playable Ghanaian street games: Four Corners, Laski, One Pole, penalties, neighbourhood Pilolo and Pampanaa, and more.",
   "quote_src": "页面自述",
   "tech": "浏览器 3D（页面有 WebGL 检测提示），含 Canvas 2D、Firebase；具体引擎未识别",
@@ -3083,8 +3092,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "把 35 款加纳街头游戏做成网页合集，Hacker News 116 分、22 条评论。",
-  "tech_basis": "站点代码特征识别（补查脚本）"
+  "highlight": "一条街里装 35 款加纳街头游戏，可单人、轮流或联机",
+  "tech_basis": "站点代码特征识别（补查脚本）",
+  "play_basis": "页面 HTML 文字和脚本说明 + Hacker News 评论；未进入游戏试玩，无视频；未确认：每款游戏的具体规则和手感未试玩；HN 评论有加纳用户称许多操作不好用、像一次性生成，说明完成度参差（2026-11-19 核验）"
  },
  {
   "id": "banana-mine-rush",
@@ -3156,7 +3166,7 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-10-28 首次公开",
-  "play": "在方块世界里采集、合成、建造，有生存世界、多人服务器和创造模式；页面还提到可以去找 Inferno 和 Void。",
+  "play": "Minecraft 式方块沙盒。页面说明可采集、合成、建造，有生存世界、玩家服务器和创造模式，还要去找 Inferno 和 Void 两个区域。进游戏先选横竖屏，竖屏是默认；主菜单为仿 Minecraft 的石质按钮：单人游戏、多人游戏、加入创造模式、选项、更新日志、采矿排行、成就。背景是雪地森林村庄。目标是自己找，失败条件和具体操作（手机虚拟摇杆还是键盘）未进入世界试玩。特别处：把生存、多人服务器、排行榜和成就都塞进了竖屏手机平台。",
   "quote": "Mine, craft and build in a blocky world! Play Survival worlds, join servers full of players, go Creative, find the Inferno and the Void.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -3212,8 +3222,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "Astrocade 热门榜第 1，游玩 33.5 万次，是榜上体量最大的 Minecraft 式沙盒。",
-  "tech_basis": "平台说明"
+  "highlight": "仿 Minecraft 菜单与生存/创造/多人，带采矿排行榜",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（仅到主菜单，未进入世界）；未确认：未进入游戏世界，合成配方、地图规模、多人服务器人数、操作方式均未确认（2026-11-19 核验）"
  },
  {
   "id": "snowfield-taco-stand",
@@ -3222,7 +3233,7 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-11-05 首次公开",
-  "play": "在雪原上切巨型玉米、剁牛油果、猎北极熊来做塔可，把小摊逐步扩成救援营地，喂饱幸存者并办 CAMP FEAST 营地盛宴。",
+  "play": "页面说明：切巨型玉米、剁牛油果、猎北极熊来做塔可，把雪原上的小摊扩成救援营地，喂饱幸存者并办 CAMP FEAST 盛宴。试玩封面后的画面是俯视的雪地营地，屏幕上有任务提示“PICK UP TACO SHELLS”（捡玉米饼皮）和“DRAG TO MOVE”（拖动虚拟摇杆移动），说明是单指拖动移动、按提示一步步做的轻度经营。目标和失败条件、升级系统未能确认。",
   "quote": "Slice giant corn, chop avocados, hunt polar bears and grow a snowy taco stand into a rescue camp. Feed the survivors and throw a CAMP FEAST!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -3278,8 +3289,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "Astrocade 热门榜第 3；与 Frost Harbor 等同属冰雪经营，是榜上扎堆的题材。",
-  "tech_basis": "平台说明"
+  "highlight": "拖动摇杆做塔可、猎熊、扩营地的雪原轻经营",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能点进世界，扩建和升级的具体内容、有无失败条件未确认（2026-11-19 核验）"
  },
  {
   "id": "zombies-vs-humans-with-guns",
@@ -3288,7 +3300,7 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-11-10 首次公开",
-  "play": "平台页面没有写玩法，以下只按标题和封面图描述：方块风格的人类持枪对抗僵尸。页面标签是动作、冒险、生存、恐怖。",
+  "play": "页面没有玩法文字，只有标签：动作、冒险、创造、生存、恐怖。试玩截图显示：港口集装箱背景下一群方块小人，顶部有三个数值条，角色血量显示 100%，标题图为持枪方块人对僵尸。",
   "quote": "#action #adventure #creative #survival #horror",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -3344,8 +3356,9 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-14",
-  "highlight": "页面没有玩法描述，游玩 11.3 万次、榜第 8，参考价值主要在榜单热度。",
-  "tech_basis": "平台说明"
+  "highlight": "方块风港口场景的人对僵尸射击，页面无玩法说明",
+  "tech_basis": "平台说明",
+  "play_basis": "页面标签 + 试玩截图（仅开场画面）；未确认：玩法循环、操作、失败条件、成长系统均未确认（2026-11-19 核验）"
  },
  {
   "id": "frost-harbor-ice-fishing-tycoon",
@@ -3414,7 +3427,7 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-10-31 首次公开",
-  "play": "用《Ben 10》的角色：变身多种外星英雄并进化成终极形态，对战 Vilgax 等反派。用的是 Ben 10 的 IP。",
+  "play": "页面说明：在 Bellwood 变身为 Humungousaur、Swampfire、Big Chill、Echo Echo 等外星人，把它们进化成终极形态，对战 Vilgax、Albedo 和 Aggregor。封面是动画《Ben 10》终极形态角色。试玩时只到封面，未进入游戏。因此可确认的只有：同人动作类，核心是切换多个外星形态战斗并进化；操作、关卡结构、失败条件均未确认。使用了《Ben 10》的角色和名字，是明显的授权风险。",
   "quote": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -3470,8 +3483,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "直接使用《Ben 10》IP 的同人动作游戏，游玩 30.3 万次、榜第 5；存在授权风险。",
-  "tech_basis": "平台说明"
+  "highlight": "使用 Ben 10 IP 的变身进化动作同人作，有授权风险",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（仅封面）；未确认：操作、关卡、进化条件、失败条件未确认（2026-11-19 核验）"
  },
  {
   "id": "keyboard-escape-space-alien",
@@ -3540,7 +3554,7 @@
   "group": "Astrocade",
   "group_type": "direction",
   "date_text": "2026-11-07 首次公开",
-  "play": "偷怪物蛋、躲开巨型守卫、练速度，在围栏里孵出霸王龙、巨齿鲨等怪物；同场有 6 个对手。和同平台热门的 Steal an Egg 是同一玩法。",
+  "play": "开场界面文字：偷一颗怪物蛋，躲开它的守卫，带回家，点击孵化。操作：WASD 或摇杆移动，按住 E 或手形按钮偷蛋，选择斧头或陷阱后“喂给世界”才能使用。页面说明还提到训练速度、在围栏里孵出霸王龙、巨齿鲨等怪物，同场有 6 个对手，是偏惊悚的 3D 冒险。与同平台 Steal an Egg 同一公式，换成怪物蛋和巨型守卫。目标是不断偷更强的蛋，失败条件和成长数值未确认。",
   "quote": "Steal monster eggs, escape giant guardians, train your speed and hatch T-Rex, megalodon and other monsters in your pen. A spooky 3D adventure with six lively rivals.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -3596,8 +3610,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "同平台 Steal an Egg（84.4 万次）的怪物主题变体，是偷蛋公式被复用的样本。",
-  "tech_basis": "平台说明"
+  "highlight": "Steal an Egg 换怪物皮，加入巨型守卫与斧头/陷阱选择",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（开场说明界面）；未确认：守卫行为、对手如何干扰、孵化稀有度和失败惩罚未确认（2026-11-19 核验）"
  },
  {
   "id": "d2-web",
@@ -4825,7 +4840,7 @@
   "kind": "小队动作",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "夜间荒原的俯视视角，四人小队跟着提灯前进、自动战斗，升级时三选一技能卡，有名为 The Barrow King 的首领战，看起来像小队版的类幸存者游戏。作者强调动画、模型和敌人死亡特效都由 Fable 5.2 生成。 X 回复（约 10 条）：多在问制作过程。作者说前后调整约 16 次、实际用时约 45 分钟，走路动画是让模型做骨骼动画并逐帧分析步态，没用 Mixamo；有人指出水面倒影会闪烁。",
+  "play": "夜间荒原（Low Moor）的斜俯视视角，四人小队跟着一盏提灯前进，自动战斗。视频抽帧可见小队职业：Warden（坦克）、Reaver（重近战）、Fletcher（弓手）、Lamplighter（火系施法），屏幕底部有提灯和 Tonics 药剂，顶部有 1x/2x/4x 倍速、声音、“DEFAULT: PUSH”和“STEWARD”开关。升级弹出三选一技能卡（如 Hardened 全队 +12% 生命、Hawk Eye 瞄准射击 +40% 伤害、Wide Arc 重击 +30% 伤害），并有“Steward 倒计时后代选”。关卡为分阶段，第 1 阶段有首领 The Barrow King，敌人死亡有粒子特效。玩家主要做的是选路线和选技能，不直接操控角色。 X 回复（约 10 条）：多在问制作过程。作者说前后调整约 16 次、实际用时约 45 分钟，走路动画是让模型做骨骼动画并逐帧分析步态，没用 Mixamo；有人指出水面倒影会闪烁。",
   "quote": "This is INSANE Fable 5.2 just created this entire game, animations, models, everything.\n\nThe details are absolutely insane, look at the effect when enemies die, animations..\n\nJust blowing my mind what is possible and how quickly it's possible. So impressed!\n\nPlayable link below!",
   "quote_src": "来源帖子原文",
   "tech": "three.js（WebGL），含 Web Audio，页面约 4 MB；作者称由 Claude Fable 5.2 制作",
@@ -4884,9 +4899,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自视频抽帧（2026-11-16），没有试玩；回复取自登录后打开的 X 原帖页面（2026-11-16）",
-  "highlight": "作者称动画和模型全由 Fable 5.2 生成，约 45 分钟；X 浏览 19.7 万，有可玩链接。",
+  "highlight": "四人小队自动战斗，玩家只选技能；作者称画面由 AI 生成",
   "tech_basis": "站点代码特征识别 / 作者自述",
-  "hot_since": "2026-11-17"
+  "hot_since": "2026-11-17",
+  "videos": [
+   {
+    "url": "https://x.com/loktar00/status/2120192761542615271",
+    "label": "X 帖视频",
+    "duration": 68.1
+   }
+  ],
+  "play_basis": "视频抽帧（X 帖视频 68 秒，8 帧）+ 页面（仅显示标题与图形上下文丢失提示）+ 回帖；未确认：具体操作方式（点击还是按键）、整局有几个阶段、失败条件未确认；作者所称的制作时长与 AI 生成程度只是帖子说法（2026-11-19 核验）"
  },
  {
   "id": "frost-lumber-camp",
@@ -4894,7 +4917,7 @@
   "kind": "伐木经营",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "转动围绕角色的斧环穿过冰封森林，砍树、打猎，把木头和肉越堆越高，用它们建起铁路营地。",
+  "play": "页面说明：转动围绕角色的斧环穿过冰封森林，砍树、打猎，把木头和肉越堆越高，再用它们建起铁路营地。试玩截图显示封面后是俯视的圆形营地，周围是雪松，顶部提示“CHOP THE FOREST”（砍伐森林）。输入是拖动移动，砍树是角色自带的斧环自动完成。目标是不断扩大营地，失败条件、升级系统未确认。",
   "quote": "Spin your axe ring through a frozen forest, stack logs and meat sky-high, and build a railway camp!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -4951,8 +4974,9 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-14",
-  "highlight": "Astrocade 热门榜上的又一款冰雪经营，游玩 6.2 万次，与同期上榜的雪原题材扎堆。",
-  "tech_basis": "平台说明"
+  "highlight": "斧环自动砍树打猎，堆资源建铁路营地",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能进入，升级项和失败条件未确认（2026-11-19 核验）"
  },
  {
   "id": "winter-upd-first-date-on-park",
@@ -5020,7 +5044,7 @@
   "kind": "解压 DIY",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "倒入胶体，加泡沫、颜色、亮片和配料，揉出自己的史莱姆，再灌进气球捏压；标签为创作和模拟。",
+  "play": "页面说明：倒入胶体，加泡沫、颜色、亮片和配料，再揉出自己的史莱姆，灌进气球捏压，标签为创作和模拟。试玩封面画面是一只碗里搅拌紫色胶体，撒糖粒配料的手，另有“PLAY”按钮。没有关卡或失败条件，目标是做出满意的解压成品。具体手势和配料数量未确认。",
   "quote": "Pour the gel, add foam, stir in colour, glitter and toppings, then knead your own squishy slime. Fill a balloon and squeeze it!\n\n#Creative #Simulation",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -5077,8 +5101,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "解压 ASMR 类 DIY 玩法，游玩 5 万次，参考价值在于热度。",
-  "tech_basis": "平台说明"
+  "highlight": "无失败条件的史莱姆 DIY 解压，倒料、加料、捏气球",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（封面画面）；未确认：未进入玩法，操作细节和是否有任务/评分未确认（2026-11-19 核验）"
  },
  {
   "id": "minecraft-billionaire-treehouse",
@@ -5086,7 +5111,7 @@
   "kind": "方块建筑参观",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是方块风的巨树豪宅，带玻璃电梯。标题直接用了 Minecraft 的名字。",
+  "play": "页面描述只有一个用户名，没有玩法文字。封面图文显示这是一座巨树上的亿万富翁豪宅，宣传的卖点为 Luxury Mansion（豪华宅邸）、Glass Elevator（玻璃电梯）、Giant Tree（巨树）和 Epic Features，带“Play Now”。操作、目标、是否有互动均未确认。标题直接使用 Minecraft 名称，有商标风险。",
   "quote": "zenithsu_astra!!!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -5143,8 +5168,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "标题直接使用 Minecraft 名称，游玩 18.9 万次，页面描述只有一个用户名；有商标和授权风险。",
-  "tech_basis": "平台说明"
+  "highlight": "以 Minecraft 之名的方块巨树豪宅参观，页面无玩法说明",
+  "tech_basis": "平台说明",
+  "play_basis": "页面标签 + 试玩封面截图；未确认：未进入游戏，是漫游、建造还是有任务全部未确认（2026-11-19 核验）"
  },
  {
   "id": "steal-an-egg",
@@ -5152,7 +5178,7 @@
   "kind": "偷蛋养成",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "偷蛋、躲海啸、抢对手基地，孵出宠物并找金、钻石、银河等变异，锁住自己的基地。",
+  "play": "页面说明：偷蛋、躲海啸、抢对手基地，孵出宠物并找金、钻石、银河等变异，最后锁住自己的基地。试玩画面：竖屏 3D 方块小人，顶部显示能量、金钱 $ 和每秒收入，倒计时提示“下一波还有 18s”（海啸或熔岩浪来袭），箭头提示“你的基地，把蛋带到这里”。WASD 可移动，有跳跃键，提示“站上跑步机变得更快”。左侧按钮有商店、宠物、每日奖励、重生，右侧有锁定基地和设置，右边一条彩虹进度条。目标是让被动收入滚大，重生可重新开始提升。失败是被抢和被浪卷走，具体惩罚未确认。",
   "quote": "Steal eggs, dodge tsunamis & rob rival bases! Hatch pets, find Gold/Diamond/Galaxy mutations & lock your base. 3D model credits (CC-BY) in Settings.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -5209,8 +5235,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
-  "highlight": "Astrocade 偷蛋公式的母本，游玩 84.4 万次；页面注明 3D 模型为 CC-BY 并在设置里署名。",
-  "tech_basis": "平台说明"
+  "highlight": "偷蛋、躲浪、锁基地并靠重生滚收入的 Roblox 式循环",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（进入游戏，WASD 移动）；未确认：蛋的获取路线、被抢后的损失、彩虹条含义、重生的奖励没有具体试验（2026-11-19 核验）"
  },
  {
   "id": "anime-wedding-dress-up-studio",
@@ -5218,7 +5245,7 @@
   "kind": "换装",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "给动漫新娘搭配婚纱、头纱、首饰和捧花，挑选婚礼场地，走红毯赚爱心值。",
+  "play": "页面说明：给动漫新娘搭配婚纱、头纱、首饰和捧花，挑选婚礼场地，走红毯赚爱心值。试玩画面：中间是光头的新娘模特站在粉色婚纱店里，下方是分类标签栏（礼服、首饰等）和格子商品列表，左右有功能按钮。操作是点选商品换装。",
   "quote": "Style your anime bride! Mix gowns, veils, jewelry and bouquets, pick dreamy wedding venues, then walk the aisle for love points.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -5275,8 +5302,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "Astrocade 热门榜上的常规换装玩法，游玩 7.7 万次，参考价值主要在榜单热度。",
-  "tech_basis": "平台说明"
+  "highlight": "常规的竖屏换装，加场地选择与红毯评分",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（换装界面）；未确认：具体标签、解锁方式、爱心值如何计算未确认（2026-11-19 核验）"
  },
  {
   "id": "sunrise-high-school-life",
@@ -5284,7 +5312,7 @@
   "kind": "校园生活模拟",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "方块画风的校园生活：上课、答老师的题、吃午饭、在校庆上跳舞、坐校车、装扮自己的学生，有小地图、课表、昼夜循环和金币。",
+  "play": "页面说明：方块画风的校园生活，上课、向老师提问、吃午饭、校庆上跳舞、坐校车、装扮学生，有小地图、课表、昼夜循环和金币。试玩截图的开场字幕是“A new day begins…”，画面为俯视校园和校车。目标和失败条件、金币用途、操作方式（摇杆还是点击）未确认。",
   "quote": "Live a blocky school life: attend classes, quiz teachers, eat lunch, dance at the festival, ride the bus and customize your student. Minimap, timetable, day-night cycle and coins!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -5341,8 +5369,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "方块画风的校园生活模拟，含课表、小地图和昼夜循环，游玩 11.2 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "方块校园日常，带课表、小地图和昼夜循环",
+  "tech_basis": "平台说明",
+  "play_basis": "页面说明 + 试玩截图（开场字幕）；未确认：未能进入游戏，日程驱动方式和奖励未确认（2026-11-19 核验）"
  },
  {
   "id": "ninja-unleashed",
@@ -5410,7 +5439,7 @@
   "kind": "3D 足球",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "7 人制 3D 足球，有裁判、越位、红黄牌、点球和战术设置，全部在一个网页文件里，支持手机。",
+  "play": "7 人制 3D 足球，写在一个自包含 HTML 里，支持手机和电脑。每场两个半场，换边、界外球、角球、球门球齐全，有犯规任意球、人墙、点球、黄红牌、越位和裁判，平局进点球大战；可设阵型、心态和逼抢，有体力和冲刺、受伤、每方三次换人、进球慢动作回放和全场数据统计。共 8 级难度递增，赢一级解锁下一级，有本地积分榜。操作：左拇指或方向键/WASD 移动；红键（空格）带球射门、无球滑铲；蓝键（Shift）传球或切换球员；绿键（C）冲刺。横屏是侧视，竖屏是球队身后视角。",
   "quote": "Seven-a-side 3D football with referees, offside, cards, penalties and tactics, in one HTML file.",
   "quote_src": "平台页面描述",
   "tech": "three.js r128（cdnjs 引入，WebGL），单 HTML 文件，含 Web Audio；仓库描述标注 Claude Fable 5",
@@ -5480,8 +5509,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "单个 HTML 文件（约 1.2 MB）里装下 7 人制足球的裁判、越位、红黄牌和点球；GitHub 1 星。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "highlight": "一个 HTML 文件里的 7 人制足球，含越位、红黄牌和 8 级难度",
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "play_basis": "GitHub README（官方说明与按键表）；未试玩，无视频；未确认：手感、AI 强度和实际流畅度未试玩确认（2026-11-19 核验）"
  },
  {
   "id": "mothlight-vesper-9",
@@ -5561,7 +5591,7 @@
   "kind": "氛围划船探索",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "画面是玩家划着挂灯笼的小船，依次经过日落水道、红色水车、樱花大树、绿色雨林树根、发光洞穴、雪地、星空湖面等不同场景，片尾标题 What the water keeps。作者说是穿过 8 个梦境般的世界的划船之旅，浏览器里能玩。（玩法取自视频抽帧） X 回复（约 5 条）：都在夸画面，没有玩法提问或负面评价。",
+  "play": "氛围向划船体验，没有战斗。玩家划一条挂灯笼的小船，在水面上依次经过 8 个场景：日落木栈道与白布帘、红色水车与彩带、开满樱花的大树、绿色雨林和巨树根、发光的柱状玄武岩洞穴、雪地大树、星空湖面，收尾是带灯杆码头的湖面和标题 What the water keeps。作者称可以划桨，也可以让水流带着走。镜头在船后，随场景变换光色。目标是看完整条路线，没有失败条件，也没有发现成长系统。页面说明是“由灯笼照亮的缓慢乘船之旅，由浏览器实时绘制”。 X 回复（约 5 条）：都在夸画面，没有玩法提问或负面评价。",
   "quote": "A slow boat ride by lantern light through a chain of very different realms, or let the current carry you.",
   "quote_src": "平台页面描述",
   "tech": "three.js（WebGL），含 Web Audio；作者称由 Claude Fable 5.2 制作",
@@ -5645,8 +5675,16 @@
   "hot_since": "2026-11-13",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
-  "highlight": "划船穿过 8 个梦境般的世界，也可让水流带着走；X 浏览 50.7 万，是氛围向 Fable 5.2 作品的传播样本。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签 / 作者自述"
+  "highlight": "无战斗的水上梦境游览，8 个手绘感场景的氛围样本",
+  "tech_basis": "站点代码特征识别 / Fable52 标签 / 作者自述",
+  "videos": [
+   {
+    "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+    "label": "X 帖视频",
+    "duration": 57.0
+   }
+  ],
+  "play_basis": "视频抽帧（X 帖视频 57 秒，8 帧）+ 页面说明 + 回帖；未确认：具体操作键位、实际可玩时长、是否有收集要素未试玩；帖子称共 8 个世界，视频抽帧只看到 7 个（2026-11-19 核验）"
  },
  {
   "id": "bayhaven",
@@ -5654,7 +5692,7 @@
   "kind": "开放世界犯罪动作（持续开发中）",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "原创开放世界犯罪游戏，可以驾车。作者让 Fable 5.2 每次跑一个自主会话往下写，页面标题写着当前是第几天，是一款公开边做边玩的游戏。",
+  "play": "原创开放世界犯罪喜剧，阳光霓虹海滨城市，three.js 制作，由 Claude Fable 5.2 一次一个会话地写，目标是赶在 11 月 19 日发布。按路线图，每天加一个系统：漂移、徒步、市中心、警察和直播观众热度、任务与手机、领队切换（Mags 与 Teo）、天气和飓风。仓库日志显示已有：漂移驾驶、交通、1 到 5 级通缉、LIVE 聊天与观众数、手机应用（消息、地图、拍照、Squawk 社交）、任务引擎，以及三个任务（追拖车、收三辆欠款车、上警长的电视节目）。操作 WASD 加鼠标，Esc 释放鼠标。特别处：全程公开直播开发，且无真实 IP。",
   "quote": "An original open-world crime game written live by Fable 5.2, one autonomous session at a time.",
   "quote_src": "平台页面描述",
   "tech": "three.js（WebGL）；作者称由 Claude Fable 5.2 逐会话自主编写",
@@ -5724,8 +5762,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "作者让 Fable 5.2 每次跑一个自主会话往下写，公开边做边玩，页面标题标出当前第几天。",
-  "tech_basis": "Fable52 标签 / 作者自述"
+  "highlight": "AI 每天更新一个系统的开放世界犯罪游戏，公开边做边玩",
+  "tech_basis": "Fable52 标签 / 作者自述",
+  "play_basis": "仓库 README、路线图和更新日志（至第 6 天）+ fable52.games 页面；未找到视频，未试玩；未确认：fablestar.games 页面在本机无法打开，当前最新版内容、已做到第几天、完整任务数、失败条件未确认；日志里也列出了许多未完成项（2026-11-19 核验）"
  },
  {
   "id": "cs",
@@ -5792,7 +5831,7 @@
   "kind": "开放世界西部",
   "group": "端游级3D 美术表现力",
   "group_type": "direction",
-  "play": "原创开放世界西部游戏：骑马、打猎、钓鱼、打牌，在 Sorrel 盆地了结一桩旧怨。",
+  "play": "原创开放世界西部，在 Sorrel 盆地里了结一桩旧怨。仓库 README：有小镇、两座牧场、火车站、匪帮营地、河和桥，昼夜、雨、风暴；驯服野马并命名，骑乘、狂奔、吹哨；左轮、步枪和无声弓，可爆头，Q 键开慢动作 Focus，另有快拔对决；犯罪需要目击者，悬赏会招来追兵，荣誉影响物价和结局；可狩猎剥皮、营地烹饪、钓鱼、睡觉和酒馆玩二十一点；主线 6 章加对话选项，之后是可重复悬赏。操作 WASD、鼠标，1 到 4 切武器，E 交互，Tab 背包，M 地图，F5 存档。作者称为测试 Fable 5.2 而做。",
   "quote": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
   "quote_src": "平台页面描述",
   "tech": "three.js（WebGL），含 Web Audio；作者称为测试 Claude Fable 5 而做",
@@ -5862,8 +5901,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "开放世界西部：骑马、打猎、钓鱼、打牌；作者称为测试 Fable 5 而做，GitHub 3 星。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "highlight": "带荣誉与悬赏系统的开放世界西部，含狩猎钓鱼二十一点",
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "play_basis": "GitHub README（功能与键位表）；未试玩，无视频；未确认：页面本身只显示加载文字，实际流畅度、主线时长和完成度未试玩确认（2026-11-19 核验）"
  },
  {
   "id": "blameless",
@@ -5871,7 +5911,7 @@
   "kind": "程序员题材 FPS",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "凌晨 3:07 值班告警响起、线上挂了，主角亲自\"kubectl exec\"进生产环境开枪解决问题。",
+  "play": "程序员梗第一人称射击。凌晨 3:07 值班告警，线上宕机，主角亲自 kubectl exec 进生产环境消灭崩溃源：10 个事件、4 台主机、1 个根因，结尾按你的实际操作生成事故复盘。WASD 加鼠标，左键连射。武器是 kill -15、kill -9、grep -r、rm -rf，没有弹药，每把武器有速率限制，打太久会返回 429 冷却，切枪才能降温。血量叫错误预算，咖啡回血；每个事件后可选三个未测试的热修补丁。Shift 冲刺无敌，Q/右键回滚倒带 3 秒，F 的 sudo 去掉限速并加伤。敌人是僵尸进程、会分裂的 fork 炸弹、竞态条件（两秒内杀两个线程）、会移动的 Heisenbug 等。死亡重打当前事件。严重度分 SEV3/2/1，通关解锁无尽夜班。",
   "quote": "An on-call shooter: 03:07, prod is down, and you kubectl exec into production in person.",
   "quote_src": "平台页面描述",
   "tech": "three.js（WebGL），含 Canvas 2D、Web Audio；页面称由 AI 一个提示词生成，作者标注 Claude Fable 5",
@@ -5941,8 +5981,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "程序员梗 FPS：凌晨值班时亲自 kubectl exec 进生产环境开枪；页面称由 AI 一个提示词生成。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "highlight": "用运维术语做的 FPS，武器限流冷却、敌人是各类线上故障",
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "play_basis": "GitHub README（键位、规则和敌人表）；未试玩，无视频；未确认：实际手感和关卡视觉未试玩；一个提示词生成属仓库自述（2026-11-19 核验）"
  },
  {
   "id": "pelican-on-a-bike",
@@ -6781,7 +6822,7 @@
   "kind": "体感羽毛球",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "第一人称羽毛球，用摄像头追踪你的手：握拍、挥拍、扣杀。",
+  "play": "第一人称体感羽毛球：用摄像头追踪手势，合拢手掌当握拍，手腕带动球拍倾斜，球到拍头时快速挥动；拍位高加重挥是扣杀，拍位低是挑球，轻挥是吊球，左右挥动决定落点。张开手掌静止即暂停。走位自动完成，对手是电脑，可选 Easy/Normal/Hard，先到 11 分且领先 2 分获胜。也提供鼠标模式，没有摄像头也能玩。同类羽毛球小游戏多靠点按，这里把“挥拍”本身变成输入。",
   "quote": "First-person badminton where your webcam tracks your hand: grip, swing, smash.",
   "quote_src": "平台页面描述",
   "tech": "three.js r160（WebGL），单 HTML 文件，摄像头手部追踪，含 Web Audio；作者称用 Claude Fable 5 制作",
@@ -6851,8 +6892,9 @@
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
-  "highlight": "用摄像头追踪手部来挥拍的第一人称羽毛球，单个 HTML 约 70 KB。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "highlight": "用摄像头识别握拍挥拍，扣杀、挑球、吊球靠挥拍高度和力度区分。",
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "play_basis": "游戏页面操作说明文字（curl 读取）+ 项目 GitHub 页标题；未找到视频，未实际用摄像头试玩；未确认：摄像头追踪的实际灵敏度与画面表现；未看到实机画面；电脑对手的三档难度差别（2026-11-19 核验）"
  },
  {
   "id": "harvest-standoff",
@@ -7789,7 +7831,7 @@
   "kind": "多人同屏清版动作",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "作者睡前把侄子画的角色和设定交给 Fable 5.2，第二天早上游戏就做好了。侄子的设定是 5 名以家人和家里的狗为原型的英雄、12 个首领；成品有 12 关，最多 4 人插手柄同屏合作，打败首领能解锁家人角色，之后又陆续加了更多亲戚。",
+  "play": "横版清版动作（类似街机《忍者神龟》风格），最多 4 人同屏。每关一个首领，共 12 关，首领依次为 Dog Slayer、Rammox、Blazimp 等；打败首领可救出家人并解锁角色，选人界面已扩到 18 名。键盘 P1 用 WASD 移动，J 拳、K 脚、L 跳、I 超必杀；P2 用方向键与 , . / M；也支持最多 4 个手柄。难度分 Kid（5 命）、Arcade（3 命）、Hard（2 命），命用完出现 9 秒续币倒计时，不续则 Game Over。每个角色有自己的大招，如 Grandpa 的 Card Storm。",
   "quote": "",
   "quote_src": "",
   "tech": "Phaser（WebGL 渲染）；作者称用 Fable 5.2 一次生成，提示词允许模型用 ChatGPT Images 2.5 生成图片",
@@ -7844,8 +7886,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "“一次生成”给侄子的游戏，Hacker News 505 分、450 评论，传播度很高。",
-  "tech_basis": "站点代码特征识别（补查脚本） / 作者自述"
+  "highlight": "由 8 岁侄子设计、AI 一次生成的 4 人合作清版动作，12 个首领对应 12 关。",
+  "tech_basis": "站点代码特征识别（补查脚本） / 作者自述",
+  "play_basis": "试玩进入游戏标题画面截图 + 游戏脚本里的操作说明/难度/续币逻辑 + 作者博客文章（notesbylex）说明；没有视频；未确认：没有实际打完关卡；12 首领与角色技能的具体手感未验证；作者博客对资源数量的两处数字不一致（2026-11-19 核验）"
  },
  {
   "id": "term-sheet-please",
@@ -7853,7 +7896,7 @@
   "kind": "模仿 Papers, Please 的投资审核",
   "group": "独立精品与巧妙创意",
   "group_type": "direction",
-  "play": "模仿《Papers, Please》的玩法：YC 创业者来融资，你查财务、问记录，决定给谁投钱。",
+  "play": "模仿《Papers, Please》的风投尽调游戏：你是 Crowdview Ventures 的初级合伙人，基金有 300 万美元，每天接待一位创业者。流程：按 NEXT 叫创业者，把文件拖到桌上，点红色三角或按空格比对事实，点亮起的话筒提问，对齐后盖章（通过/资助/搁置），再把盖章文件还回去。目标是找到能爆发的项目、把在 X 上的关注者做起来；失败条件与结局页面未写明。同类《Papers, Please》审核换成了融资尽调，开场案例 Probe 是 AI 合规证据公司。",
   "quote": "YC founders are raising a round. Inspect the financials, question the records, and decide who gets funded.",
   "quote_src": "页面自述",
   "tech": "",
@@ -7908,7 +7951,8 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "把《Papers, Please》的审核玩法换成 YC 融资尽调，Hacker News 247 分、97 条评论。"
+  "highlight": "把《Papers, Please》的审核流程换成创业融资尽调，核对事实后盖章决定投谁。",
+  "play_basis": "试玩截图（标题画面、第一天任务简报与 6 步操作说明）+ HN 评论区（有人指出未署名致敬原作）；没有视频；未确认：第一关之后的案例、结局与失败条件；盖章后的资金结算与评分方式；未实际完成一轮审核（2026-11-19 核验）"
  },
  {
   "id": "sweatypanzer",
@@ -8033,7 +8077,7 @@
   "kind": "真实城市地图 + 游玩模式",
   "group": "把真实世界做成游戏",
   "group_type": "direction",
-  "play": "等距像素风的瓦伦西亚城市地图，每栋建筑都对应真实建筑，整个市域都画了。页面快捷键里有 G 游玩、M 地铁、P 飞机，游玩时可以调速度和高度。",
+  "play": "等距像素风的瓦伦西亚城市地图，覆盖整个市域，从农田到阿尔武费拉湖；每栋建筑对应真实建筑（加泰罗尼亚地籍数据），用 3D 数据按固定等距相机渲染，再由图像模型逐块重绘成像素风。操作：拖动移动，滚轮或双指缩放，R 随机地点，H 看全图，/ 搜索，G 进入游玩模式（可调速度与高度），M 地铁、T 火车、P 飞机、B 船。没有目标和失败条件，是探索型作品，免费无广告，靠 Patreon 维持。参照物是 Isometric NYC。",
   "quote": "An isometric pixel-art map of València, painted block by block.",
   "quote_src": "页面自述",
   "tech": "Canvas 2D，用 OpenSeadragon 做缩放浏览；数据来自 OpenStreetMap、西班牙地籍和 IGN，图像模型重绘",
@@ -8088,8 +8132,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
-  "highlight": "每栋建筑都对应真实建筑的整座城市等距像素地图，Hacker News 261 分、63 条评论。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "highlight": "把 AI 重绘的真实城市做成可飞行、可乘地铁的像素地图。",
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "play_basis": "页面说明文字（curl 读取）；未找到视频，未实际操作地图；未确认：游玩模式（G）的实际体验、地铁等模式的画面与流畅度；未实机验证（2026-11-19 核验）"
  },
  {
   "id": "librehold",
@@ -8213,7 +8258,7 @@
   "kind": "方块采矿",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是方块风的海底采矿场，有挖掘机和矿石。标题直接用了 Minecraft 的名字。",
+  "play": "Astrocade 上的方块采矿作品，标题和封面直接使用 Minecraft 名称：封面是 Minecraft 风格的水下采矿场，有潜水艇式挖掘机和矿石。页面描述只有创作者名，没有玩法说明；在预览窗口里只看到封面和播放按钮，没能进入实际玩法。标题使用商标，存在授权风险。",
   "quote": "Astra_creator!!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8270,8 +8315,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "标题直接使用 Minecraft 名称，游玩 7 万次，页面描述只有一个创作者名；有商标和授权风险。",
-  "tech_basis": "平台说明"
+  "highlight": "借用 Minecraft 名称与画风的水下采矿作品，玩法页面无说明。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述与封面图 + 打开预览窗口（只见封面）；没有视频；未确认：玩法、操作、目标与失败条件全部未确认；没有进入实际游戏画面（2026-11-19 核验）"
  },
  {
   "id": "mecha-arm-1",
@@ -8339,7 +8385,7 @@
   "kind": "健身房跑酷",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "扮演苍白的体素小人穿过健身房，抓哑铃、选肌肉门，用布娃娃物理打倒健美选手。",
+  "play": "竖屏 3D 跑酷格斗。你从瘦弱的“SKINNY”起步，沿健身房通道奔跑，左右按钮（或滑动、方向键）切换跑道，躲避障碍；撞到会扣能力值（试玩中出现“OUCH -5”），经过加号/减号的“Power”选门或拾取哑铃可调整数值，等级名随数值升为 FIT、BUFF。遇到健美选手点 PUNCH 出拳，布娃娃物理决定击飞效果，顶部显示距离和 KO 数，另有排行榜。开场有一段健美选手嘲讽的剧情动画。主线是“跑—打—升级”。",
   "quote": "Run through a cool gym as a pale voxel man, grab weights, pick muscle doors and knock out bodybuilders with ragdoll fights!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8396,8 +8442,9 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-15",
-  "highlight": "把选门跑酷和布娃娃格斗结合在健身房里，游玩 13 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "把选门数值跑酷和布娃娃格斗合并，从瘦子练成肌肉男。",
+  "tech_basis": "平台说明",
+  "play_basis": "实际试玩（键盘进入，截图确认开场动画、跑道、距离/KO/等级条、障碍扣分与 PUNCH 按钮）+ 页面描述；未确认：没有打到选手，没看到完整的选门与布娃娃战斗；失败条件与成长上限未确认（2026-11-19 核验）"
  },
  {
   "id": "dress-up-showdown",
@@ -8405,7 +8452,7 @@
   "kind": "换装",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "给角色搭配礼服、发型、鞋子和闪亮配饰，参加主题时装秀，走秀后由评委给造型打分。",
+  "play": "换装类：给角色搭配礼服、发型、鞋子和闪亮配饰，参加主题时装秀，走完秀台后由评委给造型打分。核心循环是选主题、搭配、走秀、看评分。具体操作（点选还是拖拽）、主题数量、评分规则、失败条件在页面上没有写，预览窗口也没能进入实际画面，故均未确认。与同类换装游戏相比，页面可见的差别只有“评委打分”这一环。",
   "quote": "Dress her up with gowns, hairstyles, shoes and sparkly extras, then strut the runway in themed fashion contests where judges score your look! 👗✨",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8461,9 +8508,10 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "highlight": "Astrocade 上的常规换装玩法，游玩 4 万次，参考价值主要在热度。",
+  "highlight": "换装加走秀评分，页面可见内容与常见换装游戏接近。",
   "tech_basis": "平台说明",
-  "hot_since": "2026-11-17"
+  "hot_since": "2026-11-17",
+  "play_basis": "Astrocade 页面描述与封面图；没有视频，未进入实际游戏；未确认：操作方式、主题数量、评分规则、解锁与成长系统均未确认（2026-11-19 核验）"
  },
  {
   "id": "apex-strike",
@@ -8471,7 +8519,7 @@
   "kind": "4v4 团队射击",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "3D 4v4 团队淘汰射击，开局前可自定义装备，主打节奏快的枪战。",
+  "play": "第一人称 3D 4v4 团队淘汰射击。开局前自定义装备（页面称 loadout），载入界面提示“侧翼平台下的医疗包可回血”，地图是圆形对称竞技场，红蓝两队从上下出生点对冲。PC 操作：WASD 移动、鼠标瞄准、左键开火、右键开镜、Shift 冲刺、空格跳、R 换弹、G 手雷、Esc 释放鼠标。界面可见 200 点生命、30 发弹匣和 3 分钟倒计时。目标是淘汰对方队伍，具体胜负判定与失败条件页面未写。",
   "quote": "High-octane 3D 4v4 team elimination! Customize loadouts, master fast-paced gunplay, and deploy into intense combat!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8528,8 +8576,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "游玩 167.7 万次，是这批 Astrocade 作品里射击类体量最大的。",
-  "tech_basis": "平台说明"
+  "highlight": "小体量的浏览器 4v4 射击，带自定义装备、手雷和对称竞技场。",
+  "tech_basis": "平台说明",
+  "play_basis": "试玩截图（载入界面与 PC 操作说明弹窗）+ 页面描述；没有视频；未确认：没有进入对局；实际手感、AI 或真人对手、装备种类、胜负判定未确认（2026-11-19 核验）"
  },
  {
   "id": "1-pickaxe-swing-for-eggs",
@@ -8597,7 +8646,7 @@
   "kind": "破坏沙盒",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "作者称是《Teardown》的翻改版，加入了更多建筑和更多破坏方式。",
+  "play": "破坏沙盒。作者页面描述为“Teardown 的改版，加入更多建筑和更多破坏方式”。试玩看到的是一座棕色高塔，底部有工具栏，依次是炸弹、火焰、锤子等图标，另有闪电和书本按钮和一个重置按钮，开始后选工具去破坏建筑。标题画面是铁球砸楼。没有任务、目标或失败条件的说明，具体破坏物理未实际操作确认。",
   "quote": "remixed version of teardown adds more structres and way more discrution ops",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8654,8 +8703,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "直接挂靠《Teardown》的破坏沙盒，游玩 15.9 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "带炸弹、火焰、锤子等工具栏的破坏沙盒，作者自述是 Teardown 的改版。",
+  "tech_basis": "平台说明",
+  "play_basis": "试玩截图（标题画面和进入后的建筑加工具栏）+ 页面描述；未确认：没能点击使用工具，破坏效果、任务目标、工具总数均未确认；与 Teardown 的实际关系只有作者自述（2026-11-19 核验）"
  },
  {
   "id": "duck-chaos-3d",
@@ -8663,7 +8713,7 @@
   "kind": "捣蛋模拟",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "扮演一只鸭子在 3D 公园里冲人叫、偷食物、制造混乱，攒满混乱值。",
+  "play": "扮演一只鸭子在 3D 公园里到处捣乱：对路人嘎嘎叫、偷食物，把“混乱值”条攒满。封面写着“Simulator 3D”，画面是卡通鸭子和集市摊位。同类“捣蛋模拟”如《Untitled Goose Game》靠任务清单推进，这款只确认有混乱值这一数值目标。",
   "quote": "Waddle through a 3D park as a mischievous duck, honking at people, stealing food, and causing delightful mayhem to fill your chaos meter!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8720,8 +8770,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "扮演鸭子在公园里捣乱的 3D 小品，游玩 5.6 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "以混乱值为目标的鸭子捣蛋模拟，玩法依据页面描述。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述与封面图；预览窗口未能进入游戏；未确认：操作、关卡结构、失败条件和除偷食物、嘎嘎叫外的捣乱动作均未确认（2026-11-19 核验）"
  },
  {
   "id": "stickman-archer",
@@ -8729,7 +8780,7 @@
   "kind": "火柴人射箭",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "平台页面没有写玩法，以下只按标题和封面图描述：封面是火柴人弓箭手。",
+  "play": "火柴人弓箭手对决。试玩画面看到标有“LEVEL 1”的关卡界面：左侧是持弓的火柴人，右侧是对手，双方头上各有血条，中间隔着悬崖，顶部有金币数。页面描述只有“允许 remix”，没有说明，因此瞄准方式（拖拽还是点击）、武器和升级系统、失败条件（自己血量归零）均未确认。",
   "quote": "Created with Astrocade!                                                   Remix allowed.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8786,8 +8837,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "页面只写“允许 remix”，没有玩法介绍；游玩 283.6 万次，是这批里游玩数最高的。",
-  "tech_basis": "平台说明"
+  "highlight": "火柴人对射闯关，页面除“可 remix”外没有说明。",
+  "tech_basis": "平台说明",
+  "play_basis": "试玩截图（封面下透出的 LEVEL 1 对射界面，双方血条与金币）+ 页面描述；未确认：没有射出一箭，操作方式、关卡数量、升级与解锁系统均未确认（2026-11-19 核验）"
  },
  {
   "id": "wild-hunter-3d",
@@ -8795,7 +8847,7 @@
   "kind": "狙击狩猎",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "在体素风森林里用狙击镜瞄准方块动物，仔细瞄准后射击，攒金币解锁新的目标。",
+  "play": "第一人称体素风狩猎。你在方块风森林里用狙击镜瞄准方块动物，射击获得金币，用金币解锁新的目标动物。试玩时看到左上金币数、顶部倒计时（1:41）、右上目标/剩余数量框，屏幕左下有虚拟摇杆、右下有开镜、射击、换弹等圆形按钮，说明是限时关卡，在时间内完成目标数量。地图和动物种类未能完整看到。",
   "quote": "Hunt blocky animals in a vibrant voxel forest using your sniper scope—aim carefully and collect coins to unlock new targets! animal sut",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8852,8 +8904,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "Astrocade 上的常规狩猎玩法，游玩 5.3 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "限时狙击狩猎，射击得金币解锁新猎物，带手机式虚拟摇杆。",
+  "tech_basis": "平台说明",
+  "play_basis": "试玩截图（进入游戏后的 HUD：金币、倒计时、虚拟摇杆与按钮）+ 页面描述；未确认：没有射击；目标数量、动物种类、解锁清单与超时判定未确认（2026-11-19 核验）"
  },
  {
   "id": "lifebox",
@@ -8861,7 +8914,7 @@
   "kind": "像素物理沙盒",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "2D 像素物理沙盒：用各种工具造地形、拆地形，搭建筑、做物质反应实验。",
+  "play": "没有目标和失败条件，纯自由实验，类似《Powder Toy》这类沙盒。在预览窗口里只看到封面，工具数量、元素种类、操作方式都没能确认。页面称有“创造和破坏地形”等要点。",
   "quote": "A 2D pixel-art sandbox game where players manipulate a world with physics, building structures, and experimenting with reactions.\n\n• Create and destroy terrain with various tools\n• Observe and interact with a dynamic, physics-driven environment",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -8918,8 +8971,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
-  "highlight": "2D 像素物理沙盒，游玩 39.5 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "元素互动的 2D 像素沙盒，页面确认有造地形与破坏。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述与封面图；预览窗口只见封面；未确认：工具清单、元素种类、是否保存、操作方式均未确认（2026-11-19 核验）"
  },
  {
   "id": "nine-chronicles-twist-of-destiny",
@@ -9169,7 +9223,7 @@
   "kind": "拔针解谜",
   "group": "Astrocade",
   "group_type": "direction",
-  "play": "拔掉针栓引导水流救鱼，水要绕开毒液和饥饿的鲨鱼，共 20 道物理谜题。",
+  "play": "拔针解谜：拔掉针栓让水流引导到鱼身边，水要绕开毒液和饥饿的鲨鱼，共 20 道物理谜题。核心循环是观察关卡、决定拔哪根针和先后顺序、看水流结果。玩法类似《Save the Fish》类拔针手游，页面可确认的是关卡数量和障碍类型。",
   "quote": "Pull pins, guide water, save the fish! Route bubbly water past toxic slime and hungry sharks across 20 brainy physics puzzles.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -9226,8 +9280,9 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-16",
-  "highlight": "Astrocade 上的常规拔针物理谜题，游玩 6.2 万次。",
-  "tech_basis": "平台说明"
+  "highlight": "拔针引水救鱼，20 关，障碍是毒液和鲨鱼。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述（20 关、毒液、鲨鱼）；没有视频，未进入游戏；未确认：实际操作、失败判定、有无提示与星级系统均未确认（2026-11-19 核验）"
  },
  {
   "id": "sky-drop-royale",
@@ -9413,7 +9468,7 @@
   "kind": "偶像恋爱互动叙事",
   "group": "Astrocade",
   "group_type": "pending",
-  "play": "扮演玩家与韩流偶像男友约会，通过选择积累好感、应对狗仔，页面称共 48 个角色、32 步流程，可解锁 12 种结局，并生成一封 AI 情书。",
+  "play": "偶像恋爱互动叙事续作：你和韩流偶像男友约会，通过选择培养“默契”，躲避狗仔，共 48 个角色、32 个流程步骤，可解锁 12 种结局，最后生成一封 AI 情书。页面标注“BIG UPDATE”。核心循环是读剧情、做选择、看好感与结局分支。具体界面、选项形式（点选对话）、好感如何计算、失败是否出现坏结局都未能进入游戏确认。",
   "quote": "BIG UPDATE sequel! Date your K-Pop idol boyfriend: build chemistry, survive paparazzi, unlock 12 endings & get an AI love letter. 48 characters, 32 steps!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -9470,8 +9525,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-16",
   "images_tried": true,
-  "highlight": "恋爱叙事题材，Astrocade 趋势榜第 3 位、游玩 10.6 万次，本周新上榜。",
-  "tech_basis": "平台说明"
+  "highlight": "带 12 个结局和 AI 情书的偶像恋爱分支叙事。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述（48 角色、32 步、12 结局、AI 情书）；未进入游戏；未确认：界面形态、选项机制、结局条件、AI 情书怎么生成均未确认（2026-11-19 核验）"
  },
  {
   "id": "woolly-slope",
@@ -10008,7 +10064,7 @@
   "kind": "3D 飞行模拟",
   "group": "端游级3D 美术表现力",
   "group_type": "pending",
-  "play": "在机库选择双翼机、涡桨机或喷气机，起飞后探索程序生成（由种子决定）的世界，并平安降落；免费。",
+  "play": "浏览器里的双翼机飞行模拟《Baron》。主菜单可选模式：Mission（Cross-country 越野航线，跟随白色箭头从起飞到降落）或 Free flight；难度 Arcade、Normal、Expert；世界由种子生成，可点骰子换新世界；在机库选双翼机、涡桨机或喷气机。操作：键盘 W/S 俯仰、A/D 滚转、Q/E 方向舵、1 到 0 调油门、F/V 襟翼、B 刹车、C 切换视角、X 跳伞，也支持手柄、鼠标摇杆，手机上用左半屏拖动加右侧油门杆并可倾斜手机。目标是安全降落，飞行结束有 Debrief 总结。需要 WebGL 2。",
   "quote": "Take off, explore a procedurally generated world and land it in one piece. Pick a biplane, turboprop or jet in the hangar. Free, built with DAI Studio.",
   "quote_src": "页面自述",
   "tech": "three.js（WebGL，版本未识别），Web Audio，Vite 式打包脚本；页面称用 DAI Studio 制作",
@@ -10063,8 +10119,9 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-17",
-  "highlight": "Hacker News 232 分、68 评论；浏览器端 3D 飞行加程序生成地形，页面称由 DAI Studio 制作。",
-  "tech_basis": "code_detect（three.js、Web Audio）"
+  "highlight": "浏览器 3D 双翼机，种子生成世界，键盘、手柄、手机倾斜都能操作。",
+  "tech_basis": "code_detect（three.js、Web Audio）",
+  "play_basis": "页面说明文字与菜单、操作表（curl 读取）+ HN 评论页；未找到视频，未实际飞行；未确认：实际画面、物理手感、坠毁与失败判定、任务评分方式未实机确认（2026-11-19 核验）"
  },
  {
   "id": "find-my-pet",
@@ -10132,7 +10189,7 @@
   "kind": "咒术回战井字棋",
   "group": "Astrocade",
   "group_type": "pending",
-  "play": "与《咒术回战》角色对下井字棋，对手从入门的虎杖悠仁一路升到难以战胜的宿傩。",
+  "play": "咒术回战角色皮肤的井字棋：你和《咒术回战》角色对局，对手难度逐级上升，从入门的虎杖悠仁一直到“无法战胜”的宿傩。核心循环是一局一局下棋、胜出后挑战下一位。规则就是 3 连线，没有额外系统可确认。可能涉及 IP 授权。",
   "quote": "Challenge Jujutsu Kaisen characters in strategic Tic-Tac-Toe battles, from beginner Yuji to unbeatable Sukuna!",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -10189,8 +10246,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-17",
   "images_tried": true,
-  "highlight": "给传统井字棋套动漫角色皮肤，游玩 5.2 万次、榜内第 14 名；可能涉及 IP 授权。",
-  "tech_basis": "平台说明"
+  "highlight": "井字棋加咒术回战对手，从虎杖到宿傩逐级加难度。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：对手总数、AI 是否真的不可战胜、是否有奖励或技能均未确认（2026-11-19 核验）"
  },
  {
   "id": "air-cargo-tycoon",
@@ -12353,7 +12411,7 @@
   "kind": "布朗尼烹饪模拟",
   "group": "Astrocade",
   "group_type": "pending",
-  "play": "在温馨厨房里做布朗尼：打蛋、倒料、搅拌都有动画和音效反馈。",
+  "play": "烹饪模拟：在温馨厨房里一步步做布朗尼，打蛋、倒料、搅拌都有动画和音效反馈。操作（点按还是拖拽）、是否有顾客订单、计分与失败条件、解锁系统均未确认，在预览窗口里也没进入实际游戏。页面强调的是“每个动作都有满足感的动画和声音”，属于解压向做饭。",
   "quote": "Master the art of brownie-making in this cozy kitchen simulator where every crack, pour, and stir comes alive with satisfying animations and sounds.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -12410,8 +12468,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-18",
   "images_tried": true,
-  "highlight": "Astrocade 榜内第 8 名、游玩 28.7 万次、点赞 4,369；烹饪模拟是平台常见的公式化玩法。",
-  "tech_basis": "平台说明"
+  "highlight": "强调动画音效反馈的布朗尼制作流程模拟。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：完整流程、操作方式、评分与失败机制、是否有关卡均未确认（2026-11-19 核验）"
  },
  {
   "id": "pizza-empire-tycoon",
@@ -14258,7 +14317,7 @@
   "kind": "巨型萨拉米锯",
   "group": "Astrocade",
   "group_type": "pending",
-  "play": "按标题看是锯切巨型萨拉米香肠的解压类小游戏，页面没有玩法描述。",
+  "play": "页面没有玩法描述（只有平台通用说明和一张封面图），没能进入游戏，玩法、操作和目标都未确认。采集时在 Astrocade 榜单排第 2 位。",
   "quote": "",
   "quote_src": "",
   "tech": "Astrocade 平台对话式生成",
@@ -14315,8 +14374,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-19",
   "images_tried": true,
-  "highlight": "Astrocade 榜内第 2 名、游玩 11.2 万次、点赞 2,102，新进榜；页面无介绍。",
-  "tech_basis": "平台说明"
+  "highlight": "Astrocade 趋势榜高位，但页面没有玩法说明，玩法待确认。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面（无描述，仅封面图）；没有视频，未进入游戏；未确认：玩法、操作、目标、失败条件全部未确认（2026-11-19 核验）"
  },
  {
   "id": "makeover-studio",
@@ -14444,7 +14504,7 @@
   "kind": "情侣都市冒险",
   "group": "Astrocade",
   "group_type": "pending",
-  "play": "带情侣角色去咖啡馆约会、散步、拥抱、跳舞，也能开跑车逛城、体验真实车流和任务。",
+  "play": "情侣角色的都市冒险：带情侣去咖啡馆约会、喝咖啡、散步、拥抱、跳舞，也能开跑车逛城市，页面称有真实车流和任务。核心循环是在约会互动和开放城市驾驶之间切换，任务内容页面未写。操作（虚拟摇杆还是键盘）、任务结构、有无失败条件、车辆与城市规模都没能确认，预览窗口也没进入游戏。把约会互动与驾驶合在一起是页面可确认的唯一特点。",
   "quote": "Take your couple on café dates, enjoy coffee, walk together, hug, and dance.\nDrive sports cars, explore the city, and experience realistic traffic and exciting missions.",
   "quote_src": "平台页面描述",
   "tech": "Astrocade 平台对话式生成",
@@ -14501,8 +14561,9 @@
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-19",
   "images_tried": true,
-  "highlight": "把约会和开放城市驾驶混在一起；榜内第 13 名、游玩 16.4 万次、点赞 2,344，新进榜。",
-  "tech_basis": "平台说明"
+  "highlight": "约会互动加开跑车逛城，两类玩法混搭。",
+  "tech_basis": "平台说明",
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：任务内容、操作方式、失败条件、城市规模均未确认（2026-11-19 核验）"
  },
  {
   "id": "game-22",

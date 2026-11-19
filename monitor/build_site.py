@@ -65,6 +65,15 @@ def split_reply(p):
     return (p.strip(), '') if not m else (p[:m.start()].strip(), p[m.end():].strip())
 
 
+def videos_html(g):
+    """演示视频链接（每周核验时补的 videos：[{url, label, duration}]）。"""
+    links = []
+    for v in [v for v in g.get('videos') or [] if v.get('url')][:3]:
+        dur = f" {int(v['duration'])} 秒" if v.get('duration') else ''
+        links.append(f'<a href="{e(v["url"])}" target="_blank" rel="noopener">{e(v.get("label") or "视频")}{dur} ↗</a>')
+    return f'<span class="vid"><b>视频</b>{"".join(links)}</span>' if links else ''
+
+
 def card(g, is_new=False):
     col = PAL[sum(map(ord, g['id'])) % len(PAL)]
     first = next((c for c in g['name'] if c.isalnum()), '?').upper()
@@ -97,7 +106,9 @@ def card(g, is_new=False):
     else:
         play = '<p class="play"></p>'
     tech = f'<b>技术</b>{e(g["tech"])}' if g.get('tech') else ''
-    hl = f'<p class="hl"><b>亮点</b>{e(g["highlight"])}</p>' if g.get('highlight') else ''
+    # 视频链接放在亮点同一段里：卡片是固定行数的子网格，多一个子元素会把后面几行挤到一起
+    hl = (f'<b>亮点</b>{e(g["highlight"])}' if g.get('highlight') else '') + videos_html(g)
+    hl = f'<p class="hl">{hl}</p>' if hl else ''
     note = (f'<b>X 回复</b>{e(reply)}' if reply else '') + (f'<b>交叉验证</b>{e(g["xcheck"])}' if g.get('xcheck') else '')
     fs = g.get('first_seen') or {}
     found = ''
@@ -113,7 +124,8 @@ def card(g, is_new=False):
             bits.append('AI 证据：' + g['ai_evidence'])
         why = '<b>入库理由</b>' + e('；'.join(bits))
     src_txt = (g.get('src') or '') + (f"（数据截至 {g['stats_date']}）" if g.get('stats_date') else '') + \
-        (f"；技术栈依据：{g['tech_basis']}" if g.get('tech_basis') else '') + (f"；{g['note']}" if g.get('note') else '')
+        (f"；技术栈依据：{g['tech_basis']}" if g.get('tech_basis') else '') + \
+        (f"；玩法依据：{g['play_basis']}" if g.get('play_basis') else '') + (f"；{g['note']}" if g.get('note') else '')
     go = LINK.get(g.get('link_status'), ('', '打开 ↗'))[1]
     srcs = ''
     if g.get('sources'):

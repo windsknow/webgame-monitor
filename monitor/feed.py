@@ -13,7 +13,7 @@ import re
 import shutil
 
 from . import util
-from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, heat, method_html, split_reply, stats_x_first
+from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, heat, method_html, split_reply, videos_html, stats_x_first
 
 e = html.escape
 WEEK = '一二三四五六日'
@@ -57,6 +57,7 @@ def hero(g):
 <p class="slide-kind">{e(g.get('kind') or '')}{' · ' if g.get('kind') else ''}{e(g.get('date_text') or '')}</p>
 <p class="slide-text">{e(text)}</p>
 {f'<p class="slide-why"><b>亮点</b>{e(g["highlight"])}</p>' if g.get('highlight') else ''}
+{f'<p class="slide-why">{videos_html(g)}</p>' if g.get('videos') else ''}
 {f'<p class="slide-why">重点依据：{e(sig)}</p>' if sig else ''}
 <div class="slide-stats">{stats}</div>
 <div class="slide-act"><a class="btn" href="{e(g['url'])}" target="_blank" rel="noopener">{go}</a><a class="btn btn-2" href="#{e(g['id'])}">看卡片</a></div>
