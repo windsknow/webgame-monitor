@@ -41,6 +41,7 @@
 | `data/candidates.json` | 候选队列，按去重键。`status`：收录 / 观察 / 候选 / 已在库 / 拒绝。拒绝的会一直留着，不会再被打开 |
 | `data/sources.json` | 每条线索的原始出处，按去重键归档，用于追溯 |
 | `data/x_judgments.json` | X 帖子的主题判断（按 tweet_id），优先级高于规则判断。合并时按最新内容重新判断，不用重跑 X 接入 |
+| `data/fable52_x_posts.json` | Fable52.games 详情页没给作者帖子的游戏，每周核验时找到的作者 X 帖子（来自 Awesome Fable 5.2 清单或登录后搜索）。采集时用它追原始出处、读浏览数；找过没找到的记在 `not_found` |
 | `data/x_manual_posts.json` | 手动补充的 X 帖子链接。加一行 `{"url": "…", "added": "YYYY-MM-DD"}`，下一次每日运行会处理（加入后 7 天内有效）；想马上生效就跑 `python3 run.py x <日期> && python3 run.py merge` |
 | `data/static.json` | 趋势、数据交叉验证表、其他线索、七个方向的说明 |
 | `data/state/` | 各榜单上一次的状态，用来判断"新进榜""新增条目" |
@@ -108,7 +109,7 @@ X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线�
    然后重跑 `python3 run.py merge`。判为不是游戏的，对应的自动卡片会被撤下；后来找到试玩链接的，原来按帖子入库的卡片会换成游戏链接。
 2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；值得标重点的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
 3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`highlight`（亮点）、`tech` 和 `tech_basis`（技术栈依据，优先按站点代码特征识别）、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
-4. 只有视频、玩法写不出来的卡片：下载帖子视频抽帧读图补玩法，再按 `docs/登录态读取社区规范.md` 登录读回复做概括。玩法末尾注明"（玩法取自视频抽帧）"。
+4. 只有视频、玩法写不出来的卡片，以及标为重点的卡片：找演示视频，用 `python3 -I scripts/video_frames.py <X帖子链接或mp4> <输出目录> [帧数]` 下载、抽帧并拼成对照图（抽帧用 macOS 自带的 AVFoundation，见 `scripts/frames.swift`），读图补玩法，视频链接写进卡片的 `videos`；再按 `docs/登录态读取社区规范.md` 登录读回复做概括。玩法末尾注明"（玩法取自视频抽帧）"。
 5. `python3 run.py feed` 重新生成信息流页面；`python3 scripts/weekly_page.py <起> <止> <输出目录> [编辑稿.json]` 生成周报网页（`artifact.html` 可直接发布）。技术栈可先跑 `python3 -I scripts/detect_tech.py data/games.json <输出.json> <起> <止>` 按站点代码特征识别。
 
 写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）；重点游戏把 `hot` 设为 `true`。

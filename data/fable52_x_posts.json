@@ -1,0 +1,25 @@
+{
+ "_说明": "Fable52.games 详情页没给作者帖子的游戏，每周核验时找到的作者 X 帖子。采集时用它追原始出处、读浏览数。kind：author 作者本人发布；third_party 他人分享。找过但没找到的记在 not_found。",
+ "not_found": {},
+ "what-the-water-keeps": {
+  "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
+  "kind": "author",
+  "how": "Awesome Fable 5.2 清单（GitHub fengyiqicoder/awesome-fable-5.2）给的作者帖子",
+  "found": "2026-11-19",
+  "game_id": "what-the-water-keeps"
+ },
+ "evensong": {
+  "url": "https://x.com/kevin_t_ngo/status/2120238844754923874",
+  "kind": "author",
+  "how": "Awesome Fable 5.2 清单（GitHub fengyiqicoder/awesome-fable-5.2）给的作者帖子",
+  "found": "2026-11-19",
+  "game_id": "evensong"
+ },
+ "wusuo-shanmen": {
+  "url": "https://x.com/op7418/status/2120694045299327187",
+  "kind": "author",
+  "how": "Awesome Fable 5.2 清单（GitHub fengyiqicoder/awesome-fable-5.2）给的作者帖子",
+  "found": "2026-11-19",
+  "game_id": "game-5"
+ }
+}

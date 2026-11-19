@@ -258,7 +258,7 @@
     "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 5824,
+     "fable52_plays": 5869,
      "fable52_featured": false,
      "x_views": 4302522,
      "github_stars": 276,
@@ -1292,7 +1292,7 @@
     "source_url": "https://fable52.games/play/pocket-soccer-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1639,
+     "fable52_plays": 1656,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -1310,7 +1310,7 @@
     "source_url": "https://fable52.games/play/mothlight",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1016,
+     "fable52_plays": 1027,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1328,7 +1328,7 @@
     "source_url": "https://fable52.games/play/what-the-water-keeps",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 880,
+     "fable52_plays": 885,
      "fable52_featured": false,
      "x_views": 511921,
      "hn_points": 2,
@@ -1348,7 +1348,7 @@
     "source_url": "https://fable52.games/play/bayhaven",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 699,
+     "fable52_plays": 701,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -1366,7 +1366,7 @@
     "source_url": "https://fable52.games/play/jimao-cs",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 560,
+     "fable52_plays": 567,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1383,7 +1383,7 @@
     "source_url": "https://fable52.games/play/dustfall",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 655,
+     "fable52_plays": 676,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -1401,7 +1401,7 @@
     "source_url": "https://fable52.games/play/blameless",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 519,
+     "fable52_plays": 521,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1419,7 +1419,7 @@
     "source_url": "https://fable52.games/play/pelican-on-a-bike",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 718,
+     "fable52_plays": 722,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1436,7 +1436,7 @@
     "source_url": "https://fable52.games/play/qingyun-sword-flight",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 747,
+     "fable52_plays": 758,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1454,8 +1454,9 @@
     "source_url": "https://fable52.games/play/evensong",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 645,
+     "fable52_plays": 649,
      "fable52_featured": false,
+     "x_views": 487014,
      "chart_new_entry": false
     }
    }
@@ -1471,7 +1472,7 @@
     "source_url": "https://fable52.games/play/wukong-tiger-vanguard",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 709,
+     "fable52_plays": 719,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1488,7 +1489,7 @@
     "source_url": "https://fable52.games/play/tidebell",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 471,
+     "fable52_plays": 475,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1506,7 +1507,7 @@
     "source_url": "https://fable52.games/play/ironvale",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 491,
+     "fable52_plays": 495,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -1524,7 +1525,7 @@
     "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 487,
+     "fable52_plays": 488,
      "fable52_featured": false,
      "github_stars": 95,
      "chart_new_entry": false
@@ -1542,9 +1543,9 @@
     "source_url": "https://fable52.games/play/wusuo-shanmen",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 430,
+     "fable52_plays": 441,
      "fable52_featured": false,
-     "github_stars": 410,
+     "x_views": 295199,
      "chart_new_entry": false
     }
    },
@@ -1552,10 +1553,7 @@
     "channel": "github",
     "source_url": "https://github.com/op7418/guizang-game-skill",
     "first_date": "2026-11-12",
-    "metrics": {
-     "github_stars": 410,
-     "github_forks": 65
-    }
+    "metrics": {}
    }
   ]
  },
@@ -1569,7 +1567,7 @@
     "source_url": "https://fable52.games/play/tuktuk",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 232,
+     "fable52_plays": 233,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1587,7 +1585,7 @@
     "source_url": "https://fable52.games/play/feiche-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 218,
+     "fable52_plays": 221,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1604,7 +1602,7 @@
     "source_url": "https://fable52.games/play/hanford-reach",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 142,
+     "fable52_plays": 143,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1622,7 +1620,7 @@
     "source_url": "https://fable52.games/play/hextech-aram",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 168,
+     "fable52_plays": 170,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1675,7 +1673,7 @@
     "source_url": "https://fable52.games/play/daedalus",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 132,
+     "fable52_plays": 133,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1693,7 +1691,7 @@
     "source_url": "https://fable52.games/play/transport-ship-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 185,
+     "fable52_plays": 188,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1727,7 +1725,7 @@
     "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 92,
+     "fable52_plays": 93,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1745,7 +1743,7 @@
     "source_url": "https://fable52.games/play/misremember",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 142,
+     "fable52_plays": 143,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -1781,7 +1779,7 @@
     "source_url": "https://fable52.games/play/saltline-online",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 130,
+     "fable52_plays": 135,
      "fable52_featured": false,
      "github_stars": 26,
      "chart_new_entry": false
@@ -1835,7 +1833,7 @@
     "source_url": "https://fable52.games/play/breach-transport-ship-online",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 97,
+     "fable52_plays": 98,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1869,7 +1867,7 @@
     "source_url": "https://fable52.games/play/flight-simulator-nfljgw",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 117,
+     "fable52_plays": 119,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -2440,7 +2438,7 @@
     "source_url": "https://fable52.games/play/makinamon-pulso",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 35,
+     "fable52_plays": 36,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -2458,7 +2456,7 @@
     "source_url": "https://fable52.games/play/riftline",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 39,
+     "fable52_plays": 40,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -2476,7 +2474,7 @@
     "source_url": "https://fable52.games/play/the-county",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 35,
+     "fable52_plays": 36,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -2511,7 +2509,7 @@
     "source_url": "https://fable52.games/play/arcfall-artillery-ho7odp",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 58,
+     "fable52_plays": 59,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -2528,7 +2526,7 @@
     "source_url": "https://fable52.games/play/tidemark",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 82,
+     "fable52_plays": 83,
      "fable52_featured": false,
      "github_stars": 24,
      "chart_new_entry": false
@@ -2918,7 +2916,7 @@
     "source_url": "https://fable52.games/play/hitotsubu-teien",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -2936,7 +2934,7 @@
     "source_url": "https://fable52.games/play/undertow-y8xvs5",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 77,
+     "fable52_plays": 80,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -2953,7 +2951,7 @@
     "source_url": "https://fable52.games/play/black-tide-hdab0j",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 53,
+     "fable52_plays": 56,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -2970,7 +2968,7 @@
     "source_url": "https://fable52.games/play/graveyard-shift",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 95,
+     "fable52_plays": 99,
      "fable52_featured": false,
      "github_stars": 13,
      "chart_new_entry": false
@@ -2997,7 +2995,7 @@
     "source_url": "https://fable52.games/play/solar-system-3d",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 43,
+     "fable52_plays": 44,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -3014,7 +3012,7 @@
     "source_url": "https://fable52.games/play/duel-knights",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 23,
+     "fable52_plays": 26,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -3050,7 +3048,7 @@
     "source_url": "https://fable52.games/play/escape-the-fable",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 8,
+     "fable52_plays": 9,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3122,7 +3120,7 @@
     "source_url": "https://fable52.games/play/circular-tic-tac-toe",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3230,7 +3228,7 @@
     "source_url": "https://fable52.games/play/kirimodoshi",
     "first_date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 9,
+     "fable52_plays": 10,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3505,7 +3503,7 @@
     "source_url": "https://fable52.games/play/t-minus",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 23,
+     "fable52_plays": 26,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3523,7 +3521,7 @@
     "source_url": "https://fable52.games/play/crystal-tower-defense",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 22,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3541,7 +3539,7 @@
     "source_url": "https://fable52.games/play/apex-lap-blender",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 20,
+     "fable52_plays": 21,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3559,7 +3557,7 @@
     "source_url": "https://fable52.games/play/chip-jacket",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 15,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3577,7 +3575,7 @@
     "source_url": "https://fable52.games/play/ripcore",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 16,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -3630,7 +3628,7 @@
     "source_url": "https://fable52.games/play/raptor-race",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 13,
+     "fable52_plays": 16,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3648,7 +3646,7 @@
     "source_url": "https://fable52.games/play/starship-dogfight",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -3665,7 +3663,7 @@
     "source_url": "https://fable52.games/play/gz-drift",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 22,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3683,7 +3681,7 @@
     "source_url": "https://fable52.games/play/maple-run",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 12,
+     "fable52_plays": 14,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3737,7 +3735,7 @@
     "source_url": "https://fable52.games/play/eat-and-go",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 8,
+     "fable52_plays": 10,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3773,7 +3771,7 @@
     "source_url": "https://fable52.games/play/gabriels-sweet-town",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -3809,7 +3807,7 @@
     "source_url": "https://fable52.games/play/bubble-wrap",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 7,
+     "fable52_plays": 8,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3827,7 +3825,7 @@
     "source_url": "https://fable52.games/play/apex-lap",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 9,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3863,7 +3861,7 @@
     "source_url": "https://fable52.games/play/office-smash",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 13,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3881,7 +3879,7 @@
     "source_url": "https://fable52.games/play/earthfm",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 7,
+     "fable52_plays": 8,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -4059,9 +4057,45 @@
     "source_url": "https://fable52.games/play/sanjie-bajiaoshan",
     "first_date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 25,
      "fable52_featured": false,
-     "chart_new_entry": false
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "xikhar.github.io/papertrails": {
+  "name": "Papertrails",
+  "status": "收录",
+  "game_id": "papertrails",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/papertrails",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "fable52_plays": 4,
+     "fable52_featured": false,
+     "github_stars": 86,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "clockendbader.github.io/model-arena": {
+  "name": "LAST LIGHT — Rooftop Run",
+  "status": "收录",
+  "game_id": "last-light-rooftop-run",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/last-light-rooftop-run",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "fable52_plays": 5,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": true
     }
    }
   ]

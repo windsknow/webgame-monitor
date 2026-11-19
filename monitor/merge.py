@@ -54,10 +54,10 @@ def issue_of(date):
 def not_game_repo(l):
     """合集站把作者的工具包或技能合集仓库当成"源码仓库"时，仓库的星数不是这款游戏的热度，不计入。
     这类仓库列在 config.json 的 repo_not_game 里（每周核验时发现就加）。"""
-    repo = (l.get('repo') or '').lower().rstrip('/')
+    repo = (l.get('repo') or (l.get('source_url') if l.get('channel') == 'github' else '') or '').lower().rstrip('/')
     bad = [r.lower() for r in util.config().get('repo_not_game', [])]
     if repo and any(repo.endswith('github.com/' + r) for r in bad) and 'github_stars' in (l.get('metrics') or {}):
-        l['metrics'] = {k: v for k, v in l['metrics'].items() if k != 'github_stars'}
+        l['metrics'] = {k: v for k, v in l['metrics'].items() if k not in ('github_stars', 'github_forks')}
     return l
 
 

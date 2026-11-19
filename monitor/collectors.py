@@ -468,6 +468,8 @@ def fable52(cfg, date):
     detail_p = util.p('data', 'state', 'fable52_detail.json')
     cache = util.load(detail_p, {}) or {}
     days = cfg['thresholds'].get('x_refresh_days', 14)
+    # 每周核验时人工或从其他清单找到的作者 X 帖子（合集站详情页没给帖子链接的游戏），见 data/fable52_x_posts.json
+    xmap = util.load(util.p('data', 'fable52_x_posts.json'), {}) or {}
     entries = []
     for g in games:
         slug = g.get('slug')
@@ -486,9 +488,11 @@ def fable52(cfg, date):
                 continue
             cache[slug] = d
         play = d.get('play_url') or own              # 站内托管的（没有外部链接）用站内页面
+        xp = (xmap.get(slug) or {}).get('url', '') if '/status/' not in (d.get('author_url') or '') else ''
         if not d.get('origin') or (d['origin'].get('checked', '') < date and
-                                   util.days_between(d.get('listed') or date, date) <= days):
-            d['origin'] = dict(trace_origin(g.get('title') or slug, play, d.get('author_url'), d.get('source_repo'),
+                                   util.days_between(d.get('listed') or date, date) <= days) or \
+                (xp and d['origin'].get('x', {}).get('url') != xp):
+            d['origin'] = dict(trace_origin(g.get('title') or slug, play, xp or d.get('author_url'), d.get('source_repo'),
                                             cfg, _shift(d.get('listed') or date, -60)), checked=date)
         org = d['origin']
         url = org.get('url') or play

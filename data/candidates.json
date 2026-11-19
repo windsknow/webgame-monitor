@@ -717,7 +717,7 @@
     "title": "Saltline",
     "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
     "metrics": {
-     "fable52_plays": 5824,
+     "fable52_plays": 5869,
      "fable52_featured": false,
      "x_views": 4302522,
      "github_stars": 276,
@@ -953,7 +953,7 @@
   "updated": "2026-11-19",
   "x_now": {
    "https://x.com/mattshumer_/status/2119877065701036047": {
-    "views": 429355,
+    "views": 429371,
     "date": "2026-11-19"
    }
   },
@@ -2856,7 +2856,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/FrensOfPRIA/status/2119643510207099323": {
-    "views": 33112,
+    "views": 33114,
     "date": "2026-11-19"
    }
   },
@@ -2969,7 +2969,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/alightinastorm/status/2120010936584945922": {
-    "views": 58675,
+    "views": 58678,
     "date": "2026-11-19"
    }
   },
@@ -3026,7 +3026,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/EvanMilenko/status/2119969113762082931": {
-    "views": 40146,
+    "views": 40149,
     "date": "2026-11-19"
    }
   },
@@ -3082,7 +3082,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/_sholtodouglas/status/2119935331499925557": {
-    "views": 198991,
+    "views": 198997,
     "date": "2026-11-19"
    }
   },
@@ -3254,7 +3254,7 @@
   "status": "收录",
   "x_now": {
    "https://x.com/loktar00/status/2120192761542615271": {
-    "views": 201810,
+    "views": 201835,
     "date": "2026-11-19"
    }
   },
@@ -3899,7 +3899,7 @@
     "title": "Pocket Soccer 3D",
     "source_url": "https://fable52.games/play/pocket-soccer-3d",
     "metrics": {
-     "fable52_plays": 1639,
+     "fable52_plays": 1656,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -3980,7 +3980,7 @@
     "title": "MOTHLIGHT // Vesper-9",
     "source_url": "https://fable52.games/play/mothlight",
     "metrics": {
-     "fable52_plays": 1016,
+     "fable52_plays": 1027,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -4049,7 +4049,7 @@
     "title": "What the Water Keeps",
     "source_url": "https://fable52.games/play/what-the-water-keeps",
     "metrics": {
-     "fable52_plays": 880,
+     "fable52_plays": 885,
      "fable52_featured": false,
      "x_views": 511921,
      "hn_points": 2,
@@ -4125,7 +4125,7 @@
     "title": "Bayhaven",
     "source_url": "https://fable52.games/play/bayhaven",
     "metrics": {
-     "fable52_plays": 699,
+     "fable52_plays": 701,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -4205,7 +4205,7 @@
     "title": "几猫3A大作",
     "source_url": "https://fable52.games/play/jimao-cs",
     "metrics": {
-     "fable52_plays": 560,
+     "fable52_plays": 567,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -4273,7 +4273,7 @@
     "title": "Dustfall",
     "source_url": "https://fable52.games/play/dustfall",
     "metrics": {
-     "fable52_plays": 655,
+     "fable52_plays": 676,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -4353,7 +4353,7 @@
     "title": "BLAMELESS",
     "source_url": "https://fable52.games/play/blameless",
     "metrics": {
-     "fable52_plays": 519,
+     "fable52_plays": 521,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -4434,7 +4434,7 @@
     "title": "鹈鹕骑单车 · Pelican on a Bike",
     "source_url": "https://fable52.games/play/pelican-on-a-bike",
     "metrics": {
-     "fable52_plays": 718,
+     "fable52_plays": 722,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -4501,7 +4501,7 @@
     "title": "青云宗 · 御剑采灵",
     "source_url": "https://fable52.games/play/qingyun-sword-flight",
     "metrics": {
-     "fable52_plays": 747,
+     "fable52_plays": 758,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -4571,13 +4571,14 @@
     "title": "Evensong",
     "source_url": "https://fable52.games/play/evensong",
     "metrics": {
-     "fable52_plays": 645,
+     "fable52_plays": 649,
      "fable52_featured": false,
+     "x_views": 487014,
      "chart_new_entry": false
     },
     "published": "2026-11-09",
     "passes": false,
-    "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
+    "ai_hint": "Claude Fable 5",
     "desc": "One duel in a drowned cathedral: a souls-like demo that plays in the browser.",
     "image": "https://fable52.games/thumbs/evensong.jpg",
     "topics": [
@@ -4589,10 +4590,10 @@
     "author_url": "https://evensong-phi.vercel.app/",
     "origin": {
      "how": "合集站给的链接",
-     "x": "",
+     "x": "https://x.com/kevin_t_ngo/status/2120238844754923874",
      "repo": "",
      "hn": "",
-     "x_text": ""
+     "x_text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight"
     },
     "last_date": "2026-11-19"
    }
@@ -4604,8 +4605,13 @@
   "status": "收录",
   "published": "2026-11-09",
   "ai_tag": "ai",
-  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
-  "signals": [],
+  "ai_evidence": "作者帖子：Claude Fable 5",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 48.7 万"
+   }
+  ],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4637,7 +4643,7 @@
     "title": "黑神话：悟空 · 虎先锋",
     "source_url": "https://fable52.games/play/wukong-tiger-vanguard",
     "metrics": {
-     "fable52_plays": 709,
+     "fable52_plays": 719,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -4704,7 +4710,7 @@
     "title": "Tidebell 潮钟",
     "source_url": "https://fable52.games/play/tidebell",
     "metrics": {
-     "fable52_plays": 471,
+     "fable52_plays": 475,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -4774,7 +4780,7 @@
     "title": "Ironvale",
     "source_url": "https://fable52.games/play/ironvale",
     "metrics": {
-     "fable52_plays": 491,
+     "fable52_plays": 495,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -4843,7 +4849,7 @@
     "title": "SUBLEVEL 07",
     "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
     "metrics": {
-     "fable52_plays": 487,
+     "fable52_plays": 488,
      "fable52_featured": false,
      "github_stars": 95,
      "chart_new_entry": false
@@ -4913,14 +4919,14 @@
     "title": "雾锁山门",
     "source_url": "https://fable52.games/play/wusuo-shanmen",
     "metrics": {
-     "fable52_plays": 430,
+     "fable52_plays": 441,
      "fable52_featured": false,
-     "github_stars": 410,
+     "x_views": 295199,
      "chart_new_entry": false
     },
     "published": "2026-11-10",
     "passes": false,
-    "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
+    "ai_hint": "我去！Fable 5",
     "desc": "A top-down xianxia action game: climb a misty mountain gate, fight its guards and duel the general Li Cang.",
     "image": "https://fable52.games/thumbs/wusuo-shanmen.jpg",
     "topics": [
@@ -4933,11 +4939,11 @@
     "author_url": "https://github.com/op7418",
     "repo": "https://github.com/op7418/guizang-game-skill",
     "origin": {
-     "how": "源码仓库的主页",
-     "x": "",
+     "how": "作者帖子里的链接",
+     "x": "https://x.com/op7418/status/2120694045299327187",
      "repo": "https://github.com/op7418/guizang-game-skill",
      "hn": "",
-     "x_text": ""
+     "x_text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/"
     },
     "last_date": "2026-11-19"
    },
@@ -4946,10 +4952,7 @@
     "date": "2026-11-12",
     "title": "guizang-game-skill",
     "source_url": "https://github.com/op7418/guizang-game-skill",
-    "metrics": {
-     "github_stars": 410,
-     "github_forks": 65
-    },
+    "metrics": {},
     "published": "2026-11-11",
     "passes": false,
     "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
@@ -4965,8 +4968,13 @@
   "status": "收录",
   "published": "2026-11-10",
   "ai_tag": "ai",
-  "ai_evidence": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
-  "signals": [],
+  "ai_evidence": "作者帖子：我去！Fable 5",
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 29.5 万"
+   }
+  ],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4999,7 +5007,7 @@
     "title": "TukTuk: وسّع يا باشا",
     "source_url": "https://fable52.games/play/tuktuk",
     "metrics": {
-     "fable52_plays": 232,
+     "fable52_plays": 233,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -5068,7 +5076,7 @@
     "title": "飞车 3D",
     "source_url": "https://fable52.games/play/feiche-3d",
     "metrics": {
-     "fable52_plays": 218,
+     "fable52_plays": 221,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -5135,7 +5143,7 @@
     "title": "Hanford Reach",
     "source_url": "https://fable52.games/play/hanford-reach",
     "metrics": {
-     "fable52_plays": 142,
+     "fable52_plays": 143,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -5204,7 +5212,7 @@
     "title": "海克斯大乱斗",
     "source_url": "https://fable52.games/play/hextech-aram",
     "metrics": {
-     "fable52_plays": 168,
+     "fable52_plays": 170,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -5420,7 +5428,7 @@
     "title": "Daedalus",
     "source_url": "https://fable52.games/play/daedalus",
     "metrics": {
-     "fable52_plays": 132,
+     "fable52_plays": 133,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -5488,7 +5496,7 @@
     "title": "运输船 3D",
     "source_url": "https://fable52.games/play/transport-ship-3d",
     "metrics": {
-     "fable52_plays": 185,
+     "fable52_plays": 188,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -5621,7 +5629,7 @@
     "title": "Boring Game",
     "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
     "metrics": {
-     "fable52_plays": 92,
+     "fable52_plays": 93,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -5690,7 +5698,7 @@
     "title": "MISREMEMBER",
     "source_url": "https://fable52.games/play/misremember",
     "metrics": {
-     "fable52_plays": 142,
+     "fable52_plays": 143,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -5829,7 +5837,7 @@
     "title": "盐线行动 Online",
     "source_url": "https://fable52.games/play/saltline-online",
     "metrics": {
-     "fable52_plays": 130,
+     "fable52_plays": 135,
      "fable52_featured": false,
      "github_stars": 26,
      "chart_new_entry": false
@@ -6034,7 +6042,7 @@
     "title": "BREACH · 运输船联机大厅",
     "source_url": "https://fable52.games/play/breach-transport-ship-online",
     "metrics": {
-     "fable52_plays": 97,
+     "fable52_plays": 98,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -6167,7 +6175,7 @@
     "title": "Open Skies",
     "source_url": "https://fable52.games/play/flight-simulator-nfljgw",
     "metrics": {
-     "fable52_plays": 117,
+     "fable52_plays": 119,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -7957,7 +7965,7 @@
     "title": "MAKINAMON · Versión Pulso",
     "source_url": "https://fable52.games/play/makinamon-pulso",
     "metrics": {
-     "fable52_plays": 35,
+     "fable52_plays": 36,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -8026,7 +8034,7 @@
     "title": "Riftline",
     "source_url": "https://fable52.games/play/riftline",
     "metrics": {
-     "fable52_plays": 39,
+     "fable52_plays": 40,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -8095,7 +8103,7 @@
     "title": "The County",
     "source_url": "https://fable52.games/play/the-county",
     "metrics": {
-     "fable52_plays": 35,
+     "fable52_plays": 36,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -8230,7 +8238,7 @@
     "title": "Arcfall Artillery",
     "source_url": "https://fable52.games/play/arcfall-artillery-ho7odp",
     "metrics": {
-     "fable52_plays": 58,
+     "fable52_plays": 59,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -8296,7 +8304,7 @@
     "title": "潮汐战线 Tidemark",
     "source_url": "https://fable52.games/play/tidemark",
     "metrics": {
-     "fable52_plays": 82,
+     "fable52_plays": 83,
      "fable52_featured": false,
      "github_stars": 24,
      "chart_new_entry": false
@@ -8518,7 +8526,7 @@
   "game_id": "gilt-gutter",
   "x_now": {
    "https://x.com/kevin_t_ngo/status/2119900487688622171": {
-    "views": 108448,
+    "views": 108457,
     "date": "2026-11-19"
    }
   },
@@ -9551,7 +9559,7 @@
     "title": "ひとつぶ庭園 (One-Grain Garden)",
     "source_url": "https://fable52.games/play/hitotsubu-teien",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -9620,7 +9628,7 @@
     "title": "Undertow",
     "source_url": "https://fable52.games/play/undertow-y8xvs5",
     "metrics": {
-     "fable52_plays": 77,
+     "fable52_plays": 80,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -9685,7 +9693,7 @@
     "title": "Black Tide",
     "source_url": "https://fable52.games/play/black-tide-hdab0j",
     "metrics": {
-     "fable52_plays": 53,
+     "fable52_plays": 56,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -9750,7 +9758,7 @@
     "title": "Graveyard Shift",
     "source_url": "https://fable52.games/play/graveyard-shift",
     "metrics": {
-     "fable52_plays": 95,
+     "fable52_plays": 99,
      "fable52_featured": false,
      "github_stars": 13,
      "chart_new_entry": false
@@ -9835,7 +9843,7 @@
     "title": "太阳系三维沙盘 · Solar System 3D",
     "source_url": "https://fable52.games/play/solar-system-3d",
     "metrics": {
-     "fable52_plays": 43,
+     "fable52_plays": 44,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -9903,7 +9911,7 @@
     "title": "Duel Knights",
     "source_url": "https://fable52.games/play/duel-knights",
     "metrics": {
-     "fable52_plays": 23,
+     "fable52_plays": 26,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -10041,7 +10049,7 @@
     "title": "Escape the Fable",
     "source_url": "https://fable52.games/play/escape-the-fable",
     "metrics": {
-     "fable52_plays": 8,
+     "fable52_plays": 9,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -10306,7 +10314,7 @@
     "title": "Circular Tic Tac Toe",
     "source_url": "https://fable52.games/play/circular-tic-tac-toe",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -10721,7 +10729,7 @@
     "title": "切りもどし ― 鋏と春の小さな鉢 (Cutting Back)",
     "source_url": "https://fable52.games/play/kirimodoshi",
     "metrics": {
-     "fable52_plays": 9,
+     "fable52_plays": 10,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -11634,7 +11642,7 @@
     "title": "T-Minus",
     "source_url": "https://fable52.games/play/t-minus",
     "metrics": {
-     "fable52_plays": 23,
+     "fable52_plays": 26,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -11704,7 +11712,7 @@
     "title": "晶塔守卫",
     "source_url": "https://fable52.games/play/crystal-tower-defense",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 22,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -11774,7 +11782,7 @@
     "title": "Apex Lap: Blender Edition",
     "source_url": "https://fable52.games/play/apex-lap-blender",
     "metrics": {
-     "fable52_plays": 20,
+     "fable52_plays": 21,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -11844,7 +11852,7 @@
     "title": "皮衣老黄",
     "source_url": "https://fable52.games/play/chip-jacket",
     "metrics": {
-     "fable52_plays": 15,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -11914,7 +11922,7 @@
     "title": "Ripcore",
     "source_url": "https://fable52.games/play/ripcore",
     "metrics": {
-     "fable52_plays": 16,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -12123,7 +12131,7 @@
     "title": "Raptor Race",
     "source_url": "https://fable52.games/play/raptor-race",
     "metrics": {
-     "fable52_plays": 13,
+     "fable52_plays": 16,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -12193,7 +12201,7 @@
     "title": "Starship Dogfight",
     "source_url": "https://fable52.games/play/starship-dogfight",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 19,
      "fable52_featured": false,
      "chart_new_entry": false
     },
@@ -12262,7 +12270,7 @@
     "title": "广州漂移",
     "source_url": "https://fable52.games/play/gz-drift",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 22,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -12332,7 +12340,7 @@
     "title": "MAPLE RUN",
     "source_url": "https://fable52.games/play/maple-run",
     "metrics": {
-     "fable52_plays": 12,
+     "fable52_plays": 14,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -12548,7 +12556,7 @@
     "title": "吃啥拉啥",
     "source_url": "https://fable52.games/play/eat-and-go",
     "metrics": {
-     "fable52_plays": 8,
+     "fable52_plays": 10,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -12688,7 +12696,7 @@
     "title": "Gabriel's Sweet Town",
     "source_url": "https://fable52.games/play/gabriels-sweet-town",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -12828,7 +12836,7 @@
     "title": "捏泡泡纸",
     "source_url": "https://fable52.games/play/bubble-wrap",
     "metrics": {
-     "fable52_plays": 7,
+     "fable52_plays": 8,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -12898,7 +12906,7 @@
     "title": "Apex Lap",
     "source_url": "https://fable52.games/play/apex-lap",
     "metrics": {
-     "fable52_plays": 9,
+     "fable52_plays": 11,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -13038,7 +13046,7 @@
     "title": "怒砸办公室",
     "source_url": "https://fable52.games/play/office-smash",
     "metrics": {
-     "fable52_plays": 10,
+     "fable52_plays": 13,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -13108,7 +13116,7 @@
     "title": "EarthFM · Listening Game",
     "source_url": "https://fable52.games/play/earthfm",
     "metrics": {
-     "fable52_plays": 7,
+     "fable52_plays": 8,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -13674,12 +13682,12 @@
     "title": "三借芭蕉扇",
     "source_url": "https://fable52.games/play/sanjie-bajiaoshan",
     "metrics": {
-     "fable52_plays": 18,
+     "fable52_plays": 25,
      "fable52_featured": false,
-     "chart_new_entry": false
+     "chart_new_entry": true
     },
     "published": "2026-11-17",
-    "passes": false,
+    "passes": true,
     "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
     "desc": "A turn-based Journey to the West RPG: borrow the palm-leaf fan three times to put out the Flaming Mountains. Five-element counters, seventy-two transformations, about an hour.",
     "image": "https://fable52.games/thumbs/sanjie-bajiaoshan.jpg",
@@ -13730,5 +13738,145 @@
    "canvas_how": ""
   },
   "game_id": "game-16"
+ },
+ "xikhar.github.io/papertrails": {
+  "key": "xikhar.github.io/papertrails",
+  "url": "https://xikhar.github.io/papertrails/",
+  "name": "Papertrails",
+  "leads": [
+   {
+    "channel": "fable52",
+    "date": "2026-11-19",
+    "title": "Papertrails",
+    "source_url": "https://fable52.games/play/papertrails",
+    "metrics": {
+     "fable52_plays": 4,
+     "fable52_featured": false,
+     "github_stars": 86,
+     "chart_new_entry": true
+    },
+    "published": "2026-11-17",
+    "passes": true,
+    "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 + Claude Opus 5.5 制作",
+    "desc": "An endless pop-up book you walk through: paper villages rise and fold away as you wander five biomes, collecting pressed leaves, shells and night stars.",
+    "image": "https://fable52.games/thumbs/papertrails.jpg",
+    "topics": [
+     "Exploration",
+     "Collectathon",
+     "Procedural",
+     "Three.js",
+     "Relaxing"
+    ],
+    "author": "Shikhar",
+    "author_url": "https://github.com/xikhar",
+    "repo": "https://github.com/xikhar/papertrails",
+    "origin": {
+     "how": "源码仓库的主页",
+     "x": "",
+     "repo": "https://github.com/xikhar/papertrails",
+     "hn": "",
+     "x_text": ""
+    },
+    "last_date": "2026-11-19"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "fable52"
+  },
+  "status": "收录",
+  "published": "2026-11-17",
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 + Claude Opus 5.5 制作",
+  "signals": [],
+  "updated": "2026-11-19",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "page": {
+   "ok": true,
+   "title": "Papertrails",
+   "desc": "Explore an endless paper world. Wander through handcrafted villages, forests, and winding trails.",
+   "image": "https://xikhar.github.io/papertrails/social-card.jpg",
+   "icon": "data:,",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "papertrails"
+ },
+ "clockendbader.github.io/model-arena": {
+  "key": "clockendbader.github.io/model-arena",
+  "url": "https://clockendbader.github.io/model-arena/fable-5.2/parkour/",
+  "name": "LAST LIGHT — Rooftop Run",
+  "leads": [
+   {
+    "channel": "fable52",
+    "date": "2026-11-19",
+    "title": "LAST LIGHT — Rooftop Run",
+    "source_url": "https://fable52.games/play/last-light-rooftop-run",
+    "metrics": {
+     "fable52_plays": 5,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": true
+    },
+    "published": "2026-11-19",
+    "passes": true,
+    "ai_hint": "Four AI coding models, the same prompt, one shot each",
+    "desc": "A first-person parkour time trial across a golden-hour city: ten checkpoints from the start roof to the beacon on the tower, and a ghost of your best run.",
+    "image": "https://fable52.games/thumbs/last-light-rooftop-run.jpg",
+    "topics": [
+     "Parkour",
+     "First-Person",
+     "Time Trial",
+     "Three.js",
+     "WebGL"
+    ],
+    "author": "clockendbader",
+    "author_url": "https://github.com/clockendbader",
+    "repo": "https://github.com/clockendbader/model-arena",
+    "origin": {
+     "how": "合集站给的链接",
+     "x": "",
+     "repo": "https://github.com/clockendbader/model-arena",
+     "hn": "",
+     "x_text": ""
+    },
+    "last_date": "2026-11-19"
+   }
+  ],
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "fable52"
+  },
+  "status": "收录",
+  "published": "2026-11-19",
+  "ai_tag": "ai",
+  "ai_evidence": "Four AI coding models, the same prompt, one shot each",
+  "signals": [],
+  "updated": "2026-11-19",
+  "hard": {
+   "是网页游戏": true,
+   "近期": true
+  },
+  "link_status": "ok",
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "page": {
+   "ok": true,
+   "title": "LAST LIGHT — Rooftop Run",
+   "desc": "",
+   "image": "",
+   "icon": "",
+   "has_canvas": true,
+   "canvas_how": "首页"
+  },
+  "game_id": "last-light-rooftop-run"
  }
 }

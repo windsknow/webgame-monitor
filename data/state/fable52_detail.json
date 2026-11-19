@@ -238,14 +238,21 @@
   "has_prompt": false,
   "listed": "2026-11-09",
   "origin": {
-   "x": {},
+   "x": {
+    "url": "https://x.com/kevin_t_ngo/status/2120238844754923874",
+    "handle": "kevin_t_ngo",
+    "views": 487014,
+    "likes": 1792,
+    "date": "2026-11-10",
+    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight"
+   },
    "repo": {},
    "hn": {},
    "url": "https://evensong-phi.vercel.app/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "",
-   "ai_hint": "",
+   "published": "2026-11-10",
+   "ai_hint": "Claude Fable 5",
    "checked": "2026-11-19"
   }
  },
@@ -349,7 +356,14 @@
   "has_prompt": false,
   "listed": "2026-11-10",
   "origin": {
-   "x": {},
+   "x": {
+    "url": "https://x.com/op7418/status/2120694045299327187",
+    "handle": "op7418",
+    "views": 295199,
+    "likes": 1161,
+    "date": "2026-11-12",
+    "text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/"
+   },
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
@@ -360,10 +374,10 @@
    },
    "hn": {},
    "url": "https://op7418.github.io/guizang-game-skill/",
-   "how": "源码仓库的主页",
+   "how": "作者帖子里的链接",
    "mirror": false,
    "published": "2026-11-11",
-   "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
+   "ai_hint": "我去！Fable 5",
    "checked": "2026-11-19"
   }
  },
@@ -2105,6 +2119,56 @@
    "mirror": false,
    "published": "2026-11-18",
    "ai_hint": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6",
+   "checked": "2026-11-19"
+  }
+ },
+ "papertrails": {
+  "play_url": "https://xikhar.github.io/papertrails/",
+  "source_repo": "https://github.com/xikhar/papertrails",
+  "author_url": "https://github.com/xikhar",
+  "has_prompt": false,
+  "listed": "2026-11-19",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/xikhar/papertrails",
+    "created": "2026-11-17",
+    "stars": 86,
+    "homepage": "https://xikhar.github.io/papertrails/",
+    "desc": "Papertrails — explore an endless paper world",
+    "owner": "xikhar"
+   },
+   "hn": {},
+   "url": "https://xikhar.github.io/papertrails/",
+   "how": "源码仓库的主页",
+   "mirror": false,
+   "published": "2026-11-17",
+   "ai_hint": "",
+   "checked": "2026-11-19"
+  }
+ },
+ "last-light-rooftop-run": {
+  "play_url": "https://clockendbader.github.io/model-arena/fable-5.2/parkour/",
+  "source_repo": "https://github.com/clockendbader/model-arena",
+  "author_url": "https://github.com/clockendbader",
+  "has_prompt": false,
+  "listed": "2026-11-19",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/clockendbader/model-arena",
+    "created": "2026-11-18",
+    "stars": 0,
+    "homepage": "",
+    "desc": "Four AI coding models, the same prompt, one shot each. Play every build.",
+    "owner": "clockendbader"
+   },
+   "hn": {},
+   "url": "https://clockendbader.github.io/model-arena/fable-5.2/parkour/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "Four AI coding models, the same prompt, one shot each",
    "checked": "2026-11-19"
   }
  }
