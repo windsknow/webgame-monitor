@@ -51,6 +51,16 @@ def issue_of(date):
     return (d - datetime.timedelta(days=d.weekday())).isoformat()
 
 
+def not_game_repo(l):
+    """合集站把作者的工具包或技能合集仓库当成"源码仓库"时，仓库的星数不是这款游戏的热度，不计入。
+    这类仓库列在 config.json 的 repo_not_game 里（每周核验时发现就加）。"""
+    repo = (l.get('repo') or '').lower().rstrip('/')
+    bad = [r.lower() for r in util.config().get('repo_not_game', [])]
+    if repo and any(repo.endswith('github.com/' + r) for r in bad) and 'github_stars' in (l.get('metrics') or {}):
+        l['metrics'] = {k: v for k, v in l['metrics'].items() if k != 'github_stars'}
+    return l
+
+
 def load_leads(date, days):
     """读最近 days 天各渠道的原始线索。X 帖子按 data/x_judgments.json 里最新的核验结论重新判断。
     返回 (线索列表, 这次读到的全部 X 帖子链接)。"""
@@ -65,7 +75,7 @@ def load_leads(date, days):
         if ch != 'x':
             for l in raw.get('leads', []):
                 if l.get('key'):
-                    leads.append(dict(l, date=d))
+                    leads.append(not_game_repo(dict(l, date=d)))
             continue
         for it in raw.get('items', []):
             x_posts.add(it['link'])

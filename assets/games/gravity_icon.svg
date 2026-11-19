@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#1b2160"/><stop offset="1" stop-color="#070a1c"/></radialGradient>
+    <radialGradient id="pl" cx="38%" cy="34%" r="70%"><stop offset="0" stop-color="#8fe3ff"/><stop offset="0.45" stop-color="#2f7fd8"/><stop offset="1" stop-color="#0b2a73"/></radialGradient>
+    <radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0.6" stop-color="#5fb6ff" stop-opacity="0.55"/><stop offset="1" stop-color="#5fb6ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="22" cy="24" r="1.6" fill="#fff" opacity=".8"/><circle cx="104" cy="18" r="1.2" fill="#fff" opacity=".7"/><circle cx="110" cy="100" r="1.5" fill="#fff" opacity=".7"/><circle cx="16" cy="96" r="1.1" fill="#fff" opacity=".6"/>
+  <circle cx="64" cy="66" r="46" fill="url(#gl)"/>
+  <circle cx="64" cy="66" r="33" fill="url(#pl)"/>
+  <path d="M44 56c6-8 16-10 22-6s4 12-4 14-14 6-18 2-4-5 0-10z" fill="#3f9b45" opacity=".85"/>
+  <circle cx="53" cy="62" r="7.5" fill="#fff"/><circle cx="75" cy="62" r="7.5" fill="#fff"/>
+  <circle cx="55" cy="63" r="4" fill="#141019"/><circle cx="77" cy="63" r="4" fill="#141019"/>
+  <circle cx="20" cy="64" r="6" fill="#a9a29a"/><circle cx="104" cy="44" r="5" fill="#8c6242"/><circle cx="98" cy="96" r="3.5" fill="#d2cfca"/>
+</svg>

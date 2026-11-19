@@ -1825,10 +1825,10 @@
     "owner": "zenstory-ai"
    },
    "hn": {},
-   "url": "https://zenstory.ai/zh/novel-to-game",
-   "how": "源码仓库的主页",
-   "mirror": true,
-   "published": "2026-07-18",
+   "url": "https://xiyouji.vibecoco.ai",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
    "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
    "checked": "2026-11-19"
   }

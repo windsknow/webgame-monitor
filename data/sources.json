@@ -9,8 +9,8 @@
     "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 562,
-     "github_forks": 46
+     "github_stars": 585,
+     "github_forks": 51
     }
    }
   ]
@@ -25,8 +25,8 @@
     "source_url": "https://github.com/patch-gg/trompe",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 219,
-     "github_forks": 18
+     "github_stars": 223,
+     "github_forks": 19
     }
    }
   ]
@@ -41,7 +41,7 @@
     "source_url": "https://github.com/abouchedidxcode/open-source-hands",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 215,
+     "github_stars": 217,
      "github_forks": 31
     }
    }
@@ -73,8 +73,8 @@
     "source_url": "https://github.com/fjaeckel/seriesoftubes",
     "first_date": "2026-11-11",
     "metrics": {
-     "github_stars": 236,
-     "github_forks": 50
+     "github_stars": 247,
+     "github_forks": 53
     }
    }
   ]
@@ -258,8 +258,8 @@
     "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 4791,
-     "fable52_featured": true,
+     "fable52_plays": 5824,
+     "fable52_featured": false,
      "x_views": 4302522,
      "github_stars": 276,
      "hn_points": 71,
@@ -354,7 +354,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50448340",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 96,
+     "hn_points": 97,
      "hn_comments": 23
     }
    }
@@ -454,9 +454,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 8,
-     "astrocade_plays": 113076,
-     "astrocade_likes": 2654,
+     "astrocade_rank": 12,
+     "astrocade_plays": 139602,
+     "astrocade_likes": 3218,
      "chart_new_entry": false
     }
    }
@@ -490,9 +490,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 5,
-     "astrocade_plays": 303130,
-     "astrocade_likes": 8292,
+     "astrocade_rank": 3,
+     "astrocade_plays": 372923,
+     "astrocade_likes": 9926,
      "chart_new_entry": false
     }
    }
@@ -562,7 +562,7 @@
     "source_url": "https://github.com/zz85/slop-cities",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 43,
+     "github_stars": 46,
      "github_forks": 26
     }
    }
@@ -578,8 +578,8 @@
     "source_url": "https://github.com/Virtastic/d2-web",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 73,
-     "github_forks": 8
+     "github_stars": 83,
+     "github_forks": 11
     }
    }
   ]
@@ -594,7 +594,7 @@
     "source_url": "https://github.com/librehold-game/librehold",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 56,
+     "github_stars": 57,
      "github_forks": 8
     }
    }
@@ -658,7 +658,7 @@
     "source_url": "https://github.com/Ritrls/dream-arcade-demo",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 96,
+     "github_stars": 100,
      "github_forks": 0
     }
    }
@@ -738,8 +738,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50458710",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 91,
-     "hn_comments": 68
+     "hn_points": 92,
+     "hn_comments": 69
     }
    }
   ]
@@ -755,8 +755,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 2,
-     "spawn_plays": 43832,
-     "spawn_likes": 1263,
+     "spawn_plays": 54620,
+     "spawn_likes": 1426,
      "chart_new_entry": false
     }
    }
@@ -773,8 +773,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 3,
-     "spawn_plays": 92799,
-     "spawn_likes": 609,
+     "spawn_plays": 93595,
+     "spawn_likes": 613,
      "chart_new_entry": false
     }
    }
@@ -791,8 +791,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 5,
-     "spawn_plays": 9460,
-     "spawn_likes": 260,
+     "spawn_plays": 10072,
+     "spawn_likes": 278,
      "chart_new_entry": false
     }
    }
@@ -808,9 +808,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 6,
-     "spawn_plays": 5741,
-     "spawn_likes": 192,
+     "spawn_rank": 7,
+     "spawn_plays": 5955,
+     "spawn_likes": 200,
      "chart_new_entry": false
     }
    }
@@ -827,8 +827,8 @@
     "first_date": "2026-11-12",
     "metrics": {
      "spawn_rank": 11,
-     "spawn_plays": 1983,
-     "spawn_likes": 82,
+     "spawn_plays": 2058,
+     "spawn_likes": 84,
      "chart_new_entry": false
     }
    }
@@ -844,9 +844,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 13,
-     "spawn_plays": 3889,
-     "spawn_likes": 80,
+     "spawn_rank": 12,
+     "spawn_plays": 4109,
+     "spawn_likes": 84,
      "chart_new_entry": false
     }
    }
@@ -862,9 +862,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 17,
-     "spawn_plays": 988,
-     "spawn_likes": 73,
+     "spawn_rank": 18,
+     "spawn_plays": 1043,
+     "spawn_likes": 72,
      "chart_new_entry": false
     }
    }
@@ -880,9 +880,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 18,
-     "spawn_plays": 930,
-     "spawn_likes": 67,
+     "spawn_rank": 19,
+     "spawn_plays": 1004,
+     "spawn_likes": 71,
      "chart_new_entry": false
     }
    }
@@ -898,9 +898,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 19,
-     "spawn_plays": 32374,
-     "spawn_likes": 66,
+     "spawn_rank": 17,
+     "spawn_plays": 39229,
+     "spawn_likes": 74,
      "chart_new_entry": false
     }
    }
@@ -1112,9 +1112,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 16,
-     "astrocade_plays": 559976,
-     "astrocade_likes": 12266,
+     "astrocade_rank": 7,
+     "astrocade_plays": 568632,
+     "astrocade_likes": 12422,
      "chart_new_entry": false
     }
    }
@@ -1130,9 +1130,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 3,
-     "astrocade_plays": 874999,
-     "astrocade_likes": 16270,
+     "astrocade_rank": 7,
+     "astrocade_plays": 969010,
+     "astrocade_likes": 17740,
      "chart_new_entry": false
     }
    }
@@ -1292,7 +1292,7 @@
     "source_url": "https://fable52.games/play/pocket-soccer-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1214,
+     "fable52_plays": 1639,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -1310,9 +1310,9 @@
     "source_url": "https://fable52.games/play/mothlight",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 667,
+     "fable52_plays": 1016,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1328,9 +1328,9 @@
     "source_url": "https://fable52.games/play/what-the-water-keeps",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 668,
+     "fable52_plays": 880,
      "fable52_featured": false,
-     "x_views": 506648,
+     "x_views": 511921,
      "hn_points": 2,
      "hn_comments": 1,
      "chart_new_entry": false
@@ -1348,16 +1348,16 @@
     "source_url": "https://fable52.games/play/bayhaven",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 558,
+     "fable52_plays": 699,
      "fable52_featured": false,
-     "github_stars": 2,
+     "github_stars": 3,
      "chart_new_entry": false
     }
    }
   ]
  },
  "fable52.games/play/jimao-cs": {
-  "name": "几猫CS",
+  "name": "几猫3A大作",
   "status": "收录",
   "game_id": "cs",
   "leads": [
@@ -1366,7 +1366,7 @@
     "source_url": "https://fable52.games/play/jimao-cs",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 392,
+     "fable52_plays": 560,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1383,7 +1383,7 @@
     "source_url": "https://fable52.games/play/dustfall",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 488,
+     "fable52_plays": 655,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -1401,9 +1401,9 @@
     "source_url": "https://fable52.games/play/blameless",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 450,
+     "fable52_plays": 519,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1419,7 +1419,7 @@
     "source_url": "https://fable52.games/play/pelican-on-a-bike",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 540,
+     "fable52_plays": 718,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1436,9 +1436,9 @@
     "source_url": "https://fable52.games/play/qingyun-sword-flight",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 444,
+     "fable52_plays": 747,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1454,7 +1454,7 @@
     "source_url": "https://fable52.games/play/evensong",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 391,
+     "fable52_plays": 645,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1471,7 +1471,7 @@
     "source_url": "https://fable52.games/play/wukong-tiger-vanguard",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 364,
+     "fable52_plays": 709,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1488,9 +1488,9 @@
     "source_url": "https://fable52.games/play/tidebell",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 343,
+     "fable52_plays": 471,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1506,9 +1506,9 @@
     "source_url": "https://fable52.games/play/ironvale",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 388,
+     "fable52_plays": 491,
      "fable52_featured": false,
-     "github_stars": 1,
+     "github_stars": 3,
      "chart_new_entry": false
     }
    }
@@ -1524,7 +1524,7 @@
     "source_url": "https://fable52.games/play/sublevel-07-fps-repro",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 376,
+     "fable52_plays": 487,
      "fable52_featured": false,
      "github_stars": 95,
      "chart_new_entry": false
@@ -1542,9 +1542,9 @@
     "source_url": "https://fable52.games/play/wusuo-shanmen",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 237,
+     "fable52_plays": 430,
      "fable52_featured": false,
-     "github_stars": 357,
+     "github_stars": 410,
      "chart_new_entry": false
     }
    },
@@ -1553,8 +1553,8 @@
     "source_url": "https://github.com/op7418/guizang-game-skill",
     "first_date": "2026-11-12",
     "metrics": {
-     "github_stars": 357,
-     "github_forks": 56
+     "github_stars": 410,
+     "github_forks": 65
     }
    }
   ]
@@ -1569,7 +1569,7 @@
     "source_url": "https://fable52.games/play/tuktuk",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 201,
+     "fable52_plays": 232,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1587,7 +1587,7 @@
     "source_url": "https://fable52.games/play/feiche-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 154,
+     "fable52_plays": 218,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1604,7 +1604,7 @@
     "source_url": "https://fable52.games/play/hanford-reach",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 121,
+     "fable52_plays": 142,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1622,7 +1622,7 @@
     "source_url": "https://fable52.games/play/hextech-aram",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 112,
+     "fable52_plays": 168,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1639,9 +1639,9 @@
     "source_url": "https://fable52.games/play/shuttle-strike",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 94,
+     "fable52_plays": 117,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 1,
      "chart_new_entry": false
     }
    }
@@ -1657,7 +1657,7 @@
     "source_url": "https://fable52.games/play/harvest-standoff",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 92,
+     "fable52_plays": 109,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -1675,9 +1675,9 @@
     "source_url": "https://fable52.games/play/daedalus",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 112,
+     "fable52_plays": 132,
      "fable52_featured": false,
-     "github_stars": 1,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1693,7 +1693,7 @@
     "source_url": "https://fable52.games/play/transport-ship-3d",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 105,
+     "fable52_plays": 185,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1710,7 +1710,7 @@
     "source_url": "https://fable52.games/play/warm-toy-room-v25",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 58,
+     "fable52_plays": 84,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1727,7 +1727,7 @@
     "source_url": "https://fable52.games/play/boring-game-sf-bay-transit",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 82,
+     "fable52_plays": 92,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1745,9 +1745,9 @@
     "source_url": "https://fable52.games/play/misremember",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 100,
+     "fable52_plays": 142,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    }
@@ -1763,7 +1763,7 @@
     "source_url": "https://fable52.games/play/sternenjaeger",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 100,
+     "fable52_plays": 122,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1781,9 +1781,9 @@
     "source_url": "https://fable52.games/play/saltline-online",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 88,
+     "fable52_plays": 130,
      "fable52_featured": false,
-     "github_stars": 23,
+     "github_stars": 26,
      "chart_new_entry": false
     }
    }
@@ -1799,7 +1799,7 @@
     "source_url": "https://fable52.games/play/emberdeep",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 87,
+     "fable52_plays": 99,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1817,7 +1817,7 @@
     "source_url": "https://fable52.games/play/becario-del-universo",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 50,
+     "fable52_plays": 65,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -1835,7 +1835,7 @@
     "source_url": "https://fable52.games/play/breach-transport-ship-online",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 61,
+     "fable52_plays": 97,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1852,7 +1852,7 @@
     "source_url": "https://fable52.games/play/duskline-vxn7rh",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 84,
+     "fable52_plays": 134,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1869,7 +1869,7 @@
     "source_url": "https://fable52.games/play/flight-simulator-nfljgw",
     "first_date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 64,
+     "fable52_plays": 117,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -1886,7 +1886,7 @@
     "source_url": "https://github.com/speedydevil007/road-sdl2-rash",
     "first_date": "2026-11-13",
     "metrics": {
-     "github_stars": 33,
+     "github_stars": 36,
      "github_forks": 0
     }
    }
@@ -1918,7 +1918,7 @@
     "source_url": "https://news.ycombinator.com/item?id=50457230",
     "first_date": "2026-11-12",
     "metrics": {
-     "hn_points": 247,
+     "hn_points": 249,
      "hn_comments": 97
     }
    }
@@ -1950,8 +1950,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50467618",
     "first_date": "2026-11-13",
     "metrics": {
-     "hn_points": 309,
-     "hn_comments": 129
+     "hn_points": 310,
+     "hn_comments": 131
     }
    }
   ]
@@ -1966,9 +1966,9 @@
     "source_url": "https://www.spawn.co/",
     "first_date": "2026-11-13",
     "metrics": {
-     "spawn_rank": 7,
-     "spawn_plays": 5145,
-     "spawn_likes": 163,
+     "spawn_rank": 6,
+     "spawn_plays": 8115,
+     "spawn_likes": 236,
      "chart_new_entry": false
     }
    }
@@ -1984,8 +1984,8 @@
     "source_url": "https://wavedash.com/",
     "first_date": "2026-11-13",
     "metrics": {
-     "wavedash_rank": 3,
-     "wavedash_playing": 13,
+     "wavedash_rank": 2,
+     "wavedash_playing": 14,
      "chart_new_entry": false
     }
    }
@@ -2056,9 +2056,9 @@
     "first_date": "2026-11-14",
     "metrics": {
      "astrocade_rank": 8,
-     "astrocade_plays": 39515,
-     "astrocade_likes": 744,
-     "chart_new_entry": true
+     "astrocade_plays": 135212,
+     "astrocade_likes": 2518,
+     "chart_new_entry": false
     }
    }
   ]
@@ -2091,9 +2091,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-14",
     "metrics": {
-     "astrocade_rank": 19,
-     "astrocade_plays": 23267,
-     "astrocade_likes": 511,
+     "astrocade_rank": 9,
+     "astrocade_plays": 26937,
+     "astrocade_likes": 595,
      "chart_new_entry": false
     }
    }
@@ -2201,7 +2201,7 @@
     "metrics": {
      "verse8_list": "trending",
      "verse8_rank": 1,
-     "verse8_sessions": 184,
+     "verse8_sessions": 212,
      "verse8_likes": 11,
      "chart_new_entry": false
     }
@@ -2255,9 +2255,9 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-15",
     "metrics": {
-     "astrocade_rank": 9,
-     "astrocade_plays": 33785,
-     "astrocade_likes": 609,
+     "astrocade_rank": 10,
+     "astrocade_plays": 39482,
+     "astrocade_likes": 717,
      "chart_new_entry": false
     }
    }
@@ -2325,7 +2325,7 @@
     "source_url": "https://discourse.threejs.org/t/elite-warfare-a-body-cam-tactical-fps-in-the-browser-bots-p2p-multiplayer-2-maps/97088",
     "first_date": "2026-11-15",
     "metrics": {
-     "threejs_views": 112,
+     "threejs_views": 120,
      "threejs_replies": 1,
      "threejs_likes": 5
     }
@@ -2342,7 +2342,7 @@
     "source_url": "https://discourse.threejs.org/t/from-a-cookie-photo-to-a-three-js-physics-demo/97071",
     "first_date": "2026-11-15",
     "metrics": {
-     "threejs_views": 103,
+     "threejs_views": 115,
      "threejs_replies": 2,
      "threejs_likes": 0
     }
@@ -2404,10 +2404,10 @@
     "source_url": "https://www.astrocade.com/category/trending",
     "first_date": "2026-11-16",
     "metrics": {
-     "astrocade_rank": 6,
-     "astrocade_plays": 29827,
-     "astrocade_likes": 468,
-     "chart_new_entry": true
+     "astrocade_rank": 4,
+     "astrocade_plays": 41235,
+     "astrocade_likes": 658,
+     "chart_new_entry": false
     }
    }
   ]
@@ -2440,10 +2440,10 @@
     "source_url": "https://fable52.games/play/makinamon-pulso",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 12,
+     "fable52_plays": 35,
      "fable52_featured": false,
      "github_stars": 0,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ]
@@ -2458,10 +2458,10 @@
     "source_url": "https://fable52.games/play/riftline",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 14,
+     "fable52_plays": 39,
      "fable52_featured": false,
      "github_stars": 0,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ]
@@ -2476,10 +2476,10 @@
     "source_url": "https://fable52.games/play/the-county",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 15,
+     "fable52_plays": 35,
      "fable52_featured": false,
      "github_stars": 1,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ]
@@ -2494,9 +2494,9 @@
     "source_url": "https://fable52.games/play/emberhold-xwn1lu",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 22,
+     "fable52_plays": 64,
      "fable52_featured": false,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ]
@@ -2511,9 +2511,9 @@
     "source_url": "https://fable52.games/play/arcfall-artillery-ho7odp",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 17,
+     "fable52_plays": 58,
      "fable52_featured": false,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ]
@@ -2528,10 +2528,10 @@
     "source_url": "https://fable52.games/play/tidemark",
     "first_date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 31,
+     "fable52_plays": 82,
      "fable52_featured": false,
-     "github_stars": 19,
-     "chart_new_entry": true
+     "github_stars": 24,
+     "chart_new_entry": false
     }
    },
    {
@@ -2539,8 +2539,8 @@
     "source_url": "https://github.com/CocoSgt/dsh-game-tidemark",
     "first_date": "2026-11-15",
     "metrics": {
-     "github_stars": 19,
-     "github_forks": 0
+     "github_stars": 24,
+     "github_forks": 1
     }
    }
   ]
@@ -2555,8 +2555,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50510296",
     "first_date": "2026-11-16",
     "metrics": {
-     "hn_points": 34,
-     "hn_comments": 7
+     "hn_points": 232,
+     "hn_comments": 68
     }
    }
   ]
@@ -2571,8 +2571,8 @@
     "source_url": "https://news.ycombinator.com/item?id=50503465",
     "first_date": "2026-11-16",
     "metrics": {
-     "hn_points": 197,
-     "hn_comments": 39
+     "hn_points": 221,
+     "hn_comments": 42
     }
    }
   ]
@@ -2589,6 +2589,1479 @@
     "metrics": {
      "x_views": 105295,
      "x_likes": 281
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/find-my-pet/01m6xd2k668s7m44cdv7m9hqtj": {
+  "name": "FIND MY PET",
+  "status": "收录",
+  "game_id": "find-my-pet",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 30788,
+     "astrocade_likes": 325,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/jujutsu-tic-tac-toe/01kv6xmh6da0pht0k5avrxdfny": {
+  "name": "Jujutsu Tic-Tac-Toe",
+  "status": "收录",
+  "game_id": "jujutsu-tic-tac-toe",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 14,
+     "astrocade_plays": 51978,
+     "astrocade_likes": 828,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/air-cargo-tycoon/01m6s3fds55gnj7eayq1f7q405": {
+  "name": "AIR CARGO TYCOON",
+  "status": "收录",
+  "game_id": "air-cargo-tycoon",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 15,
+     "astrocade_plays": 36342,
+     "astrocade_likes": 493,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "cookiesaner.itch.io/demo": {
+  "name": "Cookiesaner",
+  "status": "收录",
+  "game_id": "cookiesaner",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "azreal-the-fallen.itch.io/ram-man": {
+  "name": "Ram Man: Half Goat, Half God",
+  "status": "收录",
+  "game_id": "ram-man-half-goat-half-god",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "stevkazt.github.io/kart-rush": {
+  "name": "Kart Rush",
+  "status": "收录",
+  "game_id": "kart-rush",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "mutaafaziz.com": {
+  "name": "OpenAero DFW",
+  "status": "收录",
+  "game_id": "openaero-dfw",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "labiel1.itch.io/a-guilda": {
+  "name": "A Guilda",
+  "status": "收录",
+  "game_id": "a-guilda",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "doudizhu.pocketplay.win": {
+  "name": "Dou Dizhu",
+  "status": "收录",
+  "game_id": "dou-dizhu",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "csaf.itch.io/halflight": {
+  "name": "HALFLIGHT",
+  "status": "收录",
+  "game_id": "halflight",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "robertchaba.github.io/next-please": {
+  "name": "Next, Please!",
+  "status": "收录",
+  "game_id": "next-please",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "eraguessr.ai": {
+  "name": "EraGuessr",
+  "status": "收录",
+  "game_id": "eraguessr",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "gravity.hertzmc.com": {
+  "name": "Gravity",
+  "status": "收录",
+  "game_id": "gravity",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "appside.build": {
+  "name": "Appside app catalog",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "spriteforge.tech": {
+  "name": "SpriteForge",
+  "status": "拒绝",
+  "game_id": "spriteforge",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "claudecodegames.com": {
+  "name": "Claude Code Games",
+  "status": "拒绝",
+  "game_id": "claude-code-games",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "ottersplay.com": {
+  "name": "OttersPlay",
+  "status": "拒绝",
+  "game_id": "ottersplay",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "github.com/fengyiqicoder/awesome-fable-5.2": {
+  "name": "Awesome Fable 5.2",
+  "status": "拒绝",
+  "game_id": "awesome-fable-5-2",
+  "leads": [
+   {
+    "channel": "awesome",
+    "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ]
+ },
+ "fable52.games/play/ushiro-no-haniwa": {
+  "name": "うしろのハニワ (The Haniwa Behind You)",
+  "status": "收录",
+  "game_id": "the-haniwa-behind-you",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/ushiro-no-haniwa",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/pon-to-mori-wa-tomoru": {
+  "name": "ぽん、と森は灯る (Pon, the Forest Lights Up)",
+  "status": "收录",
+  "game_id": "pon-the-forest-lights-up",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/pon-to-mori-wa-tomoru",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/hitotsubu-teien": {
+  "name": "ひとつぶ庭園 (One-Grain Garden)",
+  "status": "收录",
+  "game_id": "one-grain-garden",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/hitotsubu-teien",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/undertow-y8xvs5": {
+  "name": "Undertow",
+  "status": "收录",
+  "game_id": "undertow",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/undertow-y8xvs5",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 77,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/black-tide-hdab0j": {
+  "name": "Black Tide",
+  "status": "收录",
+  "game_id": "black-tide",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/black-tide-hdab0j",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 53,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "zombies.ethanplus.ai": {
+  "name": "Graveyard Shift",
+  "status": "收录",
+  "game_id": "graveyard-shift",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/graveyard-shift",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 95,
+     "fable52_featured": false,
+     "github_stars": 13,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "source_url": "https://github.com/ethanplusai/zombies",
+    "first_date": "2026-11-12",
+    "metrics": {
+     "github_stars": 13,
+     "github_forks": 4
+    }
+   }
+  ]
+ },
+ "fable52.games/play/solar-system-3d": {
+  "name": "太阳系三维沙盘 · Solar System 3D",
+  "status": "拒绝",
+  "game_id": "solar-system-3d",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/solar-system-3d",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 43,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "bitofastickler.github.io/duel-knights": {
+  "name": "Duel Knights",
+  "status": "收录",
+  "game_id": "duel-knights",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/duel-knights",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 23,
+     "fable52_featured": false,
+     "github_stars": 2,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "last-return.sknol.com": {
+  "name": "Last Return",
+  "status": "收录",
+  "game_id": "last-return",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/last-return",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 16,
+     "fable52_featured": false,
+     "github_stars": 3,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "ai-gamez-r-funz.github.io/escape-the-fable": {
+  "name": "Escape the Fable",
+  "status": "收录",
+  "game_id": "escape-the-fable",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/escape-the-fable",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "dquanbui.github.io/shutterpine": {
+  "name": "SHUTTERPINE",
+  "status": "收录",
+  "game_id": "shutterpine",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/shutterpine",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 21,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "ertertwert.com": {
+  "name": "Mini RPG",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/mini-rpg",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/hitsuji-ga-ippiki": {
+  "name": "ひつじが いっぴき (One Sheep: Koro the Sheepdog's Day)",
+  "status": "收录",
+  "game_id": "one-sheep-koro-the-sheepdog-s-day",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/hitsuji-ga-ippiki",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web": {
+  "name": "Circular Tic Tac Toe",
+  "status": "收录",
+  "game_id": "circular-tic-tac-toe",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/circular-tic-tac-toe",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "hilaytrivedi.github.io/thirty-days": {
+  "name": "The Long Climb",
+  "status": "收录",
+  "game_id": "the-long-climb",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/the-long-climb",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/reel-delve": {
+  "name": "REEL DELVE ― まわる迷宮と三人の旅",
+  "status": "收录",
+  "game_id": "reel-delve",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/reel-delve",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "hashmatullahzaher.github.io/mazar-rawza-race": {
+  "name": "Rawza Ring",
+  "status": "收录",
+  "game_id": "rawza-ring",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/rawza-ring",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "maze.bbbit.cc": {
+  "name": "Liquid Labyrinth",
+  "status": "收录",
+  "game_id": "liquid-labyrinth",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/liquid-labyrinth",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/lumen-reel": {
+  "name": "LUMEN REEL ― まわる灯台と三つの海路",
+  "status": "收录",
+  "game_id": "lumen-reel",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/lumen-reel",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/kirimodoshi": {
+  "name": "切りもどし ― 鋏と春の小さな鉢 (Cutting Back)",
+  "status": "收录",
+  "game_id": "cutting-back",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/kirimodoshi",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/emberdeep-tomoshimori": {
+  "name": "EMBERDEEP ― 燈守りの坑道 (Lampkeeper's Mine)",
+  "status": "收录",
+  "game_id": "emberdeep-lampkeeper-s-mine",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/emberdeep-tomoshimori",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "omw-game.kimaki.dev": {
+  "name": "castle-valley",
+  "status": "收录",
+  "game_id": "castle-valley",
+  "leads": [
+   {
+    "channel": "github",
+    "source_url": "https://github.com/remorses/castle-valley",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "github_stars": 81,
+     "github_forks": 15
+    }
+   }
+  ]
+ },
+ "lastcomplication.com": {
+  "name": "The Last Complication, a Zachtronics-style watchmaking puzzle game",
+  "status": "收录",
+  "game_id": "the-last-complication-a-zachtronics-styl",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50511718",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "hn_points": 89,
+     "hn_comments": 21
+    }
+   }
+  ]
+ },
+ "gitlab.com/snipedbywifi/terminactory": {
+  "name": "A terminal-native idle factory game, written in Rust with ratatui",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50497132",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "hn_points": 173,
+     "hn_comments": 44
+    }
+   }
+  ]
+ },
+ "ben3d.ca": {
+  "name": "My Quest to push native Three.js quality match AAA Game Engines",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50523291",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "hn_points": 166,
+     "hn_comments": 83
+    }
+   }
+  ]
+ },
+ "gameworkers.co.uk": {
+  "name": "Generative AI Usage in the Games Industry",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50519043",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "hn_points": 43,
+     "hn_comments": 97
+    }
+   }
+  ]
+ },
+ "artemlegotin.com": {
+  "name": "A 512 KiB binary message teaching chess without a shared language",
+  "status": "拒绝",
+  "game_id": "a-512-kib-binary-message-teaching-chess",
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50518068",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "hn_points": 67,
+     "hn_comments": 19
+    }
+   }
+  ]
+ },
+ "runner84.itch.io/bombounce": {
+  "name": "Bombounce",
+  "status": "收录",
+  "game_id": "bombounce",
+  "leads": [
+   {
+    "channel": "itch",
+    "source_url": "https://itch.io/games/new-and-popular/platform-web",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "itch_rank": 31,
+     "itch_days_on_chart": 1,
+     "itch_first_on_chart": "2026-11-17"
+    }
+   }
+  ]
+ },
+ "spawn.co/@yisus/die-again": {
+  "name": "DIE AGAIN",
+  "status": "收录",
+  "game_id": "die-again",
+  "leads": [
+   {
+    "channel": "spawn",
+    "source_url": "https://www.spawn.co/",
+    "first_date": "2026-11-17",
+    "metrics": {
+     "spawn_rank": 20,
+     "spawn_plays": 478,
+     "spawn_likes": 68,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/artisan-brownie-kitchen/01m4b3mrntca5y1gxkjs2q0qwf": {
+  "name": "Artisan Brownie Kitchen",
+  "status": "收录",
+  "game_id": "artisan-brownie-kitchen",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 286923,
+     "astrocade_likes": 4369,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c": {
+  "name": "Pizza Empire Tycoon",
+  "status": "收录",
+  "game_id": "pizza-empire-tycoon",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 18,
+     "astrocade_plays": 35971,
+     "astrocade_likes": 659,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/kick-the-buddy-2-0/01m19gmwfrjcb5dxax6gkd6j27": {
+  "name": "Kick the Buddy 2.0",
+  "status": "收录",
+  "game_id": "kick-the-buddy-2-0",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 20,
+     "astrocade_plays": 35211,
+     "astrocade_likes": 510,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "fable52.games/play/metro-rush": {
+  "name": "挤地铁",
+  "status": "收录",
+  "game_id": "game-7",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/metro-rush",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/night-market-ring": {
+  "name": "夜市套圈",
+  "status": "收录",
+  "game_id": "game-8",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/night-market-ring",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/matchmaking-corner": {
+  "name": "相亲角速配",
+  "status": "收录",
+  "game_id": "game-9",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/matchmaking-corner",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "missioncontrol.dractec.com": {
+  "name": "T-Minus",
+  "status": "收录",
+  "game_id": "t-minus",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/t-minus",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 23,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/crystal-tower-defense": {
+  "name": "晶塔守卫",
+  "status": "收录",
+  "game_id": "game-10",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/crystal-tower-defense",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "ololo-dev.github.io/apex-lap-fable-5-2-blender": {
+  "name": "Apex Lap: Blender Edition",
+  "status": "收录",
+  "game_id": "apex-lap-blender-edition",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/apex-lap-blender",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 20,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/chip-jacket": {
+  "name": "皮衣老黄",
+  "status": "收录",
+  "game_id": "game-11",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/chip-jacket",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 15,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "ripcore.netlify.app": {
+  "name": "Ripcore",
+  "status": "收录",
+  "game_id": "ripcore",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/ripcore",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 16,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/rider": {
+  "name": "骑手",
+  "status": "收录",
+  "game_id": "game-12",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/rider",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 14,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/qingchao": {
+  "name": "清潮",
+  "status": "收录",
+  "game_id": "game-13",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/qingchao",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "drew879.github.io/raptor-race-fable": {
+  "name": "Raptor Race",
+  "status": "收录",
+  "game_id": "raptor-race",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/raptor-race",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 13,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "starshipdogfight.netlify.app": {
+  "name": "Starship Dogfight",
+  "status": "收录",
+  "game_id": "starship-dogfight",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/starship-dogfight",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/gz-drift": {
+  "name": "广州漂移",
+  "status": "收录",
+  "game_id": "game-14",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/gz-drift",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "maple-run-fable.vercel.app": {
+  "name": "MAPLE RUN",
+  "status": "收录",
+  "game_id": "maple-run",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/maple-run",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 12,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "sashatchersunov6-rgb.github.io/lisenok-game": {
+  "name": "Лисёнок и огненный жёлудь",
+  "status": "收录",
+  "game_id": "game-15",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/lisenok-game",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 11,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "zenstory.ai": {
+  "name": "三借芭蕉扇",
+  "status": "拒绝",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/sanjie-bajiaoshan",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 1136,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/eat-and-go": {
+  "name": "吃啥拉啥",
+  "status": "收录",
+  "game_id": "game-17",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/eat-and-go",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/moyu-master": {
+  "name": "摸鱼大师",
+  "status": "收录",
+  "game_id": "game-18",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/moyu-master",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "chomachomachoma.github.io/candyland_pwa": {
+  "name": "Gabriel's Sweet Town",
+  "status": "收录",
+  "game_id": "gabriel-s-sweet-town",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/gabriels-sweet-town",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/scrub-master": {
+  "name": "搓澡大师",
+  "status": "收录",
+  "game_id": "game-19",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/scrub-master",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/bubble-wrap": {
+  "name": "捏泡泡纸",
+  "status": "收录",
+  "game_id": "game-20",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/bubble-wrap",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "ololo-dev.github.io/apex-lap-fable-5-2": {
+  "name": "Apex Lap",
+  "status": "收录",
+  "game_id": "apex-lap",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/apex-lap",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "bhoult.github.io/phone-games": {
+  "name": "Rufus Crush",
+  "status": "收录",
+  "game_id": "rufus-crush",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/rufus-crush",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "fable52.games/play/office-smash": {
+  "name": "怒砸办公室",
+  "status": "收录",
+  "game_id": "game-21",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/office-smash",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "earthfm.vercel.app": {
+  "name": "EarthFM · Listening Game",
+  "status": "拒绝",
+  "game_id": "earthfm-listening-game",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/earthfm",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "jester-pi.vercel.app": {
+  "name": "Jester",
+  "status": "收录",
+  "game_id": "jester",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/jester",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   }
+  ]
+ },
+ "nearlydonegames.itch.io/idlecraft": {
+  "name": "Idlecraft",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "itch",
+    "source_url": "https://itch.io/games/new-and-popular/platform-web",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "itch_rank": 29,
+     "itch_days_on_chart": 8,
+     "itch_first_on_chart": "2026-11-11"
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/giant-salami-saw/01m7b4ym0q5xfdcxs4cxg8y74x": {
+  "name": "Giant Salami Saw",
+  "status": "收录",
+  "game_id": "giant-salami-saw",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 2,
+     "astrocade_plays": 111580,
+     "astrocade_likes": 2102,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/makeover-studio/01m7eekfpknakkgz2kkaaphsdh": {
+  "name": "Makeover Studio",
+  "status": "收录",
+  "game_id": "makeover-studio",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 6,
+     "astrocade_plays": 33988,
+     "astrocade_likes": 663,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/high-power-contra-os-invasores-intergalácticos/01kgkfwh42k7g4g7xepb05kwtb": {
+  "name": "High-power Contra os Invasores Intergalácticos!",
+  "status": "收录",
+  "game_id": "high-power-contra-os-invasores-intergal",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 10,
+     "astrocade_plays": 37974,
+     "astrocade_likes": 1096,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "astrocade.com/games/love-crime-couple-adventure/01m60115r2jnqykxxjmyzbznq3": {
+  "name": "Love & crime_couple  Adventure",
+  "status": "收录",
+  "game_id": "love-crime-couple-adventure",
+  "leads": [
+   {
+    "channel": "astrocade",
+    "source_url": "https://www.astrocade.com/category/trending",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 163647,
+     "astrocade_likes": 2344,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "jambocoder159.github.io/ai-game-duel": {
+  "name": "柑仔的晚霞航空信",
+  "status": "收录",
+  "game_id": "game-22",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/ganzi-wanxia-hangkongxin",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "americanhandgunner.com": {
+  "name": "The First Revolver: How We Got from Blackbeard's Six Pistols to the Six-Shooter",
+  "status": "候选",
+  "game_id": null,
+  "leads": [
+   {
+    "channel": "hn",
+    "source_url": "https://news.ycombinator.com/item?id=50505310",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "hn_points": 47,
+     "hn_comments": 28
+    }
+   }
+  ]
+ },
+ "verse8.io/o7a9l3t": {
+  "name": "Championship Manager",
+  "status": "收录",
+  "game_id": "championship-manager",
+  "leads": [
+   {
+    "channel": "verse8",
+    "source_url": "https://verse8.io/",
+    "first_date": "2026-11-19",
+    "metrics": {
+     "verse8_list": "trending",
+     "verse8_rank": 21,
+     "verse8_sessions": 2370,
+     "verse8_likes": 28,
+     "chart_new_entry": true
+    }
+   }
+  ]
+ },
+ "xiyouji.vibecoco.ai": {
+  "name": "三借芭蕉扇",
+  "status": "收录",
+  "game_id": "game-16",
+  "leads": [
+   {
+    "channel": "fable52",
+    "source_url": "https://fable52.games/play/sanjie-bajiaoshan",
+    "first_date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
     }
    }
   ]

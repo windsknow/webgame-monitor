@@ -1719,8 +1719,8 @@
   {
    "channel": "fable52",
    "title": "三借芭蕉扇",
-   "url": "https://zenstory.ai/zh/novel-to-game",
-   "key": "zenstory.ai",
+   "url": "https://xiyouji.vibecoco.ai",
+   "key": "xiyouji.vibecoco.ai",
    "source_url": "https://fable52.games/play/sanjie-bajiaoshan",
    "metrics": {
     "fable52_plays": 18,
@@ -1728,7 +1728,7 @@
     "github_stars": 1136,
     "chart_new_entry": false
    },
-   "published": "2026-07-18",
+   "published": "2026-11-17",
    "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
    "desc": "A turn-based Journey to the West RPG: borrow the palm-leaf fan three times to put out the Flaming Mountains. Five-element counters, seventy-two transformations, about an hour.",
    "image": "https://fable52.games/thumbs/sanjie-bajiaoshan.jpg",
@@ -1741,9 +1741,9 @@
     "Chinese",
     "Browser"
    ],
-   "mirror_url": "https://xiyouji.vibecoco.ai",
+   "mirror_url": "",
    "origin": {
-    "how": "源码仓库的主页",
+    "how": "合集站给的链接",
     "x": "",
     "repo": "https://github.com/zenstory-ai/novel-to-game",
     "hn": "",

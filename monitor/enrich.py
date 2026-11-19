@@ -141,7 +141,11 @@ def trace_origin(title, play_url, author_url, repo_url, cfg, since):
                     break
     out['repo'] = _gh_repo(repo_url)
     hp = out['repo'].get('homepage')
-    if hp and classify_link(hp, cfg) in ('game', 'site') and not host_in(util.host_of(hp), SKIP_HOSTS):
+    # 仓库可能是工具包或多款游戏的合集（例如"小说改游戏"技能包），主页不一定是这款游戏。
+    # 合集站给了外部试玩链接时，只有主页和试玩链接同站才采用；仓库创建日期也只在这时算作首次公开。
+    own = not play_url or host_in(util.host_of(play_url), ('fable52.games',))
+    repo_is_game = bool(hp) and (own or util.host_of(hp) == util.host_of(play_url))
+    if hp and repo_is_game and classify_link(hp, cfg) in ('game', 'site') and not host_in(util.host_of(hp), SKIP_HOSTS):
         picks.append(('源码仓库的主页', hp))
     out['hn'] = _hn_search(title, _epoch(since))
     hl = out['hn'].get('link')
@@ -149,7 +153,8 @@ def trace_origin(title, play_url, author_url, repo_url, cfg, since):
         picks.append(('Hacker News 帖子的链接', hl))
     how, url = picks[0] if picks else ('合集站给的链接', play_url)
     out.update(url=url, how=how, mirror=util.game_key(url) != util.game_key(play_url))
-    dates = [d for d in (out['x'].get('date'), out['repo'].get('created'), out['hn'].get('date')) if d]
+    dates = [d for d in (out['x'].get('date'), out['repo'].get('created') if (own or repo_is_game) else '',
+                         out['hn'].get('date')) if d]
     out['published'] = min(dates) if dates else ''
     out['ai_hint'] = ai_hint(out['x'].get('text'), out['repo'].get('desc'))
     return out

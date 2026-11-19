@@ -2837,7 +2837,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "42.7 万",
+    "value": "42.9 万",
     "doubt": false
    }
   ],
@@ -2860,7 +2860,7 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 42.7 万"
+    "说明": "X 单帖浏览 42.9 万"
    }
   ],
   "icon": "earth_icon.ico",
@@ -2872,7 +2872,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 426681,
+     "x_views": 429355,
      "x_likes": null
     }
    }
@@ -2886,9 +2886,9 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 42.7 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 42.9 万"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "体素风的整颗地球可飞行探索，X 单帖浏览 42.7 万；作者称天气与真实地球实时对应，未核实。",
@@ -2906,7 +2906,7 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "17.3 万",
+    "value": "17.4 万",
     "doubt": false
    }
   ],
@@ -2936,7 +2936,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 173279,
+     "x_views": 173746,
      "x_likes": null
     }
    }
@@ -2950,9 +2950,9 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 17.3 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 17.4 万"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "把《哈利·波特》和《堡垒之夜》直接混搭的大逃杀，X 浏览 17.3 万；回复里有人质疑 IP 混用。",
   "tech_basis": "平台说明 / 作者自述"
@@ -2987,7 +2987,7 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "236 星 / 50 分叉",
+    "value": "247 星 / 53 分叉",
     "doubt": false
    }
   ],
@@ -2998,7 +2998,7 @@
    }
   ],
   "reasons": [
-   "GitHub 236 星"
+   "GitHub 247 星"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -3008,14 +3008,14 @@
     "url": "https://github.com/fjaeckel/seriesoftubes",
     "date": "2026-11-11",
     "metrics": {
-     "github_stars": 236,
-     "github_forks": 50
+     "github_stars": 247,
+     "github_forks": 53
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -3080,7 +3080,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "把 35 款加纳街头游戏做成网页合集，Hacker News 116 分、22 条评论。",
@@ -3132,7 +3132,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 10098,
+     "x_views": 10254,
      "x_likes": 54
     }
    }
@@ -3143,7 +3143,7 @@
   "source_posts": [
    "https://x.com/0xChuckstock/status/2120125184606658728"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Remix 平台上用 Fable 5.2 做的 3D 矿车竞速，作者称主要为测试模型；X 浏览 1 万。",
@@ -3209,7 +3209,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "Astrocade 热门榜第 1，游玩 33.5 万次，是榜上体量最大的 Minecraft 式沙盒。",
@@ -3275,7 +3275,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "Astrocade 热门榜第 3；与 Frost Harbor 等同属冰雪经营，是榜上扎堆的题材。",
@@ -3311,14 +3311,14 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "11.3 万 次",
+    "value": "14 万 次",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 11.3 万 次"
+    "说明": "平台显示游玩 14 万 次"
    }
   ],
   "reasons": [
@@ -3332,16 +3332,16 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 8,
-     "astrocade_plays": 113076,
-     "astrocade_likes": 2654,
+     "astrocade_rank": 12,
+     "astrocade_plays": 139602,
+     "astrocade_likes": 3218,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-14",
   "highlight": "页面没有玩法描述，游玩 11.3 万次、榜第 8，参考价值主要在榜单热度。",
@@ -3402,7 +3402,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 热门榜第 7，冰雪经营题材，与 Snowfield Taco Stand 等同期上榜。",
   "tech_basis": "平台说明"
@@ -3437,14 +3437,14 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "30.3 万 次",
+    "value": "37.3 万 次",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "规模",
-    "说明": "平台显示游玩 30.3 万 次"
+    "说明": "平台显示游玩 37.3 万 次"
    }
   ],
   "reasons": [
@@ -3458,16 +3458,16 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-12",
     "metrics": {
-     "astrocade_rank": 5,
-     "astrocade_plays": 303130,
-     "astrocade_likes": 8292,
+     "astrocade_rank": 3,
+     "astrocade_plays": 372923,
+     "astrocade_likes": 9926,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "直接使用《Ben 10》IP 的同人动作游戏，游玩 30.3 万次、榜第 5；存在授权风险。",
@@ -3528,7 +3528,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面描述只有一个作者名，看不出玩法；榜第 13、游玩 2.2 万次。",
   "tech_basis": "平台说明"
@@ -3593,7 +3593,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "同平台 Steal an Egg（84.4 万次）的怪物主题变体，是偷蛋公式被复用的样本。",
@@ -3629,13 +3629,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "73 星 / 8 分叉",
+    "value": "83 星 / 11 分叉",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 73 星"
+   "GitHub 83 星"
   ],
   "ai_tag": "ai",
   "ai_evidence": "README：\"Much of the code was written with heavy help from AI coding\"",
@@ -3645,14 +3645,14 @@
     "url": "https://github.com/Virtastic/d2-web",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 73,
-     "github_forks": 8
+     "github_stars": 83,
+     "github_forks": 11
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把《暗黑破坏神 2：毁灭之王》1.13c 引擎重写并编译到浏览器，需自备游戏文件，带联机服务器；GitHub 73 星。",
   "tech_basis": "仓库标签 / 作者自述"
@@ -3710,7 +3710,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "体量较完整的非官方宝可梦同人：27 只初始宝可梦、最多 4 人联机和竞技场；存在 IP 风险，GitHub 32 星。",
   "tech_basis": "仓库标签 / 站点代码特征识别"
@@ -3745,13 +3745,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "96 星",
+    "value": "100 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 96 星"
+   "GitHub 100 星"
   ],
   "ai_tag": "ai",
   "ai_evidence": "玩法本身调用 RunningHub 上的模型生成单位的属性、技能和素材",
@@ -3761,14 +3761,14 @@
     "url": "https://github.com/Ritrls/dream-arcade-demo",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 96,
+     "github_stars": 100,
      "github_forks": 0
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把大模型生成单位这一环节放进玩法本身，再带入三种玩法模式；GitHub 96 星。",
   "tech_basis": "仓库标签 / 作者自述"
@@ -3826,7 +3826,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "带程序化生成的浏览器上帝模拟，GitHub 31 星，仓库标签含 WebGPU。",
   "tech_basis": "仓库标签"
@@ -3861,7 +3861,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "1,983 次",
+    "value": "2,058 次",
     "doubt": false
    }
   ],
@@ -3878,15 +3878,15 @@
     "date": "2026-11-12",
     "metrics": {
      "spawn_rank": 11,
-     "spawn_plays": 1983,
-     "spawn_likes": 82,
+     "spawn_plays": 2058,
+     "spawn_likes": 84,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面称 3 周内迭代 6,429 个版本；Spawn 游玩 1,983 次，榜第 11。",
   "tech_basis": "平台说明"
@@ -3921,7 +3921,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "3,889 次",
+    "value": "4,109 次",
     "doubt": false
    }
   ],
@@ -3937,16 +3937,16 @@
     "url": "https://www.spawn.co/",
     "date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 13,
-     "spawn_plays": 3889,
-     "spawn_likes": 80,
+     "spawn_rank": 12,
+     "spawn_plays": 4109,
+     "spawn_likes": 84,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面称 3 周内迭代 2,919 个版本；使用真实车型，Spawn 游玩 3,889 次。",
   "tech_basis": "平台说明"
@@ -3981,7 +3981,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "988 次",
+    "value": "1,043 次",
     "doubt": false
    }
   ],
@@ -3997,16 +3997,16 @@
     "url": "https://www.spawn.co/",
     "date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 17,
-     "spawn_plays": 988,
-     "spawn_likes": 73,
+     "spawn_rank": 18,
+     "spawn_plays": 1043,
+     "spawn_likes": 72,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "西班牙语的召唤养成 RPG，页面称 2 周迭代 7,418 个版本；游玩 988 次。",
   "tech_basis": "平台说明"
@@ -4041,7 +4041,7 @@
   "stats": [
    {
     "label": "Spawn 游玩数",
-    "value": "930 次",
+    "value": "1,004 次",
     "doubt": false
    }
   ],
@@ -4057,16 +4057,16 @@
     "url": "https://www.spawn.co/",
     "date": "2026-11-12",
     "metrics": {
-     "spawn_rank": 18,
-     "spawn_plays": 930,
-     "spawn_likes": 67,
+     "spawn_rank": 19,
+     "spawn_plays": 1004,
+     "spawn_likes": 71,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "类 CS 加 COD 的方块 FPS，页面称 4 周迭代 17,075 个版本；游玩 930 次。",
   "tech_basis": "平台说明"
@@ -4125,7 +4125,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "仓库自称 vibecoded 的 3D 海盗游戏，作者称零素材文件，全部由代码生成；致敬《席德·梅尔的海盗》。",
   "tech_basis": "作者自述"
@@ -4184,7 +4184,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "偏放置观赏的城市建造，作者称自己做设计和美术指导、代码基础由 Gemini 3 搭建。",
   "tech_basis": "作者自述 / 站点代码特征识别"
@@ -4219,13 +4219,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "8,620",
+    "value": "8,696",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 8,620"
+   "X 帖子（@gourav_io，核验确认），浏览 8,696"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4235,7 +4235,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 8620,
+     "x_views": 8696,
      "x_likes": 12
     }
    }
@@ -4246,7 +4246,7 @@
   "source_posts": [
    "https://x.com/gourav_io/status/2119791071089852888"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者在调僵尸 AI，会追人、翻越障碍，X 浏览 8,620；无试玩链接，角色模型来源在回复里有争议。",
@@ -4298,7 +4298,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 32985,
+     "x_views": 33112,
      "x_likes": 244
     }
    }
@@ -4309,7 +4309,7 @@
   "source_posts": [
    "https://x.com/FrensOfPRIA/status/2119643510207099323"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称做了三个月，X 浏览 3.3 万；回复里夸氛围也有人批评是 AI 粗制滥造，没有试玩链接。",
@@ -4361,7 +4361,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 12747,
+     "x_views": 13005,
      "x_likes": 119
     }
    }
@@ -4372,7 +4372,7 @@
   "source_posts": [
    "https://x.com/alightinastorm/status/2120020469487440210"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "名称和玩法取自作者在帖子下的回复和视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称用 Fable 5.2 做类 COD 游戏，两天迭代 1714 版；X 浏览 1.3 万，无链接。",
@@ -4408,13 +4408,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "5.8 万",
+    "value": "5.9 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@alightinastorm，核验确认），浏览 5.8 万"
+   "X 帖子（@alightinastorm，核验确认），浏览 5.9 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明让 Fable 5.2 用 three.js 制作",
@@ -4424,7 +4424,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 58314,
+     "x_views": 58675,
      "x_likes": 451
     }
    }
@@ -4435,7 +4435,7 @@
   "source_posts": [
    "https://x.com/alightinastorm/status/2120010936584945922"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "名称和玩法取自视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称服装、动画和音效都由 Claude 完成，X 浏览 5.8 万；尚无试玩链接，被问到“AAA”说法有争议。",
@@ -4487,7 +4487,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 39778,
+     "x_views": 40146,
      "x_likes": 204
     }
    }
@@ -4498,7 +4498,7 @@
   "source_posts": [
    "https://x.com/EvanMilenko/status/2119969113762082931"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Fable 5.2 一句话做出的日式剑斗，X 浏览 4 万，被比作《对马岛之魂》；作者未给链接。",
@@ -4534,13 +4534,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "19.8 万",
+    "value": "19.9 万",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@_sholtodouglas，核验确认），浏览 19.8 万"
+   "X 帖子（@_sholtodouglas，核验确认），浏览 19.9 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
@@ -4550,7 +4550,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 197878,
+     "x_views": 198991,
      "x_likes": 1686
     }
    }
@@ -4561,7 +4561,7 @@
   "source_posts": [
    "https://x.com/_sholtodouglas/status/2119935331499925557"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "名称和玩法取自 X 帖子视频抽帧（2026-11-16），回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Fable 5.2 做的传送门 FPS，X 浏览 19.8 万；Splitgate 官号回复“似曾相识”。",
@@ -4613,7 +4613,7 @@
     "url": "https://x.com/Izkimar/status/2119931740940640542",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 22515,
+     "x_views": 22653,
      "x_likes": 297
     }
    }
@@ -4624,7 +4624,7 @@
   "source_posts": [
    "https://x.com/Izkimar/status/2119931740940640542"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称一天内做出整个 MMO 风格世界，素材全部由代码生成；X 浏览 2.3 万，只有视频演示。",
@@ -4676,7 +4676,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 107762,
+     "x_views": 108448,
      "x_likes": 281
     }
    }
@@ -4687,7 +4687,7 @@
   "source_posts": [
    "https://x.com/kevin_t_ngo/status/2119900487688622171"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "以同色子弹不伤人为核心规则的 1v1 FPS，作者称模型用 Tripo3D；X 浏览 10.8 万。",
@@ -4746,7 +4746,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把老网游《奇迹 MU》的客户端和服务端一起编进浏览器单机运行，涉及原作 IP；GitHub 39 星、30 分叉。",
   "tech_basis": "作者自述 / 站点代码特征识别"
@@ -4802,7 +4802,7 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 15981,
+     "x_views": 16270,
      "x_likes": 267
     }
    }
@@ -4813,7 +4813,7 @@
   "source_posts": [
    "https://x.com/scottstts/status/2120549388745379867"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称摩托和手臂全部程序生成，X 浏览 1.6 万；看起来是固定镜头的场景演示，不是可玩游戏。",
@@ -4831,7 +4831,7 @@
   "tech": "three.js（WebGL），含 Web Audio，页面约 4 MB；作者称由 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -4849,13 +4849,18 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "19.7 万",
+    "value": "20.2 万",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 20.2 万"
+   }
+  ],
   "reasons": [
-   "X 帖子（@loktar00，核验确认），浏览 19.7 万"
+   "X 帖子（@loktar00，核验确认），浏览 20.2 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
@@ -4865,7 +4870,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 197039,
+     "x_views": 201810,
      "x_likes": null
     }
    }
@@ -4876,11 +4881,12 @@
   "source_posts": [
    "https://x.com/loktar00/status/2120192761542615271"
   ],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "note": "玩法取自视频抽帧（2026-11-16），没有试玩；回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称动画和模型全由 Fable 5.2 生成，约 45 分钟；X 浏览 19.7 万，有可玩链接。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "hot_since": "2026-11-17"
  },
  {
   "id": "frost-lumber-camp",
@@ -4942,7 +4948,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-14",
   "highlight": "Astrocade 热门榜上的又一款冰雪经营，游玩 6.2 万次，与同期上榜的雪原题材扎堆。",
@@ -5003,7 +5009,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以约会为主题的游乐园模拟，近期做了冬季更新；游玩 2.5 万次。",
   "tech_basis": "平台说明"
@@ -5068,7 +5074,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "解压 ASMR 类 DIY 玩法，游玩 5 万次，参考价值在于热度。",
@@ -5134,7 +5140,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "标题直接使用 Minecraft 名称，游玩 18.9 万次，页面描述只有一个用户名；有商标和授权风险。",
@@ -5200,7 +5206,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "Astrocade 偷蛋公式的母本，游玩 84.4 万次；页面注明 3D 模型为 CC-BY 并在设置里署名。",
@@ -5266,7 +5272,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "Astrocade 热门榜上的常规换装玩法，游玩 7.7 万次，参考价值主要在榜单热度。",
@@ -5332,7 +5338,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "方块画风的校园生活模拟，含课表、小地图和昼夜循环，游玩 11.2 万次。",
@@ -5393,7 +5399,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面强调原创忍者角色的 3D 屋顶跑酷，游玩 3.6 万次。",
   "tech_basis": "平台说明"
@@ -5428,7 +5434,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "1,214 次",
+    "value": "1,639 次",
     "doubt": false
    },
    {
@@ -5454,7 +5460,7 @@
     "url": "https://fable52.games/play/pocket-soccer-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1214,
+     "fable52_plays": 1639,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -5470,7 +5476,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -5507,12 +5513,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "667 次",
+    "value": "1,016 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -5528,9 +5534,9 @@
     "url": "https://fable52.games/play/mothlight",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 667,
+     "fable52_plays": 1016,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -5544,7 +5550,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Fable52.games 收录的赛博朋克竞速，站内游玩 667 次，题材和氛围为主要卖点。",
   "tech_basis": "Fable52 标签"
@@ -5579,12 +5585,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "668 次",
+    "value": "880 次",
     "doubt": false
    },
    {
     "label": "X 帖子浏览",
-    "value": "50.7 万",
+    "value": "51.2 万",
     "doubt": false
    },
    {
@@ -5596,11 +5602,11 @@
   "signals": [
    {
     "类别": "传播",
-    "说明": "X 单帖浏览 50.7 万"
+    "说明": "X 单帖浏览 51.2 万"
    }
   ],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道），作者帖子浏览 50.7 万"
+   "Fable52.games 合集站收录（二手渠道），作者帖子浏览 51.2 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "作者帖子：Claude Fable 5",
@@ -5610,9 +5616,9 @@
     "url": "https://fable52.games/play/what-the-water-keeps",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 668,
+     "fable52_plays": 880,
      "fable52_featured": false,
-     "x_views": 506648,
+     "x_views": 511921,
      "hn_points": 2,
      "hn_comments": 1,
      "chart_new_entry": false
@@ -5635,7 +5641,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
@@ -5672,12 +5678,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "558 次",
+    "value": "699 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "2 星",
+    "value": "3 星",
     "doubt": false
    }
   ],
@@ -5698,9 +5704,9 @@
     "url": "https://fable52.games/play/bayhaven",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 558,
+     "fable52_plays": 699,
      "fable52_featured": false,
-     "github_stars": 2,
+     "github_stars": 3,
      "chart_new_entry": false
     }
    },
@@ -5714,7 +5720,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -5751,7 +5757,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "392 次",
+    "value": "560 次",
     "doubt": false
    }
   ],
@@ -5767,7 +5773,7 @@
     "url": "https://fable52.games/play/jimao-cs",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 392,
+     "fable52_plays": 560,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -5775,7 +5781,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "基于他人作品 Saltline 的中文二次改作，反映 Fable52.games 的 remix 风气。",
   "tech_basis": "Fable52 标签"
@@ -5810,7 +5816,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "488 次",
+    "value": "655 次",
     "doubt": false
    },
    {
@@ -5836,7 +5842,7 @@
     "url": "https://fable52.games/play/dustfall",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 488,
+     "fable52_plays": 655,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -5852,7 +5858,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -5889,12 +5895,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "450 次",
+    "value": "519 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -5915,9 +5921,9 @@
     "url": "https://fable52.games/play/blameless",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 450,
+     "fable52_plays": 519,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -5931,7 +5937,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -5968,7 +5974,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "540 次",
+    "value": "718 次",
     "doubt": false
    }
   ],
@@ -5984,7 +5990,7 @@
     "url": "https://fable52.games/play/pelican-on-a-bike",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 540,
+     "fable52_plays": 718,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -5992,7 +5998,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "单个 HTML 约 0.8 MB 的程序化 3D 小品，作者称是一个提示词的 Claude Opus 5.5 作品。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6027,12 +6033,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "444 次",
+    "value": "747 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -6048,9 +6054,9 @@
     "url": "https://fable52.games/play/qingyun-sword-flight",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 444,
+     "fable52_plays": 747,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -6064,7 +6070,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国风仙侠题材的小体量飞行体验，站内游玩 444 次。",
   "tech_basis": "Fable52 标签"
@@ -6099,7 +6105,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "391 次",
+    "value": "645 次",
     "doubt": false
    }
   ],
@@ -6115,7 +6121,7 @@
     "url": "https://fable52.games/play/evensong",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 391,
+     "fable52_plays": 645,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6123,7 +6129,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "只做一场首领战的魂系小体量 Demo；来源标注“Fable 5.2”未经核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6158,7 +6164,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "364 次",
+    "value": "709 次",
     "doubt": false
    }
   ],
@@ -6174,7 +6180,7 @@
     "url": "https://fable52.games/play/wukong-tiger-vanguard",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 364,
+     "fable52_plays": 709,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6182,7 +6188,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产 IP 同人复刻，有授权风险；来源标注“Fable 5.2”未经核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6217,12 +6223,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "343 次",
+    "value": "471 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -6238,9 +6244,9 @@
     "url": "https://fable52.games/play/tidebell",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 343,
+     "fable52_plays": 471,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -6254,7 +6260,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "水下探索加程序化生成，与同作者 hahaliu1029 的数款作品同属一个仓库。",
   "tech_basis": "Fable52 标签"
@@ -6289,12 +6295,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "388 次",
+    "value": "491 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "1 星",
+    "value": "3 星",
     "doubt": false
    }
   ],
@@ -6310,9 +6316,9 @@
     "url": "https://fable52.games/play/ironvale",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 388,
+     "fable52_plays": 491,
      "fable52_featured": false,
-     "github_stars": 1,
+     "github_stars": 3,
      "chart_new_entry": false
     }
    },
@@ -6326,7 +6332,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "标注由 Fable 5 制作的 3D 即时战略，类型比常见的单场景小游戏重；站内游玩 388 次、GitHub 1 星。",
   "tech_basis": "Fable52 标签 / 仓库描述"
@@ -6361,7 +6367,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "376 次",
+    "value": "487 次",
     "doubt": false
    },
    {
@@ -6382,7 +6388,7 @@
     "url": "https://fable52.games/play/sublevel-07-fps-repro",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 376,
+     "fable52_plays": 487,
      "fable52_featured": false,
      "github_stars": 95,
      "chart_new_entry": false
@@ -6398,7 +6404,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "一句话提示词、73 轮自主操作、41 分钟、128 KB 单文件做出 FPS 的复现实验，GitHub 95 星。",
   "tech_basis": "Fable52 标签 / 仓库描述"
@@ -6433,19 +6439,19 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "237 次",
+    "value": "430 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "357 星",
+    "value": "410 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
-   "GitHub 357 星"
+   "GitHub 410 星"
   ],
   "ai_tag": "ai",
   "ai_evidence": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
@@ -6455,9 +6461,9 @@
     "url": "https://fable52.games/play/wusuo-shanmen",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 237,
+     "fable52_plays": 430,
      "fable52_featured": false,
-     "github_stars": 357,
+     "github_stars": 410,
      "chart_new_entry": false
     }
    },
@@ -6466,14 +6472,14 @@
     "url": "https://github.com/op7418/guizang-game-skill",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 357,
-     "github_forks": 56
+     "github_stars": 410,
+     "github_forks": 65
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "“歸藏 Game Skill”（给 AI 用的做游戏技能包）的演示，该仓库 GitHub 357 星。",
   "tech_basis": "站点代码特征识别 / 仓库标签"
@@ -6508,7 +6514,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "201 次",
+    "value": "232 次",
     "doubt": false
    },
    {
@@ -6529,7 +6535,7 @@
     "url": "https://fable52.games/play/tuktuk",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 201,
+     "fable52_plays": 232,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -6545,7 +6551,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "埃及街头题材的 3D 小游戏，页面为阿拉伯语，支持手机；站内游玩 201 次。",
   "tech_basis": "站点代码特征识别 / 仓库描述"
@@ -6580,7 +6586,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "154 次",
+    "value": "218 次",
     "doubt": false
    }
   ],
@@ -6596,7 +6602,7 @@
     "url": "https://fable52.games/play/feiche-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 154,
+     "fable52_plays": 218,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6604,7 +6610,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产竞速 IP 的同人 3D 复刻，存在授权风险；单个 HTML 约 0.7 MB。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6639,7 +6645,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "121 次",
+    "value": "142 次",
     "doubt": false
    },
    {
@@ -6660,7 +6666,7 @@
     "url": "https://fable52.games/play/hanford-reach",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 121,
+     "fable52_plays": 142,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -6676,7 +6682,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "只有第一关的建造游戏雏形，站内游玩 121 次、GitHub 0 星，完成度偏低。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6711,7 +6717,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "112 次",
+    "value": "168 次",
     "doubt": false
    }
   ],
@@ -6727,7 +6733,7 @@
     "url": "https://fable52.games/play/hextech-aram",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 112,
+     "fable52_plays": 168,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6735,7 +6741,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产客户端 IP 的同人联机作品，存在授权风险；来源标注“Fable 5.2”未经核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -6770,12 +6776,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "94 次",
+    "value": "117 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "1 星",
     "doubt": false
    }
   ],
@@ -6796,9 +6802,9 @@
     "url": "https://fable52.games/play/shuttle-strike",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 94,
+     "fable52_plays": 117,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 1,
      "chart_new_entry": false
     }
    },
@@ -6812,7 +6818,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
   "hot_manual": true,
@@ -6849,7 +6855,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "92 次",
+    "value": "109 次",
     "doubt": false
    },
    {
@@ -6870,7 +6876,7 @@
     "url": "https://fable52.games/play/harvest-standoff",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 92,
+     "fable52_plays": 109,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -6886,7 +6892,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "面向儿童的非暴力 5v5 团队对战，是这一批作品里少见的亲子题材。",
   "tech_basis": "站点代码特征识别 / 仓库描述"
@@ -6921,12 +6927,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "112 次",
+    "value": "132 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "1 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -6942,9 +6948,9 @@
     "url": "https://fable52.games/play/daedalus",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 112,
+     "fable52_plays": 132,
      "fable52_featured": false,
-     "github_stars": 1,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -6958,7 +6964,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "30 道谜题加神话题材，单个 HTML 约 120 KB，GitHub 1 星。",
   "tech_basis": "站点代码特征识别 / 仓库描述"
@@ -6993,7 +6999,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "105 次",
+    "value": "185 次",
     "doubt": false
    }
   ],
@@ -7009,7 +7015,7 @@
     "url": "https://fable52.games/play/transport-ship-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 105,
+     "fable52_plays": 185,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7017,7 +7023,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产射击 IP 经典地图的同人复刻，有授权风险；作者称一个提示词由 Opus 5.5 完成。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -7052,7 +7058,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "58 次",
+    "value": "84 次",
     "doubt": false
    }
   ],
@@ -7068,7 +7074,7 @@
     "url": "https://fable52.games/play/warm-toy-room-v25",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 58,
+     "fable52_plays": 84,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7076,7 +7082,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "代码特征显示是带 WebRTC 联机的 Godot 导出，不同于同批多数 three.js；来源未核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -7111,7 +7117,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "82 次",
+    "value": "92 次",
     "doubt": false
    },
    {
@@ -7132,7 +7138,7 @@
     "url": "https://fable52.games/play/boring-game-sf-bay-transit",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 82,
+     "fable52_plays": 92,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -7148,7 +7154,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "按真实地图数据做的体素旧金山湾区，拿“造价压到波兰的 2 倍以内”做目标，把基建成本和审批做成玩法。",
   "tech_basis": "站点代码特征识别 / 仓库标签"
@@ -7183,12 +7189,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "100 次",
+    "value": "142 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "0 星",
+    "value": "2 星",
     "doubt": false
    }
   ],
@@ -7204,9 +7210,9 @@
     "url": "https://fable52.games/play/misremember",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 100,
+     "fable52_plays": 142,
      "fable52_featured": false,
-     "github_stars": 0,
+     "github_stars": 2,
      "chart_new_entry": false
     }
    },
@@ -7220,7 +7226,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "利用“不看时场景改变”做恐怖机制，与同作者 hahaliu1029 的另几款同属一个仓库；站内游玩 100 次。",
   "tech_basis": "Fable52 标签"
@@ -7255,7 +7261,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "100 次",
+    "value": "122 次",
     "doubt": false
    },
    {
@@ -7276,7 +7282,7 @@
     "url": "https://fable52.games/play/sternenjaeger",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 100,
+     "fable52_plays": 122,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -7292,7 +7298,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "12 个星区、3 场首领战，装在单个约 40 KB 的 HTML 文件里，标题为德语。",
   "tech_basis": "站点代码特征识别 / 仓库描述"
@@ -7327,12 +7333,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "88 次",
+    "value": "130 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "23 星",
+    "value": "26 星",
     "doubt": false
    }
   ],
@@ -7348,9 +7354,9 @@
     "url": "https://fable52.games/play/saltline-online",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 88,
+     "fable52_plays": 130,
      "fable52_featured": false,
-     "github_stars": 23,
+     "github_stars": 26,
      "chart_new_entry": false
     }
    },
@@ -7364,7 +7370,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "在 Saltline 上加联机和语音，GitHub 23 星；标注 Fable 5.2 加 deepseek-flash。",
   "tech_basis": "Fable52 标签"
@@ -7399,7 +7405,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "87 次",
+    "value": "99 次",
     "doubt": false
    },
    {
@@ -7420,7 +7426,7 @@
     "url": "https://fable52.games/play/emberdeep",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 87,
+     "fable52_plays": 99,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -7436,7 +7442,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "单个 HTML 约 0.86 MB 就含联机；仓库标题为“Testing the Limits of Fable 5”。",
   "tech_basis": "站点代码特征识别 / 仓库描述"
@@ -7471,7 +7477,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "50 次",
+    "value": "65 次",
     "doubt": false
    },
    {
@@ -7492,7 +7498,7 @@
     "url": "https://fable52.games/play/becario-del-universo",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 50,
+     "fable52_plays": 65,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -7508,7 +7514,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "幽默题材的单文件微任务游戏，约 49 KB，站内游玩 50 次。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -7543,7 +7549,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "61 次",
+    "value": "97 次",
     "doubt": false
    }
   ],
@@ -7559,7 +7565,7 @@
     "url": "https://fable52.games/play/breach-transport-ship-online",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 61,
+     "fable52_plays": 97,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7567,7 +7573,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "与“海克斯大乱斗”同出 hanyue.io，同样是国产射击 IP 地图的同人联机，存在授权风险；来源标注未核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签"
@@ -7602,7 +7608,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "84 次",
+    "value": "134 次",
     "doubt": false
    }
   ],
@@ -7618,7 +7624,7 @@
     "url": "https://fable52.games/play/duskline-vxn7rh",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 84,
+     "fable52_plays": 134,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7626,7 +7632,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "常规题材的单文件 3D 跑酷，站内游玩 84 次，参考价值有限。",
   "tech_basis": "Fable52 标签"
@@ -7661,7 +7667,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "64 次",
+    "value": "117 次",
     "doubt": false
    }
   ],
@@ -7677,7 +7683,7 @@
     "url": "https://fable52.games/play/flight-simulator-nfljgw",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 64,
+     "fable52_plays": 117,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7685,7 +7691,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "全球任意地点起飞，用真实机场、真实地形和实时天气，还带一课一技能的飞行学校；站内游玩 64 次。",
   "tech_basis": "Fable52 标签"
@@ -7720,13 +7726,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "33 星",
+    "value": "36 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 33 星"
+   "GitHub 36 星"
   ],
   "ai_tag": "ai",
   "ai_evidence": "README 写明项目做了 5 年，\"Thanks to LLMs\" 终于完成",
@@ -7736,14 +7742,14 @@
     "url": "https://github.com/speedydevil007/road-sdl2-rash",
     "date": "2026-11-13",
     "metrics": {
-     "github_stars": 33,
+     "github_stars": 36,
      "github_forks": 0
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "1996 年 PC 版 Road Rash 的 64 位 C 移植加网页版，GitHub 33 星；涉原作版权。",
   "tech_basis": "作者自述"
@@ -7806,7 +7812,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "“一次生成”给侄子的游戏，Hacker News 505 分、450 评论，传播度很高。",
@@ -7842,18 +7848,18 @@
   "stats": [
    {
     "label": "Hacker News",
-    "value": "247 分 / 97 评论",
+    "value": "249 分 / 97 评论",
     "doubt": false
    }
   ],
   "signals": [
    {
     "类别": "传播",
-    "说明": "Hacker News 247 分"
+    "说明": "Hacker News 249 分"
    }
   ],
   "reasons": [
-   "Hacker News 247 分"
+   "Hacker News 249 分"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -7863,14 +7869,14 @@
     "url": "https://news.ycombinator.com/item?id=50457230",
     "date": "2026-11-12",
     "metrics": {
-     "hn_points": 247,
+     "hn_points": 249,
      "hn_comments": 97
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "把《Papers, Please》的审核玩法换成 YC 融资尽调，Hacker News 247 分、97 条评论。"
@@ -7905,7 +7911,7 @@
   "stats": [
    {
     "label": "Wavedash 实时在线",
-    "value": "13 人",
+    "value": "14 人",
     "doubt": false
    }
   ],
@@ -7921,15 +7927,15 @@
     "url": "https://wavedash.com/",
     "date": "2026-11-13",
     "metrics": {
-     "wavedash_rank": 3,
-     "wavedash_playing": 13,
+     "wavedash_rank": 2,
+     "wavedash_playing": 14,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Wavedash 上的免下载联机坦克，目前实时在线 13 人。",
   "tech_basis": "平台说明"
@@ -7987,7 +7993,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "每天 5 道估算真实尺寸的视觉对比题，Hacker News 82 分、27 条评论。",
   "tech_basis": "站点代码特征识别"
@@ -8050,7 +8056,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "每栋建筑都对应真实建筑的整座城市等距像素地图，Hacker News 261 分、63 条评论。",
@@ -8086,13 +8092,13 @@
   "stats": [
    {
     "label": "GitHub",
-    "value": "56 星 / 8 分叉",
+    "value": "57 星 / 8 分叉",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "GitHub 56 星"
+   "GitHub 57 星"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -8102,14 +8108,14 @@
     "url": "https://github.com/librehold-game/librehold",
     "date": "2026-11-12",
     "metrics": {
-     "github_stars": 56,
+     "github_stars": 57,
      "github_forks": 8
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "开源的像素风村庄战争，一局一小时也有持续数周的长期世界；GitHub 56 星。",
   "tech_basis": "仓库标签"
@@ -8167,7 +8173,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同一份 Rust 代码既能在终端里跑，也能在浏览器里玩的打字游戏，GitHub 36 星。",
   "tech_basis": "仓库标签 / 站点代码特征识别"
@@ -8232,7 +8238,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "标题直接使用 Minecraft 名称，游玩 7 万次，页面描述只有一个创作者名；有商标和授权风险。",
@@ -8293,7 +8299,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 的“+1”命名公式作品，游玩 4.9 万次。",
   "tech_basis": "平台说明"
@@ -8358,7 +8364,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-15",
   "highlight": "把选门跑酷和布娃娃格斗结合在健身房里，游玩 13 万次。",
@@ -8376,7 +8382,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8394,13 +8400,18 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "4 万 次",
+    "value": "13.5 万 次",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 13.5 万 次"
+   }
+  ],
   "reasons": [
-   "Astrocade 热门页新上榜，2026-11-11 发布"
+   "Astrocade 热门页在榜，2026-11-11 发布"
   ],
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
@@ -8411,18 +8422,19 @@
     "date": "2026-11-14",
     "metrics": {
      "astrocade_rank": 8,
-     "astrocade_plays": 39515,
-     "astrocade_likes": 744,
-     "chart_new_entry": true
+     "astrocade_plays": 135212,
+     "astrocade_likes": 2518,
+     "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 上的常规换装玩法，游玩 4 万次，参考价值主要在热度。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "hot_since": "2026-11-17"
  },
  {
   "id": "apex-strike",
@@ -8484,7 +8496,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "游玩 167.7 万次，是这批 Astrocade 作品里射击类体量最大的。",
@@ -8520,7 +8532,7 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "2.3 万 次",
+    "value": "2.7 万 次",
     "doubt": false
    }
   ],
@@ -8536,16 +8548,16 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-14",
     "metrics": {
-     "astrocade_rank": 19,
-     "astrocade_plays": 23267,
-     "astrocade_likes": 511,
+     "astrocade_rank": 9,
+     "astrocade_plays": 26937,
+     "astrocade_likes": 595,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把 +1 成长公式和偷蛋养成混合，是 Astrocade 公式化玩法的样本，游玩 2.3 万次。",
   "tech_basis": "平台说明"
@@ -8610,7 +8622,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "直接挂靠《Teardown》的破坏沙盒，游玩 15.9 万次。",
@@ -8676,7 +8688,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "扮演鸭子在公园里捣乱的 3D 小品，游玩 5.6 万次。",
@@ -8742,7 +8754,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "页面只写“允许 remix”，没有玩法介绍；游玩 283.6 万次，是这批里游玩数最高的。",
@@ -8808,7 +8820,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "Astrocade 上的常规狩猎玩法，游玩 5.3 万次。",
@@ -8874,7 +8886,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "2D 像素物理沙盒，游玩 39.5 万次。",
@@ -8910,7 +8922,7 @@
   "stats": [
    {
     "label": "Verse8 游玩数",
-    "value": "184 次",
+    "value": "212 次",
     "doubt": true
    }
   ],
@@ -8928,7 +8940,7 @@
     "metrics": {
      "verse8_list": "trending",
      "verse8_rank": 1,
-     "verse8_sessions": 184,
+     "verse8_sessions": 212,
      "verse8_likes": 11,
      "chart_new_entry": false
     }
@@ -8936,7 +8948,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把老虎机悬念和英雄养成结合，并借用 Nine Chronicles 的角色；Verse8 游玩 184 次。",
   "tech_basis": "平台说明"
@@ -8997,7 +9009,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "借用 Nine Chronicles 角色的放置 RPG，规模是 300 关加竞技场；Verse8 游玩 398 次。",
   "tech_basis": "平台说明"
@@ -9057,7 +9069,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以 11 种 TNT 为核心的方块爆破沙盒，游玩 3.2 万次。",
   "tech_basis": "平台说明"
@@ -9092,7 +9104,7 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "3.4 万 次",
+    "value": "3.9 万 次",
     "doubt": false
    }
   ],
@@ -9108,16 +9120,16 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-15",
     "metrics": {
-     "astrocade_rank": 9,
-     "astrocade_plays": 33785,
-     "astrocade_likes": 609,
+     "astrocade_rank": 10,
+     "astrocade_plays": 39482,
+     "astrocade_likes": 717,
      "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把偷蛋公式换成龙题材，带从幼年养到长老的成长线，游玩 3.4 万次。",
   "tech_basis": "平台说明"
@@ -9182,7 +9194,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-16",
   "highlight": "Astrocade 上的常规拔针物理谜题，游玩 6.2 万次。",
@@ -9243,7 +9255,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "浮空岛不断坠落的轻量大逃杀，游玩 2.1 万次。",
   "tech_basis": "平台说明"
@@ -9278,13 +9290,13 @@
   "stats": [
    {
     "label": "three.js 论坛",
-    "value": "112 次浏览",
+    "value": "120 次浏览",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "three.js 论坛作品区，112 次浏览"
+   "three.js 论坛作品区，120 次浏览"
   ],
   "ai_tag": "ai",
   "ai_evidence": "论坛帖子：ELITE WARFARE is built by Claude under my direction: the ELITE vs INSURGENTS theme and body cam, La Finca, the firing range, Domination, Kill Confirmed and Paintball, drones, pick-ups, the squad radio",
@@ -9294,7 +9306,7 @@
     "url": "https://discourse.threejs.org/t/elite-warfare-a-body-cam-tactical-fps-in-the-browser-bots-p2p-multiplayer-2-maps/97088",
     "date": "2026-11-15",
     "metrics": {
-     "threejs_views": 112,
+     "threejs_views": 120,
      "threejs_replies": 1,
      "threejs_likes": 5
     }
@@ -9302,7 +9314,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称整款由 Claude 在其指导下完成，纯静态站加点对点联机；论坛有人追问引擎授权。",
   "tech_basis": "作者自述"
@@ -9361,7 +9373,7 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Wavedash 上的联机冲浪测试版，目前实时在线 3 人，页面信息很少。",
   "tech_basis": "平台说明"
@@ -9369,13 +9381,13 @@
  {
   "id": "dating-my-handsome-idol-boyfriend-2",
   "name": "💋 Dating My Handsome Idol Boyfriend 2 💄",
-  "kind": "",
-  "group": "待归类",
+  "kind": "偶像恋爱互动叙事",
+  "group": "Astrocade",
   "group_type": "pending",
-  "play": "",
+  "play": "扮演玩家与韩流偶像男友约会，通过选择积累好感、应对狗仔，页面称共 48 个角色、32 步流程，可解锁 12 种结局，并生成一封 AI 情书。",
   "quote": "BIG UPDATE sequel! Date your K-Pop idol boyfriend: build chemistry, survive paparazzi, unlock 12 endings & get an AI love letter. 48 characters, 32 steps!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": true,
@@ -9426,20 +9438,22 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
+  "stats_date": "2026-11-19",
   "hot_since": "2026-11-16",
-  "images_tried": true
+  "images_tried": true,
+  "highlight": "恋爱叙事题材，Astrocade 趋势榜第 3 位、游玩 10.6 万次，本周新上榜。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "woolly-slope",
   "name": "Woolly Slope",
-  "kind": "",
-  "group": "待归类",
+  "kind": "休闲放置养成",
+  "group": "Astrocade",
   "group_type": "pending",
-  "play": "",
+  "play": "绵羊像雪球一样滚下雪坡，玩家剪羊毛、让幸存者取暖，并扩建山间营地。",
   "quote": "Sheep roll down the snowy slope like snowballs. Shear the wool, warm up the survivors and grow your mountain camp!",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -9460,13 +9474,13 @@
   "stats": [
    {
     "label": "Astrocade 游玩数",
-    "value": "3 万 次",
+    "value": "4.1 万 次",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "Astrocade 热门页新上榜，2026-11-13 发布"
+   "Astrocade 热门页在榜，2026-11-13 发布"
   ],
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
@@ -9476,28 +9490,30 @@
     "url": "https://www.astrocade.com/category/trending",
     "date": "2026-11-16",
     "metrics": {
-     "astrocade_rank": 6,
-     "astrocade_plays": 29827,
-     "astrocade_likes": 468,
-     "chart_new_entry": true
+     "astrocade_rank": 4,
+     "astrocade_plays": 41235,
+     "astrocade_likes": 658,
+     "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "游玩 4.1 万次、趋势榜第 4 位，属于题材轻巧的休闲养成，暂无更多特别之处。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "transformer-battle-vs-luxury-car-battle",
   "name": "Transformer Battle vs Luxury Car Battle",
-  "kind": "",
-  "group": "待归类",
+  "kind": "变形机器人动作",
+  "group": "Astrocade",
   "group_type": "pending",
-  "play": "",
+  "play": "扮演会飞的黄色英雄机器人，在城市中拳打脚踢、发射火箭对抗巨型反派，也能驾驶可变形跑车，目标是拯救城市。",
   "quote": "Be a flying yellow hero robot in Green Luxury City! Punch, kick and fire rockets at giant villains, drive transforming supercars, and rescue the city.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
   "hot": false,
@@ -9543,19 +9559,21 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "游玩 4.1 万次、趋势榜第 20 位、本周新上榜；题材近似热门变形金刚，可能涉及 IP 授权。",
+  "tech_basis": "平台说明"
  },
  {
   "id": "makinamon-versi-n-pulso",
   "name": "MAKINAMON · Versión Pulso",
-  "kind": "",
-  "group": "待归类",
+  "kind": "复古怪兽收集RPG",
+  "group": "独立精品与巧妙创意",
   "group_type": "pending",
-  "play": "",
+  "play": "仿 Game Boy Color 风格的西班牙语怪兽 RPG：收集 50 种机械生物，击败六位 FUSIBLES 首领，在 APAGÓN 公司之前抵达大工厂。",
   "quote": "A Game Boy Color-style monster RPG in Spanish: collect 50 machine creatures, win six FUSIBLES and reach the Great Factory before the APAGÓN company.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Canvas 2D 原生 JavaScript，多文件脚本，160×144 低分辨率画布；作者称用 Claude Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -9576,7 +9594,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "12 次",
+    "value": "35 次",
     "doubt": false
    },
    {
@@ -9597,10 +9615,10 @@
     "url": "https://fable52.games/play/makinamon-pulso",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 12,
+     "fable52_plays": 35,
      "fable52_featured": false,
      "github_stars": 0,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    },
    {
@@ -9613,19 +9631,21 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者称为 Game Boy Color 风格；画面按 160×144 分辨率绘制，题材类似怪兽收集类经典。站内游玩仅 35 次，关注度低。",
+  "tech_basis": "code_detect（页面代码含 160×144 Canvas 2D 与 js 分文件脚本）；Fable52 标签"
  },
  {
   "id": "riftline",
   "name": "Riftline",
-  "kind": "",
-  "group": "待归类",
+  "kind": "第一人称英雄射击",
+  "group": "多人在线交互",
   "group_type": "pending",
-  "play": "",
+  "play": "双持手枪，带三次充能的传送和三秒回溯技能；可对战机器人练习，或通过点对点联机与好友决斗。",
   "quote": "A fast browser hero shooter: twin pistols, a three-charge teleport and a three-second rewind. Practise against bots or duel a friend peer to peer.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "three.js（WebGL，版本未识别），PeerJS 点对点联机（WebRTC），拆分为多个 JS 文件；作者称用 Claude Fable 5 测试制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -9646,7 +9666,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "14 次",
+    "value": "39 次",
     "doubt": false
    },
    {
@@ -9667,10 +9687,10 @@
     "url": "https://fable52.games/play/riftline",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 14,
+     "fable52_plays": 39,
      "fable52_featured": false,
      "github_stars": 0,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    },
    {
@@ -9683,19 +9703,21 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "在浏览器里做出传送、回溯这类英雄射击技能，并用点对点联机免服务器。站内游玩 39 次，关注度较低。",
+  "tech_basis": "code_detect（three.js、WebRTC、PeerJS 脚本）；Fable52 标签"
  },
  {
   "id": "the-county",
   "name": "The County",
-  "kind": "",
-  "group": "待归类",
+  "kind": "农场经营模拟",
+  "group": "独立精品与巧妙创意",
   "group_type": "pending",
-  "play": "",
+  "play": "经营美国缅因州北部的土豆农场：种地、雇工、卖出收成，要撑过五年。作物长在地下，挖出那天才知道收成。",
   "quote": "A potato farm in northern Maine, played like a strategy game. The crop grows underground, and you only find out what you grew on the day you dig.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "引擎未识别：构建后的单个 JS 包，未发现 WebGLRenderer，使用 Web Audio；Fable52 标签含 Three.js，但未在代码中确认；作者称用 Fable 5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -9716,7 +9738,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "15 次",
+    "value": "35 次",
     "doubt": false
    },
    {
@@ -9737,10 +9759,10 @@
     "url": "https://fable52.games/play/the-county",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 15,
+     "fable52_plays": 35,
      "fable52_featured": false,
      "github_stars": 1,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    },
    {
@@ -9753,19 +9775,21 @@
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把土豆种植做成策略模拟，信息不透明是特色；仓库名含 potatobench，像是模型测评用例。站内游玩 35 次。",
+  "tech_basis": "code_detect（Web Audio）；读取打包脚本搜索未见 three 特征；Fable52 标签"
  },
  {
   "id": "emberhold",
   "name": "烬堡 EMBERHOLD",
-  "kind": "",
-  "group": "待归类",
+  "kind": "几何风魂系动作",
+  "group": "独立精品与巧妙创意",
   "group_type": "pending",
-  "play": "",
+  "play": "在废弃城堡中战斗，穿过雾门，与灰烬王冠决斗；整个游戏是单个 HTML 文件，美术用几何形体。",
   "quote": "A geometric souls-like in one HTML file: fight through a ruined keep and duel the Ashen Crown beyond the fog gate.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "three.js（来自 Fable52 标签，页面代码未直接确认），单个 HTML 文件；作者称用 Claude Fable 5.2 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -9786,7 +9810,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "22 次",
+    "value": "64 次",
     "doubt": false
    }
   ],
@@ -9802,27 +9826,29 @@
     "url": "https://fable52.games/play/emberhold-xwn1lu",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 22,
+     "fable52_plays": 64,
      "fable52_featured": false,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用单个 HTML 文件做出魂系动作，是少见的体量与题材。站内游玩 64 次，关注度较低。",
+  "tech_basis": "Fable52 标签；该链接为收录页，未读到游戏本体代码"
  },
  {
   "id": "arcfall-artillery",
   "name": "Arcfall Artillery",
-  "kind": "",
-  "group": "待归类",
+  "kind": "回合制炮击对战",
+  "group": "多人在线交互",
   "group_type": "pending",
-  "play": "",
+  "play": "在崩塌的空岛上回合制对射：观察风向、调整角度击倒对手，或把对方打落地板；支持联机。",
   "quote": "Turn-based artillery on crumbling sky islands: read the wind, set your angle and knock the other fighter out, or drop it through the floor.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "Canvas 2D + cannon 物理引擎，WebRTC 点对点联机，Web Audio，多文件脚本；作者标注用 Claude Fable 5.2（未验证）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
   "hot": false,
@@ -9843,7 +9869,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "17 次",
+    "value": "58 次",
     "doubt": false
    }
   ],
@@ -9859,27 +9885,29 @@
     "url": "https://fable52.games/play/arcfall-artillery-ho7odp",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 17,
+     "fable52_plays": 58,
      "fable52_featured": false,
-     "chart_new_entry": true
+     "chart_new_entry": false
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "经典炮击玩法加空岛可破坏地形，并支持点对点联机和手机端。站内游玩 58 次。",
+  "tech_basis": "code_detect（Canvas 2D、cannon、WebRTC、Web Audio）；Fable52 标签"
  },
  {
   "id": "tidemark",
   "name": "潮汐战线 Tidemark",
-  "kind": "",
-  "group": "待归类",
+  "kind": "高级战争式战棋",
+  "group": "独立精品与巧妙创意",
   "group_type": "pending",
-  "play": "",
+  "play": "回合制战棋：造兵、占城、攻占司令部，陆海空三军同场，页面称 33 个兵种、29 位指挥官、六幕战役，可本地多人。",
   "quote": "Turn-based strategy in the spirit of Advance Wars: 33 land, sea and air units, 29 commanders and a six-act campaign, open source under MIT.",
   "quote_src": "平台页面描述",
-  "tech": "",
+  "tech": "引擎未识别：页面为 DSH 游戏商店的 HTML 页，仅加载 site.js；Fable52 标签含像素风；作者称用 Claude Fable 5.2 + Claude Opus 5.5 制作",
   "xcheck": "",
   "src": "Fable52.games 页面显示值；GitHub 接口",
   "hot": false,
@@ -9900,19 +9928,19 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "31 次",
+    "value": "82 次",
     "doubt": false
    },
    {
     "label": "GitHub",
-    "value": "19 星",
+    "value": "24 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
-   "GitHub 19 星"
+   "GitHub 24 星"
   ],
   "ai_tag": "ai",
   "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 + Claude Opus 5.5 制作",
@@ -9922,10 +9950,10 @@
     "url": "https://fable52.games/play/tidemark",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 31,
+     "fable52_plays": 82,
      "fable52_featured": false,
-     "github_stars": 19,
-     "chart_new_entry": true
+     "github_stars": 24,
+     "chart_new_entry": false
     }
    },
    {
@@ -9933,29 +9961,31 @@
     "url": "https://github.com/CocoSgt/dsh-game-tidemark",
     "date": "2026-11-15",
     "metrics": {
-     "github_stars": 19,
-     "github_forks": 0
+     "github_stars": 24,
+     "github_forks": 1
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者称开源（MIT），内容量大，玩法明显参照《高级战争》，可能涉及 IP 授权；GitHub 24 星，站内游玩 82 次。",
+  "tech_basis": "读取页面与 site.js 未见引擎特征；Fable52 标签"
  },
  {
   "id": "webgl-flight-simulator-with-seed-generat",
   "name": "WebGL Flight Simulator with seed generated terrain",
-  "kind": "",
-  "group": "待归类",
+  "kind": "3D 飞行模拟",
+  "group": "端游级3D 美术表现力",
   "group_type": "pending",
-  "play": "",
+  "play": "在机库选择双翼机、涡桨机或喷气机，起飞后探索程序生成（由种子决定）的世界，并平安降落；免费。",
   "quote": "Take off, explore a procedurally generated world and land it in one piece. Pick a biplane, turboprop or jet in the hangar. Free, built with DAI Studio.",
   "quote_src": "页面自述",
-  "tech": "",
+  "tech": "three.js（WebGL，版本未识别），Web Audio，Vite 式打包脚本；页面称用 DAI Studio 制作",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-16",
@@ -9973,13 +10003,18 @@
   "stats": [
    {
     "label": "Hacker News",
-    "value": "34 分 / 7 评论",
+    "value": "232 分 / 68 评论",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "Hacker News 232 分"
+   }
+  ],
   "reasons": [
-   "Hacker News 34 分"
+   "Hacker News 232 分"
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
@@ -9989,14 +10024,4655 @@
     "url": "https://news.ycombinator.com/item?id=50510296",
     "date": "2026-11-16",
     "metrics": {
-     "hn_points": 34,
-     "hn_comments": 7
+     "hn_points": 232,
+     "hn_comments": 68
     }
    }
   ],
   "x_handles": [],
   "source_posts": [],
-  "stats_date": "2026-11-16",
-  "images_tried": true
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "hot_since": "2026-11-17",
+  "highlight": "Hacker News 232 分、68 评论；浏览器端 3D 飞行加程序生成地形，页面称由 DAI Studio 制作。",
+  "tech_basis": "code_detect（three.js、Web Audio）"
+ },
+ {
+  "id": "find-my-pet",
+  "name": "FIND MY PET",
+  "kind": "找宠物寻物",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "在线条画风的温馨场景里，缩放、搜寻并点中藏起来的小猫小狗、猫头鹰、企鹅等宠物，每关换一只宠物、难度递增。",
+  "quote": "Puppies, kittens, owls, penguins & more are hiding in cozy line-art scenes! Zoom, search and tap them all — each level brings a new pet and a tougher hunt.",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "find-my-pet_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/find-my-pet/01M6XD2K668S7M44CDV7M9HQTJ",
+  "key": "astrocade.com/games/find-my-pet/01m6xd2k668s7m44cdv7m9hqtj",
+  "link_status": "ok",
+  "date_text": "2026-11-09 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.1 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-09 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 30788,
+     "astrocade_likes": 325,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "Astrocade 趋势榜第 13 名、游玩 3.1 万次，新进榜；属平台上常见的寻物公式玩法。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "jujutsu-tic-tac-toe",
+  "name": "Jujutsu Tic-Tac-Toe",
+  "kind": "咒术回战井字棋",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "与《咒术回战》角色对下井字棋，对手从入门的虎杖悠仁一路升到难以战胜的宿傩。",
+  "quote": "Challenge Jujutsu Kaisen characters in strategic Tic-Tac-Toe battles, from beginner Yuji to unbeatable Sukuna!",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "jujutsu-tic-tac-toe_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/jujutsu-tic-tac-toe/01KV6XMH6DA0PHT0K5AVRXDFNY",
+  "key": "astrocade.com/games/jujutsu-tic-tac-toe/01kv6xmh6da0pht0k5avrxdfny",
+  "link_status": "ok",
+  "date_text": "2026-07-11 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "5.2 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 5.2 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-07-11 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 14,
+     "astrocade_plays": 51978,
+     "astrocade_likes": 828,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-17",
+  "images_tried": true,
+  "highlight": "给传统井字棋套动漫角色皮肤，游玩 5.2 万次、榜内第 14 名；可能涉及 IP 授权。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "air-cargo-tycoon",
+  "name": "AIR CARGO TYCOON",
+  "kind": "货运飞机模拟",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "把超级摩托装进大型货机，在机场滑行后飞往各跑道送货，要做好起飞、降落和货舱精准停放。",
+  "quote": "Load superbikes into a giant cargo plane, taxi across a bustling airport, and fly thrilling delivery routes between runways. Master smooth takeoffs, landings, and precise cargo-bay parking!",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "air-cargo-tycoon_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/air-cargo-tycoon/01M6S3FDS55GNJ7EAYQ1F7Q405",
+  "key": "astrocade.com/games/air-cargo-tycoon/01m6s3fds55gnj7eayq1f7q405",
+  "link_status": "ok",
+  "date_text": "2026-11-07 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.6 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-07 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-17",
+    "metrics": {
+     "astrocade_rank": 15,
+     "astrocade_plays": 36342,
+     "astrocade_likes": 493,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "驾驶加运营的轻模拟玩法，游玩 3.6 万次、榜内第 15 名，新进榜。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "cookiesaner",
+  "name": "Cookiesaner",
+  "kind": "弹幕幸存者",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "类幸存者的弹幕游戏：主角是作者的狗，自动发射巴尔干烤肉，吃巴尔干美食经五个饱腹阶段成长，吃饱后碾过怪潮。提供免费网页演示。",
+  "quote": "Survivor-like bullet heaven starring the creator's dog, who auto-fires ćevapi, eats Balkan food to grow through five belly stages and rolls through the horde on a full belly. Free browser demo. Built with Godot.",
+  "quote_src": "平台页面描述",
+  "tech": "Godot（据线索描述），itch.io 网页版",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://cookiesaner.itch.io/demo",
+  "key": "cookiesaner.itch.io/demo",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用作者家狗和巴尔干美食做题材，被收录进要求大部分代码由 AI 编写的游戏清单。",
+  "tech_basis": "线索描述；抓取页面返回 429，未能读到页面代码"
+ },
+ {
+  "id": "ram-man-half-goat-half-god",
+  "name": "Ram Man: Half Goat, Half God",
+  "kind": "半羊神街机清版",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "扮演半羊半神，在雨夜霓虹城的四个街区里痛打敌人、投掷汽车和敌人，并搜寻隐藏的补给点。",
+  "quote": "Brawl through a rainy neon city as a half-goat demigod, throwing cars and enemies and hunting secret caches across Neon Row's four quarters. Built with Claude · Three.js, cannon-es.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js + cannon-es 物理（据线索描述），itch.io 网页版；作者称用 Claude 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "ram-man-half-goat-half-god_shot.png",
+  "extra_shots": [],
+  "url": "https://azreal-the-fallen.itch.io/ram-man",
+  "key": "azreal-the-fallen.itch.io/ram-man",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude · Three",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "题材荒诞，据线索由 Claude 配合 three.js 与 cannon-es 物理库制作，可网页和手机游玩。",
+  "tech_basis": "线索描述 + code_detect（cannon 物理）"
+ },
+ {
+  "id": "kart-rush",
+  "name": "Kart Rush",
+  "kind": "卡通卡丁车竞速",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "手机浏览器里的卡通卡丁车赛：对手五名、赛道七条，有道具、漂移和大奖赛模式。",
+  "quote": "Cartoon kart racing in a phone browser against five rivals on seven tracks, with items, drifting and a Grand Prix, its models, textures and sound all generated in code. Built with Claude Code · Three.js, cannon-es.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js r160（WebGL）+ cannon-es 物理，页面一份主脚本 main.js；作者称用 Claude Code 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "kart-rush_icon.png",
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://stevkazt.github.io/kart-rush/",
+  "key": "stevkazt.github.io/kart-rush",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "据线索说明，车模、贴图和音效全部由代码生成；用 Claude Code 制作。",
+  "tech_basis": "code_detect（three.js r160、cannon）+ 线索描述"
+ },
+ {
+  "id": "openaero-dfw",
+  "name": "OpenAero DFW",
+  "kind": "达拉斯飞行模拟",
+  "group": "把真实世界做成游戏",
+  "group_type": "pending",
+  "play": "驾驶波音 737-800、赛斯纳 172S 或 F-16C，飞越达拉斯-沃思堡真实卫星影像，天气取当天 METAR 报文，每次降落都会评分。",
+  "quote": "Fly a Boeing 737-800, Cessna 172S or F-16C over real satellite imagery of Dallas-Fort Worth in today's METAR weather, with every landing graded. Built with Claude Code · Three.js.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Web Audio，Vite 打包脚本；作者称用 Claude Code 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "openaero-dfw_icon.png",
+  "shot": "openaero-dfw_shot.jpg",
+  "extra_shots": [],
+  "url": "https://mutaafaziz.com/openaero/",
+  "key": "mutaafaziz.com",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [
+   {
+    "类别": "技术",
+    "说明": "线索原文提到：three.js、satellite"
+   }
+  ],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用真实卫星图和实时气象数据生成场景，是少见的真实世界飞行模拟网页游戏。",
+  "tech_basis": "code_detect（three.js）+ 线索描述"
+ },
+ {
+  "id": "a-guilda",
+  "name": "A Guilda",
+  "kind": "公会经营叙事",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "经营一家濒临倒闭的奇幻公会：为每次任务挑选出战的英雄，英雄之间的羁绊、伤疤和选择会改变故事；你是老板而非英雄。",
+  "quote": "Run a failing fantasy guild by choosing who goes on each mission, as the heroes' bonds, scars and choices change the story. Download for Windows or Android. Built with Godot.",
+  "quote_src": "平台页面描述",
+  "tech": "Godot（据线索描述）",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "a-guilda_shot.png",
+  "extra_shots": [],
+  "url": "https://labiel1.itch.io/a-guilda",
+  "key": "labiel1.itch.io/a-guilda",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "题材类似《暗黑地牢》加酒馆经营，被收录进 AI 编写代码的游戏清单。",
+  "tech_basis": "线索描述"
+ },
+ {
+  "id": "dou-dizhu",
+  "name": "Dou Dizhu",
+  "kind": "三人斗地主",
+  "group": "多人在线交互",
+  "group_type": "pending",
+  "play": "三人斗地主：叫牌、抢地主，两名农民联手对抗地主，炸弹和火箭翻倍；可与电脑对打，也可随机匹配联机桌或用房间码约朋友。",
+  "quote": "The Chinese three-player card game Fight the Landlord: bid to become the landlord, then the two farmers team up against them, with computer players, a random online table or friends by room code. Built with Claude Code.",
+  "quote_src": "平台页面描述",
+  "tech": "引擎未识别（页面仅 bootstrap.js 与 app.js，未见常见游戏引擎或联机库特征）；作者称用 Claude Code 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "dou-dizhu_shot.png",
+  "extra_shots": [],
+  "url": "https://doudizhu.pocketplay.win/",
+  "key": "doudizhu.pocketplay.win",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "国产传统牌类的网页版，带联机桌和房间码；作者称用 Claude Code 制作。",
+  "tech_basis": "code_detect 为空 + 线索描述"
+ },
+ {
+  "id": "halflight",
+  "name": "HALFLIGHT",
+  "kind": "衰变金库经营",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "管理一座有 43 种衰变同位素、五条衰变链的金库：衰变本身产生收益，泄漏是限时危机，仍可借此交易。",
+  "quote": "Run a vault of 43 decaying isotopes across five decay chains, where the decay pays you and a breach is a timed crisis you can still trade against. Built with HTML5 Canvas.",
+  "quote_src": "平台页面描述",
+  "tech": "HTML5 Canvas，itch.io 网页版（线索描述）",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "halflight_shot.png",
+  "extra_shots": [],
+  "url": "https://csaf.itch.io/halflight",
+  "key": "csaf.itch.io/halflight",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "核心设定是让「衰变」生钱，主题独特；被收录进 AI 编写代码的游戏清单。",
+  "tech_basis": "线索描述 + code_detect（Canvas 2D）"
+ },
+ {
+  "id": "next-please",
+  "name": "Next, Please!",
+  "kind": "1983 年诊所模拟",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "在 1983 年波兰的职业健康诊所里检查病人、核对文件并盖章签发适岗证明，同时承受官僚与政治压力，风格是黑色喜剧。",
+  "quote": "Examine patients, check paperwork and stamp fitness-for-work certificates under bureaucratic and political pressure in a darkly comic clinic sim set in 1983 Poland. Built with Codex.",
+  "quote_src": "平台页面描述",
+  "tech": "Vite 打包的前端脚本（引擎未识别），含 Firebase；作者称用 Codex 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://robertchaba.github.io/next-please/",
+  "key": "robertchaba.github.io/next-please",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Codex",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "题材冷门，把官僚文书工作做成游戏；作者称用 Codex 制作。",
+  "tech_basis": "code_detect（Firebase）+ 线索描述"
+ },
+ {
+  "id": "eraguessr",
+  "name": "EraGuessr",
+  "kind": "历史场景猜年代",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "看一张逼真的历史场景，在地图上落点并填年份来猜时间和地点；每天一题，全球玩家同一题。",
+  "quote": "Guess when and where a photorealistic scene from history is set, with a new scene every day. Built with Claude Code, Codex.",
+  "quote_src": "平台页面描述",
+  "tech": "Next.js 站点 + Supabase 后端 + Web Audio；作者称用 Claude Code、Codex 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "eraguessr_icon.ico",
+  "shot": "eraguessr_shot.png",
+  "extra_shots": [],
+  "url": "https://eraguessr.ai/play/daily",
+  "key": "eraguessr.ai",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code, Codex",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "类似地理猜图的每日挑战，规则简单、可晒成绩；作者称用 Claude Code 和 Codex 制作。",
+  "tech_basis": "code_detect（Supabase、Next.js 脚本）+ 线索描述"
+ },
+ {
+  "id": "gravity",
+  "name": "Gravity",
+  "kind": "星球吞噬成长",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "从一粒小石头开始，吃掉比自己小的太空岩石，一路长成黑洞；共六关带首领战，另有无尽模式，手机和电脑都能玩。",
+  "quote": "Grow a little planet with eyes from pebble to black hole by eating smaller space rocks, across six levels with boss fights plus an Endless mode, on phone or desktop. Built with Claude Code · HTML5 Canvas.",
+  "quote_src": "平台页面描述",
+  "tech": "HTML5 Canvas 2D，原生 JS（js/main.js）；作者称用 Claude Code 制作",
+  "xcheck": "",
+  "src": "AI 游戏精选清单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "awesome"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "gravity_icon.svg",
+  "shot": "gravity_shot.png",
+  "extra_shots": [],
+  "url": "https://gravity.hertzmc.com/",
+  "key": "gravity.hertzmc.com",
+  "link_status": "ok",
+  "date_text": "首次公开日期未确认",
+  "stats": [],
+  "signals": [],
+  "reasons": [
+   "AI 游戏精选清单新增条目"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · HTML5 Canvas",
+  "sources": [
+   {
+    "channel": "awesome",
+    "url": "https://github.com/lappemic/awesome-ai-built-games",
+    "date": "2026-11-17",
+    "metrics": {
+     "awesome_listed": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "「吃小变大」的经典玩法，加首领战和无尽模式；作者称用 Claude Code 制作。",
+  "tech_basis": "code_detect（Canvas 2D）+ 线索描述"
+ },
+ {
+  "id": "the-haniwa-behind-you",
+  "name": "うしろのハニワ (The Haniwa Behind You)",
+  "kind": "凝视解谜地牢",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "格子地牢探索加「一二三木头人」：你看着埴轮它们就停下，转身它们就逼近；只靠视线把它们引到各自的基座上。",
+  "quote": "A grid dungeon crawl crossed with Red Light, Green Light: haniwa freeze while you look and creep closer when you turn. Lead them to their pedestals by gaze alone.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "the-haniwa-behind-you_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/ushiro-no-haniwa",
+  "key": "fable52.games/play/ushiro-no-haniwa",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/ushiro-no-haniwa",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把木头人规则与第一人称地牢结合，是个小而新的点子；站内游玩仅 8 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "pon-the-forest-lights-up",
+  "name": "ぽん、と森は灯る (Pon, the Forest Lights Up)",
+  "kind": "蘑菇弹射解谜",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "弹出孢子，落点长出蘑菇，新蘑菇又成为下一个发射点；一路点亮黑暗森林，走向大树。",
+  "quote": "Fling a spore and a mushroom grows where it lands; every new mushroom is your next launcher. Light up a dark forest on your way to the great tree.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "pon-the-forest-lights-up_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/pon-to-mori-wa-tomoru",
+  "key": "fable52.games/play/pon-to-mori-wa-tomoru",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/pon-to-mori-wa-tomoru",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "「落地生长即下一个发射台」的物理玩法，机制简洁；站内游玩仅 8 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "one-grain-garden",
+  "name": "ひとつぶ庭園 (One-Grain Garden)",
+  "kind": "落沙花园沙盒",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "向玻璃罐里倒沙、水、种子和火星，让颗粒相互反应长出夜晚的小花园；共九个罐子加一个自由罐。",
+  "quote": "Pour sand, water, seeds and embers into a glass jar and let the grains react to grow a tiny night garden. Nine jars and a free-play jar.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "one-grain-garden_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/hitotsubu-teien",
+  "key": "fable52.games/play/hitotsubu-teien",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "10 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/hitotsubu-teien",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "落沙类物理沙盒加解谜关卡；站内游玩 10 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "undertow",
+  "name": "Undertow",
+  "kind": "暴风夜拖船",
+  "group": "游戏复刻与反编译",
+  "group_type": "pending",
+  "play": "暴风雨夜的港口拖船游戏：钩住漂流的集装箱，救出被困其中的男孩，并让熄灯的渡轮避开礁石。",
+  "quote": "A night-storm harbour tug game built on the Saltline engine: hook drifting containers, rescue a boy trapped in one and keep a blacked-out ferry off the rocks.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（Fable52 标签 Three.js，基于 Saltline 引擎）；作者标注 Claude Fable 5.2（Saltline remix，未验证）",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "undertow_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/undertow-y8xvs5",
+  "key": "fable52.games/play/undertow-y8xvs5",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "77 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (Saltline remix, unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/undertow-y8xvs5",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 77,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "建在 Saltline 引擎上的换皮之作，是 Saltline 换皮现象的样本；作者标注为未验证；站内游玩 77 次。",
+  "tech_basis": "Fable52 标签 + 线索描述"
+ },
+ {
+  "id": "black-tide",
+  "name": "Black Tide",
+  "kind": "海盗劫案换皮",
+  "group": "游戏复刻与反编译",
+  "group_type": "pending",
+  "play": "海盗劫案：点击中继器读出货单，从六个保险箱里破解正确的那个，再守住梯子等待快艇到来。",
+  "quote": "A pirate heist remix of Saltline: tap the relays to read the manifest, crack the right strongbox among six, then hold the ladder until the launch arrives.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（Fable52 标签 Three.js，基于 Saltline 引擎）；作者标注 Claude Fable 5.2（Saltline remix，未验证）",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "black-tide_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/black-tide-hdab0j",
+  "key": "fable52.games/play/black-tide-hdab0j",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "53 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (Saltline remix, unverified) 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/black-tide-hdab0j",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 53,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "同为 Saltline 换皮，把玩法改成第一人称劫案；站内游玩 53 次。",
+  "tech_basis": "Fable52 标签 + 线索描述"
+ },
+ {
+  "id": "graveyard-shift",
+  "name": "Graveyard Shift",
+  "kind": "僵尸生存 FPS",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "在雨夜的加油站和餐馆里抵御一轮轮僵尸围攻：封窗得分、墙上买枪、恢复电力，撑过一波又一波。",
+  "quote": "Round-based zombie survival at a roadside diner and gas station: board the windows, earn points, buy guns off the wall and get the power back on.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Web Audio，单个 HTML 文件（约 2.4 MB）；Fable52 标签标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值；GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-12",
+   "channel": "github"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "graveyard-shift_shot.jpg",
+  "extra_shots": [],
+  "url": "https://zombies.ethanplus.ai",
+  "key": "zombies.ethanplus.ai",
+  "link_status": "ok",
+  "date_text": "2026-11-11 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "95 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "13 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
+   "GitHub 13 星"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/graveyard-shift",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 95,
+     "fable52_featured": false,
+     "github_stars": 13,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/ethanplusai/zombies",
+    "date": "2026-11-12",
+    "metrics": {
+     "github_stars": 13,
+     "github_forks": 4
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "单个 HTML 文件约 2.4 MB，画面、音效全由代码生成；GitHub 13 星，站内游玩 95 次。",
+  "tech_basis": "code_detect（three.js、scripts 无外部引擎）+ GitHub 描述 + Fable52 标签"
+ },
+ {
+  "id": "duel-knights",
+  "name": "Duel Knights",
+  "kind": "3D 剑斗对决",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "火把照亮的 3D 剑斗：从七名骑士中选一位，选对手和竞技场，用格挡、虚招和闪避拿下三局。",
+  "quote": "A torch-lit 3D sword duel: pick one of seven knights, a foe and an arena, then parry, feint and dodge your way to three round wins.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js r160（WebGL），模块化 JS（src/main.js）；作者标注 Claude Fable 5.2 + Claude Opus 5.5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "duel-knights_shot.jpg",
+  "extra_shots": [],
+  "url": "https://bitofastickler.github.io/duel-knights/",
+  "key": "bitofastickler.github.io/duel-knights",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "23 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "2 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 + Claude Opus 5.5 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/duel-knights",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 23,
+     "fable52_featured": false,
+     "github_stars": 2,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/bitofastickler/duel-knights",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "多角色、多场景的完整 3D 格斗流程；标注由 Claude Fable 5.2 与 Opus 5.5 制作。",
+  "tech_basis": "code_detect（three.js r160）+ Fable52 标签"
+ },
+ {
+  "id": "last-return",
+  "name": "Last Return",
+  "kind": "激光雷达恐怖",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "第一人称恐怖：手持激光雷达扫描仪是唯一的视觉来源，扫过的点云会留在原处，而下面有东西不会被画出来。",
+  "quote": "First-person horror where a handheld LiDAR scanner is the only way to see. The points stay where you painted them, and something down there is never drawn.",
+  "quote_src": "平台页面描述",
+  "tech": "原生 WebGL（Fable52 标签 WebGL；页面未见 three.js 特征）+ Web Audio，单个 HTML 文件（约 2.8 MB）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "last-return_shot.jpg",
+  "extra_shots": [],
+  "url": "https://last-return.sknol.com/",
+  "key": "last-return.sknol.com",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "16 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "3 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/last-return",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 16,
+     "fable52_featured": false,
+     "github_stars": 3,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/StefanKnol/Last-Return",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把「看不见」做成核心机制，单个 HTML 文件约 2.8 MB；GitHub 3 星。",
+  "tech_basis": "code_detect + 页面文本搜索（未见 THREE 特征）"
+ },
+ {
+  "id": "escape-the-fable",
+  "name": "Escape the Fable",
+  "kind": "程序化密室逃脱",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "第一人称 1950 年代风格密室：钥匙、挂锁、保险箱转盘和字轮，每间房都是新生成且保证可解；还能自建房间并分享。",
+  "quote": "A first-person 1950s escape room generator: keys, padlocks, safe dials and word wheels, and every room is new and guaranteed solvable.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL），模块化 JS（js/main.js）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "escape-the-fable_shot.jpg",
+  "extra_shots": [],
+  "url": "https://ai-gamez-r-funz.github.io/escape-the-fable/",
+  "key": "ai-gamez-r-funz.github.io/escape-the-fable",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/escape-the-fable",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/ai-gamez-r-funz/escape-the-fable",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "程序化生成密室并附关卡编辑器和分享；作者标注 Claude Fable 5.2 制作。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "shutterpine",
+  "name": "SHUTTERPINE",
+  "kind": "胶片相机悬疑",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "第一人称夜林悬疑：循着失踪摄影师的踪迹，用胶片相机拍下跟在身后、唯有相机才能看到的东西。",
+  "quote": "A first-person mystery in a night forest: follow a vanished photographer's trail with her film camera, the only thing that can see what's following you.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Web Audio，Vite 打包脚本；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "shutterpine_shot.jpg",
+  "extra_shots": [],
+  "url": "https://dquanbui.github.io/shutterpine/",
+  "key": "dquanbui.github.io/shutterpine",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "21 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/shutterpine",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 21,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/DQuanBui/shutterpine",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "「相机是唯一视觉」的恐怖叙事；作者标注 Claude Fable 5.2 制作。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "one-sheep-koro-the-sheepdog-s-day",
+  "name": "ひつじが いっぴき (One Sheep: Koro the Sheepdog's Day)",
+  "kind": "牧羊犬赶羊",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "扮演牧羊犬科罗把羊群赶进羊圈：走路时羊会聚拢，跑起来羊会四散；九个牧场从清晨到夜晚。",
+  "quote": "Be Koro the sheepdog and herd the flock into the barn: walk and they bunch up, run and they scatter. Nine pastures from morning to night.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "one-sheep-koro-the-sheepdog-s-day_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/hitsuji-ga-ippiki",
+  "key": "fable52.games/play/hitsuji-ga-ippiki",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/hitsuji-ga-ippiki",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把羊群聚散行为做成核心手感；站内游玩 8 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "circular-tic-tac-toe",
+  "name": "Circular Tic Tac Toe",
+  "kind": "圆环井字棋",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "在 4 圈 8 扇区的环形棋盘上下井字棋，四子连成一线（沿圈、由中心向外或螺旋）即胜；可对战朋友或完美应对的大师 AI。",
+  "quote": "Tic-tac-toe on a ring: 4 rings × 8 sectors, four in a row wins around the ring, out from the centre or along a spiral. Play a friend or a perfect-play AI.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D + Web Audio，多文件原生 JS（含 engine.js）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "circular-tic-tac-toe_icon.png",
+  "shot": "circular-tic-tac-toe_shot.jpg",
+  "extra_shots": [],
+  "url": "https://muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web/",
+  "key": "muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/circular-tic-tac-toe",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/muhammad-sayed-mahdy/circular-tic-tac-toe-web",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "32 格、56 种获胜线的井字棋变体，规则一看就懂；作者标注 Claude Fable 5.2 制作。",
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签"
+ },
+ {
+  "id": "the-long-climb",
+  "name": "The Long Climb",
+  "kind": "英伟达创业模拟",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "在 3D 开放世界里扮演黄仁勋创办英伟达：融资、招人、赶在现金耗尽前交付芯片，死亡不可重来。",
+  "quote": "Play Jensen Huang founding NVIDIA in a 3D open world: raise money, hire the team and ship the chips before the cash runs out. Permadeath.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js r128（WebGL，cdnjs 引入）+ Web Audio；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "the-long-climb_shot.jpg",
+  "extra_shots": [],
+  "url": "https://hilaytrivedi.github.io/thirty-days/",
+  "key": "hilaytrivedi.github.io/thirty-days",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/the-long-climb",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/HILAYTRIVEDI/thirty-days",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "以真实科技人物的创业史为题材，可能涉及肖像或授权问题；作者称用 Claude Fable 5 制作。",
+  "tech_basis": "code_detect（three.js r128）+ Fable52 标签"
+ },
+ {
+  "id": "reel-delve",
+  "name": "REEL DELVE ― まわる迷宮と三人の旅",
+  "kind": "老虎机地牢",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "地牢由五个石质转轴构成：停在正确图案上，三行就成为剑士、盗贼和法师的前进路线；目标是通到第 12 层。",
+  "quote": "A dungeon made of five stone reels: stop them on the right symbols and the three rows become the paths of your swordsman, thief and mage. Reach floor 12.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "reel-delve_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/reel-delve",
+  "key": "fable52.games/play/reel-delve",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/reel-delve",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把老虎机和肉鸽地牢结合；站内游玩 9 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "rawza-ring",
+  "name": "Rawza Ring",
+  "kind": "真实街道赛车",
+  "group": "把真实世界做成游戏",
+  "group_type": "pending",
+  "play": "在阿富汗马扎里沙里夫蓝色清真寺周边的真实街道上跑 3D 街头赛。",
+  "quote": "A 3D street race on the real streets around the Blue Mosque in Mazar-i-Sharif, built by Claude Fable 5.2 from one prompt in about 40 minutes.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Firebase，模块化 JS；作者称用 Claude Fable 5.2 一句提示制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "rawza-ring_icon.png",
+  "shot": "rawza-ring_shot.jpg",
+  "extra_shots": [],
+  "url": "https://hashmatullahzaher.github.io/mazar-rawza-race/",
+  "key": "hashmatullahzaher.github.io/mazar-rawza-race",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Built by Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/rawza-ring",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/Hashmatullahzaher/mazar-rawza-race",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者称由 Claude Fable 5.2 一句提示约 40 分钟做成，是「一句话做游戏」样本。",
+  "tech_basis": "code_detect（three.js、Firebase）+ Fable52 标签 + 线索描述"
+ },
+ {
+  "id": "liquid-labyrinth",
+  "name": "Liquid Labyrinth",
+  "kind": "液滴迷宫",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "旋转一个玻璃 3D 迷宫，让重力把一滴液体带到黄色出口；每个迷宫可凭种子分享。",
+  "quote": "Rotate a glass 3D maze and gravity pulls a drop of liquid through it. Steer it to the yellow exit; share any maze by its seed.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Web Audio，Vite 打包脚本；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "liquid-labyrinth_shot.jpg",
+  "extra_shots": [],
+  "url": "https://maze.bbbit.cc",
+  "key": "maze.bbbit.cc",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/liquid-labyrinth",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/tuki0918/maze-exit",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "规则简单，种子分享方便比拼；作者标注 Claude Fable 5 制作。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "lumen-reel",
+  "name": "LUMEN REEL ― まわる灯台と三つの海路",
+  "kind": "灯塔老虎机",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "灯塔的灯室是一台老虎机：转动转轴，把灯光导向三条航道，送迷航的船回家，黎明时重建转轴。",
+  "quote": "A lighthouse whose lamp room is a slot machine: spin the reels, route the light down three sea lanes, bring lost boats home and rebuild the reels at dawn.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "lumen-reel_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/lumen-reel",
+  "key": "fable52.games/play/lumen-reel",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "7 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/lumen-reel",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "同一作者继「地牢老虎机」后的又一款转轴解谜；站内游玩 7 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "cutting-back",
+  "name": "切りもどし ― 鋏と春の小さな鉢 (Cutting Back)",
+  "kind": "盆栽修剪解谜",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "盆栽修剪解谜：剪断一根枝条，切口长出两个芽，召唤春天让它们生长；把树修剪成能在日照处开花的样子。",
+  "quote": "A bonsai pruning puzzle: cut a branch and two buds sprout from the cut, call spring and they grow. Shape the tree so it flowers in the patch of sun.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "cutting-back_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/kirimodoshi",
+  "key": "fable52.games/play/kirimodoshi",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/kirimodoshi",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "「剪一处生两芽」的修剪机制有新意，氛围治愈；站内游玩 9 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "emberdeep-lampkeeper-s-mine",
+  "name": "EMBERDEEP ― 燈守りの坑道 (Lampkeeper's Mine)",
+  "kind": "提灯矿坑动作 RPG",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "俯视角动作 RPG：只靠一盏提灯，点燃火盆、击退阴影，一段一段把黑暗逼退，直至熔炉之心。",
+  "quote": "A top-down action RPG with a single lantern: light braziers, fight the shadows and drive back the dark section by section down to the furnace heart.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D 多文件 JS（按同作者仓库 ONE_PROMPT_WORLDS 抽查的另一款推断，本作未逐款核验）；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "fable52"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "emberdeep-lampkeeper-s-mine_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/emberdeep-tomoshimori",
+  "key": "fable52.games/play/emberdeep-tomoshimori",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/emberdeep-tomoshimori",
+    "date": "2026-11-17",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/shioa2006-game/ONE_PROMPT_WORLDS",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用光照推进关卡的核心设计；站内游玩 9 次。",
+  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+ },
+ {
+  "id": "castle-valley",
+  "name": "castle-valley",
+  "kind": "油画风复刻",
+  "group": "游戏复刻与反编译",
+  "group_type": "pending",
+  "play": "可玩的 three.js 游戏，画面是油画笔触风格，复刻了作者 @de5imulate 的像素风「omw」帖子。",
+  "quote": "A playable three.js game painted in oil brush strokes: the \"omw\" pixel-art post by @de5imulate, recreated in the browser",
+  "quote_src": "仓库描述",
+  "tech": "three.js（WebGL）+ Web Audio，TypeScript、Cloudflare Workers；代码含 WebSocket 调用（用途未核验）",
+  "xcheck": "",
+  "src": "GitHub 接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "github"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://omw-game.kimaki.dev",
+  "key": "omw-game.kimaki.dev",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "GitHub",
+    "value": "81 星 / 15 分叉",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "GitHub 81 星"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "github",
+    "url": "https://github.com/remorses/castle-valley",
+    "date": "2026-11-17",
+    "metrics": {
+     "github_stars": 81,
+     "github_forks": 15
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "GitHub 81 星、15 分叉；用后处理把 3D 画面画成油画，属对已有作品的网页复刻。",
+  "tech_basis": "code_detect（three.js、WebSocket）+ GitHub 标签"
+ },
+ {
+  "id": "the-last-complication-a-zachtronics-styl",
+  "name": "The Last Complication, a Zachtronics-style watchmaking puzzle game",
+  "kind": "钟表机芯解谜",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "逐个齿轮搭建钟表机芯的解谜游戏，风格对标 Zachtronics 的工程类作品。",
+  "quote": "A puzzle game about building clock movements, gear by gear.",
+  "quote_src": "页面自述",
+  "tech": "Canvas 2D + Web Audio，原生脚本内联（页面约 696 KB）",
+  "xcheck": "",
+  "src": "Hacker News 官方接口",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "hn"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "the-last-complication-a-zachtronics-styl_shot.png",
+  "extra_shots": [],
+  "url": "https://lastcomplication.com/",
+  "key": "lastcomplication.com",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Hacker News",
+    "value": "89 分 / 21 评论",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Hacker News 89 分"
+  ],
+  "ai_tag": "unlabeled",
+  "ai_evidence": "",
+  "sources": [
+   {
+    "channel": "hn",
+    "url": "https://news.ycombinator.com/item?id=50511718",
+    "date": "2026-11-17",
+    "metrics": {
+     "hn_points": 89,
+     "hn_comments": 21
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "在 Hacker News 获 89 分、21 条评论；页面约 700 KB。",
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）"
+ },
+ {
+  "id": "bombounce",
+  "name": "Bombounce",
+  "kind": "连锁爆破弹射",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "瞄准、反弹、炸毁一切，一发就能引发连锁反应。",
+  "quote": "Aim, bounce, and blow it all up! One shot can set off a chain reaction.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D，itch.io 网页版",
+  "xcheck": "",
+  "src": "itch.io 榜单",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "itch"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "bombounce_shot.png",
+  "extra_shots": [],
+  "url": "https://runner84.itch.io/bombounce",
+  "key": "runner84.itch.io/bombounce",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "itch.io 网页新品榜",
+    "value": "第 31 名",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "itch.io 网页新品榜第 31 名"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "itch.io 描述：Aim, bounce, and blow it all up! One shot can set off a chain reaction",
+  "sources": [
+   {
+    "channel": "itch",
+    "url": "https://itch.io/games/new-and-popular/platform-web",
+    "date": "2026-11-17",
+    "metrics": {
+     "itch_rank": 31,
+     "itch_days_on_chart": 1,
+     "itch_first_on_chart": "2026-11-17"
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "itch.io 网页新品榜第 31 名，上榜第 1 天；规则简单，一局很短。",
+  "tech_basis": "code_detect（Canvas 2D）"
+ },
+ {
+  "id": "die-again",
+  "name": "DIE AGAIN",
+  "kind": "150 关恶搞平台",
+  "group": "Spawn",
+  "group_type": "pending",
+  "play": "一个瘦小的忍者、一扇门和一个会让你失去尊严的死亡计数器，共 150 个整蛊房间（页面为西班牙语）。",
+  "quote": "150 salas troll. Un ninja canijo, una puerta y un contador de muertes que te pierde el respeto.",
+  "quote_src": "平台页面描述",
+  "tech": "Spawn 平台（自研浏览器引擎，场景用 YAML 描述、玩法用 JS 脚本）",
+  "xcheck": "",
+  "src": "Spawn 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-17",
+   "channel": "spawn"
+  },
+  "added": "2026-11-17",
+  "issue": "2026-11-16",
+  "icon": "die-again_icon.ico",
+  "shot": "die-again_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.spawn.co/@yisus/die-again",
+  "key": "spawn.co/@yisus/die-again",
+  "link_status": "ok",
+  "date_text": "2026-11-13 首次公开",
+  "stats": [
+   {
+    "label": "Spawn 游玩数",
+    "value": "478 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Spawn 热榜在榜，2026-11-13 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Spawn",
+  "sources": [
+   {
+    "channel": "spawn",
+    "url": "https://www.spawn.co/",
+    "date": "2026-11-17",
+    "metrics": {
+     "spawn_rank": 20,
+     "spawn_plays": 478,
+     "spawn_likes": 68,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者两天迭代了 668 个版本；Spawn 榜内第 20 名、游玩 478 次、点赞 68。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "artisan-brownie-kitchen",
+  "name": "Artisan Brownie Kitchen",
+  "kind": "布朗尼烹饪模拟",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "在温馨厨房里做布朗尼：打蛋、倒料、搅拌都有动画和音效反馈。",
+  "quote": "Master the art of brownie-making in this cozy kitchen simulator where every crack, pour, and stir comes alive with satisfying animations and sounds.",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "artisan-brownie-kitchen_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/artisan-brownie-kitchen/01M4B3MRNTCA5Y1GXKJS2Q0QWF",
+  "key": "astrocade.com/games/artisan-brownie-kitchen/01m4b3mrntca5y1gxkjs2q0qwf",
+  "link_status": "ok",
+  "date_text": "2026-10-12 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "28.7 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 28.7 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-10-12 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 8,
+     "astrocade_plays": 286923,
+     "astrocade_likes": 4369,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-18",
+  "images_tried": true,
+  "highlight": "Astrocade 榜内第 8 名、游玩 28.7 万次、点赞 4,369；烹饪模拟是平台常见的公式化玩法。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "pizza-empire-tycoon",
+  "name": "Pizza Empire Tycoon",
+  "kind": "3D 披萨店经营",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "3D 等距视角经营繁忙的披萨店：先手工做面团、加配料、处理订单，再升级自动化机器和员工团队。",
+  "quote": "This 3D isometric simulation game lets you manage every step of a busy pizza shop, from hand-crafting dough and toppings to managing a growing fleet of automated machines and staff. You will manually handle orders to start, then strategically upgrade your restaurant with high-tech ovens and conveyor",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "pizza-empire-tycoon_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/pizza-empire-tycoon/01M6Q18PJ5KK1S6J0J7K8KPD0C",
+  "key": "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c",
+  "link_status": "ok",
+  "date_text": "2026-11-06 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.6 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页在榜，2026-11-06 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 18,
+     "astrocade_plays": 35971,
+     "astrocade_likes": 659,
+     "chart_new_entry": false
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "Astrocade 榜内第 18 名、游玩 3.6 万次；典型的「手动起步、自动化升级」经营公式。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "kick-the-buddy-2-0",
+  "name": "Kick the Buddy 2.0",
+  "kind": "布偶发泄物理",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "用各种武器和道具摆弄布偶「Buddy」来解压，是轻松的布娃娃物理玩法。",
+  "quote": "Relieve stress by interacting with Buddy using fun weapons and gadgets in this lighthearted ragdoll physics game!",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "kick-the-buddy-2-0_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/kick-the-buddy-2-0/01M19GMWFRJCB5DXAX6GKD6J27",
+  "key": "astrocade.com/games/kick-the-buddy-2-0/01m19gmwfrjcb5dxax6gkd6j27",
+  "link_status": "ok",
+  "date_text": "2026-08-30 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.5 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-08-30 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-18",
+    "metrics": {
+     "astrocade_rank": 20,
+     "astrocade_plays": 35211,
+     "astrocade_likes": 510,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "沿用热门手游《Kick the Buddy》的玩法和名字，可能涉及 IP 授权；游玩 3.5 万次，新进榜。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "game-7",
+  "name": "挤地铁",
+  "kind": "通勤挤车小游戏",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "早高峰把人群推进车厢，赶在关门前完成，同时要先让下车的乘客出来。",
+  "quote": "Push the morning crowd into the carriage before the doors close, letting the passengers getting off out first.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-7_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/metro-rush",
+  "key": "fable52.games/play/metro-rush",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/metro-rush",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "国内创作者的通勤生活梗小游戏，同作者系列之一；站内游玩 8 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "game-8",
+  "name": "夜市套圈",
+  "kind": "夜市套圈",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "十块钱十二个圈：向上拖动瞄准、松手投掷，套中什么拿走什么。",
+  "quote": "Twelve rings for ten yuan at a night-market stall: drag up to aim, let go to throw, and keep whatever you ring.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-8_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/night-market-ring",
+  "key": "fable52.games/play/night-market-ring",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/night-market-ring",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "国内夜市生活梗的小游戏，同作者系列之一；站内游玩 8 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "game-9",
+  "name": "相亲角速配",
+  "kind": "相亲角速配",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "在相亲角评判候选人：大妈念出条件，全部满足右滑，有一项不符左滑。",
+  "quote": "Judge the candidates at a matchmaking corner: swipe right if they meet every condition the auntie reads out, left if one fails.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-9_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/matchmaking-corner",
+  "key": "fable52.games/play/matchmaking-corner",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/matchmaking-corner",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把相亲角梗做成判断反应游戏，同作者系列之一；站内游玩 8 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "t-minus",
+  "name": "T-Minus",
+  "kind": "四人协作航天",
+  "group": "多人在线交互",
+  "group_type": "pending",
+  "play": "四名玩家各守一个岗位，协作完成一次航天任务：设计飞船、采购硬件、开展科研、争取各方支持，赶在发射前完成。",
+  "quote": "A cooperative space-mission game for four stations: plan the spacecraft, procure hardware, run the science and win support before launch.",
+  "quote_src": "平台页面描述",
+  "tech": "WebRTC 点对点联机 + WebSocket + Web Audio，Vite 打包脚本；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "t-minus_shot.webp",
+  "extra_shots": [],
+  "url": "https://missioncontrol.dractec.com/",
+  "key": "missioncontrol.dractec.com",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "23 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/t-minus",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 23,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/XDracam/spaceappschallenge2026",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "四人协作加点对点联机，设计和流程较完整；站内游玩 23 次。",
+  "tech_basis": "code_detect（WebRTC 点对点、WebSocket）+ Fable52 标签"
+ },
+ {
+  "id": "game-10",
+  "name": "晶塔守卫",
+  "kind": "晶塔守卫",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "四张地图的塔防：沿路布置九种塔，有六个大招，每张地图二十波，逐张解锁。",
+  "quote": "Tower defence on four maps: nine towers along the road, six big abilities, twenty waves a map, unlocked one at a time.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-10_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/crystal-tower-defense",
+  "key": "fable52.games/play/crystal-tower-defense",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/crystal-tower-defense",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "同作者系列中内容量较大的一款，3D 塔防；站内游玩 18 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "apex-lap-blender-edition",
+  "name": "Apex Lap: Blender Edition",
+  "kind": "Blender 赛车",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "3D 三圈赛道竞速，同一份赛车需求的第二种实现：赛车、赛道件和场景在 Blender 里建模后以 glTF 导入。",
+  "quote": "The same race brief a second way: the car, circuit pieces and scenery modelled in Blender over MCP, exported as glTF.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL），glTF 模型，Vite 打包脚本；模型经 Blender（MCP）制作；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "apex-lap-blender-edition_shot.jpg",
+  "extra_shots": [],
+  "url": "https://ololo-dev.github.io/apex-lap-fable-5-2-blender/",
+  "key": "ololo-dev.github.io/apex-lap-fable-5-2-blender",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "20 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/apex-lap-blender",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 20,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/ololo-dev/apex-lap-fable-5-2-blender",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "通过 MCP 让模型驱动 Blender 建模，和纯代码生成版形成对照；站内游玩 20 次。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "game-11",
+  "name": "皮衣老黄",
+  "kind": "皮衣老黄",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "经营一家芯片公司十二个季度：研发、扩张、挖人、夺回地图，直到市值重回第一。",
+  "quote": "Run a chip company for twelve quarters: research, expand, poach staff and take the map back until the market cap is first again.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-11_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/chip-jacket",
+  "key": "fable52.games/play/chip-jacket",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "15 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/chip-jacket",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 15,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "以英伟达创始人的网络昵称为题的芯片公司经营游戏，可能涉及真实人物形象；同作者系列之一。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "ripcore",
+  "name": "Ripcore",
+  "kind": "陀螺竞技场",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "两只陀螺在钢碗里对撞：后拉瞄准并定力度，松手发力，先拿四分者胜。",
+  "quote": "Two spinning tops in a steel bowl: pull back to aim and set power, release to rip, first to four points.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Canvas 2D + Web Audio，Vite 打包脚本；Fable52 页面作者说明含可选 AI 生成 3D、图像和音频素材",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "ripcore_shot.jpg",
+  "extra_shots": [],
+  "url": "https://ripcore.netlify.app",
+  "key": "ripcore.netlify.app",
+  "link_status": "ok",
+  "date_text": "2026-06-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "16 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/ripcore",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 16,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-18",
+  "images_tried": true,
+  "highlight": "作者称 3D 素材和音频由 AI 生成、追求 AAA 级画面；是作者 three.js 游戏技能包的示例作品，站内游玩 16 次。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "game-12",
+  "name": "骑手",
+  "kind": "外卖骑手驾驶",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "骑电动车在老城区送外卖，从早到午夜，对抗天气、交通和时间。",
+  "quote": "Deliver food across an old city on an electric scooter, from morning to midnight, against weather, traffic and the clock.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-12_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/rider",
+  "key": "fable52.games/play/rider",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "14 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/rider",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 14,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "外卖骑手的生活梗 3D 驾驶游戏，同作者系列之一；站内游玩 14 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "game-13",
+  "name": "清潮",
+  "kind": "自动射击小队",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "拖动小队，小队自动开火：在左边砸冰获得队员和武器，在右边清理尸潮。",
+  "quote": "A squad shooter: drag the squad, it fires on its own, break ice on the left for members and weapons and clear the horde on the right.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-13_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/qingchao",
+  "key": "fable52.games/play/qingchao",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/qingchao",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "玩法是手游里常见的自动射击小队类型；同作者系列之一。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "raptor-race",
+  "name": "Raptor Race",
+  "kind": "恐龙蛋跑酷",
+  "group": "游戏复刻与反编译",
+  "group_type": "pending",
+  "play": "竖屏手机跑酷：沿恐龙小径追赶滚走的恐龙蛋，躲开各车道上的障碍，到达孵化点。",
+  "quote": "A portrait runner for phones: chase a runaway egg down a dinosaur trail, dodge what lies in the lanes, and reach the hatching.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Web Audio，Vite 打包脚本；作者称用 Claude Fable 5 重做",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": "raptor-race_icon.png",
+  "shot": "raptor-race_shot.jpg",
+  "extra_shots": [],
+  "url": "https://drew879.github.io/raptor-race-fable/",
+  "key": "drew879.github.io/raptor-race-fable",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "13 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "A remake of Raptor Race with Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/raptor-race",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 13,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/drew879/raptor-race-fable",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者称这是对《Raptor Race》的重做；three.js 3D 竖屏玩法，站内游玩 13 次。",
+  "tech_basis": "code_detect（three.js、Web Audio）+ Fable52 标签"
+ },
+ {
+  "id": "starship-dogfight",
+  "name": "Starship Dogfight",
+  "kind": "太空飞船混战",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "第三人称小行星带空战：无尽波次，六枚导弹，每第五波出现无畏舰。",
+  "quote": "A third-person space dogfight over an asteroid belt: endless waves, six missiles, and a Dreadnought every fifth wave.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL）+ Rapier 物理（WebAssembly）+ Web Audio，代码含 Colyseus 联机库特征；Fable52 页面作者说明含可选 AI 生成素材",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "starship-dogfight_shot.jpg",
+  "extra_shots": [],
+  "url": "https://starshipdogfight.netlify.app",
+  "key": "starshipdogfight.netlify.app",
+  "link_status": "ok",
+  "date_text": "2026-06-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/starship-dogfight",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-18",
+  "images_tried": true,
+  "highlight": "作者 three.js 游戏技能包的示例作品；代码含 Colyseus 联机库特征，是否联机未核验。",
+  "tech_basis": "code_detect（three.js、Rapier、Colyseus、WebAssembly）+ Fable52 标签"
+ },
+ {
+  "id": "game-14",
+  "name": "广州漂移",
+  "kind": "广州漂移",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "在雨夜的广州骑电动车送外卖：穿梭环城路、漂移拿小费，还要保住汤不洒。",
+  "quote": "Deliver takeout across a rainy Guangzhou on an e-scooter: thread the ring road, drift for tips, and keep the soup in the box.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-14_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/gz-drift",
+  "key": "fable52.games/play/gz-drift",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/gz-drift",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "广州本地生活梗加漂移手感，同作者系列之一；站内游玩 18 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "maple-run",
+  "name": "MAPLE RUN",
+  "kind": "枫叶跑酷",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "沿乡村铁路的三轨无尽跑酷：跳过栏杆、滚过关口、收集金叶；页面称上传一张照片就能成为跑者。",
+  "quote": "A three-track endless runner down a country railway in maple season: jump barriers, roll under gates, collect golden leaves.",
+  "quote_src": "平台页面描述",
+  "tech": "PlayCanvas（WebGPU，Ammo 物理，含 WebAssembly）+ Web Audio；Fable52 标签含 Splats；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "maple-run_shot.jpg",
+  "extra_shots": [],
+  "url": "https://maple-run-fable.vercel.app",
+  "key": "maple-run-fable.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "12 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/maple-run",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 12,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/nanha0130/maple-run-fable",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用到 WebGPU 与高斯泼溅（Splats 标签），技术上较新；站内游玩 12 次。",
+  "tech_basis": "code_detect（PlayCanvas、WebGPU、Ammo、WebAssembly）+ Fable52 标签"
+ },
+ {
+  "id": "game-15",
+  "name": "Лисёнок и огненный жёлудь",
+  "kind": "狐狸与火橡果",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "狐狸幼崽与火橡果的平台跳跃：1,465 行单个 HTML 文件，所有图形和声音都由代码生成。",
+  "quote": "A one-file platformer about a fox cub and a fiery acorn: 1,465 lines of HTML, with every graphic and sound made in code.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D + Web Audio，单个 HTML 文件（约 81 KB）；作者称用 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-15_shot.jpg",
+  "extra_shots": [],
+  "url": "https://sashatchersunov6-rgb.github.io/lisenok-game/",
+  "key": "sashatchersunov6-rgb.github.io/lisenok-game",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "11 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/lisenok-game",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 11,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/sashatchersunov6-rgb/lisenok-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "俄语单文件平台游戏，体量小但完整；作者称用 Claude Fable 5 制作。",
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签"
+ },
+ {
+  "id": "game-17",
+  "name": "吃啥拉啥",
+  "kind": "吃啥拉啥",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "吃掉路上的东西并射向身后的怪物：辣椒喷火、冰淇淋冻结、西瓜变巨大。",
+  "quote": "Eat what is on the road and fire it at the monsters behind you: chilli flames, ice cream freezes, watermelon goes giant.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-17_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/eat-and-go",
+  "key": "fable52.games/play/eat-and-go",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/eat-and-go",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把吃到什么就变成什么武器的设定做成荒诞喜剧，同作者系列之一；站内游玩 8 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "game-18",
+  "name": "摸鱼大师",
+  "kind": "摸鱼大师",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "只有一个操作：按住摸鱼，松开装忙；老板转身、摄像头灯变红、HR 路过时要及时松手。",
+  "quote": "One control: hold to slack off, release to look busy. The boss turns round, the camera lamp goes red, HR walks past.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-18_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/moyu-master",
+  "key": "fable52.games/play/moyu-master",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/moyu-master",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把上班摸鱼做成潜行反应小游戏，同作者系列之一；站内游玩 9 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "gabriel-s-sweet-town",
+  "name": "Gabriel's Sweet Town",
+  "kind": "儿童过家家",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "面向孩子的温和角色扮演沙盒：17 个场所、240 多件可移动物件，可换装、烹饪、探索，无广告，安装后可离线玩。",
+  "quote": "A gentle role-play sandbox for kids: 17 places, 240+ movable objects, and offline play once installed.",
+  "quote_src": "平台页面描述",
+  "tech": "PWA（可离线），SVG 画面，原生 JS（js/main.js）；作者标注 Claude Code Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": "gabriel-s-sweet-town_icon.svg",
+  "shot": "gabriel-s-sweet-town_shot.jpg",
+  "extra_shots": [],
+  "url": "https://chomachomachoma.github.io/candyland_pwa/",
+  "key": "chomachomachoma.github.io/candyland_pwa",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "10 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Claude Code Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/gabriels-sweet-town",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/chomachomachoma/candyland_pwa",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "为幼儿设计的无广告离线 PWA；作者标注 Claude Code Fable 5 制作。",
+  "tech_basis": "code_detect（脚本 js/main.js）+ Fable52 标签 + 页面描述"
+ },
+ {
+  "id": "game-19",
+  "name": "搓澡大师",
+  "kind": "搓澡大师",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "限时给顾客搓背：把污垢搓成条，避开红色痛点才能拿小费。",
+  "quote": "Scrub a customer's back against the clock, work the dirt into strings, and keep off the red sore spots for a tip.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-19_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/scrub-master",
+  "key": "fable52.games/play/scrub-master",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/scrub-master",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "澡堂生活梗的计时小游戏，同作者系列之一；站内游玩 8 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "game-20",
+  "name": "捏泡泡纸",
+  "kind": "捏泡泡纸",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "限时捏泡泡纸：金色泡泡加时，连锁泡泡炸一片，臭泡泡会直接结束游戏。",
+  "quote": "Pop bubble wrap for time: gold bubbles add seconds, chain bubbles burst a patch, and the stink bubble ends your run.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-20_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/bubble-wrap",
+  "key": "fable52.games/play/bubble-wrap",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "7 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/bubble-wrap",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "规则简单、一局很短，同作者系列之一；站内游玩 7 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "apex-lap",
+  "name": "Apex Lap",
+  "kind": "3D 计时赛车",
+  "group": "端游级3D 美术表现力",
+  "group_type": "pending",
+  "play": "三圈赛道计时赛：平路时速 216 公里，加速时 270 公里，加速槽要松开才会回满。",
+  "quote": "A three-lap circuit race: 216 km/h on the road, 270 on boost, and a boost that only refills once you let go.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（WebGL），Vite 打包脚本；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "apex-lap_shot.jpg",
+  "extra_shots": [],
+  "url": "https://ololo-dev.github.io/apex-lap-fable-5-2/",
+  "key": "ololo-dev.github.io/apex-lap-fable-5-2",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "9 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/apex-lap",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 9,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/ololo-dev/apex-lap-fable-5-2",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "作者说明是同一赛车需求的纯代码实现，与 Blender 建模版成对；站内游玩 9 次。",
+  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+ },
+ {
+  "id": "rufus-crush",
+  "name": "Rufus Crush",
+  "kind": "黑拉布拉多三消",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "为手机设计的三消游戏，共 1,036 关，讲一只黑色拉布拉多忙碌的一天。",
+  "quote": "A match-3 for phones with 1,036 levels about one black lab's very busy life, built in Rust and shipped as one offline WebAssembly file.",
+  "quote_src": "平台页面描述",
+  "tech": "Rust 编译为 WebAssembly，离线单文件；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": "rufus-crush_icon.png",
+  "shot": "rufus-crush_shot.jpg",
+  "extra_shots": [],
+  "url": "https://bhoult.github.io/phone-games/",
+  "key": "bhoult.github.io/phone-games",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "7 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/rufus-crush",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/bhoult/phone-games",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用 Rust 编写并打成单个离线 WebAssembly 文件；作者标注 Claude Fable 5.2 制作。",
+  "tech_basis": "Fable52 标签（Rust、WebAssembly）+ 线索描述",
+  "note": "链接是作者的手机小游戏合集页，Rufus Crush 是其中一款"
+ },
+ {
+  "id": "game-21",
+  "name": "怒砸办公室",
+  "kind": "怒砸办公室",
+  "group": "休闲益智与分享比拼",
+  "group_type": "pending",
+  "play": "在保安赶到前砸烂办公室：显示器、奖杯、打卡机、老板椅和保险箱。",
+  "quote": "Smash an office before security arrives: monitors, trophies, the punch clock, the boss's chair and the safe, all in pieces.",
+  "quote_src": "平台页面描述",
+  "tech": "three.js（ES Module，本地引入；按同作者 11 款小游戏中抽查的「挤地铁」推断，本作未逐款核验）；作者标注 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "game-21_shot.jpg",
+  "extra_shots": [],
+  "url": "https://fable52.games/play/office-smash",
+  "key": "fable52.games/play/office-smash",
+  "link_status": "ok",
+  "date_text": "2026-11-15 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "10 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "1 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/office-smash",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 10,
+     "fable52_featured": false,
+     "github_stars": 1,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zhgarylu/everyday-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "职场发泄题材的破坏小游戏，同作者系列之一；站内游玩 10 次。",
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+ },
+ {
+  "id": "jester",
+  "name": "Jester",
+  "kind": "视频模仿派对",
+  "group": "多人在线交互",
+  "group_type": "pending",
+  "play": "派对游戏：把一小段视频变成关卡，每位玩家暗中模仿其中一人，之后视频回放时叠加所有人的抠像。",
+  "quote": "A party game that turns any short clip into a level: each player secretly copies one person in it, then the clip plays back with everyone's cutouts.",
+  "quote_src": "平台页面描述",
+  "tech": "Supabase 后端 + Canvas 2D + Web Audio，Vite 打包脚本；Fable52 标签含 MediaPipe、Three.js；作者标注 Claude Fable 5.2 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": "jester_icon.svg",
+  "shot": "jester_shot.jpg",
+  "extra_shots": [],
+  "url": "https://jester-pi.vercel.app",
+  "key": "jester-pi.vercel.app",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "7 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/jester",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 7,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/aaron-sulbaran/jester",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "用摄像头与姿态识别做多人同乐，创意独特；作者标注 Claude Fable 5.2 制作。",
+  "tech_basis": "code_detect（Supabase、Canvas 2D）+ Fable52 标签"
+ },
+ {
+  "id": "giant-salami-saw",
+  "name": "Giant Salami Saw",
+  "kind": "巨型萨拉米锯",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "按标题看是锯切巨型萨拉米香肠的解压类小游戏，页面没有玩法描述。",
+  "quote": "",
+  "quote_src": "",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "giant-salami-saw_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/giant-salami-saw/01M7B4YM0Q5XFDCXS4CXG8Y74X",
+  "key": "astrocade.com/games/giant-salami-saw/01m7b4ym0q5xfdcxs4cxg8y74x",
+  "link_status": "ok",
+  "date_text": "2026-11-14 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "11.2 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 11.2 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-14 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 2,
+     "astrocade_plays": 111580,
+     "astrocade_likes": 2102,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-19",
+  "images_tried": true,
+  "highlight": "Astrocade 榜内第 2 名、游玩 11.2 万次、点赞 2,102，新进榜；页面无介绍。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "makeover-studio",
+  "name": "Makeover Studio",
+  "kind": "美妆换装",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "洗发造型、化妆，挑选服装和配饰，完成整套改造。",
+  "quote": "Wash and style hair, apply makeup, and choose outfits and accessories in Makeover Studio.",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "makeover-studio_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/makeover-studio/01M7EEKFPKNAKKGZ2KKAAPHSDH",
+  "key": "astrocade.com/games/makeover-studio/01m7eekfpknakkgz2kkaaphsdh",
+  "link_status": "ok",
+  "date_text": "2026-11-16 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.4 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-11-16 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 6,
+     "astrocade_plays": 33988,
+     "astrocade_likes": 663,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "换装化妆是平台常见公式玩法；榜内第 6 名、游玩 3.4 万次，新进榜。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "high-power-contra-os-invasores-intergal",
+  "name": "High-power Contra os Invasores Intergalácticos!",
+  "kind": "卡通外星入侵",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "点击引导主角 High-Power 在经典卡通冒险里保卫城市，打退外星入侵者（页面为葡萄牙语名）。",
+  "quote": "Tap to guide High-Power through a classic cartoon adventure as he saves the city from alien invaders!",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "high-power-contra-os-invasores-intergal_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/high-power-contra-os-invasores-intergalácticos/01KGKFWH42K7G4G7XEPB05KWTB",
+  "key": "astrocade.com/games/high-power-contra-os-invasores-intergalácticos/01kgkfwh42k7g4g7xepb05kwtb",
+  "link_status": "ok",
+  "date_text": "2026-02-04 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "3.8 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-02-04 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 10,
+     "astrocade_plays": 37974,
+     "astrocade_likes": 1096,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "游玩 3.8 万次、点赞 1,096；标题借用「魂斗罗」式名称，可能涉及 IP 授权。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "love-crime-couple-adventure",
+  "name": "Love & crime_couple  Adventure",
+  "kind": "情侣都市冒险",
+  "group": "Astrocade",
+  "group_type": "pending",
+  "play": "带情侣角色去咖啡馆约会、散步、拥抱、跳舞，也能开跑车逛城、体验真实车流和任务。",
+  "quote": "Take your couple on café dates, enjoy coffee, walk together, hug, and dance.\nDrive sports cars, explore the city, and experience realistic traffic and exciting missions.",
+  "quote_src": "平台页面描述",
+  "tech": "Astrocade 平台对话式生成",
+  "xcheck": "",
+  "src": "Astrocade 平台页面显示值",
+  "hot": true,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "astrocade"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": null,
+  "shot": "love-crime-couple-adventure_shot.jpg",
+  "extra_shots": [],
+  "url": "https://www.astrocade.com/games/love-crime-couple-adventure/01M60115R2JNQYKXXJMYZBZNQ3",
+  "key": "astrocade.com/games/love-crime-couple-adventure/01m60115r2jnqykxxjmyzbznq3",
+  "link_status": "ok",
+  "date_text": "2026-10-29 首次公开",
+  "stats": [
+   {
+    "label": "Astrocade 游玩数",
+    "value": "16.4 万 次",
+    "doubt": false
+   }
+  ],
+  "signals": [
+   {
+    "类别": "规模",
+    "说明": "平台显示游玩 16.4 万 次"
+   }
+  ],
+  "reasons": [
+   "Astrocade 热门页新上榜，2026-10-29 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Astrocade",
+  "sources": [
+   {
+    "channel": "astrocade",
+    "url": "https://www.astrocade.com/category/trending",
+    "date": "2026-11-19",
+    "metrics": {
+     "astrocade_rank": 13,
+     "astrocade_plays": 163647,
+     "astrocade_likes": 2344,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-19",
+  "images_tried": true,
+  "highlight": "把约会和开放城市驾驶混在一起；榜内第 13 名、游玩 16.4 万次、点赞 2,344，新进榜。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "game-22",
+  "name": "柑仔的晚霞航空信",
+  "kind": "晚霞纸飞机",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "一只猫乘纸飞机飞过黄昏的港口小镇：收集晚霞邮票、投信、躲避雷云，无尽模式，三条命。",
+  "quote": "A cat on a paper plane over a harbour town at sunset: collect dusk stamps, post letters, dodge thunderclouds. Endless, three lives, one roll.",
+  "quote_src": "平台页面描述",
+  "tech": "Canvas 2D + Web Audio，单脚本（game.js）；作者标注由 Claude Fable 5 制作",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "fable52"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": "game-22_icon.png",
+  "shot": "game-22_shot.jpg",
+  "extra_shots": [],
+  "url": "https://jambocoder159.github.io/ai-game-duel/versions/fable/index.html",
+  "key": "jambocoder159.github.io/ai-game-duel",
+  "link_status": "ok",
+  "date_text": "2026-11-18 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "8 次",
+    "doubt": false
+   },
+   {
+    "label": "GitHub",
+    "value": "0 星",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/ganzi-wanxia-hangkongxin",
+    "date": "2026-11-19",
+    "metrics": {
+     "fable52_plays": 8,
+     "fable52_featured": false,
+     "github_stars": 0,
+     "chart_new_entry": true
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/jambocoder159/ai-game-duel",
+    "date": "2026-11-19",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "同一套素材交给两个 AI 各做一款的对照样本，这是其中的 Fable 版；新进榜。",
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ 线索描述"
+ },
+ {
+  "id": "championship-manager",
+  "name": "Championship Manager",
+  "kind": "足球经理",
+  "group": "Verse8",
+  "group_type": "pending",
+  "play": "扮演足球经理接管球队：转会、战术、阵型，通过动态比赛击败对手。",
+  "quote": "Build your dream club, manage tactics and dominant leagues in this immersive simulator game.",
+  "quote_src": "平台页面描述",
+  "tech": "Verse8 平台生成",
+  "xcheck": "",
+  "src": "Verse8 平台页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-19",
+   "channel": "verse8"
+  },
+  "added": "2026-11-19",
+  "issue": "2026-11-16",
+  "icon": "championship-manager_icon.ico",
+  "shot": null,
+  "extra_shots": [],
+  "url": "https://verse8.io/o7A9L3T",
+  "key": "verse8.io/o7a9l3t",
+  "link_status": "ok",
+  "date_text": "2026-03-20 首次公开",
+  "stats": [
+   {
+    "label": "Verse8 游玩数",
+    "value": "2,370 次",
+    "doubt": true
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Verse8 热门新上榜，2026-03-20 发布"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "发布在 AI 创作平台 Verse8",
+  "sources": [
+   {
+    "channel": "verse8",
+    "url": "https://verse8.io/",
+    "date": "2026-11-19",
+    "metrics": {
+     "verse8_list": "trending",
+     "verse8_rank": 21,
+     "verse8_sessions": 2370,
+     "verse8_likes": 28,
+     "chart_new_entry": true
+    }
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "images_tried": true,
+  "highlight": "Verse8 趋势榜第 21 名、游玩 2,370 次；沿用经典足球经理游戏名，可能涉及 IP 授权。",
+  "tech_basis": "平台说明"
+ },
+ {
+  "id": "game-16",
+  "name": "三借芭蕉扇",
+  "kind": "三借芭蕉扇",
+  "group": "独立精品与巧妙创意",
+  "group_type": "pending",
+  "play": "扮演孙悟空带队三借芭蕉扇：回合制指令、五行相克、七十二变，约一小时通关，亲手扇灭八百里火焰山。",
+  "quote": "扮孙悟空带队三借芭蕉扇：回合制指令、五行相克、七十二变，亲手扇灭八百里火焰山。",
+  "quote_src": "页面自述",
+  "tech": "原生 JavaScript（js/main.js），引擎未识别；仓库说明适配 Claude Code、Codex 等，具体制作模型未标明",
+  "xcheck": "",
+  "src": "Fable52.games 页面显示值",
+  "hot": false,
+  "status": "auto",
+  "first_seen": {
+   "date": "2026-11-18",
+   "channel": "fable52"
+  },
+  "added": "2026-11-18",
+  "issue": "2026-11-16",
+  "icon": "game-16_icon.webp",
+  "shot": "game-16_shot.jpg",
+  "extra_shots": [],
+  "url": "https://xiyouji.vibecoco.ai",
+  "key": "xiyouji.vibecoco.ai",
+  "link_status": "ok",
+  "date_text": "2026-11-17 首次公开",
+  "stats": [
+   {
+    "label": "Fable52.games 站内游玩数",
+    "value": "18 次",
+    "doubt": false
+   }
+  ],
+  "signals": [],
+  "reasons": [
+   "Fable52.games 合集站收录（二手渠道）"
+  ],
+  "ai_tag": "ai",
+  "ai_evidence": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
+  "sources": [
+   {
+    "channel": "fable52",
+    "url": "https://fable52.games/play/sanjie-bajiaoshan",
+    "date": "2026-11-18",
+    "metrics": {
+     "fable52_plays": 18,
+     "fable52_featured": false,
+     "chart_new_entry": false
+    }
+   },
+   {
+    "channel": "github",
+    "url": "https://github.com/zenstory-ai/novel-to-game",
+    "date": "2026-11-18",
+    "metrics": {},
+    "origin": true
+   }
+  ],
+  "x_handles": [],
+  "source_posts": [],
+  "stats_date": "2026-11-19",
+  "hot_since": "2026-11-18",
+  "images_tried": true,
+  "highlight": "《西游记》三借芭蕉扇改编的回合制 RPG，是 ZenStory\"小说改游戏\"技能包（GitHub 1,136 星）的示例作品。",
+  "tech_basis": "code_detect（脚本 js/main.js）+ GitHub 仓库描述"
  }
 ]
