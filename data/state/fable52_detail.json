@@ -58,9 +58,9 @@
    "url": "https://shaunprice.github.io/soccer-3d/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-10",
+   "published": "",
    "ai_hint": "Soccer-3D - Claude Fable 5.2 test",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "mothlight": {
@@ -85,7 +85,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "bayhaven": {
@@ -98,7 +98,7 @@
    "x": {
     "url": "https://x.com/FablestarGames/status/2120641504951603394",
     "handle": "FablestarGames",
-    "views": 1282,
+    "views": 1287,
     "likes": 6,
     "date": "2026-11-11",
     "text": "Bayhaven is playable.\n\nPlay the skeleton build in your browser, phones included: https://fablestar.games/play/\n\nEverything Fable 5.2 built today:\n- drive and drift 3.2 km of beachfront\n- 14 vehicles: a city bus, a scooter, a motorcycle, a golf cart, a lowrider that hops\n- traffic that stops at red lights\n- get out on foot and steal a car from traffic\n- people on every sidewalk, and the Flamingo Flash Mob on the beach at sunset\n\nIt's rough and early, and all of it was written by an AI, live. It gets better every day until GTA 6 drops.\n\nKeys: WASD to drive, Space to drift, F to get out or steal ",
@@ -118,7 +118,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Everything Fable 5.2 built today:",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "dustfall": {
@@ -143,7 +143,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5.2 model",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "what-the-water-keeps": {
@@ -156,10 +156,11 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
     "handle": "kevin_t_ngo",
-    "views": 511921,
-    "likes": 4277,
+    "views": 513007,
+    "likes": 4275,
     "date": "2026-11-09",
-    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds"
+    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a boat ride through 8 dreamlike worlds",
+    "kind": "author"
    },
    "repo": {},
    "hn": {
@@ -175,7 +176,7 @@
    "mirror": false,
    "published": "2026-11-09",
    "ai_hint": "Claude Fable 5.2 made this game demo, playable in the browser",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "pelican-on-a-bike": {
@@ -193,7 +194,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "blameless": {
@@ -218,7 +219,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "All done by Claude Fable 5.2 from one prompt",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "jimao-cs": {
@@ -236,7 +237,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "evensong": {
@@ -249,10 +250,11 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2120238844754923874",
     "handle": "kevin_t_ngo",
-    "views": 487014,
-    "likes": 1792,
+    "views": 488568,
+    "likes": 1800,
     "date": "2026-11-10",
-    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight"
+    "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight",
+    "kind": "author"
    },
    "repo": {},
    "hn": {},
@@ -261,7 +263,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Claude Fable 5.2 made this game demo, playable in the browser",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "qingyun-sword-flight": {
@@ -286,7 +288,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "tuktuk": {
@@ -309,9 +311,9 @@
    "url": "https://basemazab.github.io/tuktuk/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-12",
+   "published": "",
    "ai_hint": "Written by Claude Fable 5.2",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "wukong-tiger-vanguard": {
@@ -329,7 +331,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "sublevel-07-fps-repro": {
@@ -375,15 +377,16 @@
    "x": {
     "url": "https://x.com/op7418/status/2120694045299327187",
     "handle": "op7418",
-    "views": 295199,
-    "likes": 1161,
+    "views": 296868,
+    "likes": 1165,
     "date": "2026-11-12",
-    "text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/"
+    "text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/",
+    "kind": "author"
    },
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 410,
+    "stars": 419,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -394,7 +397,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "tidebell": {
@@ -419,7 +422,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "ironvale": {
@@ -444,7 +447,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Ironvale: a game made with AI (Claude Fable 5.2)",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "hanford-reach": {
@@ -469,7 +472,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "shuttle-strike": {
@@ -492,9 +495,9 @@
    "url": "https://fedifianto.github.io/shuttlestrike/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-11",
+   "published": "",
    "ai_hint": "simple badminton game with claude fable 5.2",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "feiche-3d": {
@@ -512,7 +515,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "harvest-standoff": {
@@ -537,7 +540,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Fable 5.2 farm inspired CS game",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "transport-ship-3d": {
@@ -555,7 +558,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "daedalus": {
@@ -578,9 +581,9 @@
    "url": "https://s77ffy.github.io/daedalus/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-10",
+   "published": "",
    "ai_hint": "Greek Mythology Puzzle Game (built using Fable 5.2)",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "boring-game-sf-bay-transit": {
@@ -593,7 +596,7 @@
    "x": {
     "url": "https://x.com/jakozaur/status/2122392933496434845",
     "handle": "jakozaur",
-    "views": 314,
+    "views": 315,
     "likes": 3,
     "date": "2026-11-16",
     "text": "@LoveCodeTrade You cerainly could built Portal for $750mln, but the whole project is currently projected to take 10 times more, $7.5+ bln, wrote a game how can you reduce it:\nhttps://jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
@@ -613,7 +616,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Congrats for shipping Fable 5.2, now let's build a train to author's HQ",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "sternenjaeger": {
@@ -636,9 +639,9 @@
    "url": "https://oldzitterhand.github.io/sternenjaeger/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-11",
+   "published": "",
    "ai_hint": "browser game created with Fable 5.2 - zero effort prompt",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "warm-toy-room-v25": {
@@ -656,7 +659,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "misremember": {
@@ -681,7 +684,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "saltline-online": {
@@ -704,9 +707,9 @@
    "url": "https://web-jjuuxm.tulingai.com/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-11",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "becario-del-universo": {
@@ -729,9 +732,9 @@
    "url": "https://masugus.github.io/fable5.2-5min-game/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-11",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "hextech-aram": {
@@ -744,7 +747,7 @@
    "x": {
     "url": "https://x.com/liyue_ai/status/2120449465211613236",
     "handle": "liyue_ai",
-    "views": 321889,
+    "views": 322006,
     "likes": 919,
     "date": "2026-11-11",
     "text": "又是被震撼的一天！！！\n\n客户端的LOL玩过？网页端的LOL玩过没有？\n\nhttps://lol.hanyue.io/\n\n实时匹配对战，这效果太强了，AI已经进化到这种程度了吗？？？",
@@ -757,7 +760,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "breach-transport-ship-online": {
@@ -775,7 +778,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "emberdeep": {
@@ -798,9 +801,9 @@
    "url": "https://dndnoob.github.io/EmberDeep/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-12",
+   "published": "",
    "ai_hint": "Testing the Limits of Fable 5.2 Game Design",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "duskline-vxn7rh": {
@@ -826,7 +829,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "Alguien ha montado Fable52 Games: juegos de un solo HTML hechos con Claude Fable 5.2, varios con su prompt a la vista",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "flight-simulator-nfljgw": {
@@ -844,7 +847,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "makinamon-pulso": {
@@ -869,7 +872,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Hecho con Claude Fable 5.2",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "riftline": {
@@ -892,9 +895,9 @@
    "url": "https://wongh26.github.io/claude_fps/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-13",
+   "published": "",
    "ai_hint": "testing Claude Fable 5.2 for game dev",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "the-county": {
@@ -919,7 +922,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "Fable 5.2's entry in PotatoBench (PotatoBench made by TheMizeGuy)",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "emberhold-xwn1lu": {
@@ -937,7 +940,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "arcfall-artillery-ho7odp": {
@@ -955,7 +958,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "tidemark": {
@@ -968,7 +971,7 @@
    "x": {
     "url": "https://x.com/CocoSgt_twt/status/2121478295015584113",
     "handle": "CocoSgt_twt",
-    "views": 26376,
+    "views": 26474,
     "likes": 52,
     "date": "2026-11-14",
     "text": "我是《高级战争》的死忠粉，等续作等了 20 年\n\n现在模型的能力上来了，我就自己做了一个精神续作：《潮汐战线》，发布在 DeepSeek Harness（DSH）的 Game Store 上，代码在 GitHub 开源\n\n你没看错：DSH 未尝不是游戏平台\n\n网页打开就能玩，手机也行：http://dsh-game-store.com/games/tidemark\n\n开源地址：http://github.com/CocoSgt/dsh-game-tidemark",
@@ -988,7 +991,7 @@
    "mirror": false,
    "published": "2026-11-13",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "ushiro-no-haniwa": {
@@ -1011,9 +1014,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game6/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "pon-to-mori-wa-tomoru": {
@@ -1036,9 +1039,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "hitotsubu-teien": {
@@ -1061,9 +1064,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game2/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "undertow-y8xvs5": {
@@ -1081,7 +1084,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "black-tide-hdab0j": {
@@ -1099,7 +1102,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "graveyard-shift": {
@@ -1112,7 +1115,7 @@
    "x": {
     "url": "https://x.com/ethanplusai/status/2120602190201127250",
     "handle": "ethanplusai",
-    "views": 920,
+    "views": 929,
     "likes": 6,
     "date": "2026-11-11",
     "text": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out. \n\nRuns from a single HTML file in the browser. Works on desktop and mobile.",
@@ -1132,7 +1135,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "solar-system-3d": {
@@ -1150,7 +1153,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "duel-knights": {
@@ -1173,9 +1176,9 @@
    "url": "https://bitofastickler.github.io/duel-knights/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "last-return": {
@@ -1200,7 +1203,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "Claude Fable 5.2 test, started with minimal prompt; 'make me a 3d LiDAR horror game'",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "escape-the-fable": {
@@ -1223,9 +1226,9 @@
    "url": "https://ai-gamez-r-funz.github.io/escape-the-fable/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "shutterpine": {
@@ -1248,9 +1251,9 @@
    "url": "https://dquanbui.github.io/shutterpine/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "mini-rpg": {
@@ -1275,7 +1278,7 @@
    "mirror": false,
    "published": "2026-11-12",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "hitsuji-ga-ippiki": {
@@ -1298,9 +1301,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game8/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "circular-tic-tac-toe": {
@@ -1325,7 +1328,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "the-long-climb": {
@@ -1348,9 +1351,9 @@
    "url": "https://hilaytrivedi.github.io/thirty-days/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5.2",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "reel-delve": {
@@ -1373,9 +1376,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game5/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "rawza-ring": {
@@ -1398,9 +1401,9 @@
    "url": "https://hashmatullahzaher.github.io/mazar-rawza-race/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "Built by Claude Fable 5.2 from one prompt",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "liquid-labyrinth": {
@@ -1425,7 +1428,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "Fable 5.2 sample game",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "lumen-reel": {
@@ -1448,9 +1451,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game4/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "kirimodoshi": {
@@ -1473,9 +1476,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game7/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "emberdeep-tomoshimori": {
@@ -1498,9 +1501,9 @@
    "url": "https://shioa2006-game.github.io/ONE_PROMPT_WORLDS/game3/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-15",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "metro-rush": {
@@ -1525,7 +1528,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "night-market-ring": {
@@ -1550,7 +1553,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "matchmaking-corner": {
@@ -1575,7 +1578,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "t-minus": {
@@ -1598,9 +1601,9 @@
    "url": "https://missioncontrol.dractec.com/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "crystal-tower-defense": {
@@ -1625,7 +1628,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "apex-lap-blender": {
@@ -1650,7 +1653,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5.2 with Blender in one ololo session",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "chip-jacket": {
@@ -1675,7 +1678,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "ripcore": {
@@ -1689,7 +1692,7 @@
    "repo": {
     "url": "https://github.com/majidmanzarpour/threejs-game-skills",
     "created": "2026-06-14",
-    "stars": 2850,
+    "stars": 2859,
     "homepage": "",
     "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
     "owner": "majidmanzarpour"
@@ -1698,9 +1701,9 @@
    "url": "https://ripcore.netlify.app",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-06-14",
+   "published": "",
    "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "rider": {
@@ -1725,7 +1728,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "qingchao": {
@@ -1750,7 +1753,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "raptor-race": {
@@ -1773,9 +1776,9 @@
    "url": "https://drew879.github.io/raptor-race-fable/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-16",
+   "published": "",
    "ai_hint": "A remake of Raptor Race with Fable 5.2 instead of Opus 5.5",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "starship-dogfight": {
@@ -1789,7 +1792,7 @@
    "repo": {
     "url": "https://github.com/majidmanzarpour/threejs-game-skills",
     "created": "2026-06-14",
-    "stars": 2850,
+    "stars": 2859,
     "homepage": "",
     "desc": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
     "owner": "majidmanzarpour"
@@ -1798,9 +1801,9 @@
    "url": "https://starshipdogfight.netlify.app",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-06-14",
+   "published": "",
    "ai_hint": "js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "gz-drift": {
@@ -1825,7 +1828,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "maple-run": {
@@ -1850,7 +1853,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "lisenok-game": {
@@ -1873,9 +1876,9 @@
    "url": "https://sashatchersunov6-rgb.github.io/lisenok-game/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-16",
+   "published": "",
    "ai_hint": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5.2 в Syntx",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "sanjie-bajiaoshan": {
@@ -1889,9 +1892,9 @@
    "repo": {
     "url": "https://github.com/zenstory-ai/novel-to-game",
     "created": "2026-07-18",
-    "stars": 1136,
+    "stars": 1149,
     "homepage": "https://zenstory.ai/zh/novel-to-game",
-    "desc": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
+    "desc": "小说改游戏 Agent 技能包：通读拆书、玩法与美术策划、代码构建与盲玩验收，支持网页、互动影游与微信/抖音/TapTap 小游戏 ｜ Agent skills for adapting novels into playable games",
     "owner": "zenstory-ai"
    },
    "hn": {},
@@ -1899,8 +1902,8 @@
    "how": "合集站给的链接",
    "mirror": false,
    "published": "",
-   "ai_hint": "把小说改编成可玩游戏的 AI skill 合集：从文字冒险、策略经营到互动影游，一站式生成策划案、可运行代码与实机验收，适配 Claude Code / Codex 等 ｜ Agent skills for adapting novels into playable games",
-   "checked": "2026-11-19"
+   "ai_hint": "",
+   "checked": "2026-11-20"
   }
  },
  "eat-and-go": {
@@ -1925,7 +1928,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "moyu-master": {
@@ -1950,7 +1953,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "gabriels-sweet-town": {
@@ -1973,9 +1976,9 @@
    "url": "https://chomachomachoma.github.io/candyland_pwa/",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-14",
+   "published": "",
    "ai_hint": "Claude Code Fable 5.2",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "scrub-master": {
@@ -2000,7 +2003,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "bubble-wrap": {
@@ -2025,7 +2028,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "apex-lap": {
@@ -2050,7 +2053,7 @@
    "mirror": false,
    "published": "2026-11-16",
    "ai_hint": "Apex Lap, a 3D racing game built by Claude Fable 5.2 in one ololo session",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "rufus-crush": {
@@ -2075,7 +2078,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "office-smash": {
@@ -2100,7 +2103,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "earthfm": {
@@ -2125,7 +2128,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "jester": {
@@ -2150,7 +2153,7 @@
    "mirror": false,
    "published": "2026-11-14",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "ganzi-wanxia-hangkongxin": {
@@ -2173,9 +2176,9 @@
    "url": "https://jambocoder159.github.io/ai-game-duel/versions/fable/index.html",
    "how": "合集站给的链接",
    "mirror": false,
-   "published": "2026-11-18",
+   "published": "",
    "ai_hint": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6.2 Astra）與柑仔的晚霞航空信（Claude Fable 5.2）",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "papertrails": {
@@ -2189,7 +2192,7 @@
    "repo": {
     "url": "https://github.com/xikhar/papertrails",
     "created": "2026-11-17",
-    "stars": 86,
+    "stars": 92,
     "homepage": "https://xikhar.github.io/papertrails/",
     "desc": "Papertrails — explore an endless paper world",
     "owner": "xikhar"
@@ -2200,7 +2203,7 @@
    "mirror": false,
    "published": "2026-11-17",
    "ai_hint": "",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
   }
  },
  "last-light-rooftop-run": {
@@ -2225,7 +2228,25 @@
    "mirror": false,
    "published": "",
    "ai_hint": "Four AI coding models, the same prompt, one shot each",
-   "checked": "2026-11-19"
+   "checked": "2026-11-20"
+  }
+ },
+ "fault-line-echoes-hkbbj1": {
+  "play_url": "",
+  "source_repo": "",
+  "author_url": "https://github.com/GalokPeng/Fault-Line-Echoes",
+  "has_prompt": false,
+  "listed": "2026-11-19",
+  "origin": {
+   "x": {},
+   "repo": {},
+   "hn": {},
+   "url": "https://fable52.games/play/fault-line-echoes-hkbbj1",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "",
+   "checked": "2026-11-20"
   }
  }
 }

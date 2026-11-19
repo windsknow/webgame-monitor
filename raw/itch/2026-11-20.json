@@ -1,0 +1,585 @@
+{
+ "date": "2026-11-20",
+ "channel": "itch",
+ "count": 36,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "itch",
+   "title": "Cult of PiN",
+   "url": "https://kennymakesgames.itch.io/pin",
+   "key": "kennymakesgames.itch.io/pin",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 1,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2024-08-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A Roguelike-Pinball Deckbuilder"
+  },
+  {
+   "channel": "itch",
+   "title": "Trees Hate You (demo)",
+   "url": "https://tykenn.itch.io/trees-hate-you",
+   "key": "tykenn.itch.io/trees-hate-you",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 2,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2025-06-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Do NOT trust the trees"
+  },
+  {
+   "channel": "itch",
+   "title": "A Mirror's Curse SFW",
+   "url": "https://amaty.itch.io/a-mirrors-curse-sfw",
+   "key": "amaty.itch.io/a-mirrors-curse-sfw",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 3,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2025-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A SFW Transgender Transformation Game"
+  },
+  {
+   "channel": "itch",
+   "title": "Average Routine",
+   "url": "https://colorlesswing-studio.itch.io/average-routine",
+   "key": "colorlesswing-studio.itch.io/average-routine",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 4,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2024-05-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Turn Based RPG"
+  },
+  {
+   "channel": "itch",
+   "title": "Sword Fight",
+   "url": "https://tovrick.itch.io/sword-fight",
+   "key": "tovrick.itch.io/sword-fight",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 5,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2021-01-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Idle sword-fighting and management game where you train disciples, duel rivals and build schools"
+  },
+  {
+   "channel": "itch",
+   "title": "Hypnotica Quest",
+   "url": "https://bloofbloof.itch.io/hypnotica-quest",
+   "key": "bloofbloof.itch.io/hypnotica-quest",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 6,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2024-03-26",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A strange hypnotic adventure in an even stranger little town"
+  },
+  {
+   "channel": "itch",
+   "title": "Traveloot",
+   "url": "https://fluffy-lotus.itch.io/traveloot",
+   "key": "fluffy-lotus.itch.io/traveloot",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 7,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-18"
+   },
+   "published": "2026-01-22",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Run-based incremental game. Explore islands, gather resources, recruit adventurers, and grow through an upgrade tree."
+  },
+  {
+   "channel": "itch",
+   "title": "Nonogueram",
+   "url": "https://jawdandev.itch.io/nonogueram",
+   "key": "jawdandev.itch.io/nonogueram",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 8,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-18"
+   },
+   "published": "2026-03-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Fast-paced Procedural Picross Puzzle Roguelike"
+  },
+  {
+   "channel": "itch",
+   "title": "Funerama",
+   "url": "https://thibault-rivera.itch.io/funerama",
+   "key": "thibault-rivera.itch.io/funerama",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 9,
+    "itch_days_on_chart": 3,
+    "itch_first_on_chart": "2026-11-18"
+   },
+   "published": "2026-03-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A point-and-click adventure into the sick mind of a novelist."
+  },
+  {
+   "channel": "itch",
+   "title": "Slots & Slaughter",
+   "url": "https://indieformer.itch.io/slots-slaughter",
+   "key": "indieformer.itch.io/slots-slaughter",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 10,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "You're a broke gladiator whose entire kit is locked inside a slot machine."
+  },
+  {
+   "channel": "itch",
+   "title": "Colormixing",
+   "url": "https://lidoli.itch.io/colormixing",
+   "key": "lidoli.itch.io/colormixing",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 11,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Pick paints, stir them with a palette knife, and find out the name of the color you made."
+  },
+  {
+   "channel": "itch",
+   "title": "[FULL] DECOGEAR DIMENSIONS",
+   "url": "https://boghog.itch.io/decogear",
+   "key": "boghog.itch.io/decogear",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 12,
+    "itch_days_on_chart": 6,
+    "itch_first_on_chart": "2026-11-15"
+   },
+   "published": "2026-07-22",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "DEVIL'S LIMINAL",
+   "url": "https://heptad.itch.io/devils-liminal",
+   "key": "heptad.itch.io/devils-liminal",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 13,
+    "itch_days_on_chart": 4,
+    "itch_first_on_chart": "2026-11-17"
+   },
+   "published": "2020-08-26",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A demon's pact, a final summer."
+  },
+  {
+   "channel": "itch",
+   "title": "Every Last Grain",
+   "url": "https://oliver-kuso.itch.io/every-last-grain",
+   "key": "oliver-kuso.itch.io/every-last-grain",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 14,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Clear the desert. One spoonful at a time."
+  },
+  {
+   "channel": "itch",
+   "title": "Nymble 2 Demo",
+   "url": "https://xalezar.itch.io/nymble-2",
+   "key": "xalezar.itch.io/nymble-2",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 15,
+    "itch_days_on_chart": 7,
+    "itch_first_on_chart": "2026-11-14"
+   },
+   "published": "2024-01-02",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Jack reaches new heights in this turn-based puzzle-platformer sequel!"
+  },
+  {
+   "channel": "itch",
+   "title": "KOURUSH: 3D Color Matching Tunnel Runner",
+   "url": "https://sderfxdev.itch.io/kourush",
+   "key": "sderfxdev.itch.io/kourush",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 16,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2025-12-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Dodge, switch colors, and survive an endless 3D arcade tunnel."
+  },
+  {
+   "channel": "itch",
+   "title": "Cantata",
+   "url": "https://firfireweed.itch.io/cantata",
+   "key": "firfireweed.itch.io/cantata",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 17,
+    "itch_days_on_chart": 7,
+    "itch_first_on_chart": "2026-11-14"
+   },
+   "published": "2024-12-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A low fantasy IF about song, strength, & finding your voice."
+  },
+  {
+   "channel": "itch",
+   "title": "Raft Outpost Idle",
+   "url": "https://yumong-games.itch.io/raft-outpost-idle",
+   "key": "yumong-games.itch.io/raft-outpost-idle",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 18,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Scavenge floating debris by day, build automated turrets, and survive endless waves of deep-sea bosses."
+  },
+  {
+   "channel": "itch",
+   "title": "Feed My Girlfriend",
+   "url": "https://blushrelay.itch.io/feed-my-girlfriend",
+   "key": "blushrelay.itch.io/feed-my-girlfriend",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 19,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A cozy 3D weight gain game about one pizza a day"
+  },
+  {
+   "channel": "itch",
+   "title": "PROGRAMAR MAL - Arkanoid",
+   "url": "https://ericrod.itch.io/arkanoid",
+   "key": "ericrod.itch.io/arkanoid",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 20,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-09-16",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Seguundo proyecto de la serie PROGRAMAR MAL donde se desarrolla un clon del clásico Arkanoid"
+  },
+  {
+   "channel": "itch",
+   "title": "Idle Isekai - An idle RPG",
+   "url": "https://furbyofdeth.itch.io/idle-isekai",
+   "key": "furbyofdeth.itch.io/idle-isekai",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 21,
+    "itch_days_on_chart": 4,
+    "itch_first_on_chart": "2026-11-17"
+   },
+   "published": "2023-04-24",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Idle RPG game About saving the world (or not)"
+  },
+  {
+   "channel": "itch",
+   "title": "Pan to Riches",
+   "url": "https://steamkensui.itch.io/pan-to-riches",
+   "key": "steamkensui.itch.io/pan-to-riches",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 22,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Dig dirt, swirl your pan, smelt gold bars and build a gold rush empire."
+  },
+  {
+   "channel": "itch",
+   "title": "You Greedy Goblin",
+   "url": "https://littlelanterngamestudio.itch.io/you-greedy-goblin",
+   "key": "littlelanterngamestudio.itch.io/you-greedy-goblin",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 23,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Small pan. Greedy goblin. Terrible odds. Back to the dungeon."
+  },
+  {
+   "channel": "itch",
+   "title": "Nomad Idle 2",
+   "url": "https://thefoxknocks.itch.io/nomad-idle-2",
+   "key": "thefoxknocks.itch.io/nomad-idle-2",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 24,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2025-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Idle game auto-battler where you create builds and have your party kill hordes of enemies."
+  },
+  {
+   "channel": "itch",
+   "title": "The Octagon Within",
+   "url": "https://4thwarden.itch.io/the-octagon-within",
+   "key": "4thwarden.itch.io/the-octagon-within",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 25,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Run an MMA gym. Build fighters. Watch every fight play out live and own the belt."
+  },
+  {
+   "channel": "itch",
+   "title": "ワビサビ・インクリメンタル/ Wabi-Sabi Incremental",
+   "url": "https://madoguchimoto.itch.io/wabisabi-incremental",
+   "key": "madoguchimoto.itch.io/wabisabi-incremental",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 26,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "鹿威しで獣を追い払うのんびりインクリメンタル"
+  },
+  {
+   "channel": "itch",
+   "title": "Lunar Salvage",
+   "url": "https://lufistudio.itch.io/lunar-salvage",
+   "key": "lufistudio.itch.io/lunar-salvage",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 27,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2026-11-17",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Harvest moon dust, build automated factories, and engineer an army of robots and drones!"
+  },
+  {
+   "channel": "itch",
+   "title": "Pixel Nuée",
+   "url": "https://nevil511.itch.io/pixel-nuee",
+   "key": "nevil511.itch.io/pixel-nuee",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 28,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "EN : A contemplative incremental game where thousands of pixels clash in swarms."
+  },
+  {
+   "channel": "itch",
+   "title": "Flux Foundry",
+   "url": "https://djgaiakitten.itch.io/flux-foundry",
+   "key": "djgaiakitten.itch.io/flux-foundry",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 29,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Collect material to fuel your factory!~"
+  },
+  {
+   "channel": "itch",
+   "title": "Build-A-Rome",
+   "url": "https://buildarome.itch.io/build-a-rome",
+   "key": "buildarome.itch.io/build-a-rome",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 30,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2026-11-16",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Find your name in Rome. Fight in the Arena, walk the living city, build your house."
+  },
+  {
+   "channel": "itch",
+   "title": "Space Intern",
+   "url": "https://angrypickle92.itch.io/space-intern",
+   "key": "angrypickle92.itch.io/space-intern",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 31,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "It's your first day on the job. Might be dangerous to go alone though"
+  },
+  {
+   "channel": "itch",
+   "title": "Outer Rim Legend",
+   "url": "https://tinchohood.itch.io/outer-rim-legend",
+   "key": "tinchohood.itch.io/outer-rim-legend",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 32,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-10-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "The Cursed Reliquary",
+   "url": "https://cynicalic.itch.io/the-cursed-reliquary",
+   "key": "cynicalic.itch.io/the-cursed-reliquary",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 33,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A dark-fantasy idle mining game. Your Thralls dig, you forge, and something is buried below."
+  },
+  {
+   "channel": "itch",
+   "title": "BE PATIENT",
+   "url": "https://patientguy.itch.io/be-patient",
+   "key": "patientguy.itch.io/be-patient",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 34,
+    "itch_days_on_chart": 2,
+    "itch_first_on_chart": "2026-11-19"
+   },
+   "published": "2026-11-07",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A rage platformer that loves to troll you"
+  },
+  {
+   "channel": "itch",
+   "title": "Particle Idle",
+   "url": "https://itzbrazil.itch.io/particle-idle",
+   "key": "itzbrazil.itch.io/particle-idle",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 35,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  },
+  {
+   "channel": "itch",
+   "title": "Others",
+   "url": "https://paz419.itch.io/others",
+   "key": "paz419.itch.io/others",
+   "source_url": "https://itch.io/games/new-and-popular/platform-web",
+   "metrics": {
+    "itch_rank": 36,
+    "itch_days_on_chart": 1,
+    "itch_first_on_chart": "2026-11-20"
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": ""
+  }
+ ]
+}
