@@ -24,9 +24,10 @@ from . import net, util
 GAMEY = re.compile(r'\b(game|games|play|playable|fps|mmo|mmorpg|rpg|roguelike|shooter|racing|racer|multiplayer|'
                    r'simulator|sim|puzzle|arcade|chess|platformer|sandbox|open[- ]world|quake|doom|minecraft|'
                    r'pok[eé]mon|zelda|tetris|wordle|geoguessr|battle|arena|tycoon|idle|clicker|voxel)\b', re.I)
-AI_HINT = re.compile(r'[^.。\n|]*\b(claude|codex|cursor|gpt[- ]?\d?|chatgpt|gemini|grok|copilot|fable|opus|sonnet|'
+# 句点后面紧跟数字的（Fable5.2、GPT-4.1 这类版本号）不算断句；关键词前后是中文或数字也能认（\b 会把"Fable5""用Claude做"当成一个词）
+AI_HINT = re.compile(r'(?:[^.。\n|]|\.(?=\d))*(?<![a-z_])(claude|codex|cursor|gpt[- ]?\d?|chatgpt|gemini|grok|copilot|fable|opus|sonnet|'
                      r'vibe[- ]?cod\w*|vibe jam|llm|ai[- ]generated|built with ai|made with ai|ai agents?|'
-                     r'one[- ]shot\w*|single prompt)\b[^.。\n|]*', re.I)
+                     r'one[- ]shot\w*|single prompt)(?![a-z_])(?:[^.。\n|]|\.(?=\d))*', re.I)
 
 
 def ai_hint(*texts):
@@ -489,11 +490,12 @@ def fable52(cfg, date):
             cache[slug] = d
         play = d.get('play_url') or own              # 站内托管的（没有外部链接）用站内页面
         xp = (xmap.get(slug) or {}).get('url', '') if '/status/' not in (d.get('author_url') or '') else ''
+        xk = (xmap.get(slug) or {}).get('kind', 'author') if xp else 'author'
         if not d.get('origin') or (d['origin'].get('checked', '') < date and
                                    util.days_between(d.get('listed') or date, date) <= days) or \
                 (xp and d['origin'].get('x', {}).get('url') != xp):
             d['origin'] = dict(trace_origin(g.get('title') or slug, play, xp or d.get('author_url'), d.get('source_repo'),
-                                            cfg, _shift(d.get('listed') or date, -60)), checked=date)
+                                            cfg, _shift(d.get('listed') or date, -60), xk), checked=date)
         org = d['origin']
         url = org.get('url') or play
         m = {'fable52_plays': g.get('playCount'), 'fable52_featured': bool(g.get('isFeatured'))}
@@ -516,7 +518,8 @@ def fable52(cfg, date):
             'repo': d.get('source_repo', ''), 'topics': g.get('techTags') or [],
             'mirror_url': play if org.get('mirror') else '',
             'origin': {'how': org.get('how'), 'x': org['x'].get('url', ''), 'repo': org['repo'].get('url', ''),
-                       'hn': org['hn'].get('url', ''), 'x_text': org['x'].get('text', '')[:300]},
+                       'hn': org['hn'].get('url', ''), 'x_text': org['x'].get('text', '')[:300],
+                       'x_kind': org['x'].get('kind', 'author') if org['x'] else ''},
         })
     util.save(detail_p, cache)
     # 两款游戏的试玩链接归一后撞成同一个键（同一个静态托管下的不同目录等）时，改用站内页面区分

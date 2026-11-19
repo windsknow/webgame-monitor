@@ -233,7 +233,7 @@ def reasons_of(c):
             if o.get('how') and o['how'] != '合集站给的链接':
                 s += "，试玩链接取自" + (' ' if o['how'][:1].isascii() else '') + o['how']
             if m.get('x_views'):
-                s += f"，作者帖子浏览 {util.fmt_num(m['x_views'])}"
+                s += f"，{'他人介绍帖' if o.get('x_kind') == 'third_party' else '作者帖子'}浏览 {util.fmt_num(m['x_views'])}"
         elif ch in CHARTS:
             s = CH_NAME[ch] + ('新上榜' if m.get('chart_new_entry') else '在榜')
             if l.get('published'):
@@ -256,7 +256,8 @@ def ai_tag_of(c, cfg):
             if l['channel'] == 'hn' and l.get('read') in ('article', 'page'):
                 who = 'Hacker News 链接的' + ('文章正文' if l['read'] == 'article' else '页面')
             if l['channel'] == 'fable52' and (l.get('origin') or {}).get('x') and not l['ai_hint'].startswith('Fable52'):
-                who = '作者帖子'
+                who = ('他人介绍帖' if l['origin'].get('x_kind') == 'third_party' else '作者帖子') \
+                    if l['ai_hint'][:60] in (l['origin'].get('x_text') or '') else '源码仓库描述'
             return 'ai', (who + '：' if who else '') + l['ai_hint']
     if is_ai_platform(c['url'], cfg):
         return 'ai', f'发布在 AI 创作平台（{host}）'

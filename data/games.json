@@ -2872,7 +2872,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 429371,
+     "x_views": 429394,
      "x_likes": null
     }
    }
@@ -2944,7 +2944,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 173746,
+     "x_views": 173748,
      "x_likes": null
     }
    }
@@ -3142,7 +3142,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 10254,
+     "x_views": 10257,
      "x_likes": 54
     }
    }
@@ -4234,13 +4234,13 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "8,696",
+    "value": "8,699",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 8,696"
+   "X 帖子（@gourav_io，核验确认），浏览 8,699"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4250,7 +4250,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 8696,
+     "x_views": 8699,
      "x_likes": 12
     }
    }
@@ -4313,7 +4313,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 33114,
+     "x_views": 33118,
      "x_likes": 244
     }
    }
@@ -4376,7 +4376,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 13005,
+     "x_views": 13007,
      "x_likes": 119
     }
    }
@@ -4439,7 +4439,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 58678,
+     "x_views": 58681,
      "x_likes": 451
     }
    }
@@ -4502,7 +4502,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 40149,
+     "x_views": 40159,
      "x_likes": 204
     }
    }
@@ -4565,7 +4565,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 198997,
+     "x_views": 199014,
      "x_likes": 1686
     }
    }
@@ -4691,7 +4691,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 108457,
+     "x_views": 108476,
      "x_likes": 281
     }
    }
@@ -4817,7 +4817,7 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 16270,
+     "x_views": 16273,
      "x_likes": 267
     }
    }
@@ -4885,7 +4885,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 201835,
+     "x_views": 201858,
      "x_likes": null
     }
    }
@@ -5463,7 +5463,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "1,656 次",
+    "value": "1,660 次",
     "doubt": false
    },
    {
@@ -5482,14 +5482,14 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Soccer-3D - Claude Fable 5",
+  "ai_evidence": "Soccer-3D - Claude Fable 5.2 test",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/pocket-soccer-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1656,
+     "fable52_plays": 1660,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -5543,7 +5543,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "1,027 次",
+    "value": "1,030 次",
     "doubt": false
    },
    {
@@ -5564,7 +5564,7 @@
     "url": "https://fable52.games/play/mothlight",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 1027,
+     "fable52_plays": 1030,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -5615,7 +5615,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "885 次",
+    "value": "886 次",
     "doubt": false
    },
    {
@@ -5639,14 +5639,14 @@
    "Fable52.games 合集站收录（二手渠道），作者帖子浏览 51.2 万"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "作者帖子：Claude Fable 5",
+  "ai_evidence": "作者帖子：Claude Fable 5.2 made this game demo, playable in the browser",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/what-the-water-keeps",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 885,
+     "fable52_plays": 886,
      "fable52_featured": false,
      "x_views": 511921,
      "hn_points": 2,
@@ -5716,7 +5716,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "701 次",
+    "value": "704 次",
+    "doubt": false
+   },
+   {
+    "label": "X 帖子浏览",
+    "value": "1,282",
     "doubt": false
    },
    {
@@ -5732,21 +5737,29 @@
    }
   ],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道）"
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自作者帖子里的链接，作者帖子浏览 1,282"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Bayhaven: an original open-world game, written live by Claude Fable 5",
+  "ai_evidence": "作者帖子：Everything Fable 5.2 built today:",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/bayhaven",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 701,
+     "fable52_plays": 704,
      "fable52_featured": false,
+     "x_views": 1282,
      "github_stars": 3,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/FablestarGames/status/2120641504951603394",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    },
    {
     "channel": "github",
@@ -5796,7 +5809,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "567 次",
+    "value": "569 次",
     "doubt": false
    }
   ],
@@ -5812,7 +5825,7 @@
     "url": "https://fable52.games/play/jimao-cs",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 567,
+     "fable52_plays": 569,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -5855,7 +5868,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "676 次",
+    "value": "678 次",
     "doubt": false
    },
    {
@@ -5874,14 +5887,14 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Created to test the Claude Fable 5",
+  "ai_evidence": "Created to test the Claude Fable 5.2 model",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/dustfall",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 676,
+     "fable52_plays": 678,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -5935,7 +5948,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "521 次",
+    "value": "522 次",
     "doubt": false
    },
    {
@@ -5961,7 +5974,7 @@
     "url": "https://fable52.games/play/blameless",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 521,
+     "fable52_plays": 522,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -6074,7 +6087,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "758 次",
+    "value": "763 次",
     "doubt": false
    },
    {
@@ -6095,7 +6108,7 @@
     "url": "https://fable52.games/play/qingyun-sword-flight",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 758,
+     "fable52_plays": 763,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -6146,7 +6159,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "649 次",
+    "value": "652 次",
     "doubt": false
    },
    {
@@ -6165,14 +6178,14 @@
    "Fable52.games 合集站收录（二手渠道），作者帖子浏览 48.7 万"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "作者帖子：Claude Fable 5",
+  "ai_evidence": "作者帖子：Claude Fable 5.2 made this game demo, playable in the browser",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/evensong",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 649,
+     "fable52_plays": 652,
      "fable52_featured": false,
      "x_views": 487014,
      "chart_new_entry": false
@@ -6224,7 +6237,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "719 次",
+    "value": "725 次",
     "doubt": false
    }
   ],
@@ -6240,7 +6253,7 @@
     "url": "https://fable52.games/play/wukong-tiger-vanguard",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 719,
+     "fable52_plays": 725,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6283,7 +6296,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "475 次",
+    "value": "476 次",
     "doubt": false
    },
    {
@@ -6304,7 +6317,7 @@
     "url": "https://fable52.games/play/tidebell",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 475,
+     "fable52_plays": 476,
      "fable52_featured": false,
      "github_stars": 2,
      "chart_new_entry": false
@@ -6355,7 +6368,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "495 次",
+    "value": "497 次",
     "doubt": false
    },
    {
@@ -6369,14 +6382,14 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Ironvale: a game made with AI (Claude Fable 5",
+  "ai_evidence": "Ironvale: a game made with AI (Claude Fable 5.2)",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/ironvale",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 495,
+     "fable52_plays": 497,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -6431,17 +6444,22 @@
     "doubt": false
    },
    {
+    "label": "X 帖子浏览",
+    "value": "3.7 万",
+    "doubt": false
+   },
+   {
     "label": "GitHub",
-    "value": "95 星",
+    "value": "114 星",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自作者帖子里的链接，作者帖子浏览 3.7 万"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable 5",
+  "ai_evidence": "作者帖子：卧槽，Fable5.2独立完成模型、声音、贴图全流程，一切皆代码，方法论+源代码全开源！！！",
   "sources": [
    {
     "channel": "fable52",
@@ -6450,9 +6468,17 @@
     "metrics": {
      "fable52_plays": 488,
      "fable52_featured": false,
-     "github_stars": 95,
+     "x_views": 37339,
+     "github_stars": 114,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/wquguru/status/2120383332722905400",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    },
    {
     "channel": "github",
@@ -6499,7 +6525,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "441 次",
+    "value": "445 次",
     "doubt": false
    },
    {
@@ -6519,14 +6545,14 @@
    "GitHub  星"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "作者帖子：我去！Fable 5",
+  "ai_evidence": "作者帖子：我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/wusuo-shanmen",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 441,
+     "fable52_plays": 445,
      "fable52_featured": false,
      "x_views": 295199,
      "chart_new_entry": false
@@ -6584,7 +6610,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "233 次",
+    "value": "234 次",
     "doubt": false
    },
    {
@@ -6598,14 +6624,14 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Written by Claude Fable 5",
+  "ai_evidence": "Written by Claude Fable 5.2",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/tuktuk",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 233,
+     "fable52_plays": 234,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -6656,7 +6682,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "221 次",
+    "value": "222 次",
     "doubt": false
    }
   ],
@@ -6672,7 +6698,7 @@
     "url": "https://fable52.games/play/feiche-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 221,
+     "fable52_plays": 222,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -6769,7 +6795,7 @@
   "tech": "引擎未识别（页面使用自带的 lol-assets 脚本）；Fable52.games 标注由 Claude Fable 5.2 制作（未核实）",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -6787,13 +6813,23 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "170 次",
+    "value": "172 次",
+    "doubt": false
+   },
+   {
+    "label": "X 帖子浏览",
+    "value": "32.2 万",
     "doubt": false
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "传播",
+    "说明": "X 单帖浏览 32.2 万"
+   }
+  ],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道）"
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自他人介绍帖里的链接，他人介绍帖浏览 32.2 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
@@ -6803,10 +6839,18 @@
     "url": "https://fable52.games/play/hextech-aram",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 170,
+     "fable52_plays": 172,
      "fable52_featured": false,
+     "x_views": 321889,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/liyue_ai/status/2120449465211613236",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -6814,7 +6858,8 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产客户端 IP 的同人联机作品，存在授权风险；来源标注“Fable 5.2”未经核实。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "hot_since": "2026-11-19"
  },
  {
   "id": "shuttle-strike",
@@ -6846,7 +6891,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "117 次",
+    "value": "119 次",
     "doubt": false
    },
    {
@@ -6865,14 +6910,14 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "simple badminton game with claude fable 5",
+  "ai_evidence": "simple badminton game with claude fable 5.2",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/shuttle-strike",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 117,
+     "fable52_plays": 119,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -6940,7 +6985,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable 5",
+  "ai_evidence": "Fable 5.2 farm inspired CS game",
   "sources": [
    {
     "channel": "fable52",
@@ -7012,7 +7057,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Greek Mythology Puzzle Game (built using Fable 5",
+  "ai_evidence": "Greek Mythology Puzzle Game (built using Fable 5.2)",
   "sources": [
    {
     "channel": "fable52",
@@ -7070,7 +7115,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "188 次",
+    "value": "189 次",
     "doubt": false
    }
   ],
@@ -7086,7 +7131,7 @@
     "url": "https://fable52.games/play/transport-ship-3d",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 188,
+     "fable52_plays": 189,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -7192,6 +7237,11 @@
     "doubt": false
    },
    {
+    "label": "X 帖子浏览",
+    "value": "314",
+    "doubt": false
+   },
+   {
     "label": "GitHub",
     "value": "0 星",
     "doubt": false
@@ -7199,10 +7249,10 @@
   ],
   "signals": [],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道）"
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自作者帖子里的链接，作者帖子浏览 314"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Congrats for shipping Fable 5",
+  "ai_evidence": "源码仓库描述：Congrats for shipping Fable 5.2, now let's build a train to author's HQ",
   "sources": [
    {
     "channel": "fable52",
@@ -7211,9 +7261,17 @@
     "metrics": {
      "fable52_plays": 93,
      "fable52_featured": false,
+     "x_views": 314,
      "github_stars": 0,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/jakozaur/status/2122392933496434845",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    },
    {
     "channel": "github",
@@ -7346,7 +7404,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "browser game created with Fable 5",
+  "ai_evidence": "browser game created with Fable 5.2 - zero effort prompt",
   "sources": [
    {
     "channel": "fable52",
@@ -7490,7 +7548,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Testing the Limits of Fable 5",
+  "ai_evidence": "Testing the Limits of Fable 5.2 Game Design",
   "sources": [
    {
     "channel": "fable52",
@@ -7679,26 +7737,39 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "134 次",
+    "value": "135 次",
+    "doubt": false
+   },
+   {
+    "label": "X 帖子浏览",
+    "value": "51",
     "doubt": false
    }
   ],
   "signals": [],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道）"
+   "Fable52.games 合集站收录（二手渠道），作者帖子浏览 51"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "ai_evidence": "作者帖子：Alguien ha montado Fable52 Games: juegos de un solo HTML hechos con Claude Fable 5.2, varios con su prompt a la vista",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/duskline-vxn7rh",
     "date": "2026-11-13",
     "metrics": {
-     "fable52_plays": 134,
+     "fable52_plays": 135,
      "fable52_featured": false,
+     "x_views": 51,
      "chart_new_entry": false
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/sr_rauldev/status/2121133419589452199",
+    "date": "2026-11-13",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -9693,7 +9764,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Hecho con Claude Fable 5",
+  "ai_evidence": "Hecho con Claude Fable 5.2",
   "sources": [
    {
     "channel": "fable52",
@@ -9765,7 +9836,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "testing Claude Fable 5",
+  "ai_evidence": "testing Claude Fable 5.2 for game dev",
   "sources": [
    {
     "channel": "fable52",
@@ -9837,7 +9908,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable 5",
+  "ai_evidence": "Fable 5.2's entry in PotatoBench (PotatoBench made by TheMizeGuy)",
   "sources": [
    {
     "channel": "fable52",
@@ -9895,7 +9966,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "64 次",
+    "value": "65 次",
     "doubt": false
    }
   ],
@@ -9911,7 +9982,7 @@
     "url": "https://fable52.games/play/emberhold-xwn1lu",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 64,
+     "fable52_plays": 65,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -9954,7 +10025,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "59 次",
+    "value": "60 次",
     "doubt": false
    }
   ],
@@ -9970,7 +10041,7 @@
     "url": "https://fable52.games/play/arcfall-artillery-ho7odp",
     "date": "2026-11-16",
     "metrics": {
-     "fable52_plays": 59,
+     "fable52_plays": 60,
      "fable52_featured": false,
      "chart_new_entry": false
     }
@@ -10017,6 +10088,11 @@
     "doubt": false
    },
    {
+    "label": "X 帖子浏览",
+    "value": "2.6 万",
+    "doubt": false
+   },
+   {
     "label": "GitHub",
     "value": "24 星",
     "doubt": false
@@ -10024,7 +10100,7 @@
   ],
   "signals": [],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自作者帖子里的链接，作者帖子浏览 2.6 万",
    "GitHub 24 星"
   ],
   "ai_tag": "ai",
@@ -10037,6 +10113,7 @@
     "metrics": {
      "fable52_plays": 83,
      "fable52_featured": false,
+     "x_views": 26376,
      "github_stars": 24,
      "chart_new_entry": false
     }
@@ -10049,6 +10126,13 @@
      "github_stars": 24,
      "github_forks": 1
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/CocoSgt_twt/status/2121478295015584113",
+    "date": "2026-11-16",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -10927,7 +11011,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "8 次",
+    "value": "9 次",
     "doubt": false
    },
    {
@@ -10948,7 +11032,7 @@
     "url": "https://fable52.games/play/pon-to-mori-wa-tomoru",
     "date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 8,
+     "fable52_plays": 9,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -11189,7 +11273,12 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "99 次",
+    "value": "100 次",
+    "doubt": false
+   },
+   {
+    "label": "X 帖子浏览",
+    "value": "920",
     "doubt": false
    },
    {
@@ -11200,19 +11289,20 @@
   ],
   "signals": [],
   "reasons": [
-   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页",
+   "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页，作者帖子浏览 920",
    "GitHub 13 星"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+  "ai_evidence": "作者帖子：I asked Claude Fable 5.2 to build me a zombies game and it spit this out",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/graveyard-shift",
     "date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 99,
+     "fable52_plays": 100,
      "fable52_featured": false,
+     "x_views": 920,
      "github_stars": 13,
      "chart_new_entry": false
     }
@@ -11225,6 +11315,13 @@
      "github_stars": 13,
      "github_forks": 4
     }
+   },
+   {
+    "channel": "x",
+    "url": "https://x.com/ethanplusai/status/2120602190201127250",
+    "date": "2026-11-17",
+    "metrics": {},
+    "origin": true
    }
   ],
   "x_handles": [],
@@ -11336,7 +11433,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "16 次",
+    "value": "17 次",
     "doubt": false
    },
    {
@@ -11350,14 +11447,14 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Claude Fable 5",
+  "ai_evidence": "Claude Fable 5.2 test, started with minimal prompt; 'make me a 3d LiDAR horror game'",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/last-return",
     "date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 16,
+     "fable52_plays": 17,
      "fable52_featured": false,
      "github_stars": 3,
      "chart_new_entry": false
@@ -11480,7 +11577,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "21 次",
+    "value": "23 次",
     "doubt": false
    },
    {
@@ -11501,7 +11598,7 @@
     "url": "https://fable52.games/play/shutterpine",
     "date": "2026-11-17",
     "metrics": {
-     "fable52_plays": 21,
+     "fable52_plays": 23,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -11710,7 +11807,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5",
+  "ai_evidence": "Thirty Days: a 3D game about Jensen Huang's NVIDIA journey, built with Claude Fable 5.2",
   "sources": [
    {
     "channel": "fable52",
@@ -11854,7 +11951,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Built by Claude Fable 5",
+  "ai_evidence": "Built by Claude Fable 5.2 from one prompt",
   "sources": [
    {
     "channel": "fable52",
@@ -11926,7 +12023,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Fable 5",
+  "ai_evidence": "Fable 5.2 sample game",
   "sources": [
    {
     "channel": "fable52",
@@ -12636,7 +12733,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -12708,7 +12805,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -12780,7 +12877,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -12924,7 +13021,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -12996,7 +13093,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5",
+  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5.2 with Blender in one ololo session",
   "sources": [
    {
     "channel": "fable52",
@@ -13054,7 +13151,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "19 次",
+    "value": "21 次",
     "doubt": false
    },
    {
@@ -13068,14 +13165,14 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/chip-jacket",
     "date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 19,
+     "fable52_plays": 21,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -13193,7 +13290,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "14 次",
+    "value": "16 次",
     "doubt": false
    },
    {
@@ -13207,14 +13304,14 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
     "url": "https://fable52.games/play/rider",
     "date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 14,
+     "fable52_plays": 16,
      "fable52_featured": false,
      "github_stars": 1,
      "chart_new_entry": false
@@ -13279,7 +13376,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -13351,7 +13448,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "A remake of Raptor Race with Fable 5",
+  "ai_evidence": "A remake of Raptor Race with Fable 5.2 instead of Opus 5.5",
   "sources": [
    {
     "channel": "fable52",
@@ -13490,7 +13587,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -13634,7 +13731,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5",
+  "ai_evidence": "Лисёнок и огненный жёлудь — браузерный платформер, нписанный нейросетью Claude Fable 5.2 в Syntx",
   "sources": [
    {
     "channel": "fable52",
@@ -13706,7 +13803,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -13778,7 +13875,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -13850,7 +13947,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Claude Code Fable 5",
+  "ai_evidence": "Claude Code Fable 5.2",
   "sources": [
    {
     "channel": "fable52",
@@ -13922,7 +14019,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -13994,7 +14091,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -14066,7 +14163,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5",
+  "ai_evidence": "Apex Lap, a 3D racing game built by Claude Fable 5.2 in one ololo session",
   "sources": [
    {
     "channel": "fable52",
@@ -14124,7 +14221,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "7 次",
+    "value": "8 次",
     "doubt": false
    },
    {
@@ -14145,7 +14242,7 @@
     "url": "https://fable52.games/play/rufus-crush",
     "date": "2026-11-18",
     "metrics": {
-     "fable52_plays": 7,
+     "fable52_plays": 8,
      "fable52_featured": false,
      "github_stars": 0,
      "chart_new_entry": false
@@ -14211,7 +14308,7 @@
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5",
+  "ai_evidence": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
   "sources": [
    {
     "channel": "fable52",
@@ -14609,7 +14706,7 @@
    "Fable52.games 合集站收录（二手渠道）"
   ],
   "ai_tag": "ai",
-  "ai_evidence": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6",
+  "ai_evidence": "同一組素材 兩個 AI 做的遊戲：夕陽郵航（GPT-6.2 Astra）與柑仔的晚霞航空信（Claude Fable 5.2）",
   "sources": [
    {
     "channel": "fable52",
@@ -14795,7 +14892,7 @@
   "stats": [
    {
     "label": "Fable52.games 站内游玩数",
-    "value": "4 次",
+    "value": "6 次",
     "doubt": false
    },
    {
@@ -14816,7 +14913,7 @@
     "url": "https://fable52.games/play/papertrails",
     "date": "2026-11-19",
     "metrics": {
-     "fable52_plays": 4,
+     "fable52_plays": 6,
      "fable52_featured": false,
      "github_stars": 86,
      "chart_new_entry": true

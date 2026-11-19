@@ -123,8 +123,9 @@ def _hn_search(title, since_ts):
     return best
 
 
-def trace_origin(title, play_url, author_url, repo_url, cfg, since):
-    """二手渠道条目的原始出处。返回 {'url','how','mirror','published','x','repo','hn','ai_hint'}。"""
+def trace_origin(title, play_url, author_url, repo_url, cfg, since, x_kind='author'):
+    """二手渠道条目的原始出处。返回 {'url','how','mirror','published','x','repo','hn','ai_hint'}。
+    x_kind：author_url 指向的 X 帖是作者本人发的（author），还是别人专门介绍这款游戏的帖子（third_party）。"""
     from .collectors import _epoch
     out = {'x': {}, 'repo': {}, 'hn': {}}
     picks = []                                       # (来源说明, 试玩链接)
@@ -134,10 +135,10 @@ def trace_origin(title, play_url, author_url, repo_url, cfg, since):
         if tw:
             out['x'] = {'url': f'https://x.com/{m.group(1)}/status/{m.group(2)}', 'handle': m.group(1),
                         'views': tw.get('views'), 'likes': tw.get('likes'), 'date': util_date(tw.get('created_timestamp')),
-                        'text': (tw.get('text') or '')[:600]}
+                        'text': (tw.get('text') or '')[:600], 'kind': x_kind}
             for l in _as_links(dict.fromkeys(tweet_urls(tw)), cfg):
                 if l['kind'] in ('game', 'site') and not host_in(util.host_of(l['final']), SKIP_HOSTS):
-                    picks.append(('作者帖子里的链接', l['final']))
+                    picks.append(('作者帖子里的链接' if x_kind == 'author' else '他人介绍帖里的链接', l['final']))
                     break
     out['repo'] = _gh_repo(repo_url)
     hp = out['repo'].get('homepage')

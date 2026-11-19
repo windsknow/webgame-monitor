@@ -1,6 +1,169 @@
 {
- "_说明": "Fable52.games 详情页没给作者帖子的游戏，每周核验时找到的作者 X 帖子。采集时用它追原始出处、读浏览数。kind：author 作者本人发布；third_party 他人分享。找过但没找到的记在 not_found。",
- "not_found": {},
+ "_说明": "Fable52.games 详情页没给作者帖子的游戏，每周核验时找到的介绍帖。采集时用它追原始出处、读浏览数。kind：author 作者本人发布；third_party 别人专门介绍这款游戏的帖子（浏览数也算进热度，卡片上写'他人介绍帖'）。只在多款游戏的清单帖里出现的不算，记在 not_found。找过但没找到的也记在 not_found。",
+ "not_found": {
+  "pocket-soccer-3d": {
+   "name": "Pocket Soccer 3D",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果2条：均为 Fable52 合集综述（叶启光文章、zg0820 汇总贴），未见针对 Pocket Soccer 3D 的介绍；无链接到 shaunprice.github.io/soccer-3d",
+   "game_id": "pocket-soccer-3d"
+  },
+  "mothlight": {
+   "name": "MOTHLIGHT // Vesper-9",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条（No results）",
+   "game_id": "mothlight-vesper-9"
+  },
+  "qingyun-sword-flight": {
+   "name": "青云宗 · 御剑采灵",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光的 Fable 5.2 游戏合集长文（提到御剑飞行但是综述，非专门介绍该游戏）",
+   "game_id": "game-3"
+  },
+  "pelican-on-a-bike": {
+   "name": "鹈鹕骑单车 · Pelican on a Bike",
+   "searched": "2026-11-19",
+   "note": "只出现在多游戏清单帖里（https://x.com/Li665508Li/status/2120417475976372438），不是专门介绍这款游戏的帖子，浏览数不算这款游戏的热度",
+   "game_id": "pelican-on-a-bike"
+  },
+  "wukong-tiger-vanguard": {
+   "name": "黑神话：悟空 · 虎先锋",
+   "searched": "2026-11-19",
+   "note": "只出现在多游戏清单帖里（https://x.com/handz18/status/2120492343317164074），不是专门介绍这款游戏的帖子，浏览数不算这款游戏的热度",
+   "game_id": "game-4"
+  },
+  "dustfall": {
+   "name": "Dustfall",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍 Dustfall，无 dustfalls.netlify.app 链接",
+   "game_id": "dustfall"
+  },
+  "jimao-cs": {
+   "name": "几猫CS",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条",
+   "game_id": "cs"
+  },
+  "blameless": {
+   "name": "BLAMELESS",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果都在讲别的内容（blameless 作形容词/复盘文化），无 blameless.petruha.ge 链接",
+   "game_id": "blameless"
+  },
+  "ironvale": {
+   "name": "Ironvale",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：2条：叶启光合集文 + 一条无关帖（BonaVictor，讲agent开发），无 Ironvale 专门介绍/链接",
+   "game_id": "ironvale"
+  },
+  "tidebell": {
+   "name": "Tidebell 潮钟",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍 Tidebell",
+   "game_id": "tidebell"
+  },
+  "tuktuk": {
+   "name": "TukTuk: وسّع يا باشا",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条",
+   "game_id": "tuktuk"
+  },
+  "feiche-3d": {
+   "name": "飞车 3D",
+   "searched": "2026-11-19",
+   "note": "只出现在多游戏清单帖里（https://x.com/Li665508Li/status/2120417475976372438），不是专门介绍这款游戏的帖子，浏览数不算这款游戏的热度",
+   "game_id": "3d"
+  },
+  "transport-ship-3d": {
+   "name": "运输船 3D",
+   "searched": "2026-11-19",
+   "note": "只出现在多游戏清单帖里（https://x.com/Li665508Li/status/2120417475976372438），不是专门介绍这款游戏的帖子，浏览数不算这款游戏的热度",
+   "game_id": "3d-2"
+  },
+  "hanford-reach": {
+   "name": "Hanford Reach",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍 Hanford Reach",
+   "game_id": "hanford-reach"
+  },
+  "misremember": {
+   "name": "MISREMEMBER",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果都是 'misremember' 作普通动词的无关帖，无该游戏",
+   "game_id": "misremember"
+  },
+  "daedalus": {
+   "name": "Daedalus",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果都在讲别的 Daedalus（NICT监控工具、Hermes agent 等），无 s77ffy.github.io/daedalus 链接",
+   "game_id": "daedalus"
+  },
+  "saltline-online": {
+   "name": "盐线行动 Online",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条",
+   "game_id": "online"
+  },
+  "sternenjaeger": {
+   "name": "Sternenjäger",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍",
+   "game_id": "sternenj-ger"
+  },
+  "shuttle-strike": {
+   "name": "Shuttle Strike",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍",
+   "game_id": "shuttle-strike"
+  },
+  "flight-simulator-nfljgw": {
+   "name": "Open Skies",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果都是无关帖（GPT-4、Open Skies Photography、咖啡馆等）",
+   "game_id": "open-skies"
+  },
+  "harvest-standoff": {
+   "name": "Harvest Standoff",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍",
+   "game_id": "harvest-standoff"
+  },
+  "emberdeep": {
+   "name": "Emberdeep",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：2条：叶启光合集文 + SeiraHisada 的AI新闻日报（开头讲Anthropic研究，与该游戏无关）",
+   "game_id": "emberdeep"
+  },
+  "breach-transport-ship-online": {
+   "name": "BREACH · 运输船联机大厅",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果都是 Cursor/Fireworks 数据泄露（breach）新闻，无该游戏、无 cf.hanyue.io 链接",
+   "game_id": "breach"
+  },
+  "warm-toy-room-v25": {
+   "name": "暖光玩具房 · V25",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条",
+   "game_id": "v25"
+  },
+  "undertow-y8xvs5": {
+   "name": "Undertow",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：结果是通用词 Undertow（诗、股票标签、artifactarena 评测10月、安装脚本等），均早于Fable5.2发布或无关，无该游戏",
+   "game_id": "undertow"
+  },
+  "becario-del-universo": {
+   "name": "Becario del Universo",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：仅1条：叶启光合集长文，非专门介绍",
+   "game_id": "becario-del-universo"
+  },
+  "emberhold-xwn1lu": {
+   "name": "烬堡 EMBERHOLD",
+   "searched": "2026-11-19",
+   "note": "登录后 X 搜索（游戏名，或试玩链接）没找到介绍这款游戏的帖子：搜索结果 0 条",
+   "game_id": "emberhold"
+  }
+ },
  "what-the-water-keeps": {
   "url": "https://x.com/kevin_t_ngo/status/2119868968307695818",
   "kind": "author",
@@ -21,5 +184,54 @@
   "how": "Awesome Fable 5.2 清单（GitHub fengyiqicoder/awesome-fable-5.2）给的作者帖子",
   "found": "2026-11-19",
   "game_id": "game-5"
+ },
+ "bayhaven": {
+  "url": "https://x.com/FablestarGames/status/2120641504951603394",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @FablestarGames 发帖'Bayhaven is playable'，正文链接 fablestar.games/play/",
+  "found": "2026-11-19",
+  "game_id": "bayhaven"
+ },
+ "sublevel-07-fps-repro": {
+  "url": "https://x.com/wquguru/status/2120383332722905400",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @wquguru 发帖，正文给出仓库和在线试玩 wquguru.github.io/fable52-fps-repro/。同作者另有一篇教程长文（status/2120382704030261437，11.5 万浏览），没直接介绍游戏，不计",
+  "found": "2026-11-19",
+  "game_id": "sublevel-07"
+ },
+ "hextech-aram": {
+  "url": "https://x.com/liyue_ai/status/2120449465211613236",
+  "kind": "third_party",
+  "how": "登录后 X 搜索：@liyue_ai 专门介绍这款游戏的帖子，正文只链接 lol.hanyue.io；没有证据表明他是作者",
+  "found": "2026-11-19",
+  "game_id": "game-6"
+ },
+ "duskline-vxn7rh": {
+  "url": "https://x.com/sr_rauldev/status/2121133419589452199",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @sr_rauldev 自述上传了自己的 3D 跑酷游戏，链接 Fable52 的 Duskline 页",
+  "found": "2026-11-19",
+  "game_id": "duskline"
+ },
+ "graveyard-shift": {
+  "url": "https://x.com/ethanplusai/status/2120602190201127250",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @ethanplusai 自述让 Claude Fable 5.2 做了丧尸游戏；同作者同日另有 3 条帖子链接 zombies.ethanplus.ai，这条浏览最高",
+  "found": "2026-11-19",
+  "game_id": "graveyard-shift"
+ },
+ "boring-game-sf-bay-transit": {
+  "url": "https://x.com/jakozaur/status/2122392933496434845",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @jakozaur 在回复里第一人称说写了这个游戏，链接 jakozaur.github.io/sf_bay_area_transit_fable_5_2_game/",
+  "found": "2026-11-19",
+  "game_id": "boring-game"
+ },
+ "tidemark": {
+  "url": "https://x.com/CocoSgt_twt/status/2121478295015584113",
+  "kind": "author",
+  "how": "登录后 X 搜索：作者号 @CocoSgt_twt 自述做了《潮汐战线》，链接 dsh-game-store.com/games/tidemark",
+  "found": "2026-11-19",
+  "game_id": "tidemark"
  }
 }
