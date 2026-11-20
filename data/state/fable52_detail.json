@@ -143,7 +143,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Created to test the Claude Fable 5.2 model",
-   "checked": "2026-11-20"
+   "checked": "2026-11-21"
   }
  },
  "what-the-water-keeps": {
@@ -250,8 +250,8 @@
    "x": {
     "url": "https://x.com/kevin_t_ngo/status/2120238844754923874",
     "handle": "kevin_t_ngo",
-    "views": 488568,
-    "likes": 1800,
+    "views": 489361,
+    "likes": 1803,
     "date": "2026-11-10",
     "text": "Claude Fable 5.2 made this game demo, playable in the browser\n\nIt's a dark fantasy souls-like boss fight",
     "kind": "author"
@@ -263,7 +263,7 @@
    "mirror": false,
    "published": "2026-11-10",
    "ai_hint": "Claude Fable 5.2 made this game demo, playable in the browser",
-   "checked": "2026-11-20"
+   "checked": "2026-11-21"
   }
  },
  "qingyun-sword-flight": {
@@ -377,8 +377,8 @@
    "x": {
     "url": "https://x.com/op7418/status/2120694045299327187",
     "handle": "op7418",
-    "views": 296868,
-    "likes": 1165,
+    "views": 298877,
+    "likes": 1167,
     "date": "2026-11-12",
     "text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/",
     "kind": "author"
@@ -386,7 +386,7 @@
    "repo": {
     "url": "https://github.com/op7418/guizang-game-skill",
     "created": "2026-11-11",
-    "stars": 419,
+    "stars": 425,
     "homepage": "https://op7418.github.io/guizang-game-skill/",
     "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
     "owner": "op7418"
@@ -397,7 +397,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！",
-   "checked": "2026-11-20"
+   "checked": "2026-11-21"
   }
  },
  "tidebell": {
@@ -1617,7 +1617,7 @@
    "repo": {
     "url": "https://github.com/zhgarylu/everyday-game",
     "created": "2026-11-15",
-    "stars": 1,
+    "stars": 2,
     "homepage": "https://zhgarylu.github.io/everyday-game/",
     "desc": "回声游戏厅：每天一个小游戏。11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
     "owner": "zhgarylu"
@@ -1628,7 +1628,7 @@
    "mirror": false,
    "published": "2026-11-15",
    "ai_hint": "11 个网页小游戏全部由 Claude Fable 5.2 制作，打开就能玩",
-   "checked": "2026-11-20"
+   "checked": "2026-11-21"
   }
  },
  "apex-lap-blender": {
