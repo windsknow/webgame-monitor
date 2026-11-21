@@ -1,0 +1,585 @@
+{
+ "date": "2026-11-22",
+ "channel": "threejs",
+ "count": 36,
+ "passed": 5,
+ "error": "",
+ "leads": [
+  {
+   "channel": "threejs",
+   "title": "Aali: the marble game I played as a kid, under a banyan, in one HTML file",
+   "url": "https://kanche.online/",
+   "key": "kanche.online",
+   "source_url": "https://discourse.threejs.org/t/aali-the-marble-game-i-played-as-a-kid-under-a-banyan-in-one-html-file/97220",
+   "metrics": {
+    "threejs_views": 155,
+    "threejs_replies": 7,
+    "threejs_likes": 10
+   },
+   "published": "2026-11-14",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Hey team, As kids in our village we played kanche (aali) on white sandy soil under a banyan tree. Ring scratched with a stick, middle finger pulled back tight, and you sent your marble in hard. I rebuilt that ground in three.js. Play: https://kanche.online Last month it was the tree ( Banyan ). This"
+  },
+  {
+   "channel": "threejs",
+   "title": "Just dropped a new browser arcade game! 🚀",
+   "url": "https://game.pixila.net",
+   "key": "game.pixila.net",
+   "source_url": "https://discourse.threejs.org/t/just-dropped-a-new-browser-arcade-game/97254",
+   "metrics": {
+    "threejs_views": 156,
+    "threejs_replies": 5,
+    "threejs_likes": 4
+   },
+   "published": "2026-11-15",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Inspired by classic brick breakers but with a modern twist: 6 Levels and a Boss Battle A central pile that grows if you stop attacking Combo system &amp; game-changing power-ups (Multiball, Laser, Piercing, Magnet, Hourglass) Star ratings based on speed and full clears and much more Play right in yo"
+  },
+  {
+   "channel": "threejs",
+   "title": "Komok: multiplayer browser game where a sticky ball rolls up a whole town (three.js r160)",
+   "url": "https://komok.fun/",
+   "key": "komok.fun",
+   "source_url": "https://discourse.threejs.org/t/komok-multiplayer-browser-game-where-a-sticky-ball-rolls-up-a-whole-town-three-js-r160/97219",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 0,
+    "threejs_likes": 2
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi! I’m Dmitry from Norra Dev. I made Komok, a free browser game: you roll a small sticky ball around an island and everything smaller than you sticks to it. Coins and pencils first, then people, cars and, at the end of a good round, a house. Every round has its own goal, like 6 cars or the marked h"
+  },
+  {
+   "channel": "threejs",
+   "title": "Building a city of rounded boxes from a table instead of the generator (11x faster)",
+   "url": "https://woodangtang-seoul.dolmeong.workers.dev/?c=threejsfor1114dd&lang=en",
+   "key": "woodangtang-seoul.dolmeong.workers.dev",
+   "source_url": "https://discourse.threejs.org/t/building-a-city-of-rounded-boxes-from-a-table-instead-of-the-generator-11x-faster/97238",
+   "metrics": {
+    "threejs_views": 67,
+    "threejs_replies": 1,
+    "threejs_likes": 2
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi. I’ve posted Woodangtang Seoul here before. It’s a co-op game in the browser where up to 12 people parachute into a Seoul plaza and fight a boss the size of a building. This post is about load time. The city is made of boxes, some rounded and some plain. I was building the rounded ones with three"
+  },
+  {
+   "channel": "threejs",
+   "title": "A virtual open house — exploring my Victorian home retrofit in 3D",
+   "url": "https://retrofit.huckle.studio/explore/",
+   "key": "retrofit.huckle.studio",
+   "source_url": "https://discourse.threejs.org/t/a-virtual-open-house-exploring-my-victorian-home-retrofit-in-3d/97222",
+   "metrics": {
+    "threejs_views": 111,
+    "threejs_replies": 3,
+    "threejs_likes": 3
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone, I’ve built an interactive 3D tour of my Victorian terrace to share how I’ve retrofitted it with a heat pump, solar panels, battery storage and EV charging. My Victorian Retrofit Home Explore — My Victorian Retrofit Home Walk around a plain 3D model of my retrofitted Victorian house, loo"
+  },
+  {
+   "channel": "threejs",
+   "title": "A football game where you need to nutmeg for every goal",
+   "url": "https://nutmegstreet.com/",
+   "key": "nutmegstreet.com",
+   "source_url": "https://discourse.threejs.org/t/a-football-game-where-you-need-to-nutmeg-for-every-goal/97255",
+   "metrics": {
+    "threejs_views": 57,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I made Nutmeg Street, a browser football game where the challenge is to kick the ball through pedestrians’ legs and into a target. You can move your aim, change where you strike the ball to add curve, and time the shot as people walk by. Three.js renders the street and the moving pedestrians. The ga"
+  },
+  {
+   "channel": "threejs",
+   "title": "Hold the Home - a three.js co-op zombie defense where phones are the controllers",
+   "url": "https://holdthehome.com/?from=threejs-forum",
+   "key": "holdthehome.com",
+   "source_url": "https://discourse.threejs.org/t/hold-the-home-a-three-js-co-op-zombie-defense-where-phones-are-the-controllers/97283",
+   "metrics": {
+    "threejs_views": 54,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-16",
+   "passes": false,
+   "ai_hint": "AI note: some pictures in the game were made with AI (ChatGPT): the hero cards, the map pictures, the loading picture and the logo; two zombie designs started as AI drawings",
+   "desc": "Hold the Home - a three.js co-op zombie defense where phones are the controllers (no app). The big screen runs the 3D battle; each phone opens a web page by QR code and sends input to the room server. What we still test: lag on cheap phones, and how easy joining is. Free to try: Hold the Home You ne"
+  },
+  {
+   "channel": "threejs",
+   "title": "AH NAH TRAH · a duck's adventure to see the sea · Three.js WebGPU",
+   "url": "https://ah-nah-trah.emmelleppi.me/",
+   "key": "ah-nah-trah.emmelleppi.me",
+   "source_url": "https://discourse.threejs.org/t/ah-nah-trah-a-ducks-adventure-to-see-the-sea-three-js-webgpu/97250",
+   "metrics": {
+    "threejs_views": 50,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "Thanks to Claude/AI, it’s finally seen the light of day",
+   "desc": "AH NAH TRAH AH NAH TRAH · a duck's adventure to see the sea · Three.js WebGPU A WebGPU project by Marco Ludovico Perego, built with Three.js. Just a glimpse of an ordinary day for a duck who got bored of its little pond and went to see the sea. Hello! Over the last month I’ve been working on this li"
+  },
+  {
+   "channel": "threejs",
+   "title": "The Lost Storm: an open-source isometric action RPG in the browser (Three.js + TypeScript, no engine)",
+   "url": "https://theloststorm.com/play/",
+   "key": "theloststorm.com",
+   "source_url": "https://discourse.threejs.org/t/the-lost-storm-an-open-source-isometric-action-rpg-in-the-browser-three-js-typescript-no-engine/97231",
+   "metrics": {
+    "threejs_views": 151,
+    "threejs_replies": 3,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-14",
+   "passes": true,
+   "ai_hint": "It was built with AI coding agents",
+   "desc": "Hi all. I’ve been building The Lost Storm, a free isometric action RPG that runs in the browser on Three.js and TypeScript, with no engine on top. It is in open alpha and the whole game is MIT-licensed. Play (no install, no sign-up): The Lost Storm Source: GitHub - marginsystems/the-lost-storm: The "
+  },
+  {
+   "channel": "threejs",
+   "title": "[Showcase/Tool] Free AI NPC SDK for Three.js WebXR: Zero LLM API Cost & Persistent Memory",
+   "url": "https://metastar.world/",
+   "key": "metastar.world",
+   "source_url": "https://discourse.threejs.org/t/showcase-tool-free-ai-npc-sdk-for-three-js-webxr-zero-llm-api-cost-persistent-memory/97218",
+   "metrics": {
+    "threejs_views": 111,
+    "threejs_replies": 3,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": true,
+   "ai_hint": "js WebXR: Zero LLM API Cost & Persistent Memory",
+   "desc": "Hi Three.js community! I’m a solo developer building a WebXR metaverse platform called MetaStar , entirely powered by the amazing Three.js engine. While developing my platform, I noticed a huge pain point in our community: Many 3D web developers want to integrate AI NPCs (like ChatGPT-powered avatar"
+  },
+  {
+   "channel": "threejs",
+   "title": "An ink-wash wuxia inn as an interactive three.js website",
+   "url": "https://elephantlogix.com",
+   "key": "elephantlogix.com",
+   "source_url": "https://discourse.threejs.org/t/an-ink-wash-wuxia-inn-as-an-interactive-three-js-website/97214",
+   "metrics": {
+    "threejs_views": 26,
+    "threejs_replies": 0,
+    "threejs_likes": 1
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "Claude helped with code and iteration; Astra and AutoSprites supplied artwork and animation, and Suno supplied the music",
+   "desc": "I built ElephantLogix Studio’s home around an explorable wuxia inn. The site combines a three.js scene, ink-wash-style artwork, animated characters and small interactions such as rearranging dim sum steamers. The interesting problem was making the parts feel coherent: the first characters were too f"
+  },
+  {
+   "channel": "threejs",
+   "title": "NightClub: Drift & Speed, a night drift game in the browser (WebGPU, ghosts, leaderboards)",
+   "url": "https://www.nightclub-driftspeed.xyz/?ref=threejs",
+   "key": "nightclub-driftspeed.xyz",
+   "source_url": "https://discourse.threejs.org/t/nightclub-drift-speed-a-night-drift-game-in-the-browser-webgpu-ghosts-leaderboards/97236",
+   "metrics": {
+    "threejs_views": 103,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": true,
+   "ai_hint": "The whole thing is written with an AI assistant (Claude) and I mostly steer, test and complain",
+   "desc": "Hey, I’ve been building this for a while and it’s finally at a point where I’m not embarrassed to show it. NightClub: Drift &amp; Speed is a free drift game that runs in the browser. Night only. You slide through the orange zones for points, go flat out through the green ones, and your run lands on "
+  },
+  {
+   "channel": "threejs",
+   "title": "The Arena — An Interactive 3D Developer Portfolio",
+   "url": "https://www.abhijith71.dev/",
+   "key": "abhijith71.dev",
+   "source_url": "https://discourse.threejs.org/t/the-arena-an-interactive-3d-developer-portfolio/97286",
+   "metrics": {
+    "threejs_views": 71,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-16",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hey everyone! I’d like to share my personal developer portfolio. Live Website: https://www.abhijith71.dev/ I’ve created this portfolio to showcase my development journey, projects, and skills through an interactive web experience. Feel free to explore it and share your thoughts, Screenshot 2026-11-1"
+  },
+  {
+   "channel": "threejs",
+   "title": "Tailwind Voyage: a cozy island game in three.js",
+   "url": "https://tailwind.voyage/",
+   "key": "tailwind.voyage",
+   "source_url": "https://discourse.threejs.org/t/tailwind-voyage-a-cozy-island-game-in-three-js/97249",
+   "metrics": {
+    "threejs_views": 70,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone, Tailwind Voyage is a calm game for the browser. You’re a little fox in a jeep on an island. There is no goal, you just drive and see what you find. Every island grows from a seed, so there is always another one. You can explore alone or with friends, race them, take your little brother "
+  },
+  {
+   "channel": "threejs",
+   "title": "Off Road Car Dune Run",
+   "url": "https://danielalshriky.com/OffRoadCarGame",
+   "key": "danielalshriky.com",
+   "source_url": "https://discourse.threejs.org/t/off-road-car-dune-run/97524",
+   "metrics": {
+    "threejs_views": 33,
+    "threejs_replies": 2,
+    "threejs_likes": 2
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "danielalshriky.com Dune Run Drive the Blue Runner down an endless road through farms, forests, snow and beaches: jump the pits, squeeze under low gates, fly, grab coins, collect wheels and badges. I made a 3D driving game for kids that runs in the browser. No install, no account. It’s called Dune Ru"
+  },
+  {
+   "channel": "threejs",
+   "title": "Night Nabbers: a free 3D raccoon stealth/heist game in the browser (three.js, WebGL2, runs on phones)",
+   "url": "https://nightnabbers.com/play",
+   "key": "nightnabbers.com",
+   "source_url": "https://discourse.threejs.org/t/night-nabbers-a-free-3d-raccoon-stealth-heist-game-in-the-browser-three-js-webgl2-runs-on-phones/97257",
+   "metrics": {
+    "threejs_views": 61,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Night Nabbers is a free 3D stealth/heist game that runs entirely in the browser: you play a raccoon after dark, sneak past dogs and searchlights, steal eggs, hatch little buddies, and raid dens with other players (up to 16 per street). No download and no sign-up, guest play works. Some technical not"
+  },
+  {
+   "channel": "threejs",
+   "title": "MEET SINTI — FIRST ENCOUNTER",
+   "url": "https://odkolyagmailcom.itch.io/sinti-first-encounter",
+   "key": "odkolyagmailcom.itch.io/sinti-first-encounter",
+   "source_url": "https://discourse.threejs.org/t/meet-sinti-first-encounter/97281",
+   "metrics": {
+    "threejs_views": 64,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-16",
+   "passes": false,
+   "ai_hint": "chatgpt",
+   "desc": "Hi everyone! I’m sharing Sinti — an early interactive 3D character prototype built with Three.js and WebXR. I’d love feedback on animation quality, usability, and performance. Try the browser demo: sinti-studio-demo.rjkzf.chatgpt.site Сінті — перше знайомство Познайомся із Сінті — інтерактивною 3D-п"
+  },
+  {
+   "channel": "threejs",
+   "title": "Cutoff Photo & Video Slider",
+   "url": "https://fwdapps.net/p/cpavs/",
+   "key": "fwdapps.net",
+   "source_url": "https://discourse.threejs.org/t/cutoff-photo-video-slider/97330",
+   "metrics": {
+    "threejs_views": 55,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-17",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone! I’ve been working on Cutoff, a photo and video slider built with Three.js. The accordion has connected, slanted panels that respond to the pointer, with image parallax while dragging. Clicking a panel expands it into a gallery through staggered corner animations. Closing the gallery fol"
+  },
+  {
+   "channel": "threejs",
+   "title": "Clayground update: a sculpting studio, a platform fighter and a kart racer, all three.js in one tab",
+   "url": "https://www.clayvr.com/sculpt",
+   "key": "clayvr.com",
+   "source_url": "https://discourse.threejs.org/t/clayground-update-a-sculpting-studio-a-platform-fighter-and-a-kart-racer-all-three-js-in-one-tab/97256",
+   "metrics": {
+    "threejs_views": 55,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all. A while back I posted Clayground here as a small browser clay studio. It has grown a lot since, so here is one post with all three parts. Everything runs on three.js, is free, and needs no install. 1. The studio Clayground Sculpt clay in your browser, free A free 3D clay studio in your brows"
+  },
+  {
+   "channel": "threejs",
+   "title": "Experimental Web Experience — Three.js, PixiJS & GLSL Shaders",
+   "url": "https://creative-brutalist-app.vercel.app/",
+   "key": "creative-brutalist-app.vercel.app",
+   "source_url": "https://discourse.threejs.org/t/experimental-web-experience-three-js-pixijs-glsl-shaders/97245",
+   "metrics": {
+    "threejs_views": 43,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "An experimental digital experience featuring interactive WebGL, custom shaders, Three.js and PixiJS. Live Demo: https://creative-brutalist-app.vercel.app/"
+  },
+  {
+   "channel": "threejs",
+   "title": "Gildrook - Runescape Inspired Browser MMORPG running a Playtest",
+   "url": "https://gildrook.com",
+   "key": "gildrook.com",
+   "source_url": "https://discourse.threejs.org/t/gildrook-runescape-inspired-browser-mmorpg-running-a-playtest/97253",
+   "metrics": {
+    "threejs_views": 40,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all. I’ve been building Gildrook, a multiplayer RPG that runs in the browser, and it’s in a public playtest until November 17. It’s free and there’s nothing to download: https://gildrook.com gildrook-4-fashion 1200×750 238 KB gildrook-3-hangout 1200×750 252 KB gildrook-2-halcyon-beach 1200×750 21"
+  },
+  {
+   "channel": "threejs",
+   "title": "Orbital Mechanics Sandbox",
+   "url": "https://arnav2deopura-blip.github.io/Orbital-Mechnaics-Sandbox/#/",
+   "key": "arnav2deopura-blip.github.io/orbital-mechnaics-sandbox",
+   "source_url": "https://discourse.threejs.org/t/orbital-mechanics-sandbox/97228",
+   "metrics": {
+    "threejs_views": 38,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I’m a high school junior interested in computational physics, and I’ve been developing a browser-based gravitational N-body simulator. I’ve spent a lot of time building and stress-testing it, and I’m looking for feedback on it. The app currently includes: Six integrator options/menu entries, includi"
+  },
+  {
+   "channel": "threejs",
+   "title": "Music visualizer: ten audio-reactive styles with Canvas 2D and Three.js",
+   "url": "https://musicvisualizer.co/",
+   "key": "musicvisualizer.co",
+   "source_url": "https://discourse.threejs.org/t/music-visualizer-ten-audio-reactive-styles-with-canvas-2d-and-three-js/97225",
+   "metrics": {
+    "threejs_views": 40,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone — I built a browser-based music visualizer with ten audio-reactive styles: https://musicvisualizer.co/ Most styles render directly to a shared Canvas 2D canvas. One style, Liquid Glass, uses a Three.js fullscreen quad with a GLSL fragment shader. The shader uses the Ashima / Ian McEwan 3"
+  },
+  {
+   "channel": "threejs",
+   "title": "Our Special World - a drivable 3D photo gift in one HTML file",
+   "url": "https://ourspecialworld.com/",
+   "key": "ourspecialworld.com",
+   "source_url": "https://discourse.threejs.org/t/our-special-world-a-drivable-3d-photo-gift-in-one-html-file/97226",
+   "metrics": {
+    "threejs_views": 37,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "A car on a city street facing a large screen with an AI-generated demo family photo  1600×900 139 KB",
+   "desc": "We’re sharing Our Special World, a Three.js photo-gift project. Up to 20 photos appear on large screens around a small city, with music as the soundtrack. You can drive through it or choose Automatic for a guided tour. A car on a city street facing a large screen with an AI-generated demo family pho"
+  },
+  {
+   "channel": "threejs",
+   "title": "Walkable 3D multisport room for a local gym in Montpellier (React Three Fiber)",
+   "url": "https://abs-sport-gym.fr/salle-des-trophees/",
+   "key": "abs-sport-gym.fr",
+   "source_url": "https://discourse.threejs.org/t/walkable-3d-multisport-room-for-a-local-gym-in-montpellier-react-three-fiber/97247",
+   "metrics": {
+    "threejs_views": 36,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi everyone, I’m Yan Berrabah, founder of Aixor360 (websites, SEO and interactive 3D, Montpellier, France). I built a walkable 3D room for a local gym, ABS Sport Gym, to present its athletes, titles and trophies. Live: Salle multisport | ABS Sport Gym Montpellier Stack: three.js 0.186, React Three F"
+  },
+  {
+   "channel": "threejs",
+   "title": "A chalet's finishes and a shelf in eighteen configurations: two configurators on static Astro pages, 254 KB of 3D loaded on the first gesture",
+   "url": "https://airellum.com/objects/swiss-alpine-chalet-01",
+   "key": "airellum.com",
+   "source_url": "https://discourse.threejs.org/t/a-chalets-finishes-and-a-shelf-in-eighteen-configurations-two-configurators-on-static-astro-pages-254-kb-of-3d-loaded-on-the-first-gesture/97251",
+   "metrics": {
+    "threejs_views": 35,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "AIRELLUM Swiss Alpine Chalet 01 — AIRELLUM An original Swiss Alpine chalet exterior for architectural visualisation, games, advertising and realtime environments. Timber cladding, green shutters, stonework, a deep roof and a detailed balcony. AIRELLUM Modular Shelf System 01 — AIRELLUM An original m"
+  },
+  {
+   "channel": "threejs",
+   "title": "Bagholder Online: a multiplayer underwater trading floor with live market data",
+   "url": "https://bagholder.online/",
+   "key": "bagholder.online",
+   "source_url": "https://discourse.threejs.org/t/bagholder-online-a-multiplayer-underwater-trading-floor-with-live-market-data/97224",
+   "metrics": {
+    "threejs_views": 31,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Bagholder Online Bagholder Online: Live Crypto Trading Floor The trading floor at the bottom of the sea. Watch the crypto market live with strangers, as sea creatures. A shared 3D room at the bottom of the sea where visitors appear as sea creatures and watch live crypto charts together. The lighting"
+  },
+  {
+   "channel": "threejs",
+   "title": "Woodangtang Seoul: 12-player co-op boss fights in a browser tab (runs on phones)",
+   "url": "https://woodangtang-seoul.dolmeong.workers.dev/?c=threejs&lang=en",
+   "key": "woodangtang-seoul.dolmeong.workers.dev",
+   "source_url": "https://discourse.threejs.org/t/woodangtang-seoul-12-player-co-op-boss-fights-in-a-browser-tab-runs-on-phones/97216",
+   "metrics": {
+    "threejs_views": 21,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all. I’ve been making this alone, and it’s at the point where I’d like other people’s phones to tell me what’s wrong with it. It’s a co-op game set in Seoul. You open the link and parachute into Gwanghwamun plaza. About a minute later someone who has lost their temper shows up the size of an offi"
+  },
+  {
+   "channel": "threejs",
+   "title": "A Goose Tale: A Short Interactive Adventure",
+   "url": "https://agoosetale.com",
+   "key": "agoosetale.com",
+   "source_url": "https://discourse.threejs.org/t/a-goose-tale-a-short-interactive-adventure/97533",
+   "metrics": {
+    "threejs_views": 14,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "og-image 1200×630 113 KB Hi everyone! I’d like to share “A Goose Tale”, a small interactive adventure where you play as a goose trying to find his lost goslings while protecting them from hordes of rats using a burning branch to scare them away. Play it here: https://agoosetale.com The game is built"
+  },
+  {
+   "channel": "threejs",
+   "title": "alaa.works: portfolio built with React Three Fiber, Rapier and custom shaders",
+   "url": "https://alaa.works",
+   "key": "alaa.works",
+   "source_url": "https://discourse.threejs.org/t/alaa-works-portfolio-built-with-react-three-fiber-rapier-and-custom-shaders/97528",
+   "metrics": {
+    "threejs_views": 11,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "It has to feel like how I work, not just list what I’ve made. Was the brief that I set for myself, so I designed and coded it. Aesthetics inspired from design tools and workflows both digital and physical. A few things inside: The letter “A” switches between materials: glTF models (cloth and clay ve"
+  },
+  {
+   "channel": "threejs",
+   "title": "Devayan – a mythology-inspired 3D open-world game in plain Three.js + Web Audio (no engine, no assets)",
+   "url": "https://yashdatir.github.io/My-Games/javascript/devayan/index.html",
+   "key": "yashdatir.github.io/my-games",
+   "source_url": "https://discourse.threejs.org/t/devayan-a-mythology-inspired-3d-open-world-game-in-plain-three-js-web-audio-no-engine-no-assets/97518",
+   "metrics": {
+    "threejs_views": 13,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "A world atlas, quest codex and radar, with progress saved in localStorage",
+   "desc": "Hi everyone! I’d like to share Devayan: The Ten Drops of Amrita , a free, open-source 3D action-exploration game that runs entirely in the browser. It’s a side project inspired by Indian mythology. Play: [GAME LINK] Source (MIT): yashdatir (Yash Datir) · GitHub The story Ten drops of Amrita fell acr"
+  },
+  {
+   "channel": "threejs",
+   "title": "Portia labiata: the spider that hunts spiders. A browser game.",
+   "url": "https://vimuston.github.io/portia/",
+   "key": "vimuston.github.io/portia",
+   "source_url": "https://discourse.threejs.org/t/portia-labiata-the-spider-that-hunts-spiders-a-browser-game/97530",
+   "metrics": {
+    "threejs_views": 15,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Portia labiata: the spider that hunts spiders. A browser game where you play a jumping spider a few millimetres long, hunting in the leaf litter and undergrowth of a jungle floor. Watch what moves, feel what trembles in the silk, follow what smells. Most of it can kill you. Playable with M+KB or Con"
+  },
+  {
+   "channel": "threejs",
+   "title": "Posy: procedural potted flowers you can arrange and send as a card",
+   "url": "https://posy.garden/",
+   "key": "posy.garden",
+   "source_url": "https://discourse.threejs.org/t/posy-procedural-potted-flowers-you-can-arrange-and-send-as-a-card/97516",
+   "metrics": {
+    "threejs_views": 9,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "I’ve been working on posy, a greeting card where you arrange a pot of flowers and send it to someone. About 35 procedural generators cover 125 species; each species is just parameters (petal shape, count, color, size, stem habit). An arranger places roughly 50 stems into a dome, garden, crescent or "
+  },
+  {
+   "channel": "threejs",
+   "title": "Paper Boat ⛵ – A Little Browser Game | Open to Collaboration",
+   "url": "https://mayankrichu.github.io/paper-boat/",
+   "key": "mayankrichu.github.io/paper-boat",
+   "source_url": "https://discourse.threejs.org/t/paper-boat-a-little-browser-game-open-to-collaboration/97526",
+   "metrics": {
+    "threejs_views": 9,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hey everyone! I’ve been working on a little project called Paper Boat It’s a relaxing browser game inspired by the childhood joy of floating paper boats. I’d love to hear your feedback and ideas! I’m also open to collaborating with anyone interested in Three.js, creative coding, or interactive web e"
+  },
+  {
+   "channel": "threejs",
+   "title": "Flower Box: a 3D bouquet builder in react-three-fiber with convex-hull packing",
+   "url": "https://ask-them-out.com/flowers",
+   "key": "ask-them-out.com",
+   "source_url": "https://discourse.threejs.org/t/flower-box-a-3d-bouquet-builder-in-react-three-fiber-with-convex-hull-packing/97525",
+   "metrics": {
+    "threejs_views": 7,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Hi all, I made a small web toy: you tap flowers (roses, tulips, sunflowers, lilies, peonies, daisies) into a bouquet, write a note, and get a link. The other person opens it on their phone, unwraps a gift box, and can spin the bouquet around. No signup on either side. Try it: Send Virtual Flowers Fr"
+  },
+  {
+   "channel": "threejs",
+   "title": "Lampjack - live music visuals on WebGPURenderer, with scenes written in WGSL through TSL",
+   "url": "https://lampjack.app/",
+   "key": "lampjack.app",
+   "source_url": "https://discourse.threejs.org/t/lampjack-live-music-visuals-on-webgpurenderer-with-scenes-written-in-wgsl-through-tsl/97522",
+   "metrics": {
+    "threejs_views": 10,
+    "threejs_replies": 0,
+    "threejs_likes": 0
+   },
+   "published": "2026-11-21",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "hi, I wanted to share something I’ve built on three.js - a music-reactive VJ app called Lampjack that runs in desktop Chrome. The renderer is WebGPURenderer and the 43 scenes are written in WGSL and brought in through TSL’s wgslFn() , so the scene code stays as plain shader functions and three.js ha"
+  }
+ ]
+}

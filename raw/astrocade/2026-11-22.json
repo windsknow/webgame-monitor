@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-22",
+ "channel": "astrocade",
+ "count": 20,
+ "passed": 4,
+ "error": "",
+ "leads": [
+  {
+   "channel": "astrocade",
+   "title": "Sword Swing Chopper",
+   "url": "https://www.astrocade.com/games/sword-swing-chopper/01M7H26HBE86DFEXG7H2FZ9KE2",
+   "key": "astrocade.com/games/sword-swing-chopper/01m7h26hbe86dfexg7h2fz9ke2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 1,
+    "astrocade_plays": 98006,
+    "astrocade_likes": 2408,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-16",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing a ring of swords, chop bamboo and crystal groves, hatch pets, rebirth and conquer 3 worlds!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/7ebcc657d9854386a5ee1bdc2c4c6429.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Minecraft Christmas Edition",
+   "url": "https://www.astrocade.com/games/minecraft-christmas-edition/01M7HJFV29NFHPAMMY6PR9KTA8",
+   "key": "astrocade.com/games/minecraft-christmas-edition/01m7hjfv29nfhpammy6pr9kta8",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 2,
+    "astrocade_plays": 36158,
+    "astrocade_likes": 484,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-18",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Explore a cozy Christmas voxel sandbox: mine, build, decorate, and explore a snowy world full of festive creatures, warm lights, and surprises.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/2e7aa09c6b39497dbb09e63e0ffe9a30.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Frozen Fish Grill",
+   "url": "https://www.astrocade.com/games/frozen-fish-grill/01M6VJ4N3Z7E5N5M04WJ45549R",
+   "key": "astrocade.com/games/frozen-fish-grill/01m6vj4n3z7e5n5m04wj45549r",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 3,
+    "astrocade_plays": 99207,
+    "astrocade_likes": 2084,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Stand on the rods, catch fish, grill them for a hungry snowy crowd, grow your fish shop and land the giant golden fish!",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1794249722032_01M70SW25GFS14PWFC660ZAPTY.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Natural Disaster Survival",
+   "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+   "key": "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 4,
+    "astrocade_plays": 1013775,
+    "astrocade_likes": 18406,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-17",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Survive 12 natural disasters on 10 island maps! Tornadoes, tsunamis, meteors and more destroy everything. Outlast the bots, earn coins, and top the survival leaderboard.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793541492936_01M6BPEM68NJTJ5PKF807KM7Y2.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Titan Transformer",
+   "url": "https://www.astrocade.com/games/titan-transformer/01M7J6SJ4VP6WCXH96F43PYQ3P",
+   "key": "astrocade.com/games/titan-transformer/01m7j6sj4vp6wcxh96f43pyq3p",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 5,
+    "astrocade_plays": 48373,
+    "astrocade_likes": 606,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Morph a colossal mech into a truck, sports car, tank, helicopter or fighter jet. Roam an endless 3D world and storm enemy kingdoms — or just explore.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/10993bd2ebfa4ae198223e447992dce7.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Squid Game with Your Girlfriend 2.0",
+   "url": "https://www.astrocade.com/games/squid-game-with-your-girlfriend-2-0/01M7QE75DV2V24SGFEPB0BBDCW",
+   "key": "astrocade.com/games/squid-game-with-your-girlfriend-2-0/01m7qe75dv2v24sgfepb0bbdcw",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 6,
+    "astrocade_plays": 16204,
+    "astrocade_likes": 246,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-18",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "❤️ Team up with your girlfriend in 6 blocky survival trials, Mingle included! Use her Heart Save, earn stars and unlock new outfit colors. Can you pull off a Perfect Run? 🏆",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/d8871b905dc8471a8c3dd47a123e0fad.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Fly & Steal a Dragon Egg",
+   "url": "https://www.astrocade.com/games/fly-steal-a-dragon-egg/01M7RBCBV7DF6DDJBDEYY6PB6D",
+   "key": "astrocade.com/games/fly-steal-a-dragon-egg/01m7rbcbv7df6ddjbdeyy6pb6d",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 7,
+    "astrocade_plays": 34352,
+    "astrocade_likes": 669,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Fly and steal all the eggs you can, unlock wings and go farther",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/ca886dccc5434554913ae78d760fa2de.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Open World Car Race",
+   "url": "https://www.astrocade.com/games/open-world-car-race/01M70ABJAXXE4EMPKR7V76WJQC",
+   "key": "astrocade.com/games/open-world-car-race/01m70abjaxxe4empkr7v76wjqc",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 8,
+    "astrocade_plays": 4427,
+    "astrocade_likes": 69,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Explore an endless open-world highway, collect nitro and coins, and conquer 100 levels with new rides. Customize your car and outdrive the Cybertruck!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/a6d33e200c7e47c6b9a6758296ce7c8e.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "+1 Pickaxe Swing for Eggs",
+   "url": "https://www.astrocade.com/games/1-pickaxe-swing-for-eggs/01M6HRNHMXVRB8JKGK799B1ZJB",
+   "key": "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 9,
+    "astrocade_plays": 29405,
+    "astrocade_likes": 646,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/0841f390-1041-7009-e3f9-2a1095f0d189/1793781567132_01M6JVD3MWV45GAKA622XE735Z.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sky flash 2Bike Racing 3-D",
+   "url": "https://www.astrocade.com/games/sky-flash-2bike-racing-3-d/01M5S8TQSRB59N92E48GZABPPD",
+   "key": "astrocade.com/games/sky-flash-2bike-racing-3-d/01m5s8tqsrb59n92e48gzabppd",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 10,
+    "astrocade_plays": 3572,
+    "astrocade_likes": 71,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-27",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "**Description:** Master precision driving with responsive controls as you navigate a high-performance sports car on an open test track.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_46736e15-02ef-4f82-bcb9-d761ddfff689.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Horror Retail",
+   "url": "https://www.astrocade.com/games/horror-retail/01KVTR3949N6445E82PKWJ4S0G",
+   "key": "astrocade.com/games/horror-retail/01kvtr3949n6445e82pkwj4s0g",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 11,
+    "astrocade_plays": 7940,
+    "astrocade_likes": 155,
+    "chart_new_entry": false
+   },
+   "published": "2026-06-29",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Run a peculiar store where monstrous clients demand strange items—serve them through your window before time runs out!",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/Google_111842353816924482862/1782707873069_01KW8TPS9DZVPBVN75HZVSQNQZ.thumbnail_493b876d-1b65-4154-bb81-754afcbbe6ca.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "ZOMBIE SCHOOL MISSION",
+   "url": "https://www.astrocade.com/games/zombie-school-mission/01M56G67XWA50Z83B5G9FBZ77G",
+   "key": "astrocade.com/games/zombie-school-mission/01m56g67xwa50z83b5g9fbz77g",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 12,
+    "astrocade_plays": 23155,
+    "astrocade_likes": 343,
+    "chart_new_entry": true
+   },
+   "published": "2026-10-18",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Lead students through a zombie-infested school as an undercover agent in this intense 3D action game with cinematic intro and strategic escort gameplay.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_c1961375-bbe4-4eb9-949a-e6baaa88cec2.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Steal an Egg",
+   "url": "https://www.astrocade.com/games/steal-an-egg/01M72P3BHG5NHHS8FKXVEXS8GJ",
+   "key": "astrocade.com/games/steal-an-egg/01m72p3bhg5nhhs8fkxvexs8gj",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 13,
+    "astrocade_plays": 10301,
+    "astrocade_likes": 159,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Steal eggs from giant mama animals, outrun them home, hatch cute baby pets and train on your treadmill to reach rarer biomes!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/fedfb1d1186948d3bbec70fc7eb1fda3.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Rapido Taxi Simulator",
+   "url": "https://www.astrocade.com/games/rapido-taxi-simulator/01M6ECBK40BCMY4159R5FAW0V8",
+   "key": "astrocade.com/games/rapido-taxi-simulator/01m6ecbk40bcmy4159r5faw0v8",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 14,
+    "astrocade_plays": 36560,
+    "astrocade_likes": 554,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-03",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Ride a bike taxi around Liberty City: accept ride requests, carry passengers safely, earn tips and unlock faster bikes.",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/18c10310-2081-7019-c4aa-2576b1a55f78/1793715295264_01M6GW6N102BP01C1TNECGGCES.5686.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "River's Bounty",
+   "url": "https://www.astrocade.com/games/rivers-bounty/01KQY04277AKDBBZCGC7WT7W5D",
+   "key": "astrocade.com/games/rivers-bounty/01kqy04277akdbbzcgc7wt7w5d",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 15,
+    "astrocade_plays": 43971,
+    "astrocade_likes": 381,
+    "chart_new_entry": true
+   },
+   "published": "2026-05-06",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Cast your line into a tranquil river to discover unique fish and hidden treasures!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_0b59ab8a-a484-4376-89dd-c58189b80d1c.webp",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Ocean Hunter 3D",
+   "url": "https://www.astrocade.com/games/ocean-hunter-3d/01KWJG8XMTYYWY9K5VQY2SA0HR",
+   "key": "astrocade.com/games/ocean-hunter-3d/01kwjg8xmtyywy9k5vqy2sa0hr",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 16,
+    "astrocade_plays": 2045,
+    "astrocade_likes": 20,
+    "chart_new_entry": false
+   },
+   "published": "2026-08-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Dive deep, hunt fish and sharks, upgrade your gear, and explore stunning underwater worlds to become the ultimate ocean hunter!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_258eaf5c-88d1-4720-a06b-6bc5bc880708.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "FROSTLINE EXPRESS",
+   "url": "https://www.astrocade.com/games/frostline-express/01M6ENVH41CMAN509YVPDWP667",
+   "key": "astrocade.com/games/frostline-express/01m6envh41cman509yvpdwp667",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 17,
+    "astrocade_plays": 2178,
+    "astrocade_likes": 18,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-03",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Drive powerful passenger trains, explore beautiful railway routes, stop at stations, pick up passengers and enjoy an exciting 3D train driving adventure! 🚆",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_4ef0b5cb-e632-45ae-80fe-e9852e826fec.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Zen Creamery Tycoon",
+   "url": "https://www.astrocade.com/games/zen-creamery-tycoon/01M7RM8H19PABMMQZVHMVEEKP0",
+   "key": "astrocade.com/games/zen-creamery-tycoon/01m7rm8h19pabmmqzvhmveekp0",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 18,
+    "astrocade_plays": 12045,
+    "astrocade_likes": 158,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Scoop, serve and smile! Earn coins, build combos and upgrade your cozy ice-cream shop.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_d953854e-a1c1-438c-afe9-e210628b4612.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Cozy Christmas Puzzles",
+   "url": "https://www.astrocade.com/games/cozy-christmas-puzzles/01M6V0N0DYYXQ105BGBTZ6DKFF",
+   "key": "astrocade.com/games/cozy-christmas-puzzles/01m6v0n0dyyxq105bgbtz6dkff",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 19,
+    "astrocade_plays": 201,
+    "astrocade_likes": 7,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Unwrap 20 cozy Christmas jigsaw scenes — snowmen, gingerbread houses, Santa's sleigh and more — under softly falling snow and twinkling lights. 🎄",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/0ff631d520a1476c850c8d67c3419742.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Stickman Archer",
+   "url": "https://www.astrocade.com/games/stickman-archer/01KHYPFX5D977V3PTZSKR6XFVK",
+   "key": "astrocade.com/games/stickman-archer/01khypfx5d977v3ptzskr6xfvk",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 20,
+    "astrocade_plays": 2839826,
+    "astrocade_likes": 26215,
+    "chart_new_entry": false
+   },
+   "published": "2026-02-20",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Created with Astrocade!                                                   Remix allowed.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_ff189524-813d-46af-ba33-f909e64449c1.webp",
+   "passes": false
+  }
+ ]
+}

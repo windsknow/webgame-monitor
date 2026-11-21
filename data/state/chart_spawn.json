@@ -1,27 +1,27 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "keys": [
   "spawn.co/@retro/underground-warfare",
   "spawn.co/@izkimar/escape-from-stranglethorn",
   "spawn.co/@izkimar/league-of-spawn",
-  "spawn.co/@smallzero/fabling-park",
   "spawn.co/@smallzero/chimera-vocal-synth",
+  "spawn.co/@smallzero/fabling-park",
   "spawn.co/@izkimar/diablo-survivors",
   "spawn.co/@stranger4ever95/steal-an-egg",
   "spawn.co/@robot/mog",
-  "spawn.co/@kevin/spawn-turismo",
-  "spawn.co/@yuidev/flickshot",
-  "spawn.co/@tiger/hot-drop",
-  "spawn.co/@chucky/higher",
-  "spawn.co/@gfta/inkblade",
-  "spawn.co/@maine/call-of-paint",
-  "spawn.co/@donutfrumjupitr/the-backrooms",
-  "spawn.co/@fracture/glint",
-  "spawn.co/@poisoncode/shogun-s-fate",
   "spawn.co/@yisus/die-again",
+  "spawn.co/@yuidev/flickshot",
+  "spawn.co/@kevin/spawn-turismo",
+  "spawn.co/@tiger/hot-drop",
+  "spawn.co/@gfta/inkblade",
+  "spawn.co/@chucky/higher",
+  "spawn.co/@fracture/glint",
+  "spawn.co/@maine/call-of-paint",
+  "spawn.co/@poisoncode/shogun-s-fate",
+  "spawn.co/@donutfrumjupitr/the-backrooms",
   "spawn.co/@yisus/aether-legends",
-  "spawn.co/@xenos/counter-spawn-global-offensive"
+  "spawn.co/@abbidabbi/rifts"
  ],
  "seen": {
   "spawn.co/@tiger/dust-2-dm": "2026-11-12",
@@ -46,6 +46,7 @@
   "spawn.co/@poisoncode/shogun-s-fate": "2026-11-12",
   "spawn.co/@smallzero/chimera-vocal-synth": "2026-11-13",
   "spawn.co/@yisus/die-again": "2026-11-17",
-  "spawn.co/@xenos/counter-spawn-global-offensive": "2026-11-21"
+  "spawn.co/@xenos/counter-spawn-global-offensive": "2026-11-21",
+  "spawn.co/@abbidabbi/rifts": "2026-11-22"
  }
 }

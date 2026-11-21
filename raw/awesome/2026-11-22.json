@@ -1,0 +1,149 @@
+{
+ "date": "2026-11-22",
+ "channel": "awesome",
+ "count": 10,
+ "passed": 10,
+ "error": "",
+ "leads": [
+  {
+   "channel": "awesome",
+   "title": "Sakura Fantasy (桜幻想)",
+   "url": "https://sakura.billpwchan.art/",
+   "key": "sakura.billpwchan.art",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+   "desc": "Ride a boat down a Japanese river valley through the four seasons, from spring blossom to a winter night, and watch or take the camera to stop and look. Built with Claude Code · Three.js."
+  },
+  {
+   "channel": "awesome",
+   "title": "Utsuroi",
+   "url": "https://utsuroi.billpwchan.art/",
+   "key": "utsuroi.billpwchan.art",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · Three",
+   "desc": "Walk a Kyoto house and garden from before dawn to night, where scrolling is the clock and the sun moves as you go from room to room. Built with Claude Code · Three.js."
+  },
+  {
+   "channel": "awesome",
+   "title": "AI Axis & Allies",
+   "url": "https://hayneian000.github.io/axis-allies-ai/",
+   "key": "hayneian000.github.io/axis-allies-ai",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Axis & Allies-style strategy on the 1942 world board or a smaller America free-for-all, hot-seat or against LLM generals that negotiate and can break their deals",
+   "desc": "Axis & Allies-style strategy on the 1942 world board or a smaller America free-for-all, hot-seat or against LLM generals that negotiate and can break their deals. Built with Muse · TypeScript, Vite."
+  },
+  {
+   "channel": "awesome",
+   "title": "DRAG UP YOUR BAR",
+   "url": "https://ozajart.com/game.html",
+   "key": "ozajart.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude · HTML5",
+   "desc": "Run a drag club: play the music, hype up the guests, serve cocktails, book drag queens and renovate, across three clubs in a free beta. Built with Claude · HTML5."
+  },
+  {
+   "channel": "awesome",
+   "title": "Elsewhere Battles",
+   "url": "https://apps.apple.com/us/app/elsewhere-battles/id6826332316",
+   "key": "apps.apple.com/us/app/elsewhere-battles/id6826332316",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with ChatGPT, Codex",
+   "desc": "Turn-based iPhone and iPad strategy where you gather resources, grow a fantasy settlement, recruit armies and conquer rival civilizations. Built with ChatGPT, Codex."
+  },
+  {
+   "channel": "awesome",
+   "title": "KAIJU DISPOSAL",
+   "url": "https://csaf.itch.io/kaiju-disposal",
+   "key": "csaf.itch.io/kaiju-disposal",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code · HTML5",
+   "desc": "Clear a dead monster off a city street before it rots by cutting it up, sending each part to its buyer and racing the clock, across 12 contracts. Built with Claude Code · HTML5."
+  },
+  {
+   "channel": "awesome",
+   "title": "Word Spies",
+   "url": "https://wordspies.com/",
+   "key": "wordspies.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Codenames-style word game where any seat can be a person or an LLM, giving or guessing one-word clues with and against models, with every clue graded 0-100",
+   "desc": "Codenames-style word game where any seat can be a person or an LLM, giving or guessing one-word clues with and against models, with every clue graded 0-100. Built with Claude Code · React."
+  },
+  {
+   "channel": "awesome",
+   "title": "Deepmine",
+   "url": "https://yjin94606-art.github.io/deepmine/",
+   "key": "yjin94606-art.github.io/deepmine",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Codex · HTML5 Canvas",
+   "desc": "Pixel-art drilling game where you dig down through a history of AI projects to uncover the portraits, recordings and documents buried in it. Built with Codex · HTML5 Canvas."
+  },
+  {
+   "channel": "awesome",
+   "title": "Vibe1Up",
+   "url": "https://vibe1up.com/",
+   "key": "vibe1up.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；",
+   "desc": "Free AI-made browser games with 10 new picks every morning, each linking to the creator's own page, with a daily link check that archives games that go offline."
+  },
+  {
+   "channel": "awesome",
+   "title": "VibeGamer",
+   "url": "https://vibegamer.io/",
+   "key": "vibegamer.io",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Free browser games made with AI coding tools, each with a page crediting the maker and the AI model, browsable by genre and by model, in 13 languages, with Play links to the maker's own site",
+   "desc": "Free browser games made with AI coding tools, each with a page crediting the maker and the AI model, browsable by genre and by model, in 13 languages, with Play links to the maker's own site."
+  }
+ ]
+}
