@@ -1,0 +1,1681 @@
+{
+ "date": "2026-11-23",
+ "channel": "github",
+ "count": 88,
+ "passed": 10,
+ "error": "",
+ "leads": [
+  {
+   "channel": "github",
+   "title": "dsh-game-studio",
+   "url": "https://finiking.github.io/dsh-games/wall/",
+   "key": "finiking.github.io/dsh-games",
+   "alt_keys": [
+    "github.com/zseven-w/dsh-game-studio"
+   ],
+   "source_url": "https://github.com/ZSeven-W/dsh-game-studio",
+   "metrics": {
+    "github_stars": 815,
+    "github_forks": 97
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, and publish to GitHub Pages or Cloudflare in one click.",
+   "topics": "ai-agent ai-game-generator deepseek-harness dsh dsh-plugin game gamedev github-pages html5-games threejs"
+  },
+  {
+   "channel": "github",
+   "title": "guizang-game-skill",
+   "url": "https://op7418.github.io/guizang-game-skill/",
+   "key": "op7418.github.io/guizang-game-skill",
+   "alt_keys": [
+    "github.com/op7418/guizang-game-skill"
+   ],
+   "source_url": "https://github.com/op7418/guizang-game-skill",
+   "metrics": {
+    "github_stars": 436,
+    "github_forks": 72
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three",
+   "desc": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
+   "topics": "3d-game action-game agent-skills ai-agents ai-generated browser-game claude-code claude-skills codex game-development gamedev html5-game threejs tripo vibe-coding webgl wuxia"
+  },
+  {
+   "channel": "github",
+   "title": "trompe",
+   "url": "https://patch.gg",
+   "key": "patch.gg",
+   "alt_keys": [
+    "github.com/patch-gg/trompe"
+   ],
+   "source_url": "https://github.com/patch-gg/trompe",
+   "metrics": {
+    "github_stars": 227,
+    "github_forks": 19
+   },
+   "published": "2026-10-25",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Texture a whole game level from a gray blockout with image models: plan cameras, paint, project, bake. Real shadows, glTF out.",
+   "topics": "gamedev generative-ai procedural texturing threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "open-source-hands",
+   "url": "https://abouchedidxcode.github.io/open-source-hands/",
+   "key": "abouchedidxcode.github.io/open-source-hands",
+   "alt_keys": [
+    "github.com/abouchedidxcode/open-source-hands"
+   ],
+   "source_url": "https://github.com/abouchedidxcode/open-source-hands",
+   "metrics": {
+    "github_stars": 221,
+    "github_forks": 31
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Make webcam hand games in the browser, or point your coding agent here and have it make one. MediaPipe hand tracking + a gesture engine + a starter game + a playbook.",
+   "topics": "browser-games coding-agents gestures hand-tracking mediapipe threejs webcam"
+  },
+  {
+   "channel": "github",
+   "title": "reference-to-game",
+   "url": "https://github.com/gokayfem/reference-to-game",
+   "key": "github.com/gokayfem/reference-to-game",
+   "alt_keys": [
+    "github.com/gokayfem/reference-to-game"
+   ],
+   "source_url": "https://github.com/gokayfem/reference-to-game",
+   "metrics": {
+    "github_stars": 206,
+    "github_forks": 32
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Input-agnostic reference-to-game skill: preserve style and colors while building playable games. Includes tools, fal asset workflows and four Three.js examples.",
+   "topics": "agent-skills art-direction fal-ai game-development reference-to-game threejs"
+  },
+  {
+   "channel": "github",
+   "title": "castle-valley",
+   "url": "https://omw-game.kimaki.dev",
+   "key": "omw-game.kimaki.dev",
+   "alt_keys": [
+    "github.com/remorses/castle-valley"
+   ],
+   "source_url": "https://github.com/remorses/castle-valley",
+   "metrics": {
+    "github_stars": 94,
+    "github_forks": 19
+   },
+   "published": "2026-11-15",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A playable three.js game painted in oil brush strokes: the \"omw\" pixel-art post by @de5imulate, recreated in the browser",
+   "topics": "cloudflare-workers game oil-painting painterly threejs typescript webgl"
+  },
+  {
+   "channel": "github",
+   "title": "AI-All-Round-Bench",
+   "url": "https://octathlon.wendystars.com/",
+   "key": "octathlon.wendystars.com",
+   "alt_keys": [
+    "github.com/wendystar0628/ai-all-round-bench"
+   ],
+   "source_url": "https://github.com/Wendystar0628/AI-All-Round-Bench",
+   "metrics": {
+    "github_stars": 83,
+    "github_forks": 5
+   },
+   "published": "2026-10-24",
+   "passes": false,
+   "ai_hint": "agentic-coding ai-agents ai-benchmark benchmark claude-code codex coding-agents cuda leaderboard lean4 llm llm-benchmark llm-evaluation threejs webgpu",
+   "desc": "AI全能测评 | AI All-Round Bench: timed challenge benchmarks for AI coding agents, organized into topics. Live: AI Decathlon — 13 tasks across 10 categories (Lean proofs, competition math, CUDA/CPU optimization, game AI, 3D/web apps, nested OS), 60–100 min each, no human help. Coming: AI Aesthetics.",
+   "topics": "agentic-coding ai-agents ai-benchmark benchmark claude-code codex coding-agents cuda leaderboard lean4 llm llm-benchmark llm-evaluation threejs webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "Empire-At-War-Browser-Edition",
+   "url": "https://playeaw.com",
+   "key": "playeaw.com",
+   "alt_keys": [
+    "github.com/glenn332/empire-at-war-browser-edition"
+   ],
+   "source_url": "https://github.com/Glenn332/Empire-At-War-Browser-Edition",
+   "metrics": {
+    "github_stars": 50,
+    "github_forks": 2
+   },
+   "published": "2026-10-29",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Star Wars: Empire at War and Forces of Corruption in your browser, on a new engine built for huge battles. Bring your own copy of the game.",
+   "topics": "browser-game empire-at-war fan-project game-engine modding rts star-wars threejs webassembly webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "slop-cities",
+   "url": "https://zz85.github.io/slop-cities/map/",
+   "key": "zz85.github.io/slop-cities",
+   "alt_keys": [
+    "github.com/zz85/slop-cities"
+   ],
+   "source_url": "https://github.com/zz85/slop-cities",
+   "metrics": {
+    "github_stars": 48,
+    "github_forks": 26
+   },
+   "published": "2026-10-26",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "spreading slop to different cities",
+   "topics": "game gta maps threejs"
+  },
+  {
+   "channel": "github",
+   "title": "ponlai",
+   "url": "https://github.com/HuberyLL/ponlai",
+   "key": "github.com/huberyll/ponlai",
+   "alt_keys": [
+    "github.com/huberyll/ponlai"
+   ],
+   "source_url": "https://github.com/HuberyLL/ponlai",
+   "metrics": {
+    "github_stars": 34,
+    "github_forks": 5
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A physically based render pipeline for the browser on three.js WebGPU, for cinematic game visuals, with its tools and agent skills.",
+   "topics": "agent-skills game physically-based-rendering render-pipeline rendering threejs tsl webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "claude-code-game-kit",
+   "url": "https://github.com/Er2oneousbit/claude-code-game-kit",
+   "key": "github.com/er2oneousbit/claude-code-game-kit",
+   "alt_keys": [
+    "github.com/er2oneousbit/claude-code-game-kit"
+   ],
+   "source_url": "https://github.com/Er2oneousbit/claude-code-game-kit",
+   "metrics": {
+    "github_stars": 30,
+    "github_forks": 3
+   },
+   "published": "2026-10-27",
+   "passes": false,
+   "ai_hint": "Claude Code Game Kit: start a game with Claude Code already set up claude-code game-template gamedev godot phaser threejs unity unreal",
+   "desc": "Claude Code Game Kit: start a game with Claude Code already set up",
+   "topics": "claude-code game-template gamedev godot phaser threejs unity unreal"
+  },
+  {
+   "channel": "github",
+   "title": "Threedog.js-Game-Engine",
+   "url": "https://www.npmjs.com/package/threedog",
+   "key": "npmjs.com",
+   "alt_keys": [
+    "github.com/penstic123-code/threedog.js-game-engine"
+   ],
+   "source_url": "https://github.com/penstic123-code/Threedog.js-Game-Engine",
+   "metrics": {
+    "github_stars": 28,
+    "github_forks": 3
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A 3D game engine for the web, built on three.js and made to be used by AI coding agents.",
+   "topics": "ai-agents ai-assisted-development ainative game-engine game-engine-3d gamedev javascript mcp threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "resp-OldenEraExplorer",
+   "url": "https://github.com/CryniflheimNebula/resp-OldenEraExplorer",
+   "key": "github.com/cryniflheimnebula/resp-oldeneraexplorer",
+   "alt_keys": [
+    "github.com/cryniflheimnebula/resp-oldeneraexplorer"
+   ],
+   "source_url": "https://github.com/CryniflheimNebula/resp-OldenEraExplorer",
+   "metrics": {
+    "github_stars": 27,
+    "github_forks": 0
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Interactive data viewer and 3D model explorer for Heroes of Might and Magic: Olden Era - Browse units, heroes, spells, artifacts, and game data",
+   "topics": "asset-export assetripper audio-extraction game-viewer games heroes-of-might-and-magic-olden-era homm net10 texture-extraction threejs"
+  },
+  {
+   "channel": "github",
+   "title": "awesome-fable-5-2-games",
+   "url": "https://github.com/ygx2378/awesome-fable-5-2-games",
+   "key": "github.com/ygx2378/awesome-fable-5-2-games",
+   "alt_keys": [
+    "github.com/ygx2378/awesome-fable-5-2-games"
+   ],
+   "source_url": "https://github.com/ygx2378/awesome-fable-5-2-games",
+   "metrics": {
+    "github_stars": 16,
+    "github_forks": 2
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "全网最全的 Claude Fable 5.2 / GPT-6.2 Astra / Gemini 4 游戏清单：133 款作品、89 个仓库、4 份合集，含同款提示词对照、Prompt 原文与技术栈，96 款可直接在线试玩 ai-generated awesome-list fable fable-5 game-development games gpt-6-2-astra model-compar",
+   "desc": "全网最全的 Claude Fable 5.2 / GPT-6.2 Astra / Gemini 4 游戏清单：133 款作品、89 个仓库、4 份合集，含同款提示词对照、Prompt 原文与技术栈，96 款可直接在线试玩",
+   "topics": "ai-generated awesome-list fable fable-5 game-development games gpt-6-2-astra model-comparison prompt-engineering threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "zombies",
+   "url": "https://zombies.ethanplus.ai",
+   "key": "zombies.ethanplus.ai",
+   "alt_keys": [
+    "github.com/ethanplusai/zombies"
+   ],
+   "source_url": "https://github.com/ethanplusai/zombies",
+   "metrics": {
+    "github_stars": 13,
+    "github_forks": 5
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Graveyard Shift: a round-based zombies shooter that runs in the browser. three.js, one HTML file, everything generated in code.",
+   "topics": "fps game threejs webgl zombies"
+  },
+  {
+   "channel": "github",
+   "title": "ibox",
+   "url": "https://atzski.github.io/ibox/",
+   "key": "atzski.github.io/ibox",
+   "alt_keys": [
+    "github.com/atzski/ibox"
+   ],
+   "source_url": "https://github.com/atzski/ibox",
+   "metrics": {
+    "github_stars": 12,
+    "github_forks": 0
+   },
+   "published": "2026-11-14",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Your games, back on the shelf. A game library for PC and console games on Windows, and on Steam Deck in preview, with real 3D game cases, controller support and one-click emulator setup.",
+   "topics": "controller emulation-frontend game-collection game-launcher game-library linux retroachievements retrogaming steam-deck tauri threejs windows"
+  },
+  {
+   "channel": "github",
+   "title": "awesome-opus-5.5-games",
+   "url": "https://games.omgithub.com/",
+   "key": "games.omgithub.com",
+   "alt_keys": [
+    "github.com/gamingnews5/awesome-opus-5.5-games"
+   ],
+   "source_url": "https://github.com/gamingnews5/awesome-opus-5.5-games",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 5
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "3031 source-verified AI-built games from 2724 repos, attributed to GPT-6 Astra, GPT-6.1 Sol, Gemini 4 Argon, Claude Opus, Claude Sonnet and Claude Fable ai-games ai-generated awesome-list browser-game",
+   "desc": "3031 source-verified AI-built games from 2724 repos, attributed to GPT-6 Astra, GPT-6.1 Sol, Gemini 4 Argon, Claude Opus, Claude Sonnet and Claude Fable",
+   "topics": "ai-games ai-generated awesome-list browser-games claude claude-opus claude-opus-5-5 game-development gemini gemini-4 gemini-4-argon gpt-6-astra llm open-source-games opus-5-5 threejs vibe-coding"
+  },
+  {
+   "channel": "github",
+   "title": "glass-break",
+   "url": "https://starknightt.github.io/glass-break/",
+   "key": "starknightt.github.io/glass-break",
+   "alt_keys": [
+    "github.com/starknightt/glass-break"
+   ],
+   "source_url": "https://github.com/StarKnightt/glass-break",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 2
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "First-person glass-bottle shooting game. Golden hour. Slow-mo shatter. three.js.",
+   "topics": "first-person game shatter threejs typescript vite web-audio webgl"
+  },
+  {
+   "channel": "github",
+   "title": "jimao",
+   "url": "https://odin1024.github.io/jimao/",
+   "key": "odin1024.github.io/jimao",
+   "alt_keys": [
+    "github.com/odin1024/jimao"
+   ],
+   "source_url": "https://github.com/odin1024/jimao",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "《几猫》— 单文件浏览器 FPS · 国产3A大作（开发体验版）· WebGL 渲染，键鼠/触屏/手柄可玩 · Single-file browser FPS, MIT licensed",
+   "topics": "browser-game chinese fps game github-pages procedural-generation shooter single-file threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "awesome-claude-fable-games",
+   "url": "https://vibegamer.io",
+   "key": "vibegamer.io",
+   "alt_keys": [
+    "github.com/ummydev/awesome-claude-fable-games"
+   ],
+   "source_url": "https://github.com/ummydev/awesome-claude-fable-games",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "A curated list of games made with Claude Fable 5.2: play links, gameplay screenshots, prompts and credits",
+   "desc": "A curated list of games made with Claude Fable 5.2: play links, gameplay screenshots, prompts and credits. Every game also on vibegamer.io.",
+   "topics": "ai-games anthropic awesome awesome-list browser-games claude claude-fable fable-5-2 threejs vibe-coding"
+  },
+  {
+   "channel": "github",
+   "title": "S5-League",
+   "url": "https://s5-league.s5league.workers.dev",
+   "key": "s5-league.s5league.workers.dev",
+   "alt_keys": [
+    "github.com/clarity-1/s5-league"
+   ],
+   "source_url": "https://github.com/Clarity-1/S5-League",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 1
+   },
+   "published": "2026-10-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "S5 League — an experimental Three.js action game. Play in your browser or explore the developer source.",
+   "topics": "browser-game javascript third-person threejs vite"
+  },
+  {
+   "channel": "github",
+   "title": "lunar-walk",
+   "url": "https://hh-hang.github.io/lunar-walk/",
+   "key": "hh-hang.github.io/lunar-walk",
+   "alt_keys": [
+    "github.com/hh-hang/lunar-walk"
+   ],
+   "source_url": "https://github.com/hh-hang/lunar-walk",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 0
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Walk an endless lunar scene",
+   "topics": "3d exploration game lunar moon procedural-generation shaders space threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "open-revisualizer",
+   "url": "https://waleedsworld.github.io/open-revisualizer/",
+   "key": "waleedsworld.github.io/open-revisualizer",
+   "alt_keys": [
+    "github.com/waleedsworld/open-revisualizer"
+   ],
+   "source_url": "https://github.com/waleedsworld/open-revisualizer",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 0
+   },
+   "published": "2026-11-22",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Re-render reality from a car's surround cameras as 3D Gaussian splats, then drive through it like a video game. Open-source reality view with SDK.",
+   "topics": "3dgs argoverse autonomous-driving gaussian-splatting threejs"
+  },
+  {
+   "channel": "github",
+   "title": "freegameenginethreejs",
+   "url": "https://prometech.net.tr",
+   "key": "prometech.net.tr",
+   "alt_keys": [
+    "github.com/pthinc/freegameenginethreejs"
+   ],
+   "source_url": "https://github.com/pthinc/freegameenginethreejs",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 1
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A browser-based editor for creating interactive 3D scenes, simple games and web experiences with Three.js, React and TypeScript.",
+   "topics": "game game-2d game-3d game-dev game-development game-engine gamedev html react three-js threejs threejs-game threejs-game-engine typescript vitejs website website-builder website-design website-development"
+  },
+  {
+   "channel": "github",
+   "title": "3D-product-visualization",
+   "url": "https://github.com/Vedmeena21/3D-product-visualization",
+   "key": "github.com/vedmeena21/3d-product-visualization",
+   "alt_keys": [
+    "github.com/vedmeena21/3d-product-visualization"
+   ],
+   "source_url": "https://github.com/Vedmeena21/3D-product-visualization",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 0
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Turn a real product into an interactive 3D explainer and a 60 fps film with a procedural score. Example: a gaming mouse teardown.",
+   "topics": "3d product-visualization threejs video-generation webgl"
+  },
+  {
+   "channel": "github",
+   "title": "pixel-vfx-codex",
+   "url": "https://888wing.github.io/pixel-vfx-codex/",
+   "key": "888wing.github.io/pixel-vfx-codex",
+   "alt_keys": [
+    "github.com/888wing/pixel-vfx-codex"
+   ],
+   "source_url": "https://github.com/888wing/pixel-vfx-codex",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 1
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "138 pixel-art VFX: 64 game effects, 28 original ultimates, 10 mass spells, 12 scale-ladder spells (10 → 10,000 enemies), 12 spells with a twist, 12 summoned and enchanted weapons. Honest hit areas, kill counter, guide paths. Three cameras (3D / 2.5D / 2D), tunable knobs, prompts for Godot, Unity, Three.js, Canvas. MIT.",
+   "topics": "canvas dithering game-development gamedev godot isometric pixel-art prompt sprite-sheet threejs unity vfx"
+  },
+  {
+   "channel": "github",
+   "title": "tria-prima",
+   "url": "https://winchxyz.github.io/tria-prima/",
+   "key": "winchxyz.github.io/tria-prima",
+   "alt_keys": [
+    "github.com/winchxyz/tria-prima"
+   ],
+   "source_url": "https://github.com/winchxyz/tria-prima",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 3
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Tria Prima: a dark-fantasy alchemy adventure in first person. WebGL 2, fully procedural, plays in the browser.",
+   "topics": "dark-fantasy game procedural-generation threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "neural-atelier",
+   "url": "https://hacking.pub/games/neural-atelier/",
+   "key": "hacking.pub",
+   "alt_keys": [
+    "github.com/chainhelen/neural-atelier"
+   ],
+   "source_url": "https://github.com/chainhelen/neural-atelier",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 3
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A 3D wiring puzzle game. Build neural networks, watch vectors flow, and explore on-device inference. 25 levels, English + Chinese.",
+   "topics": "educational-game javascript neural-networks on-device-ai puzzle-game threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "balloon-ride",
+   "url": "https://starknightt.github.io/balloon-ride/",
+   "key": "starknightt.github.io/balloon-ride",
+   "alt_keys": [
+    "github.com/starknightt/balloon-ride"
+   ],
+   "source_url": "https://github.com/StarKnightt/balloon-ride",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A calm hot air balloon ride over a hand-painted countryside at golden hour. Three.js.",
+   "topics": "game hot-air-balloon threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "miitomo-web",
+   "url": "https://frysco19.github.io/miitomo-web/",
+   "key": "frysco19.github.io/miitomo-web",
+   "alt_keys": [
+    "github.com/frysco19/miitomo-web"
+   ],
+   "source_url": "https://github.com/FrySco19/miitomo-web",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-10-27",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Unofficial browser reconstruction of Miitomo 2.4.0 from your own game files, plus Miitomo Reboot (new social features)",
+   "topics": "game-preservation justfun mii miitomo preservation reverse-engineering-tools threejs typescript vite webgl"
+  },
+  {
+   "channel": "github",
+   "title": "fortnite-chest-tracker",
+   "url": "https://fortnite-chest-tracker.com",
+   "key": "fortnite-chest-tracker.com",
+   "alt_keys": [
+    "github.com/ayman-studio/fortnite-chest-tracker"
+   ],
+   "source_url": "https://github.com/ayman-studio/fortnite-chest-tracker",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 1
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Free Windows app that counts every chest you open in Fortnite, with an in-game overlay and your real pirate token odds.",
+   "topics": "chest-counter csharp dotnet fortnite fortnite-replay fortnite-tracker game-overlay replay-parser threejs windows"
+  },
+  {
+   "channel": "github",
+   "title": "Skybreak--Protocol",
+   "url": "https://peilinzhong2008.github.io/Skybreak-Protocol/",
+   "key": "peilinzhong2008.github.io/skybreak-protocol",
+   "alt_keys": [
+    "github.com/larryzpl123/skybreak--protocol"
+   ],
+   "source_url": "https://github.com/Larryzpl123/Skybreak--Protocol",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 1
+   },
+   "published": "2026-11-04",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Build a plane from parts, then fly it: a 3D dogfighting game in the browser (three.js). Waves and bosses, an AI ladder, co-op and PvP, daily maps and weather.",
+   "topics": "browser-game dogfight flight-simulator html5-game javascript multiplayer procedural-generation pwa threejs webgl webrtc"
+  },
+  {
+   "channel": "github",
+   "title": "eyeproof-gameplay-proofs",
+   "url": "https://github.com/Sarthak-2315/eyeproof-gameplay-proofs",
+   "key": "github.com/sarthak-2315/eyeproof-gameplay-proofs",
+   "alt_keys": [
+    "github.com/sarthak-2315/eyeproof-gameplay-proofs"
+   ],
+   "source_url": "https://github.com/Sarthak-2315/eyeproof-gameplay-proofs",
+   "metrics": {
+    "github_stars": 153,
+    "github_forks": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Eyeproof Gameplay Proofs: Structured Play-Test Dataset for Verification",
+   "topics": "antidetect blender browser-testing design-skill headless poster regression-testing scene-analysis style-routing webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "voidstruck",
+   "url": "https://vitaminclaude.github.io/voidstruck/",
+   "key": "vitaminclaude.github.io/voidstruck",
+   "alt_keys": [
+    "github.com/vitaminclaude/voidstruck"
+   ],
+   "source_url": "https://github.com/vitaminclaude/voidstruck",
+   "metrics": {
+    "github_stars": 145,
+    "github_forks": 32
+   },
+   "published": "2026-11-17",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A whole procedural galaxy in one 299 kB HTML file: fly, land, walk, mine, trade and find your way home. A story with three endings and a synthesised soundtrack. No downloads, no assets. Play in the browser.",
+   "topics": "exploration game html5-game procedural-generation single-file space webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "holdout",
+   "url": "https://samg-coder.github.io/holdout/",
+   "key": "samg-coder.github.io/holdout",
+   "alt_keys": [
+    "github.com/samg-coder/holdout"
+   ],
+   "source_url": "https://github.com/SamG-Coder/holdout",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 2
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A first-person shooter that runs in a browser tab: Rust → WebAssembly + WebGPU on the Solstice engine, with every model and texture built by script.",
+   "topics": "fps game rust webassembly webgpu wgpu"
+  },
+  {
+   "channel": "github",
+   "title": "bhop-browser-game",
+   "url": "https://github.com/dipsonbasnet49-droid/bhop-browser-game",
+   "key": "github.com/dipsonbasnet49-droid/bhop-browser-game",
+   "alt_keys": [
+    "github.com/dipsonbasnet49-droid/bhop-browser-game"
+   ],
+   "source_url": "https://github.com/dipsonbasnet49-droid/bhop-browser-game",
+   "metrics": {
+    "github_stars": 153,
+    "github_forks": 0
+   },
+   "published": "2026-11-15",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Bhop Browser Game - Forge Your Own Bunny Hop Legends",
+   "topics": "auto-strafe cs2ahk movement-mechanics scripting source-engine surf valve webgl"
+  },
+  {
+   "channel": "github",
+   "title": "worker755",
+   "url": "https://worker755.com",
+   "key": "worker755.com",
+   "alt_keys": [
+    "github.com/gulivan/worker755"
+   ],
+   "source_url": "https://github.com/gulivan/worker755",
+   "metrics": {
+    "github_stars": 112,
+    "github_forks": 2
+   },
+   "published": "2026-11-11",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "d2-web",
+   "url": "https://opend2.com",
+   "key": "opend2.com",
+   "alt_keys": [
+    "github.com/virtastic/d2-web"
+   ],
+   "source_url": "https://github.com/Virtastic/d2-web",
+   "metrics": {
+    "github_stars": 87,
+    "github_forks": 12
+   },
+   "published": "2026-10-29",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Play Diablo II: Lord of Destruction in your browser — the 1.13c engine reimplemented in C++ and compiled to WebAssembly. Bring your own game files.",
+   "topics": "browser-game cpp diablo-ii diablo2 emscripten game-engine reimplementation wasm webassembly webgl2"
+  },
+  {
+   "channel": "github",
+   "title": "assetcat",
+   "url": "https://pypi.org/project/assetcat/",
+   "key": "pypi.org",
+   "alt_keys": [
+    "github.com/digitalhobbit/assetcat"
+   ],
+   "source_url": "https://github.com/digitalhobbit/assetcat",
+   "metrics": {
+    "github_stars": 69,
+    "github_forks": 7
+   },
+   "published": "2026-11-08",
+   "passes": false,
+   "ai_hint": "asset-management claude-code cli fastapi game-assets gamedev local-ai pixel-art semantic-search siglip sprites",
+   "desc": " Index, search and browse your game asset library: a local web UI and CLI that keeps licenses and AI provenance in plain files.",
+   "topics": "asset-management claude-code cli fastapi game-assets gamedev local-ai pixel-art semantic-search siglip sprites"
+  },
+  {
+   "channel": "github",
+   "title": "librehold",
+   "url": "https://librehold.org",
+   "key": "librehold.org",
+   "alt_keys": [
+    "github.com/librehold-game/librehold"
+   ],
+   "source_url": "https://github.com/librehold-game/librehold",
+   "metrics": {
+    "github_stars": 63,
+    "github_forks": 10
+   },
+   "published": "2026-10-28",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "A free, open-source browser strategy game: grow a settlement from a hut to a castle, raise an army, raid and conquer.",
+   "topics": "browser-game contributions-welcome golang good-first-issue multiplayer open-source-game pixel-art react strategy-game"
+  },
+  {
+   "channel": "github",
+   "title": "tiny-game-agent",
+   "url": "https://github.com/bkm1988/tiny-game-agent",
+   "key": "github.com/bkm1988/tiny-game-agent",
+   "alt_keys": [
+    "github.com/bkm1988/tiny-game-agent"
+   ],
+   "source_url": "https://github.com/bkm1988/tiny-game-agent",
+   "metrics": {
+    "github_stars": 60,
+    "github_forks": 0
+   },
+   "published": "2026-11-05",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A tiny rule-based agent that plays a browser grid game",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "trainsworld",
+   "url": "https://github.com/circularsquare/trainsworld",
+   "key": "github.com/circularsquare/trainsworld",
+   "alt_keys": [
+    "github.com/circularsquare/trainsworld"
+   ],
+   "source_url": "https://github.com/circularsquare/trainsworld",
+   "metrics": {
+    "github_stars": 57,
+    "github_forks": 27
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A railway building game on a map of the whole world. Runs in the browser.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "road-sdl2-rash",
+   "url": "https://speedydevil007.github.io/road-sdl2-rash/",
+   "key": "speedydevil007.github.io/road-sdl2-rash",
+   "alt_keys": [
+    "github.com/speedydevil007/road-sdl2-rash"
+   ],
+   "source_url": "https://github.com/speedydevil007/road-sdl2-rash",
+   "metrics": {
+    "github_stars": 39,
+    "github_forks": 0
+   },
+   "published": "2026-10-28",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "Modern native 64-bit C port and WebAssembly release of Road Rash (1996 PC). Runs natively on Windows 10/11, Linux, Steam Deck, and Web Browsers via SDL2. Features gamepad support,   1280x960 high-res rendering, SoundFont audio, in-game options overlay, and real-time physics/AI modding",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "rob-links",
+   "url": "https://ayushcmd.github.io/rob-links/",
+   "key": "ayushcmd.github.io/rob-links",
+   "alt_keys": [
+    "github.com/ayushcmd/rob-links"
+   ],
+   "source_url": "https://github.com/ayushcmd/rob-links",
+   "metrics": {
+    "github_stars": 25,
+    "github_forks": 0
+   },
+   "published": "2026-11-04",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A modern, Roblox-inspired gaming discovery directory featuring 36 curated browser games, WebAssembly ports, and retro gaming projects with live search and multi-genre filtering.",
+   "topics": "browser-games gaming-directory retro-games wasm webassembly webgl"
+  },
+  {
+   "channel": "github",
+   "title": "ZGTA-V",
+   "url": "https://github.com/zemabinks/ZGTA-V",
+   "key": "github.com/zemabinks/zgta-v",
+   "alt_keys": [
+    "github.com/zemabinks/zgta-v"
+   ],
+   "source_url": "https://github.com/zemabinks/ZGTA-V",
+   "metrics": {
+    "github_stars": 23,
+    "github_forks": 2
+   },
+   "published": "2026-10-26",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "ZGTA 5 by zema. Solo Story, Free Roam and private multiplayer. Browser/Mac 1.2; iOS 1.1 beta 1. Your own matching game files required.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "aevum-rts",
+   "url": "https://aevum-8clf.onrender.com",
+   "key": "aevum-8clf.onrender.com",
+   "alt_keys": [
+    "github.com/flickrz/aevum-rts"
+   ],
+   "source_url": "https://github.com/flickrz/aevum-rts",
+   "metrics": {
+    "github_stars": 22,
+    "github_forks": 5
+   },
+   "published": "2026-11-18",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Aevum: an original 3D real-time strategy game in the browser (Three.js). Five ages, AI, lockstep multiplayer.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "webxr-to-native",
+   "url": "https://github.com/Srile/webxr-to-native",
+   "key": "github.com/srile/webxr-to-native",
+   "alt_keys": [
+    "github.com/srile/webxr-to-native"
+   ],
+   "source_url": "https://github.com/Srile/webxr-to-native",
+   "metrics": {
+    "github_stars": 19,
+    "github_forks": 3
+   },
+   "published": "2026-11-09",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Run an unmodified WebXR web game as a native app on Meta Quest, without a browser: V8, WebGL 2 over GLES, WebXR over OpenXR (IWER host mode)",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "Drakan2PC",
+   "url": "https://christophervr.github.io/Drakan2PC/",
+   "key": "christophervr.github.io/drakan2pc",
+   "alt_keys": [
+    "github.com/christophervr/drakan2pc"
+   ],
+   "source_url": "https://github.com/ChristopherVR/Drakan2PC",
+   "metrics": {
+    "github_stars": 19,
+    "github_forks": 1
+   },
+   "published": "2026-10-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Drakan: The Ancients' Gates (PS2) static recompilation to native Windows and the browser. Bring your own disc; no game data included.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "NupExplorer",
+   "url": "https://github.com/lunixxx37/NupExplorer",
+   "key": "github.com/lunixxx37/nupexplorer",
+   "alt_keys": [
+    "github.com/lunixxx37/nupexplorer"
+   ],
+   "source_url": "https://github.com/lunixxx37/NupExplorer",
+   "metrics": {
+    "github_stars": 19,
+    "github_forks": 1
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Browse, preview and extract the assets of NUP game containers – textures, audio, 3D models with animations, texts and game data. Runs locally on Windows.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "KCDS",
+   "url": "https://kcdsynced.com",
+   "key": "kcdsynced.com",
+   "alt_keys": [
+    "github.com/kcd-synced/kcds"
+   ],
+   "source_url": "https://github.com/KCD-Synced/KCDS",
+   "metrics": {
+    "github_stars": 18,
+    "github_forks": 2
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "KCDS - Kingdom Come: Deliverance II Multiplayer. A free multiplayer mod for KCD2 with dedicated servers, an in-game server browser and a scripting SDK (JavaScript, TypeScript, Lua, C#) for server owners.",
+   "topics": "dedicated-server game-mod kcd2 kcd2-multiplayer kingdom-come-deliverance kingdom-come-deliverance-2 modding-sdk multiplayer"
+  },
+  {
+   "channel": "github",
+   "title": "isaac-switch-native",
+   "url": "https://github.com/antoniotorres02/isaac-switch-native",
+   "key": "github.com/antoniotorres02/isaac-switch-native",
+   "alt_keys": [
+    "github.com/antoniotorres02/isaac-switch-native"
+   ],
+   "source_url": "https://github.com/antoniotorres02/isaac-switch-native",
+   "metrics": {
+    "github_stars": 17,
+    "github_forks": 3
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Native Nintendo Switch (libnx) and PC host for The Binding of Isaac: Repentance+, built on the-browsing-of-isaac's static recompilation. Bring your own copy of the game.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "FlyffWeb",
+   "url": "https://github.com/marciobremer/FlyffWeb",
+   "key": "github.com/marciobremer/flyffweb",
+   "alt_keys": [
+    "github.com/marciobremer/flyffweb"
+   ],
+   "source_url": "https://github.com/marciobremer/FlyffWeb",
+   "metrics": {
+    "github_stars": 16,
+    "github_forks": 15
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A project to run the game Fly for fun on browser",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "openpolis",
+   "url": "https://github.com/subediaakash/openpolis",
+   "key": "github.com/subediaakash/openpolis",
+   "alt_keys": [
+    "github.com/subediaakash/openpolis"
+   ],
+   "source_url": "https://github.com/subediaakash/openpolis",
+   "metrics": {
+    "github_stars": 12,
+    "github_forks": 3
+   },
+   "published": "2026-10-31",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A free, open city-building game that runs in your browser. No download, no install.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "Vaporust",
+   "url": "https://github.com/felixsmtnk/Vaporust",
+   "key": "github.com/felixsmtnk/vaporust",
+   "alt_keys": [
+    "github.com/felixsmtnk/vaporust"
+   ],
+   "source_url": "https://github.com/felixsmtnk/Vaporust",
+   "metrics": {
+    "github_stars": 12,
+    "github_forks": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Lightweight Steam client for Windows in Rust + egui, no embedded browser. Games launch through a hidden Steam; installs and updates without it, game properties, family library, friends and chat, store and inventory. English and Russian interface. Based on Aurelia.",
+   "topics": "egui game-launcher-software lightweight low-end-pc rust steam steam-launcher windows"
+  },
+  {
+   "channel": "github",
+   "title": "priston-tale-web",
+   "url": "https://github.com/sungam3d/priston-tale-web",
+   "key": "github.com/sungam3d/priston-tale-web",
+   "alt_keys": [
+    "github.com/sungam3d/priston-tale-web"
+   ],
+   "source_url": "https://github.com/sungam3d/priston-tale-web",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 14
+   },
+   "published": "2026-10-24",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Priston Tale in the browser: WebAssembly client, IIS bridge, game server and data",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "hexplorers",
+   "url": "https://hexplorers.xyz",
+   "key": "hexplorers.xyz",
+   "alt_keys": [
+    "github.com/logitsml/hexplorers"
+   ],
+   "source_url": "https://github.com/logitsml/hexplorers",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 5
+   },
+   "published": "2026-11-02",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A 3D island board game for the browser: sail, trade and prosper solo against bots or in online rooms, with nine mixable expansions and a map editor.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "zubspace",
+   "url": "https://zubspace.gg",
+   "key": "zubspace.gg",
+   "alt_keys": [
+    "github.com/pkieltyka/zubspace"
+   ],
+   "source_url": "https://github.com/pkieltyka/zubspace",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 1
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Zubspace: Remake of the classic SubSpace game, in the browser!",
+   "topics": "game html5-game"
+  },
+  {
+   "channel": "github",
+   "title": "reach-check",
+   "url": "https://reach.1ms.dog",
+   "key": "reach.1ms.dog",
+   "alt_keys": [
+    "github.com/yt1988/reach-check"
+   ],
+   "source_url": "https://github.com/yt1988/reach-check",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 5
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Can other people reach your website, NAS or game server? Checks from 18 regions incl. China's three carriers and from your browser, with DNS/TCP/TLS/first-byte timings and what to check next.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "spider-game-engine-open-source-",
+   "url": "https://game.m4spider.com",
+   "key": "game.m4spider.com",
+   "alt_keys": [
+    "github.com/m4spider/spider-game-engine-open-source-"
+   ],
+   "source_url": "https://github.com/M4SPIDER/spider-game-engine-open-source-",
+   "metrics": {
+    "github_stars": 11,
+    "github_forks": 2
+   },
+   "published": "2026-10-26",
+   "passes": false,
+   "ai_hint": "🎯 llm llm-agents mcp meta-ai meta-ai-hackathon meta-ai-hackathon-2026 rust tauri",
+   "desc": "The AI-native 3D game engine where agents code, build, and test games live on the canvas. Powered by React Three Fiber, WebGL, and Model Context Protocol (MCP). Works everywhere from mobile browsers to native desktop.  🎯",
+   "topics": "llm llm-agents mcp meta-ai meta-ai-hackathon meta-ai-hackathon-2026 rust tauri"
+  },
+  {
+   "channel": "github",
+   "title": "framedock",
+   "url": "https://github.com/guix8/framedock",
+   "key": "github.com/guix8/framedock",
+   "alt_keys": [
+    "github.com/guix8/framedock"
+   ],
+   "source_url": "https://github.com/guix8/framedock",
+   "metrics": {
+    "github_stars": 9,
+    "github_forks": 0
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Performance HUD, colour correction, in-game dock, browser panel and device controls for the Steam Frame (SteamVR overlay)",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "oldschool-cs-demo-library-replayer",
+   "url": "https://github.com/k4b4l74/oldschool-cs-demo-library-replayer",
+   "key": "github.com/k4b4l74/oldschool-cs-demo-library-replayer",
+   "alt_keys": [
+    "github.com/k4b4l74/oldschool-cs-demo-library-replayer"
+   ],
+   "source_url": "https://github.com/k4b4l74/oldschool-cs-demo-library-replayer",
+   "metrics": {
+    "github_stars": 9,
+    "github_forks": 1
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Import, identify, browse and replay Counter-Strike 1.0 – 1.6 demos on Windows, in the game version they were recorded with.",
+   "topics": "counter-strike cs16 demo-player demos esports fastapi goldsrc hltv react windows"
+  },
+  {
+   "channel": "github",
+   "title": "MiyooMiniPlus-CoolTools",
+   "url": "https://github.com/jojobt55/MiyooMiniPlus-CoolTools",
+   "key": "github.com/jojobt55/miyoominiplus-cooltools",
+   "alt_keys": [
+    "github.com/jojobt55/miyoominiplus-cooltools"
+   ],
+   "source_url": "https://github.com/jojobt55/MiyooMiniPlus-CoolTools",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 0
+   },
+   "published": "2026-11-20",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Allows you to browse your game series in MM+",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "Trofy",
+   "url": "https://github.com/eudanh/Trofy",
+   "key": "github.com/eudanh/trofy",
+   "alt_keys": [
+    "github.com/eudanh/trofy"
+   ],
+   "source_url": "https://github.com/eudanh/Trofy",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 0
+   },
+   "published": "2026-11-17",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "PS5 homebrew for browsing your game library, checking playtime and trophy progress, and revisiting your captures.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "PBLabs",
+   "url": "https://github.com/fitri-hy/PBLabs",
+   "key": "github.com/fitri-hy/pblabs",
+   "alt_keys": [
+    "github.com/fitri-hy/pblabs"
+   ],
+   "source_url": "https://github.com/fitri-hy/PBLabs",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 3
+   },
+   "published": "2026-11-16",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A browser-based version of the FPS game Point Blank has been developed as a technical experiment.",
+   "topics": "game-browser game-fps-counter game-remake games point-blank vite"
+  },
+  {
+   "channel": "github",
+   "title": "afklink-pc",
+   "url": "https://web.afklink.app",
+   "key": "web.afklink.app",
+   "alt_keys": [
+    "github.com/afklink/afklink-pc"
+   ],
+   "source_url": "https://github.com/afklink/afklink-pc",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 0
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "AFKLink for Windows: your gaming PC on your phone, in Telegram or a browser.",
+   "topics": "game-streaming remote-control remote-desktop rust webrtc windows"
+  },
+  {
+   "channel": "github",
+   "title": "Badminton-Generate-HUD",
+   "url": "https://github.com/gob123th/Badminton-Generate-HUD",
+   "key": "github.com/gob123th/badminton-generate-hud",
+   "alt_keys": [
+    "github.com/gob123th/badminton-generate-hud"
+   ],
+   "source_url": "https://github.com/gob123th/Badminton-Generate-HUD",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 3
+   },
+   "published": "2026-10-29",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Static web app (no build step, no server code). User drops a fixed-camera badminton video → browser runs player detection/tracking + shuttle tracking → renders a broadcast/game-style HUD → exports MP4 (original audio) + stats.json. Everything runs client-side; videos never leave the user's machine. UI text is Thai; HUD labels are English.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "Elemental-DeckKeys",
+   "url": "https://github.com/Koutasora/Elemental-DeckKeys",
+   "key": "github.com/koutasora/elemental-deckkeys",
+   "alt_keys": [
+    "github.com/koutasora/elemental-deckkeys"
+   ],
+   "source_url": "https://github.com/Koutasora/Elemental-DeckKeys",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 0
+   },
+   "published": "2026-10-24",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Control your Steam Deck from a browser on your PC or phone: type text, live keyboard, touchpad, media keys and file transfer. Works in Game Mode and Desktop Mode.",
+   "topics": "kde linux-gaming non-steam-games proton protontricks steam-deck steamos wine winetricks"
+  },
+  {
+   "channel": "github",
+   "title": "ark-nova-ai",
+   "url": "https://collinfeng.com/ark-nova-ai/",
+   "key": "collinfeng.com",
+   "alt_keys": [
+    "github.com/collinfeng/ark-nova-ai"
+   ],
+   "source_url": "https://github.com/collinfeng/ark-nova-ai",
+   "metrics": {
+    "github_stars": 7,
+    "github_forks": 1
+   },
+   "published": "2026-10-24",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A rules engine for the board game Ark Nova and an AI that learns to play it by reinforcement learning (PPO self-play), with a browser board to play against it.",
+   "topics": "ark-nova board-game board-game-ai board-game-framework reinforcement-learning"
+  },
+  {
+   "channel": "github",
+   "title": "system-designer",
+   "url": "https://systemdesigner.io",
+   "key": "systemdesigner.io",
+   "alt_keys": [
+    "github.com/adityareddy-dev/system-designer"
+   ],
+   "source_url": "https://github.com/adityareddy-dev/system-designer",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 1
+   },
+   "published": "2026-11-04",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "System Designer: a free browser game for practicing system design",
+   "topics": "education game javascript simulation system-design"
+  },
+  {
+   "channel": "github",
+   "title": "sound-forge",
+   "url": "https://github.com/FatGuy84/sound-forge",
+   "key": "github.com/fatguy84/sound-forge",
+   "alt_keys": [
+    "github.com/fatguy84/sound-forge"
+   ],
+   "source_url": "https://github.com/FatGuy84/sound-forge",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 0
+   },
+   "published": "2026-10-26",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Browser game-music generator: genres, generated tracks, piano roll, WAV/MIDI export. Single HTML file, Web Audio.",
+   "topics": ""
+  },
+  {
+   "channel": "github",
+   "title": "HikariHopper",
+   "url": "https://github.com/Hancapo/HikariHopper",
+   "key": "github.com/hancapo/hikarihopper",
+   "alt_keys": [
+    "github.com/hancapo/hikarihopper"
+   ],
+   "source_url": "https://github.com/Hancapo/HikariHopper",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 0
+   },
+   "published": "2026-10-30",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A modding toolkit for games, for Windows. Browse game folders and archives, then open, edit and extract what's inside. Built with .NET and Avalonia.",
+   "topics": "avalonia dotnet game-modding gta5 modding modding-tools rpf windows"
+  },
+  {
+   "channel": "github",
+   "title": "Borders_and_Crowns",
+   "url": "https://tunjaymikayilzade.github.io/Borders_and_Crowns/",
+   "key": "tunjaymikayilzade.github.io/borders_and_crowns",
+   "alt_keys": [
+    "github.com/tunjaymikayilzade/borders_and_crowns"
+   ],
+   "source_url": "https://github.com/tunjaymikayilzade/Borders_and_Crowns",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 0
+   },
+   "published": "2026-11-13",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Borders & Crowns: a free turn-based grand strategy game on the real world map. 169 nations, 3,424 provinces named after real cities, armies, diplomacy and AI rivals. Plays in the browser. An independent project inspired by Age of History II, not affiliated with it.",
+   "topics": "4x-game age-of-history age-of-history-2 age-of-history-inspired browser-game canvas-game empire-building grand-strategy historical-strategy html5-game javascript-game map-game single-file-game strategy-game turn-based-strategy war-game world-map"
+  },
+  {
+   "channel": "github",
+   "title": "PSRemotePlayTogether",
+   "url": "https://gamernova.net/",
+   "key": "gamernova.net",
+   "alt_keys": [
+    "github.com/crypto90/psremoteplaytogether"
+   ],
+   "source_url": "https://github.com/Crypto90/PSRemotePlayTogether",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 0
+   },
+   "published": "2026-11-19",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Play your games together, from anywhere. Share your PS5 or PS4, a game on your computer, or your Xbox: friends join with a link, in the app or a web browser, and play along with their own controllers. Voice chat, webcams, OBS overlay and Twitch streaming built in. Windows, macOS, Linux.",
+   "topics": "chiaki co-op controller couch-coop cpp dualsense gamepad multiplayer obs obs-overlay pc-gaming playstation ps4 ps5 qt remote-play streaming twitch xbox"
+  },
+  {
+   "channel": "github",
+   "title": "vibe-pad",
+   "url": "https://herdr.dev/layouts",
+   "key": "herdr.dev",
+   "alt_keys": [
+    "github.com/phucledien/vibe-pad"
+   ],
+   "source_url": "https://github.com/phucledien/vibe-pad",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-11-17",
+   "passes": false,
+   "ai_hint": "claude-code coding-agents dualshock4 gamepad herdr herdr-layout herdr-mod macos voice-input whisper-cpp",
+   "desc": "Play your coding agents like a video game: drive the Herdr app with a DualShock 4 and talk to agents with on-device Whisper.",
+   "topics": "claude-code coding-agents dualshock4 gamepad herdr herdr-layout herdr-mod macos voice-input whisper-cpp"
+  },
+  {
+   "channel": "github",
+   "title": "dream-arcade-demo",
+   "url": "https://ritrls.github.io/dream-arcade-demo/",
+   "key": "ritrls.github.io/dream-arcade-demo",
+   "alt_keys": [
+    "github.com/ritrls/dream-arcade-demo"
+   ],
+   "source_url": "https://github.com/Ritrls/dream-arcade-demo",
+   "metrics": {
+    "github_stars": 101,
+    "github_forks": 0
+   },
+   "published": "2026-11-03",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "自然语言创造单位：RunningHub 生成属性、技能和素材，直接带入线路防守、口袋 RTS 和增量矿场。",
+   "topics": "ai ai-game browser-game canvas github-pages javascript runninghub"
+  },
+  {
+   "channel": "github",
+   "title": "pixel-atlas",
+   "url": "https://pixelatlas.org",
+   "key": "pixelatlas.org",
+   "alt_keys": [
+    "github.com/polang233/pixel-atlas"
+   ],
+   "source_url": "https://github.com/polang233/pixel-atlas",
+   "metrics": {
+    "github_stars": 26,
+    "github_forks": 4
+   },
+   "published": "2026-11-10",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Pixel-art resources in one place: 1.4M 16×16 sprites on a searchable map, playable retro worlds, a sprite workshop and a toolbox of community pixel tools. 像素星图",
+   "topics": "16x16 8-bit browser-game cc0 data-visualization dataset game-assets gamedev huggingface palette pixel-art pixel-art-tools retro-games sprite-sheet sprites typescript vite webgl"
+  },
+  {
+   "channel": "github",
+   "title": "open-asl",
+   "url": "https://openasl.app",
+   "key": "openasl.app",
+   "alt_keys": [
+    "github.com/open-asl/open-asl"
+   ],
+   "source_url": "https://github.com/Open-ASL/open-asl",
+   "metrics": {
+    "github_stars": 18,
+    "github_forks": 6
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Advanced Squad Leader in the browser, every rule enforced by the engine. Hotseat and live online play. ASL Starter Kit rules complete, full ASL under way.",
+   "topics": "advanced-squad-leader asl asl-starter-kit board-game browser-game firebase hex-and-counter hotseat multiplayer pixijs react rules-engine source-available tactical-wargame typescript vasl wargame ww2"
+  },
+  {
+   "channel": "github",
+   "title": "PokeSky",
+   "url": "https://pokesky.idreesinc.com",
+   "key": "pokesky.idreesinc.com",
+   "alt_keys": [
+    "github.com/idreesinc/pokesky"
+   ],
+   "source_url": "https://github.com/IdreesInc/PokeSky",
+   "metrics": {
+    "github_stars": 16,
+    "github_forks": 3
+   },
+   "published": "2026-11-01",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Catch Pokémon directly from the live Bluesky firehose!",
+   "topics": "atproto bluesky browser-game pokemon react threejs"
+  },
+  {
+   "channel": "github",
+   "title": "socom-legacy",
+   "url": "https://socomlegacy.com",
+   "key": "socomlegacy.com",
+   "alt_keys": [
+    "github.com/scotho/socom-legacy"
+   ],
+   "source_url": "https://github.com/Scotho/socom-legacy",
+   "metrics": {
+    "github_stars": 15,
+    "github_forks": 5
+   },
+   "published": "2026-11-03",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "SOCOM II: U.S. Navy SEALs rebuilt for the browser using assets from your own 💿",
+   "topics": "browser-game port ps2 reverse-engineering socom socom-2 three-js webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "cayley-flight-simulator",
+   "url": "https://lauramionel.github.io/cayley-flight-simulator/",
+   "key": "lauramionel.github.io/cayley-flight-simulator",
+   "alt_keys": [
+    "github.com/lauramionel/cayley-flight-simulator"
+   ],
+   "source_url": "https://github.com/lauramionel/cayley-flight-simulator",
+   "metrics": {
+    "github_stars": 9,
+    "github_forks": 6
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A flight simulator in a browser tab: lifting-line wings, blade-element propellers, live weather, the whole planet. Every aircraft flown against its handbook.",
+   "topics": "aerodynamics browser-game flight-simulator threejs webgl"
+  },
+  {
+   "channel": "github",
+   "title": "darkseek",
+   "url": "https://thedarkseek.xyz",
+   "key": "thedarkseek.xyz",
+   "alt_keys": [
+    "github.com/nibblescreative-afk/darkseek"
+   ],
+   "source_url": "https://github.com/nibblescreative-afk/darkseek",
+   "metrics": {
+    "github_stars": 9,
+    "github_forks": 0
+   },
+   "published": "2026-11-20",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A Web3 hide and seek game on Solana. Eight hide, two hunt, one light, and every stake is paid out by an open program onchain. This repo is the game's open part: the vault program, SDK, indexer and docs to verify stakes, fees, payouts and $DS supply.",
+   "topics": "2d-game anchor blockchain-game browser-game gamefi hide-and-seek multiplayer-game rust solana solana-program typescript usdc web3 web3-game"
+  },
+  {
+   "channel": "github",
+   "title": "yolo-mini-fps",
+   "url": "https://github.com/cyancity/yolo-mini-fps",
+   "key": "github.com/cyancity/yolo-mini-fps",
+   "alt_keys": [
+    "github.com/cyancity/yolo-mini-fps"
+   ],
+   "source_url": "https://github.com/cyancity/yolo-mini-fps",
+   "metrics": {
+    "github_stars": 8,
+    "github_forks": 2
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "js 和 Vite，几何体、材质、特效、音效都在代码里生成，代码基本由 Claude 写成",
+   "desc": "零号码头 DOCK ZERO：浏览器里的 FPS 学习案例。只依赖 three.js 和 Vite，几何体、材质、特效、音效都在代码里生成，代码基本由 Claude 写成。",
+   "topics": "browser-game claude fps procedural-generation threejs vite webgl"
+  },
+  {
+   "channel": "github",
+   "title": "d2mobile",
+   "url": "https://d2mobile.vercel.app/",
+   "key": "d2mobile.vercel.app",
+   "alt_keys": [
+    "github.com/lucas-gp/d2mobile"
+   ],
+   "source_url": "https://github.com/lucas-gp/d2mobile",
+   "metrics": {
+    "github_stars": 6,
+    "github_forks": 1
+   },
+   "published": "2026-10-28",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Fan-made, non-commercial ARPG inspired by Diablo II, for mobile and desktop browsers. Played with your own Diablo II files, imported locally.",
+   "topics": "arpg browser-game diablo-2 fan-game mobile-game pixijs pwa typescript"
+  },
+  {
+   "channel": "github",
+   "title": "scandeck",
+   "url": "https://scandeck.luizbizzio.com",
+   "key": "scandeck.luizbizzio.com",
+   "alt_keys": [
+    "github.com/luizbizzio/scandeck"
+   ],
+   "source_url": "https://github.com/luizbizzio/scandeck",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-11-11",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "🎮 Scan, create, and play mini-games stored directly inside QR codes and barcodes, without external links.",
+   "topics": "aztec-code barcode browser-game code128 data-matrix game game-console game-development html5-game javascript mini-game offline-game pdf417 qr-code qrcode webassembly"
+  },
+  {
+   "channel": "github",
+   "title": "nfshp2-web",
+   "url": "https://nfshp2.fyi",
+   "key": "nfshp2.fyi",
+   "alt_keys": [
+    "github.com/vitorinii/nfshp2-web"
+   ],
+   "source_url": "https://github.com/vitorinii/nfshp2-web",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-11-17",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "Need for Speed: Hot Pursuit 2 (PS2) in the browser: recompiled to WebAssembly, drawn with WebGPU",
+   "topics": "browser-game need-for-speed ps2 static-recompilation webassembly webgpu"
+  },
+  {
+   "channel": "github",
+   "title": "hacker-fables-game",
+   "url": "https://sebastiancarlos.github.io/hacker-fables-game/",
+   "key": "sebastiancarlos.github.io/hacker-fables-game",
+   "alt_keys": [
+    "github.com/sebastiancarlos/hacker-fables-game"
+   ],
+   "source_url": "https://github.com/sebastiancarlos/hacker-fables-game",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 0
+   },
+   "published": "2026-10-25",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "🥷💻 Hacker Fables - A Vim Roguelike Game",
+   "topics": "browser-game game javascript-game keyboard-game learn-vim programming-game roguelike roguelite terminal terminal-game typescript-game vim"
+  },
+  {
+   "channel": "github",
+   "title": "github-leaderboard",
+   "url": "https://wbp318.github.io/github-leaderboard/",
+   "key": "wbp318.github.io/github-leaderboard",
+   "alt_keys": [
+    "github.com/wbp318/github-leaderboard"
+   ],
+   "source_url": "https://github.com/wbp318/github-leaderboard",
+   "metrics": {
+    "github_stars": 5,
+    "github_forks": 3
+   },
+   "published": "2026-11-12",
+   "passes": false,
+   "ai_hint": "",
+   "desc": "A spinning tornado of a year of GitHub contributions across the US: every state, division and region, every one of the 3,141 counties on a zoomable map, leaderboards in 8 categories, a rank card and README badge for you, and Ice Storm, arcade hockey with the old WPHL's teams. Refreshed daily by GitHub Actions; one page, no dependencies.",
+   "topics": "arcade-game browser-game canvas census-data data-visualization game github github-actions github-api github-contributions github-pages graphql hockey leaderboard louisiana mississippi nodejs tornado-chart united-states vanilla-javascript"
+  },
+  {
+   "channel": "github",
+   "title": "dsh-game-tidemark",
+   "url": "https://dsh-game-store.com/games/tidemark/",
+   "key": "dsh-game-store.com",
+   "alt_keys": [
+    "github.com/cocosgt/dsh-game-tidemark"
+   ],
+   "source_url": "https://github.com/CocoSgt/dsh-game-tidemark",
+   "metrics": {
+    "github_stars": 30,
+    "github_forks": 3
+   },
+   "published": "2026-11-13",
+   "passes": true,
+   "ai_hint": "",
+   "desc": "《潮汐战线》Tidemark：《高级战争》式的回合制战棋，海陆空 33 个兵种、29 位指挥官，开源，网页和 DSH 里都能玩 · Turn-based strategy in the spirit of Advance Wars",
+   "topics": "dsh html5-game pixel-art strategy-game tactics turn-based-strategy"
+  }
+ ]
+}

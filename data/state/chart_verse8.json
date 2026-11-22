@@ -1,8 +1,7 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "keys": [
-  "verse8.io/c7f7b9q",
   "verse8.io/v4g5s4k",
   "verse8.io/s2a2n5c",
   "verse8.io/i6p2g5e",
@@ -20,10 +19,11 @@
   "verse8.io/s8h3g6n",
   "verse8.io/r7f7a2u",
   "verse8.io/h4c7b2u",
-  "verse8.io/o7a9l3t",
   "verse8.io/g8w7m7t",
+  "verse8.io/o7a9l3t",
   "verse8.io/z9c4k3s",
   "verse8.io/j7s8r9q",
+  "verse8.io/b9u6d6y",
   "verse8.io/p7g3c8d",
   "verse8.io/t8q9u4q",
   "verse8.io/h8u6v7y",
@@ -87,6 +87,7 @@
   "verse8.io/g4a3q6z": "2026-11-12",
   "verse8.io/c7f7b9q": "2026-11-14",
   "verse8.io/r5h6c4k": "2026-11-14",
-  "verse8.io/o7a9l3t": "2026-11-19"
+  "verse8.io/o7a9l3t": "2026-11-19",
+  "verse8.io/b9u6d6y": "2026-11-23"
  }
 }
