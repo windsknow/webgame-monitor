@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-24",
+ "channel": "awesome",
+ "count": 1,
+ "passed": 1,
+ "error": "",
+ "leads": [
+  {
+   "channel": "awesome",
+   "title": "VibeTopList",
+   "url": "https://vibetoplist.com/",
+   "key": "vibetoplist.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Top vibe-coded games and AI-built indie games, ranked by player votes each month: 550+ browser, PC and mobile games, browsable by genre and platform, with Play links to each maker's own site",
+   "desc": "Top vibe-coded games and AI-built indie games, ranked by player votes each month: 550+ browser, PC and mobile games, browsable by genre and platform, with Play links to each maker's own site."
+  }
+ ]
+}

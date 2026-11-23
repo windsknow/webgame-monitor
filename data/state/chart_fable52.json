@@ -1,12 +1,12 @@
 {
  "first_date": "2026-11-13",
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "keys": [
   "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
-  "op7418.github.io/guizang-game-skill",
-  "fable52.games/play/chip-jacket",
-  "muhammad-sayed-mahdy.github.io/circular-tic-tac-toe-web",
-  "fable52.games/play/crystal-tower-defense"
+  "clockendbader.github.io/model-arena",
+  "eddizege.github.io/nightshift-fable",
+  "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
+  "shaunprice.github.io/soccer-3d"
  ],
  "seen": {
   "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp": "2026-11-13",
@@ -101,6 +101,7 @@
   "clockendbader.github.io/model-arena": "2026-11-19",
   "xiyouji.vibecoco.ai": "2026-11-19",
   "fable52.games/play/fault-line-echoes-hkbbj1": "2026-11-20",
-  "zhgarylu.github.io/everyday-game": "2026-11-21"
+  "zhgarylu.github.io/everyday-game": "2026-11-21",
+  "eddizege.github.io/nightshift-fable": "2026-11-24"
  }
 }

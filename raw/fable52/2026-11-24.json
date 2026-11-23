@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-24",
+ "channel": "fable52",
+ "count": 5,
+ "passed": 1,
+ "error": "",
+ "leads": [
+  {
+   "channel": "fable52",
+   "title": "Saltline",
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
+   "metrics": {
+    "fable52_plays": 6547,
+    "fable52_featured": true,
+    "x_views": 4302522,
+    "github_stars": 276,
+    "hn_points": 71,
+    "hn_comments": 90,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-20",
+   "ai_hint": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback",
+   "desc": "The original one-prompt FPS: cut three uplink relays in a rainy container port while drones and robot dogs hunt you.",
+   "image": "https://fable52.games/thumbs/saltline-fable-5-2-fps.jpg",
+   "author": "Felix Rieseberg",
+   "author_url": "https://x.com/felixrieseberg/status/2119925633564463609",
+   "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+   "topics": [
+    "3D FPS",
+    "Three.js",
+    "WebGL",
+    "Web Audio API",
+    "Procedural",
+    "Single File"
+   ],
+   "mirror_url": "https://realcodebear.github.io/saltline-fable-5.2/",
+   "origin": {
+    "how": "作者帖子里的链接",
+    "x": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+    "hn": "https://news.ycombinator.com/item?id=50444850",
+    "x_text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHH",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "LAST LIGHT — Rooftop Run",
+   "url": "https://clockendbader.github.io/model-arena/fable-5.2/parkour/",
+   "key": "clockendbader.github.io/model-arena",
+   "source_url": "https://fable52.games/play/last-light-rooftop-run",
+   "metrics": {
+    "fable52_plays": 31,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "Four AI coding models, the same prompt, one shot each",
+   "desc": "A first-person parkour time trial across a golden-hour city: ten checkpoints from the start roof to the beacon on the tower, and a ghost of your best run.",
+   "image": "https://fable52.games/thumbs/last-light-rooftop-run.jpg",
+   "author": "clockendbader",
+   "author_url": "https://github.com/clockendbader",
+   "repo": "https://github.com/clockendbader/model-arena",
+   "topics": [
+    "Parkour",
+    "First-Person",
+    "Time Trial",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/clockendbader/model-arena",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "NIGHTSHIFT: Survive the Midnight",
+   "url": "https://eddizege.github.io/nightshift-fable/",
+   "key": "eddizege.github.io/nightshift-fable",
+   "source_url": "https://fable52.games/play/nightshift-fable",
+   "metrics": {
+    "fable52_plays": 50,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-21",
+   "ai_hint": "NIGHTSHIFT: rainy night highway racer for the browser, built entirely by Claude Fable 5.2 (no human code)",
+   "desc": "An endless rain-soaked highway at midnight: thread traffic for near misses, burn four seconds of nitro at a time, and stay out of the tanker pile-ups.",
+   "image": "https://fable52.games/thumbs/nightshift-fable.jpg",
+   "author": "EddizEge",
+   "author_url": "https://github.com/EddizEge",
+   "repo": "https://github.com/EddizEge/nightshift-fable",
+   "topics": [
+    "Racing",
+    "Driving",
+    "Endless",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/EddizEge/nightshift-fable",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": true
+  },
+  {
+   "channel": "fable52",
+   "title": "鹈鹕骑单车 · Pelican on a Bike",
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike",
+   "source_url": "https://fable52.games/play/pelican-on-a-bike",
+   "metrics": {
+    "fable52_plays": 797,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Opus 5.5 制作",
+   "desc": "A pelican in a helmet and red scarf rides a vintage bike along the coast, swerving between lanes to catch fish as the sun goes down.",
+   "image": "https://fable52.games/thumbs/pelican-on-a-bike.jpg",
+   "author": "riba2534",
+   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/pelican-bike/index.html",
+   "repo": "",
+   "topics": [
+    "Casual",
+    "Three.js",
+    "Procedural",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "Pocket Soccer 3D",
+   "url": "https://shaunprice.github.io/soccer-3d/",
+   "key": "shaunprice.github.io/soccer-3d",
+   "source_url": "https://fable52.games/play/pocket-soccer-3d",
+   "metrics": {
+    "fable52_plays": 1849,
+    "fable52_featured": false,
+    "github_stars": 3,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Soccer-3D - Claude Fable 5.2 test",
+   "desc": "Seven-a-side 3D football with a referee, offside, cards, penalties, formations and eight rival teams to beat one by one.",
+   "image": "https://fable52.games/thumbs/pocket-soccer-3d.jpg",
+   "author": "ShaunPrice",
+   "author_url": "https://github.com/ShaunPrice",
+   "repo": "https://github.com/ShaunPrice/soccer-3d",
+   "topics": [
+    "Sports",
+    "Simulation",
+    "Three.js",
+    "Mobile",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/ShaunPrice/soccer-3d",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  }
+ ]
+}

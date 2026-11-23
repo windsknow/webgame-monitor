@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-24",
+ "channel": "astrocade",
+ "count": 20,
+ "passed": 1,
+ "error": "",
+ "leads": [
+  {
+   "channel": "astrocade",
+   "title": "Zombies vs Humans with Guns",
+   "url": "https://www.astrocade.com/games/zombies-vs-humans-with-guns/01M71YM4G1BA64TMV0M1Z64T43",
+   "key": "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 1,
+    "astrocade_plays": 302626,
+    "astrocade_likes": 6490,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "#action #adventure #creative #survival #horror",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/Google_115974500078511979658/1794314647198_01M72QSDMYNFXQJW2T810DH2Q6.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sword Swing Chopper",
+   "url": "https://www.astrocade.com/games/sword-swing-chopper/01M7H26HBE86DFEXG7H2FZ9KE2",
+   "key": "astrocade.com/games/sword-swing-chopper/01m7h26hbe86dfexg7h2fz9ke2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 2,
+    "astrocade_plays": 137757,
+    "astrocade_likes": 3221,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-16",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing a ring of swords, chop bamboo and crystal groves, hatch pets, rebirth and conquer 3 worlds!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/7ebcc657d9854386a5ee1bdc2c4c6429.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Snowfield Taco Stand",
+   "url": "https://www.astrocade.com/games/snowfield-taco-stand/01M6JNF4AP6WB19MJ9EFJTHYJA",
+   "key": "astrocade.com/games/snowfield-taco-stand/01m6jnf4ap6wb19mj9efjthyja",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 3,
+    "astrocade_plays": 155229,
+    "astrocade_likes": 3101,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-05",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Slice giant corn, chop avocados, hunt polar bears and grow a snowy taco stand into a rescue camp. Feed the survivors and throw a CAMP FEAST!",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1794225252972_01M702HAKC3TGKQV1JVV9T0HT5.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Aurora Express: Scenic Routes",
+   "url": "https://www.astrocade.com/games/aurora-express-scenic-routes/01M66TP3V3DP2B8NEBQ5HHM3YM",
+   "key": "astrocade.com/games/aurora-express-scenic-routes/01m66tp3v3dp2b8nebq5hhm3ym",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 4,
+    "astrocade_plays": 6475,
+    "astrocade_likes": 64,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-01",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Drive your blocky train through a vibrant low-poly world, picking up passengers at stations and earning coins as you master the rails! Best 2ish for your journey",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/b1f76e78ab9549039c741e8eac506564.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Makeover Studio",
+   "url": "https://www.astrocade.com/games/makeover-studio/01M7EEKFPKNAKKGZ2KKAAPHSDH",
+   "key": "astrocade.com/games/makeover-studio/01m7eekfpknakkgz2kkaaphsdh",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 5,
+    "astrocade_plays": 141407,
+    "astrocade_likes": 2686,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-16",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Wash and style hair, apply makeup, and choose outfits and accessories in Makeover Studio.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_3d81b8cb-18f4-47fa-808d-6d7710e62691.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sky Prison: Floating Maximum Security",
+   "url": "https://www.astrocade.com/games/sky-prison-floating-maximum-security/01M7YHF4X2VXF7PJFN2N3NKZKZ",
+   "key": "astrocade.com/games/sky-prison-floating-maximum-security/01m7yhf4x2vxf7pjfn2n3nkzkz",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 6,
+    "astrocade_plays": 11132,
+    "astrocade_likes": 186,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-21",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Ride the sky-lift into a six-floor luxury high-security prison hanging from a giant hot-air balloon — explore cell blocks, sky-bridges, caged balconies and the roof.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/6d1db2b7802146bfb4a8fd95cae0fa6d.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Ben 10: Ultimate Aliens",
+   "url": "https://www.astrocade.com/games/ben-10-ultimate-aliens/01M6922TY8CAM4BKTB68FQJJ3J",
+   "key": "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 7,
+    "astrocade_plays": 478109,
+    "astrocade_likes": 12040,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-31",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Go Ultimate in Bellwood! Transform into Humungousaur, Swampfire, Big Chill, Echo Echo and many more, evolve them into their Ultimate forms and battle Vilgax, Albedo and Aggregor.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/18a18390-0041-70b3-a1c9-abad4b6ec064/1793453251796_01M6929Q6M77G6G3N7VDVD7JF7.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Mega Fun Obby",
+   "url": "https://www.astrocade.com/games/mega-fun-obby/01M76GN2ZBK3DJKMHCT65WZR9K",
+   "key": "astrocade.com/games/mega-fun-obby/01m76gn2zbk3djkmhct65wzr9k",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 8,
+    "astrocade_plays": 46242,
+    "astrocade_likes": 715,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "500 easy, colourful obby stages in the sky! Run, jump and climb through 10 themed zones with other players, earn coins and unlock Speed Coil, Gravity Coil, Double Jump, VIP and the Magic Carpet.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_a5db264e-1021-4c90-b401-a8369f8dedb0.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Ladder Rush 3",
+   "url": "https://www.astrocade.com/games/ladder-rush-3/01M6Z80FSEQPK21H2FB6202KTZ",
+   "key": "astrocade.com/games/ladder-rush-3/01m6z80fseqpk21h2fb6202ktz",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 9,
+    "astrocade_plays": 29879,
+    "astrocade_likes": 626,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Grab colourful ladder pieces, stack them on your back and build ladder bridges across the water to race 5 rivals to the top floor!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/8f156d414ec54576bb8c6e8e0f6dff81.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "+1 Pickaxe Swing for Eggs",
+   "url": "https://www.astrocade.com/games/1-pickaxe-swing-for-eggs/01M6HRNHMXVRB8JKGK799B1ZJB",
+   "key": "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 10,
+    "astrocade_plays": 30707,
+    "astrocade_likes": 673,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/0841f390-1041-7009-e3f9-2a1095f0d189/1793781567132_01M6JVD3MWV45GAKA622XE735Z.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "SQUID GAME - THE LAST SEASON",
+   "url": "https://www.astrocade.com/games/squid-game-the-last-season/01M72TE24TMR490FQVXGC63MSA",
+   "key": "astrocade.com/games/squid-game-the-last-season/01m72te24tmr490fqvxgc63msa",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 11,
+    "astrocade_plays": 3245,
+    "astrocade_likes": 55,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "SQUID GAME - THE LAST SEASON: Survive eight 3D trials as Player 456—Red Light, Glass Bridge, Tug of War, Pentathlon, Mingle, Sky Jump Rope, Hide & Seek, and the collapsing finale.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/eccce98517fc47f8b9ba56aaada9ec13.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "City Life: Open World",
+   "url": "https://www.astrocade.com/games/city-life-open-world/01M7QP1A89HDGJMVRB916830MT",
+   "key": "astrocade.com/games/city-life-open-world/01m7qp1a89hdgjmvrb916830mt",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 12,
+    "astrocade_plays": 4603,
+    "astrocade_likes": 67,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-18",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Live your best life in a blocky 3D city! Drive supercars, work jobs, hunt 40 hidden golden stars, complete goals, claim daily rewards and climb the leaderboard.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/a1f5e1a4ba1a4484a59d0b5871174ee1.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Takken III",
+   "url": "https://www.astrocade.com/games/takken-iii/01KWMF3GTM1SXAD640YS3A3ZV4",
+   "key": "astrocade.com/games/takken-iii/01kwmf3gtm1sxad640ys3a3zv4",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 13,
+    "astrocade_plays": 5292,
+    "astrocade_likes": 110,
+    "chart_new_entry": false
+   },
+   "published": "2026-07-05",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Master 12 unique fighters in this classic 2D brawler with fully customizable touch controls and unlockable characters!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_2b2e888e-1248-4701-b378-fce3aab7d6e0.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "LAMBORGHINI RACE VS CYBER TRUCK simulator",
+   "url": "https://www.astrocade.com/games/lamborghini-race-vs-cyber-truck-simulator/01M6DNKB6E0WP92D2XBNXEVXH4",
+   "key": "astrocade.com/games/lamborghini-race-vs-cyber-truck-simulator/01m6dnkb6e0wp92d2xbnxevxh4",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 14,
+    "astrocade_plays": 13773,
+    "astrocade_likes": 210,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Race a flight-ready supercar against the Cybertruck across coastal and mountain roads. Drift, boost, fly, and chain neon Apex Shards to fuel your comeback!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/6b496e779d534839860bcd8704ef3941.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Splash Racer: Water Park Tycoon",
+   "url": "https://www.astrocade.com/games/splash-racer-water-park-tycoon/01M6XPNR0XST2R3Z3CW8X12A7V",
+   "key": "astrocade.com/games/splash-racer-water-park-tycoon/01m6xpnr0xst2r3z3cw8x12a7v",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 15,
+    "astrocade_plays": 5306,
+    "astrocade_likes": 56,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Race through a tropical water park, surf the wave pool, customize your look and rides, and build your best time on the global leaderboard.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/c455547173a64444a0454285c428a3b4.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Mechshift: City Under Siege",
+   "url": "https://www.astrocade.com/games/mechshift-city-under-siege/01M6TWWPCP83BWPRNB0JC93QVQ",
+   "key": "astrocade.com/games/mechshift-city-under-siege/01m6twwpcp83bwprnb0jc93qvq",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 16,
+    "astrocade_plays": 905,
+    "astrocade_likes": 9,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-13",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Shift from a powerful blue truck into a teal robot, explore a bustling city, and battle rogue machines in a cinematic 3D action adventure.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/cffc3724af144e47ad2ddc1bb42cb924.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "THAR X4 BEAST",
+   "url": "https://www.astrocade.com/games/thar-x4-beast/01M7ZBC3C4TJ4ZCTYMRNZ8REVG",
+   "key": "astrocade.com/games/thar-x4-beast/01m7zbc3c4tj4zctymrnz8revg",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 17,
+    "astrocade_plays": 170,
+    "astrocade_likes": 2,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-22",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Get ready for the ultimate Thar 4x4 racing adventure! Drive powerful Thars, perform crazy stunts, conquer challenging tracks, and race your way to victory. Are you the ultimate Thar King? 🔥🏁",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/6801f390-b0b1-7084-defa-e955eeac16bd/1795277116306_01M7ZDNMWJH0YKE6GJ7PBP6E4H.1000000949.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Banker Pro",
+   "url": "https://www.astrocade.com/games/banker-pro/01M0C60ESEVY3RCGBAPM5ZQWY2",
+   "key": "astrocade.com/games/banker-pro/01m0c60esevy3rcgbapm5zqwy2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 18,
+    "astrocade_plays": 5889,
+    "astrocade_likes": 76,
+    "chart_new_entry": false
+   },
+   "published": "2026-08-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "**Description:** Run a busy bank branch by processing deposits, withdrawals, and fraud alerts while helping customers open accounts and cards.\n\n---",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_673b6945-22c4-4a02-bd0a-04e9cc0fdadf.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Blockverse: Build & Fly",
+   "url": "https://www.astrocade.com/games/blockverse-build-fly/01M7QZQ163AJYGYH2QRD010QF7",
+   "key": "astrocade.com/games/blockverse-build-fly/01m7qzq163ajygyh2qrd010qf7",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 19,
+    "astrocade_plays": 230,
+    "astrocade_likes": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-20",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Collect colorful blocks, build dazzling dragons, and fly to new worlds in a vibrant skybound adventure.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/28d396449f664732b469c35f438ed5ab.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Estampida de la horda 2",
+   "url": "https://www.astrocade.com/games/estampida-de-la-horda-2/01KT4TGKZ6V3RSXFQQ5T7XADZN",
+   "key": "astrocade.com/games/estampida-de-la-horda-2/01kt4tgkz6v3rsxfqq5t7xadzn",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 20,
+    "astrocade_plays": 15490,
+    "astrocade_likes": 283,
+    "chart_new_entry": false
+   },
+   "published": "2026-06-05",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "a casual voxel roguelite shooter. Aim to auto-fire, dodge bullets, beat a Boss every level, farm coins, unlock new guns, upgrade armor, and push to higher stages.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_b4e2e911-41f4-4589-9a8a-2d711805261a.webp",
+   "passes": false
+  }
+ ]
+}

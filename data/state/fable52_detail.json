@@ -49,7 +49,7 @@
    "repo": {
     "url": "https://github.com/ShaunPrice/soccer-3d",
     "created": "2026-11-10",
-    "stars": 1,
+    "stars": 3,
     "homepage": "",
     "desc": "Soccer-3D - Claude Fable 5.2 test.",
     "owner": "ShaunPrice"
@@ -60,7 +60,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "Soccer-3D - Claude Fable 5.2 test",
-   "checked": "2026-11-20"
+   "checked": "2026-11-24"
   }
  },
  "mothlight": {
@@ -2228,7 +2228,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "Four AI coding models, the same prompt, one shot each",
-   "checked": "2026-11-20"
+   "checked": "2026-11-24"
   }
  },
  "fault-line-echoes-hkbbj1": {
@@ -2247,6 +2247,31 @@
    "published": "",
    "ai_hint": "",
    "checked": "2026-11-20"
+  }
+ },
+ "nightshift-fable": {
+  "play_url": "https://eddizege.github.io/nightshift-fable/",
+  "source_repo": "https://github.com/EddizEge/nightshift-fable",
+  "author_url": "https://github.com/EddizEge",
+  "has_prompt": false,
+  "listed": "2026-11-21",
+  "origin": {
+   "x": {},
+   "repo": {
+    "url": "https://github.com/EddizEge/nightshift-fable",
+    "created": "2026-11-11",
+    "stars": 0,
+    "homepage": "",
+    "desc": "NIGHTSHIFT: rainy night highway racer for the browser, built entirely by Claude Fable 5.2 (no human code)",
+    "owner": "EddizEge"
+   },
+   "hn": {},
+   "url": "https://eddizege.github.io/nightshift-fable/",
+   "how": "合集站给的链接",
+   "mirror": false,
+   "published": "",
+   "ai_hint": "NIGHTSHIFT: rainy night highway racer for the browser, built entirely by Claude Fable 5.2 (no human code)",
+   "checked": "2026-11-24"
   }
  }
 }
