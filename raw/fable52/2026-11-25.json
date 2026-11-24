@@ -1,0 +1,194 @@
+{
+ "date": "2026-11-25",
+ "channel": "fable52",
+ "count": 5,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "fable52",
+   "title": "Saltline",
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
+   "metrics": {
+    "fable52_plays": 6725,
+    "fable52_featured": true,
+    "x_views": 4302522,
+    "github_stars": 276,
+    "hn_points": 71,
+    "hn_comments": 90,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-20",
+   "ai_hint": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback",
+   "desc": "The original one-prompt FPS: cut three uplink relays in a rainy container port while drones and robot dogs hunt you.",
+   "image": "https://fable52.games/thumbs/saltline-fable-5-2-fps.jpg",
+   "author": "Felix Rieseberg",
+   "author_url": "https://x.com/felixrieseberg/status/2119925633564463609",
+   "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+   "topics": [
+    "3D FPS",
+    "Three.js",
+    "WebGL",
+    "Web Audio API",
+    "Procedural",
+    "Single File"
+   ],
+   "mirror_url": "https://realcodebear.github.io/saltline-fable-5.2/",
+   "origin": {
+    "how": "作者帖子里的链接",
+    "x": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+    "hn": "https://news.ycombinator.com/item?id=50444850",
+    "x_text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHH",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "雾锁山门",
+   "url": "https://op7418.github.io/guizang-game-skill/",
+   "key": "op7418.github.io/guizang-game-skill",
+   "source_url": "https://fable52.games/play/wusuo-shanmen",
+   "metrics": {
+    "fable52_plays": 539,
+    "fable52_featured": false,
+    "x_views": 301962,
+    "github_stars": 436,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！",
+   "desc": "A top-down xianxia action game: climb a misty mountain gate, fight its guards and duel the general Li Cang.",
+   "image": "https://fable52.games/thumbs/wusuo-shanmen.jpg",
+   "author": "歸藏 (op7418)",
+   "author_url": "https://github.com/op7418",
+   "repo": "https://github.com/op7418/guizang-game-skill",
+   "topics": [
+    "Action",
+    "Three.js",
+    "WebGL",
+    "Wuxia"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "作者帖子里的链接",
+    "x": "https://x.com/op7418/status/2120694045299327187",
+    "repo": "https://github.com/op7418/guizang-game-skill",
+    "hn": "",
+    "x_text": "我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！\n\n包括模型、场景设计、动作设计、优化都是它搞的，这一切都被融合在了一个 30 兆的 HTML 文件里边。\n\n总共就花了一下午，它这个游戏制作能力太恐怖了\n\n可以在这里试试：https://op7418.github.io/guizang-game-skill/",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "Duskline",
+   "url": "https://fable52.games/play/duskline-vxn7rh",
+   "key": "fable52.games/play/duskline-vxn7rh",
+   "source_url": "https://fable52.games/play/duskline-vxn7rh",
+   "metrics": {
+    "fable52_plays": 161,
+    "fable52_featured": false,
+    "x_views": 51,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-12",
+   "ai_hint": "Alguien ha montado Fable52 Games: juegos de un solo HTML hechos con Claude Fable 5.2, varios con su prompt a la vista",
+   "desc": "3D endless runner: a maintenance robot flees a sweeper drone along an elevated metro line at sunset",
+   "image": "https://fable52.games/thumbs/duskline-vxn7rh.jpg",
+   "author": "Raúl Berná",
+   "author_url": "https://x.com/sr_rauldev",
+   "repo": "",
+   "topics": [
+    "Endless Runner",
+    "WebGL",
+    "Mobile",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "https://x.com/sr_rauldev/status/2121133419589452199",
+    "repo": "",
+    "hn": "",
+    "x_text": "Alguien ha montado Fable52 Games: juegos de un solo HTML hechos con Claude Fable 5.2, varios con su prompt a la vista.\n\nLo que más me gusta es ver qué le pidieron al modelo.\n\nHe subido el mío, un runner 3D tipo Subway Surfers, y hay más de 30 para jugar:\nhttps://fable52.games/play/duskline-vxn7rh",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "Dustfall",
+   "url": "https://dustfalls.netlify.app/",
+   "key": "dustfalls.netlify.app",
+   "source_url": "https://fable52.games/play/dustfall",
+   "metrics": {
+    "fable52_plays": 775,
+    "fable52_featured": false,
+    "github_stars": 3,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "Created to test the Claude Fable 5.2 model",
+   "desc": "An original open-world western: ride, hunt, fish, play cards and settle an old score in the Sorrel Basin.",
+   "image": "https://fable52.games/thumbs/dustfall.jpg",
+   "author": "webKing021",
+   "author_url": "https://github.com/webKing021",
+   "repo": "https://github.com/webKing021/dustfall",
+   "topics": [
+    "Open World",
+    "Western",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "",
+    "repo": "https://github.com/webKing021/dustfall",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "飞车 3D",
+   "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
+   "key": "lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d",
+   "source_url": "https://fable52.games/play/feiche-3d",
+   "metrics": {
+    "fable52_plays": 288,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-09",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Opus 5.5 制作",
+   "desc": "A fan-made 3D kart racer in the style of QQ Speed: drift charging, mini-boosts, double boosts, nitro and item races on four tracks.",
+   "image": "https://fable52.games/thumbs/feiche-3d.jpg",
+   "author": "riba2534",
+   "author_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
+   "repo": "",
+   "topics": [
+    "Racing",
+    "Three.js",
+    "Fan-made",
+    "Single File"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  }
+ ]
+}
