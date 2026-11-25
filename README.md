@@ -115,7 +115,7 @@ X 帖子的浏览数：
    可选字段：`name`（没有试玩链接时用作条目名）、`ingest: false`（是游戏但不该作为单款入库，例如多个演示的合集帖）。
    然后重跑 `python3 run.py merge`。判为不是游戏的，对应的自动卡片会被撤下；后来找到试玩链接的，原来按帖子入库的卡片会换成游戏链接。
 2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
-3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`highlight`（亮点）、`tech` 和 `tech_basis`（技术栈依据，优先按站点代码特征识别）、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
+3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`highlight`（亮点）、`tech` 和 `tech_basis`（技术栈依据，优先按站点代码特征识别）、`group`（七个方向之一，口径见 `docs/方向归类规则.md`；平台名不是方向），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
 4. 只有视频、玩法写不出来的卡片，以及标为重点的卡片：找演示视频，用 `python3 -I scripts/video_frames.py <X帖子链接或mp4> <输出目录> [帧数]` 下载、抽帧并拼成对照图（抽帧用 macOS 自带的 AVFoundation，见 `scripts/frames.swift`），读图补玩法，视频链接写进卡片的 `videos`；再按 `docs/登录态读取社区规范.md` 登录读回复做概括。玩法末尾注明"（玩法取自视频抽帧）"。
 5. **玩法和技术打分**（合并之后、生成页面之前）：
    - `python3 scripts/apply_novelty.py --queue` 列出要打分的卡片：

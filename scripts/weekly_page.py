@@ -6,7 +6,9 @@ python3 scripts/weekly_page.py <起始入库日期> <结束入库日期> <输出
 编辑稿（可选）写周报标题、导语、推荐和现象，格式：
 {"eyebrow": "...", "title": "...", "lede": "...",
  "tiers": [{"title": "第一档：…", "sub": "…", "items": [{"name": "游戏名", "what": "一句话", "why": "推荐理由"}]}],
- "trends": [{"h": "标题", "p": "正文"}], "notes": ["口径说明", "..."]}
+ "trends": [{"h": "标题", "p": "正文"}], "notes": ["口径说明", "..."],
+ "extra": [{"title": "小节标题", "sub": "说明", "ids": ["卡片 id"]}]}
+extra 用来放不在本周入库范围、但本周复核过的卡片（例如之前入库的待核游戏），显示完整卡片。
 没有编辑稿时，开头的推荐按重点卡片自动列出（X 浏览、热度从高到低）。
 输出目录里是 index.html、assets/style.css 和用到的截图、图标，可以直接发布。
 """
@@ -98,6 +100,17 @@ def run(d0, d1, out, draft=None):
             items = ''.join(mini(g, g.get('play', '')[:60] + ('…' if len(g.get('play', '')) > 60 else ''),
                                  next(r['v'] for r in g['labels'] if r['k'] == '待核')) for g in pend)
             tiers.append(f'<section class="wk-sec"><h2>待核</h2><p class="sub">玩法或技术可能够 2 分、但依据只有合集站或平台简介的 {len(pend)} 款，试玩或看到视频确认后再定是否重点。</p><div class="minis">{items}</div></section>')
+    in_week = {g['id'] for g in games}
+    everyone = {g['id']: g for g in util.load(util.p('data', 'games.json'), [])}
+    for x in (draft or {}).get('extra') or []:
+        gs = [everyone[i] for i in x['ids'] if i in everyone and i not in in_week]
+        for g in gs:
+            for k in ('shot', 'icon'):
+                if g.get(k) and os.path.exists(util.p('assets', 'games', g[k])):
+                    shutil.copyfile(util.p('assets', 'games', g[k]), os.path.join(out, 'assets', 'games', g[k]))
+        if gs:
+            tiers.append(f'<section class="wk-sec"><h2>{e(x["title"])}</h2><p class="sub">{e(x.get("sub", ""))}</p>'
+                         f'<div class="cards">{"".join(card(g) for g in gs)}</div></section>')
     trends = (draft or {}).get('trends') or []
     trends_html = ('<section class="wk-sec"><h2>几个现象</h2><div class="trends">' + ''.join(
         f'<article class="trend card"><h3>{e(t["h"])}</h3><p>{e(t["p"])}</p></article>' for t in trends) + '</div></section>') if trends else ''
