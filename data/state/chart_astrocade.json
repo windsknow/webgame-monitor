@@ -1,27 +1,27 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "keys": [
-  "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
-  "astrocade.com/games/army-evolution-kingdom-conquest/01m7te6md05ee9m3yr65q5z50q",
-  "astrocade.com/games/veck-io-orbital-showdown/01m7jhpfcs02dttymhc1sej556",
-  "astrocade.com/games/minecraft-creative/01m7jvsx0vvc0f74em31jrnnyx",
-  "astrocade.com/games/zoo-zen/01m7yj09nq7r4vrafh0032jn53",
   "astrocade.com/games/sword-swing-chopper/01m7h26hbe86dfexg7h2fz9ke2",
-  "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
-  "astrocade.com/games/robrun/01m83new2vgny9wc2twag39rtc",
+  "astrocade.com/games/50-ways-to-kill-the-ragdoll/01m81cpx5g276z8vmv12bc4fpy",
+  "astrocade.com/games/zoo-zen/01m7yj09nq7r4vrafh0032jn53",
+  "astrocade.com/games/move-it/01m7tpq8ta0xqem1tsrafnbd3t",
   "astrocade.com/games/frozen-fish-grill/01m6vj4n3z7e5n5m04wj45549r",
+  "astrocade.com/games/ben-10-ultimate-aliens/01m6922ty8cam4bktb68fqjj3j",
+  "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43",
+  "astrocade.com/games/minecraft-ultimate-treehouse-life/01m75nch5wjeewcneyxgsygbr3",
   "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
-  "astrocade.com/games/pani-puri-cooking-creator/01m68y5n6azb6jj0zaz76ayyvp",
+  "astrocade.com/games/army-evolution-kingdom-conquest/01m7te6md05ee9m3yr65q5z50q",
+  "astrocade.com/games/crash-lab/01m878cmn0pf983m24e6w6zv9t",
   "astrocade.com/games/chess-3d/01m7w01sg4yxptebf738bw0vgc",
-  "astrocade.com/games/fly-steal-a-dragon-egg/01m7rbcbv7df6ddjbdeyy6pb6d",
-  "astrocade.com/games/mega-wave-dash/01m83ykcpm5fhkk70k2wb7rqnw",
-  "astrocade.com/games/sky-prison-floating-maximum-security/01m7yhf4x2vxf7pjfn2n3nkzkz",
-  "astrocade.com/games/sunny-farm-empire/01m7q5dqc6b8xxmdazk8hq9545",
-  "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c",
-  "astrocade.com/games/doors/01k61qn7r1p1rcz1ba3vjfmad3",
-  "astrocade.com/games/robo-battle/01m7c1r1w06p5adxb71a93f3vn",
-  "astrocade.com/games/aurelia-skycab/01m704826chv0wmpwv45dp4047"
+  "astrocade.com/games/shadow-ninja-legends-3d/01m6bzpz9k8a6d6r8gngw6khg3",
+  "astrocade.com/games/ultimate-brick-racer/01m72xmevxektpx8r83285btbx",
+  "astrocade.com/games/donut-baking-creator/01m66ax924yzv7xhqsymmmzpx2",
+  "astrocade.com/games/meat-masters/01m6vnmpzrgara6nf9rczm9xad",
+  "astrocade.com/games/gulp-slime-1/01m7mm78y8b2j7q0qv5v6ez2nm",
+  "astrocade.com/games/igl-2-final-assault/01m84f4dybtw244yjg9f372syb",
+  "astrocade.com/games/emirates-flight-simulator/01m59t8d4nc5fy4yjqzgk4zxtt",
+  "astrocade.com/games/kawasaki-ninja-h2r-vs-fighter-jet/01m69tfm0c50zc9wpyx7px3q1d"
  ],
  "seen": {
   "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43": "2026-11-12",
@@ -107,6 +107,9 @@
   "astrocade.com/games/minecraft-creative/01m7jvsx0vvc0f74em31jrnnyx": "2026-11-25",
   "astrocade.com/games/zoo-zen/01m7yj09nq7r4vrafh0032jn53": "2026-11-25",
   "astrocade.com/games/doors/01k61qn7r1p1rcz1ba3vjfmad3": "2026-11-25",
-  "astrocade.com/games/robo-battle/01m7c1r1w06p5adxb71a93f3vn": "2026-11-25"
+  "astrocade.com/games/robo-battle/01m7c1r1w06p5adxb71a93f3vn": "2026-11-25",
+  "astrocade.com/games/meat-masters/01m6vnmpzrgara6nf9rczm9xad": "2026-11-26",
+  "astrocade.com/games/emirates-flight-simulator/01m59t8d4nc5fy4yjqzgk4zxtt": "2026-11-26",
+  "astrocade.com/games/kawasaki-ninja-h2r-vs-fighter-jet/01m69tfm0c50zc9wpyx7px3q1d": "2026-11-26"
  }
 }

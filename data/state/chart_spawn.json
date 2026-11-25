@@ -1,6 +1,6 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "keys": [
   "spawn.co/@retro/underground-warfare",
   "spawn.co/@izkimar/escape-from-stranglethorn",
@@ -12,16 +12,16 @@
   "spawn.co/@robot/mog",
   "spawn.co/@yisus/die-again",
   "spawn.co/@kevin/spawn-turismo",
-  "spawn.co/@yuidev/flickshot",
   "spawn.co/@fracture/glint",
+  "spawn.co/@yuidev/flickshot",
   "spawn.co/@tiger/hot-drop",
   "spawn.co/@gfta/inkblade",
+  "spawn.co/@poisoncode/shogun-s-fate",
   "spawn.co/@chucky/higher",
   "spawn.co/@maine/call-of-paint",
-  "spawn.co/@donutfrumjupitr/the-backrooms",
-  "spawn.co/@poisoncode/shogun-s-fate",
   "spawn.co/@op_nico_main/man-vs-many",
-  "spawn.co/@yisus/aether-legends"
+  "spawn.co/@donutfrumjupitr/the-backrooms",
+  "spawn.co/@lukasgame/pho-co-hen"
  ],
  "seen": {
   "spawn.co/@tiger/dust-2-dm": "2026-11-12",
@@ -48,6 +48,7 @@
   "spawn.co/@yisus/die-again": "2026-11-17",
   "spawn.co/@xenos/counter-spawn-global-offensive": "2026-11-21",
   "spawn.co/@abbidabbi/rifts": "2026-11-22",
-  "spawn.co/@op_nico_main/man-vs-many": "2026-11-23"
+  "spawn.co/@op_nico_main/man-vs-many": "2026-11-23",
+  "spawn.co/@lukasgame/pho-co-hen": "2026-11-26"
  }
 }

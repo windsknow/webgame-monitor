@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-26",
+ "channel": "awesome",
+ "count": 2,
+ "passed": 2,
+ "error": "",
+ "leads": [
+  {
+   "channel": "awesome",
+   "title": "Grand Theft Tractor",
+   "url": "https://redneck.hertzmc.com/",
+   "key": "redneck.hertzmc.com",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Built with Claude Code, Hunyuan3D · Three",
+   "desc": "Steal tractors, run moonshine and outrun the county deputies in an open-world redneck parody for adults, set in a real small Oklahoma town and playable on phone or desktop. Built with Claude Code, Hunyuan3D · Three.js."
+  },
+  {
+   "channel": "awesome",
+   "title": "Vibes DIY",
+   "url": "https://vibes.diy/",
+   "key": "vibes.diy",
+   "source_url": "https://github.com/lappemic/awesome-ai-built-games",
+   "metrics": {
+    "awesome_listed": true
+   },
+   "published": "",
+   "passes": true,
+   "ai_hint": "收录于 AI 游戏精选清单（要求大部分代码由 AI 编写）；Hosted app builder that turns a sentence into a playable browser game at a shareable link, with a CLI (`npx vibes-diy`) and MCP server for Claude Code and other agents",
+   "desc": "Hosted app builder that turns a sentence into a playable browser game at a shareable link, with a CLI (`npx vibes-diy`) and MCP server for Claude Code and other agents."
+  }
+ ]
+}
