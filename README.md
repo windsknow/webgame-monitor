@@ -76,23 +76,30 @@
 
 另外要求首次公开在近 30 天内，或近 7 天有新热度（新上榜、新帖子）。
 
-**标为重点**（`thresholds.hot`，达到任意一条）
+**标为重点**（2026-11-25 用户定稿，完整口径见 `docs/重点评判规则.md`）
 
-- X 单帖浏览 ≥ 20 万
-- Hacker News ≥ 100 分
-- GitHub ≥ 1,000 星
-- three.js 论坛 ≥ 2,000 次浏览
-- 平台显示游玩 ≥ 5 万次（Verse8 的游玩数口径存疑，不计入）
-- 同时有 Steam 页面；或每周核验时在 `candidates.json` 里加了 `manual_signals`
+满足任意一条就是重点，卡片上写明入选理由，几条同时成立时全部列出：
 
-X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线的会自动标成重点，并写进当天的日汇总。
-基线 68 款的重点是当时逐款判断的，不按这组数字重算。
+- **X 热度**：作者帖或他人专门介绍这款游戏的帖子，单帖浏览 ≥ 20 万（`thresholds.hot.x_views`）。多款游戏的清单帖不算。
+- **玩法新**：每周打分里玩法新颖（N）得 2 分。
+- **技术强**：每周打分里技术前沿（T）得 2 分。
+
+2 分必须有视频、试玩、README、作者帖文或游戏自己页面的说明作依据。只来自合集站或平台简介的记"待核"，不算重点。同一原作的多款移植只取一款，其余标"同类移植"。
+
+只做展示、不算重点的标签：
+- "X 有传播"：X 浏览 5 万到 20 万（`x_spread`）；
+- "平台爆款"：Astrocade 游玩 ≥ 50 万（`platform_hit`）。
+
+游玩数、Hacker News 分、GitHub 星只作参考。已核验卡片也按这条规则重算。
+
+X 帖子的浏览数：
+- 发帖 14 天内的来源帖每天重读；
+- 卡片关联的其他帖子，包括已核验卡片的 `source_posts`，每 7 天重读一次；
+- 读数存在 `data/state/x_reads.json`，卡片上标读取日期。
 
 **页面上怎么放**：重点的、核验过的、写了玩法介绍的用完整卡片；其余自动入库的排在紧凑列表里。
 
-**热度到了重点线、但不能确定是不是游戏的**（例如页面里找不到画布）进"线索观察"，等人工确认。
-
-**这组数字是建议值，还没有逐项确认。**
+**X 浏览到了重点线、但不能确定是不是游戏的**（例如页面里找不到画布）进"线索观察"，等人工确认。
 
 ## 每周核验怎么做
 
@@ -107,12 +114,19 @@ X 来源帖的浏览数在发帖后 14 天内每天重读，升温到重点线�
    ```
    可选字段：`name`（没有试玩链接时用作条目名）、`ingest: false`（是游戏但不该作为单款入库，例如多个演示的合集帖）。
    然后重跑 `python3 run.py merge`。判为不是游戏的，对应的自动卡片会被撤下；后来找到试玩链接的，原来按帖子入库的卡片会换成游戏链接。
-2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；值得标重点的补 `manual_signals`（如 `[{"类别": "玩法", "说明": "…"}]`）；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
+2. 看 `data/candidates.json`：自动入库但其实不是游戏的，把 `status` 改成 `拒绝` 并写 `reject_reason`（卡片会被撤下）；"候选"里因为页面找不到画布而没入库的（纯网页元素做的游戏会这样），确认是游戏的加上 `"is_game_manual": true`，下次合并就会入库；AI 标签用 `ai_tag_manual`（`ai` / `likely` / `non_ai`）。
 3. 看 `data/games.json` 里 `status` 为 `auto` 的卡片：试玩后补 `kind`、`play`、`highlight`（亮点）、`tech` 和 `tech_basis`（技术栈依据，优先按站点代码特征识别）、`group`（七个方向之一），确认数字和出处，把 `status` 改成 `verified`。一款游戏占两类以上时按最核心的特点归类，拿不准的列出来问。
 4. 只有视频、玩法写不出来的卡片，以及标为重点的卡片：找演示视频，用 `python3 -I scripts/video_frames.py <X帖子链接或mp4> <输出目录> [帧数]` 下载、抽帧并拼成对照图（抽帧用 macOS 自带的 AVFoundation，见 `scripts/frames.swift`），读图补玩法，视频链接写进卡片的 `videos`；再按 `docs/登录态读取社区规范.md` 登录读回复做概括。玩法末尾注明"（玩法取自视频抽帧）"。
-5. `python3 run.py feed` 重新生成信息流页面；`python3 scripts/weekly_page.py <起> <止> <输出目录> [编辑稿.json]` 生成周报网页（`artifact.html` 可直接发布）。技术栈可先跑 `python3 -I scripts/detect_tech.py data/games.json <输出.json> <起> <止>` 按站点代码特征识别。
+5. **玩法和技术打分**（合并之后、生成页面之前）：
+   - `python3 scripts/apply_novelty.py --queue` 列出要打分的卡片：
+     - 还没打分的，按每天预筛的优先、普通、降级排；
+     - 上次记了待核或要复查的。
+   - 按 `docs/重点评判规则.md` 第三节打分，可以用 Sonnet 子代理打，主会话复核所有 2 分和待核。
+   - 结果写进 `data/novelty/<日期>.json`。
+   - 跑 `python3 scripts/apply_novelty.py data/novelty/<日期>.json`，再跑 `python3 run.py merge` 重算重点。
+6. `python3 run.py feed` 重新生成信息流页面；`python3 scripts/weekly_page.py <起> <止> <输出目录> [编辑稿.json]` 生成周报网页（`artifact.html` 可直接发布）。技术栈可先跑 `python3 -I scripts/detect_tech.py data/games.json <输出.json> <起> <止>` 按站点代码特征识别。
 
-写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）；重点游戏把 `hot` 设为 `true`。
+写作口径：对外口吻，不写过程性的话；每个数字要有出处，开发者自报的要标明；口径存疑的数据把 `stats` 里的 `doubt` 设为 `true`（页面标红）。`hot` 由合并时按规则算出，不要手改；要改重点，改打分文件。
 
 ## X 数据的几个事实
 

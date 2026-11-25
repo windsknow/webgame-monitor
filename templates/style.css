@@ -239,3 +239,8 @@ footer.end{margin-top:40px;border-top:1px solid var(--border);padding:20px 0 60p
 .vid b{font-size:11.5px;font-weight:600;letter-spacing:.04em;margin-right:8px;color:var(--accent)}
 .vid a{margin-right:12px;color:var(--accent);text-decoration:none}
 .vid a:hover{text-decoration:underline}
+/* 2026-11-25 重点入选理由：实心是入选理由，描边是只做展示的标签 */
+.tag-why{background:var(--hot);color:#fff}
+.tag-lab{background:transparent;color:var(--hot);outline:1px solid color-mix(in srgb,var(--hot) 55%,transparent)}
+.asof{display:block;font-size:10.5px;font-weight:500;color:var(--text-3);line-height:1.2}
+.why br+b{display:inline-block;margin-top:4px}

@@ -7,7 +7,11 @@
   data/games.json        入库的游戏。自动入库的卡片 status=auto，等每周核验补全文字
 
 2026-11-12 起的规则：过了渠道入库线、判断为网页游戏、并且是近期的，直接入库，
-不要求传播数据、游玩次数或试玩链接。达到重点线的标为重点（hot）。
+不要求传播数据、游玩次数或试玩链接。
+
+2026-11-25 起的重点规则（用户定稿，口径见 docs/重点评判规则.md）：X 单帖浏览到重点线，或每周打分里
+玩法新颖（N）、技术前沿（T）有一项得 2 分（待核、同类移植不算），就成为重点（hot）。入选理由写进 hot_why，
+只做展示的标签（X 有传播、平台爆款、待核、同类移植）写进 labels。已核验卡片也按这条重算。
 
 人工或每周会话可以直接改 candidates.json 里的 status、manual_signals、ai_tag_manual、note、name_manual、is_game_manual，
 这里不会覆盖这些字段；status 为"拒绝"的不会再被打开，对应的自动卡片会被撤下。
@@ -152,10 +156,25 @@ def match_library(key, url, name, lib):
     return None, None
 
 
+XREADS = {}   # data/state/x_reads.json：{帖子链接: {'views', 'likes', 'date'}}，run() 开头读进来，refresh_x 更新
+
+
+def post_of(l):
+    """一条线索对应的 X 帖子：X 渠道是来源帖本身，二手渠道是溯源找到的作者帖或他人介绍帖。"""
+    if l['channel'] == 'x':
+        return l['source_url']
+    return (l.get('origin') or {}).get('x') or ''
+
+
+def x_read(c, l):
+    """这条线索的 X 帖子最近一次重读的结果：{'views','date'}，没读过的返回 {}。"""
+    u = post_of(l)
+    return XREADS.get(u) or (c.get('x_now') or {}).get(u) or {}
+
+
 def x_views(c, l):
-    """一条 X 线索现在的浏览数：采集时的值和后来重读的值里取大的。"""
-    now = ((c.get('x_now') or {}).get(l['source_url']) or {}).get('views') or 0
-    return max(l['metrics'].get('x_views') or 0, now)
+    """一条线索现在的 X 浏览数：采集时的值和后来重读的值里取大的（浏览只涨不跌）。"""
+    return max(l['metrics'].get('x_views') or 0, x_read(c, l).get('views') or 0)
 
 
 def best_metrics(c):
@@ -172,39 +191,113 @@ def best_metrics(c):
     return best
 
 
+def x_line(views, asof, kind=''):
+    return f"X 单帖浏览 {util.fmt_num(views)}（{kind + '，' if kind else ''}{asof[5:] + ' 读取' if asof else '读取日期未记'}）"
+
+
 def signals(c, cfg):
-    """重点信号。返回 [{'类别','说明'}]；类别为"技术"的只作说明，不算重点。"""
-    H = cfg['thresholds']['hot']
+    """数据信号，返回 [{'类别','说明'}]。只有"X 热度"让卡片成为重点；"X 有传播""平台爆款"只做展示；
+    "技术"是线索原文里出现的技术词，只作说明。游玩数、HN 分、GitHub 星不再是重点信号（2026-11-25 起）。"""
+    T = cfg['thresholds']
     best = best_metrics(c)
     val = lambda k: int((best.get(k) or (0,))[0] or 0)
-    spread = []
-    if val('x_views') >= H['x_views']:
-        spread.append(f"X 单帖浏览 {util.fmt_num(val('x_views'))}")
-    if val('hn_points') >= H['hn_points']:
-        spread.append(f"Hacker News {val('hn_points')} 分")
-    if val('github_stars') >= H['github_stars']:
-        spread.append(f"GitHub {util.fmt_num(val('github_stars'))} 星")
-    if val('threejs_views') >= H['threejs_views']:
-        spread.append(f"three.js 论坛 {util.fmt_num(val('threejs_views'))} 次浏览")
     out = {}
-    if spread:
-        out['传播'] = '，'.join(spread)
-    plays = max((val(k) for k in PLAYS), default=0)
-    if plays >= H['plays']:
-        out['规模'] = f'平台显示游玩 {util.fmt_num(plays)} 次'
-    if any('store.steampowered.com' in u for l in c['leads'] for u in (l.get('x') or {}).get('other_links', [])):
-        out['商业'] = '同时有 Steam 页面'
+    if 'x_views' in best:
+        v, l = best['x_views']
+        kind = ('他人介绍帖' if (l.get('origin') or {}).get('x_kind') == 'third_party' else '作者帖子') \
+            if l['channel'] != 'x' else ''
+        asof = x_read(c, l).get('date') or l.get('last_date') or l['date']
+        if int(v) >= T['hot']['x_views']:
+            out['X 热度'] = x_line(v, asof, kind)
+        elif int(v) >= T.get('x_spread', 50000):
+            out['X 有传播'] = x_line(v, asof, kind)
+    for k, line in (T.get('platform_hit') or {}).items():
+        if not k.startswith('_') and val(k) >= line:
+            out['平台爆款'] = f"{METRIC_LABEL[k][0]} {util.fmt_num(val(k))} 次（≥ {util.fmt_num(line)}）"
     text = ' '.join((l.get('title') or '') + ' ' + (l.get('desc') or '') for l in c['leads'])
     if TECH.search(text) and TECH_PLUS.search(text):
         out['技术'] = '线索原文提到：' + '、'.join(dict.fromkeys(
             m.group(0).lower() for m in list(TECH.finditer(text))[:2] + list(TECH_PLUS.finditer(text))[:2]))
-    for s in c.get('manual_signals', []):            # 人工或每周核验补充的信号，如 {"类别":"玩法","说明":"…"}
-        out[s['类别']] = s['说明']
     return [{'类别': k, '说明': v} for k, v in out.items()]
 
 
-def is_hot(sigs):
-    return any(s['类别'] != '技术' for s in sigs)
+def x_hot(sigs):
+    return any(s['类别'] == 'X 热度' for s in sigs or [])
+
+
+def verified_x(g, cfg):
+    """已核验卡片的 X 数字：从 source_posts 的重读结果更新 stats 里的帖子浏览数，标上读取日期。返回数据信号。"""
+    best, asof = 0, ''
+    for u in g.get('source_posts') or []:
+        r = XREADS.get(u) or {}
+        if (r.get('views') or 0) > best:
+            best, asof = r['views'], r.get('date', '')
+    if not best:
+        return []
+    st = g.setdefault('stats', [])
+    i = next((i for i, x in enumerate(st) if re.fullmatch(r'(X )?(首发帖|作者帖|帖子)浏览', x.get('label', ''))), None)
+    if i is None:
+        st.insert(0, {'label': 'X 帖子浏览', 'value': util.fmt_num(best), 'doubt': False, 'asof': asof})
+    else:
+        lab = st[i]['label']
+        st[i] = dict(st[i], label=lab if lab.startswith('X ') else 'X ' + lab, value=util.fmt_num(best), asof=asof)
+    T = cfg['thresholds']
+    if best >= T['hot']['x_views']:
+        return [{'类别': 'X 热度', '说明': x_line(best, asof)}]
+    if best >= T.get('x_spread', 50000):
+        return [{'类别': 'X 有传播', '说明': x_line(best, asof)}]
+    return []
+
+
+def judge(g, sigs):
+    """重点判断：X 热度，或玩法新颖 / 技术前沿有一项 2 分（待核、同类移植不算）。几条同时成立时全部列出。
+    写 g['hot']、g['hot_why']（[{'k': 入选理由, 'v': 依据}]）、g['labels']（只做展示的标签，同样格式）。"""
+    why, labels = [], []
+    for s in sigs or []:
+        if s['类别'] == 'X 热度':
+            why.append({'k': 'X 热度', 'v': s['说明']})
+        elif s['类别'] in ('X 有传播', '平台爆款'):
+            labels.append({'k': s['类别'], 'v': s['说明']})
+    nv = g.get('novelty') or {}
+    for dim, name in (('N', '玩法新'), ('T', '技术强')):
+        if nv.get(dim) != 2:
+            continue
+        if dim in (nv.get('pending') or []):
+            labels.append({'k': '待核', 'v': f"{name}待核：{nv.get(dim + '_why', '')}"})
+        elif nv.get('dup_of') and dim == 'T':
+            labels.append({'k': '同类移植', 'v': nv.get('dup_note') or f"同一原作的移植，重点只取 {nv['dup_of']}"})
+        else:
+            why.append({'k': name, 'v': nv.get(dim + '_why', '')})
+    g['hot_why'], g['labels'] = why, labels
+    g['hot'] = bool(why)
+    return g['hot']
+
+
+def prescreen(g, c, cfg):
+    """每天预筛（不调模型）：还没打过分的自动卡片，排进本周玩法 / 技术复核的优先级。不决定重点。
+    返回 {'level': 优先 / 普通 / 降级, 'why'}。"""
+    P = cfg.get('prescreen') or {}
+    leads = (c or {}).get('leads') or []
+    text = ' '.join(str(g.get(k) or '') for k in ('name', 'kind', 'play', 'quote', 'highlight', 'tech')) + ' ' + \
+        ' '.join((l.get('title') or '') + ' ' + (l.get('desc') or '') + ' ' + ' '.join(l.get('topics') or []) for l in leads)
+    low = text.lower()
+    hit = lambda ws: [w for w in ws if (re.search(r'(?<![a-z])' + re.escape(w.lower()), low) if w.isascii() else w in text)]
+    skin, tags = hit(P.get('reskin_words', [])), hit(P.get('review_tags', []))
+    chs = {l['channel'] for l in leads}
+    doc = bool(g.get('videos')) or any(s['channel'] in ('github', 'x') for s in g.get('sources') or [])
+    if chs and chs <= set(P.get('chart_channels', [])):
+        rank = min((v for l in leads for k, v in l['metrics'].items() if k.endswith('_rank') and isinstance(v, (int, float))),
+                   default=999)
+        if skin:
+            return {'level': '降级', 'why': f"平台榜单作品，命中换皮关键词：{'、'.join(skin[:3])}"}
+        if rank <= P.get('chart_top_n', 5):
+            return {'level': '普通', 'why': f'平台榜单作品，榜上最高第 {rank} 名'}
+        return {'level': '降级', 'why': f'平台榜单作品，不在榜单前 {P.get("chart_top_n", 5)}'}
+    if skin and not tags:
+        return {'level': '降级', 'why': f"命中换皮关键词：{'、'.join(skin[:3])}，没有复核技术标签"}
+    if tags or doc:
+        return {'level': '优先', 'why': ('复核技术标签：' + '、'.join(tags[:4])) if tags else '有作者帖子、源码仓库或视频'}
+    return {'level': '普通', 'why': '没有命中换皮关键词，也没有复核技术标签'}
 
 
 def reasons_of(c):
@@ -370,6 +463,8 @@ def build_stats(c):
             val = util.fmt_num(v) + ' 次'
         label, doubt = METRIC_LABEL[k]
         stats.append({'label': label, 'value': val, 'doubt': doubt})
+        if k == 'x_views':
+            stats[-1]['asof'] = x_read(c, l).get('date') or l.get('last_date') or l['date']
     return stats
 
 
@@ -451,21 +546,38 @@ def make_card(c, cfg, date, lib_ids):
     return card
 
 
-def refresh_x(cands, cfg, date):
-    """重读近期 X 来源帖的浏览数，让升温的游戏能及时标成重点。"""
-    days = cfg['thresholds'].get('x_refresh_days', 14)
-    n = 0
+def refresh_x(cands, lib, cfg, date):
+    """重读 X 帖子的浏览数，结果存进 XREADS（data/state/x_reads.json）。
+    发帖 x_refresh_days 天内的来源帖每天重读，让升温的游戏能及时标成重点；收录卡片关联的其他帖子
+    （二手渠道溯源到的作者帖 / 他人介绍帖、已核验卡片的 source_posts）每 x_reread_days 天重读一次。
+    读取日期记实际读的那天（回放旧日期合并时也一样）。"""
+    T = cfg['thresholds']
+    fresh_days, every = T.get('x_refresh_days', 14), T.get('x_reread_days', 7)
+    today = datetime.date.today().isoformat()
+    want = {}                                        # 帖子链接 → 是否每天读
     for c in cands.values():
         if c['status'] in ('拒绝', '已在库'):
             continue
         for l in c['leads']:
-            if l['channel'] != 'x' or not l.get('published') or util.days_between(l['published'], date) > days:
+            u = post_of(l)
+            if not u:
                 continue
-            m = STATUS.search(l['source_url'])
-            tw = x_ingest.fx_tweet(m.group(1), m.group(2)) if m else {}
-            if tw.get('views'):
-                c.setdefault('x_now', {})[l['source_url']] = {'views': tw['views'], 'date': date}
-                n += 1
+            fresh = l['channel'] == 'x' and bool(l.get('published')) and util.days_between(l['published'], date) <= fresh_days
+            if fresh or c['status'] in ('收录', '观察'):
+                want[u] = want.get(u, False) or fresh
+    for g in lib:
+        for u in list(g.get('source_posts') or []) + [x['url'] for x in g.get('sources') or [] if x['channel'] == 'x']:
+            want.setdefault(u, False)
+    n = 0
+    for u, daily in want.items():
+        r = XREADS.get(u) or {}
+        if r.get('date') == today or (not daily and r.get('date') and util.days_between(r['date'], today) < every):
+            continue
+        m = STATUS.search(u)
+        tw = x_ingest.fx_tweet(m.group(1), m.group(2)) if m else {}
+        if tw.get('views'):
+            XREADS[u] = {'views': max(tw['views'], r.get('views') or 0), 'likes': tw.get('likes'), 'date': today}
+            n += 1
     return n
 
 
@@ -476,6 +588,8 @@ def run(date=None, publish=True, refresh=True):
     cands = util.load(util.p('data', 'candidates.json'), {})
     leads, x_posts = load_leads(date, cfg['window']['new_days'])
     by_id = {g['id']: g for g in lib}
+    XREADS.clear()
+    XREADS.update(util.load(util.p('data', 'state', 'x_reads.json'), {}))
 
     # X 线索每次按最新的核验结论重建：先拿掉这次读到的帖子留下的旧线索
     for c in cands.values():
@@ -511,8 +625,9 @@ def run(date=None, publish=True, refresh=True):
             c['first_seen'] = {'date': l['date'], 'channel': l['channel']}
 
     if refresh:
-        n = refresh_x(cands, cfg, date)
-        print(f'[merge] 重读了 {n} 条 X 来源帖的浏览数')
+        n = refresh_x(cands, lib, cfg, date)
+        util.save(util.p('data', 'state', 'x_reads.json'), XREADS)
+        print(f'[merge] 重读了 {n} 条 X 帖子的浏览数')
 
     lib_ids = set(by_id)
     new_cards, new_hot, dropped = [], [], []
@@ -540,15 +655,10 @@ def run(date=None, publish=True, refresh=True):
         c['signals'] = signals(c, cfg)
         c['updated'] = date
         if c['status'] == '收录':
-            # 已入库：自动卡片的数字、重点标记和来源跟着最新数据走；核验过的卡片不动
+            # 已入库：自动卡片的数字和来源跟着最新数据走；核验过的卡片不动。重点在最后统一重算
             if card and card.get('status') == 'auto':
-                was_hot = card.get('hot')
                 c['link_status'] = 'none' if key.startswith('x:') else c.get('link_status') or 'ok'
                 card.update(card_dynamic(c, cfg, date))
-                card['hot'] = bool(card.get('hot_manual')) or is_hot(c['signals'])
-                if card['hot'] and not was_hot:
-                    card['hot_since'] = date
-                    new_hot.append(card['name'])
                 ensure_images(card, c)
             continue
         st, gid = match_library(key, c['url'], c['name'], lib)
@@ -574,21 +684,38 @@ def run(date=None, publish=True, refresh=True):
             c.update(status='收录', link_status=link_status, reasons=reasons_of(c))
             if publish:
                 card = make_card(c, cfg, date, lib_ids)
-                card['hot'] = is_hot(c['signals'])
-                if card['hot']:
-                    card['hot_since'] = date
                 ensure_images(card, c)
                 lib.append(card)
                 lib_ids.add(card['id'])
                 by_id[card['id']] = card
                 c['game_id'] = card['id']
                 new_cards.append(card)
-        elif is_hot(c['signals']) and kind in ('game', 'site', 'repo'):
+        elif x_hot(c['signals']) and kind in ('game', 'site', 'repo'):
             c['status'] = '观察'
-            c['reasons'] = [f"{s['类别']}：{s['说明']}" for s in c['signals'] if s['类别'] != '技术'] + why
+            c['reasons'] = [f"{s['类别']}：{s['说明']}" for s in c['signals'] if s['类别'] == 'X 热度'] + why
         else:
             c['status'] = '候选'
             c['reasons'] = why or ['没有过入库线']
+
+    # 重点：所有卡片（含已核验的）按同一条规则重算
+    cand_of = {c['game_id']: c for c in cands.values() if c.get('game_id') and c['status'] == '收录'}
+    new_ids = {g['id'] for g in new_cards}
+    for g in lib:
+        was_hot = g.get('hot')
+        c = cand_of.get(g['id'])
+        sigs = c['signals'] if g.get('status') == 'auto' and c else verified_x(g, cfg)
+        judge(g, sigs)
+        g.pop('hot_manual', None)                    # 2026-11-25 起人工备注并进玩法 / 技术打分，不再单独让卡片成为重点
+        if g.get('status') == 'auto' and not g.get('novelty'):
+            g['prescreen'] = prescreen(g, c, cfg)
+        else:
+            g.pop('prescreen', None)
+        if g['hot'] and not was_hot:
+            g['hot_since'] = date
+            if g['id'] not in new_ids:
+                new_hot.append(g['name'])
+        elif not g['hot']:
+            g.pop('hot_since', None)
 
     util.save(util.p('data', 'candidates.json'), cands)
     util.save(util.p('data', 'games.json'), lib)

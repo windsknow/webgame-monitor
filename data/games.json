@@ -34,7 +34,21 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "在地图数据重建的整座旧金山里自由行走、攀爬、开车，玩法是常规开放世界，真实数据是内容（基线报告）",
+   "T": 2,
+   "T_why": "整座城市由地图数据生成并联机（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "整座城市由地图数据生成并联机（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "hop",
@@ -61,7 +75,7 @@
   "tech": "OpenStreetMap + 卫星高程数据，socket.io 联机",
   "xcheck": "",
   "src": "Hacker News 官方接口；技术栈为站点代码特征识别",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -76,7 +90,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "在真实世界地图上开车竞速，套用常规竞速玩法，真实数据是内容（基线报告）",
+   "T": 2,
+   "T_why": "全球地图边开边生成并多人同服（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "全球地图边开边生成并多人同服（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "worldstrike",
@@ -118,7 +147,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "在真实城市街道开坦克破坏建筑，玩法是常规破坏，真实数据是内容（基线报告）",
+   "T": 1,
+   "T_why": "多人同步被摧毁建筑，规模未写（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "roadarium",
@@ -145,7 +183,7 @@
   "tech": "three.js，场景由 OpenStreetMap 数据生成",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -160,7 +198,26 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "车流、有轨电车和行人按各国真实交通规则运转（含左行右行），真实数据带来新机制（基线报告）",
+   "T": 2,
+   "T_why": "119 座城市场景由 OSM 整体程序化生成（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "车流、有轨电车和行人按各国真实交通规则运转（含左行右行），真实数据带来新机制（基线报告）"
+   },
+   {
+    "k": "技术强",
+    "v": "119 座城市场景由 OSM 整体程序化生成（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "fullsend",
@@ -202,7 +259,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "真实赛道还原的常规俯视赛车（基线报告）",
+   "T": 1,
+   "T_why": "WebRTC 联机加全球榜（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "saltline",
@@ -215,9 +281,10 @@
   "date_text": "2026-11-09 发布",
   "stats": [
    {
-    "label": "作者帖浏览",
-    "value": "71.1 万",
-    "doubt": false
+    "label": "X 作者帖浏览",
+    "value": "449.3 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "转述帖浏览",
@@ -258,7 +325,25 @@
   ],
   "source_posts": [
    "https://x.com/felixrieseberg/status/2119925633564463609"
-  ]
+  ],
+  "novelty": {
+   "N": 0,
+   "N_why": "雨夜港口的标准 FPS 目标（基线报告）",
+   "T": 2,
+   "T_why": "模型、声音、贴图全部由代码生成，一句提示词一次完成（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 449.3 万（11-25 读取）"
+   },
+   {
+    "k": "技术强",
+    "v": "模型、声音、贴图全部由代码生成，一句提示词一次完成（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "tidewater",
@@ -271,9 +356,10 @@
   "date_text": "2026-09-23 发布",
   "stats": [
    {
-    "label": "首发帖浏览",
-    "value": "90 万",
-    "doubt": false
+    "label": "X 首发帖浏览",
+    "value": "90.2 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -318,7 +404,25 @@
   ],
   "alt_keys": [
    "github.com/dgreenheck/tidewater"
-  ]
+  ],
+  "novelty": {
+   "N": 0,
+   "N_why": "常规钓鱼经营循环（基线报告）",
+   "T": 2,
+   "T_why": "自写原生 WebGPU 引擎，实时海浪天空（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 90.2 万（11-25 读取）"
+   },
+   {
+    "k": "技术强",
+    "v": "自写原生 WebGPU 引擎，实时海浪天空（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "undersphere",
@@ -340,7 +444,7 @@
   "tech": "three.js + WebSocket",
   "xcheck": "",
   "src": "Vibe Jam 官方获奖名单；技术栈为站点代码特征识别",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "Vibe Jam 官方获奖名单",
   "status": "verified",
@@ -355,7 +459,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "战场是球体内壁，重力随位置变化（基线报告）",
+   "T": 1,
+   "T_why": "three.js + WebSocket 多人（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "战场是球体内壁，重力随位置变化（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "longwind",
@@ -392,7 +511,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "常规实时动作，卡片只写场景（基线报告）",
+   "T": 1,
+   "T_why": "three.js 做草原竹林场景，作者称全部代码由 Claude 写（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "voxelmusou",
@@ -429,7 +557,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "标准无双割草（基线报告）",
+   "T": 1,
+   "T_why": "一个人对 300 名士兵、无构建步骤（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "fm1",
@@ -469,7 +606,16 @@
   "source_posts": [],
   "alt_keys": [
    "fm1.moises.cloud"
-  ]
+  ],
+  "novelty": {
+   "N": 0,
+   "N_why": "致敬 F-Zero 的常规未来赛车（基线报告）",
+   "T": 1,
+   "T_why": "three.js WebGPU，但看不出表现力（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "halcyon",
@@ -491,7 +637,7 @@
   "tech": "three.js，由 Claude Code 辅助开发",
   "xcheck": "",
   "src": "AI 游戏精选清单；开源仓库",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "three.js，由 Claude Code 辅助开发",
   "status": "verified",
@@ -506,7 +652,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "多种移动方式漫游，真实激光雷达山体但不是核心（基线报告）",
+   "T": 2,
+   "T_why": "FFT 海洋、真实雷达地形、昼夜（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "FFT 海洋、真实雷达地形、昼夜（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "keikoku",
@@ -533,7 +694,7 @@
   "tech": "three.js + Rapier 物理引擎，约 130 个源文件；仅支持桌面浏览器",
   "xcheck": "",
   "src": "three.js 官方论坛接口",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "作者自评离照片级还有差距：让三个大模型盲评截图，20 张全部被判为\"业余项目\"",
   "status": "verified",
@@ -548,7 +709,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "露营模拟是少见题材配相应机制（基线报告）",
+   "T": 2,
+   "T_why": "零素材，纹理、声音、体积火焰全部程序生成（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "零素材，纹理、声音、体积火焰全部程序生成（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "neonzenith",
@@ -575,7 +751,7 @@
   "tech": "three.js WebGPU + TSL，庙街场景用 Blender 制作；据 AI 游戏精选清单，由 Claude Code 辅助开发",
   "xcheck": "",
   "src": "GitHub 接口；AI 游戏精选清单",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "据 AI 游戏精选清单，由 Claude Code 辅助开发",
   "status": "verified",
@@ -590,7 +766,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "驾驶加飞行两种常规玩法组合（基线报告）",
+   "T": 2,
+   "T_why": "WebGPU，9,373 栋楼，雨夜都市（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "WebGPU，9,373 栋楼，雨夜都市（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "pokebonk",
@@ -613,9 +804,10 @@
     "doubt": false
    },
    {
-    "label": "首发帖浏览",
-    "value": "109 万",
-    "doubt": false
+    "label": "X 首发帖浏览",
+    "value": "110.1 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "语言",
@@ -646,7 +838,21 @@
   ],
   "source_posts": [
    "https://x.com/ImCharcher/status/2110395400914092426"
-  ]
+  ],
+  "novelty": {
+   "N": 0,
+   "N_why": "Megabonk 玩法换宝可梦皮（基线报告）",
+   "T": 0,
+   "T_why": "只写需要 WebGL（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 110.1 万（11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "lagoslife",
@@ -659,9 +865,10 @@
   "date_text": "2026-10-01 上线",
   "stats": [
    {
-    "label": "首发帖浏览",
-    "value": "607 万",
-    "doubt": false
+    "label": "X 首发帖浏览",
+    "value": "609.2 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "官方称累计玩家",
@@ -702,7 +909,21 @@
   ],
   "source_posts": [
    "https://x.com/Shalom_HeyEliy/status/2105541070486470749"
-  ]
+  ],
+  "novelty": {
+   "N": 1,
+   "N_why": "《模拟人生》式玩法换本地题材，真实品牌买广告牌（基线报告）",
+   "T": 1,
+   "T_why": "three.js + 社交多人（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 609.2 万（11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "claudecraft",
@@ -749,7 +970,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "魔兽世界式 MMO 复刻（基线报告）",
+   "T": 1,
+   "T_why": "three.js 做 MMO，规模未写（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "bf1942",
@@ -771,7 +1001,7 @@
   "tech": "反编译 + 网页多人",
   "xcheck": "",
   "src": "开发者博客",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -786,7 +1016,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏移植，玩法不新（基线报告）",
+   "T": 2,
+   "T_why": "反编译战地 1942 并多人（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "反编译战地 1942 并多人（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "threequake",
@@ -823,7 +1068,23 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏移植，玩法不新（基线报告）",
+   "T": 2,
+   "T_why": "Quake 完整移植进浏览器（基线报告）",
+   "dup_of": "quakerust",
+   "dup_note": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "同类移植",
+    "v": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP"
+   }
+  ]
  },
  {
   "id": "quakerust",
@@ -845,7 +1106,7 @@
   "tech": "Rust → WebAssembly",
   "xcheck": "",
   "src": "Hacker News 官方接口；画面取自开发者发布的 YouTube 演示视频",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -863,7 +1124,22 @@
   ],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏移植，玩法不新（基线报告）",
+   "T": 2,
+   "T_why": "1996 年的 Quake 整个移植到无依赖的安全 Rust 再编译成 WASM，共享版第一章可在浏览器里玩；Quake 系 3 款移植里完成度最高（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "1996 年的 Quake 整个移植到无依赖的安全 Rust 再编译成 WASM，共享版第一章可在浏览器里玩；Quake 系 3 款移植里完成度最高（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "queep",
@@ -900,7 +1176,23 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏移植，玩法不新（基线报告）",
+   "T": 2,
+   "T_why": "Quake 3 的 WebGPU 版，326 盏灯，PBR（基线报告）",
+   "dup_of": "quakerust",
+   "dup_note": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "同类移植",
+    "v": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP"
+   }
+  ]
  },
  {
   "id": "ps2",
@@ -922,7 +1214,7 @@
   "tech": "静态重编译 → WebAssembly",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -937,7 +1229,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏移植，玩法不新（基线报告）",
+   "T": 2,
+   "T_why": "PS2 游戏静态重编译成 WASM（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "PS2 游戏静态重编译成 WASM（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "scam",
@@ -974,7 +1281,7 @@
   "tech": "React + three.js + Cloudflare Workers；来电者有离线脚本，也可接入大模型自由对话；带距离语音",
   "xcheck": "",
   "src": "GitHub 接口与仓库说明；Steam 商店页；Steam 测试期在线数据",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "来电者有离线脚本，也可接入大模型自由对话",
   "status": "verified",
@@ -989,7 +1296,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "运行时 AI 应用有创新：来电者可接入大模型和玩家自由对话，接听应对就是核心玩法（基线报告，2026-11-25 人工复核）",
+   "T": 1,
+   "T_why": "可选接入大模型、距离语音；大模型不是必选（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "运行时 AI 应用有创新：来电者可接入大模型和玩家自由对话，接听应对就是核心玩法（基线报告，2026-11-25 人工复核）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "dimension9",
@@ -1017,9 +1339,10 @@
     "doubt": false
    },
    {
-    "label": "首发帖浏览",
-    "value": "22.8 万",
-    "doubt": false
+    "label": "X 首发帖浏览",
+    "value": "26 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "play": "一个人开发的多人网页恐怖游戏，题材是\"后室\"。玩家在不断新增的房间里探索，躲避怪物，附近的玩家可以直接语音交流；全服共享一本\"发现图鉴\"。新房间由 AI 批量生成、开发者审核后上线。每个世界 200 人。",
@@ -1046,7 +1369,25 @@
   "source_posts": [
    "https://x.com/apekshik/status/2118847014071120179",
    "https://x.com/apekshik/status/2119517930300076261"
-  ]
+  ],
+  "novelty": {
+   "N": 1,
+   "N_why": "后室恐怖加共享图鉴，新房间由 AI 批量生成再人工审核，不是运行时（基线报告）",
+   "T": 2,
+   "T_why": "每个世界 200 人，距离语音（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 26 万（11-25 读取）"
+   },
+   {
+    "k": "技术强",
+    "v": "每个世界 200 人，距离语音（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "capybara",
@@ -1093,7 +1434,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "水豚外卖加叠水果的开放世界，常规组合（基线报告）",
+   "T": 1,
+   "T_why": "WebSocket 多人联机（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "fanto",
@@ -1148,7 +1498,16 @@
   "source_posts": [],
   "alt_keys": [
    "fantos-megamart.vercel.app"
-  ]
+  ],
+  "novelty": {
+   "N": 1,
+   "N_why": "超市竞速加幽灵回放（基线报告）",
+   "T": 1,
+   "T_why": "多人比赛房间（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dirtbound",
@@ -1185,7 +1544,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "无限生成赛段加赛道编辑器（基线报告）",
+   "T": 1,
+   "T_why": "程序化赛段加多人房间（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "bashfighter",
@@ -1222,7 +1590,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "大乱斗式平台格斗（基线报告）",
+   "T": 1,
+   "T_why": "20 人同场（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "uncracked",
@@ -1259,7 +1636,25 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "嫌疑人由大模型扮演并会说谎（基线报告）",
+   "T": 2,
+   "T_why": "运行时大模型对话（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "嫌疑人由大模型扮演并会说谎（基线报告）"
+   },
+   {
+    "k": "技术强",
+    "v": "运行时大模型对话（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "callyoulater",
@@ -1296,7 +1691,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "互动短片可走进去，对话是否由大模型未写明（基线报告）",
+   "T": 1,
+   "T_why": "React Three Fiber 3D 场景（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "magical",
@@ -1318,7 +1722,7 @@
   "tech": "由 Claude Code 辅助开发",
   "xcheck": "",
   "src": "AI 游戏精选清单；官网页面",
-  "hot": false,
+  "hot": true,
   "ai_tag": "ai",
   "ai_evidence": "大模型是玩法的一部分",
   "status": "verified",
@@ -1333,7 +1737,26 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "假终端加 AI 旁白，AI 参与运行（基线报告）",
+   "T": 2,
+   "T_why": "运行时由 AI 担任旁白（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "假终端加 AI 旁白，AI 参与运行（基线报告）"
+   },
+   {
+    "k": "技术强",
+    "v": "运行时由 AI 担任旁白（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "wenware",
@@ -1360,7 +1783,7 @@
   "tech": "three.js，由 Codex 辅助开发",
   "xcheck": "",
   "src": "Vibe Jam 官方获奖名单；游玩数为 JamVault 存档站显示值，统计口径未公开",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "three.js，由 Codex 辅助开发",
   "status": "verified",
@@ -1375,7 +1798,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "360° 历史场景猜地点加猜年代，套用 GeoGuessr 式玩法，真实历史场景是内容（基线报告）",
+   "T": 1,
+   "T_why": "只写 three.js（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "gerrymandle",
@@ -1397,7 +1829,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -1412,7 +1844,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "每日划选区谜题，机制少见（基线报告）",
+   "T_why": "卡片没有技术信息（基线报告）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "每日划选区谜题，机制少见（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "wonderhop",
@@ -1449,7 +1896,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "每日问卷加反向答案，一处新做法（基线报告）",
+   "T_why": "卡片没有技术信息（基线报告）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "swervle",
@@ -1486,7 +1942,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "Wordle 式每日赛车，两类型组合（基线报告）",
+   "T": 1,
+   "T_why": "每日程序生成路线，three.js（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "worrrrld",
@@ -1523,7 +1988,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "30 秒小游戏加挑战链接，模板式（基线报告）",
+   "T": 0,
+   "T_why": "只写 Next.js（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tinywind",
@@ -1565,7 +2039,21 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "真实帆船物理是核心操作（基线报告）",
+   "T": 0,
+   "T_why": "只写浏览器免安装、像素画面（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "真实帆船物理是核心操作（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "housing",
@@ -1602,7 +2090,21 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "把城市建设反过来，机制讽刺现实住房政治（基线报告）",
+   "T_why": "卡片没有技术信息（基线报告）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "把城市建设反过来，机制讽刺现实住房政治（基线报告）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "weball",
@@ -1624,7 +2126,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": false,
+  "hot": true,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -1639,7 +2141,22 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "任意网页变成关卡，罕见核心机制（基线报告）",
+   "T_why": "卡片没有技术信息（基线报告）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "任意网页变成关卡，罕见核心机制（基线报告）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "messenger",
@@ -1681,7 +2198,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "几分钟走完一圈的小星球送信，设计有新意（基线报告）",
+   "T": 0,
+   "T_why": "只写 WebGL（基线报告）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_stranglethorn",
@@ -1713,7 +2239,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Spawn 公开接口（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
   "status": "verified",
@@ -1730,7 +2256,16 @@
   "x_handles": [
    "Izkimar"
   ],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "搜打撤 RPG 的常规做法（Spawn 页面说明）",
+   "T_why": "没有技术信息（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_league",
@@ -1762,7 +2297,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Spawn 公开接口（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
   "status": "verified",
@@ -1779,7 +2314,16 @@
   "x_handles": [
    "Izkimar"
   ],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "标准 MOBA（Spawn 页面说明）",
+   "T": 1,
+   "T_why": "5v5 实时对战，规模十人（Spawn 页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_fabling",
@@ -1806,7 +2350,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Spawn 公开接口（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
   "status": "verified",
@@ -1821,7 +2365,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "动物园经营加第一人称巡园切换，原创题材（Spawn 页面说明）",
+   "T_why": "没有技术信息（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_inkblade",
@@ -1853,7 +2406,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Spawn 公开接口（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
   "status": "verified",
@@ -1868,7 +2421,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "墨迹永久留在纸页上，一处明确新做法（Spawn 页面说明）",
+   "T_why": "没有技术信息（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_dust2",
@@ -1910,7 +2472,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "标准死斗射击（Spawn 页面说明）",
+   "T_why": "没有技术信息（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_shogun",
@@ -1952,7 +2523,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "常规策略建设（Spawn 页面说明）",
+   "T_why": "没有技术信息，MMO 规模未写（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_underground",
@@ -1994,7 +2574,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "普通竞技场射击（Spawn 页面说明）",
+   "T_why": "没有技术信息（Spawn 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sp_diablo",
@@ -2038,7 +2627,16 @@
   "x_handles": [
    "Izkimar"
   ],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "幸存者类常规做法（Spawn 页面说明）",
+   "T": 1,
+   "T_why": "最多 4 人合作（Spawn 页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_mine8",
@@ -2080,7 +2678,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N_why": "平台页没有玩法描述（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_ldw",
@@ -2122,7 +2729,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "英雄防守常规做法（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_snake",
@@ -2164,7 +2780,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N_why": "平台页没有玩法描述，只有题材（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_food",
@@ -2206,7 +2831,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "切水果式街机（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_ani",
@@ -2248,7 +2882,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "钓鱼冲榜常规做法（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v8_cold",
@@ -2290,7 +2933,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "常规策略 RPG（Verse8 页面说明）",
+   "T_why": "没有技术信息（Verse8 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "as_egg",
@@ -2312,7 +2964,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Astrocade 热门页（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "status": "verified",
@@ -2327,7 +2979,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "偷蛋养宠，同类模板（Astrocade 页面说明）",
+   "T_why": "没有技术信息（Astrocade 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "as_nds",
@@ -2364,7 +3025,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "灾害生存常规做法（Astrocade 页面说明）",
+   "T_why": "没有技术信息（Astrocade 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "as_forge",
@@ -2401,7 +3071,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "养成刷宝常规做法（Astrocade 页面说明）",
+   "T_why": "没有技术信息（Astrocade 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "as_squishy",
@@ -2438,7 +3117,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "史莱姆 ASMR 解压模板（Astrocade 页面说明）",
+   "T_why": "没有技术信息（Astrocade 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "as_rich",
@@ -2475,7 +3163,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "选择跑酷模板（Astrocade 页面说明）",
+   "T_why": "没有技术信息（Astrocade 页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rb_superhot",
@@ -2512,7 +3209,21 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 2,
+   "N_why": "只有移动时时间才流动，跨类型机制是核心（Rosebud 页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "只有移动时时间才流动，跨类型机制是核心（Rosebud 页面说明）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "rb_chiikawa",
@@ -2549,7 +3260,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "Megabonk 式幸存者换皮（页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rb_finger",
@@ -2586,7 +3306,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "手指枪打幽灵，有一处输入设定（页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rb_passengers",
@@ -2623,7 +3352,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "物理驱动空难求生，抓住其他乘客（页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rb_sir",
@@ -2660,7 +3398,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N_why": "平台页只有一句征服高塔，没有玩法（页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "farworlds",
@@ -2687,7 +3434,7 @@
   "tech": "浏览器体素引擎",
   "xcheck": "",
   "src": "官网页面（2026-11-10）",
-  "hot": true,
+  "hot": false,
   "ai_tag": "unlabeled",
   "ai_evidence": "",
   "status": "verified",
@@ -2702,7 +3449,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "类 MMORPG 合作体素 RPG，常规做法（页面说明）",
+   "T": 1,
+   "T_why": "自研体素引擎，多平台，合作（页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sumbasurf",
@@ -2739,7 +3495,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 0,
+   "N_why": "冲浪体育常规做法（页面说明）",
+   "T_why": "没有技术信息（页面说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tinyskies",
@@ -2781,7 +3546,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "双翼机、魔毯、小船混合探索，多人（页面说明）",
+   "T": 1,
+   "T_why": "three.js，支持多人（页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "haldane",
@@ -2823,7 +3597,16 @@
   "extra_shots": [],
   "sources": [],
   "x_handles": [],
-  "source_posts": []
+  "source_posts": [],
+  "novelty": {
+   "N": 1,
+   "N_why": "纯字符画面的恐怖短篇，呈现方式少见（页面说明）",
+   "T": 0,
+   "T_why": "HTML5 Canvas 字符画面（页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "earth",
@@ -2837,8 +3620,9 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "42.9 万",
-    "doubt": false
+    "value": "43.1 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "play": "把真实地球做成体素世界在浏览器里探索。视频里镜头先后掠过海岸日落、雨夜的巴黎街道、犹他州 US-163 公路（带经纬度标注）、霓虹广告牌密布的纽约式街区，再拉到太空俯瞰海岸线，机身是一架红色飞行器，说明可以在近地面和高空之间切换。作者称可去任何地方、破坏任何东西，天气等与真实地球实时对应。地形、建筑、树冠高度取自开放地图和高程数据（片尾署名 Overture、OpenStreetMap、NOAA 等）。目标、失败条件和成长系统：未确认，更像开放沙盒。 X 回复（约 10 条）：作者说游戏里有彩蛋，可以飞去月球；有玩家反馈打开就报错；有人问地址里的 room=local 是否意味着看不到别人留下的弹坑，作者让他去掉参数自己试。",
@@ -2859,8 +3643,8 @@
   "issue": "2026-11-09",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 42.9 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 43.1 万（11-25 读取）"
    }
   ],
   "icon": "earth_icon.ico",
@@ -2872,7 +3656,7 @@
     "url": "https://x.com/mattshumer_/status/2119877065701036047",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 429394,
+     "x_views": 431005,
      "x_likes": null
     }
    }
@@ -2886,7 +3670,7 @@
   "text_by": "据来源帖子和平台页面整理，未试玩",
   "link_status": "ok",
   "reasons": [
-   "X 帖子（@mattshumer_，核验确认），浏览 42.9 万"
+   "X 帖子（@mattshumer_，核验确认），浏览 43.1 万"
   ],
   "stats_date": "2026-11-19",
   "hot_since": "2026-11-12",
@@ -2900,7 +3684,25 @@
     "duration": 56.8
    }
   ],
-  "play_basis": "视频抽帧（X 帖视频 56.8 秒，8 帧）+ 帖子文字 + 片尾数据署名；未确认：操作键位、破坏方式、多人房间（room 参数）的实际表现、有无任务或成长系统均未试玩；天气实时对应只是作者说法（2026-11-19 核验）"
+  "play_basis": "视频抽帧（X 帖视频 56.8 秒，8 帧）+ 帖子文字 + 片尾数据署名；未确认：操作键位、破坏方式、多人房间（room 参数）的实际表现、有无任务或成长系统均未试玩；天气实时对应只是作者说法（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "用开放地图数据生成整颗体素地球，可飞可逛可破坏，玩法是常规沙盒，真实数据是内容（视频抽帧 + 帖子）",
+   "T": 2,
+   "T_why": "整个体素世界由地图和高程数据生成（视频抽帧 + 作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 43.1 万（11-25 读取）"
+   },
+   {
+    "k": "技术强",
+    "v": "整个体素世界由地图和高程数据生成（视频抽帧 + 作者自述）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "hogwarts-royale",
@@ -2915,7 +3717,8 @@
    {
     "label": "X 帖子浏览",
     "value": "17.4 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "play": "画面里玩家骑着扫帚在城堡和森林上空飞行，能进入三把扫帚酒馆，场景里有紫色毒圈压过来，天上有摄魂怪式的黑影，地上有紫色宝箱，玩家还能撑起魔法护盾。 作者给模型的要求是\"把《哈利·波特》和《堡垒之夜》混在一起\"；平台页介绍说空降入场、找魔杖、在缩圈中活到最后。（玩法取自视频抽帧） X 回复（约 14 条）：褒贬混杂。有人质疑模型直接混搭《哈利·波特》IP 是否该受限制，有人嫌视频大半在走路、说这类 AI 3D 内容粗糙；也有人觉得魔杖对战的大逃杀有意思。",
@@ -2934,7 +3737,12 @@
   },
   "added": "2026-11-11",
   "issue": "2026-11-09",
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 17.4 万（11-25 读取）"
+   }
+  ],
   "icon": "hogwarts-royale_icon.ico",
   "shot": "hogwarts-royale_shot.jpg",
   "extra_shots": [],
@@ -2944,7 +3752,7 @@
     "url": "https://x.com/mattshumer_/status/2119872098306810226",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 173748,
+     "x_views": 173974,
      "x_likes": null
     }
    }
@@ -2963,7 +3771,21 @@
   "stats_date": "2026-11-19",
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "把《哈利·波特》和《堡垒之夜》直接混搭的大逃杀，X 浏览 17.3 万；回复里有人质疑 IP 混用。",
-  "tech_basis": "平台说明 / 作者自述"
+  "tech_basis": "平台说明 / 作者自述",
+  "novelty": {
+   "N": 1,
+   "N_why": "哈利波特和堡垒之夜混搭大逃杀，两半都常规（视频抽帧）",
+   "T_why": "只有 Spawn 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "X 有传播",
+    "v": "X 单帖浏览 17.4 万（11-25 读取）"
+   }
+  ]
  },
  {
   "id": "seriesoftubes",
@@ -2999,12 +3821,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "题材少见：用经营游戏讲互联网基础设施怎么运转"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "GitHub 247 星"
   ],
@@ -3026,10 +3843,23 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "把真实互联网运作做成卡通经营，含多人对等互联和排行榜",
   "tech_basis": "站点代码特征识别 / 平台说明",
-  "play_basis": "仓库 README（GitHub 官方说明）+ 页面标题；未找到视频；未确认：具体操作方式（鼠标拖拽还是菜单）、新手引导和失败条件（破产还是没有）未试玩确认（2026-11-19 核验）"
+  "play_basis": "仓库 README（GitHub 官方说明）+ 页面标题；未找到视频；未确认：具体操作方式（鼠标拖拽还是菜单）、新手引导和失败条件（破产还是没有）未试玩确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 2,
+   "N_why": "用经营游戏讲清互联网基础设施的运转（仓库 README）",
+   "T": 1,
+   "T_why": "Canvas 2D，WebSocket 多人对等互联（仓库 README + 代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "用经营游戏讲清互联网基础设施的运转（仓库 README）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "ghanaian-street-games-you-can-play-in-th",
@@ -3044,7 +3874,7 @@
   "tech": "浏览器 3D（页面有 WebGL 检测提示），含 Canvas 2D、Firebase；具体引擎未识别",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-11",
@@ -3065,12 +3895,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 116 分"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Hacker News 116 分"
   ],
@@ -3090,11 +3915,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "一条街里装 35 款加纳街头游戏，可单人、轮流或联机",
   "tech_basis": "站点代码特征识别（补查脚本）",
-  "play_basis": "页面 HTML 文字和脚本说明 + Hacker News 评论；未进入游戏试玩，无视频；未确认：每款游戏的具体规则和手感未试玩；HN 评论有加纳用户称许多操作不好用、像一次性生成，说明完成度参差（2026-11-19 核验）"
+  "play_basis": "页面 HTML 文字和脚本说明 + Hacker News 评论；未进入游戏试玩，无视频；未确认：每款游戏的具体规则和手感未试玩；HN 评论有加纳用户称许多操作不好用、像一次性生成，说明完成度参差（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "35 款加纳街头游戏合集，文化内容有特色（页面说明）",
+   "T": 0,
+   "T_why": "3D 但引擎未识别，评论称完成度参差（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "banana-mine-rush",
@@ -3127,7 +3960,8 @@
    {
     "label": "X 帖子浏览",
     "value": "1 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
@@ -3142,7 +3976,7 @@
     "url": "https://x.com/0xChuckstock/status/2120125184606658728",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 10257,
+     "x_views": 10414,
      "x_likes": 54
     }
    }
@@ -3157,7 +3991,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Remix 平台上用 Fable 5.2 做的 3D 矿车竞速，作者称主要为测试模型；X 浏览 1 万。",
-  "tech_basis": "作者自述 / 平台说明"
+  "tech_basis": "作者自述 / 平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "轨道矿车竞速常规做法（视频抽帧）",
+   "T_why": "只有 Remix 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "voxels",
@@ -3172,7 +4015,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3193,12 +4036,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 33.5 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-10-28 发布"
   ],
@@ -3220,11 +4058,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "仿 Minecraft 菜单与生存/创造/多人，带采矿排行榜",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（仅到主菜单，未进入世界）；未确认：未进入游戏世界，合成配方、地图规模、多人服务器人数、操作方式均未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（仅到主菜单，未进入世界）；未确认：未进入游戏世界，合成配方、地图规模、多人服务器人数、操作方式均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "Minecraft 式方块沙盒（页面说明 + 试玩截图）",
+   "T_why": "只有平台通用说明，未进入世界（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "snowfield-taco-stand",
@@ -3239,7 +4085,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3260,12 +4106,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.4 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-05 发布"
   ],
@@ -3287,11 +4128,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "拖动摇杆做塔可、猎熊、扩营地的雪原轻经营",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能点进世界，扩建和升级的具体内容、有无失败条件未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能点进世界，扩建和升级的具体内容、有无失败条件未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "模板化轻经营（页面说明 + 试玩截图）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "zombies-vs-humans-with-guns",
@@ -3306,7 +4155,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3327,12 +4176,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 14 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-10 发布"
   ],
@@ -3355,10 +4199,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-14",
   "highlight": "方块风港口场景的人对僵尸射击，页面无玩法说明",
   "tech_basis": "平台说明",
-  "play_basis": "页面标签 + 试玩截图（仅开场画面）；未确认：玩法循环、操作、失败条件、成长系统均未确认（2026-11-19 核验）"
+  "play_basis": "页面标签 + 试玩截图（仅开场画面）；未确认：玩法循环、操作、失败条件、成长系统均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N_why": "页面没有玩法文字，只有标签和开场画面（试玩截图）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "frost-harbor-ice-fishing-tycoon",
@@ -3418,7 +4270,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 热门榜第 7，冰雪经营题材，与 Snowfield Taco Stand 等同期上榜。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "冰钓经营常规做法（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "ben-10-ultimate-aliens",
@@ -3433,7 +4294,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3454,12 +4315,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 37.3 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-10-31 发布"
   ],
@@ -3481,11 +4337,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "使用 Ben 10 IP 的变身进化动作同人作，有授权风险",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（仅封面）；未确认：操作、关卡、进化条件、失败条件未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（仅封面）；未确认：操作、关卡、进化条件、失败条件未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "Ben 10 同人变身动作，玩法未确认（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "keyboard-escape-space-alien",
@@ -3545,7 +4409,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面描述只有一个作者名，看不出玩法；榜第 13、游玩 2.2 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N_why": "页面没有玩法，只能按标题和封面猜（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "steal-an-egg-monster",
@@ -3560,7 +4433,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3581,12 +4454,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.5 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-07 发布"
   ],
@@ -3608,11 +4476,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "Steal an Egg 换怪物皮，加入巨型守卫与斧头/陷阱选择",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（开场说明界面）；未确认：守卫行为、对手如何干扰、孵化稀有度和失败惩罚未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（开场说明界面）；未确认：守卫行为、对手如何干扰、孵化稀有度和失败惩罚未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "Steal an Egg 同一公式换皮（页面说明 + 试玩截图）",
+   "T": 0,
+   "T_why": "平台模板生成的简单 3D（试玩截图）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "d2-web",
@@ -3627,7 +4503,7 @@
   "tech": "C++ 编译为 WebAssembly（Emscripten），WebGL2 渲染；开源",
   "xcheck": "",
   "src": "GitHub 接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3670,7 +4546,22 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把《暗黑破坏神 2：毁灭之王》1.13c 引擎重写并编译到浏览器，需自备游戏文件，带联机服务器；GitHub 73 星。",
-  "tech_basis": "仓库标签 / 作者自述"
+  "tech_basis": "仓库标签 / 作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "老游戏引擎重写，玩法不新（作者自述）",
+   "T": 2,
+   "T_why": "暗黑 2 引擎重写成 WASM，WebGL2，带联机服务（仓库标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "暗黑 2 引擎重写成 WASM，WebGL2，带联机服务（仓库标签）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "pokemon-survivors",
@@ -3728,7 +4619,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "体量较完整的非官方宝可梦同人：27 只初始宝可梦、最多 4 人联机和竞技场；存在 IP 风险，GitHub 32 星。",
-  "tech_basis": "仓库标签 / 站点代码特征识别"
+  "tech_basis": "仓库标签 / 站点代码特征识别",
+  "novelty": {
+   "N": 0,
+   "N_why": "幸存者类宝可梦同人（仓库 README）",
+   "T": 1,
+   "T_why": "最多 4 人联机，竞技场和在线小镇（仓库 README）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dream-arcade-demo",
@@ -3743,7 +4643,7 @@
   "tech": "原生 JavaScript + Canvas，GitHub Pages 静态托管；调用 RunningHub 模型接口",
   "xcheck": "",
   "src": "GitHub 接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -3786,7 +4686,26 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把大模型生成单位这一环节放进玩法本身，再带入三种玩法模式；GitHub 96 星。",
-  "tech_basis": "仓库标签 / 作者自述"
+  "tech_basis": "仓库标签 / 作者自述",
+  "novelty": {
+   "N": 2,
+   "N_why": "大模型运行时生成单位并带入玩法，是核心（仓库 README）",
+   "T": 2,
+   "T_why": "运行时调用大模型接口（仓库标签 + 作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "大模型运行时生成单位并带入玩法，是核心（仓库 README）"
+   },
+   {
+    "k": "技术强",
+    "v": "运行时调用大模型接口（仓库标签 + 作者自述）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "ashfolk",
@@ -3844,7 +4763,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "带程序化生成的浏览器上帝模拟，GitHub 31 星，仓库标签含 WebGPU。",
-  "tech_basis": "仓库标签"
+  "tech_basis": "仓库标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "上帝模拟，降雨放火干预部落发展（仓库 README）",
+   "T": 1,
+   "T_why": "three.js 支持 WebGPU，程序化生成（仓库标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "flickshot",
@@ -3904,7 +4832,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面称 3 周内迭代 6,429 个版本；Spawn 游玩 1,983 次，榜第 11。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "瞄准训练加对战，常规做法（Spawn 页面说明）",
+   "T_why": "只有 Spawn 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "spawn-turismo",
@@ -3964,7 +4901,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面称 3 周内迭代 2,919 个版本；使用真实车型，Spawn 游玩 3,889 次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "常规赛车计时赛（Spawn 页面说明）",
+   "T_why": "只有 Spawn 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "aether-legends",
@@ -4024,7 +4970,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "西班牙语的召唤养成 RPG，页面称 2 周迭代 7,418 个版本；游玩 988 次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "召唤养成 RPG 常规做法（Spawn 页面说明）",
+   "T_why": "只有 Spawn 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "glint",
@@ -4084,7 +5039,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "类 CS 加 COD 的方块 FPS，页面称 4 周迭代 17,075 个版本；游玩 930 次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "CS 加 COD 方块 FPS（Spawn 页面说明）",
+   "T_why": "只有 Spawn 平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tides-of-fortune-an-open-world-pirate-ga",
@@ -4143,7 +5107,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "仓库自称 vibecoded 的 3D 海盗游戏，作者称零素材文件，全部由代码生成；致敬《席德·梅尔的海盗》。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "航海贸易海战，致敬经典（作者自述）",
+   "T": 1,
+   "T_why": "零素材文件，全由代码生成，作者自述（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "afk-city-a-city-that-builds-itself-while",
@@ -4202,7 +5175,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "偏放置观赏的城市建造，作者称自己做设计和美术指导、代码基础由 Gemini 3 搭建。",
-  "tech_basis": "作者自述 / 站点代码特征识别"
+  "tech_basis": "作者自述 / 站点代码特征识别",
+  "novelty": {
+   "N": 1,
+   "N_why": "城市自己长大，可旁观也可接手（作者自述）",
+   "T": 1,
+   "T_why": "three.js，城市自动生长（作者自述 + 代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game",
@@ -4234,13 +5216,14 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "8,699",
-    "doubt": false
+    "value": "8,761",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@gourav_io，核验确认），浏览 8,699"
+   "X 帖子（@gourav_io，核验确认），浏览 8,761"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明用 Claude 和 three.js 氛围编程",
@@ -4250,7 +5233,7 @@
     "url": "https://x.com/gourav_io/status/2119791071089852888",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 8699,
+     "x_views": 8761,
      "x_likes": 12
     }
    }
@@ -4265,7 +5248,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者在调僵尸 AI，会追人、翻越障碍，X 浏览 8,620；无试玩链接，角色模型来源在回复里有争议。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "僵尸追逐，测试场景（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js 加 Mixamo 动画（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "frensofpria",
@@ -4298,7 +5290,8 @@
    {
     "label": "X 帖子浏览",
     "value": "3.3 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
@@ -4313,7 +5306,7 @@
     "url": "https://x.com/FrensOfPRIA/status/2119643510207099323",
     "date": "2026-11-10",
     "metrics": {
-     "x_views": 33118,
+     "x_views": 33337,
      "x_likes": 244
     }
    }
@@ -4328,7 +5321,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称做了三个月，X 浏览 3.3 万；回复里夸氛围也有人批评是 AI 粗制滥造，没有试玩链接。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "摩托加射击，只有几帧，玩法不明（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js，三个月制作（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "cod",
@@ -4361,7 +5363,8 @@
    {
     "label": "X 帖子浏览",
     "value": "1.3 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
@@ -4376,7 +5379,7 @@
     "url": "https://x.com/alightinastorm/status/2120020469487440210",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 13007,
+     "x_views": 13079,
      "x_likes": 119
     }
    }
@@ -4391,7 +5394,16 @@
   "images_tried": true,
   "note": "名称和玩法取自作者在帖子下的回复和视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称用 Fable 5.2 做类 COD 游戏，两天迭代 1714 版；X 浏览 1.3 万，无链接。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准类 COD 团队死斗（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js，有机器人和朋友同场（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "three-js",
@@ -4424,10 +5436,16 @@
    {
     "label": "X 帖子浏览",
     "value": "5.9 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 5.9 万（11-25 读取）"
+   }
+  ],
   "reasons": [
    "X 帖子（@alightinastorm，核验确认），浏览 5.9 万"
   ],
@@ -4439,7 +5457,7 @@
     "url": "https://x.com/alightinastorm/status/2120010936584945922",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 58681,
+     "x_views": 58806,
      "x_likes": 451
     }
    }
@@ -4454,7 +5472,21 @@
   "images_tried": true,
   "note": "名称和玩法取自视频抽帧（2026-11-16）；回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称服装、动画和音效都由 Claude 完成，X 浏览 5.8 万；尚无试玩链接，被问到“AAA”说法有争议。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "篮球比赛常规做法（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js，服装动画音效由 Claude 完成，无试玩链接（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "X 有传播",
+    "v": "X 单帖浏览 5.9 万（11-25 读取）"
+   }
+  ]
  },
  {
   "id": "game-2",
@@ -4486,13 +5518,14 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "4 万",
-    "doubt": false
+    "value": "4.1 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
   "reasons": [
-   "X 帖子（@EvanMilenko，核验确认），浏览 4 万"
+   "X 帖子（@EvanMilenko，核验确认），浏览 4.1 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
@@ -4502,7 +5535,7 @@
     "url": "https://x.com/EvanMilenko/status/2119969113762082931",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 40159,
+     "x_views": 40805,
      "x_likes": 204
     }
    }
@@ -4517,7 +5550,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Fable 5.2 一句话做出的日式剑斗，X 浏览 4 万，被比作《对马岛之魂》；作者未给链接。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "波次砍杀常规做法（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js，只有视频（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "fps",
@@ -4532,7 +5574,7 @@
   "tech": "作者称由 Claude Fable 5.2 制作；帖子未写引擎",
   "xcheck": "",
   "src": "X 帖子数据读取自公开接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-11",
@@ -4549,13 +5591,19 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "19.9 万",
-    "doubt": false
+    "value": "20.1 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 20.1 万（11-25 读取）"
+   }
+  ],
   "reasons": [
-   "X 帖子（@_sholtodouglas，核验确认），浏览 19.9 万"
+   "X 帖子（@_sholtodouglas，核验确认），浏览 20.1 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
@@ -4565,7 +5613,7 @@
     "url": "https://x.com/_sholtodouglas/status/2119935331499925557",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 199014,
+     "x_views": 201151,
      "x_likes": 1686
     }
    }
@@ -4580,7 +5628,22 @@
   "images_tried": true,
   "note": "名称和玩法取自 X 帖子视频抽帧（2026-11-16），回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "Fable 5.2 做的传送门 FPS，X 浏览 19.8 万；Splitgate 官号回复“似曾相识”。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 1,
+   "N_why": "传送门团队 FPS，类 Splitgate，官方称似曾相识（视频抽帧）",
+   "T_why": "帖子没写引擎（作者自述）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 20.1 万（11-25 读取）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "mmo",
@@ -4613,7 +5676,8 @@
    {
     "label": "X 帖子浏览",
     "value": "2.3 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
@@ -4628,7 +5692,7 @@
     "url": "https://x.com/Izkimar/status/2119931740940640542",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 22653,
+     "x_views": 22744,
      "x_likes": 297
     }
    }
@@ -4643,7 +5707,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称一天内做出整个 MMO 风格世界，素材全部由代码生成；X 浏览 2.3 万，只有视频演示。",
-  "tech_basis": "作者自述 / 平台说明"
+  "tech_basis": "作者自述 / 平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "视频里没有战斗或任务，是场景演示（视频抽帧）",
+   "T": 1,
+   "T_why": "作者称素材全部由代码生成，一天做出（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "gilt-gutter",
@@ -4675,13 +5748,19 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "10.8 万",
-    "doubt": false
+    "value": "10.9 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 10.9 万（11-25 读取）"
+   }
+  ],
   "reasons": [
-   "X 帖子（@kevin_t_ngo，核验确认），浏览 10.8 万"
+   "X 帖子（@kevin_t_ngo，核验确认），浏览 10.9 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Claude Fable 5.2 制作",
@@ -4691,7 +5770,7 @@
     "url": "https://x.com/kevin_t_ngo/status/2119900487688622171",
     "date": "2026-11-11",
     "metrics": {
-     "x_views": 108476,
+     "x_views": 109030,
      "x_likes": 281
     }
    }
@@ -4706,7 +5785,21 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "以同色子弹不伤人为核心规则的 1v1 FPS，作者称模型用 Tripo3D；X 浏览 10.8 万。",
-  "tech_basis": "站点代码特征识别 / 作者自述"
+  "tech_basis": "站点代码特征识别 / 作者自述",
+  "novelty": {
+   "N": 1,
+   "N_why": "同色子弹不伤人并给枪充能的 1v1 FPS（作者帖文）",
+   "T": 1,
+   "T_why": "three.js，Tripo3D 模型（作者自述 + 代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "X 有传播",
+    "v": "X 单帖浏览 10.9 万（11-25 读取）"
+   }
+  ]
  },
  {
   "id": "mu-online-solo-classic",
@@ -4721,7 +5814,7 @@
   "tech": "C++17 经 Emscripten 编译为 WebAssembly，WebGL2 渲染；纯客户端运行",
   "xcheck": "",
   "src": "GitHub 接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -4764,7 +5857,22 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把老网游《奇迹 MU》的客户端和服务端一起编进浏览器单机运行，涉及原作 IP；GitHub 39 星、30 分叉。",
-  "tech_basis": "作者自述 / 站点代码特征识别"
+  "tech_basis": "作者自述 / 站点代码特征识别",
+  "novelty": {
+   "N": 0,
+   "N_why": "老网游移植，玩法不新（作者自述）",
+   "T": 2,
+   "T_why": "客户端和服务端一起编译成 WASM，WebGL2（作者自述 + 代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "客户端和服务端一起编译成 WASM，WebGL2（作者自述 + 代码特征）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "roadside",
@@ -4797,7 +5905,8 @@
    {
     "label": "X 帖子浏览",
     "value": "1.6 万",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [
@@ -4817,7 +5926,7 @@
     "url": "https://x.com/scottstts/status/2120549388745379867",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 16273,
+     "x_views": 16400,
      "x_likes": 267
     }
    }
@@ -4832,7 +5941,16 @@
   "images_tried": true,
   "note": "玩法取自 X 帖子视频抽帧，回复取自登录后打开的 X 原帖页面（2026-11-16）",
   "highlight": "作者称摩托和手臂全部程序生成，X 浏览 1.6 万；看起来是固定镜头的场景演示，不是可玩游戏。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "固定镜头场景演示，不可玩（视频抽帧）",
+   "T": 1,
+   "T_why": "摩托和手臂全部程序生成（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "lanternfall",
@@ -4864,18 +5982,19 @@
   "stats": [
    {
     "label": "X 帖子浏览",
-    "value": "20.2 万",
-    "doubt": false
+    "value": "20.5 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 20.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 20.5 万（11-25 读取）"
    }
   ],
   "reasons": [
-   "X 帖子（@loktar00，核验确认），浏览 20.2 万"
+   "X 帖子（@loktar00，核验确认），浏览 20.5 万"
   ],
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
@@ -4885,7 +6004,7 @@
     "url": "https://x.com/loktar00/status/2120192761542615271",
     "date": "2026-11-12",
     "metrics": {
-     "x_views": 201858,
+     "x_views": 204639,
      "x_likes": null
     }
    }
@@ -4909,7 +6028,21 @@
     "duration": 68.1
    }
   ],
-  "play_basis": "视频抽帧（X 帖视频 68 秒，8 帧）+ 页面（仅显示标题与图形上下文丢失提示）+ 回帖；未确认：具体操作方式（点击还是按键）、整局有几个阶段、失败条件未确认；作者所称的制作时长与 AI 生成程度只是帖子说法（2026-11-19 核验）"
+  "play_basis": "视频抽帧（X 帖视频 68 秒，8 帧）+ 页面（仅显示标题与图形上下文丢失提示）+ 回帖；未确认：具体操作方式（点击还是按键）、整局有几个阶段、失败条件未确认；作者所称的制作时长与 AI 生成程度只是帖子说法（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "提灯小队自动战斗加三选一升级（视频抽帧）",
+   "T": 1,
+   "T_why": "three.js，只有技术名（代码特征 + 自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 20.5 万（11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "frost-lumber-camp",
@@ -4923,7 +6056,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -4945,12 +6078,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 6.2 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-07 发布"
   ],
@@ -4973,10 +6101,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-14",
   "highlight": "斧环自动砍树打猎，堆资源建铁路营地",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能进入，升级项和失败条件未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（封面后的提示文字）；未确认：封面遮挡未能进入，升级项和失败条件未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "斧环砍树建营地，模板式（页面说明 + 试玩截图）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "winter-upd-first-date-on-park",
@@ -5036,7 +6172,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以约会为主题的游乐园模拟，近期做了冬季更新；游玩 2.5 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "游乐园约会，常规做法（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "squishy-balloon-slime-diy-asmr",
@@ -5050,7 +6195,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -5072,12 +6217,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-10 发布"
   ],
@@ -5099,11 +6239,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "无失败条件的史莱姆 DIY 解压，倒料、加料、捏气球",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（封面画面）；未确认：未进入玩法，操作细节和是否有任务/评分未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（封面画面）；未确认：未进入玩法，操作细节和是否有任务/评分未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "史莱姆 ASMR 解压模板（页面说明 + 试玩截图）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "minecraft-billionaire-treehouse",
@@ -5117,7 +6265,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -5139,12 +6287,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 18.9 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-01 发布"
   ],
@@ -5166,11 +6309,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "以 Minecraft 之名的方块巨树豪宅参观，页面无玩法说明",
   "tech_basis": "平台说明",
-  "play_basis": "页面标签 + 试玩封面截图；未确认：未进入游戏，是漫游、建造还是有任务全部未确认（2026-11-19 核验）"
+  "play_basis": "页面标签 + 试玩封面截图；未确认：未进入游戏，是漫游、建造还是有任务全部未确认（2026-11-19 核验）",
+  "novelty": {
+   "N_why": "页面描述只有用户名，没有玩法文字（试玩封面）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "steal-an-egg",
@@ -5184,7 +6335,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -5208,8 +6359,8 @@
   ],
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 84.4 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 84.4 万 次（≥ 50 万）"
    }
   ],
   "reasons": [
@@ -5233,11 +6384,24 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-12",
   "images_tried": true,
   "highlight": "偷蛋、躲浪、锁基地并靠重生滚收入的 Roblox 式循环",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（进入游戏，WASD 移动）；未确认：蛋的获取路线、被抢后的损失、彩虹条含义、重生的奖励没有具体试验（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（进入游戏，WASD 移动）；未确认：蛋的获取路线、被抢后的损失、彩虹条含义、重生的奖励没有具体试验（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "偷蛋养宠模板（页面说明 + 试玩）",
+   "T": 0,
+   "T_why": "平台模板生成的简单 3D（试玩截图）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "平台爆款",
+    "v": "Astrocade 游玩数 84.4 万 次（≥ 50 万）"
+   }
+  ]
  },
  {
   "id": "anime-wedding-dress-up-studio",
@@ -5251,7 +6415,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -5273,12 +6437,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 7.7 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-08 发布"
   ],
@@ -5300,11 +6459,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "常规的竖屏换装，加场地选择与红毯评分",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（换装界面）；未确认：具体标签、解锁方式、爱心值如何计算未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（换装界面）；未确认：具体标签、解锁方式、爱心值如何计算未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "换装模板（页面说明 + 试玩截图）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sunrise-high-school-life",
@@ -5318,7 +6485,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -5340,12 +6507,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 11.2 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-09 发布"
   ],
@@ -5367,11 +6529,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "方块校园日常，带课表、小地图和昼夜循环",
   "tech_basis": "平台说明",
-  "play_basis": "页面说明 + 试玩截图（开场字幕）；未确认：未能进入游戏，日程驱动方式和奖励未确认（2026-11-19 核验）"
+  "play_basis": "页面说明 + 试玩截图（开场字幕）；未确认：未能进入游戏，日程驱动方式和奖励未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "校园生活模板（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "ninja-unleashed",
@@ -5431,7 +6601,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "页面强调原创忍者角色的 3D 屋顶跑酷，游玩 3.6 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "忍者跑酷动作常规做法（页面说明）",
+   "T_why": "只有平台通用说明（平台说明）",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "pocket-soccer-3d",
@@ -5445,7 +6624,7 @@
   "tech": "three.js r128（cdnjs 引入，WebGL），单 HTML 文件，含 Web Audio；仓库描述标注 Claude Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -5472,12 +6651,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "规则完整的 7 人制足球做进单个网页文件；Fable52.games 站内游玩数排第二"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道）"
   ],
@@ -5507,11 +6681,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "一个 HTML 文件里的 7 人制足球，含越位、红黄牌和 8 级难度",
   "tech_basis": "站点代码特征识别 / 仓库描述",
-  "play_basis": "GitHub README（官方说明与按键表）；未试玩，无视频；未确认：手感、AI 强度和实际流畅度未试玩确认（2026-11-19 核验）"
+  "play_basis": "GitHub README（官方说明与按键表）；未试玩，无视频；未确认：手感、AI 强度和实际流畅度未试玩确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准 7 人制足球（仓库 README）",
+   "T": 1,
+   "T_why": "单个 HTML 文件做出规则完整的足球（仓库 README）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "mothlight-vesper-9",
@@ -5583,7 +6764,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Fable52.games 收录的赛博朋克竞速，站内游玩 667 次，题材和氛围为主要卖点。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "雨夜赛车常规做法（页面说明）",
+   "T": 1,
+   "T_why": "three.js，只有标签（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "what-the-water-keeps",
@@ -5620,8 +6810,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "51.2 万",
-    "doubt": false
+    "value": "51.6 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "Hacker News",
@@ -5631,8 +6822,8 @@
   ],
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 51.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 51.6 万（作者帖子，11-25 读取）"
    }
   ],
   "reasons": [
@@ -5684,7 +6875,21 @@
     "duration": 57.0
    }
   ],
-  "play_basis": "视频抽帧（X 帖视频 57 秒，8 帧）+ 页面说明 + 回帖；未确认：具体操作键位、实际可玩时长、是否有收集要素未试玩；帖子称共 8 个世界，视频抽帧只看到 7 个（2026-11-19 核验）"
+  "play_basis": "视频抽帧（X 帖视频 57 秒，8 帧）+ 页面说明 + 回帖；未确认：具体操作键位、实际可玩时长、是否有收集要素未试玩；帖子称共 8 个世界，视频抽帧只看到 7 个（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "无战斗划船体验，氛围向（视频抽帧）",
+   "T": 1,
+   "T_why": "实时绘制 8 个光色场景（视频抽帧）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 51.6 万（作者帖子，11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "bayhaven",
@@ -5698,7 +6903,7 @@
   "tech": "three.js（WebGL）；作者称由 Claude Fable 5.2 逐会话自主编写",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -5721,8 +6926,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "1,282",
-    "doubt": false
+    "value": "1,295",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -5730,12 +6936,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "新的制作方式：模型每次跑一个自主会话，公开地连续开发一款开放世界游戏"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道），试玩链接取自作者帖子里的链接，作者帖子浏览 1,282"
   ],
@@ -5773,11 +6974,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "AI 每天更新一个系统的开放世界犯罪游戏，公开边做边玩",
   "tech_basis": "Fable52 标签 / 作者自述",
-  "play_basis": "仓库 README、路线图和更新日志（至第 6 天）+ fable52.games 页面；未找到视频，未试玩；未确认：fablestar.games 页面在本机无法打开，当前最新版内容、已做到第几天、完整任务数、失败条件未确认；日志里也列出了许多未完成项（2026-11-19 核验）"
+  "play_basis": "仓库 README、路线图和更新日志（至第 6 天）+ fable52.games 页面；未找到视频，未试玩；未确认：fablestar.games 页面在本机无法打开，当前最新版内容、已做到第几天、完整任务数、失败条件未确认；日志里也列出了许多未完成项（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "开放世界犯罪加直播观众热度系统（仓库 README）",
+   "T": 1,
+   "T_why": "three.js 开放世界，逐会话公开开发（仓库 README）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "cs",
@@ -5836,7 +7044,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "基于他人作品 Saltline 的中文二次改作，反映 Fable52.games 的 remix 风气。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "Saltline 的中文换皮（页面说明）",
+   "T": 0,
+   "T_why": "换皮，沿用原技术（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dustfall",
@@ -5850,7 +7067,7 @@
   "tech": "three.js（WebGL），含 Web Audio；作者称为测试 Claude Fable 5 而做",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -5877,12 +7094,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "用 Fable 5.2 做出包含骑马、打猎、钓鱼、打牌等多种系统的开放世界"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
@@ -5912,11 +7124,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "带荣誉与悬赏系统的开放世界西部，含狩猎钓鱼二十一点",
   "tech_basis": "站点代码特征识别 / 作者自述",
-  "play_basis": "GitHub README（功能与键位表）；未试玩，无视频；未确认：页面本身只显示加载文字，实际流畅度、主线时长和完成度未试玩确认（2026-11-19 核验）"
+  "play_basis": "GitHub README（功能与键位表）；未试玩，无视频；未确认：页面本身只显示加载文字，实际流畅度、主线时长和完成度未试玩确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "西部开放世界，多系统但都是常规做法（仓库 README）",
+   "T": 1,
+   "T_why": "three.js 开放世界，未试玩（仓库 README）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "blameless",
@@ -5930,7 +7149,7 @@
   "tech": "three.js（WebGL），含 Canvas 2D、Web Audio；页面称由 AI 一个提示词生成，作者标注 Claude Fable 5",
   "xcheck": "",
   "src": "Fable52.games 页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -5957,12 +7176,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "程序员值班梗做成的射击游戏，作者写明由 AI 按一句提示词做出"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道），试玩链接取自源码仓库的主页"
   ],
@@ -5992,11 +7206,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "用运维术语做的 FPS，武器限流冷却、敌人是各类线上故障",
   "tech_basis": "站点代码特征识别 / 作者自述",
-  "play_basis": "GitHub README（键位、规则和敌人表）；未试玩，无视频；未确认：实际手感和关卡视觉未试玩；一个提示词生成属仓库自述（2026-11-19 核验）"
+  "play_basis": "GitHub README（键位、规则和敌人表）；未试玩，无视频；未确认：实际手感和关卡视觉未试玩；一个提示词生成属仓库自述（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "程序员值班梗，命令当武器、限流冷却（仓库 README）",
+   "T": 1,
+   "T_why": "one prompt 生成较完整游戏（仓库 README 自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "pelican-on-a-bike",
@@ -6055,7 +7276,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "单个 HTML 约 0.8 MB 的程序化 3D 小品，作者称是一个提示词的 Claude Opus 5.5 作品。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "骑车追鱼，场景为主（页面说明）",
+   "T": 1,
+   "T_why": "程序化生成，单 HTML 文件，一个提示词（页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-3",
@@ -6127,7 +7357,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国风仙侠题材的小体量飞行体验，站内游玩 444 次。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "御剑收集常规做法（页面说明）",
+   "T": 1,
+   "T_why": "three.js，只有标签（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "evensong",
@@ -6164,14 +7403,15 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "48.7 万",
-    "doubt": false
+    "value": "52.1 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 48.7 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 52.1 万（作者帖子，11-25 读取）"
    }
   ],
   "reasons": [
@@ -6205,7 +7445,21 @@
   "images_tried": true,
   "highlight": "只做一场首领战的魂系小体量 Demo；来源标注“Fable 5.2”未经核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签",
-  "hot_since": "2026-11-19"
+  "hot_since": "2026-11-19",
+  "novelty": {
+   "N": 0,
+   "N_why": "魂系 Boss 战常规做法（页面说明）",
+   "T": 1,
+   "T_why": "three.js，只有标签（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 52.1 万（作者帖子，11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "game-4",
@@ -6264,7 +7518,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产 IP 同人复刻，有授权风险；来源标注“Fable 5.2”未经核实。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "黑神话同人 Boss 战（页面说明）",
+   "T": 1,
+   "T_why": "three.js，只有标签（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tidebell",
@@ -6336,7 +7599,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "水下探索加程序化生成，与同作者 hahaliu1029 的数款作品同属一个仓库。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "潜艇下潜收集常规做法（页面说明）",
+   "T": 1,
+   "T_why": "程序化生成，three.js（Fable52 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "ironvale",
@@ -6408,7 +7680,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "标注由 Fable 5 制作的 3D 即时战略，类型比常见的单场景小游戏重；站内游玩 388 次、GitHub 1 星。",
-  "tech_basis": "Fable52 标签 / 仓库描述"
+  "tech_basis": "Fable52 标签 / 仓库描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "常规 3D 即时战略（页面说明）",
+   "T": 1,
+   "T_why": "three.js，只有标签（Fable52 标签 + 仓库）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sublevel-07",
@@ -6445,8 +7726,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "3.7 万",
-    "doubt": false
+    "value": "3.8 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -6493,7 +7775,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "一句话提示词、73 轮自主操作、41 分钟、128 KB 单文件做出 FPS 的复现实验，GitHub 95 星。",
-  "tech_basis": "Fable52 标签 / 仓库描述"
+  "tech_basis": "Fable52 标签 / 仓库描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "波次无人机 FPS（页面说明）",
+   "T": 1,
+   "T_why": "单 HTML 文件 128 KB，41 分钟做出（仓库描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-5",
@@ -6530,14 +7821,15 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "29.5 万",
-    "doubt": false
+    "value": "30.8 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 29.5 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 30.8 万（作者帖子，11-25 读取）"
    }
   ],
   "reasons": [
@@ -6578,7 +7870,21 @@
   "images_tried": true,
   "highlight": "“歸藏 Game Skill”（给 AI 用的做游戏技能包）的演示，该仓库 GitHub 357 星。",
   "tech_basis": "站点代码特征识别 / 仓库标签",
-  "hot_since": "2026-11-19"
+  "hot_since": "2026-11-19",
+  "novelty": {
+   "N": 0,
+   "N_why": "俯视角仙侠动作常规做法（页面说明）",
+   "T": 1,
+   "T_why": "单 HTML 文件加 AI 生成素材和 WASM 模块（代码特征 + 标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 30.8 万（作者帖子，11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "tuktuk",
@@ -6650,7 +7956,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "埃及街头题材的 3D 小游戏，页面为阿拉伯语，支持手机；站内游玩 201 次。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "街道驾驶躲避，埃及题材配常规机制（页面说明）",
+   "T": 1,
+   "T_why": "全部内容由代码绘制，支持手机（页面说明 + 代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "3d",
@@ -6709,7 +8024,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产竞速 IP 的同人 3D 复刻，存在授权风险；单个 HTML 约 0.7 MB。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "QQ飞车赛道同人复刻，漂移/氮气道具赛是标准卡丁车做法（页面说明）",
+   "T": 1,
+   "T_why": "单个HTML约0.7MB做出4条赛道的完整3D赛车（站点代码特征+页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "hanford-reach",
@@ -6781,7 +8105,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "只有第一关的建造游戏雏形，站内游玩 121 次、GitHub 0 星，完成度偏低。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "定居点建造只有第一关，机制无新东西（页面说明）",
+   "T": 1,
+   "T_why": "仅three.js，看不出表现力（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-6",
@@ -6818,14 +8151,15 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "32.2 万",
-    "doubt": false
+    "value": "32.3 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 32.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 32.3 万（他人介绍帖，11-25 读取）"
    }
   ],
   "reasons": [
@@ -6859,7 +8193,21 @@
   "images_tried": true,
   "highlight": "国产客户端 IP 的同人联机作品，存在授权风险；来源标注“Fable 5.2”未经核实。",
   "tech_basis": "站点代码特征识别 / Fable52 标签",
-  "hot_since": "2026-11-19"
+  "hot_since": "2026-11-19",
+  "novelty": {
+   "N": 0,
+   "N_why": "英雄联盟海克斯大乱斗同人，常规联机对战（页面说明）",
+   "T": 1,
+   "T_why": "联机对战房间（页面说明），规模与技术未核实",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "X 热度",
+    "v": "X 单帖浏览 32.3 万（他人介绍帖，11-25 读取）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "shuttle-strike",
@@ -6900,12 +8248,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "用摄像头追踪手部当输入的羽毛球，网页游戏里少见的玩法"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Fable52.games 合集站收录（二手渠道）"
   ],
@@ -6936,10 +8279,23 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "hot_since": "2026-11-13",
-  "hot_manual": true,
   "highlight": "用摄像头识别握拍挥拍，扣杀、挑球、吊球靠挥拍高度和力度区分。",
   "tech_basis": "站点代码特征识别 / 作者自述",
-  "play_basis": "游戏页面操作说明文字（curl 读取）+ 项目 GitHub 页标题；未找到视频，未实际用摄像头试玩；未确认：摄像头追踪的实际灵敏度与画面表现；未看到实机画面；电脑对手的三档难度差别（2026-11-19 核验）"
+  "play_basis": "游戏页面操作说明文字（curl 读取）+ 项目 GitHub 页标题；未找到视频，未实际用摄像头试玩；未确认：摄像头追踪的实际灵敏度与画面表现；未看到实机画面；电脑对手的三档难度差别（2026-11-19 核验）",
+  "novelty": {
+   "N": 2,
+   "N_why": "摄像头手部追踪挥拍当输入，网页游戏少见（页面操作说明+人工备注）",
+   "T": 1,
+   "T_why": "three.js+摄像头手部追踪的单HTML游戏（代码特征+作者自述），未实际试玩",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "玩法新",
+    "v": "摄像头手部追踪挥拍当输入，网页游戏少见（页面操作说明+人工备注）"
+   }
+  ],
+  "labels": []
  },
  {
   "id": "harvest-standoff",
@@ -7011,7 +8367,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "面向儿童的非暴力 5v5 团队对战，是这一批作品里少见的亲子题材。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "5v5非暴力亲子对战，题材少见（页面说明）",
+   "T": 1,
+   "T_why": "仅three.js，联机规模未写（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "daedalus",
@@ -7083,7 +8448,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "30 道谜题加神话题材，单个 HTML 约 120 KB，GitHub 1 星。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "30道古代机械谜题加神话题材（页面说明）",
+   "T": 1,
+   "T_why": "单个约120KB HTML含30关（代码特征+仓库描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "3d-2",
@@ -7142,7 +8516,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产射击 IP 经典地图的同人复刻，有授权风险；作者称一个提示词由 Opus 5.5 完成。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "穿越火线运输船地图同人复刻，标准团队射击（页面说明）",
+   "T": 1,
+   "T_why": "单HTML含机器人对战的3D射击（代码特征+作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "v25",
@@ -7201,7 +8584,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "代码特征显示是带 WebRTC 联机的 Godot 导出，不同于同批多数 three.js；来源未核实。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "合作平台跳跃Demo，收集星光，常规（页面说明）",
+   "T": 1,
+   "T_why": "Godot导出+WebRTC点对点联机（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "boring-game",
@@ -7238,8 +8630,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "314",
-    "doubt": false
+    "value": "316",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -7286,7 +8679,24 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "按真实地图数据做的体素旧金山湾区，拿“造价压到波兰的 2 倍以内”做目标，把基建成本和审批做成玩法。",
-  "tech_basis": "站点代码特征识别 / 仓库标签"
+  "tech_basis": "站点代码特征识别 / 仓库标签",
+  "novelty": {
+   "N": 2,
+   "N_why": "真实地图上的湾区地铁规划，造价和审批成为玩法核心，真实数据带来新机制；依据只有合集站页面说明，待试玩（页面说明）",
+   "T": 1,
+   "T_why": "three.js体素+真实地图数据（代码特征+仓库标签）",
+   "pending": [
+    "N"
+   ],
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "待核",
+    "v": "玩法新待核：真实地图上的湾区地铁规划，造价和审批成为玩法核心，真实数据带来新机制；依据只有合集站页面说明，待试玩（页面说明）"
+   }
+  ]
  },
  {
   "id": "misremember",
@@ -7358,7 +8768,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "利用“不看时场景改变”做恐怖机制，与同作者 hahaliu1029 的另几款同属一个仓库；站内游玩 100 次。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "不看时场景变化的恐怖机制，一处明确做法（页面说明）",
+   "T": 1,
+   "T_why": "仅Fable52标签写three.js，无表现力依据",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sternenj-ger",
@@ -7430,7 +8849,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "12 个星区、3 场首领战，装在单个约 40 KB 的 HTML 文件里，标题为德语。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "太空射击，12星区3首领，标准做法（页面说明）",
+   "T": 1,
+   "T_why": "约40KB单HTML含完整流程（代码特征+仓库描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "online",
@@ -7502,7 +8930,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "在 Saltline 上加联机和语音，GitHub 23 星；标注 Fable 5.2 加 deepseek-flash。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "港口3D枪战，自由混战与红蓝小队，标准多人射击（页面说明）",
+   "T": 1,
+   "T_why": "WebSocket联机、队伍语音的3D射击（Fable52标签），同场人数未写",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "emberdeep",
@@ -7574,7 +9011,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "单个 HTML 约 0.86 MB 就含联机；仓库标题为“Testing the Limits of Fable 5”。",
-  "tech_basis": "站点代码特征识别 / 仓库描述"
+  "tech_basis": "站点代码特征识别 / 仓库描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "火把烧尽的倒计时压力加联机探索，一处新做法（页面说明）",
+   "T": 1,
+   "T_why": "单个0.86MB HTML含WebRTC联机的3D（代码特征+仓库描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "becario-del-universo",
@@ -7646,7 +9092,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "幽默题材的单文件微任务游戏，约 49 KB，站内游玩 50 次。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "连续微任务（微游戏集合）模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D单文件小游戏（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "breach",
@@ -7705,7 +9160,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "与“海克斯大乱斗”同出 hanyue.io，同样是国产射击 IP 地图的同人联机，存在授权风险；来源标注未核实。",
-  "tech_basis": "站点代码特征识别 / Fable52 标签"
+  "tech_basis": "站点代码特征识别 / Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "运输船地图联机FPS同人（页面说明）",
+   "T": 1,
+   "T_why": "房间制在线多人FPS（页面说明），引擎与规模未知",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "duskline",
@@ -7743,7 +9207,8 @@
    {
     "label": "X 帖子浏览",
     "value": "51",
-    "doubt": false
+    "doubt": false,
+    "asof": "2026-11-25"
    }
   ],
   "signals": [],
@@ -7777,7 +9242,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "常规题材的单文件 3D 跑酷，站内游玩 84 次，参考价值有限。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "常规3D无尽跑酷（页面说明）",
+   "T": 0,
+   "T_why": "WebGL单文件，无更多依据（Fable52标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "open-skies",
@@ -7836,7 +9310,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "全球任意地点起飞，用真实机场、真实地形和实时天气，还带一课一技能的飞行学校；站内游玩 64 次。",
-  "tech_basis": "Fable52 标签"
+  "tech_basis": "Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "真实机场、地形和实时天气的飞行模拟，玩法是常规飞行，真实数据是内容（页面说明）",
+   "T": 1,
+   "T_why": "three.js加真实地理数据（Fable52标签），表现力未见",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "road-sdl2-rash",
@@ -7850,7 +9333,7 @@
   "tech": "C 语言（64 位）加 SDL2，编译为 WebAssembly，1280x960 高清渲染，SoundFont 音频",
   "xcheck": "",
   "src": "GitHub 接口",
-  "hot": false,
+  "hot": true,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-13",
@@ -7894,7 +9377,22 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "1996 年 PC 版 Road Rash 的 64 位 C 移植加网页版，GitHub 33 星；涉原作版权。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "1996年Road Rash移植，玩法为原作的标准竞速格斗（作者自述）",
+   "T": 2,
+   "T_why": "PC老游戏C语言64位移植并编译为WebAssembly，高清渲染（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [
+   {
+    "k": "技术强",
+    "v": "PC老游戏C语言64位移植并编译为WebAssembly，高清渲染（作者自述）"
+   }
+  ],
+  "labels": [],
+  "hot_since": "2026-11-19"
  },
  {
   "id": "aidens-revenge",
@@ -7906,9 +9404,9 @@
   "quote": "",
   "quote_src": "",
   "tech": "Phaser（WebGL 渲染）；作者称用 Fable 5.2 一次生成，提示词允许模型用 ChatGPT Images 2.5 生成图片",
-  "xcheck": "",
+  "xcheck": "人工试玩复核（2026-11-25）：有 FC 时代横版卷轴格斗游戏的感觉，战斗手感普通，操作简单。美术素材的风格接近 AI 生成的图像，和作者文章里\"按侄子的一叠手绘做成\"的说法观感不太一致；作者也提到提示词允许模型用 ChatGPT Images 2.5 生成图片，素材里有多少直接来自手绘，页面上看不出来。",
   "src": "Hacker News 官方接口",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-11",
@@ -7930,12 +9428,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 505 分"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Hacker News 505 分（帖子是一篇文章，试玩链接取自文章正文）"
   ],
@@ -7955,11 +9448,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "由 8 岁侄子设计、AI 一次生成的 4 人合作清版动作，12 个首领对应 12 关。",
   "tech_basis": "站点代码特征识别（补查脚本） / 作者自述",
-  "play_basis": "试玩进入游戏标题画面截图 + 游戏脚本里的操作说明/难度/续币逻辑 + 作者博客文章（notesbylex）说明；没有视频；未确认：没有实际打完关卡；12 首领与角色技能的具体手感未验证；作者博客对资源数量的两处数字不一致（2026-11-19 核验）"
+  "play_basis": "试玩进入游戏标题画面截图 + 游戏脚本里的操作说明/难度/续币逻辑 + 作者博客文章（notesbylex）说明；没有视频；未确认：没有实际打完关卡；12 首领与角色技能的具体手感未验证；作者博客对资源数量的两处数字不一致（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "街机式横版清版动作，常规做法；人工试玩复核：有 FC 横版卷轴格斗的感觉，战斗手感普通、操作简单（试玩）",
+   "T": 1,
+   "T_why": "Phaser WebGL，AI 一次生成 4 人同屏 12 关，作者博客写了过程；素材不是全部由代码生成，不到 2 分（作者博客 + 试玩）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "term-sheet-please",
@@ -7973,7 +9474,7 @@
   "tech": "",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -7995,12 +9496,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 249 分"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Hacker News 249 分"
   ],
@@ -8020,10 +9516,18 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "把《Papers, Please》的审核流程换成创业融资尽调，核对事实后盖章决定投谁。",
-  "play_basis": "试玩截图（标题画面、第一天任务简报与 6 步操作说明）+ HN 评论区（有人指出未署名致敬原作）；没有视频；未确认：第一关之后的案例、结局与失败条件；盖章后的资金结算与评分方式；未实际完成一轮审核（2026-11-19 核验）"
+  "play_basis": "试玩截图（标题画面、第一天任务简报与 6 步操作说明）+ HN 评论区（有人指出未署名致敬原作）；没有视频；未确认：第一关之后的案例、结局与失败条件；盖章后的资金结算与评分方式；未实际完成一轮审核（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "把Papers, Please审核换成创业融资尽调，题材替换加流程细节（试玩截图）",
+   "T_why": "卡片没有tech字段和依据",
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sweatypanzer",
@@ -8082,7 +9586,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Wavedash 上的免下载联机坦克，目前实时在线 13 人。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N_why": "只有一句平台说明，输入昵称开车上场，无机制细节",
+   "T_why": "平台托管，引擎未识别，仅平台说明",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "size-it-up",
@@ -8140,7 +9653,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "每天 5 道估算真实尺寸的视觉对比题，Hacker News 82 分、27 条评论。",
-  "tech_basis": "站点代码特征识别"
+  "tech_basis": "站点代码特征识别",
+  "novelty": {
+   "N": 1,
+   "N_why": "每日估算真实物体尺寸比例，真实数据做内容但属测验类（页面说明）",
+   "T": 0,
+   "T_why": "Next.js加Canvas 2D加Supabase常规实现（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tiny-val-ncia",
@@ -8154,7 +9676,7 @@
   "tech": "Canvas 2D，用 OpenSeadragon 做缩放浏览；数据来自 OpenStreetMap、西班牙地籍和 IGN，图像模型重绘",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-12",
@@ -8176,12 +9698,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 261 分"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Hacker News 261 分"
   ],
@@ -8201,11 +9718,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-13",
   "images_tried": true,
   "highlight": "把 AI 重绘的真实城市做成可飞行、可乘地铁的像素地图。",
   "tech_basis": "站点代码特征识别 / 作者自述",
-  "play_basis": "页面说明文字（curl 读取）；未找到视频，未实际操作地图；未确认：游玩模式（G）的实际体验、地铁等模式的画面与流畅度；未实机验证（2026-11-19 核验）"
+  "play_basis": "页面说明文字（curl 读取）；未找到视频，未实际操作地图；未确认：游玩模式（G）的实际体验、地铁等模式的画面与流畅度；未实机验证（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "真实城市（地籍数据）做成可飞行、乘地铁的像素地图，没有目标，玩法是常规探索，真实数据是内容（页面说明）",
+   "T": 1,
+   "T_why": "AI重绘瓦片加OpenSeadragon缩放浏览，运行时仍是Canvas 2D（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "librehold",
@@ -8263,7 +9788,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "开源的像素风村庄战争，一局一小时也有持续数周的长期世界；GitHub 56 星。",
-  "tech_basis": "仓库标签"
+  "tech_basis": "仓库标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "村庄战争策略，一局一小时，标准RTS类（页面说明）",
+   "T": 1,
+   "T_why": "Go后端，12人加18机器人房间及持续数周的长期世界（仓库标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "typepper",
@@ -8321,7 +9855,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同一份 Rust 代码既能在终端里跑，也能在浏览器里玩的打字游戏，GitHub 36 星。",
-  "tech_basis": "仓库标签 / 站点代码特征识别"
+  "tech_basis": "仓库标签 / 站点代码特征识别",
+  "novelty": {
+   "N": 0,
+   "N_why": "打字游戏，辣度主题（页面说明）",
+   "T": 1,
+   "T_why": "同一份Rust代码编译为WebAssembly，同时跑终端和浏览器（仓库标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "minecraft-underwater-quarrying-of-minera",
@@ -8335,7 +9878,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8357,12 +9900,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 7 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-10-24 发布"
   ],
@@ -8384,11 +9922,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "借用 Minecraft 名称与画风的水下采矿作品，玩法页面无说明。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述与封面图 + 打开预览窗口（只见封面）；没有视频；未确认：玩法、操作、目标与失败条件全部未确认；没有进入实际游戏画面（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述与封面图 + 打开预览窗口（只见封面）；没有视频；未确认：玩法、操作、目标与失败条件全部未确认；没有进入实际游戏画面（2026-11-19 核验）",
+  "novelty": {
+   "N_why": "play_basis写明玩法全部未确认，只有标题封面",
+   "T_why": "仅平台说明，未进入游戏",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "mecha-arm-1",
@@ -8448,7 +9994,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 的“+1”命名公式作品，游玩 4.9 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N_why": "页面描述只有一句，细节未知",
+   "T_why": "仅平台说明",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "gym-masters",
@@ -8462,7 +10017,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8484,12 +10039,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 13 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-11 发布"
   ],
@@ -8512,10 +10062,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-15",
   "highlight": "把选门数值跑酷和布娃娃格斗合并，从瘦子练成肌肉男。",
   "tech_basis": "平台说明",
-  "play_basis": "实际试玩（键盘进入，截图确认开场动画、跑道、距离/KO/等级条、障碍扣分与 PUNCH 按钮）+ 页面描述；未确认：没有打到选手，没看到完整的选门与布娃娃战斗；失败条件与成长上限未确认（2026-11-19 核验）"
+  "play_basis": "实际试玩（键盘进入，截图确认开场动画、跑道、距离/KO/等级条、障碍扣分与 PUNCH 按钮）+ 页面描述；未确认：没有打到选手，没看到完整的选门与布娃娃战斗；失败条件与成长上限未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "选门数值跑酷加布娃娃出拳格斗两种常规玩法的组合（试玩+页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成，3D布娃娃但未完整看到（试玩）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dress-up-showdown",
@@ -8529,7 +10087,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8551,12 +10109,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 13.5 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-11 发布"
   ],
@@ -8581,8 +10134,16 @@
   "images_tried": true,
   "highlight": "换装加走秀评分，页面可见内容与常见换装游戏接近。",
   "tech_basis": "平台说明",
-  "hot_since": "2026-11-17",
-  "play_basis": "Astrocade 页面描述与封面图；没有视频，未进入实际游戏；未确认：操作方式、主题数量、评分规则、解锁与成长系统均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述与封面图；没有视频，未进入实际游戏；未确认：操作方式、主题数量、评分规则、解锁与成长系统均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "换装加评委打分，模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "apex-strike",
@@ -8596,7 +10157,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8620,8 +10181,8 @@
   ],
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 167.7 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 167.7 万 次（≥ 50 万）"
    }
   ],
   "reasons": [
@@ -8645,11 +10206,24 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "小体量的浏览器 4v4 射击，带自定义装备、手雷和对称竞技场。",
   "tech_basis": "平台说明",
-  "play_basis": "试玩截图（载入界面与 PC 操作说明弹窗）+ 页面描述；没有视频；未确认：没有进入对局；实际手感、AI 或真人对手、装备种类、胜负判定未确认（2026-11-19 核验）"
+  "play_basis": "试玩截图（载入界面与 PC 操作说明弹窗）+ 页面描述；没有视频；未确认：没有进入对局；实际手感、AI 或真人对手、装备种类、胜负判定未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准4v4第一人称射击（试玩截图）",
+   "T": 0,
+   "T_why": "平台对话式生成，未进入对局",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "平台爆款",
+    "v": "Astrocade 游玩数 167.7 万 次（≥ 50 万）"
+   }
+  ]
  },
  {
   "id": "1-pickaxe-swing-for-eggs",
@@ -8709,7 +10283,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把 +1 成长公式和偷蛋养成混合，是 Astrocade 公式化玩法的样本，游玩 2.3 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "+1成长公式加偷蛋养成，平台模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "supersmash",
@@ -8723,7 +10306,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8745,12 +10328,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 15.9 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-07-29 发布"
   ],
@@ -8772,11 +10350,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "带炸弹、火焰、锤子等工具栏的破坏沙盒，作者自述是 Teardown 的改版。",
   "tech_basis": "平台说明",
-  "play_basis": "试玩截图（标题画面和进入后的建筑加工具栏）+ 页面描述；未确认：没能点击使用工具，破坏效果、任务目标、工具总数均未确认；与 Teardown 的实际关系只有作者自述（2026-11-19 核验）"
+  "play_basis": "试玩截图（标题画面和进入后的建筑加工具栏）+ 页面描述；未确认：没能点击使用工具，破坏效果、任务目标、工具总数均未确认；与 Teardown 的实际关系只有作者自述（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "破坏沙盒，作者自述为Teardown改版，无目标（试玩截图）",
+   "T": 0,
+   "T_why": "平台对话式生成，破坏物理未确认",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "duck-chaos-3d",
@@ -8790,7 +10376,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8812,12 +10398,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.6 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-09-18 发布"
   ],
@@ -8839,11 +10420,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "以混乱值为目标的鸭子捣蛋模拟，玩法依据页面描述。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述与封面图；预览窗口未能进入游戏；未确认：操作、关卡结构、失败条件和除偷食物、嘎嘎叫外的捣乱动作均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述与封面图；预览窗口未能进入游戏；未确认：操作、关卡结构、失败条件和除偷食物、嘎嘎叫外的捣乱动作均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "捣蛋模拟只确认混乱值目标，类似鹅作但更简单（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "stickman-archer",
@@ -8857,7 +10446,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8881,8 +10470,8 @@
   ],
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 283.6 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 283.6 万 次（≥ 50 万）"
    }
   ],
   "reasons": [
@@ -8906,11 +10495,24 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "火柴人对射闯关，页面除“可 remix”外没有说明。",
   "tech_basis": "平台说明",
-  "play_basis": "试玩截图（封面下透出的 LEVEL 1 对射界面，双方血条与金币）+ 页面描述；未确认：没有射出一箭，操作方式、关卡数量、升级与解锁系统均未确认（2026-11-19 核验）"
+  "play_basis": "试玩截图（封面下透出的 LEVEL 1 对射界面，双方血条与金币）+ 页面描述；未确认：没有射出一箭，操作方式、关卡数量、升级与解锁系统均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "火柴人对射闯关（试玩截图）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "平台爆款",
+    "v": "Astrocade 游玩数 283.6 万 次（≥ 50 万）"
+   }
+  ]
  },
  {
   "id": "wild-hunter-3d",
@@ -8924,7 +10526,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -8946,12 +10548,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.3 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-10-29 发布"
   ],
@@ -8973,11 +10570,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "限时狙击狩猎，射击得金币解锁新猎物，带手机式虚拟摇杆。",
   "tech_basis": "平台说明",
-  "play_basis": "试玩截图（进入游戏后的 HUD：金币、倒计时、虚拟摇杆与按钮）+ 页面描述；未确认：没有射击；目标数量、动物种类、解锁清单与超时判定未确认（2026-11-19 核验）"
+  "play_basis": "试玩截图（进入游戏后的 HUD：金币、倒计时、虚拟摇杆与按钮）+ 页面描述；未确认：没有射击；目标数量、动物种类、解锁清单与超时判定未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "限时狙击狩猎，常规做法（试玩截图）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "lifebox",
@@ -8991,7 +10596,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-14",
@@ -9013,12 +10618,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 39.5 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-04-26 发布"
   ],
@@ -9040,11 +10640,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-14",
   "images_tried": true,
   "highlight": "元素互动的 2D 像素沙盒，页面确认有造地形与破坏。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述与封面图；预览窗口只见封面；未确认：工具清单、元素种类、是否保存、操作方式均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述与封面图；预览窗口只见封面；未确认：工具清单、元素种类、是否保存、操作方式均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "Powder Toy类元素沙盒（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成，仅见封面",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "nine-chronicles-twist-of-destiny",
@@ -9105,7 +10713,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把老虎机悬念和英雄养成结合，并借用 Nine Chronicles 的角色；Verse8 游玩 184 次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 1,
+   "N_why": "老虎机转轮决定回合行动，在常见回合制战斗里有一处新做法（页面说明）",
+   "T": 0,
+   "T_why": "Verse8平台生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "nine-chronicles-rise-of-the-grove",
@@ -9166,7 +10783,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "借用 Nine Chronicles 角色的放置 RPG，规模是 300 关加竞技场；Verse8 游玩 398 次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "放置英雄RPG，3x3布阵与竞技场，常规（页面说明）",
+   "T": 0,
+   "T_why": "Verse8平台生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "blast-block-sandbox",
@@ -9226,7 +10852,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以 11 种 TNT 为核心的方块爆破沙盒，游玩 3.2 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "11种TNT的方块爆破沙盒（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "steal-a-dragon",
@@ -9286,7 +10921,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把偷蛋公式换成龙题材，带从幼年养到长老的成长线，游玩 3.4 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "偷蛋养成公式换成龙题材（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "save-the-fish",
@@ -9300,7 +10944,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-15",
@@ -9322,12 +10966,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 6.2 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-11-14 发布"
   ],
@@ -9350,10 +10989,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-16",
   "highlight": "拔针引水救鱼，20 关，障碍是毒液和鲨鱼。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述（20 关、毒液、鲨鱼）；没有视频，未进入游戏；未确认：实际操作、失败判定、有无提示与星级系统均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述（20 关、毒液、鲨鱼）；没有视频，未进入游戏；未确认：实际操作、失败判定、有无提示与星级系统均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "拔针解谜，常见手游类型（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "sky-drop-royale",
@@ -9413,7 +11060,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "浮空岛不断坠落的轻量大逃杀，游玩 2.1 万次。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 1,
+   "N_why": "浮空岛不断坠落的大逃杀，一处新做法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "elite-warfare",
@@ -9472,7 +11128,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称整款由 Claude 在其指导下完成，纯静态站加点对点联机；论坛有人追问引擎授权。",
-  "tech_basis": "作者自述"
+  "tech_basis": "作者自述",
+  "novelty": {
+   "N": 0,
+   "N_why": "夺点、团队死斗等标准FPS模式（作者自述）",
+   "T": 1,
+   "T_why": "点对点联机，机器人寻路，角色绑骨工具，完成度高（作者自述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "saltline-surf-beta",
@@ -9531,7 +11196,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Wavedash 上的联机冲浪测试版，目前实时在线 3 人，页面信息很少。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N_why": "只有一句平台说明，测试版",
+   "T_why": "平台托管，引擎未识别，仅平台说明",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dating-my-handsome-idol-boyfriend-2",
@@ -9545,7 +11219,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-16",
@@ -9567,12 +11241,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 10.6 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-11-09 发布"
   ],
@@ -9594,11 +11263,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-16",
   "images_tried": true,
   "highlight": "带 12 个结局和 AI 情书的偶像恋爱分支叙事。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述（48 角色、32 步、12 结局、AI 情书）；未进入游戏；未确认：界面形态、选项机制、结局条件、AI 情书怎么生成均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述（48 角色、32 步、12 结局、AI 情书）；未进入游戏；未确认：界面形态、选项机制、结局条件、AI 情书怎么生成均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "分支叙事恋爱互动，AI情书只是结尾附加（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成，AI情书的生成方式未确认",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "woolly-slope",
@@ -9658,7 +11335,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "游玩 4.1 万次、趋势榜第 4 位，属于题材轻巧的休闲养成，暂无更多特别之处。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "放置养成，题材轻巧（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "transformer-battle-vs-luxury-car-battle",
@@ -9718,7 +11404,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "游玩 4.1 万次、趋势榜第 20 位、本周新上榜；题材近似热门变形金刚，可能涉及 IP 授权。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "变形金刚题材动作，模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "makinamon-versi-n-pulso",
@@ -9790,7 +11485,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称为 Game Boy Color 风格；画面按 160×144 分辨率绘制，题材类似怪兽收集类经典。站内游玩仅 35 次，关注度低。",
-  "tech_basis": "code_detect（页面代码含 160×144 Canvas 2D 与 js 分文件脚本）；Fable52 标签"
+  "tech_basis": "code_detect（页面代码含 160×144 Canvas 2D 与 js 分文件脚本）；Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "Game Boy风格怪兽收集RPG，经典做法（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D原生JS，160x144低分辨率（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "riftline",
@@ -9862,7 +11566,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "在浏览器里做出传送、回溯这类英雄射击技能，并用点对点联机免服务器。站内游玩 39 次，关注度较低。",
-  "tech_basis": "code_detect（three.js、WebRTC、PeerJS 脚本）；Fable52 标签"
+  "tech_basis": "code_detect（three.js、WebRTC、PeerJS 脚本）；Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "英雄射击技能（传送与时间回溯）加点对点联机，一处新做法（页面说明）",
+   "T": 1,
+   "T_why": "WebRTC点对点联机的three.js射击（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "the-county",
@@ -9934,7 +11647,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把土豆种植做成策略模拟，信息不透明是特色；仓库名含 potatobench，像是模型测评用例。站内游玩 35 次。",
-  "tech_basis": "code_detect（Web Audio）；读取打包脚本搜索未见 three 特征；Fable52 标签"
+  "tech_basis": "code_detect（Web Audio）；读取打包脚本搜索未见 three 特征；Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "作物长在地下、收获前信息不透明，农场经营中的一处新做法（页面说明）",
+   "T": 0,
+   "T_why": "引擎未识别，仅单个JS包与Web Audio（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "emberhold",
@@ -9993,7 +11715,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用单个 HTML 文件做出魂系动作，是少见的体量与题材。站内游玩 64 次，关注度较低。",
-  "tech_basis": "Fable52 标签；该链接为收录页，未读到游戏本体代码"
+  "tech_basis": "Fable52 标签；该链接为收录页，未读到游戏本体代码",
+  "novelty": {
+   "N": 0,
+   "N_why": "魂系动作是标准类型，靠体量少见但机制无新东西（页面说明）",
+   "T": 1,
+   "T_why": "单个HTML含完整魂系游戏（Fable52标签，未读到本体代码）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "arcfall-artillery",
@@ -10052,7 +11783,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "经典炮击玩法加空岛可破坏地形，并支持点对点联机和手机端。站内游玩 58 次。",
-  "tech_basis": "code_detect（Canvas 2D、cannon、WebRTC、Web Audio）；Fable52 标签"
+  "tech_basis": "code_detect（Canvas 2D、cannon、WebRTC、Web Audio）；Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "蠕虫式回合炮击加风向，标准做法（页面说明）",
+   "T": 1,
+   "T_why": "cannon物理加WebRTC点对点联机（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "tidemark",
@@ -10089,8 +11829,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "2.6 万",
-    "doubt": false
+    "value": "2.7 万",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -10140,7 +11881,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称开源（MIT），内容量大，玩法明显参照《高级战争》，可能涉及 IP 授权；GitHub 24 星，站内游玩 82 次。",
-  "tech_basis": "读取页面与 site.js 未见引擎特征；Fable52 标签"
+  "tech_basis": "读取页面与 site.js 未见引擎特征；Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "高级战争式战棋，标准做法（页面说明）",
+   "T": 0,
+   "T_why": "引擎未识别，仅site.js（页面代码）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "webgl-flight-simulator-with-seed-generat",
@@ -10154,7 +11904,7 @@
   "tech": "three.js（WebGL，版本未识别），Web Audio，Vite 式打包脚本；页面称用 DAI Studio 制作",
   "xcheck": "",
   "src": "Hacker News 官方接口",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-16",
@@ -10176,12 +11926,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 232 分"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Hacker News 232 分"
   ],
@@ -10202,10 +11947,18 @@
   "source_posts": [],
   "stats_date": "2026-11-19",
   "images_tried": true,
-  "hot_since": "2026-11-17",
   "highlight": "浏览器 3D 双翼机，种子生成世界，键盘、手柄、手机倾斜都能操作。",
   "tech_basis": "code_detect（three.js、Web Audio）",
-  "play_basis": "页面说明文字与菜单、操作表（curl 读取）+ HN 评论页；未找到视频，未实际飞行；未确认：实际画面、物理手感、坠毁与失败判定、任务评分方式未实机确认（2026-11-19 核验）"
+  "play_basis": "页面说明文字与菜单、操作表（curl 读取）+ HN 评论页；未找到视频，未实际飞行；未确认：实际画面、物理手感、坠毁与失败判定、任务评分方式未实机确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "飞行模拟，任务与自由飞行，常规做法（页面说明+操作表）",
+   "T": 1,
+   "T_why": "种子生成地形的世界加three.js（代码特征+页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "find-my-pet",
@@ -10265,7 +12018,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 趋势榜第 13 名、游玩 3.1 万次，新进榜；属平台上常见的寻物公式玩法。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "找宠物寻物，模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "jujutsu-tic-tac-toe",
@@ -10279,7 +12041,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-17",
@@ -10301,12 +12063,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.2 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-07-11 发布"
   ],
@@ -10328,11 +12085,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-17",
   "images_tried": true,
   "highlight": "井字棋加咒术回战对手，从虎杖到宿傩逐级加难度。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：对手总数、AI 是否真的不可战胜、是否有奖励或技能均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：对手总数、AI 是否真的不可战胜、是否有奖励或技能均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "井字棋换皮（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "air-cargo-tycoon",
@@ -10392,7 +12157,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "驾驶加运营的轻模拟玩法，游玩 3.6 万次、榜内第 15 名，新进榜。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "货运飞机起降加货舱停放，常见模拟做法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "cookiesaner",
@@ -10443,7 +12217,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用作者家狗和巴尔干美食做题材，被收录进要求大部分代码由 AI 编写的游戏清单。",
-  "tech_basis": "线索描述；抓取页面返回 429，未能读到页面代码"
+  "tech_basis": "线索描述；抓取页面返回 429，未能读到页面代码",
+  "novelty": {
+   "N": 1,
+   "N_why": "幸存者类加饱腹成长阶段，少见题材配机制改动（线索描述）",
+   "T": 0,
+   "T_why": "Godot网页版（线索描述），页面抓取返回429未读代码",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "ram-man-half-goat-half-god",
@@ -10494,7 +12277,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "题材荒诞，据线索由 Claude 配合 three.js 与 cannon-es 物理库制作，可网页和手机游玩。",
-  "tech_basis": "线索描述 + code_detect（cannon 物理）"
+  "tech_basis": "线索描述 + code_detect（cannon 物理）",
+  "novelty": {
+   "N": 0,
+   "N_why": "街机清版加可抛掷汽车，标准做法略有变化（线索描述）",
+   "T": 1,
+   "T_why": "three.js加cannon-es物理的3D场景（线索描述+代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "kart-rush",
@@ -10545,7 +12337,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "据线索说明，车模、贴图和音效全部由代码生成；用 Claude Code 制作。",
-  "tech_basis": "code_detect（three.js r160、cannon）+ 线索描述"
+  "tech_basis": "code_detect（three.js r160、cannon）+ 线索描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准卡丁车竞速（线索描述）",
+   "T": 1,
+   "T_why": "three.js r160加cannon-es物理的3D赛车，5个AI对手7条赛道（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "openaero-dfw",
@@ -10601,7 +12402,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用真实卫星图和实时气象数据生成场景，是少见的真实世界飞行模拟网页游戏。",
-  "tech_basis": "code_detect（three.js）+ 线索描述"
+  "tech_basis": "code_detect（three.js）+ 线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "真实卫星影像和当日 METAR 天气的飞行模拟，降落评分，玩法是常规飞行，真实数据是内容（线索描述）",
+   "T": 1,
+   "T_why": "three.js加卫星影像地形，多机型（线索描述+代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "a-guilda",
@@ -10652,7 +12462,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "题材类似《暗黑地牢》加酒馆经营，被收录进 AI 编写代码的游戏清单。",
-  "tech_basis": "线索描述"
+  "tech_basis": "线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "你是公会老板而非英雄，英雄羁绊与伤疤改变剧情，经营叙事的一处新做法（线索描述）",
+   "T": 0,
+   "T_why": "Godot（线索描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "dou-dizhu",
@@ -10703,7 +12522,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国产传统牌类的网页版，带联机桌和房间码；作者称用 Claude Code 制作。",
-  "tech_basis": "code_detect 为空 + 线索描述"
+  "tech_basis": "code_detect 为空 + 线索描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准三人斗地主（线索描述）",
+   "T": 1,
+   "T_why": "随机匹配联机桌与房间码（线索描述），代码层未见联机库",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "halflight",
@@ -10754,7 +12582,24 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "核心设定是让「衰变」生钱，主题独特；被收录进 AI 编写代码的游戏清单。",
-  "tech_basis": "线索描述 + code_detect（Canvas 2D）"
+  "tech_basis": "线索描述 + code_detect（Canvas 2D）",
+  "novelty": {
+   "N": 2,
+   "N_why": "43种同位素、五条衰变链构成的金库，用系统讲现实中的衰变原理（线索描述）",
+   "T": 0,
+   "T_why": "HTML5 Canvas 2D（代码特征+线索描述）",
+   "pending": [
+    "N"
+   ],
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "待核",
+    "v": "玩法新待核：43种同位素、五条衰变链构成的金库，用系统讲现实中的衰变原理（线索描述）"
+   }
+  ]
  },
  {
   "id": "next-please",
@@ -10805,7 +12650,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "题材冷门，把官僚文书工作做成游戏；作者称用 Codex 制作。",
-  "tech_basis": "code_detect（Firebase）+ 线索描述"
+  "tech_basis": "code_detect（Firebase）+ 线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "模仿Papers, Please的1983年波兰诊所，题材替换加黑色喜剧（线索描述）",
+   "T": 0,
+   "T_why": "Vite打包前端含Firebase，引擎未识别（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "eraguessr",
@@ -10856,7 +12710,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "类似地理猜图的每日挑战，规则简单、可晒成绩；作者称用 Claude Code 和 Codex 制作。",
-  "tech_basis": "code_detect（Supabase、Next.js 脚本）+ 线索描述"
+  "tech_basis": "code_detect（Supabase、Next.js 脚本）+ 线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "每日历史场景猜年代与地点，套用 GeoGuessr 式玩法，真实数据是内容（线索描述）",
+   "T": 0,
+   "T_why": "Next.js加Supabase（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "gravity",
@@ -10907,7 +12770,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "「吃小变大」的经典玩法，加首领战和无尽模式；作者称用 Claude Code 制作。",
-  "tech_basis": "code_detect（Canvas 2D）+ 线索描述"
+  "tech_basis": "code_detect（Canvas 2D）+ 线索描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "吞噬成长（agar类）模板（线索描述）",
+   "T": 0,
+   "T_why": "Canvas 2D原生JS（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "the-haniwa-behind-you",
@@ -10979,7 +12851,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把木头人规则与第一人称地牢结合，是个小而新的点子；站内游玩仅 8 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "一二三木头人式凝视机制的格子地牢解谜，一处新做法（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为按同作者另一款推断，未逐款核验",
+   "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "pon-the-forest-lights-up",
@@ -11051,7 +12933,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "「落地生长即下一个发射台」的物理玩法，机制简洁；站内游玩仅 8 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "孢子弹射、落点长蘑菇再成为发射点的连锁解谜（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "one-grain-garden",
@@ -11123,7 +13015,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "落沙类物理沙盒加解谜关卡；站内游玩 10 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "沙水种子火星颗粒反应、九个罐子关卡的落沙解谜（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "undertow",
@@ -11182,7 +13083,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "建在 Saltline 引擎上的换皮之作，是 Saltline 换皮现象的样本；作者标注为未验证；站内游玩 77 次。",
-  "tech_basis": "Fable52 标签 + 线索描述"
+  "tech_basis": "Fable52 标签 + 线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "暴风夜拖船钩集装箱救人，少见题材配机制（页面说明）",
+   "T": 1,
+   "T_why": "three.js基于Saltline引擎的remix（Fable52标签，未验证）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "black-tide",
@@ -11241,7 +13151,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同为 Saltline 换皮，把玩法改成第一人称劫案；站内游玩 53 次。",
-  "tech_basis": "Fable52 标签 + 线索描述"
+  "tech_basis": "Fable52 标签 + 线索描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "海盗劫案，基于Saltline引擎换皮（页面说明）",
+   "T": 1,
+   "T_why": "three.js基于Saltline引擎（Fable52标签，未验证）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "graveyard-shift",
@@ -11278,8 +13197,9 @@
    },
    {
     "label": "X 帖子浏览",
-    "value": "920",
-    "doubt": false
+    "value": "952",
+    "doubt": false,
+    "asof": "2026-11-25"
    },
    {
     "label": "GitHub",
@@ -11329,7 +13249,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "单个 HTML 文件约 2.4 MB，画面、音效全由代码生成；GitHub 13 星，站内游玩 95 次。",
-  "tech_basis": "code_detect（three.js、scripts 无外部引擎）+ GitHub 描述 + Fable52 标签"
+  "tech_basis": "code_detect（three.js、scripts 无外部引擎）+ GitHub 描述 + Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "僵尸波次生存，封窗买枪，标准做法（页面说明）",
+   "T": 1,
+   "T_why": "单HTML约2.4MB含3D场景（代码特征+GitHub描述）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "duel-knights",
@@ -11401,7 +13330,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "多角色、多场景的完整 3D 格斗流程；标注由 Claude Fable 5.2 与 Opus 5.5 制作。",
-  "tech_basis": "code_detect（three.js r160）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js r160）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "3D剑斗，格挡虚招闪避，常规格斗（页面说明）",
+   "T": 1,
+   "T_why": "three.js r160，模块化JS，看不出表现力（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "last-return",
@@ -11473,7 +13411,24 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把「看不见」做成核心机制，单个 HTML 文件约 2.8 MB；GitHub 3 星。",
-  "tech_basis": "code_detect + 页面文本搜索（未见 THREE 特征）"
+  "tech_basis": "code_detect + 页面文本搜索（未见 THREE 特征）",
+  "novelty": {
+   "N": 2,
+   "N_why": "激光雷达点云是唯一视觉来源，下面的东西不被画出，核心机制少见（页面说明）",
+   "T": 1,
+   "T_why": "原生WebGL单HTML约2.8MB的点云渲染（代码特征+页面文本搜索）",
+   "pending": [
+    "N"
+   ],
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "待核",
+    "v": "玩法新待核：激光雷达点云是唯一视觉来源，下面的东西不被画出，核心机制少见（页面说明）"
+   }
+  ]
  },
  {
   "id": "escape-the-fable",
@@ -11545,7 +13500,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "程序化生成密室并附关卡编辑器和分享；作者标注 Claude Fable 5.2 制作。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "每间房程序化生成并保证可解的密室，可自建分享（页面说明）",
+   "T": 1,
+   "T_why": "程序化生成房间的three.js单场景（代码特征+Fable52标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "shutterpine",
@@ -11617,7 +13581,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "「相机是唯一视觉」的恐怖叙事；作者标注 Claude Fable 5.2 制作。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "只有胶片相机能看到的东西，悬疑拍摄机制（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Web Audio，无其他依据（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "one-sheep-koro-the-sheepdog-s-day",
@@ -11689,7 +13662,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把羊群聚散行为做成核心手感；站内游玩 8 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "牧羊犬走路聚拢、奔跑驱散羊群，一处机制（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "circular-tic-tac-toe",
@@ -11761,7 +13743,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "32 格、56 种获胜线的井字棋变体，规则一看就懂；作者标注 Claude Fable 5.2 制作。",
-  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签"
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "井字棋的圆环变体（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D多文件JS（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "the-long-climb",
@@ -11833,7 +13824,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以真实科技人物的创业史为题材，可能涉及肖像或授权问题；作者称用 Claude Fable 5 制作。",
-  "tech_basis": "code_detect（three.js r128）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js r128）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "3D开放世界创业模拟加死亡不可重来，少见题材配机制（页面说明）",
+   "T": 1,
+   "T_why": "three.js r128，看不出表现力（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "reel-delve",
@@ -11905,7 +13905,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把老虎机和肉鸽地牢结合；站内游玩 9 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "老虎机转轴构成地牢、停位决定三人路线，两类型组合（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rawza-ring",
@@ -11977,7 +13987,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称由 Claude Fable 5.2 一句提示约 40 分钟做成，是「一句话做游戏」样本。",
-  "tech_basis": "code_detect（three.js、Firebase）+ Fable52 标签 + 线索描述"
+  "tech_basis": "code_detect（three.js、Firebase）+ Fable52 标签 + 线索描述",
+  "novelty": {
+   "N": 1,
+   "N_why": "阿富汗马扎里沙里夫真实街道上的街头赛，真实地图加常规赛车（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Firebase，一句提示制作（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "liquid-labyrinth",
@@ -12049,7 +14068,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "规则简单，种子分享方便比拼；作者标注 Claude Fable 5 制作。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "旋转迷宫让重力带液滴到出口，类似滚珠迷宫（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Web Audio，液体表现未知（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "lumen-reel",
@@ -12121,7 +14149,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同一作者继「地牢老虎机」后的又一款转轴解谜；站内游玩 7 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "灯塔灯室变老虎机，转轴导光送船，转轴机制少见（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "cutting-back",
@@ -12193,7 +14231,17 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "「剪一处生两芽」的修剪机制有新意，氛围治愈；站内游玩 9 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "剪一枝长两芽并召唤春天生长的盆栽解谜（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "emberdeep-lampkeeper-s-mine",
@@ -12265,7 +14313,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用光照推进关卡的核心设计；站内游玩 9 次。",
-  "tech_basis": "同作者仓库抽查 + Fable52 标签"
+  "tech_basis": "同作者仓库抽查 + Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "提灯驱散黑暗的俯视角动作RPG，常见做法（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "castle-valley",
@@ -12323,7 +14380,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "GitHub 81 星、15 分叉；用后处理把 3D 画面画成油画，属对已有作品的网页复刻。",
-  "tech_basis": "code_detect（three.js、WebSocket）+ GitHub 标签"
+  "tech_basis": "code_detect（three.js、WebSocket）+ GitHub 标签",
+  "novelty": {
+   "N_why": "只说是油画风的three.js可玩游戏，没有玩法描述（GitHub标签）",
+   "T": 1,
+   "T_why": "three.js加Cloudflare Workers，油画风渲染（GitHub标签+代码特征）",
+   "N": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "the-last-complication-a-zachtronics-styl",
@@ -12381,7 +14447,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "在 Hacker News 获 89 分、21 条评论；页面约 700 KB。",
-  "tech_basis": "code_detect（Canvas 2D、Web Audio）"
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）",
+  "novelty": {
+   "N": 1,
+   "N_why": "逐齿轮搭建钟表机芯的工程类解谜（页面标题级说明）",
+   "T": 1,
+   "T_why": "Canvas 2D单页约696KB内联脚本（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "bombounce",
@@ -12440,7 +14515,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "itch.io 网页新品榜第 31 名，上榜第 1 天；规则简单，一局很短。",
-  "tech_basis": "code_detect（Canvas 2D）"
+  "tech_basis": "code_detect（Canvas 2D）",
+  "novelty": {
+   "N": 0,
+   "N_why": "瞄准反弹连锁爆破，弹射解谜常见做法（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "die-again",
@@ -12500,7 +14584,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者两天迭代了 668 个版本；Spawn 榜内第 20 名、游玩 478 次、点赞 68。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "150关恶搞平台，我想成为那个男孩一类（页面说明）",
+   "T": 0,
+   "T_why": "Spawn平台自研引擎，YAML场景加JS脚本（平台说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "artisan-brownie-kitchen",
@@ -12514,7 +14607,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-18",
@@ -12536,12 +14629,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 28.7 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页在榜，2026-10-12 发布"
   ],
@@ -12563,11 +14651,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-18",
   "images_tried": true,
   "highlight": "强调动画音效反馈的布朗尼制作流程模拟。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：完整流程、操作方式、评分与失败机制、是否有关卡均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：完整流程、操作方式、评分与失败机制、是否有关卡均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 0,
+   "N_why": "布朗尼烹饪解压，模板玩法（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "pizza-empire-tycoon",
@@ -12627,7 +14723,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 榜内第 18 名、游玩 3.6 万次；典型的「手动起步、自动化升级」经营公式。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "披萨店Tycoon，模板经营（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "kick-the-buddy-2-0",
@@ -12687,7 +14792,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "沿用热门手游《Kick the Buddy》的玩法和名字，可能涉及 IP 授权；游玩 3.5 万次，新进榜。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "踢打玩偶解压（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-7",
@@ -12759,7 +14873,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国内创作者的通勤生活梗小游戏，同作者系列之一；站内游玩 8 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 1,
+   "N_why": "把人群推进车厢并先让乘客下车的通勤题材（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未逐款核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-8",
@@ -12831,7 +14954,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "国内夜市生活梗的小游戏，同作者系列之一；站内游玩 8 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "夜市套圈投掷（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-9",
@@ -12903,7 +15035,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把相亲角梗做成判断反应游戏，同作者系列之一；站内游玩 8 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "按条件左右滑的速配小游戏（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "t-minus",
@@ -12975,7 +15116,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "四人协作加点对点联机，设计和流程较完整；站内游玩 23 次。",
-  "tech_basis": "code_detect（WebRTC 点对点、WebSocket）+ Fable52 标签"
+  "tech_basis": "code_detect（WebRTC 点对点、WebSocket）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "四人各守一个岗位的协作航天任务，角色分工的新做法（页面说明）",
+   "T": 1,
+   "T_why": "WebRTC点对点四人联机（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-10",
@@ -13047,7 +15197,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同作者系列中内容量较大的一款，3D 塔防；站内游玩 18 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "标准塔防（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "apex-lap-blender-edition",
@@ -13119,7 +15278,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "通过 MCP 让模型驱动 Blender 建模，和纯代码生成版形成对照；站内游玩 20 次。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "3D三圈竞速，标准做法（页面说明）",
+   "T": 1,
+   "T_why": "Blender（MCP）建模后以glTF导入three.js（代码特征+页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-11",
@@ -13191,7 +15359,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "以英伟达创始人的网络昵称为题的芯片公司经营游戏，可能涉及真实人物形象；同作者系列之一。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "芯片公司经营十二季度，模板经营换题材（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "ripcore",
@@ -13255,10 +15432,18 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-18",
   "images_tried": true,
   "highlight": "作者称 3D 素材和音频由 AI 生成、追求 AAA 级画面；是作者 three.js 游戏技能包的示例作品，站内游玩 16 次。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "陀螺碰撞对战，后拉定力度，少见题材（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Canvas 2D，AI素材是离线生成（Fable52页面说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-12",
@@ -13330,7 +15515,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "外卖骑手的生活梗 3D 驾驶游戏，同作者系列之一；站内游玩 14 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "外卖骑手驾驶，常见驾驶模拟（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-13",
@@ -13402,7 +15596,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "玩法是手游里常见的自动射击小队类型；同作者系列之一。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "拖动小队自动开火，手游常见模板（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "raptor-race",
@@ -13474,7 +15677,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者称这是对《Raptor Race》的重做；three.js 3D 竖屏玩法，站内游玩 13 次。",
-  "tech_basis": "code_detect（three.js、Web Audio）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js、Web Audio）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "竖屏跑酷（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Web Audio（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "starship-dogfight",
@@ -13538,10 +15750,18 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-18",
   "images_tried": true,
   "highlight": "作者 three.js 游戏技能包的示例作品；代码含 Colyseus 联机库特征，是否联机未核验。",
-  "tech_basis": "code_detect（three.js、Rapier、Colyseus、WebAssembly）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js、Rapier、Colyseus、WebAssembly）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "太空空战无尽波次（页面说明）",
+   "T": 1,
+   "T_why": "three.js加Rapier物理WASM（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-14",
@@ -13613,7 +15833,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "广州本地生活梗加漂移手感，同作者系列之一；站内游玩 18 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 1,
+   "N_why": "雨夜外卖送汤，保住汤不洒的约束加广州真实场景（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "maple-run",
@@ -13685,7 +15914,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用到 WebGPU 与高斯泼溅（Splats 标签），技术上较新；站内游玩 12 次。",
-  "tech_basis": "code_detect（PlayCanvas、WebGPU、Ammo、WebAssembly）+ Fable52 标签"
+  "tech_basis": "code_detect（PlayCanvas、WebGPU、Ammo、WebAssembly）+ Fable52 标签",
+  "novelty": {
+   "N": 1,
+   "N_why": "三轨无尽跑酷加上传照片成为跑者，一处新做法（页面说明）",
+   "T": 1,
+   "T_why": "PlayCanvas WebGPU加Ammo物理（代码特征识别）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-15",
@@ -13757,7 +15995,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "俄语单文件平台游戏，体量小但完整；作者称用 Claude Fable 5 制作。",
-  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签"
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "平台跳跃（页面说明）",
+   "T": 1,
+   "T_why": "1465行单HTML，图形与声音全由代码生成（页面说明+代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-17",
@@ -13829,7 +16076,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把吃到什么就变成什么武器的设定做成荒诞喜剧，同作者系列之一；站内游玩 8 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "吃道具射向身后怪物的手游常见玩法（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-18",
@@ -13901,7 +16157,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "把上班摸鱼做成潜行反应小游戏，同作者系列之一；站内游玩 9 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "一键按住摸鱼的计时小游戏（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "gabriel-s-sweet-town",
@@ -13973,7 +16238,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "为幼儿设计的无广告离线 PWA；作者标注 Claude Code Fable 5 制作。",
-  "tech_basis": "code_detect（脚本 js/main.js）+ Fable52 标签 + 页面描述"
+  "tech_basis": "code_detect（脚本 js/main.js）+ Fable52 标签 + 页面描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "儿童过家家沙盒（页面说明）",
+   "T": 0,
+   "T_why": "PWA离线加SVG画面（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-19",
@@ -14045,7 +16319,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "澡堂生活梗的计时小游戏，同作者系列之一；站内游玩 8 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "限时搓背，模板小游戏（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-20",
@@ -14117,7 +16400,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "规则简单、一局很短，同作者系列之一；站内游玩 7 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "捏泡泡纸解压（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "apex-lap",
@@ -14189,7 +16481,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "作者说明是同一赛车需求的纯代码实现，与 Blender 建模版成对；站内游玩 9 次。",
-  "tech_basis": "code_detect（three.js）+ Fable52 标签"
+  "tech_basis": "code_detect（three.js）+ Fable52 标签",
+  "novelty": {
+   "N": 0,
+   "N_why": "三圈计时赛车（页面说明）",
+   "T": 1,
+   "T_why": "three.js，看不出表现力（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "rufus-crush",
@@ -14262,7 +16563,16 @@
   "images_tried": true,
   "highlight": "用 Rust 编写并打成单个离线 WebAssembly 文件；作者标注 Claude Fable 5.2 制作。",
   "tech_basis": "Fable52 标签（Rust、WebAssembly）+ 线索描述",
-  "note": "链接是作者的手机小游戏合集页，Rufus Crush 是其中一款"
+  "note": "链接是作者的手机小游戏合集页，Rufus Crush 是其中一款",
+  "novelty": {
+   "N": 0,
+   "N_why": "三消，1036关（页面说明）",
+   "T": 1,
+   "T_why": "Rust编译为WebAssembly的离线单文件（Fable52标签）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-21",
@@ -14334,7 +16644,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "职场发泄题材的破坏小游戏，同作者系列之一；站内游玩 10 次。",
-  "tech_basis": "Fable52 标签 Three.js + 同作者抽查"
+  "tech_basis": "Fable52 标签 Three.js + 同作者抽查",
+  "novelty": {
+   "N": 0,
+   "N_why": "砸办公室解压（页面说明）",
+   "T": 1,
+   "T_why": "three.js为推断，未核验",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "jester",
@@ -14406,7 +16725,24 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用摄像头与姿态识别做多人同乐，创意独特；作者标注 Claude Fable 5.2 制作。",
-  "tech_basis": "code_detect（Supabase、Canvas 2D）+ Fable52 标签"
+  "tech_basis": "code_detect（Supabase、Canvas 2D）+ Fable52 标签",
+  "novelty": {
+   "N": 2,
+   "N_why": "视频变关卡，玩家暗中模仿并叠加抠像回放，摄像头输入是核心（页面说明）",
+   "T": 1,
+   "T_why": "Supabase联机房间加Canvas 2D，MediaPipe来自标签（代码特征+Fable52标签）",
+   "pending": [
+    "N"
+   ],
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": [
+   {
+    "k": "待核",
+    "v": "玩法新待核：视频变关卡，玩家暗中模仿并叠加抠像回放，摄像头输入是核心（页面说明）"
+   }
+  ]
  },
  {
   "id": "giant-salami-saw",
@@ -14420,7 +16756,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-19",
@@ -14442,12 +16778,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 11.2 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-11-14 发布"
   ],
@@ -14469,11 +16800,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-19",
   "images_tried": true,
   "highlight": "Astrocade 趋势榜高位，但页面没有玩法说明，玩法待确认。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面（无描述，仅封面图）；没有视频，未进入游戏；未确认：玩法、操作、目标、失败条件全部未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面（无描述，仅封面图）；没有视频，未进入游戏；未确认：玩法、操作、目标、失败条件全部未确认（2026-11-19 核验）",
+  "novelty": {
+   "N_why": "页面没有玩法描述，只有封面",
+   "T_why": "仅平台说明",
+   "N": null,
+   "T": null,
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "makeover-studio",
@@ -14533,7 +16872,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "换装化妆是平台常见公式玩法；榜内第 6 名、游玩 3.4 万次，新进榜。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "美妆换装模板（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "high-power-contra-os-invasores-intergal",
@@ -14593,7 +16941,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "游玩 3.8 万次、点赞 1,096；标题借用「魂斗罗」式名称，可能涉及 IP 授权。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "点击引导主角打外星入侵者的卡通冒险（页面说明）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "love-crime-couple-adventure",
@@ -14607,7 +16964,7 @@
   "tech": "Astrocade 平台对话式生成",
   "xcheck": "",
   "src": "Astrocade 平台页面显示值",
-  "hot": true,
+  "hot": false,
   "status": "auto",
   "first_seen": {
    "date": "2026-11-19",
@@ -14629,12 +16986,7 @@
     "doubt": false
    }
   ],
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 16.4 万 次"
-   }
-  ],
+  "signals": [],
   "reasons": [
    "Astrocade 热门页新上榜，2026-10-29 发布"
   ],
@@ -14656,11 +17008,19 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-19",
   "images_tried": true,
   "highlight": "约会互动加开跑车逛城，两类玩法混搭。",
   "tech_basis": "平台说明",
-  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：任务内容、操作方式、失败条件、城市规模均未确认（2026-11-19 核验）"
+  "play_basis": "Astrocade 页面描述；未进入游戏；未确认：任务内容、操作方式、失败条件、城市规模均未确认（2026-11-19 核验）",
+  "novelty": {
+   "N": 1,
+   "N_why": "约会互动与开放城市驾驶合在一起（页面说明，未进入游戏）",
+   "T": 0,
+   "T_why": "平台对话式生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-22",
@@ -14732,7 +17092,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "同一套素材交给两个 AI 各做一款的对照样本，这是其中的 Fable 版；新进榜。",
-  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ 线索描述"
+  "tech_basis": "code_detect（Canvas 2D、Web Audio）+ 线索描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "纸飞机无尽飞行，Flappy类（页面说明）",
+   "T": 0,
+   "T_why": "Canvas 2D加Web Audio单脚本（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "championship-manager",
@@ -14793,7 +17162,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "Verse8 趋势榜第 21 名、游玩 2,370 次；沿用经典足球经理游戏名，可能涉及 IP 授权。",
-  "tech_basis": "平台说明"
+  "tech_basis": "平台说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "足球经理，标准做法（页面说明）",
+   "T": 0,
+   "T_why": "Verse8平台生成",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "game-16",
@@ -14857,10 +17235,18 @@
   "x_handles": [],
   "source_posts": [],
   "stats_date": "2026-11-19",
-  "hot_since": "2026-11-18",
   "images_tried": true,
   "highlight": "《西游记》三借芭蕉扇改编的回合制 RPG，是 ZenStory\"小说改游戏\"技能包（GitHub 1,136 星）的示例作品。",
-  "tech_basis": "code_detect（脚本 js/main.js）+ GitHub 仓库描述"
+  "tech_basis": "code_detect（脚本 js/main.js）+ GitHub 仓库描述",
+  "novelty": {
+   "N": 0,
+   "N_why": "回合制指令加五行相克的西游题材RPG（页面说明）",
+   "T": 0,
+   "T_why": "原生JS，引擎未识别（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "papertrails",
@@ -14932,7 +17318,16 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "用\"立体书翻开\"的纸艺效果做无尽漫步，视觉概念新。仓库 86 星，站内游玩很少。",
-  "tech_basis": "站点代码特征识别（three.js、AudioContext）；Fable52 页面标注"
+  "tech_basis": "站点代码特征识别（three.js、AudioContext）；Fable52 页面标注",
+  "novelty": {
+   "N": 1,
+   "N_why": "纸做的立体书村庄升起合上的无战斗漫步（页面说明，未试玩）",
+   "T": 1,
+   "T_why": "three.js加Web Audio，看不出表现力（代码特征）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  },
  {
   "id": "last-light-rooftop-run",
@@ -15004,6 +17399,15 @@
   "stats_date": "2026-11-19",
   "images_tried": true,
   "highlight": "出自\"四个 AI 编程模型、同一句提示词、各做一次\"的对比仓库，这是 Fable 5.2 的版本，可直接和其他模型的成品对照。",
-  "tech_basis": "站点代码特征识别（three.js）；GitHub 仓库 clockendbader/model-arena 的说明"
+  "tech_basis": "站点代码特征识别（three.js）；GitHub 仓库 clockendbader/model-arena 的说明",
+  "novelty": {
+   "N": 0,
+   "N_why": "第一人称楼顶跑酷计时赛带幽灵回放，标准做法（页面说明，未试玩）",
+   "T": 1,
+   "T_why": "three.js，仅技术名（代码特征+GitHub说明）",
+   "checked": "2026-11-25"
+  },
+  "hot_why": [],
+  "labels": []
  }
 ]

@@ -13,14 +13,15 @@ import re
 import shutil
 
 from . import util
-from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, heat, method_html, split_reply, videos_html, stats_x_first
+from .build_site import AI_TAG, CHANNEL, LINK, PAL, card, date_key, method_html, order_key, split_reply, videos_html, stats_x_first
 
 e = html.escape
 WEEK = '一二三四五六日'
 CH_SHORT = {'x': 'X', 'hn': 'Hacker News', 'threejs': 'three.js 论坛', 'github': 'GitHub', 'itch': 'itch.io',
             'awesome': '精选清单', 'spawn': 'Spawn', 'verse8': 'Verse8', 'astrocade': 'Astrocade', 'rosebud': 'Rosebud',
             'wavedash': 'Wavedash', 'fable52': 'Fable52.games', '基线报告': '首批整理'}
-STATUS_TAGS = [('hot', '重点'), ('new', '近 7 天入库'), ('verified', '已核验'), ('auto', '待核验'), ('nolink', '试玩链接未找到')]
+STATUS_TAGS = [('hot', '重点'), ('pending', '待核'), ('platform', '平台爆款'), ('new', '近 7 天入库'), ('verified', '已核验'),
+               ('auto', '待核验'), ('nolink', '试玩链接未找到')]
 
 
 def channels_of(g):
@@ -47,7 +48,7 @@ def hero(g):
     stats = ''.join(f'<div><b>{e(s["value"])}</b><span>{e(s["label"])}</span></div>'
                     for s in stats_x_first(g)[:3] if not s.get('doubt'))
     text = split_reply(g.get('play'))[0] or html.unescape(g.get('quote') or '')
-    sig = '；'.join(s['说明'] for s in g.get('signals') or [] if s['类别'] != '技术')
+    sig = '；'.join(r['k'] + '：' + r['v'] for r in g.get('hot_why') or [])
     go = LINK.get(g.get('link_status'), ('', '试玩 ↗'))[1]
     return f'''<article class="slide" id="hero-{e(g['id'])}">
 <a class="slide-img" href="{e(g['url'])}" target="_blank" rel="noopener">{img}</a>
@@ -58,7 +59,7 @@ def hero(g):
 <p class="slide-text">{e(text)}</p>
 {f'<p class="slide-why"><b>亮点</b>{e(g["highlight"])}</p>' if g.get('highlight') else ''}
 {f'<p class="slide-why">{videos_html(g)}</p>' if g.get('videos') else ''}
-{f'<p class="slide-why">重点依据：{e(sig)}</p>' if sig else ''}
+{f'<p class="slide-why">重点理由：{e(sig)}</p>' if sig else ''}
 <div class="slide-stats">{stats}</div>
 <div class="slide-act"><a class="btn" href="{e(g['url'])}" target="_blank" rel="noopener">{go}</a><a class="btn btn-2" href="#{e(g['id'])}">看卡片</a></div>
 </div>
@@ -88,13 +89,13 @@ def run(date=None):
     # 同一发现渠道最多放 4 款，免得平台热门榜（每天轮换）把轮播占满
     hot, per_ch = [], {}
     for g in sorted([g for g in games if g.get('hot') and date_key(g) >= fresh],
-                    key=lambda g: (g.get('hot_since') or g.get('added') or '', heat(g)), reverse=True):
+                    key=lambda g: (g.get('hot_since') or g.get('added') or '', order_key(g)), reverse=True):
         ch = (channels_of(g) or [''])[0]
         if per_ch.get(ch, 0) < 4 and len(hot) < 12:
             hot.append(g)
             per_ch[ch] = per_ch.get(ch, 0) + 1
 
-    # 信息流：按入库日期倒序；同一天里重点在前，再按热度。首批整理的 68 款按首次公开日期排
+    # 信息流：按入库日期倒序；同一天里重点在前，再按入选理由和 X 浏览。首批整理的 68 款按首次公开日期排
     days = {}
     for g in games:
         days.setdefault(g.get('added') or '', []).append(g)
@@ -102,7 +103,7 @@ def run(date=None):
     for d in sorted(days, reverse=True):
         gs = days[d]
         base = all(x.get('issue') == '基线' for x in gs)
-        gs.sort(key=(lambda g: date_key(g)) if base else (lambda g: (bool(g.get('hot')), heat(g))), reverse=True)
+        gs.sort(key=(lambda g: date_key(g)) if base else order_key, reverse=True)
         cards = []
         for g in gs:
             chs = channels_of(g)
@@ -113,6 +114,11 @@ def run(date=None):
             st_tags = []
             if g.get('hot'):
                 st_tags.append('hot')
+            labs = {r['k'] for r in g.get('labels') or []}
+            if '待核' in labs:
+                st_tags.append('pending')
+            if '平台爆款' in labs:
+                st_tags.append('platform')
             if (g.get('added') or '') > week_ago and g.get('issue') != '基线':
                 st_tags.append('new')
             st_tags.append('auto' if g.get('status') == 'auto' else 'verified')
@@ -173,12 +179,12 @@ def run(date=None):
 <div class="intro" id="top"><div class="wrap2">
 <p class="eyebrow">数据截至 {date} · 每天更新</p>
 <h1>{e(title)}</h1>
-<p class="lede">新出现的、能在浏览器里直接玩的 AI 游戏。每天从 X、Hacker News、three.js 论坛、GitHub、itch.io、各 AI 创作平台和游戏合集站读取线索，判断为网页游戏的入库，传播或游玩数据达到重点线的放在最前面。</p>
+<p class="lede">新出现的、能在浏览器里直接玩的 AI 游戏。每天从 X、Hacker News、three.js 论坛、GitHub、itch.io、各 AI 创作平台和游戏合集站读取线索，判断为网页游戏的入库。X 浏览达到重点线、或玩法和技术评分得到 2 分的标为重点，放在最前面。</p>
 <div class="nums"><div><b>{len(games)}</b><span>累计收录</span></div><div><b>{n_week}</b><span>近 7 天入库</span></div><div><b>{n_hot}</b><span>重点</span></div><div><b>{n_ai}</b><span>有 AI 参与证据</span></div></div>
 </div></div>
 
 <section class="hero wrap2" aria-label="重点游戏">
-<div class="hero-h"><h2>重点游戏</h2><span>首次公开在 30 天内、传播或游玩数据达到重点线的新品，最近升为重点的在前</span></div>
+<div class="hero-h"><h2>重点游戏</h2><span>首次公开在 30 天内的重点新品（X 热度、玩法新或技术强），最近升为重点的在前</span></div>
 <div class="carousel" id="car">
 <div class="track" id="track">{hero_html}</div>
 <button type="button" class="nav prev" aria-label="上一张">‹</button><button type="button" class="nav next" aria-label="下一张">›</button>
@@ -189,7 +195,7 @@ def run(date=None):
 <main class="wrap2">
 <div class="tools" id="tools">
 <div class="tools-top"><span class="count" id="count"></span>
-<span class="seg" id="sortSeg"><button type="button" data-sort="date" class="on">按入库日期</button><button type="button" data-sort="heat">按热度</button><button type="button" data-sort="pub">按首次公开</button></span>
+<span class="seg" id="sortSeg"><button type="button" data-sort="date" class="on">按入库日期</button><button type="button" data-sort="heat">按 X 浏览</button><button type="button" data-sort="pub">按首次公开</button></span>
 <button type="button" class="clear" id="clear" hidden>清除筛选</button></div>
 {filt}
 </div>

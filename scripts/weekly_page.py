@@ -19,7 +19,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from monitor import util                                                      # noqa: E402
-from monitor.build_site import card, date_key, heat                              # noqa: E402
+from monitor.build_site import card, date_key, order_key                         # noqa: E402
 from monitor.feed import CH_SHORT, channels_of                                # noqa: E402
 
 e = html.escape
@@ -55,15 +55,6 @@ CSS = '''
 '''
 
 
-def x_views(g):
-    for s in g.get('stats') or []:
-        if s.get('label', '').startswith('X '):
-            m = re.match(r'([\d.]+)\s*(万)?', s['value'].replace(',', ''))
-            if m:
-                return float(m.group(1)) * (10000 if m.group(2) else 1)
-    return 0
-
-
 def shot(g):
     if g.get('shot'):
         return f'<img src="assets/games/{e(g["shot"])}" alt="{e(g["name"])} 的画面" loading="lazy">'
@@ -96,10 +87,17 @@ def run(d0, d1, out, draft=None):
         items = ''.join(mini(by_name[i['name']], i.get('what', ''), i.get('why', '')) for i in t['items'] if i['name'] in by_name)
         tiers.append(f'<section class="wk-sec"><h2>{e(t["title"])}</h2><p class="sub">{e(t.get("sub", ""))}</p><div class="minis">{items}</div></section>')
     if not tiers:
-        hot = sorted([g for g in games if g.get('hot')], key=lambda g: (-x_views(g), -heat(g)))
+        hot = sorted([g for g in games if g.get('hot')], key=order_key, reverse=True)
         if hot:
             items = ''.join(mini(g, g.get('play', '')[:60] + ('…' if len(g.get('play', '')) > 60 else ''), g.get('highlight', '')) for g in hot)
-            tiers.append(f'<section class="wk-sec"><h2>本周重点</h2><p class="sub">传播或游玩数据达到重点线的 {len(hot)} 款，X 浏览高的在前。点"看详情"跳到下方完整卡片。</p><div class="minis">{items}</div></section>')
+            tiers.append(f'<section class="wk-sec"><h2>本周重点</h2><p class="sub">X 浏览达到重点线、或玩法和技术评分得到 2 分的 {len(hot)} 款，X 热度的在前。点"看详情"跳到下方完整卡片。</p><div class="minis">{items}</div></section>')
+        else:
+            tiers.append(f'<section class="wk-sec"><h2>本周重点</h2><p class="sub">这一周新入库的 {len(games)} 款里，没有 X 浏览达到重点线、或玩法和技术评分得到 2 分的作品。</p></section>')
+        pend = [g for g in games if any(r['k'] == '待核' for r in g.get('labels') or [])]
+        if pend:
+            items = ''.join(mini(g, g.get('play', '')[:60] + ('…' if len(g.get('play', '')) > 60 else ''),
+                                 next(r['v'] for r in g['labels'] if r['k'] == '待核')) for g in pend)
+            tiers.append(f'<section class="wk-sec"><h2>待核</h2><p class="sub">玩法或技术可能够 2 分、但依据只有合集站或平台简介的 {len(pend)} 款，试玩或看到视频确认后再定是否重点。</p><div class="minis">{items}</div></section>')
     trends = (draft or {}).get('trends') or []
     trends_html = ('<section class="wk-sec"><h2>几个现象</h2><div class="trends">' + ''.join(
         f'<article class="trend card"><h3>{e(t["h"])}</h3><p>{e(t["p"])}</p></article>' for t in trends) + '</div></section>') if trends else ''
@@ -109,7 +107,7 @@ def run(d0, d1, out, draft=None):
     secs = []
     groups = order + sorted({g.get('group') or '待归类' for g in games} - set(order))
     for i, grp in enumerate(groups):
-        gs = sorted([g for g in games if (g.get('group') or '待归类') == grp], key=lambda g: (not g.get('hot'), -x_views(g), -heat(g)))
+        gs = sorted([g for g in games if (g.get('group') or '待归类') == grp], key=order_key, reverse=True)
         if not gs:
             continue
         chips.append(f'<button class="chip" data-g="g{i}">{e(grp)}<i>{len(gs)}</i></button>')
@@ -149,7 +147,7 @@ def run(d0, d1, out, draft=None):
 <main class="wrap">
 {''.join(tiers)}
 {trends_html}
-<section class="wk-sec" id="all"><h2>全部 {len(games)} 款</h2><p class="sub">按方向分组，组内重点在前，再按 X 浏览量和其他数字从高到低。</p>
+<section class="wk-sec" id="all"><h2>全部 {len(games)} 款</h2><p class="sub">按方向分组，组内重点在前（X 热度的在前），再按 X 浏览量和其他数字从高到低。</p>
 <div class="chips" role="group" aria-label="按方向筛选">{''.join(chips)}</div>{''.join(secs)}</section>
 <section class="wk-sec" id="sources"><h2>来源统计</h2><p class="sub">每款游戏是从哪个渠道发现的。一款可能同时出现在几个渠道，所以合计会超过总数；不含溯源时找到的作者原帖和源码仓库。</p><div class="bars">{bars}</div></section>
 <section class="wk-sec" id="notes"><h2>口径与限制</h2><ul class="notes">{notes_html}</ul></section>

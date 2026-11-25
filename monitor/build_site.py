@@ -41,6 +41,58 @@ def heat(g):
     return int(max(vals, default=0))
 
 
+def x_num(g):
+    """卡片上的 X 浏览数（取 X 开头的数字里最大的），用于排序。"""
+    return int(max((num(s['value']) for s in g.get('stats', []) if is_x(s)), default=0))
+
+
+def order_key(g):
+    """排序：重点在前；重点里先按入选理由（有 X 热度的在前、理由多的在前），再按 X 浏览，最后按其他数字。配合 reverse=True。"""
+    ks = [r['k'] for r in g.get('hot_why') or []]
+    return (bool(g.get('hot')), 'X 热度' in ks, len(ks), x_num(g), heat(g))
+
+
+def reason_chips(g):
+    """卡片标签行里的入选理由（实心）和只做展示的标签（描边）。悬停看依据。"""
+    out = []
+    for r in g.get('hot_why') or []:
+        lab = r['k']
+        if lab == 'X 热度':
+            m = re.search(r'浏览 ([\d.,]+ ?万?)', r['v'])
+            lab += f' {m.group(1)}' if m else ''
+        out.append(f'<span class="tag tag-why" title="{e(r["v"])}">{e(lab)}</span>')
+    for r in g.get('labels') or []:
+        lab = r['k']
+        if lab == 'X 有传播':
+            m = re.search(r'浏览 ([\d.,]+ ?万?)', r['v'])
+            lab += f' {m.group(1)}' if m else ''
+        elif lab == '待核':
+            lab = r['v'].split('：', 1)[0]
+        out.append(f'<span class="tag tag-lab" title="{e(r["v"])}">{e(lab)}</span>')
+    return out
+
+
+def asof_html(s):
+    """数字的读取日期（X 浏览会每周重读，标出是哪天读的）。"""
+    return f'<small class="asof">{e(s["asof"][5:])} 读取</small>' if s.get('asof') else ''
+
+
+def score_text(g):
+    """玩法新颖 / 技术前沿的评分说明，写进卡片的理由段。"""
+    nv = g.get('novelty') or {}
+    if not nv:
+        return ''
+    bits = []
+    for dim, name in (('N', '玩法新颖'), ('T', '技术前沿')):
+        v = nv.get(dim)
+        why = nv.get(dim + '_why') or ''
+        mark = '（待核）' if v == 2 and dim in (nv.get('pending') or []) else ''
+        bits.append(f"{name} {'待定' if v is None else str(v) + ' 分'}{mark}" + (f'：{why}' if why else ''))
+    if nv.get('recheck'):
+        bits.append('下次复核：' + nv['recheck'])
+    return '；'.join(bits) + (f"（{nv['checked']} 评）" if nv.get('checked') else '')
+
+
 def date_key(g):
     m = re.search(r'(20\d\d)-(\d\d)(?:-(\d\d))?', g.get('date_text') or '')
     if m:
@@ -84,11 +136,11 @@ def card(g, is_new=False):
                  else f'<div class="noshot" style="--c:{col}"><span>{e(g["name"])}</span><small>暂无画面截图</small></div>')
     stats = ''.join(
         f'<div class="st{" st-red" if s.get("doubt") else ""}{" st-x" if is_x(s) else ""}"><dt>{e(s["label"])}{"（口径存疑）" if s.get("doubt") else ""}</dt>'
-        f'<dd>{e(s["value"])}</dd></div>' for s in stats_x_first(g))
+        f'<dd>{e(s["value"])}{asof_html(s)}</dd></div>' for s in stats_x_first(g))
     xs = ''.join(f'<img src="{A}{e(x)}" alt="{e(g["name"])} 画面" loading="lazy">' for x in g.get('extra_shots', []))
     xs = f'<div class="xshots">{xs}</div>' if xs else ''
     hot = '<span class="hot">★ 重点</span>' if g.get('hot') else ''
-    tags = []
+    tags = reason_chips(g)
     if is_new:
         tags.append('<span class="tag tag-new">本期新增</span>')
     cls, lab = AI_TAG.get(g.get('ai_tag') or 'unlabeled', AI_TAG['unlabeled'])
@@ -114,15 +166,17 @@ def card(g, is_new=False):
     found = ''
     if fs.get('channel') and fs['channel'] != '基线报告':
         found = f'首次发现：{e(fs["date"])} · {e(CHANNEL.get(fs["channel"], fs["channel"]))}'
-    why = ''
-    if g.get('reasons') or g.get('signals'):
-        bits = list(g.get('reasons') or [])
-        hot_bits = [f"{s['类别']}：{s['说明']}" for s in g.get('signals') or [] if s['类别'] != '技术']
-        if hot_bits:
-            bits.append('标为重点的依据：' + '；'.join(hot_bits))
-        if g.get('ai_evidence'):
-            bits.append('AI 证据：' + g['ai_evidence'])
-        why = '<b>入库理由</b>' + e('；'.join(bits))
+    parts = []
+    if g.get('hot_why'):
+        parts.append('<b>重点理由</b>' + e(' · '.join(r['k'] + ('（' + r['v'] + '）' if r['k'] == 'X 热度' else '')
+                                                      for r in g['hot_why'])))
+    if g.get('labels'):
+        parts.append('<b>标签说明</b>' + e('；'.join(f"{r['k']}：{r['v']}" if r['k'] != '待核' else r['v'] for r in g['labels'])))
+    if g.get('novelty'):
+        parts.append('<b>评分</b>' + e(score_text(g)))
+    if g.get('reasons'):
+        parts.append('<b>入库理由</b>' + e('；'.join(list(g['reasons']) + (['AI 证据：' + g['ai_evidence']] if g.get('ai_evidence') else []))))
+    why = '<br>'.join(parts)
     src_txt = (g.get('src') or '') + (f"（数据截至 {g['stats_date']}）" if g.get('stats_date') else '') + \
         (f"；技术栈依据：{g['tech_basis']}" if g.get('tech_basis') else '') + \
         (f"；玩法依据：{g['play_basis']}" if g.get('play_basis') else '') + (f"；{g['note']}" if g.get('note') else '')
@@ -136,7 +190,7 @@ def card(g, is_new=False):
             seen.add(s['url'])
             links.append(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(CHANNEL.get(s["channel"], s["channel"]))} ↗</a>')
         srcs = f'<span class="srcs">{"".join(links[:6])}</span>'
-    return f'''<article class="g card{' is-hot' if g.get('hot') else ''}" id="{'new-' if is_new else ''}{e(g['id'])}" data-date="{date_key(g)}" data-heat="{heat(g)}" data-ai="{e(g.get('ai_tag') or 'unlabeled')}" data-hot="{1 if g.get('hot') else 0}">
+    return f'''<article class="g card{' is-hot' if g.get('hot') else ''}" id="{'new-' if is_new else ''}{e(g['id'])}" data-date="{date_key(g)}" data-heat="{x_num(g)}" data-ai="{e(g.get('ai_tag') or 'unlabeled')}" data-hot="{1 if g.get('hot') else 0}">
 <div class="media"><a class="shot" href="{e(g['url'])}" target="_blank" rel="noopener">{shot_html}{hot}</a>{xs}</div>
 <header class="gh">{icon_html}<div><h4>{e(g['name'])}</h4><span class="kind">{e(g.get('kind') or '')}</span></div></header>
 <div class="tags">{''.join(tags)}</div>
@@ -276,8 +330,8 @@ def method_html(cfg):
     return f'''<div class="method">
 <div class="step card"><span class="n">1</span><h3>多渠道发现</h3><p>每天从下表的渠道读取线索，过了入库线的按试玩链接合并去重。已经收录过的游戏和它们的仿冒域名会被剔除。</p></div>
 <div class="step card"><span class="n">2</span><h3>入库条件</h3><ul><li>是一款网页游戏：链接在已知的游戏平台上，或者页面里能找到画布或游戏引擎；没有试玩链接的 X 帖子，要带视频或图片并且正文在讲游戏</li><li>首次公开在近 {cfg["window"]["new_days"]} 天内，或近 {cfg["window"]["reheat_days"]} 天有新的热度</li><li>不要求传播数据或游玩次数</li></ul></div>
-<div class="step card"><span class="n">3</span><h3>标为重点</h3><p>达到下面任意一条：</p><ul><li>X 单帖浏览 ≥ {util.fmt_num(H["x_views"])}</li><li>Hacker News ≥ {H["hn_points"]} 分</li><li>GitHub ≥ {util.fmt_num(H["github_stars"])} 星</li><li>three.js 论坛 ≥ {util.fmt_num(H["threejs_views"])} 次浏览</li><li>平台显示游玩 ≥ {util.fmt_num(H["plays"])} 次（Verse8 的游玩数口径存疑，不计入）</li><li>同时有 Steam 页面</li></ul><p>X 来源帖的浏览数在发帖后 {cfg["thresholds"].get("x_refresh_days", 14)} 天内每天重读。2026-11-10 之前收录的 68 款，重点是逐款判断的。</p></div>
-<div class="step card"><span class="n">4</span><h3>标签含义</h3><ul><li><b>AI 参与</b>：作者自述、帖子写明模型或工具、发布在 AI 创作平台，或大模型本身是玩法</li><li><b>疑似 AI</b>：没有直接证据，但符合短时间、低成本、高完成度的共性</li><li><b>非 AI · 创意</b>：明确不是 AI 制作，因创意收录</li><li><b>AI 证据待确认</b>：还没有找到证据，也没有排除</li><li><b>自动入库 · 待核验</b>：按规则自动入库，还没有经过试玩核验</li><li><b>试玩链接未找到</b>：来源帖子展示了游戏，但没有公开的试玩链接，能否在浏览器里玩还没有确认</li></ul></div>
+<div class="step card"><span class="n">3</span><h3>标为重点</h3><p>满足下面任意一条，卡片上写明是哪条：</p><ul><li><b>X 热度</b>：作者帖或他人专门介绍这款游戏的帖子，单帖浏览 ≥ {util.fmt_num(H["x_views"])}（多款游戏的清单帖不算）</li><li><b>玩法新</b>：玩法新颖评分 2 分，核心机制在主流网页游戏门户的头部里少见</li><li><b>技术强</b>：技术前沿评分 2 分，例如端游级 3D、几十人同场、整个世界程序化生成、运行时大模型、有难度的移植</li></ul><p>评分每周做一次，0 到 2 分，2 分要有视频、试玩、README、作者帖文或游戏页面说明作依据；依据只有合集站或平台简介的记"待核"，不算重点。同一原作的多款移植只取一款，其余标"同类移植"。游玩数、Hacker News 分、GitHub 星只作参考，不决定重点。</p><p>只做展示、不算重点的标签：X 浏览 {util.fmt_num(cfg["thresholds"].get("x_spread", 50000))} 到 {util.fmt_num(H["x_views"])} 的标"X 有传播"；Astrocade 游玩 ≥ {util.fmt_num((cfg["thresholds"].get("platform_hit") or {}).get("astrocade_plays", 500000))} 次的标"平台爆款"。</p><p>X 帖子的浏览数在发帖后 {cfg["thresholds"].get("x_refresh_days", 14)} 天内每天重读，之后每 {cfg["thresholds"].get("x_reread_days", 7)} 天重读一次，卡片上标了读取日期。</p></div>
+<div class="step card"><span class="n">4</span><h3>标签含义</h3><ul><li><b>AI 参与</b>：作者自述、帖子写明模型或工具、发布在 AI 创作平台，或大模型本身是玩法</li><li><b>疑似 AI</b>：没有直接证据，但符合短时间、低成本、高完成度的共性</li><li><b>非 AI · 创意</b>：明确不是 AI 制作，因创意收录</li><li><b>AI 证据待确认</b>：还没有找到证据，也没有排除</li><li><b>自动入库 · 待核验</b>：按规则自动入库，还没有经过试玩核验</li><li><b>试玩链接未找到</b>：来源帖子展示了游戏，但没有公开的试玩链接，能否在浏览器里玩还没有确认</li><li><b>待核</b>：玩法或技术可能够 2 分，但依据只有合集站或平台简介，等试玩或视频确认</li></ul></div>
 </div>
 <div class="card tblwrap" style="margin-top:14px"><table><thead><tr><th>渠道</th><th>读取内容</th><th>入库线</th></tr></thead><tbody>{rows}</tbody></table></div>'''
 
@@ -287,7 +341,7 @@ def digest_text(kind, date, issue, new_games, n_total, watch_names, base_url, ne
     word = '本期' if kind == 'weekly' else '今日'
     head = f'【AI 网页游戏新品监测】{"周汇总 " + rng if kind == "weekly" else "日汇总 " + date}'
     hot = [g for g in new_games if g.get('hot')]
-    rest = sorted([g for g in new_games if not g.get('hot')], key=lambda g: -heat(g))
+    rest = sorted([g for g in new_games if not g.get('hot')], key=order_key, reverse=True)
     lines = [head, f'累计收录 {n_total} 款；{word}新增 {len(new_games)} 款，其中重点 {len(hot)} 款。']
 
     def line(g, mark):
@@ -337,7 +391,7 @@ def run(date=None):
             if os.path.exists(util.p('assets', n)):
                 shutil.copyfile(util.p('assets', n), os.path.join(out, 'assets', n))
 
-    new_games = sorted([g for g in games if g.get('issue') == issue], key=lambda g: (not g.get('hot'), -heat(g)))
+    new_games = sorted([g for g in games if g.get('issue') == issue], key=order_key, reverse=True)
     today_games = [g for g in games if g.get('added') == date and g.get('issue') != '基线']
     by_title = {m['title']: m for m in st['groups']}
     grouped = {m['id']: [] for m in st['groups']}

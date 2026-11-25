@@ -175,7 +175,7 @@ def github(cfg, date, since=None, min_stars=None):
     if errs and not seen:
         raise RuntimeError('GitHub 搜索接口报错：' + errs[0])     # 交给 run() 记到 error 字段里
     leads = []
-    hot = cfg['thresholds']['hot']['github_stars']
+    hot = cfg['thresholds']['floors']['github_stars_total']
     for r in seen.values():
         home = (r.get('homepage') or '').strip()
         text = ' '.join([r.get('description') or '', ' '.join(r.get('topics') or [])])

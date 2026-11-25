@@ -195,12 +195,7 @@
   "published": "2026-10-23",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "题材少见：用经营游戏讲互联网基础设施怎么运转"
-   }
-  ],
+  "signals": [],
   "hard": {
    "是网页游戏": true,
    "近期": true
@@ -480,12 +475,7 @@
   "published": "2026-11-08",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 116 分"
-   }
-  ],
+  "signals": [],
   "hard": {
    "是网页游戏": true,
    "近期": true
@@ -636,12 +626,7 @@
   ],
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 175 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19"
  },
  "dimension9.space": {
@@ -685,8 +670,8 @@
   "ai_evidence": "",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 22 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 22.4 万（11-25 读取）"
    }
   ],
   "updated": "2026-11-19"
@@ -833,8 +818,8 @@
   "ai_evidence": "Hacker News 标题：Saltline: First-person shooter built by Fable 5",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 430.3 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 449.3 万（作者帖子，11-25 读取）"
    }
   ],
   "updated": "2026-11-19"
@@ -939,8 +924,8 @@
   "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 42.9 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 43.1 万（11-25 读取）"
    }
   ],
   "hard": {
@@ -994,7 +979,12 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：串内帖子写明由 Fable 5.2 制作",
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 17.4 万（11-25 读取）"
+   }
+  ],
   "hard": {
    "可玩链接": true,
    "近期": true
@@ -1095,12 +1085,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "页面自述：真实的三维城市数据按固定等距视角渲染，再由一个按像素画风格训练的图像模型逐块重绘",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 261 分"
-   }
-  ],
+  "signals": [],
   "hard": {
    "是网页游戏": true,
    "近期": true
@@ -1248,12 +1233,7 @@
   "published": "2026-10-28",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 33.5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -1306,12 +1286,7 @@
   "published": "2026-11-05",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.4 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -1364,12 +1339,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 14 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -1476,12 +1446,7 @@
   "published": "2026-10-31",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 37.3 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -1588,12 +1553,7 @@
   "published": "2026-11-02",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 27.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "library_id": "as_rich",
   "reasons": [
@@ -1632,12 +1592,7 @@
   "published": "2026-11-07",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -2276,12 +2231,7 @@
   "published": "2026-10-31",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "library_id": "sp_underground",
   "reasons": [
@@ -2320,12 +2270,7 @@
   "published": "2026-10-23",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Spawn",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 9.4 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "library_id": "sp_stranglethorn",
   "reasons": [
@@ -2977,7 +2922,12 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明让 Fable 5.2 用 three.js 制作",
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 5.9 万（11-25 读取）"
+   }
+  ],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3090,7 +3040,12 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Fable 5.2 制作",
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 20.1 万（11-25 读取）"
+   }
+  ],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3264,8 +3219,8 @@
   "ai_evidence": "来源帖子：作者 @loktar00 的原帖写明整款游戏（动画、模型等）由 Fable 5.2 制作",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 20.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 20.5 万（11-25 读取）"
    }
   ],
   "updated": "2026-11-19",
@@ -3320,12 +3275,7 @@
   "published": "2026-11-07",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 6.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3380,8 +3330,8 @@
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 56.9 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 56.9 万 次（≥ 50 万）"
    }
   ],
   "updated": "2026-11-19",
@@ -3424,8 +3374,8 @@
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 96.9 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 96.9 万 次（≥ 50 万）"
    }
   ],
   "updated": "2026-11-19",
@@ -3518,12 +3468,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3575,12 +3520,7 @@
   "published": "2026-11-01",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 18.9 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3636,8 +3576,8 @@
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 84.4 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 84.4 万 次（≥ 50 万）"
    }
   ],
   "updated": "2026-11-19",
@@ -3692,12 +3632,7 @@
   "published": "2026-11-08",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 7.7 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3750,12 +3685,7 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 11.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -3939,12 +3869,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "Soccer-3D - Claude Fable 5.2 test",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "规则完整的 7 人制足球做进单个网页文件；Fable52.games 站内游玩数排第二"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4094,8 +4019,8 @@
   "ai_evidence": "作者帖子：Claude Fable 5.2 made this game demo, playable in the browser",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 51.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 51.6 万（作者帖子，11-25 读取）"
    }
   ],
   "updated": "2026-11-19",
@@ -4168,12 +4093,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "作者帖子：Everything Fable 5.2 built today:",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "新的制作方式：模型每次跑一个自主会话，公开地连续开发一款开放世界游戏"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4318,12 +4238,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "Created to test the Claude Fable 5.2 model",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "用 Fable 5.2 做出包含骑马、打猎、钓鱼、打牌等多种系统的开放世界"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4399,12 +4314,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "页面描述写\"Built by an AI from one prompt\"；Fable52.games 标注由 Claude Fable 5.2 制作",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "程序员值班梗做成的射击游戏，作者写明由 AI 按一句提示词做出"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -4620,8 +4530,8 @@
   "ai_evidence": "作者帖子：Claude Fable 5.2 made this game demo, playable in the browser",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 48.7 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 52.1 万（作者帖子，11-25 读取）"
    }
   ],
   "updated": "2026-11-19",
@@ -4989,8 +4899,8 @@
   "ai_evidence": "作者帖子：我去！Fable 5.2 只用了一下午、45 亿 token 就给我做出了这样一个 3D 动作游戏！",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 29.5 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 30.8 万（作者帖子，11-25 读取）"
    }
   ],
   "updated": "2026-11-19",
@@ -5271,8 +5181,8 @@
   "ai_evidence": "Fable52.games 收录，标注由 Claude Fable 5.2 (unverified) 制作",
   "signals": [
    {
-    "类别": "传播",
-    "说明": "X 单帖浏览 32.2 万"
+    "类别": "X 热度",
+    "说明": "X 单帖浏览 32.3 万（他人介绍帖，11-25 读取）"
    }
   ],
   "updated": "2026-11-19",
@@ -5345,12 +5255,7 @@
   "published": "2026-11-10",
   "ai_tag": "ai",
   "ai_evidence": "simple badminton game with claude fable 5.2",
-  "signals": [
-   {
-    "类别": "玩法",
-    "说明": "用摄像头追踪手部当输入的羽毛球，网页游戏里少见的玩法"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -6359,12 +6264,7 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "作者文章：Fable 5.2 按侄子的一叠手绘一次做出了这款游戏，文中给出了完整提示词",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 505 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "page": {
    "ok": true,
@@ -6416,12 +6316,7 @@
   "published": "2026-11-11",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 249 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "page": {
    "ok": true,
@@ -6526,12 +6421,7 @@
   "published": "2026-11-12",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 310 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": false,
@@ -6676,12 +6566,7 @@
   "published": "2026-10-24",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 7 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -6789,12 +6674,7 @@
   "published": "2026-11-11",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 13 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -6848,12 +6728,7 @@
   "published": "2026-11-11",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 13.5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -6909,8 +6784,8 @@
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 167.7 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 167.7 万 次（≥ 50 万）"
    }
   ],
   "updated": "2026-11-19",
@@ -7019,12 +6894,7 @@
   "published": "2026-07-29",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 15.9 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -7077,12 +6947,7 @@
   "published": "2026-09-18",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.6 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -7137,8 +7002,8 @@
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
   "signals": [
    {
-    "类别": "规模",
-    "说明": "平台显示游玩 283.6 万 次"
+    "类别": "平台爆款",
+    "说明": "Astrocade 游玩数 283.6 万 次（≥ 50 万）"
    }
   ],
   "updated": "2026-11-19",
@@ -7193,12 +7058,7 @@
   "published": "2026-10-29",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.3 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -7251,12 +7111,7 @@
   "published": "2026-04-26",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 39.5 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -7527,12 +7382,7 @@
   "published": "2026-11-14",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 6.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -7866,12 +7716,7 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 10.6 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -8457,12 +8302,7 @@
   "published": "2026-11-15",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 232 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "page": {
    "ok": true,
@@ -8512,16 +8352,11 @@
    "date": "2026-11-16",
    "channel": "hn"
   },
-  "status": "观察",
+  "status": "候选",
   "published": "2026-11-15",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 221 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "page": {
    "ok": true,
@@ -8537,7 +8372,6 @@
    "近期": true
   },
   "reasons": [
-   "传播：Hacker News 221 分",
    "页面和脚本里没有发现画布或游戏引擎，可能不是游戏"
   ]
  },
@@ -8584,7 +8418,12 @@
   "published": "2026-11-09",
   "ai_tag": "ai",
   "ai_evidence": "来源帖子：帖子写明由 Claude Fable 5.2 制作",
-  "signals": [],
+  "signals": [
+   {
+    "类别": "X 有传播",
+    "说明": "X 单帖浏览 10.9 万（11-25 读取）"
+   }
+  ],
   "updated": "2026-11-19",
   "link_status": "ok"
  },
@@ -8673,12 +8512,7 @@
   "published": "2026-07-11",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 5.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -11114,12 +10948,7 @@
   "published": "2026-11-16",
   "ai_tag": "unlabeled",
   "ai_evidence": "",
-  "signals": [
-   {
-    "类别": "传播",
-    "说明": "Hacker News 166 分"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": false,
@@ -11362,12 +11191,7 @@
   "published": "2026-10-12",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 28.7 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -13414,12 +13238,7 @@
   "published": "2026-11-14",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 11.2 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,
@@ -13578,12 +13397,7 @@
   "published": "2026-10-29",
   "ai_tag": "ai",
   "ai_evidence": "发布在 AI 创作平台 Astrocade",
-  "signals": [
-   {
-    "类别": "规模",
-    "说明": "平台显示游玩 16.4 万 次"
-   }
-  ],
+  "signals": [],
   "updated": "2026-11-19",
   "hard": {
    "是网页游戏": true,

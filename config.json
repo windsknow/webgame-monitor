@@ -30,16 +30,22 @@
    "chart_min_plays": {
     "_说明": "榜单轮换很快的平台，游玩数到这个数才算上榜。",
     "astrocade": 20000
-   }
+   },
+   "github_stars_total": 1000,
+   "_github_stars_total_说明": "GitHub 仓库总星数到这个数也算过入库线（另一条是近 30 天新增星数到 github_stars_30d）。原来放在重点线里，2026-11-25 重点线改为只看 X 后移到这里。"
   },
   "hot": {
-   "_说明": "重点线：达到任意一条就标为重点。verse8 的游玩数口径存疑，不参与判断。",
-   "x_views": 200000,
-   "hn_points": 100,
-   "github_stars": 1000,
-   "threejs_views": 2000,
-   "plays": 50000
+   "_说明": "重点线（2026-11-25 用户定稿）：X 单帖浏览到 x_views，或每周打分里玩法新颖（N）、技术前沿（T）有一项得 2 分，就成为重点。打分口径见 docs/重点评判规则.md。其他平台的游玩数、HN 分、GitHub 星只显示，不决定重点。",
+   "x_views": 200000
   },
+  "x_spread": 50000,
+  "_x_spread_说明": "X 单帖浏览到这个数、没到重点线的，卡片标\"X 有传播\"，不成为重点。",
+  "platform_hit": {
+   "_说明": "只做展示的\"平台爆款\"标签，不算重点。门槛按平台分布定：Astrocade 2026-11-12 至 11-25 热门页出现过的 177 款里，最高游玩数前 10% 约 16 万、前 5% 约 57 万，取 50 万（约前 5%）。其他平台的游玩数量级小得多（Spawn 最高约 4,000），暂不设。",
+   "astrocade_plays": 500000
+  },
+  "x_reread_days": 7,
+  "_x_reread_days_说明": "卡片关联的所有 X 帖子（作者帖、他人专门介绍这款游戏的帖子，含已核验卡片的 source_posts）每隔这么多天用 fxtwitter 公开接口重读一次浏览数；发帖 x_refresh_days 天内的照旧每天重读。浏览数只取读到过的最大值。",
   "x_refresh_days": 14
  },
  "x_keywords": {
@@ -445,5 +451,81 @@
   "title": "AI 网页游戏新品监测",
   "base_url": ""
  },
- "x_manual_posts_note": "手动补充的 X 帖子链接写在 data/x_manual_posts.json 里，和每日数据走同一套判断。"
+ "x_manual_posts_note": "手动补充的 X 帖子链接写在 data/x_manual_posts.json 里，和每日数据走同一套判断。",
+ "prescreen": {
+  "_说明": "每天预筛（不调模型）：只决定新卡片进不进本周的玩法/技术复核，不直接决定重点。命中换皮关键词、又没有复核技术标签的，默认不进复核；Astrocade、Spawn、Verse8 的卡片默认不进复核，没命中换皮关键词且在平台榜前 5 的才进。three.js 不算复核技术标签（Fable52 上 86 款里有 67 款都有）。",
+  "reskin_words": [
+   "tic-tac-toe",
+   "tic tac toe",
+   "井字",
+   "match-3",
+   "match 3",
+   "三消",
+   "2048",
+   "merge",
+   "合成",
+   "clicker",
+   "idle",
+   "点击",
+   "放置",
+   "flappy",
+   "snake",
+   "贪吃蛇",
+   "tycoon",
+   "dress up",
+   "dress-up",
+   "换装",
+   "kick the buddy",
+   "ragdoll",
+   "踢打",
+   "asmr",
+   "quiz",
+   "trivia",
+   "问答",
+   "obby",
+   "dating",
+   "恋爱",
+   "brainrot"
+  ],
+  "review_tags": [
+   "webgpu",
+   "wasm",
+   "webassembly",
+   "multiplayer",
+   "多人",
+   "联机",
+   "mmo",
+   "llm",
+   "gpt",
+   "claude api",
+   "大模型",
+   "procedural",
+   "程序化",
+   "ported",
+   "移植",
+   "decompil",
+   "反编译",
+   "recompil",
+   "重编译",
+   "emulat",
+   "模拟器",
+   "webcam",
+   "摄像头",
+   "hand tracking",
+   "mediapipe",
+   "openstreetmap",
+   "osm",
+   "real-world",
+   "真实地图",
+   "卫星",
+   "port of"
+  ],
+  "chart_channels": [
+   "astrocade",
+   "spawn",
+   "verse8"
+  ],
+  "chart_top_n": 5,
+  "_匹配说明": "英文词只按词首匹配（decompil 能命中 decompiled，ported 不会误中 report），不分大小写；中文按包含匹配。"
+ }
 }

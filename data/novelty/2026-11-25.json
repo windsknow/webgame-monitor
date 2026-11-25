@@ -1,0 +1,2032 @@
+[
+ {
+  "id": "sf",
+  "name": "San Francisco -- The Game",
+  "N": 1,
+  "N_why": "在地图数据重建的整座旧金山里自由行走、攀爬、开车，玩法是常规开放世界，真实数据是内容（基线报告）",
+  "T": 2,
+  "T_why": "整座城市由地图数据生成并联机（基线报告）"
+ },
+ {
+  "id": "hop",
+  "name": "Hop.Earth",
+  "N": 1,
+  "N_why": "在真实世界地图上开车竞速，套用常规竞速玩法，真实数据是内容（基线报告）",
+  "T": 2,
+  "T_why": "全球地图边开边生成并多人同服（基线报告）"
+ },
+ {
+  "id": "worldstrike",
+  "name": "World Strike",
+  "N": 1,
+  "N_why": "在真实城市街道开坦克破坏建筑，玩法是常规破坏，真实数据是内容（基线报告）",
+  "T": 1,
+  "T_why": "多人同步被摧毁建筑，规模未写（基线报告）"
+ },
+ {
+  "id": "roadarium",
+  "name": "Roadarium",
+  "N": 2,
+  "N_why": "车流、有轨电车和行人按各国真实交通规则运转（含左行右行），真实数据带来新机制（基线报告）",
+  "T": 2,
+  "T_why": "119 座城市场景由 OSM 整体程序化生成（基线报告）"
+ },
+ {
+  "id": "fullsend",
+  "name": "FULL SEND",
+  "N": 1,
+  "N_why": "真实赛道还原的常规俯视赛车（基线报告）",
+  "T": 1,
+  "T_why": "WebRTC 联机加全球榜（基线报告）"
+ },
+ {
+  "id": "saltline",
+  "name": "Saltline",
+  "N": 0,
+  "N_why": "雨夜港口的标准 FPS 目标（基线报告）",
+  "T": 2,
+  "T_why": "模型、声音、贴图全部由代码生成，一句提示词一次完成（基线报告）"
+ },
+ {
+  "id": "tidewater",
+  "name": "Tidewater",
+  "N": 0,
+  "N_why": "常规钓鱼经营循环（基线报告）",
+  "T": 2,
+  "T_why": "自写原生 WebGPU 引擎，实时海浪天空（基线报告）"
+ },
+ {
+  "id": "undersphere",
+  "name": "Undersphere",
+  "N": 2,
+  "N_why": "战场是球体内壁，重力随位置变化（基线报告）",
+  "T": 1,
+  "T_why": "three.js + WebSocket 多人（基线报告）"
+ },
+ {
+  "id": "longwind",
+  "name": "长风 Long Wind",
+  "N": 0,
+  "N_why": "常规实时动作，卡片只写场景（基线报告）",
+  "T": 1,
+  "T_why": "three.js 做草原竹林场景，作者称全部代码由 Claude 写（基线报告）"
+ },
+ {
+  "id": "voxelmusou",
+  "name": "趙雲 Voxel Musou",
+  "N": 0,
+  "N_why": "标准无双割草（基线报告）",
+  "T": 1,
+  "T_why": "一个人对 300 名士兵、无构建步骤（基线报告）"
+ },
+ {
+  "id": "fm1",
+  "name": "Formula Minus One",
+  "N": 0,
+  "N_why": "致敬 F-Zero 的常规未来赛车（基线报告）",
+  "T": 1,
+  "T_why": "three.js WebGPU，但看不出表现力（基线报告）"
+ },
+ {
+  "id": "halcyon",
+  "name": "Halcyon",
+  "N": 1,
+  "N_why": "多种移动方式漫游，真实激光雷达山体但不是核心（基线报告）",
+  "T": 2,
+  "T_why": "FFT 海洋、真实雷达地形、昼夜（基线报告）"
+ },
+ {
+  "id": "keikoku",
+  "name": "焚き火日和 Keikoku Camp",
+  "N": 1,
+  "N_why": "露营模拟是少见题材配相应机制（基线报告）",
+  "T": 2,
+  "T_why": "零素材，纹理、声音、体积火焰全部程序生成（基线报告）"
+ },
+ {
+  "id": "neonzenith",
+  "name": "Neon Zenith 霓虹天頂",
+  "N": 1,
+  "N_why": "驾驶加飞行两种常规玩法组合（基线报告）",
+  "T": 2,
+  "T_why": "WebGPU，9,373 栋楼，雨夜都市（基线报告）"
+ },
+ {
+  "id": "pokebonk",
+  "name": "PokéBonk",
+  "N": 0,
+  "N_why": "Megabonk 玩法换宝可梦皮（基线报告）",
+  "T": 0,
+  "T_why": "只写需要 WebGL（基线报告）"
+ },
+ {
+  "id": "lagoslife",
+  "name": "Lagos Life",
+  "N": 1,
+  "N_why": "《模拟人生》式玩法换本地题材，真实品牌买广告牌（基线报告）",
+  "T": 1,
+  "T_why": "three.js + 社交多人（基线报告）"
+ },
+ {
+  "id": "claudecraft",
+  "name": "World of ClaudeCraft",
+  "N": 0,
+  "N_why": "魔兽世界式 MMO 复刻（基线报告）",
+  "T": 1,
+  "T_why": "three.js 做 MMO，规模未写（基线报告）"
+ },
+ {
+  "id": "bf1942",
+  "name": "战地 1942 网页多人版",
+  "N": 0,
+  "N_why": "老游戏移植，玩法不新（基线报告）",
+  "T": 2,
+  "T_why": "反编译战地 1942 并多人（基线报告）"
+ },
+ {
+  "id": "threequake",
+  "name": "Three.js Quake",
+  "N": 0,
+  "N_why": "老游戏移植，玩法不新（基线报告）",
+  "T": 2,
+  "T_why": "Quake 完整移植进浏览器（基线报告）",
+  "dup_of": "quakerust",
+  "dup_note": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP"
+ },
+ {
+  "id": "quakerust",
+  "name": "Quake-SRP",
+  "N": 0,
+  "N_why": "老游戏移植，玩法不新（基线报告）",
+  "T": 2,
+  "T_why": "1996 年的 Quake 整个移植到无依赖的安全 Rust 再编译成 WASM，共享版第一章可在浏览器里玩；Quake 系 3 款移植里完成度最高（基线报告）"
+ },
+ {
+  "id": "queep",
+  "name": "Quake 3（WebGPU 版）",
+  "N": 0,
+  "N_why": "老游戏移植，玩法不新（基线报告）",
+  "T": 2,
+  "T_why": "Quake 3 的 WebGPU 版，326 盏灯，PBR（基线报告）",
+  "dup_of": "quakerust",
+  "dup_note": "Quake 系共 3 款网页移植（Three.js Quake、Quake-SRP、Quake 3 WebGPU 版），重点只取完成度最高的 Quake-SRP"
+ },
+ {
+  "id": "ps2",
+  "name": "PS2 游戏网页重编译",
+  "N": 0,
+  "N_why": "老游戏移植，玩法不新（基线报告）",
+  "T": 2,
+  "T_why": "PS2 游戏静态重编译成 WASM（基线报告）"
+ },
+ {
+  "id": "scam",
+  "name": "Scam With Your Friends（网页版）",
+  "N": 2,
+  "N_why": "运行时 AI 应用有创新：来电者可接入大模型和玩家自由对话，接听应对就是核心玩法（基线报告，2026-11-25 人工复核）",
+  "T": 1,
+  "T_why": "可选接入大模型、距离语音；大模型不是必选（基线报告）"
+ },
+ {
+  "id": "dimension9",
+  "name": "Backrooms: Dimension 9",
+  "N": 1,
+  "N_why": "后室恐怖加共享图鉴，新房间由 AI 批量生成再人工审核，不是运行时（基线报告）",
+  "T": 2,
+  "T_why": "每个世界 200 人，距离语音（基线报告）"
+ },
+ {
+  "id": "capybara",
+  "name": "A Game About Capybaras Delivering Food",
+  "N": 1,
+  "N_why": "水豚外卖加叠水果的开放世界，常规组合（基线报告）",
+  "T": 1,
+  "T_why": "WebSocket 多人联机（基线报告）"
+ },
+ {
+  "id": "fanto",
+  "name": "Fanto's Mega-Mart",
+  "N": 1,
+  "N_why": "超市竞速加幽灵回放（基线报告）",
+  "T": 1,
+  "T_why": "多人比赛房间（基线报告）"
+ },
+ {
+  "id": "dirtbound",
+  "name": "DirtBound",
+  "N": 1,
+  "N_why": "无限生成赛段加赛道编辑器（基线报告）",
+  "T": 1,
+  "T_why": "程序化赛段加多人房间（基线报告）"
+ },
+ {
+  "id": "bashfighter",
+  "name": "Bash Fighter",
+  "N": 0,
+  "N_why": "大乱斗式平台格斗（基线报告）",
+  "T": 1,
+  "T_why": "20 人同场（基线报告）"
+ },
+ {
+  "id": "uncracked",
+  "name": "Uncracked City",
+  "N": 2,
+  "N_why": "嫌疑人由大模型扮演并会说谎（基线报告）",
+  "T": 2,
+  "T_why": "运行时大模型对话（基线报告）"
+ },
+ {
+  "id": "callyoulater",
+  "name": "I'll Call You Later",
+  "N": 1,
+  "N_why": "互动短片可走进去，对话是否由大模型未写明（基线报告）",
+  "T": 1,
+  "T_why": "React Three Fiber 3D 场景（基线报告）"
+ },
+ {
+  "id": "magical",
+  "name": "MAGICAL.EXE",
+  "N": 2,
+  "N_why": "假终端加 AI 旁白，AI 参与运行（基线报告）",
+  "T": 2,
+  "T_why": "运行时由 AI 担任旁白（基线报告）"
+ },
+ {
+  "id": "wenware",
+  "name": "WenWare",
+  "N": 1,
+  "N_why": "360° 历史场景猜地点加猜年代，套用 GeoGuessr 式玩法，真实历史场景是内容（基线报告）",
+  "T": 1,
+  "T_why": "只写 three.js（基线报告）"
+ },
+ {
+  "id": "gerrymandle",
+  "name": "Gerrymandle",
+  "N": 2,
+  "N_why": "每日划选区谜题，机制少见（基线报告）",
+  "T": null,
+  "T_why": "卡片没有技术信息（基线报告）"
+ },
+ {
+  "id": "wonderhop",
+  "name": "Wonderhop",
+  "N": 1,
+  "N_why": "每日问卷加反向答案，一处新做法（基线报告）",
+  "T": null,
+  "T_why": "卡片没有技术信息（基线报告）"
+ },
+ {
+  "id": "swervle",
+  "name": "Swervle",
+  "N": 1,
+  "N_why": "Wordle 式每日赛车，两类型组合（基线报告）",
+  "T": 1,
+  "T_why": "每日程序生成路线，three.js（基线报告）"
+ },
+ {
+  "id": "worrrrld",
+  "name": "Worrrrld!",
+  "N": 0,
+  "N_why": "30 秒小游戏加挑战链接，模板式（基线报告）",
+  "T": 0,
+  "T_why": "只写 Next.js（基线报告）"
+ },
+ {
+  "id": "tinywind",
+  "name": "TinyWind",
+  "N": 2,
+  "N_why": "真实帆船物理是核心操作（基线报告）",
+  "T": 0,
+  "T_why": "只写浏览器免安装、像素画面（基线报告）"
+ },
+ {
+  "id": "housing",
+  "name": "Discretionary Review",
+  "N": 2,
+  "N_why": "把城市建设反过来，机制讽刺现实住房政治（基线报告）",
+  "T": null,
+  "T_why": "卡片没有技术信息（基线报告）"
+ },
+ {
+  "id": "weball",
+  "name": "Weball",
+  "N": 2,
+  "N_why": "任意网页变成关卡，罕见核心机制（基线报告）",
+  "T": null,
+  "T_why": "卡片没有技术信息（基线报告）"
+ },
+ {
+  "id": "messenger",
+  "name": "Messenger",
+  "N": 1,
+  "N_why": "几分钟走完一圈的小星球送信，设计有新意（基线报告）",
+  "T": 0,
+  "T_why": "只写 WebGL（基线报告）"
+ },
+ {
+  "id": "sp_stranglethorn",
+  "name": "Escape from Stranglethorn",
+  "N": 0,
+  "N_why": "搜打撤 RPG 的常规做法（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_league",
+  "name": "League of Spawn",
+  "N": 0,
+  "N_why": "标准 MOBA（Spawn 页面说明）",
+  "T": 1,
+  "T_why": "5v5 实时对战，规模十人（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_fabling",
+  "name": "Fabling Park",
+  "N": 1,
+  "N_why": "动物园经营加第一人称巡园切换，原创题材（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_inkblade",
+  "name": "INKBLADE",
+  "N": 1,
+  "N_why": "墨迹永久留在纸页上，一处明确新做法（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_dust2",
+  "name": "Dust 2 DM",
+  "N": 0,
+  "N_why": "标准死斗射击（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_shogun",
+  "name": "Shogun's Fate",
+  "N": 0,
+  "N_why": "常规策略建设（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息，MMO 规模未写（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_underground",
+  "name": "UNDERGROUND WARFARE",
+  "N": 0,
+  "N_why": "普通竞技场射击（Spawn 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Spawn 页面说明）"
+ },
+ {
+  "id": "sp_diablo",
+  "name": "Diablo Survivors",
+  "N": 0,
+  "N_why": "幸存者类常规做法（Spawn 页面说明）",
+  "T": 1,
+  "T_why": "最多 4 人合作（Spawn 页面说明）"
+ },
+ {
+  "id": "v8_mine8",
+  "name": "Mine8",
+  "N": null,
+  "N_why": "平台页没有玩法描述（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "v8_ldw",
+  "name": "Last Dungeon Wars",
+  "N": 0,
+  "N_why": "英雄防守常规做法（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "v8_snake",
+  "name": "Snake Wars",
+  "N": null,
+  "N_why": "平台页没有玩法描述，只有题材（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "v8_food",
+  "name": "Food Slicer",
+  "N": 0,
+  "N_why": "切水果式街机（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "v8_ani",
+  "name": "The Ani Protocol",
+  "N": 0,
+  "N_why": "钓鱼冲榜常规做法（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "v8_cold",
+  "name": "Cold Steel Adventure",
+  "N": 0,
+  "N_why": "常规策略 RPG（Verse8 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Verse8 页面说明）"
+ },
+ {
+  "id": "as_egg",
+  "name": "Steal an egg",
+  "N": 0,
+  "N_why": "偷蛋养宠，同类模板（Astrocade 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Astrocade 页面说明）"
+ },
+ {
+  "id": "as_nds",
+  "name": "Natural Disaster Survival",
+  "N": 0,
+  "N_why": "灾害生存常规做法（Astrocade 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Astrocade 页面说明）"
+ },
+ {
+  "id": "as_forge",
+  "name": "Forge Beyond",
+  "N": 0,
+  "N_why": "养成刷宝常规做法（Astrocade 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Astrocade 页面说明）"
+ },
+ {
+  "id": "as_squishy",
+  "name": "Astro Squishy Studio",
+  "N": 0,
+  "N_why": "史莱姆 ASMR 解压模板（Astrocade 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Astrocade 页面说明）"
+ },
+ {
+  "id": "as_rich",
+  "name": "Rich or Poor Runner",
+  "N": 0,
+  "N_why": "选择跑酷模板（Astrocade 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（Astrocade 页面说明）"
+ },
+ {
+  "id": "rb_superhot",
+  "name": "SUPERHOT MARIO",
+  "N": 2,
+  "N_why": "只有移动时时间才流动，跨类型机制是核心（Rosebud 页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "rb_chiikawa",
+  "name": "Chiikawa Bonk",
+  "N": 0,
+  "N_why": "Megabonk 式幸存者换皮（页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "rb_finger",
+  "name": "Finger Haunt",
+  "N": 1,
+  "N_why": "手指枪打幽灵，有一处输入设定（页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "rb_passengers",
+  "name": "ATTENTION PASSENGERS",
+  "N": 1,
+  "N_why": "物理驱动空难求生，抓住其他乘客（页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "rb_sir",
+  "name": "Sir Falls-A-Lot",
+  "N": null,
+  "N_why": "平台页只有一句征服高塔，没有玩法（页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "farworlds",
+  "name": "Far Worlds",
+  "N": 0,
+  "N_why": "类 MMORPG 合作体素 RPG，常规做法（页面说明）",
+  "T": 1,
+  "T_why": "自研体素引擎，多平台，合作（页面说明）"
+ },
+ {
+  "id": "sumbasurf",
+  "name": "SumbaSurf",
+  "N": 0,
+  "N_why": "冲浪体育常规做法（页面说明）",
+  "T": null,
+  "T_why": "没有技术信息（页面说明）"
+ },
+ {
+  "id": "tinyskies",
+  "name": "Tiny Skies",
+  "N": 1,
+  "N_why": "双翼机、魔毯、小船混合探索，多人（页面说明）",
+  "T": 1,
+  "T_why": "three.js，支持多人（页面说明）"
+ },
+ {
+  "id": "haldane",
+  "name": "HALDANE-4",
+  "N": 1,
+  "N_why": "纯字符画面的恐怖短篇，呈现方式少见（页面说明）",
+  "T": 0,
+  "T_why": "HTML5 Canvas 字符画面（页面说明）"
+ },
+ {
+  "id": "earth",
+  "name": "Earth",
+  "N": 1,
+  "N_why": "用开放地图数据生成整颗体素地球，可飞可逛可破坏，玩法是常规沙盒，真实数据是内容（视频抽帧 + 帖子）",
+  "T": 2,
+  "T_why": "整个体素世界由地图和高程数据生成（视频抽帧 + 作者自述）"
+ },
+ {
+  "id": "hogwarts-royale",
+  "name": "Hogwarts Royale",
+  "N": 1,
+  "N_why": "哈利波特和堡垒之夜混搭大逃杀，两半都常规（视频抽帧）",
+  "T": null,
+  "T_why": "只有 Spawn 平台通用说明（平台说明）"
+ },
+ {
+  "id": "seriesoftubes",
+  "name": "Series of Tubes",
+  "N": 2,
+  "N_why": "用经营游戏讲清互联网基础设施的运转（仓库 README）",
+  "T": 1,
+  "T_why": "Canvas 2D，WebSocket 多人对等互联（仓库 README + 代码特征）"
+ },
+ {
+  "id": "ghanaian-street-games-you-can-play-in-th",
+  "name": "Ghana Street Games",
+  "N": 1,
+  "N_why": "35 款加纳街头游戏合集，文化内容有特色（页面说明）",
+  "T": 0,
+  "T_why": "3D 但引擎未识别，评论称完成度参差（代码特征识别）"
+ },
+ {
+  "id": "banana-mine-rush",
+  "name": "Banana Mine Rush",
+  "N": 0,
+  "N_why": "轨道矿车竞速常规做法（视频抽帧）",
+  "T": null,
+  "T_why": "只有 Remix 平台通用说明（平台说明）"
+ },
+ {
+  "id": "voxels",
+  "name": "Voxels",
+  "N": 0,
+  "N_why": "Minecraft 式方块沙盒（页面说明 + 试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明，未进入世界（平台说明）"
+ },
+ {
+  "id": "snowfield-taco-stand",
+  "name": "Snowfield Taco Stand",
+  "N": 0,
+  "N_why": "模板化轻经营（页面说明 + 试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "zombies-vs-humans-with-guns",
+  "name": "Zombies vs Humans with Guns",
+  "N": null,
+  "N_why": "页面没有玩法文字，只有标签和开场画面（试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "frost-harbor-ice-fishing-tycoon",
+  "name": "Frost Harbor: Ice Fishing Tycoon",
+  "N": 0,
+  "N_why": "冰钓经营常规做法（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "ben-10-ultimate-aliens",
+  "name": "Ben 10: Ultimate Aliens",
+  "N": 0,
+  "N_why": "Ben 10 同人变身动作，玩法未确认（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "keyboard-escape-space-alien",
+  "name": "KEYBOARD ESCAPE (Space Alien)",
+  "N": null,
+  "N_why": "页面没有玩法，只能按标题和封面猜（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "steal-an-egg-monster",
+  "name": "Steal an Egg Monster",
+  "N": 0,
+  "N_why": "Steal an Egg 同一公式换皮（页面说明 + 试玩截图）",
+  "T": 0,
+  "T_why": "平台模板生成的简单 3D（试玩截图）"
+ },
+ {
+  "id": "d2-web",
+  "name": "OpenD2",
+  "N": 0,
+  "N_why": "老游戏引擎重写，玩法不新（作者自述）",
+  "T": 2,
+  "T_why": "暗黑 2 引擎重写成 WASM，WebGL2，带联机服务（仓库标签）"
+ },
+ {
+  "id": "pokemon-survivors",
+  "name": "Pokémon Survivors",
+  "N": 0,
+  "N_why": "幸存者类宝可梦同人（仓库 README）",
+  "T": 1,
+  "T_why": "最多 4 人联机，竞技场和在线小镇（仓库 README）"
+ },
+ {
+  "id": "dream-arcade-demo",
+  "name": "造梦街机",
+  "N": 2,
+  "N_why": "大模型运行时生成单位并带入玩法，是核心（仓库 README）",
+  "T": 2,
+  "T_why": "运行时调用大模型接口（仓库标签 + 作者自述）"
+ },
+ {
+  "id": "ashfolk",
+  "name": "Ashfolk",
+  "N": 1,
+  "N_why": "上帝模拟，降雨放火干预部落发展（仓库 README）",
+  "T": 1,
+  "T_why": "three.js 支持 WebGPU，程序化生成（仓库标签）"
+ },
+ {
+  "id": "flickshot",
+  "name": "Flickshot",
+  "N": 0,
+  "N_why": "瞄准训练加对战，常规做法（Spawn 页面说明）",
+  "T": null,
+  "T_why": "只有 Spawn 平台通用说明（平台说明）"
+ },
+ {
+  "id": "spawn-turismo",
+  "name": "Spawn Turismo",
+  "N": 0,
+  "N_why": "常规赛车计时赛（Spawn 页面说明）",
+  "T": null,
+  "T_why": "只有 Spawn 平台通用说明（平台说明）"
+ },
+ {
+  "id": "aether-legends",
+  "name": "Aether Legends",
+  "N": 0,
+  "N_why": "召唤养成 RPG 常规做法（Spawn 页面说明）",
+  "T": null,
+  "T_why": "只有 Spawn 平台通用说明（平台说明）"
+ },
+ {
+  "id": "glint",
+  "name": "GLINT",
+  "N": 0,
+  "N_why": "CS 加 COD 方块 FPS（Spawn 页面说明）",
+  "T": null,
+  "T_why": "只有 Spawn 平台通用说明（平台说明）"
+ },
+ {
+  "id": "tides-of-fortune-an-open-world-pirate-ga",
+  "name": "Tides of Fortune",
+  "N": 0,
+  "N_why": "航海贸易海战，致敬经典（作者自述）",
+  "T": 1,
+  "T_why": "零素材文件，全由代码生成，作者自述（作者自述）"
+ },
+ {
+  "id": "afk-city-a-city-that-builds-itself-while",
+  "name": "AFK City",
+  "N": 1,
+  "N_why": "城市自己长大，可旁观也可接手（作者自述）",
+  "T": 1,
+  "T_why": "three.js，城市自动生长（作者自述 + 代码特征）"
+ },
+ {
+  "id": "game",
+  "name": "僵尸追逐游戏（未命名）",
+  "N": 0,
+  "N_why": "僵尸追逐，测试场景（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js 加 Mixamo 动画（作者自述）"
+ },
+ {
+  "id": "frensofpria",
+  "name": "@FrensOfPRIA 的作品（未命名）",
+  "N": 0,
+  "N_why": "摩托加射击，只有几帧，玩法不明（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js，三个月制作（作者自述）"
+ },
+ {
+  "id": "cod",
+  "name": "Frontline Warfare: Deathmatch",
+  "N": 0,
+  "N_why": "标准类 COD 团队死斗（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js，有机器人和朋友同场（作者自述）"
+ },
+ {
+  "id": "three-js",
+  "name": "Vibes Basketball",
+  "N": 0,
+  "N_why": "篮球比赛常规做法（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js，服装动画音效由 Claude 完成，无试玩链接（作者自述）"
+ },
+ {
+  "id": "game-2",
+  "name": "剑斗游戏（未命名）",
+  "N": 0,
+  "N_why": "波次砍杀常规做法（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js，只有视频（作者自述）"
+ },
+ {
+  "id": "fps",
+  "name": "Parallax",
+  "N": 1,
+  "N_why": "传送门团队 FPS，类 Splitgate，官方称似曾相识（视频抽帧）",
+  "T": null,
+  "T_why": "帖子没写引擎（作者自述）"
+ },
+ {
+  "id": "mmo",
+  "name": "The Sanctuary",
+  "N": 0,
+  "N_why": "视频里没有战斗或任务，是场景演示（视频抽帧）",
+  "T": 1,
+  "T_why": "作者称素材全部由代码生成，一天做出（作者自述）"
+ },
+ {
+  "id": "gilt-gutter",
+  "name": "Gilt & Gutter",
+  "N": 1,
+  "N_why": "同色子弹不伤人并给枪充能的 1v1 FPS（作者帖文）",
+  "T": 1,
+  "T_why": "three.js，Tripo3D 模型（作者自述 + 代码特征）"
+ },
+ {
+  "id": "mu-online-solo-classic",
+  "name": "MU Online Solo Classic",
+  "N": 0,
+  "N_why": "老网游移植，玩法不新（作者自述）",
+  "T": 2,
+  "T_why": "客户端和服务端一起编译成 WASM，WebGL2（作者自述 + 代码特征）"
+ },
+ {
+  "id": "roadside",
+  "name": "Roadside",
+  "N": 0,
+  "N_why": "固定镜头场景演示，不可玩（视频抽帧）",
+  "T": 1,
+  "T_why": "摩托和手臂全部程序生成（作者自述）"
+ },
+ {
+  "id": "lanternfall",
+  "name": "Lanternfall",
+  "N": 1,
+  "N_why": "提灯小队自动战斗加三选一升级（视频抽帧）",
+  "T": 1,
+  "T_why": "three.js，只有技术名（代码特征 + 自述）"
+ },
+ {
+  "id": "frost-lumber-camp",
+  "name": "Frost Lumber Camp",
+  "N": 0,
+  "N_why": "斧环砍树建营地，模板式（页面说明 + 试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "winter-upd-first-date-on-park",
+  "name": "First Date on Park（冬季更新）",
+  "N": 0,
+  "N_why": "游乐园约会，常规做法（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "squishy-balloon-slime-diy-asmr",
+  "name": "Squishy Balloon Slime: DIY ASMR",
+  "N": 0,
+  "N_why": "史莱姆 ASMR 解压模板（页面说明 + 试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "minecraft-billionaire-treehouse",
+  "name": "MINECRAFT Billionaire Treehouse",
+  "N": null,
+  "N_why": "页面描述只有用户名，没有玩法文字（试玩封面）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "steal-an-egg",
+  "name": "Steal an Egg",
+  "N": 0,
+  "N_why": "偷蛋养宠模板（页面说明 + 试玩）",
+  "T": 0,
+  "T_why": "平台模板生成的简单 3D（试玩截图）"
+ },
+ {
+  "id": "anime-wedding-dress-up-studio",
+  "name": "Anime Wedding Dress Up Studio",
+  "N": 0,
+  "N_why": "换装模板（页面说明 + 试玩截图）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "sunrise-high-school-life",
+  "name": "Sunrise High School life",
+  "N": 0,
+  "N_why": "校园生活模板（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "ninja-unleashed",
+  "name": "NINJA UNLEASHED",
+  "N": 0,
+  "N_why": "忍者跑酷动作常规做法（页面说明）",
+  "T": null,
+  "T_why": "只有平台通用说明（平台说明）"
+ },
+ {
+  "id": "pocket-soccer-3d",
+  "name": "Pocket Soccer 3D",
+  "N": 0,
+  "N_why": "标准 7 人制足球（仓库 README）",
+  "T": 1,
+  "T_why": "单个 HTML 文件做出规则完整的足球（仓库 README）"
+ },
+ {
+  "id": "mothlight-vesper-9",
+  "name": "MOTHLIGHT // Vesper-9",
+  "N": 0,
+  "N_why": "雨夜赛车常规做法（页面说明）",
+  "T": 1,
+  "T_why": "three.js，只有标签（Fable52 标签）"
+ },
+ {
+  "id": "what-the-water-keeps",
+  "name": "What the Water Keeps",
+  "N": 1,
+  "N_why": "无战斗划船体验，氛围向（视频抽帧）",
+  "T": 1,
+  "T_why": "实时绘制 8 个光色场景（视频抽帧）"
+ },
+ {
+  "id": "bayhaven",
+  "name": "Bayhaven",
+  "N": 1,
+  "N_why": "开放世界犯罪加直播观众热度系统（仓库 README）",
+  "T": 1,
+  "T_why": "three.js 开放世界，逐会话公开开发（仓库 README）"
+ },
+ {
+  "id": "cs",
+  "name": "几猫CS",
+  "N": 0,
+  "N_why": "Saltline 的中文换皮（页面说明）",
+  "T": 0,
+  "T_why": "换皮，沿用原技术（Fable52 标签）"
+ },
+ {
+  "id": "dustfall",
+  "name": "Dustfall",
+  "N": 0,
+  "N_why": "西部开放世界，多系统但都是常规做法（仓库 README）",
+  "T": 1,
+  "T_why": "three.js 开放世界，未试玩（仓库 README）"
+ },
+ {
+  "id": "blameless",
+  "name": "BLAMELESS",
+  "N": 1,
+  "N_why": "程序员值班梗，命令当武器、限流冷却（仓库 README）",
+  "T": 1,
+  "T_why": "one prompt 生成较完整游戏（仓库 README 自述）"
+ },
+ {
+  "id": "pelican-on-a-bike",
+  "name": "鹈鹕骑单车 · Pelican on a Bike",
+  "N": 0,
+  "N_why": "骑车追鱼，场景为主（页面说明）",
+  "T": 1,
+  "T_why": "程序化生成，单 HTML 文件，一个提示词（页面说明）"
+ },
+ {
+  "id": "game-3",
+  "name": "青云宗 · 御剑采灵",
+  "N": 0,
+  "N_why": "御剑收集常规做法（页面说明）",
+  "T": 1,
+  "T_why": "three.js，只有标签（Fable52 标签）"
+ },
+ {
+  "id": "evensong",
+  "name": "Evensong",
+  "N": 0,
+  "N_why": "魂系 Boss 战常规做法（页面说明）",
+  "T": 1,
+  "T_why": "three.js，只有标签（Fable52 标签）"
+ },
+ {
+  "id": "game-4",
+  "name": "黑神话：悟空 · 虎先锋",
+  "N": 0,
+  "N_why": "黑神话同人 Boss 战（页面说明）",
+  "T": 1,
+  "T_why": "three.js，只有标签（Fable52 标签）"
+ },
+ {
+  "id": "tidebell",
+  "name": "Tidebell 潮钟",
+  "N": 0,
+  "N_why": "潜艇下潜收集常规做法（页面说明）",
+  "T": 1,
+  "T_why": "程序化生成，three.js（Fable52 标签）"
+ },
+ {
+  "id": "ironvale",
+  "name": "Ironvale",
+  "N": 0,
+  "N_why": "常规 3D 即时战略（页面说明）",
+  "T": 1,
+  "T_why": "three.js，只有标签（Fable52 标签 + 仓库）"
+ },
+ {
+  "id": "sublevel-07",
+  "name": "SUBLEVEL 07",
+  "N": 0,
+  "N_why": "波次无人机 FPS（页面说明）",
+  "T": 1,
+  "T_why": "单 HTML 文件 128 KB，41 分钟做出（仓库描述）"
+ },
+ {
+  "id": "game-5",
+  "name": "雾锁山门",
+  "N": 0,
+  "N_why": "俯视角仙侠动作常规做法（页面说明）",
+  "T": 1,
+  "T_why": "单 HTML 文件加 AI 生成素材和 WASM 模块（代码特征 + 标签）"
+ },
+ {
+  "id": "tuktuk",
+  "name": "TukTuk: وسّع يا باشا",
+  "N": 0,
+  "N_why": "街道驾驶躲避，埃及题材配常规机制（页面说明）",
+  "T": 1,
+  "T_why": "全部内容由代码绘制，支持手机（页面说明 + 代码特征）"
+ },
+ {
+  "id": "3d",
+  "name": "飞车 3D",
+  "N": 0,
+  "N_why": "QQ飞车赛道同人复刻，漂移/氮气道具赛是标准卡丁车做法（页面说明）",
+  "T": 1,
+  "T_why": "单个HTML约0.7MB做出4条赛道的完整3D赛车（站点代码特征+页面说明）"
+ },
+ {
+  "id": "hanford-reach",
+  "name": "Hanford Reach",
+  "N": 0,
+  "N_why": "定居点建造只有第一关，机制无新东西（页面说明）",
+  "T": 1,
+  "T_why": "仅three.js，看不出表现力（代码特征识别）"
+ },
+ {
+  "id": "game-6",
+  "name": "海克斯大乱斗",
+  "N": 0,
+  "N_why": "英雄联盟海克斯大乱斗同人，常规联机对战（页面说明）",
+  "T": 1,
+  "T_why": "联机对战房间（页面说明），规模与技术未核实"
+ },
+ {
+  "id": "shuttle-strike",
+  "name": "Shuttle Strike",
+  "N": 2,
+  "N_why": "摄像头手部追踪挥拍当输入，网页游戏少见（页面操作说明+人工备注）",
+  "T": 1,
+  "T_why": "three.js+摄像头手部追踪的单HTML游戏（代码特征+作者自述），未实际试玩"
+ },
+ {
+  "id": "harvest-standoff",
+  "name": "Harvest Standoff",
+  "N": 1,
+  "N_why": "5v5非暴力亲子对战，题材少见（页面说明）",
+  "T": 1,
+  "T_why": "仅three.js，联机规模未写（代码特征识别）"
+ },
+ {
+  "id": "daedalus",
+  "name": "Daedalus",
+  "N": 1,
+  "N_why": "30道古代机械谜题加神话题材（页面说明）",
+  "T": 1,
+  "T_why": "单个约120KB HTML含30关（代码特征+仓库描述）"
+ },
+ {
+  "id": "3d-2",
+  "name": "运输船 3D",
+  "N": 0,
+  "N_why": "穿越火线运输船地图同人复刻，标准团队射击（页面说明）",
+  "T": 1,
+  "T_why": "单HTML含机器人对战的3D射击（代码特征+作者自述）"
+ },
+ {
+  "id": "v25",
+  "name": "暖光玩具房 · V25",
+  "N": 0,
+  "N_why": "合作平台跳跃Demo，收集星光，常规（页面说明）",
+  "T": 1,
+  "T_why": "Godot导出+WebRTC点对点联机（代码特征识别）"
+ },
+ {
+  "id": "boring-game",
+  "name": "Boring Game",
+  "N": 2,
+  "N_why": "真实地图上的湾区地铁规划，造价和审批成为玩法核心，真实数据带来新机制；依据只有合集站页面说明，待试玩（页面说明）",
+  "T": 1,
+  "T_why": "three.js体素+真实地图数据（代码特征+仓库标签）",
+  "pending": [
+   "N"
+  ]
+ },
+ {
+  "id": "misremember",
+  "name": "MISREMEMBER",
+  "N": 1,
+  "N_why": "不看时场景变化的恐怖机制，一处明确做法（页面说明）",
+  "T": 1,
+  "T_why": "仅Fable52标签写three.js，无表现力依据"
+ },
+ {
+  "id": "sternenj-ger",
+  "name": "Sternenjäger",
+  "N": 0,
+  "N_why": "太空射击，12星区3首领，标准做法（页面说明）",
+  "T": 1,
+  "T_why": "约40KB单HTML含完整流程（代码特征+仓库描述）"
+ },
+ {
+  "id": "online",
+  "name": "盐线行动 Online",
+  "N": 0,
+  "N_why": "港口3D枪战，自由混战与红蓝小队，标准多人射击（页面说明）",
+  "T": 1,
+  "T_why": "WebSocket联机、队伍语音的3D射击（Fable52标签），同场人数未写"
+ },
+ {
+  "id": "emberdeep",
+  "name": "Emberdeep",
+  "N": 1,
+  "N_why": "火把烧尽的倒计时压力加联机探索，一处新做法（页面说明）",
+  "T": 1,
+  "T_why": "单个0.86MB HTML含WebRTC联机的3D（代码特征+仓库描述）"
+ },
+ {
+  "id": "becario-del-universo",
+  "name": "Becario del Universo",
+  "N": 0,
+  "N_why": "连续微任务（微游戏集合）模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D单文件小游戏（代码特征）"
+ },
+ {
+  "id": "breach",
+  "name": "BREACH · 运输船联机大厅",
+  "N": 0,
+  "N_why": "运输船地图联机FPS同人（页面说明）",
+  "T": 1,
+  "T_why": "房间制在线多人FPS（页面说明），引擎与规模未知"
+ },
+ {
+  "id": "duskline",
+  "name": "Duskline",
+  "N": 0,
+  "N_why": "常规3D无尽跑酷（页面说明）",
+  "T": 0,
+  "T_why": "WebGL单文件，无更多依据（Fable52标签）"
+ },
+ {
+  "id": "open-skies",
+  "name": "Open Skies",
+  "N": 1,
+  "N_why": "真实机场、地形和实时天气的飞行模拟，玩法是常规飞行，真实数据是内容（页面说明）",
+  "T": 1,
+  "T_why": "three.js加真实地理数据（Fable52标签），表现力未见"
+ },
+ {
+  "id": "road-sdl2-rash",
+  "name": "Road Rash (1996) Web Edition",
+  "N": 0,
+  "N_why": "1996年Road Rash移植，玩法为原作的标准竞速格斗（作者自述）",
+  "T": 2,
+  "T_why": "PC老游戏C语言64位移植并编译为WebAssembly，高清渲染（作者自述）"
+ },
+ {
+  "id": "aidens-revenge",
+  "name": "Aiden's Revenge",
+  "N": 0,
+  "N_why": "街机式横版清版动作，常规做法；人工试玩复核：有 FC 横版卷轴格斗的感觉，战斗手感普通、操作简单（试玩）",
+  "T": 1,
+  "T_why": "Phaser WebGL，AI 一次生成 4 人同屏 12 关，作者博客写了过程；素材不是全部由代码生成，不到 2 分（作者博客 + 试玩）",
+  "xcheck": "人工试玩复核（2026-11-25）：有 FC 时代横版卷轴格斗游戏的感觉，战斗手感普通，操作简单。美术素材的风格接近 AI 生成的图像，和作者文章里\"按侄子的一叠手绘做成\"的说法观感不太一致；作者也提到提示词允许模型用 ChatGPT Images 2.5 生成图片，素材里有多少直接来自手绘，页面上看不出来。"
+ },
+ {
+  "id": "term-sheet-please",
+  "name": "Term Sheet, Please",
+  "N": 1,
+  "N_why": "把Papers, Please审核换成创业融资尽调，题材替换加流程细节（试玩截图）",
+  "T": null,
+  "T_why": "卡片没有tech字段和依据"
+ },
+ {
+  "id": "sweatypanzer",
+  "name": "SweatyPanzer",
+  "N": null,
+  "N_why": "只有一句平台说明，输入昵称开车上场，无机制细节",
+  "T": null,
+  "T_why": "平台托管，引擎未识别，仅平台说明"
+ },
+ {
+  "id": "size-it-up",
+  "name": "Size It Up",
+  "N": 1,
+  "N_why": "每日估算真实物体尺寸比例，真实数据做内容但属测验类（页面说明）",
+  "T": 0,
+  "T_why": "Next.js加Canvas 2D加Supabase常规实现（代码特征识别）"
+ },
+ {
+  "id": "tiny-val-ncia",
+  "name": "Tiny València",
+  "N": 1,
+  "N_why": "真实城市（地籍数据）做成可飞行、乘地铁的像素地图，没有目标，玩法是常规探索，真实数据是内容（页面说明）",
+  "T": 1,
+  "T_why": "AI重绘瓦片加OpenSeadragon缩放浏览，运行时仍是Canvas 2D（作者自述）"
+ },
+ {
+  "id": "librehold",
+  "name": "LibreHold",
+  "N": 0,
+  "N_why": "村庄战争策略，一局一小时，标准RTS类（页面说明）",
+  "T": 1,
+  "T_why": "Go后端，12人加18机器人房间及持续数周的长期世界（仓库标签）"
+ },
+ {
+  "id": "typepper",
+  "name": "typepper",
+  "N": 0,
+  "N_why": "打字游戏，辣度主题（页面说明）",
+  "T": 1,
+  "T_why": "同一份Rust代码编译为WebAssembly，同时跑终端和浏览器（仓库标签）"
+ },
+ {
+  "id": "minecraft-underwater-quarrying-of-minera",
+  "name": "Minecraft Underwater Quarrying of Minerals",
+  "N": null,
+  "N_why": "play_basis写明玩法全部未确认，只有标题封面",
+  "T": null,
+  "T_why": "仅平台说明，未进入游戏"
+ },
+ {
+  "id": "mecha-arm-1",
+  "name": "Mecha Arm +1",
+  "N": null,
+  "N_why": "页面描述只有一句，细节未知",
+  "T": null,
+  "T_why": "仅平台说明"
+ },
+ {
+  "id": "gym-masters",
+  "name": "Gym Masters",
+  "N": 1,
+  "N_why": "选门数值跑酷加布娃娃出拳格斗两种常规玩法的组合（试玩+页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成，3D布娃娃但未完整看到（试玩）"
+ },
+ {
+  "id": "dress-up-showdown",
+  "name": "Dress up Showdown",
+  "N": 0,
+  "N_why": "换装加评委打分，模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "apex-strike",
+  "name": "Apex Strike",
+  "N": 0,
+  "N_why": "标准4v4第一人称射击（试玩截图）",
+  "T": 0,
+  "T_why": "平台对话式生成，未进入对局"
+ },
+ {
+  "id": "1-pickaxe-swing-for-eggs",
+  "name": "+1 Pickaxe Swing for Eggs",
+  "N": 0,
+  "N_why": "+1成长公式加偷蛋养成，平台模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "supersmash",
+  "name": "supersmash",
+  "N": 0,
+  "N_why": "破坏沙盒，作者自述为Teardown改版，无目标（试玩截图）",
+  "T": 0,
+  "T_why": "平台对话式生成，破坏物理未确认"
+ },
+ {
+  "id": "duck-chaos-3d",
+  "name": "Duck Chaos 3D",
+  "N": 0,
+  "N_why": "捣蛋模拟只确认混乱值目标，类似鹅作但更简单（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "stickman-archer",
+  "name": "Stickman Archer",
+  "N": 0,
+  "N_why": "火柴人对射闯关（试玩截图）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "wild-hunter-3d",
+  "name": "Wild Hunter 3D",
+  "N": 0,
+  "N_why": "限时狙击狩猎，常规做法（试玩截图）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "lifebox",
+  "name": "LifeBox",
+  "N": 0,
+  "N_why": "Powder Toy类元素沙盒（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成，仅见封面"
+ },
+ {
+  "id": "nine-chronicles-twist-of-destiny",
+  "name": "Nine Chronicles: Twist of Destiny",
+  "N": 1,
+  "N_why": "老虎机转轮决定回合行动，在常见回合制战斗里有一处新做法（页面说明）",
+  "T": 0,
+  "T_why": "Verse8平台生成"
+ },
+ {
+  "id": "nine-chronicles-rise-of-the-grove",
+  "name": "Nine Chronicles: Rise of the Grove",
+  "N": 0,
+  "N_why": "放置英雄RPG，3x3布阵与竞技场，常规（页面说明）",
+  "T": 0,
+  "T_why": "Verse8平台生成"
+ },
+ {
+  "id": "blast-block-sandbox",
+  "name": "Blast Block Sandbox",
+  "N": 0,
+  "N_why": "11种TNT的方块爆破沙盒（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "steal-a-dragon",
+  "name": "Steal a Dragon",
+  "N": 0,
+  "N_why": "偷蛋养成公式换成龙题材（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "save-the-fish",
+  "name": "Save the Fish",
+  "N": 0,
+  "N_why": "拔针解谜，常见手游类型（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "sky-drop-royale",
+  "name": "Sky Drop Royale",
+  "N": 1,
+  "N_why": "浮空岛不断坠落的大逃杀，一处新做法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "elite-warfare",
+  "name": "ELITE WARFARE",
+  "N": 0,
+  "N_why": "夺点、团队死斗等标准FPS模式（作者自述）",
+  "T": 1,
+  "T_why": "点对点联机，机器人寻路，角色绑骨工具，完成度高（作者自述）"
+ },
+ {
+  "id": "saltline-surf-beta",
+  "name": "Saltline Surf（Beta）",
+  "N": null,
+  "N_why": "只有一句平台说明，测试版",
+  "T": null,
+  "T_why": "平台托管，引擎未识别，仅平台说明"
+ },
+ {
+  "id": "dating-my-handsome-idol-boyfriend-2",
+  "name": "💋 Dating My Handsome Idol Boyfriend 2 💄",
+  "N": 0,
+  "N_why": "分支叙事恋爱互动，AI情书只是结尾附加（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成，AI情书的生成方式未确认"
+ },
+ {
+  "id": "woolly-slope",
+  "name": "Woolly Slope",
+  "N": 0,
+  "N_why": "放置养成，题材轻巧（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "transformer-battle-vs-luxury-car-battle",
+  "name": "Transformer Battle vs Luxury Car Battle",
+  "N": 0,
+  "N_why": "变形金刚题材动作，模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "makinamon-versi-n-pulso",
+  "name": "MAKINAMON · Versión Pulso",
+  "N": 0,
+  "N_why": "Game Boy风格怪兽收集RPG，经典做法（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D原生JS，160x144低分辨率（代码特征识别）"
+ },
+ {
+  "id": "riftline",
+  "name": "Riftline",
+  "N": 1,
+  "N_why": "英雄射击技能（传送与时间回溯）加点对点联机，一处新做法（页面说明）",
+  "T": 1,
+  "T_why": "WebRTC点对点联机的three.js射击（代码特征识别）"
+ },
+ {
+  "id": "the-county",
+  "name": "The County",
+  "N": 1,
+  "N_why": "作物长在地下、收获前信息不透明，农场经营中的一处新做法（页面说明）",
+  "T": 0,
+  "T_why": "引擎未识别，仅单个JS包与Web Audio（代码特征识别）"
+ },
+ {
+  "id": "emberhold",
+  "name": "烬堡 EMBERHOLD",
+  "N": 0,
+  "N_why": "魂系动作是标准类型，靠体量少见但机制无新东西（页面说明）",
+  "T": 1,
+  "T_why": "单个HTML含完整魂系游戏（Fable52标签，未读到本体代码）"
+ },
+ {
+  "id": "arcfall-artillery",
+  "name": "Arcfall Artillery",
+  "N": 0,
+  "N_why": "蠕虫式回合炮击加风向，标准做法（页面说明）",
+  "T": 1,
+  "T_why": "cannon物理加WebRTC点对点联机（代码特征识别）"
+ },
+ {
+  "id": "tidemark",
+  "name": "潮汐战线 Tidemark",
+  "N": 0,
+  "N_why": "高级战争式战棋，标准做法（页面说明）",
+  "T": 0,
+  "T_why": "引擎未识别，仅site.js（页面代码）"
+ },
+ {
+  "id": "webgl-flight-simulator-with-seed-generat",
+  "name": "WebGL Flight Simulator with seed generated terrain",
+  "N": 0,
+  "N_why": "飞行模拟，任务与自由飞行，常规做法（页面说明+操作表）",
+  "T": 1,
+  "T_why": "种子生成地形的世界加three.js（代码特征+页面说明）"
+ },
+ {
+  "id": "find-my-pet",
+  "name": "FIND MY PET",
+  "N": 0,
+  "N_why": "找宠物寻物，模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "jujutsu-tic-tac-toe",
+  "name": "Jujutsu Tic-Tac-Toe",
+  "N": 0,
+  "N_why": "井字棋换皮（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "air-cargo-tycoon",
+  "name": "AIR CARGO TYCOON",
+  "N": 0,
+  "N_why": "货运飞机起降加货舱停放，常见模拟做法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "cookiesaner",
+  "name": "Cookiesaner",
+  "N": 1,
+  "N_why": "幸存者类加饱腹成长阶段，少见题材配机制改动（线索描述）",
+  "T": 0,
+  "T_why": "Godot网页版（线索描述），页面抓取返回429未读代码"
+ },
+ {
+  "id": "ram-man-half-goat-half-god",
+  "name": "Ram Man: Half Goat, Half God",
+  "N": 0,
+  "N_why": "街机清版加可抛掷汽车，标准做法略有变化（线索描述）",
+  "T": 1,
+  "T_why": "three.js加cannon-es物理的3D场景（线索描述+代码特征）"
+ },
+ {
+  "id": "kart-rush",
+  "name": "Kart Rush",
+  "N": 0,
+  "N_why": "标准卡丁车竞速（线索描述）",
+  "T": 1,
+  "T_why": "three.js r160加cannon-es物理的3D赛车，5个AI对手7条赛道（代码特征）"
+ },
+ {
+  "id": "openaero-dfw",
+  "name": "OpenAero DFW",
+  "N": 1,
+  "N_why": "真实卫星影像和当日 METAR 天气的飞行模拟，降落评分，玩法是常规飞行，真实数据是内容（线索描述）",
+  "T": 1,
+  "T_why": "three.js加卫星影像地形，多机型（线索描述+代码特征）"
+ },
+ {
+  "id": "a-guilda",
+  "name": "A Guilda",
+  "N": 1,
+  "N_why": "你是公会老板而非英雄，英雄羁绊与伤疤改变剧情，经营叙事的一处新做法（线索描述）",
+  "T": 0,
+  "T_why": "Godot（线索描述）"
+ },
+ {
+  "id": "dou-dizhu",
+  "name": "Dou Dizhu",
+  "N": 0,
+  "N_why": "标准三人斗地主（线索描述）",
+  "T": 1,
+  "T_why": "随机匹配联机桌与房间码（线索描述），代码层未见联机库"
+ },
+ {
+  "id": "halflight",
+  "name": "HALFLIGHT",
+  "N": 2,
+  "N_why": "43种同位素、五条衰变链构成的金库，用系统讲现实中的衰变原理（线索描述）",
+  "T": 0,
+  "T_why": "HTML5 Canvas 2D（代码特征+线索描述）",
+  "pending": [
+   "N"
+  ]
+ },
+ {
+  "id": "next-please",
+  "name": "Next, Please!",
+  "N": 1,
+  "N_why": "模仿Papers, Please的1983年波兰诊所，题材替换加黑色喜剧（线索描述）",
+  "T": 0,
+  "T_why": "Vite打包前端含Firebase，引擎未识别（代码特征）"
+ },
+ {
+  "id": "eraguessr",
+  "name": "EraGuessr",
+  "N": 1,
+  "N_why": "每日历史场景猜年代与地点，套用 GeoGuessr 式玩法，真实数据是内容（线索描述）",
+  "T": 0,
+  "T_why": "Next.js加Supabase（代码特征）"
+ },
+ {
+  "id": "gravity",
+  "name": "Gravity",
+  "N": 0,
+  "N_why": "吞噬成长（agar类）模板（线索描述）",
+  "T": 0,
+  "T_why": "Canvas 2D原生JS（代码特征）"
+ },
+ {
+  "id": "the-haniwa-behind-you",
+  "name": "うしろのハニワ (The Haniwa Behind You)",
+  "N": 1,
+  "N_why": "一二三木头人式凝视机制的格子地牢解谜，一处新做法（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为按同作者另一款推断，未逐款核验",
+  "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分"
+ },
+ {
+  "id": "pon-the-forest-lights-up",
+  "name": "ぽん、と森は灯る (Pon, the Forest Lights Up)",
+  "N": 1,
+  "N_why": "孢子弹射、落点长蘑菇再成为发射点的连锁解谜（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验",
+  "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分"
+ },
+ {
+  "id": "one-grain-garden",
+  "name": "ひとつぶ庭園 (One-Grain Garden)",
+  "N": 1,
+  "N_why": "沙水种子火星颗粒反应、九个罐子关卡的落沙解谜（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验"
+ },
+ {
+  "id": "undertow",
+  "name": "Undertow",
+  "N": 1,
+  "N_why": "暴风夜拖船钩集装箱救人，少见题材配机制（页面说明）",
+  "T": 1,
+  "T_why": "three.js基于Saltline引擎的remix（Fable52标签，未验证）"
+ },
+ {
+  "id": "black-tide",
+  "name": "Black Tide",
+  "N": 0,
+  "N_why": "海盗劫案，基于Saltline引擎换皮（页面说明）",
+  "T": 1,
+  "T_why": "three.js基于Saltline引擎（Fable52标签，未验证）"
+ },
+ {
+  "id": "graveyard-shift",
+  "name": "Graveyard Shift",
+  "N": 0,
+  "N_why": "僵尸波次生存，封窗买枪，标准做法（页面说明）",
+  "T": 1,
+  "T_why": "单HTML约2.4MB含3D场景（代码特征+GitHub描述）"
+ },
+ {
+  "id": "duel-knights",
+  "name": "Duel Knights",
+  "N": 0,
+  "N_why": "3D剑斗，格挡虚招闪避，常规格斗（页面说明）",
+  "T": 1,
+  "T_why": "three.js r160，模块化JS，看不出表现力（代码特征）"
+ },
+ {
+  "id": "last-return",
+  "name": "Last Return",
+  "N": 2,
+  "N_why": "激光雷达点云是唯一视觉来源，下面的东西不被画出，核心机制少见（页面说明）",
+  "T": 1,
+  "T_why": "原生WebGL单HTML约2.8MB的点云渲染（代码特征+页面文本搜索）",
+  "pending": [
+   "N"
+  ]
+ },
+ {
+  "id": "escape-the-fable",
+  "name": "Escape the Fable",
+  "N": 1,
+  "N_why": "每间房程序化生成并保证可解的密室，可自建分享（页面说明）",
+  "T": 1,
+  "T_why": "程序化生成房间的three.js单场景（代码特征+Fable52标签）"
+ },
+ {
+  "id": "shutterpine",
+  "name": "SHUTTERPINE",
+  "N": 1,
+  "N_why": "只有胶片相机能看到的东西，悬疑拍摄机制（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Web Audio，无其他依据（代码特征）"
+ },
+ {
+  "id": "one-sheep-koro-the-sheepdog-s-day",
+  "name": "ひつじが いっぴき (One Sheep: Koro the Sheepdog's Day)",
+  "N": 1,
+  "N_why": "牧羊犬走路聚拢、奔跑驱散羊群，一处机制（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验"
+ },
+ {
+  "id": "circular-tic-tac-toe",
+  "name": "Circular Tic Tac Toe",
+  "N": 0,
+  "N_why": "井字棋的圆环变体（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D多文件JS（代码特征）"
+ },
+ {
+  "id": "the-long-climb",
+  "name": "The Long Climb",
+  "N": 1,
+  "N_why": "3D开放世界创业模拟加死亡不可重来，少见题材配机制（页面说明）",
+  "T": 1,
+  "T_why": "three.js r128，看不出表现力（代码特征）"
+ },
+ {
+  "id": "reel-delve",
+  "name": "REEL DELVE ― まわる迷宮と三人の旅",
+  "N": 1,
+  "N_why": "老虎机转轴构成地牢、停位决定三人路线，两类型组合（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验",
+  "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分"
+ },
+ {
+  "id": "rawza-ring",
+  "name": "Rawza Ring",
+  "N": 1,
+  "N_why": "阿富汗马扎里沙里夫真实街道上的街头赛，真实地图加常规赛车（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Firebase，一句提示制作（代码特征）"
+ },
+ {
+  "id": "liquid-labyrinth",
+  "name": "Liquid Labyrinth",
+  "N": 0,
+  "N_why": "旋转迷宫让重力带液滴到出口，类似滚珠迷宫（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Web Audio，液体表现未知（代码特征）"
+ },
+ {
+  "id": "lumen-reel",
+  "name": "LUMEN REEL ― まわる灯台と三つの海路",
+  "N": 1,
+  "N_why": "灯塔灯室变老虎机，转轴导光送船，转轴机制少见（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验",
+  "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分"
+ },
+ {
+  "id": "cutting-back",
+  "name": "切りもどし ― 鋏と春の小さな鉢 (Cutting Back)",
+  "N": 1,
+  "N_why": "剪一枝长两芽并召唤春天生长的盆栽解谜（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验",
+  "recheck": "机制少见但体量小，试玩确认机制后可升到 2 分"
+ },
+ {
+  "id": "emberdeep-lampkeeper-s-mine",
+  "name": "EMBERDEEP ― 燈守りの坑道 (Lampkeeper's Mine)",
+  "N": 0,
+  "N_why": "提灯驱散黑暗的俯视角动作RPG，常见做法（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D为推断，未核验"
+ },
+ {
+  "id": "castle-valley",
+  "name": "castle-valley",
+  "N": null,
+  "N_why": "只说是油画风的three.js可玩游戏，没有玩法描述（GitHub标签）",
+  "T": 1,
+  "T_why": "three.js加Cloudflare Workers，油画风渲染（GitHub标签+代码特征）"
+ },
+ {
+  "id": "the-last-complication-a-zachtronics-styl",
+  "name": "The Last Complication, a Zachtronics-style watchmaking puzzle game",
+  "N": 1,
+  "N_why": "逐齿轮搭建钟表机芯的工程类解谜（页面标题级说明）",
+  "T": 1,
+  "T_why": "Canvas 2D单页约696KB内联脚本（代码特征）"
+ },
+ {
+  "id": "bombounce",
+  "name": "Bombounce",
+  "N": 0,
+  "N_why": "瞄准反弹连锁爆破，弹射解谜常见做法（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D（代码特征）"
+ },
+ {
+  "id": "die-again",
+  "name": "DIE AGAIN",
+  "N": 0,
+  "N_why": "150关恶搞平台，我想成为那个男孩一类（页面说明）",
+  "T": 0,
+  "T_why": "Spawn平台自研引擎，YAML场景加JS脚本（平台说明）"
+ },
+ {
+  "id": "artisan-brownie-kitchen",
+  "name": "Artisan Brownie Kitchen",
+  "N": 0,
+  "N_why": "布朗尼烹饪解压，模板玩法（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "pizza-empire-tycoon",
+  "name": "Pizza Empire Tycoon",
+  "N": 0,
+  "N_why": "披萨店Tycoon，模板经营（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "kick-the-buddy-2-0",
+  "name": "Kick the Buddy 2.0",
+  "N": 0,
+  "N_why": "踢打玩偶解压（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "game-7",
+  "name": "挤地铁",
+  "N": 1,
+  "N_why": "把人群推进车厢并先让乘客下车的通勤题材（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未逐款核验"
+ },
+ {
+  "id": "game-8",
+  "name": "夜市套圈",
+  "N": 0,
+  "N_why": "夜市套圈投掷（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "game-9",
+  "name": "相亲角速配",
+  "N": 0,
+  "N_why": "按条件左右滑的速配小游戏（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "t-minus",
+  "name": "T-Minus",
+  "N": 1,
+  "N_why": "四人各守一个岗位的协作航天任务，角色分工的新做法（页面说明）",
+  "T": 1,
+  "T_why": "WebRTC点对点四人联机（代码特征）"
+ },
+ {
+  "id": "game-10",
+  "name": "晶塔守卫",
+  "N": 0,
+  "N_why": "标准塔防（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "apex-lap-blender-edition",
+  "name": "Apex Lap: Blender Edition",
+  "N": 0,
+  "N_why": "3D三圈竞速，标准做法（页面说明）",
+  "T": 1,
+  "T_why": "Blender（MCP）建模后以glTF导入three.js（代码特征+页面说明）"
+ },
+ {
+  "id": "game-11",
+  "name": "皮衣老黄",
+  "N": 0,
+  "N_why": "芯片公司经营十二季度，模板经营换题材（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "ripcore",
+  "name": "Ripcore",
+  "N": 1,
+  "N_why": "陀螺碰撞对战，后拉定力度，少见题材（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Canvas 2D，AI素材是离线生成（Fable52页面说明）"
+ },
+ {
+  "id": "game-12",
+  "name": "骑手",
+  "N": 0,
+  "N_why": "外卖骑手驾驶，常见驾驶模拟（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "game-13",
+  "name": "清潮",
+  "N": 0,
+  "N_why": "拖动小队自动开火，手游常见模板（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "raptor-race",
+  "name": "Raptor Race",
+  "N": 0,
+  "N_why": "竖屏跑酷（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Web Audio（代码特征）"
+ },
+ {
+  "id": "starship-dogfight",
+  "name": "Starship Dogfight",
+  "N": 0,
+  "N_why": "太空空战无尽波次（页面说明）",
+  "T": 1,
+  "T_why": "three.js加Rapier物理WASM（代码特征）"
+ },
+ {
+  "id": "game-14",
+  "name": "广州漂移",
+  "N": 1,
+  "N_why": "雨夜外卖送汤，保住汤不洒的约束加广州真实场景（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "maple-run",
+  "name": "MAPLE RUN",
+  "N": 1,
+  "N_why": "三轨无尽跑酷加上传照片成为跑者，一处新做法（页面说明）",
+  "T": 1,
+  "T_why": "PlayCanvas WebGPU加Ammo物理（代码特征识别）"
+ },
+ {
+  "id": "game-15",
+  "name": "Лисёнок и огненный жёлудь",
+  "N": 0,
+  "N_why": "平台跳跃（页面说明）",
+  "T": 1,
+  "T_why": "1465行单HTML，图形与声音全由代码生成（页面说明+代码特征）"
+ },
+ {
+  "id": "game-17",
+  "name": "吃啥拉啥",
+  "N": 0,
+  "N_why": "吃道具射向身后怪物的手游常见玩法（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "game-18",
+  "name": "摸鱼大师",
+  "N": 0,
+  "N_why": "一键按住摸鱼的计时小游戏（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "gabriel-s-sweet-town",
+  "name": "Gabriel's Sweet Town",
+  "N": 0,
+  "N_why": "儿童过家家沙盒（页面说明）",
+  "T": 0,
+  "T_why": "PWA离线加SVG画面（代码特征）"
+ },
+ {
+  "id": "game-19",
+  "name": "搓澡大师",
+  "N": 0,
+  "N_why": "限时搓背，模板小游戏（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "game-20",
+  "name": "捏泡泡纸",
+  "N": 0,
+  "N_why": "捏泡泡纸解压（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "apex-lap",
+  "name": "Apex Lap",
+  "N": 0,
+  "N_why": "三圈计时赛车（页面说明）",
+  "T": 1,
+  "T_why": "three.js，看不出表现力（代码特征）"
+ },
+ {
+  "id": "rufus-crush",
+  "name": "Rufus Crush",
+  "N": 0,
+  "N_why": "三消，1036关（页面说明）",
+  "T": 1,
+  "T_why": "Rust编译为WebAssembly的离线单文件（Fable52标签）"
+ },
+ {
+  "id": "game-21",
+  "name": "怒砸办公室",
+  "N": 0,
+  "N_why": "砸办公室解压（页面说明）",
+  "T": 1,
+  "T_why": "three.js为推断，未核验"
+ },
+ {
+  "id": "jester",
+  "name": "Jester",
+  "N": 2,
+  "N_why": "视频变关卡，玩家暗中模仿并叠加抠像回放，摄像头输入是核心（页面说明）",
+  "T": 1,
+  "T_why": "Supabase联机房间加Canvas 2D，MediaPipe来自标签（代码特征+Fable52标签）",
+  "pending": [
+   "N"
+  ]
+ },
+ {
+  "id": "giant-salami-saw",
+  "name": "Giant Salami Saw",
+  "N": null,
+  "N_why": "页面没有玩法描述，只有封面",
+  "T": null,
+  "T_why": "仅平台说明"
+ },
+ {
+  "id": "makeover-studio",
+  "name": "Makeover Studio",
+  "N": 0,
+  "N_why": "美妆换装模板（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "high-power-contra-os-invasores-intergal",
+  "name": "High-power Contra os Invasores Intergalácticos!",
+  "N": 0,
+  "N_why": "点击引导主角打外星入侵者的卡通冒险（页面说明）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "love-crime-couple-adventure",
+  "name": "Love & crime_couple  Adventure",
+  "N": 1,
+  "N_why": "约会互动与开放城市驾驶合在一起（页面说明，未进入游戏）",
+  "T": 0,
+  "T_why": "平台对话式生成"
+ },
+ {
+  "id": "game-22",
+  "name": "柑仔的晚霞航空信",
+  "N": 0,
+  "N_why": "纸飞机无尽飞行，Flappy类（页面说明）",
+  "T": 0,
+  "T_why": "Canvas 2D加Web Audio单脚本（代码特征）"
+ },
+ {
+  "id": "championship-manager",
+  "name": "Championship Manager",
+  "N": 0,
+  "N_why": "足球经理，标准做法（页面说明）",
+  "T": 0,
+  "T_why": "Verse8平台生成"
+ },
+ {
+  "id": "game-16",
+  "name": "三借芭蕉扇",
+  "N": 0,
+  "N_why": "回合制指令加五行相克的西游题材RPG（页面说明）",
+  "T": 0,
+  "T_why": "原生JS，引擎未识别（代码特征）"
+ },
+ {
+  "id": "papertrails",
+  "name": "Papertrails",
+  "N": 1,
+  "N_why": "纸做的立体书村庄升起合上的无战斗漫步（页面说明，未试玩）",
+  "T": 1,
+  "T_why": "three.js加Web Audio，看不出表现力（代码特征）"
+ },
+ {
+  "id": "last-light-rooftop-run",
+  "name": "LAST LIGHT — Rooftop Run",
+  "N": 0,
+  "N_why": "第一人称楼顶跑酷计时赛带幽灵回放，标准做法（页面说明，未试玩）",
+  "T": 1,
+  "T_why": "three.js，仅技术名（代码特征+GitHub说明）"
+ }
+]
