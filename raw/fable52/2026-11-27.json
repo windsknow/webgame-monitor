@@ -1,0 +1,196 @@
+{
+ "date": "2026-11-27",
+ "channel": "fable52",
+ "count": 5,
+ "passed": 0,
+ "error": "",
+ "leads": [
+  {
+   "channel": "fable52",
+   "title": "Saltline",
+   "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "key": "claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+   "source_url": "https://fable52.games/play/saltline-fable-5-2-fps",
+   "metrics": {
+    "fable52_plays": 7021,
+    "fable52_featured": true,
+    "x_views": 4302522,
+    "github_stars": 276,
+    "hn_points": 71,
+    "hn_comments": 90,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-20",
+   "ai_hint": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback",
+   "desc": "The original one-prompt FPS: cut three uplink relays in a rainy container port while drones and robot dogs hunt you.",
+   "image": "https://fable52.games/thumbs/saltline-fable-5-2-fps.jpg",
+   "author": "Felix Rieseberg",
+   "author_url": "https://x.com/felixrieseberg/status/2119925633564463609",
+   "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+   "topics": [
+    "3D FPS",
+    "Three.js",
+    "WebGL",
+    "Web Audio API",
+    "Procedural",
+    "Single File"
+   ],
+   "mirror_url": "https://realcodebear.github.io/saltline-fable-5.2/",
+   "origin": {
+    "how": "作者帖子里的链接",
+    "x": "https://x.com/felixrieseberg/status/2119925633564463609",
+    "repo": "https://github.com/realcodebear/saltline-fable-5.2",
+    "hn": "https://news.ycombinator.com/item?id=50444850",
+    "x_text": "I wanted to test Fable 5.2's quality with one-shot prompts without human feedback.\n\nEverything in this game is from scratch: models, sounds, textures. ~$550 at API pricing, ~2.7M output and 445M input tokens, heavily cached. Took 8 hours!\n\nPlay it here: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHH",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "Graveyard Shift",
+   "url": "https://zombies.ethanplus.ai",
+   "key": "zombies.ethanplus.ai",
+   "source_url": "https://fable52.games/play/graveyard-shift",
+   "metrics": {
+    "fable52_plays": 254,
+    "fable52_featured": false,
+    "x_views": 968,
+    "github_stars": 14,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out",
+   "desc": "Round-based zombie survival at a roadside diner and gas station: board the windows, earn points, buy guns off the wall and get the power back on.",
+   "image": "https://fable52.games/thumbs/graveyard-shift.jpg",
+   "author": "Ethan",
+   "author_url": "https://x.com/ethanplusai",
+   "repo": "https://github.com/ethanplusai/zombies",
+   "topics": [
+    "FPS",
+    "Zombies",
+    "Survival",
+    "Three.js"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "源码仓库的主页",
+    "x": "https://x.com/ethanplusai/status/2120602190201127250",
+    "repo": "https://github.com/ethanplusai/zombies",
+    "hn": "",
+    "x_text": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out. \n\nRuns from a single HTML file in the browser. Works on desktop and mobile.",
+    "x_kind": "author"
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "几猫3A大作",
+   "url": "https://fable52.games/play/jimao-cs",
+   "key": "fable52.games/play/jimao-cs",
+   "source_url": "https://fable52.games/play/jimao-cs",
+   "metrics": {
+    "fable52_plays": 795,
+    "fable52_featured": false,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-12",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "A fully Chinese-localized remix of Saltline: a rain-soaked container-port FPS rebranded as the 几猫 shipping terminal.",
+   "image": "https://fable52.games/thumbs/jimao-cs.jpg",
+   "author": "几猫",
+   "author_url": "https://jiage.app/play/jimao-3a",
+   "repo": "",
+   "topics": [
+    "3D FPS",
+    "Three.js",
+    "WebGL",
+    "Web Audio API",
+    "中文"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "MISREMEMBER",
+   "url": "https://fable52.games/play/misremember",
+   "key": "fable52.games/play/misremember",
+   "source_url": "https://fable52.games/play/misremember",
+   "metrics": {
+    "fable52_plays": 174,
+    "fable52_featured": false,
+    "github_stars": 2,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-11",
+   "ai_hint": "Fable52.games 收录，标注由 Claude Fable 5.2 制作",
+   "desc": "Something rebuilt your childhood home from your memory of it, and nothing changes while you're looking.",
+   "image": "https://fable52.games/thumbs/misremember.jpg",
+   "author": "hahaliu1029",
+   "author_url": "https://github.com/hahaliu1029",
+   "repo": "https://github.com/hahaliu1029/fable5.2demo",
+   "topics": [
+    "Horror",
+    "Exploration",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/hahaliu1029/fable5.2demo",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  },
+  {
+   "channel": "fable52",
+   "title": "NIGHTSHIFT: Survive the Midnight",
+   "url": "https://eddizege.github.io/nightshift-fable/",
+   "key": "eddizege.github.io/nightshift-fable",
+   "source_url": "https://fable52.games/play/nightshift-fable",
+   "metrics": {
+    "fable52_plays": 100,
+    "fable52_featured": false,
+    "github_stars": 0,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-21",
+   "ai_hint": "NIGHTSHIFT: rainy night highway racer for the browser, built entirely by Claude Fable 5.2 (no human code)",
+   "desc": "An endless rain-soaked highway at midnight: thread traffic for near misses, burn four seconds of nitro at a time, and stay out of the tanker pile-ups.",
+   "image": "https://fable52.games/thumbs/nightshift-fable.jpg",
+   "author": "EddizEge",
+   "author_url": "https://github.com/EddizEge",
+   "repo": "https://github.com/EddizEge/nightshift-fable",
+   "topics": [
+    "Racing",
+    "Driving",
+    "Endless",
+    "Three.js",
+    "WebGL"
+   ],
+   "mirror_url": "",
+   "origin": {
+    "how": "合集站给的链接",
+    "x": "",
+    "repo": "https://github.com/EddizEge/nightshift-fable",
+    "hn": "",
+    "x_text": "",
+    "x_kind": ""
+   },
+   "passes": false
+  }
+ ]
+}

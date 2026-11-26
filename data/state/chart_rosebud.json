@@ -1,7 +1,8 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "keys": [
+  "rosebud.ai/play/floodgate",
   "rosebud.ai/play/laavatorni",
   "rosebud.ai/play/superhot-mario",
   "rosebud.ai/play/camo-chameleon-1",
@@ -31,6 +32,7 @@
   "rosebud.ai/play/totoy-bato": "2026-11-12",
   "rosebud.ai/play/sticky-bunny": "2026-11-12",
   "rosebud.ai/play/mowzone": "2026-11-12",
-  "rosebud.ai/play/attention-passengers-plane-crash-survival-game": "2026-11-12"
+  "rosebud.ai/play/attention-passengers-plane-crash-survival-game": "2026-11-12",
+  "rosebud.ai/play/floodgate": "2026-11-27"
  }
 }

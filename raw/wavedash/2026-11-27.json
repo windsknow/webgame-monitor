@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-27",
+ "channel": "wavedash",
+ "count": 4,
+ "passed": 1,
+ "error": "",
+ "leads": [
+  {
+   "channel": "wavedash",
+   "title": "SumbaSurf",
+   "url": "https://wavedash.com/games/sumbasurf",
+   "key": "wavedash.com/games/sumbasurf",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 1,
+    "wavedash_playing": 155,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  },
+  {
+   "channel": "wavedash",
+   "title": "SweatyPanzer",
+   "url": "https://wavedash.com/games/sweatypanzer",
+   "key": "wavedash.com/games/sweatypanzer",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 2,
+    "wavedash_playing": 12,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  },
+  {
+   "channel": "wavedash",
+   "title": "BMX Mountain",
+   "url": "https://wavedash.com/games/bmx-mountain",
+   "key": "wavedash.com/games/bmx-mountain",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 3,
+    "wavedash_playing": 5,
+    "chart_new_entry": true
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": true
+  },
+  {
+   "channel": "wavedash",
+   "title": "Middled",
+   "url": "https://wavedash.com/games/middled",
+   "key": "wavedash.com/games/middled",
+   "source_url": "https://wavedash.com/",
+   "metrics": {
+    "wavedash_rank": 4,
+    "wavedash_playing": 5,
+    "chart_new_entry": false
+   },
+   "published": "",
+   "ai_hint": "",
+   "desc": "",
+   "passes": false
+  }
+ ]
+}

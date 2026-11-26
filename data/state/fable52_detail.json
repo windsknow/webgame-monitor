@@ -1115,7 +1115,7 @@
    "x": {
     "url": "https://x.com/ethanplusai/status/2120602190201127250",
     "handle": "ethanplusai",
-    "views": 929,
+    "views": 968,
     "likes": 6,
     "date": "2026-11-11",
     "text": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out. \n\nRuns from a single HTML file in the browser. Works on desktop and mobile.",
@@ -1124,7 +1124,7 @@
    "repo": {
     "url": "https://github.com/ethanplusai/zombies",
     "created": "2026-11-11",
-    "stars": 13,
+    "stars": 14,
     "homepage": "https://zombies.ethanplus.ai",
     "desc": "Graveyard Shift: a round-based zombies shooter that runs in the browser. three.js, one HTML file, everything generated in code.",
     "owner": "ethanplusai"
@@ -1135,7 +1135,7 @@
    "mirror": false,
    "published": "2026-11-11",
    "ai_hint": "I asked Claude Fable 5.2 to build me a zombies game and it spit this out",
-   "checked": "2026-11-20"
+   "checked": "2026-11-27"
   }
  },
  "solar-system-3d": {
@@ -2271,7 +2271,7 @@
    "mirror": false,
    "published": "",
    "ai_hint": "NIGHTSHIFT: rainy night highway racer for the browser, built entirely by Claude Fable 5.2 (no human code)",
-   "checked": "2026-11-24"
+   "checked": "2026-11-27"
   }
  }
 }
