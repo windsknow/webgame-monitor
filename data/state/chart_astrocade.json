@@ -1,26 +1,27 @@
 {
  "first_date": "2026-11-12",
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "keys": [
-  "astrocade.com/games/minecraft-giant-tree-secret-military-base/01m5mq9eqcvfkv0tqv4tbvvaw4",
-  "astrocade.com/games/hole-io-halloween/01m5y4xnfg4rgwgtyv3wmqcfdm",
-  "astrocade.com/games/pastel-patisserie/01m2m11qcc6zc0s37gqd56xb4c",
-  "astrocade.com/games/1-lazer-break-the-wall/01m88kawx96zhpzs86dm9eac0r",
-  "astrocade.com/games/frost-lumber-camp/01m6qdndvyszwaxmcg2edqzk7a",
-  "astrocade.com/games/meat-converter-pizza/01m86kx2mpqv2nf8jbhc5mcv6w",
-  "astrocade.com/games/sunny-farm-empire/01m7q5dqc6b8xxmdazk8hq9545",
-  "astrocade.com/games/pani-puri-cooking-creator/01m68y5n6azb6jj0zaz76ayyvp",
-  "astrocade.com/games/fly-steal-a-dragon-egg/01m7rbcbv7df6ddjbdeyy6pb6d",
-  "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
-  "astrocade.com/games/army-evolution-kingdom-conquest/01m7te6md05ee9m3yr65q5z50q",
+  "astrocade.com/games/island-harvest-bay/01m73agh5xe73vq9hfv8c1295x",
   "astrocade.com/games/floor-is-lava/01m7t7jp8g12jfvpqwhz8r8p7z",
+  "astrocade.com/games/pani-puri-cooking-creator/01m68y5n6azb6jj0zaz76ayyvp",
+  "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+  "astrocade.com/games/meat-converter-pizza/01m86kx2mpqv2nf8jbhc5mcv6w",
+  "astrocade.com/games/minecraft-time-portal-adventure/01m6xqrd0z1m92nt77yfh1acsw",
+  "astrocade.com/games/hole-io-minecraft-3/01m6zv5fshbdgp01mh8s762fk2",
+  "astrocade.com/games/sword-swing-chopper/01m7h26hbe86dfexg7h2fz9ke2",
   "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
-  "astrocade.com/games/kawasaki-ninja-h2r-vs-cheetah/01m7ghqnvg92gpe735wmc3greh",
-  "astrocade.com/games/steal-a-baby/01m6ztffg9ej5qn9xzf2thp9f5",
+  "astrocade.com/games/the-gate-opens/01m7shpbmg5sf7gbshdkgwqx0s",
+  "astrocade.com/games/abandoned-waterpark-restoration-simulator/01m8cy3hsh091bt9psb2qnxy8y",
+  "astrocade.com/games/army-evolution-kingdom-conquest/01m7te6md05ee9m3yr65q5z50q",
+  "astrocade.com/games/aero-car-transport/01m37ba3tzwvcbxghdrcfaetzr",
+  "astrocade.com/games/steal-an-egg/01m72p3bhg5nhhs8fkxvexs8gj",
+  "astrocade.com/games/fly-steal-a-dragon-egg/01m7rbcbv7df6ddjbdeyy6pb6d",
+  "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c",
   "astrocade.com/games/pizza-rush-tycoon/01m7dgrqzgwvryyn2bd6g810fz",
-  "astrocade.com/games/bus-route-rush-3d/01m7h9f92f3ah0at21n7rkdwhz",
-  "astrocade.com/games/life-guard-ocean-saviors-stimulator/01m5es05f88egg3vaqe8x44e3e",
-  "astrocade.com/games/batman-gotham-guardian/01m6zfr44wvxvtr0hmx5f5nt2q"
+  "astrocade.com/games/beach-lifeguard-x/01m7ge6kvckvgyfhkrfhkqqgtj",
+  "astrocade.com/games/transformers-rise-of-the-titans/01m7g4vk28kd873j3vmcsydvay",
+  "astrocade.com/games/bullet-train-vs-car-race-3d/01m6p1cyvk2s88t8da8r53sce7"
  ],
  "seen": {
   "astrocade.com/games/zombies-vs-humans-with-guns/01m71ym4g1ba64tmv0m1z64t43": "2026-11-12",
@@ -116,6 +117,9 @@
   "astrocade.com/games/pani-puri-cooking-creator/01m68y5n6azb6jj0zaz76ayyvp": "2026-11-27",
   "astrocade.com/games/floor-is-lava/01m7t7jp8g12jfvpqwhz8r8p7z": "2026-11-27",
   "astrocade.com/games/kawasaki-ninja-h2r-vs-cheetah/01m7ghqnvg92gpe735wmc3greh": "2026-11-27",
-  "astrocade.com/games/steal-a-baby/01m6ztffg9ej5qn9xzf2thp9f5": "2026-11-27"
+  "astrocade.com/games/steal-a-baby/01m6ztffg9ej5qn9xzf2thp9f5": "2026-11-27",
+  "astrocade.com/games/meat-converter-pizza/01m86kx2mpqv2nf8jbhc5mcv6w": "2026-11-28",
+  "astrocade.com/games/minecraft-time-portal-adventure/01m6xqrd0z1m92nt77yfh1acsw": "2026-11-28",
+  "astrocade.com/games/transformers-rise-of-the-titans/01m7g4vk28kd873j3vmcsydvay": "2026-11-28"
  }
 }

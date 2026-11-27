@@ -1,0 +1,369 @@
+{
+ "date": "2026-11-28",
+ "channel": "astrocade",
+ "count": 20,
+ "passed": 3,
+ "error": "",
+ "leads": [
+  {
+   "channel": "astrocade",
+   "title": "Island Harvest Bay",
+   "url": "https://www.astrocade.com/games/island-harvest-bay/01M73AGH5XE73VQ9HFV8C1295X",
+   "key": "astrocade.com/games/island-harvest-bay/01m73agh5xe73vq9hfv8c1295x",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 1,
+    "astrocade_plays": 11549,
+    "astrocade_likes": 291,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Created with Astrocade!",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/38414350-a061-706a-ab50-c3e0688c7aa8/1794336627511_01M73CR6SQTBRCGKMP5X953K84.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Floor is Lava!",
+   "url": "https://www.astrocade.com/games/floor-is-lava/01M7T7JP8G12JFVPQWHZ8R8P7Z",
+   "key": "astrocade.com/games/floor-is-lava/01m7t7jp8g12jfvpqwhz8r8p7z",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 2,
+    "astrocade_plays": 98800,
+    "astrocade_likes": 1653,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-23",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "#survival #action #arcade",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/Google_115974500078511979658/1795403820826_01M836GBRTH6CHRR9KHZS8E9E4.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Pani Puri Cooking Creator",
+   "url": "https://www.astrocade.com/games/pani-puri-cooking-creator/01M68Y5N6AZB6JJ0ZAZ76AYYVP",
+   "key": "astrocade.com/games/pani-puri-cooking-creator/01m68y5n6azb6jj0zaz76ayyvp",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 3,
+    "astrocade_plays": 33967,
+    "astrocade_likes": 393,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-22",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Knead, roll, fry & fill! Cook crispy golden puris, blend spicy green pani, simmer tamarind chutney and serve a plate of Indian street-food Pani Puri.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/b6d579d2d41a43a39380dab69edc4346.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Natural Disaster Survival",
+   "url": "https://www.astrocade.com/games/natural-disaster-survival/01M52QCBX1JZMPCSPGVRTJP9E9",
+   "key": "astrocade.com/games/natural-disaster-survival/01m52qcbx1jzmpcspgvrtjp9e9",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 4,
+    "astrocade_plays": 1098815,
+    "astrocade_likes": 19639,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-17",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Survive 12 natural disasters on 10 island maps! Tornadoes, tsunamis, meteors and more destroy everything. Outlast the bots, earn coins, and top the survival leaderboard.",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/c8d17340-a0f1-704f-8d32-e39a881fb08c/1793541492936_01M6BPEM68NJTJ5PKF807KM7Y2.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Meat converter pizza ",
+   "url": "https://www.astrocade.com/games/meat-converter-pizza/01M86KX2MPQV2NF8JBHC5MCV6W",
+   "key": "astrocade.com/games/meat-converter-pizza/01m86kx2mpqv2nf8jbhc5mcv6w",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 5,
+    "astrocade_plays": 35249,
+    "astrocade_likes": 685,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-24",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Slice salami, bake pizzas and serve hungry customers! Hire workers, unlock money machines and grow your meat-to-pizza empire in this cozy 3D tycoon. 🍕",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/3d008e64a57d4443ae5400cda602d218.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Minecraft: Time Portal Adventure",
+   "url": "https://www.astrocade.com/games/minecraft-time-portal-adventure/01M6XQRD0Z1M92NT77YFH1ACSW",
+   "key": "astrocade.com/games/minecraft-time-portal-adventure/01m6xqrd0z1m92nt77yfh1acsw",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 6,
+    "astrocade_plays": 28689,
+    "astrocade_likes": 501,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-09",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "astra_creator!!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/66466537168f43aea9b4717999e9e139.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "HOLE.IO MINECRAFT 3",
+   "url": "https://www.astrocade.com/games/hole-io-minecraft-3/01M6ZV5FSHBDGP01MH8S762FK2",
+   "key": "astrocade.com/games/hole-io-minecraft-3/01m6zv5fshbdgp01mh8s762fk2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 7,
+    "astrocade_plays": 6364,
+    "astrocade_likes": 73,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Be the hungriest hole in an endless blocky world! Every match makes a new map of villages, forests, rivers and caves. Swallow everything and outgrow your rivals.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/ccf21a3d3f2543558c115febfc6eba0d.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Sword Swing Chopper",
+   "url": "https://www.astrocade.com/games/sword-swing-chopper/01M7H26HBE86DFEXG7H2FZ9KE2",
+   "key": "astrocade.com/games/sword-swing-chopper/01m7h26hbe86dfexg7h2fz9ke2",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 8,
+    "astrocade_plays": 220583,
+    "astrocade_likes": 4831,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-16",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing a ring of swords, chop bamboo and crystal groves, hatch pets, rebirth and conquer 3 worlds!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/7ebcc657d9854386a5ee1bdc2c4c6429.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "+1 Pickaxe Swing for Eggs",
+   "url": "https://www.astrocade.com/games/1-pickaxe-swing-for-eggs/01M6HRNHMXVRB8JKGK799B1ZJB",
+   "key": "astrocade.com/games/1-pickaxe-swing-for-eggs/01m6hrnhmxvrb8jkgk799b1zjb",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 9,
+    "astrocade_plays": 34457,
+    "astrocade_likes": 748,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-04",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Swing your pickaxe for +1 power, smash egg blocks, escape the guardians and hatch 42 animals in your pen! 🥚⛏️",
+   "image": "https://d16qq0o35va7kz.cloudfront.net/images/0841f390-1041-7009-e3f9-2a1095f0d189/1793781567132_01M6JVD3MWV45GAKA622XE735Z.jpg",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "THE GATE OPENS",
+   "url": "https://www.astrocade.com/games/the-gate-opens/01M7SHPBMG5SF7GBSHDKGWQX0S",
+   "key": "astrocade.com/games/the-gate-opens/01m7shpbmg5sf7gbshdkgwqx0s",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 10,
+    "astrocade_plays": 11935,
+    "astrocade_likes": 206,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-21",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Survive 5 rounds: Red Light, Green Light, Glass Bridge, Tug of War, Hide & Seek, then the Dalgona finale. Play as #456 or switch to her—can you become champion?",
+   "image": "https://dzmv1mxivz48k.cloudfront.net/images/d84183e0-80e1-70a2-907f-65522206560a/1795263380778_01M7Z0JF9A9GDSPJNXCP8ZXQTA.1000298799.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Abandoned Waterpark: Restoration Simulator",
+   "url": "https://www.astrocade.com/games/abandoned-waterpark-restoration-simulator/01M8CY3HSH091BT9PSB2QNXY8Y",
+   "key": "astrocade.com/games/abandoned-waterpark-restoration-simulator/01m8cy3hsh091bt9psb2qnxy8y",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 11,
+    "astrocade_plays": 3769,
+    "astrocade_likes": 64,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-27",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Blast away years of grime with a satisfying pressure washer and bring a forgotten waterpark back to sparkling, sunny life — one pool, slide and lounger at a time.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/a0be13aa2e544c949c38358c2ecc94e3.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Army Evolution: Kingdom Conquest",
+   "url": "https://www.astrocade.com/games/army-evolution-kingdom-conquest/01M7TE6MD05EE9M3YR65Q5Z50Q",
+   "key": "astrocade.com/games/army-evolution-kingdom-conquest/01m7te6md05ee9m3yr65q5z50q",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 12,
+    "astrocade_plays": 14211,
+    "astrocade_likes": 229,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Lead a mixed army through five rival kingdoms. Recruit swordsmen, archers, and guardians, choose risky routes, unleash commander powers, and conquer original bosses.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/054db22247e640a28aa4e858813d9517.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "AERO CAR TRANSPORT ",
+   "url": "https://www.astrocade.com/games/aero-car-transport/01M37BA3TZWVCBXGHDRCFAETZR",
+   "key": "astrocade.com/games/aero-car-transport/01m37ba3tzwvcbxghdrcfaetzr",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 13,
+    "astrocade_plays": 137523,
+    "astrocade_likes": 613,
+    "chart_new_entry": false
+   },
+   "published": "2026-10-03",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Aero Auto Transporter is an exciting 3D voxel-style transport game where you take control of a pilot and manage the delivery of cars between different cities. Start each mission at the airport",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/thumbnail_af4a7bb8-8d9e-4c81-9a90-ab6f93c957ff.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Steal an Egg",
+   "url": "https://www.astrocade.com/games/steal-an-egg/01M72P3BHG5NHHS8FKXVEXS8GJ",
+   "key": "astrocade.com/games/steal-an-egg/01m72p3bhg5nhhs8fkxvexs8gj",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 14,
+    "astrocade_plays": 14018,
+    "astrocade_likes": 210,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-10",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Steal eggs from giant mama animals, outrun them home, hatch cute baby pets and train on your treadmill to reach rarer biomes!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/fedfb1d1186948d3bbec70fc7eb1fda3.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Fly & Steal a Dragon Egg",
+   "url": "https://www.astrocade.com/games/fly-steal-a-dragon-egg/01M7RBCBV7DF6DDJBDEYY6PB6D",
+   "key": "astrocade.com/games/fly-steal-a-dragon-egg/01m7rbcbv7df6ddjbdeyy6pb6d",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 15,
+    "astrocade_plays": 109670,
+    "astrocade_likes": 2209,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-19",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Fly and steal all the eggs you can, unlock wings and go farther",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/ca886dccc5434554913ae78d760fa2de.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Pizza Empire Tycoon",
+   "url": "https://www.astrocade.com/games/pizza-empire-tycoon/01M6Q18PJ5KK1S6J0J7K8KPD0C",
+   "key": "astrocade.com/games/pizza-empire-tycoon/01m6q18pj5kk1s6j0j7k8kpd0c",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 16,
+    "astrocade_plays": 45670,
+    "astrocade_likes": 822,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-06",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "This 3D isometric simulation game lets you manage every step of a busy pizza shop, from hand-crafting dough and toppings to managing a growing fleet of automated machines and staff. You will manually handle orders to start, then strategically upgrade your restaurant with high-tech ovens and conveyor",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/df3e980a134a4af8bfac0dc635c2b1da.webp",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Pizza Rush Tycoon",
+   "url": "https://www.astrocade.com/games/pizza-rush-tycoon/01M7DGRQZGWVRYYN2BD6G810FZ",
+   "key": "astrocade.com/games/pizza-rush-tycoon/01m7dgrqzgwvryyn2bd6g810fz",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 17,
+    "astrocade_plays": 12796,
+    "astrocade_likes": 170,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-14",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Run your own pizzeria empire! Slice, bake, serve customers, hire workers, deliver pizzas, and expand your business.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/c2bf9163f4644878b8b34cc3ec2d2280.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "Beach Lifeguard.X",
+   "url": "https://www.astrocade.com/games/beach-lifeguard-x/01M7GE6KVCKVGYFHKRFHKQQGTJ",
+   "key": "astrocade.com/games/beach-lifeguard-x/01m7ge6kvckvgyfhkrfhkqqgtj",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 18,
+    "astrocade_plays": 524,
+    "astrocade_likes": 7,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-15",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Patrol a packed beach, drift your rescue boat through the waves, dodge sharks and save swimmers as the rescue helicopter circles overhead! 🛟🚁",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/78ea0dfd178f4ab2abb1e24678de72ad.png",
+   "passes": false
+  },
+  {
+   "channel": "astrocade",
+   "title": "TRANSFORMERS: RISE OF THE TITANS",
+   "url": "https://www.astrocade.com/games/transformers-rise-of-the-titans/01M7G4VK28KD873J3VMCSYDVAY",
+   "key": "astrocade.com/games/transformers-rise-of-the-titans/01m7g4vk28kd873j3vmcsydvay",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 19,
+    "astrocade_plays": 23631,
+    "astrocade_likes": 385,
+    "chart_new_entry": true
+   },
+   "published": "2026-11-15",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Lead Thunder X and Titan through an open-world city campaign. Transform between car and robot, stop the invasion, defeat Dark Megatron, and keep exploring after the final battle.",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/d787d1d3b2194646aeb0b858c4512d85.png",
+   "passes": true
+  },
+  {
+   "channel": "astrocade",
+   "title": "Bullet Train vs Car Race 3D",
+   "url": "https://www.astrocade.com/games/bullet-train-vs-car-race-3d/01M6P1CYVK2S88T8DA8R53SCE7",
+   "key": "astrocade.com/games/bullet-train-vs-car-race-3d/01m6p1cyvk2s88t8da8r53sce7",
+   "source_url": "https://www.astrocade.com/category/trending",
+   "metrics": {
+    "astrocade_rank": 20,
+    "astrocade_plays": 1870,
+    "astrocade_likes": 26,
+    "chart_new_entry": false
+   },
+   "published": "2026-11-08",
+   "ai_hint": "发布在 AI 创作平台 Astrocade",
+   "desc": "Bullet Train vs car race 3d Drive your blocky bike racing through an endless voxel world, picking up children every 5km while navigating traffic and diverse landscapes!",
+   "image": "https://d2oir5eh8rty2e.cloudfront.net/assets/images/b82cac0cf9214d8eb961028ec0df9451.png",
+   "passes": false
+  }
+ ]
+}
